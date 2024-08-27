@@ -57,3 +57,11 @@ In VSCode selbst gibt es ein Plugin für git, in dem ihr Änderungen leicht sehe
 ![Git Integration](/image.png)
 
 Für eine Kurzeinführung in git kann ich sonst [diesen Artikel](https://rogerdudler.github.io/git-guide/) empfehlen. Ich würde aber vorschlagen dass wir uns beim ersten mal gemeinsam zusammensetzen.
+
+# Links und Informationen
+
+Hier können wir Links und Informationen sammeln
+
+* [DayZ Expansion Wiki](https://github.com/salutesh/DayZ-Expansion-Scripts/wiki)
+* [DayZ Expansion Liste der classnames](https://github.com/salutesh/DayZ-Expansion-Scripts/wiki/%5BServer-Hosting%5DList-of-the-classnames)
+* 
