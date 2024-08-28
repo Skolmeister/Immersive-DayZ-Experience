@@ -1,6 +1,10 @@
-xml <- xml2::read_xml(
-  here::here("dayzOffline.chernarusplus", "db", "types.xml")
+# Hier muss der Pfad zu den types.xml eingefuegt werden
+types_files <- fs::dir_ls(
+  "/mnt/ftp_dayz/mpmissions/expansion.dayzOffline.chernarusplus/",
+  regexp = ".+[^spawnable]types\\.xml$",
+  recurse = TRUE
 )
+
 
 find_first_xml <- function(data, name) {
   xml2::xml_find_first(
@@ -14,7 +18,12 @@ extract_dayz_xml <- function(type) {
   flags <- xml2::xml_find_first(type, "flags")
 
   # Extract category and usage
-  category_name <- xml2::xml_attr(xml2::xml_find_first(type, "category"), "name")
+  category_name <- xml2::xml_attr(
+    xml2::xml_find_first(
+      type, "category"
+    ),
+    "name"
+  )
 
   usages <- xml2::xml_find_all(type, "usage") |>
     xml2::xml_attr("name") |>
@@ -52,15 +61,56 @@ extract_dayz_xml <- function(type) {
     )
 }
 
-df <- xml |>
-  xml2::xml_find_all("type") |>
-  purrr::map_df(extract_dayz_xml)
+read_types_xml <- function(path) {
+  try <- tryCatch(
+    {
+      xml <- xml2::read_xml(
+        path
+      )
 
-# Flatten usages and values to get a clearer representation
-output <- df |>
-  tidyr::unnest_wider(
-    c(usages, values),
-    names_sep = "_"
+      mod <- stringr::str_extract(
+        dirname(path),
+        "(?<=\\/)[^\\/]+$"
+      )
+
+      # print(mod)
+
+      df <- xml |>
+        xml2::xml_find_all("type") |>
+        purrr::map_df(extract_dayz_xml)
+
+      # Flatten usages and values to get a clearer representation
+      output <- df |>
+        tidyr::unnest_wider(
+          c(usages, values),
+          names_sep = "_"
+        ) |>
+        dplyr::mutate(
+          mod = mod,
+          .before = name
+        )
+    },
+    error = function(cond) {
+      cli::cli_alert_warning("Problem bei der XML {.path {path}}! Errormessage:")
+      print(cond)
+      return()
+    }
   )
+  return(try)
+}
 
-writexl::write_xlsx(output, "test.xlsx")
+classnames_df <- purrr::map_df(
+  types_files,
+  read_types_xml,
+  .progress = TRUE
+)
+
+
+writexl::write_xlsx(
+  classnames_df,
+  glue::glue(
+    "{format(lubridate::today(), '%Y%m%d')}",
+    "_classnames_with_attributes",
+    ".xlsx"
+  )
+)
