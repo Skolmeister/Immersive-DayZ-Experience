@@ -1,0 +1,123 @@
+{
+    "m_Version": 12,
+    "DisplayName": "COOLERS AND FRIDGES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "FC_Fish_Cooler_50",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_Fish_Cooler_100",
+                "FC_Fish_Cooler_300"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Cooler_100",
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2620,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FC_Fish_Cooler_300",
+            "MaxPriceThreshold": 4800,
+            "MinPriceThreshold": 4320,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_FoodBag_Blue",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_FoodBag_Green",
+            "DONFOOD_FoodBag_Orange",
+            "DONFOOD_FoodBag_Pink",
+            "DONFOOD_FoodBag_Red",
+            "DONFOOD_FoodBag_Yellow"
+            ]
+        },
+        {
+            "ClassName": "Mass_LunchBox",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_CoolerBox",
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2620,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_CoolerBox_Black"
+            ]
+        },
+        {
+            "ClassName": "Msp_MoskvaFridge_Blue_Kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_MoskvaFridge_Cream_Kit",
+                "Msp_MoskvaFridge_Red_Kit"
+            ]
+        },
+        {
+            "ClassName": "Msp_SovietOkaFridge_Kit",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_SnowballFridge_Kit",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

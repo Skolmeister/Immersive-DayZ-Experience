@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+<!--Admirals Parachute Mod-->
+<type name="ADM_JetPack_Green">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_MagicBroom">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_Fabric">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_RWB">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_Target">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_Skull">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_ADM">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_INVIS">
+	<nominal>0</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_Fabric_Speed">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_RWB_Speed">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_Target_Speed">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_Skull_Speed">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParachuteBag_ADM_Speed">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_TactiParaBag_Camo">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_TactiParaBag_Camo_Speed">
+	<nominal>1</nominal>
+	<lifetime>28800</lifetime>
+	<restock>1800</restock>
+	<min>1</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParaMotor_Fabric">
+	<nominal>0</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParaMotor_RWB">
+	<nominal>0</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParaMotor_Target">
+	<nominal>0</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParaMotor_Skull">
+	<nominal>0</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_ParaMotor_ADM">
+	<nominal>0</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+</type>
+<type name="ADM_Zepplin">
+	<nominal>0</nominal>
+	<lifetime>28800</lifetime>
+	<restock>14400</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="containers"/>
+	<usage name="Military"/>
+<!--Not In Use-->
+</type>
+<type name="ADM_ParaMotorBlade">
+	<nominal>0</nominal>
+	<lifetime>14400</lifetime>
+	<restock>3600</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="tools"/>
+<!--Not In Use-->
+</type>
+<type name="ADM_ZepplinMotorBlade">
+	<nominal>0</nominal>
+	<lifetime>14400</lifetime>
+	<restock>3600</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="tools"/>
+<!--Not In Use-->
+</type>
+<type name="ADM_ZepplinMotorBladeLarge">
+	<nominal>0</nominal>
+	<lifetime>14400</lifetime>
+	<restock>3600</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="tools"/>
+</type>
+</types>

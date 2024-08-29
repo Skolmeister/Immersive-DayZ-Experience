@@ -1,0 +1,90 @@
+<!-- Blackout's EDO | Randompresets --> 
+<!-- All XML files need to be filtered through by every server own on their own time to make the items fit for your loot economy. -->
+<!-- We are not responible for any loot econonmy issues caused on your server. -->
+
+		<attachments chance="0.40" name="optics">
+				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.09" />
+				<item name="BO_ACOGOptic_300blk_Blue" chance="0.09" />
+				<item name="BO_ACOGOptic_300blk_Red" chance="0.09" />
+				<item name="BO_ACOGOptic_Chevron_Green" chance="0.09" />
+				<item name="BO_ACOGOptic_ACSS_Red" chance="0.09" />
+				<item name="BO_HAMROptic" chance="0.09" />
+				<item name="BO_LeupoldHoloDEVO" chance="0.09" />
+				<item name="BO_Bravo4" chance="0.09" />
+				<item name="BO_SpecterDROptic" chance="0.09" />
+				<item name="BO_EotechHHS" chance="0.09" />
+				<item name="BO_Spitfire" chance="0.09" />
+		</attachments>
+		<attachments chance="0.50" name="reddot">
+				<item name="BO_VortexAMG_UH1_Optic" chance="0.10" />
+				<item name="BO_AimpointT1" chance="0.10" />
+				<item name="BO_AimpointCS" chance="0.10" />
+				<item name="BO_DeltaPoint" chance="0.10" />
+				<item name="BO_Holosun_HS510C_Optic" chance="0.10" />
+				<item name="BO_Holosun_HS507C" chance="0.10" />
+				<item name="BO_LeopoldCarbineOptics" chance="0.10" />
+				<item name="BO_Eotech552" chance="0.10" />
+				<item name="BO_RMR_Black" chance="0.10" />
+				<item name="BO_RMR_FDE" chance="0.10" />
+		</attachments>
+		<attachments chance="0.40" name="scopes">
+				<item name="BO_AccuPowerOptic" chance="0.07" />
+				<item name="BO_HMOptic" chance="0.07" />
+				<item name="BO_LeopoldMk4" chance="0.07" />
+				<item name="BO_TheFix_Optic" chance="0.07" />
+				<item name="BO_DragonScope" chance="0.07" />
+				<item name="BO_Tango6" chance="0.07" />
+				<item name="BO_NFATACR_1_8" chance="0.07" />
+				<item name="BO_SchmidtBender20" chance="0.07" />
+				<item name="BO_SchmidtBender25" chance="0.07" />
+				<item name="BO_Sight_4_6" chance="0.07" />
+				<item name="BO_Vudu" chance="0.07" />
+				<item name="BO_VortexRazor_Black" chance="0.07" />
+				<item name="BO_VortexRazor_Brown" chance="0.07" />
+		</attachments>
+		<attachments chance="0.40" name="pistol">
+				<item name="Pistol_Suppressor" chance="0.33" />
+				<item name="BO_OspreySuppressor" chance="0.33" />
+				<item name="BO_MK23_Suppressor" chance="0.33" />
+		</attachments>
+		<attachments chance="1.00" name="bttsttck">
+				<item name="BO_SOPMODBttstck" chance="0.20" />
+				<item name="BO_SOPMODBttstck_FDE" chance="0.20" />
+				<item name="BO_MK18Bttstck" chance="0.20" />
+				<item name="BO_MK18Bttstck_FDE" chance="0.20" />
+				<item name="BO_CAR15_Bttstk" chance="0.20" />
+		</attachments>
+		<attachments chance="0.20" name="ak">
+				<item name="AK_Suppressor" chance="0.50" />
+				<item name="BO_TacticalSuppressor" chance="0.50" />
+		</attachments>
+		<attachments chance="0.20" name="m4">
+				<item name="M4_Suppressor" chance="0.20" />
+				<item name="BO_LegionSuppressor_Tan" chance="0.20" />
+				<item name="BO_LegionSuppressor_Black" chance="0.20" />
+				<item name="BO_MCXTacops_Suppressor_MODX" chance="0.20" />
+				<item name="BO_MCXTacops_Suppressor_QD" chance="0.20" />
+		</attachments>
+		<attachments chance="0.20" name="fal">
+				<item name="BO_CorduraSuppressor" chance="0.33" />
+				<item name="BO_CorduraSuppressor_Black" chance="0.33" />
+				<item name="BO_MCXSpear_Suppressor" chance="0.33" />
+		</attachments>
+		<attachments chance="0.20" name="338">
+				<item name="BO_HarvesterSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20" name="408">
+				<item name="BO_M200_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10" name="50bmg">
+				<item name="BO_BarrettM82Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20" name="300">
+				<item name="BO_300WinMag_Suppressor_Black" chance="0.50" />
+				<item name="BO_300WinMag_Suppressor_FDE" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00" name="bttsttckMCX">
+				<item name="BO_MCXSpear_Bttstck_Tan" chance="0.33" />
+				<item name="BO_SOPMODBttstck_FDE" chance="0.33" />
+				<item name="BO_MK18Bttstck" chance="0.33" />
+		</attachments>

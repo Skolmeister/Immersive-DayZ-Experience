@@ -1,0 +1,489 @@
+{
+    "m_Version": 12,
+    "DisplayName": "SNACKS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "boxcerealcrunchin",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_CEREAL_BANANA",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_CEREAL_TRESOR",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "saltysticks",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "crackers",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "chips",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CHIPS_SaltVinegar",
+            "DONFOOD_CHIPS_Paprika",
+            "DONFOOD_CHIPS_Bacon",
+            "DONFOOD_CHIPS_BLT",
+            "DONFOOD_CHIPS_CheeseBurger",
+            "DONFOOD_CHIPS_ChickenWaffle",
+            "DONFOOD_CHIPS_Classic",
+            "DONFOOD_CHIPS_FlamingHot",
+            "DONFOOD_CHIPS_GarlicBread",
+            "DONFOOD_CHIPS_HotSpicy",
+            "DONFOOD_CHIPS_BlackPepperSourCream",
+            "DONFOOD_CHIPS_P_SeaSalt",
+            "DONFOOD_CHIPS_SourCreamOnion",
+            "DONFOOD_CHIPS_Poutine"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CAN_POPCORNSALT",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_CAN_CHIPSPAPRI",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DONFOOD_CAN_CHIPSINDCUR"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CHIPS_SaltVinegar",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CHIPS_Paprika",
+            "DONFOOD_CHIPS_Bacon",
+            "DONFOOD_CHIPS_BLT",
+            "DONFOOD_CHIPS_CheeseBurger",
+            "DONFOOD_CHIPS_ChickenWaffle",
+            "DONFOOD_CHIPS_Classic",
+            "DONFOOD_CHIPS_FlamingHot",
+            "DONFOOD_CHIPS_GarlicBread",
+            "DONFOOD_CHIPS_HotSpicy",
+            "DONFOOD_CHIPS_BlackPepperSourCream",
+            "DONFOOD_CHIPS_P_SeaSalt",
+            "DONFOOD_CHIPS_SourCreamOnion",
+            "DONFOOD_CHIPS_Poutine"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_SANDWICH_HAMCHEESE",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_ZombieMeat",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_HumanMeat",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Catfood",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_DogTreats",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_BegginStrips",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Doritos",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_DoritosRanch",
+                "MFP_DoritosOrganic"
+            ]
+        },
+        {
+            "ClassName": "MFP_Cheetos",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_CheetosFlaminHot"
+            ]
+        },
+        {
+            "ClassName": "MFP_Lays",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_LaysBBQ",
+                "MFP_LaysSV"
+            ]
+        },
+        {
+            "ClassName": "MFP_Takis",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Fritos",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Funyuns",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Twizzlers",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Jerky_Original",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "MFP_Jerky_Peppered",
+            "MFP_Jerky_Teri",
+            "MFP_Jerky_Jalapeno",
+            "MFP_Jerky_Beyond"
+            ]
+        },
+        {
+            "ClassName": "MFP_Uncrustable1",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_Uncrustable2"
+            ]
+        },
+        {
+            "ClassName": "MFP_HotPocket",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_HotPocket2"
+            ]
+        },
+        {
+            "ClassName": "MFP_PizzaRolls",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_BagelBites",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_ImpossibleNuggets",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_TrailMix",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Cheerios",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_CrunchBerries",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_FruityPebbles",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_CocoaPebbles"
+            ]
+        },
+        {
+            "ClassName": "MFP_CinnamonLife",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_CookieCrisp",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_AppleJacks",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_HoneyBunches",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_CheezIt",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_WheatThins",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Popcorn",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

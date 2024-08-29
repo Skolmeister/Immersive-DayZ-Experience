@@ -1,0 +1,1427 @@
+{
+    "AdminsSteamIds": ["76561198035229734"],
+    "ShowStaminaWidgetInVehicle": 1,
+    "AllowOpenInventoryWhileResting": 1,
+    "StaminaGeneralOptions": {
+        "IsActive": 1,
+        "RespawnValuePercent": 100.0,
+        "WeightOverloadThresholdKg": 35.0,
+        "WeightOverloadMultiplierMax": 8.0,
+        "CostPerSecondRestPercent": 0.8,
+        "CostPerSecondNoMovementPercent": 0.5,
+        "CostPerSecondNormalWalkingPercent": 0.30000001192092898,
+        "CostPerSecondCrouchWalkingPercent": 0.15000000596046449,
+        "CostPerSecondProneWalkingPercent": 0.15000000596046449,
+        "CostPerSecondJogPercent": -0.05000000074505806,
+        "CostPerSecondCrouchSprintPercent": -0.15000000596046449,
+        "CostPerSecondSprintPercent": -0.5,
+        "CostPerRollPercent": -0.5,
+        "CostPerJumpPercent": -1.0,
+        "CostPerVaultPercent": -1.0,
+        "CostPerClimbPercent": -2.0,
+        "CostPerMeleeAttackPercent": -0.25,
+        "CostPerPushCarApplyForcePercent": -0.05000000074505806,
+        "CostPerMinePercent": -3.0,
+        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -3.0,
+        "CostPerMinePlanksFromWoodenLogPercent": -15.0,
+        "CostPerBuildPercent": -3.0,
+        "WalkingWeightDebuffBorderKg": 50.0,
+        "MovementRestrictionWeightLimitKg": 100.0,
+        "OneDegreeOfSlopeUpMultiplierPercent": 10.0,
+        "OneDegreeOfSlopeDownMultiplierPercent": 5.0,
+        "SurfaceRoadMultiplier": 0.8999999761581421,
+        "SurfaceGrassMultiplier": 1.0,
+        "SurfaceGrassTallMultiplier": 1.100000023841858,
+        "SurfaceForestMultiplier": 1.100000023841858,
+        "SurfaceStoneMultiplier": 1.0,
+        "SurfaceSandMultiplier": 1.5,
+        "SurfaceWaterMultiplier": 2.0,
+        "EpinephrineMultiplier": 0.20000000298023225,
+        "AMSEnergyPillsMultiplier": 0.5,
+        "MorphineMultiplier": 1.0,
+        "HeatMultiplier": 2.0,
+        "ShockPerSecondJogCritical": -1.0,
+        "ShockPerSecondSprintCritical": -4.0,
+        "ShockPerSecondJogLow": 0.0,
+        "ShockPerSecondSprintLow": -2.0,
+        "TremorLevelAtCritical": 1.0,
+        "TremorLevelAtLow": 0.30000001192092898,
+        "CriticalThresholdPercent": 5.0,
+        "LowThresholdPercent": 20.0
+    },
+    "StaminaSleepOptions": {
+        "IsActive": 1,
+        "RespawnValuePercent": 100.0,
+        "ReductionOfMaximumSleepWhenDaytimePercent": 20.0,
+        "ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
+        "ReductionOfMaximumSleepWhenWetPercent": 20.0,
+        "ReductionOfMaximumSleepWhenColdPercent": 20.0,
+        "ReductionOfMaximumSleepWhenHotPercent": 20.0,
+        "DelayBeforeSleepSeconds": 10.0,
+        "DelayBeforeNextSleepTryInLyingDownSeconds": 600.0,
+        "CostPerSecondSleepPercent": 0.20000000298023225,
+        "CostPerSecondRestPercent": -0.003000000026077032,
+        "CostPerSecondNoMovementPercent": -0.003000000026077032,
+        "CostPerSecondNormalWalkingPercent": -0.004000000189989805,
+        "CostPerSecondCrouchWalkingPercent": -0.004000000189989805,
+        "CostPerSecondProneWalkingPercent": -0.004000000189989805,
+        "CostPerSecondJogPercent": -0.004999999888241291,
+        "CostPerSecondCrouchSprintPercent": -0.006000000052154064,
+        "CostPerSecondSprintPercent": -0.009999999776482582,
+        "CostPerRollPercent": -0.009999999776482582,
+        "CostPerJumpPercent": -0.009999999776482582,
+        "CostPerVaultPercent": -0.009999999776482582,
+        "CostPerClimbPercent": -0.019999999552965165,
+        "CostPerMeleeAttackPercent": -0.009999999776482582,
+        "CostPerPushCarApplyForcePercent": -0.0010000000474974514,
+        "CostPerMinePercent": -0.009999999776482582,
+        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -0.009999999776482582,
+        "CostPerMinePlanksFromWoodenLogPercent": -0.05000000074505806,
+        "CostPerBuildPercent": -0.009999999776482582,
+        "EpinephrineMultiplier": 0.20000000298023225,
+        "MorphineMultiplier": 50.0,
+        "TremorLevelAtCritical": 0.0,
+        "TremorLevelAtLow": 0.0,
+        "SleepyAlertsWhenLessCriticalIsActive": 1,
+        "LossOfConsciousnessWhenLessCriticalIsActive": 0,
+        "MovementSpeedReductionWhenLessLowIsActive": 0,
+        "CriticalThresholdPercent": 5.0,
+        "LowThresholdPercent": 20.0,
+        "SleepinessThresholdPercent": 50.0
+    },
+    "StaminaStimulants": [
+        {
+            "ItemClass": "SodaCan_Cola",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+
+        {
+            "ItemClass": "SodaCan_Pipsi",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+
+        {
+            "ItemClass": "SodaCan_Spite",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "SodaCan_Kvass",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "SodaCan_Fronta",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "Epinephrine",
+            "StaminaGeneralIncreasePercent": 25.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "Morphine",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": -25.0
+        },
+        {
+            "ItemClass": "AntiChemInjector",
+            "StaminaGeneralIncreasePercent": 100.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MassMeth",
+            "StaminaGeneralIncreasePercent": 50.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "MFP_Pepsi",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_PepsiMax",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_ClassicCoke",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_CokeZero",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_LaCroix",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_RootBeer",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_NitroBrew",
+            "StaminaGeneralIncreasePercent": 25.0,
+            "StaminaSleepIncreasePercent": 15.0
+        },
+        {
+            "ItemClass": "MFP_BajaBlast",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 15.0
+        },
+        {
+            "ItemClass": "MFP_LiveWire",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_CodeRed",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_ZombieDrink",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_HumanDrink",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_Faygo1",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_Faygo2",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_DrPepper",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_OrangeSoda",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_V8Juice",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_CoffeeBeans",
+            "StaminaGeneralIncreasePercent": 40.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_MonsterEnergy",
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 25.0
+        },
+        {
+            "ItemClass": "MFP_HappyDadLemonLime",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_HappyDadWatermelon",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_HappyDadPineapple",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_HappyDadWildCherry",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_Starburst",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Smarties",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_GummyBears",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_GummiWorms",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_GummyWorms1",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_SourPatch",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_SourPatchW",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_JollyRancher",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Swedish",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_SkittlesB",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Nerds",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Twizzlers",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_BasicBeer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "MFP_LiteBeer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "MFP_IPABeer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "MFP_TropicalBeer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "MFP_Hersheys",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Butterfinger",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Twix",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Snickers",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_ReesesCups",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_MilkyWay",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Oreos",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_NatureValley",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Nutella",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_PopTarts",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_CrunchBerries",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Cheerios",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_FruityPebbles",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_CocoaPebbles",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_ReesesPuffs",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_CinnamonLife",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_HoneyBunches",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_MtnDew",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_Pilsner",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "MFP_Guinness",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -8.0
+        },
+        {
+            "ItemClass": "MFP_DuffBeer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "MFP_ReesesPieces",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_BLueRibbonBeer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "MFP_Symphony",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_MRGoodBar",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Mounds",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_HersheysCookies",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Crunch",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Take5",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Krakel",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_5thAvenue",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_100Grand",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_AlmondJoy",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_BabyRuth",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Mars",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Musketeers",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_PayDay",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Picnic",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Whatchamacallit",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Skittles1",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_PopTarts2",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "MFP_Starry",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "MFP_BudLight",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -3.0
+        },
+        {
+            "ItemClass": "DONFOOD_LARGEBAG_COOKIE1",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_BAG_MANDMCRISPY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_BAG_MANDMMILKCHOCOLATE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_BAG_MANDMPEANUTBUTTER",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_BAG_MANDMWILDCHERRY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_KATKIT",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_CARAMEL",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_CHIPSAHOY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_CLASSIC",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_DESSERT",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_IUC",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_NOISETTE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_OREO",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_OREOWHITE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_PEANUTCARAMEL",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_STRAWBERRY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_WAVES",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_CANDYBAR_ILKA_WHITE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_MULLEDWINE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "DONDRINK_JUICEPACK_CHERRY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_JUICEPACK_APRICOT",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_JUICEPACK_CRANBERRY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_JUICEPACK_GRAPE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_JUICEPACK_MANGO",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_JUICEPACK_CHOKEBERRY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_MONOKOBOX_BLUE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_HONEYBEAR",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_CoconutWater",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_ForestBerryTea",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_MelloYello",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_Monoko",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_KVASS",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_NOTACOLA",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_PIPSI",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONDRINK_SlimSodaCan_SPITE",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_BOTTLE_FANTAWINTER",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONDRINK_BOTTLE_MIRINDA",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONDRINK_BOTTLE_PEPSICHRISTMAS",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONDRINK_BOTTLE_PEPSIR",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONDRINK_CAPRISUN_ORANGEANDPEACH",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONDRINK_JUICEBOTTLE_ORANGE",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_ArsenalnoeKlassicheskoe",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_ArsenalnoeTraditsionnoe",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_BaltikaDarkLager",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_BioSpring",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_FantaPeach",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_GladioMiniCranberryPomegranate",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_GladioMiniOrangeMango",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+         },
+        {
+            "ItemClass": "DONFOOD_SodaCan_GladioMiniPearApple",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_IvanovBlackCurrant",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_IvanovCranberry",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MasterfruitCherry",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MasterfruitCranberry",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MasterfruitForestberry",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MasterfruitOrange",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MasterfruitPeach",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MasterfruitPomegranate",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MasterfruitWatermelon",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_NectarCarrot",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_NectarCherry",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_NectarRaspberryApple",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+         },
+        {
+            "ItemClass": "DONFOOD_SodaCan_PomegranateJuice",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_SpriteSugarFree",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_YesTeaLemon",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_YesTeaWildberry",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_ZhigulyovskoyeLager",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_WostokPineLemonade",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONFOOD_SodaCan_MelloYello",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+        },
+        {
+            "ItemClass": "DONFOOD_Vodka_PLACEHOLDER",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "DONDRINK_BEER_GREEN",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+        },
+        {
+            "ItemClass": "DONDRINK_WINEBOTTLE_SANGRIA",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "DONDRINK_WINEBOTTLE_QUEENOFNIGHT",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -20.0
+        },
+        {
+            "ItemClass": "DONDRINK_WINEBOTTLE_RUSSKAYALOZA",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "DONDRINK_WINEBOTTLE_SUNVALLEY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "DONDRINK_WINEBOTTLE_ALMATY",
+            "StaminaGeneralIncreasePercent":10.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "DONDRINK_MULLEDWINE",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": -10.0
+        },
+        {
+            "ItemClass": "DONFOOD_CAN_CHERARMYCANDY",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+         },
+         {
+            "ItemClass": "DONFOOD_CAN_CHERARMYCANDY_Opened",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+         },
+         {
+            "ItemClass": "Psix_StimPack20HP",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+         },
+         {
+            "ItemClass": "Psix_StimPack40HP",
+            "StaminaGeneralIncreasePercent": 40.0,
+            "StaminaSleepIncreasePercent": 20.0
+         },
+         {
+            "ItemClass": "StimPack60HP",
+            "StaminaGeneralIncreasePercent": 60.0,
+            "StaminaSleepIncreasePercent": 30.0
+         },
+         {
+            "ItemClass": "Psix_StimPack80HP",
+            "StaminaGeneralIncreasePercent": 80.0,
+            "StaminaSleepIncreasePercent": 40.0
+         },
+         {
+            "ItemClass": "Psix_StimPack100HP",
+            "StaminaGeneralIncreasePercent": 100.0,
+            "StaminaSleepIncreasePercent": 50.0
+         },
+         {
+            "ItemClass": "Psix_StimPackSecret",
+            "StaminaGeneralIncreasePercent": 100.00,
+            "StaminaSleepIncreasePercent": 50.0
+         },
+         {
+            "ItemClass": "Psix_StimPackFull",
+            "StaminaGeneralIncreasePercent": 100,
+            "StaminaSleepIncreasePercent": 100.0
+         },
+         {
+            "ItemClass": "Psix_Drink_JackDaniels",
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": -10.0
+         },
+         {
+            "ItemClass": "Psix_Amsterdam_Beer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+         },
+         {
+            "ItemClass": "Psix_Heineken_Beer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+         },
+         {
+            "ItemClass": "Psix_Kazelbleat_Chernyi",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+         },
+         {
+            "ItemClass": "Psix_Stalker_Energy",
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 30.0
+         },
+         {
+            "ItemClass": "Psix_Barnoe_Beer",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+         },
+         {
+            "ItemClass": "Psix_Jigulevskoe",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+         },
+         {
+            "ItemClass": "Psix_Baltika",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+         },
+         {
+            "ItemClass": "Psix_Jigul1978",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -5.0
+         },
+         {
+            "ItemClass": "Psix_PepsiDrink",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+         },
+         {
+            "ItemClass": "Psix_DriveEnegry",
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 25.0
+         },
+         {
+            "ItemClass": "Psix_Mochakovo",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+         },
+
+         {
+            "ItemClass": "Psix_BangDrink",
+            "StaminaGeneralIncreasePercent": 25.0,
+            "StaminaSleepIncreasePercent": 15.0
+         },
+
+         {
+            "ItemClass": "Psix_Cola",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+         },
+
+         {
+            "ItemClass": "Psix_CoolCold",
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 10.0
+         },
+         {
+            "ItemClass": "Psix_EnergyTablets",
+            "StaminaGeneralIncreasePercent": 25.0,
+            "StaminaSleepIncreasePercent": 25.0
+         },
+         {
+            "ItemClass": "PsiX_Paracetamol",
+            "StaminaGeneralIncreasePercent": -5.0,
+            "StaminaSleepIncreasePercent": -10.0
+         },
+         {
+            "ItemClass": "Psix_Tramadol",
+            "StaminaGeneralIncreasePercent": -10.0,
+            "StaminaSleepIncreasePercent": -15.0
+         },
+         {
+            "ItemClass": "Psix_Ondansetron",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": 1.0
+         },
+         {
+            "ItemClass": "Psix_Cocodamol",
+            "StaminaGeneralIncreasePercent": -5.0,
+            "StaminaSleepIncreasePercent": -10.0
+         },
+         {
+            "ItemClass": "Psix_Flouxatine",
+            "StaminaGeneralIncreasePercent": 15.0,
+            "StaminaSleepIncreasePercent": 10.0
+         },
+         {
+            "ItemClass": "Psix_Nutrivital",
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 10.0
+         },
+         {
+            "ItemClass": "Psix_VitaminXanax",
+            "StaminaGeneralIncreasePercent": -10.0,
+            "StaminaSleepIncreasePercent": -30.0
+         },
+         {
+            "ItemClass": "Psix_Vitamin_ACID",
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 10.0
+         },
+         {
+            "ItemClass": "Psix_Vitamin_Oxycodone",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -15.0
+         },
+         {
+            "ItemClass": "VitaminBottle",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": 5.0
+         },
+         {
+            "ItemClass": "AMS_Energy",
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 30.0
+         },
+         {
+            "ItemClass": "AMS_Narcotics",
+            "StaminaGeneralIncreasePercent": 1.0,
+            "StaminaSleepIncreasePercent": -90.0
+         },
+         {
+            "ItemClass": "AMS_Methadone",
+            "StaminaGeneralIncreasePercent": 5.0,
+            "StaminaSleepIncreasePercent": -25.0
+         },
+         {
+            "ItemClass": "st_smok_cigare",
+            "StaminaGeneralIncreasePercent": -10.0,
+            "StaminaSleepIncreasePercent": 25.0
+         }
+
+    ],
+    "ComfortablePlaces": [
+        {
+            "ItemClass": "MediumTentClutterCutter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "LargeTentClutterCutter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MediumTent",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "CarTent",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "LargeTent",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MediumTent_Green",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MediumTent_Orange",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_PartizanM",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_PartizanM",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Duckhunter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Duckhunter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Multicam",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Multicam",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Splinter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Splinter",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Tiger",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Tiger",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Woodland",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_CarTent_Woodland",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_LargeTent_FLT",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_CarTent_FLT",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_LargeTent_DPM",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_CarTent_DPM",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_LargeTent_MPAT",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_CarTent_MPAT",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },        
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Partizan",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Partizan",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Partizan",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Skol",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Skol",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_ATACS",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_ATACS",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_CADPAT",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_CADPAT",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Tropic",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_LargeTent_Yeger",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MilitaryGear_CarTent_Yeger",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Green",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Blue",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Green",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Blue",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Big_Camo",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Big_Yellow",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Big_Green",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Big_Blue",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Big_Black",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "FC_Fish_Tent_Bag_Big_Grey",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "WG_AdventurerTent",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "WG_CampingTent_Gray",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "WG_CampingTent_Blue",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MSP_SleepingBag",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "MSP_Mattress",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 2.1
+        },
+        {
+            "ItemClass": "bl_pallet_bed_s",
+            "StaminaGeneralMultiplier": 2.0,
+            "StaminaSleepMultiplier": 2.0
+        },
+        {
+            "ItemClass": "bl_pallet_bed_m",
+            "StaminaGeneralMultiplier": 2.0,
+            "StaminaSleepMultiplier": 2.0
+        }
+    ],
+    "Clothes": [
+        {
+            "ItemClass": "RadarCap_ColorBase",
+            "StaminaGeneralMultiplier": 1.0,
+            "StaminaSleepMultiplier": 1.0
+        }
+    ],
+    "HumanPoweredVehicles": [
+        {
+            "ItemClass": "Bicycle_Base",
+            "StaminaGeneralCostPerSecondPercent": -0.10000000149011612,
+            "StaminaGeneralCostPerSecondAccelerationPercent": -0.5
+        }
+    ],
+    "Houses": []
+}

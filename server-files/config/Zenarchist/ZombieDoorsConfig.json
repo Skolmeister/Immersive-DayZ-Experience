@@ -1,0 +1,20 @@
+{
+    "ConfigVersion": "2",
+    "KnockDownDoors": 1,
+    "KnockDownLockedDoors": 0,
+    "OrientateToDoor": 1,
+    "DoorHitCount": 6,
+    "DoorHitLockedCount": 12,
+    "DoorHitCounterTimerSecs": 45,
+    "DetectDoorTimer": 1000.0,
+    "HitDoorDelay": 2000.0,
+    "ZombieData": [
+        {
+            "ClassName": "ZmbM_Soldier",
+            "KnockDownDoors": 1,
+            "KnockDownLockedDoors": 1,
+            "DoorHitCount": 6,
+            "DoorHitLockedCount": 12
+        }
+    ]
+}

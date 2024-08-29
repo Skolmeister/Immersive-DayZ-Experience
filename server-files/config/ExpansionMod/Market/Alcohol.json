@@ -1,0 +1,356 @@
+{
+    "m_Version": 12,
+    "DisplayName": "ALCOHOL",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 90.0,
+    "Items": [
+        {
+            "ClassName": "sodacan_kvass",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DONDRINK_SlimSodaCan_KVASS"
+            ]
+        },
+        {
+            "ClassName": "vodka",
+            "MaxPriceThreshold": 180,
+            "MinPriceThreshold": 162,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+            {
+            "ClassName": "DONDRINK_MULLEDWINE",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_BEER_GREEN",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_WINEBOTTLE_SANGRIA",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_WINEBOTTLE_QUEENOFNIGHT",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_WINEBOTTLE_RUSSKAYALOZA",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_WINEBOTTLE_SUNVALLEY",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_WINEBOTTLE_ALMATY",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+                        
+            {
+            "ClassName": "DONFOOD_SodaCan_ArsenalnoeKlassicheskoe",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_ArsenalnoeTraditsionnoe",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_BaltikaDarkLager",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_ZhigulyovskoyeLager",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_BasicBeer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_LiteBeer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_IPABeer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_TropicalBeer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Pilsner",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_BLueRibbonBeer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Guinness",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_BudLight",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_BuschLight"
+            ]
+        },
+        {
+            "ClassName": "MFP_DuffBeer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_Drink_JackDaniels",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_Amsterdam_Beer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+        "ClassName": "Psix_Heineken_Beer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_Kazelbleat_Chernyi",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_Barnoe_Beer",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+        "ClassName": "Psix_Jigulevskoe",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+        "ClassName": "Psix_Baltika",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+        "ClassName": "Psix_Jigul1978",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+        "ClassName": "Psix_Mochakovo",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

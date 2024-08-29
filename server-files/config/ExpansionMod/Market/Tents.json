@@ -1,0 +1,203 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_TENTS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "partytent",
+            "MaxPriceThreshold": 5200,
+            "MinPriceThreshold": 4680,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "partytent_blue",
+                "partytent_brown",
+                "partytent_lunapark"
+            ]
+        },
+        {
+            "ClassName": "mediumtent",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mediumtent_orange",
+                "mediumtent_green"
+            ]
+        },
+        {
+            "ClassName": "largetent",
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MilitaryGear_LargeTent_ATACS",
+                "MilitaryGear_LargeTent_CADPAT",
+                "MilitaryGear_LargeTent_DPM",
+                "MilitaryGear_LargeTent_Duckhunter",
+                "MilitaryGear_LargeTent_FLT",
+                "MilitaryGear_LargeTent_MPAT",
+                "MilitaryGear_LargeTent_Multicam",
+                "MilitaryGear_LargeTent_Partizan",
+                "MilitaryGear_LargeTent_PartizanM",
+                "MilitaryGear_LargeTent_Skol",
+                "MilitaryGear_LargeTent_Splinter",
+                "MilitaryGear_LargeTent_Splinter_Dark",
+                "MilitaryGear_LargeTent_Tiger",
+                "MilitaryGear_LargeTent_Tropic",
+                "MilitaryGear_LargeTent_Woodland",
+                "MilitaryGear_LargeTent_Yeger"
+            ]
+        },
+        {
+            "ClassName": "cartent",
+            "MaxPriceThreshold": 14000,
+            "MinPriceThreshold": 12600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MilitaryGear_CarTent_ATACS",
+                "MilitaryGear_CarTent_CADPAT",
+                "MilitaryGear_CarTent_DPM",
+                "MilitaryGear_CarTent_Duckhunter",
+                "MilitaryGear_CarTent_FLT",
+                "MilitaryGear_CarTent_MPAT",
+                "MilitaryGear_CarTent_Multicam",
+                "MilitaryGear_CarTent_Partizan",
+                "MilitaryGear_CarTent_PartizanM",
+                "MilitaryGear_CarTent_Skol",
+                "MilitaryGear_CarTent_Splinter",
+                "MilitaryGear_CarTent_Splinter_Dark",
+                "MilitaryGear_CarTent_Tiger",
+                "MilitaryGear_CarTent_Tropic",
+                "MilitaryGear_CarTent_Woodland",
+                "MilitaryGear_CarTent_Yeger"
+            ]
+        },
+        {
+            "ClassName": "expansioncamotentkit",
+            "MaxPriceThreshold": 5200,
+            "MinPriceThreshold": 4680,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansioncamoboxkit",
+            "MaxPriceThreshold": 5200,
+            "MinPriceThreshold": 4680,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "WG_AdventurerTent_Kit",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "WG_CampingTent_Blue_Kit",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "WG_CampingTent_Gray_Kit"
+            ]
+        },
+        {
+            "ClassName": "Msp_SleepingBag_Green",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_SleepingBag_Blue",
+                "Msp_SleepingBag_LimeGreen",
+                "Msp_SleepingBag_Orange",
+                "Msp_SleepingBag_Purple",
+                "Msp_SleepingBag_Red"
+            ]
+        },
+        {
+            "ClassName": "Msp_Mattress_Blue",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_Mattress_Green",
+                "Msp_Mattress_Pink",
+                "Msp_Mattress_Yellow"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Tent_Bag_Green",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_Fish_Tent_Bag_Blue"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Tent_Bag_Big_Camo",
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_Fish_Tent_Bag_Big_Yellow",
+                "FC_Fish_Tent_Bag_Big_Green",
+                "FC_Fish_Tent_Bag_Big_Blue",
+                "FC_Fish_Tent_Bag_Big_Black",
+                "FC_Fish_Tent_Bag_Big_Grey"
+            ]
+        }
+    ]
+}

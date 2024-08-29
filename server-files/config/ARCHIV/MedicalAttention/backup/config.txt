@@ -1,0 +1,108 @@
+Tiredness					= 1
+
+	TireTime (minutes)			= 210
+	EyeClosingPoint  (percent)		= 19
+	TextReports				= 0
+	EnergizingDrinkGain (percent)		= 20
+	EnergizingDrinkClass			= SodaCan_Cola
+	EnergizingDrinkClass			= SodaCan_Pipsi
+	EnergizingDrinkClass			= SodaCan_Spite
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_BioSpring
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_FantaPeach
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_GladioMiniCranberryPomegranate
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_GladioMiniOrangeMango
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_GladioMiniPearApple
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_IvanovBlackCurrant
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_IvanovCranberry
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MasterfruitCherry
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MasterfruitCranberry
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MasterfruitForestberry
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MasterfruitOrange
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MasterfruitPeach
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MasterfruitPomegranate
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MasterfruitWatermelon
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_NectarCarrot
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_NectarCherry
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_NectarRaspberryApple
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_PomegranateJuice
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_SpriteSugarFree
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_YesTeaLemon
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_YesTeaWildberry
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_WostokPineLemonade
+	EnergizingDrinkClass 			= DONFOOD_SodaCan_MelloYello
+	EnergizingDrinkClass 			= DONDRINK_SlimSodaCan_CoconutWater
+	EnergizingDrinkClass 			= DONDRINK_SlimSodaCan_ForestBerryTea
+	EnergizingDrinkClass 			= DONDRINK_SlimSodaCan_MelloYello
+	EnergizingDrinkClass 			= DONDRINK_SlimSodaCan_NOTACOLA
+	EnergizingDrinkClass 			= DONDRINK_SlimSodaCan_PIPSI
+	EnergizingDrinkClass 			= DONDRINK_SlimSodaCan_SPITE
+	EnergizingDrinkClass 			= DONDRINK_JUICEPACK_CHERRY
+	EnergizingDrinkClass 			= DONDRINK_JUICEPACK_APRICOT
+	EnergizingDrinkClass 			= DONDRINK_JUICEPACK_CRANBERRY
+	EnergizingDrinkClass 			= DONDRINK_JUICEPACK_GRAPE
+	EnergizingDrinkClass 			= DONDRINK_JUICEPACK_MANGO
+	EnergizingDrinkClass 			= DONDRINK_JUICEPACK_CHOKEBERRY
+	EnergizingDrinkClass 			= DONDRINK_BOTTLE_FANTAWINTER
+	EnergizingDrinkClass 			= DONDRINK_BOTTLE_MIRINDA
+	EnergizingDrinkClass 			= DONDRINK_BOTTLE_PEPSICHRISTMAS
+	EnergizingDrinkClass 			= DONDRINK_BOTTLE_PEPSIR
+	EnergizingDrinkClass 			= DONDRINK_CAPRISUN_ORANGEANDPEACH
+	EnergizingDrinkClass 			= DONDRINK_JUICEBOTTLE_ORANGE
+	EnergizingDrinkClass 			= DONDRINK_HONEYBEAR
+
+	SleepingBagClass = MediumTent
+
+	SleepingDOF				= 0
+
+ZombieBleedChance (percent)			= 15
+ZombieSalmonellaChance (percent)		= 25
+WoundInfectionChance (percent)			= 25
+ZombieArmFractureChance (percent)		= 20
+FeverActive					= 1
+BrainDisease					= 1
+AntibioticsStrength				= 4
+SalineBloodRegen				= 0
+TestBloodSelf					= 1
+TestBloodTarget					= 1
+TestBloodToxin					= 1
+
+
+AlcoholicDrinkClass				= SodaCan_Kvass
+AlcoholicDrinkClass				= DisinfectantAlcohol = 3.5
+AlcoholicDrinkClass 				= DONDRINK_BEER_GREEN = 0.35
+AlcoholicDrinkClass 				= DONFOOD_SodaCan_ArsenalnoeKlassicheskoe = 0.25
+AlcoholicDrinkClass 				= DONFOOD_SodaCan_ArsenalnoeTraditsionnoe = 0.25
+AlcoholicDrinkClass 				= DONFOOD_SodaCan_BaltikaDarkLager = 0.25
+AlcoholicDrinkClass 				= DONFOOD_SodaCan_ZhigulyovskoyeLager = 0.25
+AlcoholicDrinkClass 				= DONDRINK_SlimSodaCan_KVASS = 0.25
+AlcoholicDrinkClass 				= DONDRINK_WINEBOTTLE_SANGRIA = 0.65‬
+AlcoholicDrinkClass 				= DONDRINK_WINEBOTTLE_QUEENOFNIGHT = 0.65‬
+AlcoholicDrinkClass 				= DONDRINK_WINEBOTTLE_RUSSKAYALOZA = 0.65‬
+AlcoholicDrinkClass 				= DONDRINK_WINEBOTTLE_SUNVALLEY = 0.65‬
+AlcoholicDrinkClass 				= DONDRINK_WINEBOTTLE_ALMATY = 0.65‬
+AlcoholicDrinkClass 				= DONDRINK_MULLEDWINE = 0.65‬
+AlcoholicDrinkClass 				= DONDRINK_FLASK_GAMBLER = 2.50
+
+AlcoholicLiquid				= Beer
+AlcoholicLiquid				= Vodka = 2
+
+
+ZoneType = Biohazard
+ZoneChance (percent) = 100
+ZoneCenter (X Y Z) = 1695.40 0 14042.22
+ZoneRadiusMin = 675
+ZoneRadiusMax = 725
+ZoneMsgIn = CAUTION: YOU ARE IN A BIOHAZARD ZONE
+ZoneMsgOut = YOU LEFT THE BIOHAZARD ZONE
+
+ToxinAccumulationTimeMin = 5
+ToxinAccumulationTimeMax = 60
+
+ProtectionSuit = NBCBootsGray = 10
+ProtectionSuit = NBCGlovesGray = 10
+ProtectionSuit = NBCHoodGray = 10
+ProtectionSuit = NBCJacketGray = 20
+ProtectionSuit = NBCPantsGray = 20
+
+ProtectionSuit = GP5GasMask = 30 = 1
+ProtectionSuit = GasMask = 30 = 1

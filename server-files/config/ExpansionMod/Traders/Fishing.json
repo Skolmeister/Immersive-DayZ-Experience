@@ -1,0 +1,22 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_FISHING",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Fishing",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Fishing",
+        "Fishes"
+    ],
+    "Items": {
+        "Msp_TackleBox": 1,
+        "FC_Fish_Hat_Base": 1
+    }
+}

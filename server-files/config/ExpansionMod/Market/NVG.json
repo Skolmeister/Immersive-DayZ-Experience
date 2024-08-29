@@ -1,0 +1,92 @@
+{
+    "m_Version": 12,
+    "DisplayName": "NVG",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "nvgheadstrap",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_GPNVG_Black",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": [
+				"FOG_GPNVG_Tan",
+				"FOG_GPNVG_RG"
+			]
+        },
+        {
+            "ClassName": "FOG_GPNVG_Elite",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+		{
+            "ClassName": "FOG_PVS31",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": [
+                "FOG_PVS31_FDE",
+                "FOG_PVS31A_Black",
+                "FOG_PVS31_Wrapped",
+                "FOG_PVS31_FDE_Wrapped"
+            ]
+        },
+        {
+            "ClassName": "FOG_Tarsier",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "nvgoggles",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        }
+    ]
+}

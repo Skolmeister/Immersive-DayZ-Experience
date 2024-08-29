@@ -1,0 +1,320 @@
+{
+    "m_Version": 12,
+    "DisplayName": "CANNED FOOD",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "sardinescan",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "tunacan",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "dogfoodcan",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "catfoodcan",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "porkcan",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "unknownfoodcan",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "peachescan",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "spaghettican",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "bakedbeanscan",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_DEEZBBQBEANS",
+            "DONFOOD_CAN_DEEZBOLDSPICYBEANS",
+            "MFP_BlackBeans",
+            "MFP_ChiliBeans"
+            ]
+        },
+        {
+            "ClassName": "tacticalbaconcan",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_CAN_CHERARMYCANDY",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_CHERARMYNO12",
+            "DONFOOD_CAN_CHERARMYNO23"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CAN_BuckwheatPorridgeBeef",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_BuckwheatPorridgeBeef2"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CAN_SURSTROMMING",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_CAN_TomatoJuice",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+
+        {
+            "ClassName": "DONFOOD_CAN_RICEPUDDING",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_CAMPBELLSVEGETABLESOUP",
+            "MFP_TomatoSoup",
+            "MFP_EnchiladaSoup"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CAN_BLUEBERRY",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_BLUEBERRY2",
+            "DONFOOD_CAN_BLACKBERRY",
+            "DONFOOD_CAN_BOYSENBERRY",
+            "DONFOOD_CAN_GOOSEBERRY",
+            "DONFOOD_CAN_LIGHTSWEETCHERRY",
+            "DONFOOD_CAN_MIXEDBERRY",
+            "DONFOOD_CAN_PLUM",
+            "DONFOOD_CAN_REDRASPBERRY",
+            "DONFOOD_CAN_REDTARTCHERRY",
+            "DONFOOD_CAN_ROYALANNACHERRY",
+            "DONFOOD_CAN_THOMPSONGRAPES"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_DEEZSAILSPAGHETTIOZ",
+            "DONFOOD_CAN_DEEZSPAGHETTICHEESE",
+            "MFP_ChefBoyardee"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CAN_beefstew",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_RUSBFBF",
+            "DONFOOD_CAN_BAKEDMEATBALL",
+            "DONFOOD_CAN_STEAMBEEF",
+            "DONFOOD_CAN_CHCORBEEF",
+            "DONFOOD_CAN_FRIEDCHICKEN",
+            "DONFOOD_CAN_borschcabbage",
+            "DONFOOD_CAN_PorkStew"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_CAN_ZucchiniSlices",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_CAN_GREENPEAS",
+            "DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOS",
+            "DONFOOD_CAN_BABAGHANOUSH",
+            "DONFOOD_CAN_EggplantDip",
+            "DONFOOD_CAN_EggplantVegetables",
+            "DONFOOD_CAN_GreenPeas2",
+            "DONFOOD_CAN_PEPPERPOT",
+            "DONFOOD_CAN_SweetCorn",
+            "DONFOOD_CAN_ZucchiniSlices",
+            "DONFOOD_CAN_ZucchiniSlices2",
+            "DONFOOD_CAN_ZucchiniSquash"
+            ]
+        },
+        {
+            "ClassName": "Psix_Food_Tyshenka1",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Psix_Food_Tyshenka2",
+                "Psix_Food_Tyshenka3",
+                "Psix_Food_Tyshenka4",
+                "Psix_Food_Tyshenka5",
+                "Psix_Food_Tyshenka6"
+            ]
+        },
+        {
+            "ClassName": "Psix_Food_Goroshek",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_Food_Kykyryza",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

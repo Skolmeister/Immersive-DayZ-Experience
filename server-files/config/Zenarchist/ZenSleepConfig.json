@@ -1,0 +1,1273 @@
+{
+    "ConfigVersion": "4",
+    "CONFIG_MAIN": "------------------------------------------------------------------------------------",
+    "MaxWakeTime": 360,
+    "AllowInventoryWhileSleep": 0,
+    "CanUnconInVehicle": 1,
+    "AttenuateSound": 1,
+    "SleepBlackScreen": 1,
+    "TextNotificationOn": 1,
+    "TextNotificationFrequency": 5,
+    "HideHudWhileSleeping": 1,
+    "OnlyShowSleepOnInventory": 0,
+    "OnlyShowSleepAbovePercent": 0,
+    "CONFIG_RANDOM_CHANCE": "---------------------------------------------------------------------------",
+    "SleepSoundPercentChance": 0.07999999821186066,
+    "YawnPercentStart": 20,
+    "YawnPercentChance": 0.06499999761581421,
+    "UnconPercentStart": 10,
+    "UnconPercentChance": 0.009999999776482582,
+    "CONFIG_INFLUENZA": "-------------------------------------------------------------------------------",
+    "InfluenzaInjectNoFire": 5,
+    "InfluenzaMultiplierNightNoFire": 1.5,
+    "InfluenzaMultiplierWetNoFire": 2.0,
+    "CONFIG_MAX_REST": "--------------------------------------------------------------------------------",
+    "MaxRestDayNoFire": 60,
+    "MaxRestDayWithFire": 75,
+    "MaxRestNightNoFire": 80,
+    "MaxRestNightWithFire": 100,
+    "MaxRestWhenWetDay": 50,
+    "MaxRestWhenWetNight": 75,
+    "ImmunityBoostAtRestLevel": 100,
+    "CONFIG_ACCELERATOR": "-----------------------------------------------------------------------------",
+    "HeatBuffCountsAsFire": 0,
+    "WetnessCancelsFireAccelerator": 1,
+    "BaseSleepAccelerator": 1.0,
+    "AsleepAccelerator": 0.0010000000474974514,
+    "OutsideFireAcceleratorPercent": 5,
+    "InsideNoFireAcceleratorPercent": 10,
+    "InsideFireAcceleratorPercent": 20,
+    "HealthRegenAsleep": 0.75,
+    "BloodRegenAsleep": 10.0,
+    "CONFIG_PENALTIES": "-------------------------------------------------------------------------------",
+    "EnableMovementPenalties": 1,
+    "SprintUprightPenalty": 1.2000000476837159,
+    "SprintCrouchedPenalty": 1.149999976158142,
+    "JoggingPenalty": 1.100000023841858,
+    "ClimbSlowPenalty": 1.5,
+    "ClimbFastPenalty": 2.0,
+    "SwimSlowPenalty": 1.5,
+    "SwimFastPenalty": 2.0,
+    "WalkingHeavyItemPenalty": 2.0,
+    "CONFIG_NIGHT": "-----------------------------------------------------------------------------------",
+    "NightTimeStartHour": 0,
+    "NightTimeStartMin": 0,
+    "NightTimeEndHour": 0,
+    "NightTimeEndMin": 0,
+    "CONFIG_MODIFIERS": "-------------------------------------------------------------------------------",
+    "EnergyDrinks": [
+        {
+            "ItemType": "SodaCan_Pipsi",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "SodaCan_Cola",
+            "EnergyGained": -20
+        },
+        {
+            "ItemType": "SodaCan_Spite",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "SodaCan_Kvass",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "SodaCan_Fronta",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "Epinephrine",
+            "EnergyGained": -25
+        },
+        {
+            "ItemType": "Morphine",
+            "EnergyGained": 20
+        },
+        {
+            "ItemType": "AntiChemInjector",
+            "EnergyGained": 100
+        },
+        {
+            "ItemType": "ZenSleep_Syringe",
+            "EnergyGained": 100
+        },
+        {
+            "ItemType": "ZenSleep_StimSyringe",
+            "EnergyGained": -100
+        },
+        {
+            "ItemType": "MassMeth",
+            "EnergyGained": -50
+        },
+        {
+            "ItemType": "MFP_Pepsi",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_PepsiMax",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_ClassicCoke",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_CokeZero",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_LaCroix",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_RootBeer",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "MFP_NitroBrew",
+            "EnergyGained": -25
+        },
+        {
+            "ItemType": "MFP_BajaBlast",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_LiveWire",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_CodeRed",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_ZombieDrink",
+            "EnergyGained": -20
+        },
+        {
+            "ItemType": "MFP_HumanDrink",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_Faygo1",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_Faygo2",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_DrPepper",
+            "EnergyGained": -20
+        },
+        {
+            "ItemType": "MFP_OrangeSoda",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "MFP_V8Juice",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "MFP_CoffeeBeans",
+            "EnergyGained": -30
+        },
+        {
+            "ItemType": "MFP_MonsterEnergy",
+            "EnergyGained": -30
+        },
+        {
+            "ItemType": "MFP_HappyDadLemonLime",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_HappyDadWatermelon",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_HappyDadPineapple",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_HappyDadWildCherry",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_Starburst",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Smarties",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_GummyBears",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_GummiWorms",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_GummyWorms1",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_SourPatch",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_SourPatchW",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_JollyRancher",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Swedish",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_SkittlesB",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Nerds",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Twizzlers",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_BasicBeer",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_LiteBeer",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_IPABeer",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_TropicalBeer",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_Hersheys",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Butterfinger",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Twix",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Snickers",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_ReesesCups",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_MilkyWay",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Oreos",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_NatureValley",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Nutella",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_PopTarts",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_CrunchBerries",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Cheerios",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_FruityPebbles",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_CocoaPebbles",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_ReesesPuffs",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_CinnamonLife",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_HoneyBunches",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_MtnDew",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_Pilsner",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_Guinness",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_DuffBeer",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_ReesesPieces",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_BLueRibbonBeer",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "MFP_Symphony",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_MRGoodBar",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Mounds",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_HersheysCookies",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Crunch",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Take5",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Krakel",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_5thAvenue",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_100Grand",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_AlmondJoy",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_BabyRuth",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Mars",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Musketeers",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_PayDay",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Picnic",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Whatchamacallit",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Skittles1",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_PopTarts2",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "MFP_Starry",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "MFP_BudLight",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "DONFOOD_LARGEBAG_COOKIE1",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_BAG_MANDMCRISPY",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_BAG_MANDMMILKCHOCOLATE",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_BAG_MANDMPEANUTBUTTER",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_BAG_MANDMWILDCHERRY",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_KATKIT",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_CARAMEL",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_CHIPSAHOY",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_CLASSIC",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_DESSERT",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_IUC",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_NOISETTE",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_OREO",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_OREOWHITE",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_PEANUTCARAMEL",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_STRAWBERRY",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_WAVES",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_CANDYBAR_ILKA_WHITE",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_MULLEDWINE",
+            "EnergyGained": 10
+        },
+        {
+            "ItemType": "DONDRINK_JUICEPACK_CHERRY",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_JUICEPACK_APRICOT",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_JUICEPACK_CRANBERRY",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_JUICEPACK_GRAPE",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_JUICEPACK_MANGO",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_JUICEPACK_CHOKEBERRY",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_MONOKOBOX_BLUE",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_HONEYBEAR",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_CoconutWater",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_ForestBerryTea",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_MelloYello",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_Monoko",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_KVASS",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_NOTACOLA",
+            "EnergyGained": -20
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_PIPSI",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONDRINK_SlimSodaCan_SPITE",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONDRINK_BOTTLE_FANTAWINTER",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONDRINK_BOTTLE_MIRINDA",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONDRINK_BOTTLE_PEPSICHRISTMAS",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONDRINK_BOTTLE_PEPSIR",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONDRINK_CAPRISUN_ORANGEANDPEACH",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONDRINK_JUICEBOTTLE_ORANGE",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_ArsenalnoeKlassicheskoe",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_ArsenalnoeTraditsionnoe",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_BaltikaDarkLager",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_BioSpring",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_FantaPeach",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_GladioMiniCranberryPomegranate",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_GladioMiniOrangeMango",
+            "EnergyGained": -10
+         },
+        {
+            "ItemType": "DONFOOD_SodaCan_GladioMiniPearApple",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_IvanovBlackCurrant",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_IvanovCranberry",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MasterfruitCherry",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MasterfruitCranberry",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MasterfruitForestberry",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MasterfruitOrange",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MasterfruitPeach",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MasterfruitPomegranate",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MasterfruitWatermelon",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_NectarCarrot",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_NectarCherry",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_NectarRaspberryApple",
+            "EnergyGained": -5
+         },
+        {
+            "ItemType": "DONFOOD_SodaCan_PomegranateJuice",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_SpriteSugarFree",
+            "EnergyGained": -5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_YesTeaLemon",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_YesTeaWildberry",
+            "EnergyGained": -10
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_ZhigulyovskoyeLager",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_WostokPineLemonade",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONFOOD_SodaCan_MelloYello",
+            "EnergyGained": -15
+        },
+        {
+            "ItemType": "DONFOOD_Vodka_PLACEHOLDER",
+            "EnergyGained": 15
+        },
+        {
+            "ItemType": "DONDRINK_BEER_GREEN",
+            "EnergyGained": 5
+        },
+        {
+            "ItemType": "DONDRINK_WINEBOTTLE_SANGRIA",
+            "EnergyGained": 15
+        },
+        {
+            "ItemType": "DONDRINK_WINEBOTTLE_QUEENOFNIGHT",
+            "EnergyGained": 10
+        },
+        {
+            "ItemType": "DONDRINK_WINEBOTTLE_RUSSKAYALOZA",
+            "EnergyGained": 15
+        },
+        {
+            "ItemType": "DONDRINK_WINEBOTTLE_SUNVALLEY",
+            "EnergyGained": 10
+        },
+        {
+            "ItemType": "DONDRINK_WINEBOTTLE_ALMATY",
+            "EnergyGained": 10
+        },
+        {
+            "ItemType": "DONDRINK_MULLEDWINE",
+            "EnergyGained": 10
+        },
+        {
+            "ItemType": "DONFOOD_CAN_CHERARMYCANDY",
+            "EnergyGained": -5
+         },
+         {
+            "ItemType": "DONFOOD_CAN_CHERARMYCANDY_Opened",
+            "EnergyGained": -5
+         },
+         {
+            "ItemType": "Psix_StimPack20HP",
+            "EnergyGained": -20
+         },
+         {
+            "ItemType": "Psix_StimPack40HP",
+            "EnergyGained": -40
+         },
+         {
+            "ItemType": "StimPack60HP",
+            "EnergyGained": -60
+         },
+         {
+            "ItemType": "Psix_StimPack80HP",
+            "EnergyGained": -80
+         },
+         {
+            "ItemType": "Psix_StimPack100HP",
+            "EnergyGained": -100
+         },
+         {
+            "ItemType": "Psix_StimPackSecret",
+            "EnergyGained": -100
+         },
+         {
+            "ItemType": "Psix_StimPackFull",
+            "EnergyGained": -100
+         },
+         {
+            "ItemType": "Psix_Drink_JackDaniels",
+            "EnergyGained": 15
+         },
+         {
+            "ItemType": "Psix_Amsterdam_Beer",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_Heineken_Beer",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_Kazelbleat_Chernyi",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_Stalker_Energy",
+            "EnergyGained": -30
+         },
+         {
+            "ItemType": "Psix_Barnoe_Beer",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_Jigulevskoe",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_Baltika",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_Jigul1978",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_PepsiDrink",
+            "EnergyGained": -15
+         },
+         {
+            "ItemType": "Psix_DriveEnegry",
+            "EnergyGained": -30
+         },
+         {
+            "ItemType": "Psix_Mochakovo",
+            "EnergyGained": 5
+         },
+
+         {
+            "ItemType": "Psix_BangDrink",
+            "EnergyGained": -25
+         },
+
+         {
+            "ItemType": "Psix_Cola",
+            "EnergyGained": -20
+         },
+
+         {
+            "ItemType": "Psix_CoolCold",
+            "EnergyGained": -30
+         },
+         {
+            "ItemType": "Psix_EnergyTablets",
+            "EnergyGained": -25
+         },
+         {
+            "ItemType": "PsiX_Paracetamol",
+            "EnergyGained": 15
+         },
+         {
+            "ItemType": "Psix_Tramadol",
+            "EnergyGained": 10
+         },
+         {
+            "ItemType": "Psix_Ondansetron",
+            "EnergyGained": 5
+         },
+         {
+            "ItemType": "Psix_Cocodamol",
+            "EnergyGained": 15
+         },
+         {
+            "ItemType": "Psix_Flouxatine",
+            "EnergyGained": 15
+         },
+         {
+            "ItemType": "Psix_Nutrivital",
+            "EnergyGained": -30
+         },
+         {
+            "ItemType": "Psix_VitaminXanax",
+            "EnergyGained": 25
+         },
+         {
+            "ItemType": "Psix_Vitamin_ACID",
+            "EnergyGained": -20
+         },
+         {
+            "ItemType": "Psix_Vitamin_Oxycodone",
+            "EnergyGained": 30
+         },
+         {
+            "ItemType": "VitaminBottle",
+            "EnergyGained": -5
+         },
+         {
+            "ItemType": "AMS_Energy",
+            "EnergyGained": -30
+         },
+         {
+            "ItemType": "AMS_Narcotics",
+            "EnergyGained": 95
+         },
+         {
+            "ItemType": "AMS_Methadone",
+            "EnergyGained": 25
+         }
+    ],
+    "RestObjects": [
+        {
+            "ObjectType": "MediumTent",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "CarTent",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "LargeTent",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MediumTent_Green",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MediumTent_Orange",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_PartizanM",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_PartizanM",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Duckhunter",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Duckhunter",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Multicam",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Multicam",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Splinter",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Splinter",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Splinter_Dark",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Splinter_Dark",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Tiger",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Tiger",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Woodland",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_CarTent_Woodland",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_LargeTent_FLT",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_CarTent_FLT",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_LargeTent_DPM",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_CarTent_DPM",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_LargeTent_MPAT",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_CarTent_MPAT",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },        
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Partizan",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Partizan",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Partizan",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Skol",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Skol",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_ATACS",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_ATACS",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_CADPAT",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_CADPAT",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Tropic",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_LargeTent_Yeger",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MilitaryGear_CarTent_Yeger",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Green",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Blue",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Green",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Blue",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Big_Camo",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Big_Yellow",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Big_Green",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Big_Blue",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Big_Black",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "FC_Fish_Tent_Bag_Big_Grey",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MSP_SleepingBag",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "MSP_Mattress",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 10,
+            "Influenza": 1
+        },
+        {
+            "ObjectType": "bl_pallet_bed_s",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 20,
+            "Influenza": 0
+        },
+        {
+            "ObjectType": "bl_pallet_bed_m",
+            "MaxRestDay": 80,
+            "MaxRestNight": 100,
+            "SleepAcceleratorPercent": 25,
+            "Influenza": 0
+        }
+    ],
+    "UsedStimSyringeType": "ZenSleep_Empty_StimSyringe",
+    "UsedSleepSyringeType": "ZenSleep_Empty_Syringe",
+    "CONFIG_TEXT": "------------------------------------------------------------------------------------",
+    "Str_RestUpdate": "My rest level is",
+    "Str_RestUpdate1": "and I'm cold...",
+    "Str_RestUpdate2": "and I'm losing warmth...",
+    "Str_RestUpdate3": "and I'm warm.",
+    "Str_RestUpdate4": "and I'm comfortably warm.",
+    "Str_RestUpdate5": "and my clothes are wet and uncomfortable...",
+    "Str_ITooTired1": "I feel really tired... I should lie down soon and get some rest.",
+    "Str_ITooTired2": "I've been awake for a long time now... I should lie down and get some rest.",
+    "Str_ITooTired3": "I don't have much energy... I should lie down soon and get some rest.",
+    "Str_CantSleep1": "I don't think I can sleep any longer...",
+    "Str_CantSleep2": "I don't think I can sleep any longer, I'm too cold...",
+    "Str_CantSleep3": "I don't think I can sleep any longer, it's too bright and I'm cold...",
+    "Str_CantSleep4": "I don't think I can sleep any longer, it's too bright...",
+    "Str_CantSleep5": "I don't think I can sleep any longer, my clothes are wet and I'm cold...",
+    "CONFIG_DEBUG": "-----------------------------------------------------------------------------------",
+    "TirednessHudX": 0.8550000190734863,
+    "TirednessHudY": 0.019999999552965165,
+    "AdminSteam64ID": "www.steamidfinder.com",
+    "DebugOn": 0,
+    "RestUpdateTick": 3
+}

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+  <type name="Scara_Karambit">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+  </type>
+  <type name="Scara_Butterfly">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+  </type>
+  <type name="Scara_Huntsman">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Hunting"/>
+  </type>
+  <type name="Scara_Classic">
+    <nominal>6</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="Farm"/>
+    <usage name="Police"/>
+  </type>
+  <type name="Scara_M9Bayonet">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Military"/>
+  </type>
+  <type name="Scara_Paracord">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Military"/>
+  </type>
+  <type name="Scara_Skeleton">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+  </type>
+  <type name="Scara_Stiletto">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+  </type>
+  <type name="Scara_Survival">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Hunting"/>
+    <usage name="Military"/>
+    <usage name="Police"/>
+    <usage name="Village"/>
+  </type>
+  <type name="Scara_Talon">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+  </type>
+  <type name="Scara_Nomad">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Village"/>
+    <usage name="Farm"/>
+  </type>
+  <type name="Scara_Bowie">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+  </type>
+  <type name="Scara_Falchion">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Hunting"/>
+  </type>
+  <type name="Scara_Gut">
+    <nominal>4</nominal>
+    <lifetime>14400</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+  </type>
+</types>

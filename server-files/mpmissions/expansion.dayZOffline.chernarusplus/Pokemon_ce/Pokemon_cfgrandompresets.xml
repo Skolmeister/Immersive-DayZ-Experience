@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<randompresets>
+		<cargo chance="0.15" name="PokemonCards">
+				<!-- 1 Card Booster -->
+				<item name="PokemonBooster001_1" chance="0.2" />
+				<item name="PokemonBooster002_1" chance="0.2" />
+				<item name="PokemonBooster003_1" chance="0.2" />
+				<!-- 3 Cards Booster -->
+				<item name="PokemonBooster001_3" chance="0.08" />
+				<item name="PokemonBooster002_3" chance="0.08" />
+				<item name="PokemonBooster003_3" chance="0.08" />
+				<!-- 5 Cards Booster -->
+				<item name="PokemonBooster001_5" chance="0.01" />
+				<item name="PokemonBooster002_5" chance="0.01" />
+				<item name="PokemonBooster003_5" chance="0.01" />
+		</cargo>
+		<cargo chance="0.15" name="toolsHermit">
+				<item name="PokemonCard_Box1" chance="0.005" />
+				<item name="PokemonCard_Box2" chance="0.005" />
+				<item name="PokemonCard_Box3" chance="0.005" />
+				<item name="PokemonCard_Box4" chance="0.005" />
+				<item name="PokemonCard_Box5" chance="0.005" />
+				<!-- OPTIONAL -->
+				<!-- COLORED SLOTS -->
+				<item name="PokemonCard_Box1s" chance="0.005" />
+				<item name="PokemonCard_Box2s" chance="0.005" />
+				<item name="PokemonCard_Box3s" chance="0.005" />
+				<item name="PokemonCard_Box4s" chance="0.005" />
+				<item name="PokemonCard_Box5s" chance="0.005" />
+				<!-- INVENTORY GRID -->
+				<item name="PokemonCard_Box1i" chance="0.005" />
+				<item name="PokemonCard_Box2i" chance="0.005" />
+				<item name="PokemonCard_Box3i" chance="0.005" />
+				<item name="PokemonCard_Box4i" chance="0.005" />
+				<item name="PokemonCard_Box5i" chance="0.005" />
+		</cargo>
+		<cargo chance="0.1" name="toolsVillage">
+				<item name="PokemonCard_Box1" chance="0.005" />
+				<item name="PokemonCard_Box2" chance="0.005" />
+				<item name="PokemonCard_Box3" chance="0.005" />
+				<item name="PokemonCard_Box4" chance="0.005" />
+				<item name="PokemonCard_Box5" chance="0.005" />
+				<!-- OPTIONAL -->
+				<!-- COLORED SLOTS -->
+				<item name="PokemonCard_Box1s" chance="0.005" />
+				<item name="PokemonCard_Box2s" chance="0.005" />
+				<item name="PokemonCard_Box3s" chance="0.005" />
+				<item name="PokemonCard_Box4s" chance="0.005" />
+				<item name="PokemonCard_Box5s" chance="0.005" />
+				<!-- INVENTORY GRID -->
+				<item name="PokemonCard_Box1i" chance="0.005" />
+				<item name="PokemonCard_Box2i" chance="0.005" />
+				<item name="PokemonCard_Box3i" chance="0.005" />
+				<item name="PokemonCard_Box4i" chance="0.005" />
+				<item name="PokemonCard_Box5i" chance="0.005" />
+		</cargo>
+		<cargo chance="0.1" name="toolsCity">
+				<item name="PokemonCard_Box1" chance="0.005" />
+				<item name="PokemonCard_Box2" chance="0.005" />
+				<item name="PokemonCard_Box3" chance="0.005" />
+				<item name="PokemonCard_Box4" chance="0.005" />
+				<item name="PokemonCard_Box5" chance="0.005" />
+				<!-- OPTIONAL -->
+				<!-- COLORED SLOTS -->
+				<item name="PokemonCard_Box1s" chance="0.005" />
+				<item name="PokemonCard_Box2s" chance="0.005" />
+				<item name="PokemonCard_Box3s" chance="0.005" />
+				<item name="PokemonCard_Box4s" chance="0.005" />
+				<item name="PokemonCard_Box5s" chance="0.005" />
+				<!-- INVENTORY GRID -->
+				<item name="PokemonCard_Box1i" chance="0.005" />
+				<item name="PokemonCard_Box2i" chance="0.005" />
+				<item name="PokemonCard_Box3i" chance="0.005" />
+				<item name="PokemonCard_Box4i" chance="0.005" />
+				<item name="PokemonCard_Box5i" chance="0.005" />
+		</cargo>
+</randompresets>

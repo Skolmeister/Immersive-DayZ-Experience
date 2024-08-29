@@ -1,0 +1,219 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_CAPS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "baseballcap_cmmg_pink",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 54,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "baseballcap_pink",
+                "baseballcap_blue",
+                "baseballcap_beige",
+                "baseballcap_red",
+                "baseballcap_cmmg_black",
+                "baseballcap_black",
+                "baseballcap_olive",
+                "baseballcap_camo"
+            ]
+        },
+        {
+            "ClassName": "baseballcap_black",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 54,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "baseballcap_olive",
+            "MaxPriceThreshold": 65,
+            "MinPriceThreshold": 58,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "baseballcap_camo",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Massurbancamohat",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "prisonercap",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "pilotkacap",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "policecap",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "officerhat",
+            "MaxPriceThreshold": 120,
+            "MinPriceThreshold": 108,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "flatcap_blue",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "flatcap_red",
+                "flatcap_brown",
+                "flatcap_grey",
+                "flatcap_browncheck",
+                "flatcap_greycheck",
+                "flatcap_black",
+                "flatcap_blackcheck"
+            ]
+        },
+        {
+            "ClassName": "radarcap_blue",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "radarcap_brown",
+                "radarcap_red",
+                "radarcap_black",
+                "radarcap_green"
+            ]
+        },
+        {
+            "ClassName": "radarcap_black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "radarcap_green",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_SoftCap_MC",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_Ronin_Hat",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Ronin_Hat_Black"
+            ]
+        },
+        {
+            "ClassName": "Msp_BaseballCap_Beige",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 54,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_BaseballCap_Black",
+                "Msp_BaseballCap_Blue",
+                "Msp_BaseballCap_Camo",
+                "Msp_BaseballCap_Olive",
+                "Msp_BaseballCap_Pink",
+                "Msp_BaseballCap_Red",
+                "Msp_BaseballCap_CMMG_Pink",
+                "Msp_BaseballCap_CMMG_Black"
+            ]
+        }
+    ]
+}

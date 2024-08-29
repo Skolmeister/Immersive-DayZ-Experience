@@ -1,0 +1,49 @@
+{
+    "m_Version": 12,
+    "DisplayName": "GRIPS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "TTC_AKMOD_AFG",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_DMR_AFG",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TTC_DMR_AFG_Green",
+				"TTC_DMR_AFG_Tan"
+			]
+        },
+        {
+            "ClassName": "TTC_DMR_VFG",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TTC_DMR_VFG_Green",
+				"TTC_DMR_VFG_Tan"
+			]
+        }		
+	]
+}

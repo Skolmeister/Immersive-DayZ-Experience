@@ -1,0 +1,51 @@
+    <event name="AnimalWildDog">
+        <nominal>6</nominal>
+        <min>1</min>
+        <max>5</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>350</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild1"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild2"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild3"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild4"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild5"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild6"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild7"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild8"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild9"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild10"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild11"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild12"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild13"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild14"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild15"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild16"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild17"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild18"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild19"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild20"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild21"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild22"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild23"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild24"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild25"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild26"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild27"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild28"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild29"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild30"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild31"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild32"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild33"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild34"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild35"/>
+        </children>
+    </event>

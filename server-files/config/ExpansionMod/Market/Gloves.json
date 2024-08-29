@@ -1,0 +1,273 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_GLOVES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "surgicalgloves_blue",
+            "MaxPriceThreshold": 10,
+            "MinPriceThreshold": 9,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "surgicalgloves_lightblue",
+                "surgicalgloves_green",
+                "surgicalgloves_white"
+            ]
+        },
+        {
+            "ClassName": "workinggloves_yellow",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "workinggloves_black",
+                "workinggloves_beige",
+                "workinggloves_brown"
+            ]
+        },
+        {
+            "ClassName": "workinggloves_black",
+            "MaxPriceThreshold": 160,
+            "MinPriceThreshold": 144,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "workinggloves_beige",
+            "MaxPriceThreshold": 160,
+            "MinPriceThreshold": 144,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "workinggloves_brown",
+            "MaxPriceThreshold": 160,
+            "MinPriceThreshold": 144,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "paddedgloves_brown",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "paddedgloves_beige",
+                "paddedgloves_threat"
+            ]
+        },
+        {
+            "ClassName": "leathergloves_brown",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "leathergloves_natural",
+                "leathergloves_beige",
+                "leathergloves_black"
+            ]
+        },
+        {
+            "ClassName": "tacticalgloves_black",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "tacticalgloves_beige",
+                "tacticalgloves_green",
+                "expansiontacticalglovesdesert"
+            ]
+        },
+        {
+            "ClassName": "omnogloves_gray",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "omnogloves_brown"
+            ]
+        },
+        {
+            "ClassName": "woolgloves_green",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "woolgloves_black",
+                "woolgloves_tan",
+                "woolgloves_white"
+            ]
+        },
+        {
+            "ClassName": "woolglovesfingerless_green",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "woolglovesfingerless_black",
+                "woolglovesfingerless_tan",
+                "woolglovesfingerless_white"
+            ]
+        },
+        {
+            "ClassName": "FOG_Tactical_Fingerless_Gloves_Black",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"FOG_Tactical_Fingerless_Gloves_Green",
+				"FOG_Tactical_Fingerless_Gloves_Tan",
+				"FOG_Tactical_Fingerless_Gloves_MC",
+                "FOG_Tactical_Fingerless_Gloves_Red"
+			]
+        },
+        {
+            "ClassName": "FOG_GunGloves_Tan",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_GunGloves_Grey",
+                "FOG_GunGloves_Black",
+                "FOG_GunGloves_CB",
+                "FOG_GunGloves_RG",
+                "FOG_GunGloves_MC",
+                "FOG_GunGloves_MCB",
+                "FOG_GunGloves_M81",
+                "FOG_GunGloves_AOR2"
+            ]
+        },
+        {
+            "ClassName": "FOG_FerroGloves_Tan",
+            "MaxPriceThreshold": 320,
+            "MinPriceThreshold": 288,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_FerroGloves_Grey",
+                "FOG_FerroGloves_Red",
+                "FOG_FerroGloves_Blue",
+                "FOG_FerroGloves_White",
+                "FOG_FerroGloves_White_TanTrim",
+                "FOG_FerroGloves_CB",
+                "FOG_FerroGloves_RG",
+                "FOG_FerroGloves_Black",
+                "FOG_FerroGloves_Black_WhiteTrim",
+                "FOG_FerroGloves_Black_BlueTrim",
+                "FOG_FerroGloves_Black_RedTrim",
+                "FOG_FerroGloves_Black_TanTrim",
+                "FOG_FerroGloves_MC",
+                "FOG_FerroGloves_MCB",
+                "FOG_FerroGloves_M81",
+                "FOG_FerroGloves_AJ"
+            ]
+        },
+        {
+            "ClassName": "Mass_GunMittens",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Mass_GunMittensWhite",
+                "Mass_GunMittensBlack",
+                "Mass_GunMittensRed",
+                "Mass_GunMittensBlue",
+                "Mass_GunMittensBrown",
+                "Mass_GunMittensGrey"
+            ]
+        },
+        {
+            "ClassName": "Fingerless_Gloves",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Fingerless_Gloves_Brown",
+                "Fingerless_Gloves_Wool",
+                "Fingerless_Gloves_Wool_Grey",
+                "Fingerless_Gloves_Wool_Black"
+            ]
+        },
+        {
+            "ClassName": "Msp_M_BoxingGloves_Red",
+            "MaxPriceThreshold": 460,
+            "MinPriceThreshold": 414,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_M_BoxingGloves_Black",
+                "Msp_M_BoxingGloves_Blue",
+                "Msp_M_BoxingGloves_Gold"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,696 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_DRINKS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 100.0,
+    "Items": [
+        {
+            "ClassName": "sodacan_pipsi",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DONDRINK_SlimSodaCan_PIPSI"
+            ]
+        },
+        {
+            "ClassName": "sodacan_cola",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DONDRINK_SlimSodaCan_NOTACOLA"
+            ]
+        },
+        {
+            "ClassName": "sodacan_spite",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DONDRINK_SlimSodaCan_SPITE"
+            ]
+        },
+        {
+            "ClassName": "sodacan_fronta",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "waterbottle",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionmilkbottle",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+            {
+            "ClassName": "DONDRINK_JUICEPACK_CHERRY",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONDRINK_JUICEPACK_APRICOT",
+            "DONDRINK_JUICEPACK_CRANBERRY",
+            "DONDRINK_JUICEPACK_GRAPE",
+            "DONDRINK_JUICEPACK_MANGO",
+            "DONDRINK_JUICEPACK_CHOKEBERRY"
+            ]
+        },
+        {
+            "ClassName": "DONDRINK_MONOKOBOX_BLUE",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_CAPRISUN_ORANGEANDPEACH",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_JUICEBOTTLE_ORANGE",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 54,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_HONEYBEAR",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_MILKBOTTLE_Green",
+            "MaxPriceThreshold": 60,
+            "MinPriceThreshold": 54,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONDRINK_MILKBOTTLE_Cyan",
+            "DONDRINK_MILKBOTTLE_Red",
+            "DONDRINK_MILKBOTTLE_Yellow",
+            "DONDRINK_MILKBOTTLE_Purple"
+            ]
+            },
+            {
+            "ClassName": "DONDRINK_BOTTLE_BONAQUA",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONDRINK_BOTTLE_FANTAWINTER"
+            ]
+            },
+            {
+            "ClassName": "DONDRINK_BOTTLE_FANTAWINTER",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_BOTTLE_PEPSIR",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONDRINK_BOTTLE_PEPSICHRISTMAS"
+            ]
+            },
+            {
+            "ClassName": "DONDRINK_BOTTLE_MIRINDA",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_SlimSodaCan_Springwater",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_SlimSodaCan_CoconutWater",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_SlimSodaCan_ForestBerryTea",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONDRINK_SlimSodaCan_Monoko",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+            {
+            "ClassName": "DONFOOD_SodaCan_MasterfruitCherry",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_SodaCan_MasterfruitCranberry",
+            "DONFOOD_SodaCan_MasterfruitForestberry",
+            "DONFOOD_SodaCan_MasterfruitOrange",
+            "DONFOOD_SodaCan_MasterfruitPeach",
+            "DONFOOD_SodaCan_MasterfruitPomegranate",
+            "DONFOOD_SodaCan_MasterfruitWatermelon"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_GladioMiniPearApple",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_SodaCan_GladioMiniCranberryPomegranate",
+            "DONFOOD_SodaCan_GladioMiniOrangeMango"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_NectarCarrot",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_SodaCan_NectarCherry",
+            "DONFOOD_SodaCan_NectarRaspberryApple"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_YesTeaLemon",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_SodaCan_YesTeaWildberry"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_BioSpring",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_IvanovBlackCurrant",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONFOOD_SodaCan_IvanovCranberry"
+            ]
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_FantaPeach",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_SpriteSugarFree",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_WostokPineLemonade",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_PomegranateJuice",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_MelloYello",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DONDRINK_SlimSodaCan_MelloYello"
+            ]
+        },
+        {
+            "ClassName": "MFP_MonsterEnergy",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Water1",
+            "MaxPriceThreshold": 70,
+            "MinPriceThreshold": 63,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_Water2"
+            ]
+        },
+        {
+            "ClassName": "MFP_Pepsi",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_PepsiMax"
+            ]
+        },
+        {
+            "ClassName": "MFP_ClassicCoke",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_CokeZero"
+            ]
+        },
+        {
+            "ClassName": "MFP_Unidentified",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_RootBeer",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_MtnDew",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_BajaBlast",
+                "MFP_LiveWire",
+                "MFP_CodeRed"
+            ]
+        },
+        {
+            "ClassName": "MFP_DrPepper",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_OrangeSoda",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_HappyDadLemonLime",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_HappyDadWatermelon",
+                "MFP_HappyDadPineapple",
+                "MFP_HappyDadWildCherry"
+            ]
+        },
+        {
+            "ClassName": "MFP_LaCroix",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_NitroBrew",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Starry",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_Faygo1",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_Faygo2"
+            ]
+        },
+        {
+            "ClassName": "MFP_V8Juice",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_AimSodaApple",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_AimSodaLime",
+                "MFP_AimSodaOrange"
+            ]
+        },
+        {
+            "ClassName": "MFP_ZombieDrink",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MFP_HumanDrink",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_Stalker_Energy",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+        "ClassName": "Psix_PepsiDrink",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+        "ClassName": "Psix_DriveEnegry",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_BangDrink",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_Cola",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Psix_CoolCold",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "R_Coffeepot",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "R_Coffeecup",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

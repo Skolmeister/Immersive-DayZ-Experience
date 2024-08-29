@@ -1,0 +1,112 @@
+{
+    "m_Version": 12,
+    "DisplayName": "HOLSTERS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "chestholster",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "platecarrierholster",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "platecarrierholster_green",
+                "platecarrierholster_black",
+                "platecarrierholster_camo",
+                "MilitaryGear_PlateCarrierHolster_PartizanM",
+                "MilitaryGear_PlateCarrierHolster_DPM",
+                "MilitaryGear_PlateCarrierHolster_Duckhunter",
+                "MilitaryGear_PlateCarrierHolster_FLT",
+                "MilitaryGear_PlateCarrierHolster_MPAT",
+                "MilitaryGear_PlateCarrierHolster_Multicam",
+                "MilitaryGear_PlateCarrierHolster_Partizan",
+                "MilitaryGear_PlateCarrierHolster_Skol",
+                "MilitaryGear_PlateCarrierHolster_Splinter",
+                "MilitaryGear_PlateCarrierHolster_Splinter_Dark",
+                "MilitaryGear_PlateCarrierHolster_Tiger",
+                "MilitaryGear_PlateCarrierHolster_Woodland",
+                "MilitaryGear_PlateCarrierHolster_ATACS",
+                "MilitaryGear_PlateCarrierHolster_CADPAT",
+                "MilitaryGear_PlateCarrierHolster_Tropic",
+                "MilitaryGear_PlateCarrierHolster_Yeger",
+                "MassPlateCarrierHolster_Black",
+                "MassPlateCarrierHolster_PartizanM",
+                "MassPlateCarrierHolster_Winter",
+                "MassPlateCarrierHolster_ODG"
+            ]
+        },
+        {
+            "ClassName": "nylonknifesheath",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 225,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+		{
+            "ClassName": "FOG_RTGFB_Holster_Black",
+            "MaxPriceThreshold": 700,
+            "MinPriceThreshold": 630,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"FOG_RTGFB_Holster_Tan",
+				"FOG_RTGFB_Holster_MC",
+				"FOG_RTGFB_Holster_RG",
+				"FOG_RTGFB_Holster_ALP"
+			]
+        },
+        {
+            "ClassName": "FOG_SAS_Holster_Black",
+            "MaxPriceThreshold": 700,
+            "MinPriceThreshold": 630,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_SAS_Holster_Tan",
+                "FOG_SAS_Holster_RG",
+                "FOG_SAS_Holster_CB",
+                "FOG_SAS_Holster_MC",
+                "FOG_SAS_Holster_MCB",
+                "FOG_SAS_Holster_M81"
+    		]
+        },
+        {
+            "ClassName": "Tactical_Leg_Holster_Black",
+                "MaxPriceThreshold": 950,
+                "MinPriceThreshold": 855,
+                "SellPricePercent": -1.0,
+                "MaxStockThreshold": 100,
+                "MinStockThreshold": 1,
+                "QuantityPercent": -1,
+                "SpawnAttachments": [],
+                "Variants": []
+        }
+    ]
+}

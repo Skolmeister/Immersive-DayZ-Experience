@@ -1,0 +1,84 @@
+{
+    "m_Version": 12,
+    "DisplayName": "FLASKS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "canteen",
+            "MaxPriceThreshold": 360,
+            "MinPriceThreshold": 324,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "DONDRINK_SPORTBOTTLE_RED",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONDRINK_SPORTBOTTLE_BLUE",
+            "DONDRINK_SPORTBOTTLE_GREEN",
+            "DONDRINK_SPORTBOTTLE_PINK",
+            "DONDRINK_SPORTBOTTLE_YELLOW"
+            ]
+        },
+        {
+            "ClassName": "DONDRINK_CANTEEN_GREEN",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "DONDRINK_CANTEEN_GREY",
+            "DONDRINK_CANTEEN_TAN"
+            ]
+            },
+            {
+            "ClassName": "DONDRINK_FLASK_GAMBLER",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+            },
+        {
+            "ClassName": "MFP_HFlask_Base",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MFP_HFlask_Royal",
+                "MFP_HFlask_Carmine",
+                "MFP_HFlask_Solar",
+                "MFP_HFlask_Coral",
+                "MFP_HFlask_Lavender",
+                "MFP_HFlask_Lime",
+                "MFP_HFlask_Slate",
+                "MFP_HFlask_Midnight",
+                "MFP_HFlask_Stickers",
+                "MFP_HFlask_XMen"
+            ]
+        }
+    ]
+}

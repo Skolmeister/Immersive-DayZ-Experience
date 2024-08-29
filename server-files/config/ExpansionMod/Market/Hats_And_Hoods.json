@@ -1,0 +1,435 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_HATS & #STR_EXPANSION_MARKET_CATEGORY_HOODS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "medicalscrubshat_blue",
+            "MaxPriceThreshold": 15,
+            "MinPriceThreshold": 13,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "medicalscrubshat_white",
+                "medicalscrubshat_green"
+            ]
+        },
+        {
+            "ClassName": "cowboyhat_brown",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "cowboyhat_black",
+                "cowboyhat_darkbrown",
+                "cowboyhat_green",
+                "expansioncowboyhatgator",
+                "expansioncowboyhatsnake",
+                "expansioncowboyhatrattlesnake",
+                "MassHuntingCowboyhat",
+                "MassCowboyHat_White"
+            ]
+        },
+        {
+            "ClassName": "militaryberet_chdkz",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "militaryberet_red",
+                "militaryberet_un",
+                "militaryberet_cdf",
+                "militaryberet_nz"
+            ]
+        },
+        {
+            "ClassName": "militaryberet_cdf",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "militaryberet_nz",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "beaniehat_pink",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "beaniehat_beige",
+                "beaniehat_blue",
+                "beaniehat_brown",
+                "beaniehat_grey",
+                "beaniehat_red",
+                "beaniehat_black",
+                "beaniehat_green"
+            ]
+        },
+        {
+            "ClassName": "beaniehat_black",
+            "MaxPriceThreshold": 120,
+            "MinPriceThreshold": 108,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "beaniehat_green",
+            "MaxPriceThreshold": 120,
+            "MinPriceThreshold": 108,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MilitaryGear_Beanie_PartizanM",
+                "MilitaryGear_Beanie_Duckhunter",
+                "MilitaryGear_Beanie_Multicam",
+                "MilitaryGear_Beanie_Splinter",
+                "MilitaryGear_Beanie_Splinter_Dark",
+                "MilitaryGear_Beanie_Tiger",
+                "MilitaryGear_Beanie_Woodland",
+                "MilitaryGear_Beanie_FLT",
+                "MilitaryGear_Beanie_DPM",
+                "MilitaryGear_Beanie_MPAT",
+                "MilitaryGear_Beanie_Partizan",
+                "MilitaryGear_Beanie_Skol",
+                "MilitaryGear_Beanie_ATACS",
+                "MilitaryGear_Beanie_CADPAT",
+                "MilitaryGear_Beanie_Tropic",
+                "MilitaryGear_Beanie_Yeger"
+            ]
+        },
+        {
+            "ClassName": "ushanka_black",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ushanka_blue",
+                "ushanka_green",
+                "MassBeigeUshanka"
+            ]
+        },
+        {
+            "ClassName": "ushanka_green",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "zmijovkacap_blue",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "zmijovkacap_brown",
+                "zmijovkacap_red",
+                "zmijovkacap_black",
+                "zmijovkacap_green"
+            ]
+        },
+        {
+            "ClassName": "zmijovkacap_black",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "zmijovkacap_green",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "booniehat_blue",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "booniehat_navyblue",
+                "booniehat_orange",
+                "booniehat_red",
+                "booniehat_black",
+                "booniehat_tan",
+                "booniehat_olive",
+                "booniehat_dpm",
+                "booniehat_dubok",
+                "booniehat_flecktran",
+                "MilitaryGear_BoonieHat_PartizanM",
+                "MilitaryGear_BoonieHat_Duckhunter",
+                "MilitaryGear_BoonieHat_Multicam",
+                "MilitaryGear_BoonieHat_Splinter",
+                "MilitaryGear_BoonieHat_Splinter_Dark",
+                "MilitaryGear_BoonieHat_Tiger",
+                "MilitaryGear_BoonieHat_Woodland",
+                "MilitaryGear_BoonieHat_FLT",
+                "MilitaryGear_BoonieHat_DPM",
+                "MilitaryGear_BoonieHat_MPAT",
+                "MilitaryGear_BoonieHat_Partizan",
+                "MilitaryGear_BoonieHat_Skol",
+                "MilitaryGear_BoonieHat_ATACS",
+                "MilitaryGear_BoonieHat_CADPAT",
+                "MilitaryGear_BoonieHat_Tropic",
+                "MilitaryGear_BoonieHat_Yeger",
+                "MasscamoBooniehat"
+            ]
+        },
+        {
+            "ClassName": "booniehat_black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "booniehat_tan",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "booniehat_olive",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "booniehat_dpm",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "booniehat_dubok",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "booniehat_flecktran",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_Boonie_MC",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Boonie_MCB",
+                "FOG_Boonie_AOR1",
+                "FOG_Boonie_AOR2",
+                "FOG_Boonie_M81",
+                "FOG_Boonie_Black",
+                "FOG_Boonie_Grey",
+                "FOG_Boonie_Khk",
+                "FOG_Boonie_RG",
+                "FOG_Boonie_CB"
+            ]
+        },
+        {
+            "ClassName": "OKZKCap_Beige",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 135,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "OKZKCap_Green"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Hat_Base",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 225,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MassWinterHuntingHood",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MassFedora_White",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MassFedora_Black",
+                "MassFedora_Pink",
+                "MassFedora_Yellow",
+                "MassFedora_Red",
+                "MassFedora_Blue",
+                "MassFedora_Grey",
+                "MassFedora_Brown",
+                "MassFedora_Beige"
+            ]
+        },
+        {
+            "ClassName": "Slouch_Hat_Brown",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Trapper_Hat_Black",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Trapper_Hat_Red_Checkered",
+                "Trapper_Hat_Camo_Mossy_Oak"
+            ]
+        },
+        {
+            "ClassName": "Msp_Slouchie_Beige",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_Slouchie_Black",
+                "Msp_Slouchie_Blue",
+                "Msp_Slouchie_Red"
+            ]
+        },
+        {
+            "ClassName": "chainmail_coif",
+            "MaxPriceThreshold": 900,
+            "MinPriceThreshold": 810,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

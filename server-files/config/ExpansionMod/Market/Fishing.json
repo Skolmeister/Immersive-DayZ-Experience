@@ -1,0 +1,185 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_FISHING",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "worm",
+            "MaxPriceThreshold": 5,
+            "MinPriceThreshold": 4,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "bonehook",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 18,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "hook",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fishingrod",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FC_FishingRod_Wooden_Blue",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red"
+            ]
+        },
+        {
+            "ClassName": "FC_FishingRod_Plastic_Blue",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Hook_Red",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 72,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_Fish_Hook_Blue",
+                "FC_Fish_Hook_Green",
+                "FC_Fish_Hook_Yellow"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Lure_1_1",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_Fish_Lure_1_2",
+                "FC_Fish_Lure_1_3",
+                "FC_Fish_Lure_1_4",
+                "FC_Fish_Lure_1_5",
+                "FC_Fish_Lure_1_6"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Lure_2_1",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FC_Fish_Lure_2_2",
+                "FC_Fish_Lure_2_3"
+            ]
+        },
+        {
+            "ClassName": "FC_Fish_Lure_3_1",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FC_Fish_Lure_4_1",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FC_Fish_Lure_5_1",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FC_Fish_Lure_6_1",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 90,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FC_Fish_Lure_Case",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

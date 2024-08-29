@@ -1,0 +1,179 @@
+{
+    "IsActive": 1,
+    "g_AlcoholicDrinks": [
+        {
+            "className": "SodaCan_Kvass",
+            "multiplier": 1.0
+        },
+        {
+            "className": "DONDRINK_SlimSodaCan_KVASS",
+            "multiplier": 1.0
+        },
+        {
+            "className": "DisinfectantAlcohol",
+            "multiplier": 2.5
+        }
+    ],
+    "g_AlcoholicLiquids": [
+        {
+            "className": "Beer",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "Vodka",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "MFP_BasicBeer",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "MFP_LiteBeer",
+            "type": 4096,
+            "multiplier": 0.5
+        },
+        {
+            "className": "MFP_IPABeer",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "MFP_TropicalBeer",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "MFP_Pilsner",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "MFP_Guinness",
+            "type": 4096,
+            "multiplier": 1.5
+        },
+        {
+            "className": "MFP_DuffBeer",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "MFP_BudLight",
+            "type": 4096,
+            "multiplier": 0.5
+        },
+        {
+            "className": "MFP_BuschLight",
+            "type": 4096,
+            "multiplier": 0.5
+        },
+        {
+            "className": "DONFOOD_SodaCan_BaltikaDarkLager",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "DONFOOD_SodaCan_ZhigulyovskoyeLager",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "DONFOOD_SodaCan_ArsenalnoeKlassicheskoe",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "DONFOOD_SodaCan_ArsenalnoeTraditsionnoe",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "DONDRINK_BEER_GREEN",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "DONDRINK_WINEBOTTLE_SANGRIA",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "DONFOOD_Vodka_PLACEHOLDER",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "DONDRINK_WINEBOTTLE_QUEENOFNIGHT",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "DONDRINK_WINEBOTTLE_RUSSKAYALOZA",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "DONDRINK_WINEBOTTLE_SUNVALLEY",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "DONDRINK_WINEBOTTLE_ALMATY",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "DONDRINK_MULLEDWINE",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "Psix_Drink_JackDaniels",
+            "type": 2048,
+            "multiplier": 2.0
+        },
+        {
+            "className": "Psix_Amsterdam_Beer",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "Psix_Heineken_Beer",
+            "type": 4096,
+            "multiplier": 0.5
+        },
+        {
+            "className": "Psix_Barnoe_Beer",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "Psix_Jigulevskoe",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "Psix_Baltika",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "Psix_Jigul1978",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "Psix_Mochakovo",
+            "type": 4096,
+            "multiplier": 1.0
+        },
+        {
+            "className": "MFP_BLueRibbonBeer",
+            "type": 4096,
+            "multiplier": 1.0
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+
+	<Category> Рыболовные принадлежности / Fishing accessories
+		FC_Fish_Bag,				*,		20,		5
+		FC_Fish_Hat_Base,			*,		20,		5
+		FC_Fish_Lure_Case,			*,		10,		5
+		FC_Fish_Lure_Can,			*,		10,		5
+		FC_Fish_Cooler_50,			*,		10,		5
+		FC_Fish_Cooler_100,			*,		10,		5
+		FC_Fish_Cooler_300,			*,		10,		5
+		FC_Fish_Tent_Bag_Green,		*,		10,		5
+		FC_Fish_Tent_Bag_Blue,		*,		10,		5
+		FC_Fish_Lure_1_1,			*,		10,		5
+		FC_Fish_Lure_1_2,			*,		10,		5
+		FC_Fish_Lure_1_3,			*,		10,		5
+		FC_Fish_Lure_1_4,			*,		10,		5
+		FC_Fish_Lure_1_5,			*,		10,		5
+		FC_Fish_Lure_1_6,			*,		10,		5
+		FC_Fish_Lure_2_1,			*,		10,		5
+		FC_Fish_Lure_2_2,			*,		10,		5
+		FC_Fish_Lure_2_3,			*,		10,		5
+		FC_Fish_Lure_3_1,			*,		10,		5
+		FC_Fish_Lure_4_1,			*,		10,		5
+		FC_Fish_Lure_5_1,			*,		10,		5
+		FC_Fish_Lure_6_1,			*,		10,		5
+		FC_Fish_Hook_Blue,			*,		10,		5
+		FC_Fish_Hook_Green,			*,		10,		5
+		FC_Fish_Hook_Yellow,		*,		10,		5
+		FC_Fish_Hook_Red,			*,		10,		5
+		
+		//UPDATE 09.08.2023
+		FC_Fish_Bag_Black,			*,		20,		5
+		FC_Fish_Bag_Green,			*,		20,		5
+		FC_Spraycan_Black,			*,		10,		5
+		FC_Spraycan_Green,			*,		10,		5
+		FC_Fish_Tent_Bag_Big_Camo,	*,		10,		5
+		FC_Fish_Tent_Bag_Big_Yellow,	*,		10,		5
+		FC_Fish_Tent_Bag_Big_Green,	*,		10,		5
+		FC_Fish_Tent_Bag_Big_Blue,	*,		10,		5
+		FC_Fish_Tent_Bag_Big_Black,	*,		10,		5
+		FC_Fish_Tent_Bag_Big_Grey,	*,		10,		5
+		
+		//UPDATE 16.01.2024
+		FC_FishingRod_Wooden_Blue,			*,		20,		5
+		FC_FishingRod_Wooden_Green,			*,		20,		5
+		FC_FishingRod_Wooden_Yellow,		*,		20,		5
+		FC_FishingRod_Wooden_Red,			*,		20,		5
+		FC_FishingRod_Plastic_Blue,			*,		20,		5
+		FC_FishingRod_Plastic_Green,		*,		20,		5
+		FC_FishingRod_Plastic_Yellow,		*,		20,		5
+		FC_FishingRod_Plastic_Red,			*,		20,		5
+		
+	<Category> Рыба / Fish
+		FC_Fish_Other_Krill,		S,		10,		5
+		FC_Fish_Other_Seastar,		S,		10,		5
+		FC_Fish_Other_Shell1,		S,		10,		5
+		FC_Fish_Other_Shell2,		S,		10,		5
+		FC_Fish_Other_Shell3,		S,		10,		5
+		FC_Fish_Other_Skeleton,		S,		10,		5
+		FC_Fish_Other_Cucumber,		S,		10,		5
+		FC_Fish_Bocachico,			S,		10,		5
+		FC_Fish_Carp,				S,		10,		5
+		FC_Fish_Snapper,			S,		10,		5
+		FC_Fish_Anchous,			S,		10,		5
+		FC_Fish_Angel,				S,		10,		5
+		FC_Fish_Butterfly,			S,		10,		5
+		FC_Fish_Scalar,				S,		10,		5
+		FC_Fish_Other_Seastar,		S,		10,		5
+		FC_Fish_Clown,				S,		10,		5
+		FC_Fish_Barracuda,			S,		10,		5
+		FC_Fish_Blow,				S,		10,		5
+		FC_Fish_Sunfish,			S,		10,		5
+		FC_Fish_Mojarra,			S,		10,		5
+		FC_Fish_Pearlscale,			S,		10,		5
+		FC_Fish_Pirahna,			S,		10,		5
+		FC_Fish_Plecostomus,		S,		10,		5
+		FC_Fish_Catfish,			S,		10,		5
+		FC_Fish_Demon,				S,		10,		5
+		FC_Fish_Forel,				S,		10,		5
+		FC_Fish_Sword,				S,		10,		5
+		FC_Fish_Shark_Corrupted,	S,		10,		5
+		FC_Fish_Shark_Hammer,		S,		10,		5
+		FC_Fish_Shark_Saw,			S,		10,		5
+		FC_Fish_Shark_Whale,		S,		10,		5
+		FC_Fish_Shark_White,		S,		10,		5
+		FC_Fish_Stigray,			S,		10,		5
+		FC_Fish_Angelfish,			S,		10,		5
+		
+		//UPDATE 09.08.2023
+		FC_Fish_Bluegill,		S,		10,		5
+		FC_Fish_Rouch,			S,		10,		5
+		FC_Fish_Gold,			S,		10,		5
+		FC_Fish_Perch,			S,		10,		5
+		FC_Fish_PerchBass,		S,		10,		5
+		FC_Fish_PerchRed,		S,		10,		5
+		FC_Fish_Pike,			S,		10,		5
+		FC_Fish_Sturgeon,		S,		10,		5
+		
+		//UPDATE 16.01.2024
+		FC_Fish_Pikeperch,			S,		10,		5
+
+	<Category> Мясо / Meat
+		FC_Fish_Fillet_Carp,		S,		10,		5
+		FC_Fish_Fillet_Demon,		S,		10,		5
+		FC_Fish_Fillet_Mojarra,		S,		10,		5
+		FC_Fish_Fillet_Snapper,		S,		10,		5
+		FC_Fish_Fillet_Angel,		S,		10,		5
+		FC_Fish_Fillet_Butterfly,	S,		10,		5
+		FC_Fish_Fillet_Pirahna,		S,		10,		5
+		FC_Fish_Fillet_Scalar,		S,		10,		5
+		FC_Fish_Fillet_Anchous,		S,		10,		5
+		FC_Fish_Fillet_Clown,		S,		10,		5
+		FC_Fish_Piece_Shark,		S,		10,		5
+		FC_Fish_Piece_Angelfish,	S,		10,		5
+		FC_Fish_Piece_Blow,			S,		10,		5
+		FC_Fish_Piece_Pearlscale,	S,		10,		5
+		FC_Fish_Piece_Plecostomus,	S,		10,		5
+		FC_Fish_Piece_Sunfish,		S,		10,		5
+		FC_Fish_Piece_Corrupted,	S,		10,		5
+		FC_Fish_Piece_Stigray,		S,		10,		5
+		FC_Fish_Steak_Barracuda,	S,		10,		5
+		FC_Fish_Steak_Bocachico,	S,		10,		5
+		FC_Fish_Steak_Catfish,		S,		10,		5
+		FC_Fish_Steak_Forel,		S,		10,		5
+		FC_Fish_Steak_Sword,		S,		10,		5
+		
+		//UPDATE 09.08.2023
+		FC_Fish_Fillet_Bluegill,	S,		10,		5
+		FC_Fish_Fillet_Rouch,		S,		10,		5
+		FC_Fish_Fillet_Perch,		S,		10,		5
+		FC_Fish_Fillet_PerchRed,	S,		10,		5
+		FC_Fish_Piece_PerchBass,	S,		10,		5
+		FC_Fish_Steak_Pike,			S,		10,		5
+		FC_Fish_Steak_Sturgeon,		S,		10,		5
+		
+		//UPDATE 16.01.2024
+		FC_Fish_Steak_Pikeperch,	S,		10,		5
+		
+	<Category> Трофеи / Trophy
+		FC_Fish_Trophy_S_Empty,				*,		20,		5
+		FC_Fish_Trophy_S_Anchous,			*,		20,		5
+		FC_Fish_Trophy_S_Angel,				*,		20,		5
+		FC_Fish_Trophy_S_Butterfly,			*,		20,		5
+		FC_Fish_Trophy_S_Clown,				*,		20,		5
+		FC_Fish_Trophy_S_Pirahna,			*,		20,		5
+		FC_Fish_Trophy_S_Scalar,			*,		20,		5
+		FC_Fish_Trophy_S_Sunfish,			*,		20,		5
+		FC_Fish_Trophy_M_Empty,				*,		20,		5
+		FC_Fish_Trophy_M_Blow,				*,		20,		5
+		FC_Fish_Trophy_M_Bocachico,			*,		20,		5
+		FC_Fish_Trophy_M_Carp,				*,		20,		5
+		FC_Fish_Trophy_M_Demon,				*,		20,		5
+		FC_Fish_Trophy_M_Mojarra,			*,		20,		5
+		FC_Fish_Trophy_M_Pearlscale,		*,		20,		5
+		FC_Fish_Trophy_M_Snapper,			*,		20,		5
+		FC_Fish_Trophy_L_Empty,				*,		20,		5
+		FC_Fish_Trophy_L_Angelfish,			*,		20,		5
+		FC_Fish_Trophy_L_Barracuda,			*,		20,		5
+		FC_Fish_Trophy_L_Catfish,			*,		20,		5
+		FC_Fish_Trophy_L_Corrupted,			*,		20,		5
+		FC_Fish_Trophy_L_Forel,				*,		20,		5
+		FC_Fish_Trophy_L_Hammer,			*,		20,		5
+		FC_Fish_Trophy_L_Plecostomus,		*,		20,		5
+		FC_Fish_Trophy_L_Saw,				*,		20,		5
+		FC_Fish_Trophy_L_Sword,				*,		20,		5
+		FC_Fish_Trophy_L_Whale,				*,		20,		5
+		FC_Fish_Trophy_L_White,				*,		20,		5
+		
+		//UPDATE 09.08.2023
+		FC_Fish_Trophy_S_Gold,		*,		20,		5
+		FC_Fish_Trophy_M_Bluegill,	*,		20,		5
+		FC_Fish_Trophy_M_Perch,		*,		20,		5
+		FC_Fish_Trophy_M_PerchRed,	*,		20,		5
+		FC_Fish_Trophy_M_Rouch,		*,		20,		5
+		FC_Fish_Trophy_L_PerchBass,	*,		20,		5
+		FC_Fish_Trophy_L_Pike,		*,		20,		5
+		FC_Fish_Trophy_L_Sturgeon,	*,		20,		5
+		
+		//UPDATE 16.01.2024
+		FC_Fish_Trophy_L_Pikeperch,	*,		20,		5
+		FC_Fish_Trophy_M_CarpV,		*,		20,		5
+		FC_Fish_Trophy_M_Mackerel,	*,		20,		5
+		
+	<Category> Консервация / Conservation
+		FC_Conservator,					*,		20,		5
+		FC_Conserv_Can_Empty,			*,		20,		5
+		
+		FC_Conserv_Angel_Closed,		*,		20,		5
+		FC_Conserv_Anchous_Closed,		*,		20,		5
+		FC_Conserv_Angelfish_Closed,	*,		20,		5
+		FC_Conserv_Barracuda_Closed,	*,		20,		5
+		FC_Conserv_Blow_Closed,			*,		20,		5
+		FC_Conserv_Bluegill_Closed,		*,		20,		5
+		FC_Conserv_Bocachico_Closed,	*,		20,		5
+		FC_Conserv_Rouch_Closed,		*,		20,		5
+		FC_Conserv_Butterfly_Closed,	*,		20,		5
+		FC_Conserv_Carp_Closed,			*,		20,		5
+		FC_Conserv_Catfish_Closed,		*,		20,		5
+		FC_Conserv_Clown_Closed,		*,		20,		5
+		FC_Conserv_Demon_Closed,		*,		20,		5
+		FC_Conserv_Forel_Closed,		*,		20,		5
+		FC_Conserv_Mojarra_Closed,		*,		20,		5
+		FC_Conserv_Perch_Closed,		*,		20,		5
+		FC_Conserv_PerchBass_Closed,	*,		20,		5
+		FC_Conserv_PerchRed_Closed,		*,		20,		5
+		FC_Conserv_Pearlscale_Closed,	*,		20,		5
+		FC_Conserv_Pirahna_Closed,		*,		20,		5
+		FC_Conserv_Plecostomus_Closed,	*,		20,		5
+		FC_Conserv_Scalar_Closed,		*,		20,		5
+		FC_Conserv_Snapper_Closed,		*,		20,		5
+		FC_Conserv_Sunfish_Closed,		*,		20,		5
+		FC_Conserv_Corrupted_Closed,	*,		20,		5
+		FC_Conserv_Sword_Closed,		*,		20,		5
+		FC_Conserv_Stigray_Closed,		*,		20,		5
+		FC_Conserv_Shark_Closed,		*,		20,		5
+		FC_Conserv_Sturgeon_Closed,		*,		20,		5
+		FC_Conserv_Mackerel_Closed,		*,		20,		5
+		FC_Conserv_Pike_Closed,			*,		20,		5
+		FC_Conserv_Pikeperch_Closed,	*,		20,		5

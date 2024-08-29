@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <type name="wt_smoke_tabak_bag">
+        <nominal>10</nominal>
+        <lifetime>3600</lifetime>
+        <restock>280</restock>
+        <min>4</min>
+        <quantmin>25</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>	
+    </type>
+    <type name="wt_smoke_matchbox">
+        <nominal>10</nominal>
+        <lifetime>140</lifetime>
+        <restock>280</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>		
+    </type>
+    <type name="wt_smoke_matchbox_01">
+        <nominal>10</nominal>
+        <lifetime>140</lifetime>
+        <restock>280</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>	
+        <usage name="Farm"/>
+        <usage name="Village"/>		
+    </type>
+    <type name="wt_smoke_matchbox_02">
+        <nominal>10</nominal>
+        <lifetime>140</lifetime>
+        <restock>280</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>	
+		<usage name="Farm"/>
+        <usage name="Village"/>
+    </type>
+    <type name="wt_stakan_vodka_glass_A">
+        <nominal>0</nominal>
+        <lifetime>140</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>	
+		<usage name="Farm"/>
+        <usage name="Village"/>
+    </type>
+    <type name="wt_stakan_vodka_glass">
+        <nominal>0</nominal>
+        <lifetime>2800</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="wt_stakan_vodka_glass">
+        <nominal>0</nominal>
+        <lifetime>2800</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="wt_smoke_tabak_paper">
+        <nominal>40</nominal>
+        <lifetime>3600</lifetime>
+        <restock>280</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Hunting"/>	
+		<usage name="Farm"/>
+        <usage name="Village"/>		
+    </type>
+    <type name="wt_smoke_tabak_paper_02">
+        <nominal>40</nominal>
+        <lifetime>3600</lifetime>
+        <restock>280</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Hunting"/>	
+		<usage name="Farm"/>
+        <usage name="Village"/>		
+    </type>
+    <type name="wt_smoke_tabak_paper_03">
+        <nominal>40</nominal>
+        <lifetime>3600</lifetime>
+        <restock>280</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Hunting"/>	
+		<usage name="Farm"/>
+        <usage name="Village"/>		
+    </type>
+    <type name="wt_smoke_cigarpack_kosmos">
+        <nominal>10</nominal>
+        <lifetime>2800</lifetime>
+        <restock>2800</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>	
+        <value name="Tier3"/>
+        <value name="Tier2"/>		
+    </type>
+    <type name="wt_smoke_cigarpack_camal">
+        <nominal>10</nominal>
+        <lifetime>2800</lifetime>
+        <restock>2800</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>	
+        <value name="Tier3"/>
+        <value name="Tier2"/>		
+    </type>
+    <type name="wt_smoke_cigarpack_mallabro">
+        <nominal>10</nominal>
+        <lifetime>2800</lifetime>
+        <restock>2800</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>	
+        <value name="Tier3"/>
+        <value name="Tier2"/>		
+    </type>
+    <type name="wt_smoke_cigarpack_magma">
+        <nominal>10</nominal>
+        <lifetime>2800</lifetime>
+        <restock>2800</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>	
+        <value name="Tier3"/>
+        <value name="Tier2"/>		
+    </type>
+    <type name="wt_smoke_cigarpack_ronin">
+        <nominal>10</nominal>
+        <lifetime>2800</lifetime>
+        <restock>2800</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>	
+        <value name="Tier3"/>
+        <value name="Tier2"/>		
+    </type>
+    <type name="wt_smoke_cigarette">
+        <nominal>0</nominal>
+        <lifetime>280</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="wt_smoke_cigarette_gazette">
+        <nominal>0</nominal>
+        <lifetime>280</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="Empty_wt_smok_cigare">
+        <nominal>0</nominal>
+        <lifetime>280</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="Empty_wt_smok_cigare_gazett">
+        <nominal>0</nominal>
+        <lifetime>280</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="wt_smok_tabak">
+        <nominal>0</nominal>
+        <lifetime>280</lifetime>
+        <restock>280</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+</types>

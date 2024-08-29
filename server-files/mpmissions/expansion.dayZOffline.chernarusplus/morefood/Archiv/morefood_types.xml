@@ -1,0 +1,3251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 
+╔═════════════════════════════════════════════════════════╗
+║		 	    MoreFood Types.xml Template				  ║
+║	╔═════════════════════════════════════════════════╗	  ║
+║	║ 									 			  ║	  ║
+║	║ 		  		Rewritten & Edited		 		  ║	  ║
+║	║		  						     			  ║	  ║
+║	║	      	07.11.2020			By Ace ©®	 	  ║	  ║
+║	║									 			  ║	  ║
+║	║									 			  ║	  ║
+║	╚═════════════════════════════════════════════════╝	  ║
+║											 			  ║
+╚═════════════════════════════════════════════════════════╝
+╔═════════════════════════════════════════════════════════╗
+║					     SUMMARY			  	  	 	  ║
+║	╔═════════════════════════════════════════════════╗	  ║
+║	║    DO IT YOURSELF EAZY, USE SEARCHFUNCTION!	  ║	  ║
+║	║ WRITE THE SECTION NAMES ALL IN CAPITAL LETTERS! ║	  ║
+║	║        BY DOING SO: SODA, WINE, CANS, etc.	  ║	  ║
+║	║									  			  ║	  ║
+║	║═════════════════════════════════════════════════║	  ║
+║	║				  MORE FOOD MOD		  		      ║	  ║
+║	║═════════════════════════════════════════════════║	  ║
+║	║									  			  ║	  ║
+║	║ ALL DRINKS									  ║	  ║
+║	║- Soda 										  ║	  ║
+║	║- Soda Bottles								  	  ║	  ║
+║	║- Juice Packs									  ║	  ║
+║	║- Wine							  			  	  ║	  ║
+║	║- Milk									  		  ║	  ║
+║	║									  			  ║	  ║
+║	║									  			  ║	  ║
+║	║ ALL FOOD 	 								      ║	  ║
+║	║- Cans 										  ║	  ║
+║	║- Packaged									  	  ║	  ║
+║	║- Bread Stuff									  ║	  ║
+║	║- Candy Stuff		  						  	  ║	  ║
+║	║- Salty Stuff		  						  	  ║	  ║
+║	║						 			 			  ║	  ║
+║	║						 			 			  ║	  ║
+║	║ CONTAINERS									  ║	  ║
+║	║- Drinking Containers							  ║	  ║
+║	║- Food Containers								  ║	  ║
+║	║- Backpacks 		  						  	  ║	  ║
+║	║						  						  ║	  ║
+║	║						  						  ║	  ║
+║	╚═════════════════════════════════════════════════╝	  ║
+║												 		  ║
+╚═════════════════════════════════════════════════════════╝
+-->
+<!-- 
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+╬	■■■	  ►   MORE FOOD MOD	 ◄	 ■■■	         																								 ╬
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+-->
+<!-- 
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+╬	■■■	  ► ALL DRINKS  ◄	 ■■■		         																								 ╬
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+-->
+<!-- 
+╔══════════════════════════════════╗
+╬		►  MORE FOOD SODA  ◄	   ╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+<types>
+	<type name="DONFOOD_SodaCan_ArsenalnoeKlassicheskoe">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_ArsenalnoeTraditsionnoe">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_BaltikaDarkLager">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_BioSpring">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_FantaPeach">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_GladioMiniOrangeMango">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_GladioMiniPearApple">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_IvanovBlackCurrant">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_IvanovCranberry">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MasterfruitCherry">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MasterfruitCranberry">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MasterfruitForestberry">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MasterfruitOrange">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MasterfruitPeach">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MasterfruitPomegranate">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MasterfruitWatermelon">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_NectarCarrot">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_NectarCherry">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_NectarRaspberryApple">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_PomegranateJuice">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_SpriteSugarFree">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_YesTeaLemon">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_YesTeaWildberry">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_ZhigulyovskoyeLager">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_WostokPineLemonade">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_SodaCan_MelloYello">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_Springwater">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_CoconutWater">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_ForestBerryTea">
+		<nominal>30</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_MelloYello">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_Monoko">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_KVASS">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_NOTACOLA">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>		
+	<type name="DONDRINK_SlimSodaCan_PIPSI">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SlimSodaCan_SPITE">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_TEABOX_INDIAN">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_BEER_GREEN">
+		<nominal>30</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_FLASK_GAMBLER">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>	
+<!-- 
+╔══════════════════════════════════╗
+╬	►  MORE FOOD SODA BOTTLES ◄	   ╬										  
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+    <type name="DONDRINK_BOTTLE_BONAQUA">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONDRINK_BOTTLE_FANTAWINTER">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONDRINK_BOTTLE_MIRINDA">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONDRINK_BOTTLE_PEPSICHRISTMAS">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONDRINK_BOTTLE_PEPSIR">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="DONDRINK_JUICEBOTTLE_ORANGE">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>	
+<!-- 
+╔══════════════════════════════════╗
+╬		►  MORE JUICEPACKS ◄	   ╬										  
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="DONDRINK_JUICEPACK_CHERRY">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="ONDRINK_JUICEPACK_APRICOT">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_JUICEPACK_CRANBERRY">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_JUICEPACK_GRAPE">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_JUICEPACK_MANGO">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_JUICEPACK_CHOKEBERRY">
+		<nominal>30</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_MONOKOBOX_BLUE">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_CAPRISUN_ORANGEANDPEACH">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>	
+<!-- 
+╔══════════════════════════════════╗
+╬		►  MORE FOOD WINE  ◄	   ╬										  
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+    <type name="DONDRINK_WINEBOTTLE_SANGRIA">
+        <nominal>10</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+    <type name="DONDRINK_WINEBOTTLE_QUEENOFNIGHT">
+        <nominal>10</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>    
+	<type name="DONDRINK_WINEBOTTLE_RUSSKAYALOZA">
+        <nominal>10</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>    
+	<type name="DONDRINK_WINEBOTTLE_SUNVALLEY">
+        <nominal>10</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>    
+	<type name="DONDRINK_WINEBOTTLE_ALMATY">
+        <nominal>10</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONDRINK_MULLEDWINE">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>		
+<!-- 
+╔══════════════════════════════════╗
+╬		►  MORE FOOD MILK ◄	  	   ╬										  
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="DONDRINK_MILKBOTTLE_Green">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONDRINK_MILKBOTTLE_Cyan">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONDRINK_MILKBOTTLE_Red">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONDRINK_MILKBOTTLE_Yellow">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONDRINK_MILKBOTTLE_Purple">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+<!-- 
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+╬	■■■	  ► ALL FOOD  ◄	 ■■■		         																								 	 ╬										  
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+-->	
+<!-- 
+╔══════════════════════════════════╗
+╬		►  MORE FOOD CANS ◄	  	   ╬										  
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="DONFOOD_CAN_BLUEBERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_SURSTROMMING">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHERARMYCANDY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_RUSBFBF">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BAKEDMEATBALL">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_STEAMBEEF">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHCORBEEF">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BABAGHANOUSH">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_RICEPUDDING">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHIPSINDCUR">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHIPSPAPRI">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_POPCORNSALT">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHERARMYNO12">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHERARMYNO23">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_MONOKO">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BLACKBERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BOYSENBERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_GOOSEBERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_LIGHTSWEETCHERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_MIXEDBERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_PLUM">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_REDRASPBERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_REDTARTCHERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ROYALANNACHERRY">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_THOMPSONGRAPES">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_FRIEDCHICKEN">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZSPAGHETTICHEESE">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZBBQBEANS">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZBOLDSPICYBEANS">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSPEPPERPOT">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BLUEBERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_SURSTROMMING_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHERARMYCANDY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_RUSBFBF_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BAKEDMEATBALL_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_STEAMBEEF_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHCORBEEF_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BABAGHANOUSH_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_RICEPUDDING_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHIPSINDCUR_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHIPSPAPRI_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_POPCORNSALT_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHERARMYNO12_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CHERARMYNO23_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_MONOKO_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BLACKBERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BOYSENBERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_GOOSEBERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_LIGHTSWEETCHERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_MIXEDBERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_PLUM_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_REDRASPBERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_REDTARTCHERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ROYALANNACHERRY_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_THOMPSONGRAPES_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_FRIEDCHICKEN_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZSPAGHETTICHEESE_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZBBQBEANS_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZBOLDSPICYBEANS_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSPEPPERPOT_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP_Opened_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ_Opened">
+		<nominal>0</nominal>
+		<lifetime>3600</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<!--MoreFood_Can1 End-->
+	<!--MoreFood_Can2 Start-->
+	<type name="DONFOOD_CAN_beefstew">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_borschcabbage">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BuckwheatPorridgeBeef">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BuckwheatPorridgeBeef2">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_EggplantDip">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_EggplantVegetables">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_GreenPeas2">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_PorkStew">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_SweetCorn">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_TomatoJuice">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ZucchiniSlices">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ZucchiniSlices2">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ZucchiniSquash">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_beefstew_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_borschcabbage_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BuckwheatPorridgeBeef_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_BuckwheatPorridgeBeef2_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_EggplantDip_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_EggplantVegetables_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_GreenPeas2_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_PorkStew_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_SweetCorn_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_TomatoJuice_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ZucchiniSlices_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ZucchiniSlices2_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CAN_ZucchiniSquash_Opened">
+		<nominal>6</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+<!--	
+╔══════════════════════════════════╗
+╬	  ►  MORE FOOD PACKAGED   ◄	   ╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="DONFOOD_CEREAL_BANANA">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CEREAL_TRESOR">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_RICE_BROWN">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_PASTA_PENNERIGATE">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_MARMALADE_PLUM">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_MARMALADE_ORANGE">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+<!--	
+╔══════════════════════════════════╗
+╬    ► MORE FOOD BREAD STUFF ◄     ╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="DONFOOD_SANDWICH_HAMCHEESE">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_BREAD">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_CEREALBREAD">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREAD2">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREAD3">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREAD4">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREAD5">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREADROLL1">
+		<nominal>30</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>15</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREADROLL2">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREADROLL3">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONFOOD_BREADROLL4">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+<!--	
+╔══════════════════════════════════╗
+╬ 	  ► MORE FOOD CANDY STUFF ◄    ╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="DONFOOD_LARGEBAG_COOKIE1">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONFOOD_CANDYBAR_KATKIT">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONFOOD_CANDYBAR_ILKA_CARAMEL">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+	<type name="DONFOOD_CANDYBAR_ILKA_CHIPSAHOY">
+        <nominal>6</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_CLASSIC">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_DESSERT">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_IUC">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_NOISETTE">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_OREO">
+        <nominal>80</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_OREOWHITE">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_PEANUTCARAMEL">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_STRAWBERRY">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="DONFOOD_CANDYBAR_ILKA_WAVES">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+	<type name="DONFOOD_CANDYBAR_ILKA_WHITE">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+    <type name="DONFOOD_BAG_MANDMCRISPY">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="DONFOOD_BAG_MANDMMILKCHOCOLATE">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="DONFOOD_BAG_MANDMPEANUTBUTTER">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="DONFOOD_BAG_MANDMWILDCHERRY">
+        <nominal>15</nominal>
+        <lifetime>3600</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>	
+	<type name="DONDRINK_HONEYBEAR">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type> 
+<!--	
+╔══════════════════════════════════╗
+╬    ► MORE FOOD SALTY STUFF ◄     ╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════--> 	
+	<type name="DONFOOD_CHIPS_SaltVinegar">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_Paprika">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_Bacon">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_BLT">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_CheeseBurger">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_ChickenWaffle">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_Classic">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_FlamingHot">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_GarlicBread">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_HotSpicy">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_BlackPepperSourCream">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_P_SeaSalt">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_SourCreamOnion">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_CHIPS_Poutine">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<tag name="shelves"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
+	<type name="DONFOOD_ALFOODBAG_NANDN_PEANUT">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+<!-- 
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+╬	■■■	  ► ALL CONTAINERS  ◄	 ■■■		         																							 ╬										  
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+-->	
+<!--	
+╔══════════════════════════════════╗
+╬ ► MORE FOOD DRINKING CONTAINERS ◄╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+    <type name="DONDRINK_WATERBARREL_1">
+        <nominal>20</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="DONDRINK_WATERBARREL_2">
+        <nominal>20</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="DONDRINK_CANTEEN_GREEN">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Military"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="DONDRINK_CANTEEN_TAN">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Military"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="DONDRINK_CANTEEN_GREY">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>90</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Military"/>
+        <usage name="Hunting"/>
+    </type>
+	<type name="DONDRINK_SPORTBOTTLE_RED">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SPORTBOTTLE_BLUE">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SPORTBOTTLE_GREEN">
+		<nominal>20</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>		
+	<type name="DONDRINK_SPORTBOTTLE_PINK">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="DONDRINK_SPORTBOTTLE_YELLOW">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+<!--	
+╔══════════════════════════════════╗
+╬   ► MORE FOOD CONTAINERS FOOD ◄  ╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="LUNCHBOX_DON_BEE">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="LUNCHBOX_DON_BLUE">
+		<nominal>15</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+<!--	
+╔══════════════════════════════════╗
+╬	  ►  MORE FOOD BACKPACKS  ◄	   ╬
+╚══════════════════════════════════╝
+-->
+<!-- ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════-->
+	<type name="DONFOOD_FoodBag_Blue">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_FoodBag_Green">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_FoodBag_Orange">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_FoodBag_Pink">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_FoodBag_Red">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="DONFOOD_FoodBag_Yellow">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<value name="Tier3"/>
+	</type>
+	<type name="FOODBACKPACK_DON_ZLUTA">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="FOODBACKPACK_DON_NOTACOLA">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="FOODBACKPACK_DON_PIPSI">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="FOODBACKPACK_DON_SPITE">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>
+	<type name="FOODBACKPACK_DON_KVASS">
+		<nominal>10</nominal>
+		<lifetime>3600</lifetime>
+		<restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+	</type>	
+</types>

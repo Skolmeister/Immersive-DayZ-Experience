@@ -1,0 +1,107 @@
+{
+    "m_Version": 12,
+    "DisplayName": "CLOAKS AND SCARFS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 50.0,
+    "Items": [
+        {
+            "ClassName": "FOG_SniperHood_MC",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_SniperHood_Black",
+                "FOG_SniperHood_RG",
+                "FOG_SniperHood_CB",
+                "FOG_SniperHood_Grey",
+                "FOG_SniperHood_MC_Black",
+                "FOG_SniperHood_MCB",
+                "FOG_SniperHood_MCT",
+                "FOG_SniperHood_MCAL",
+                "FOG_SniperHood_M81"
+            ]
+        },
+        {
+            "ClassName": "FOG_Hooded_Cloak_Grey",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Hooded_Cloak_RG",
+                "FOG_Hooded_Cloak_Black"
+            ]
+        },
+        {
+            "ClassName": "Poncho_Brown",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Poncho_Red_Checkered",
+                "Poncho_Blue_Checkered",
+                "Poncho_Yellow_Checkered",
+                "Poncho_White",
+                "Poncho_Green",
+                "Poncho_Red",
+                "Poncho_Black",
+                "Poncho_BlackAndWhite",
+                "Poncho_BlackAndWhite2"
+            ]
+        },
+        {
+            "ClassName": "Shemagh_Brown",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Shemagh_Green",
+                "Shemagh_Red",
+                "Shemagh_White",
+                "Shemagh_Black"
+            ]
+        },
+        {
+            "ClassName": "Leather_Cloak",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Scarf_Brown",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 180,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Scarf_ColorPalette1",
+                "Scarf_Blue"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,599 @@
+{
+    "m_Version": 5,
+    "EnableStatusTab": 1,
+    "EnablePartyTab": 1,
+    "EnableServerInfoTab": 1,
+    "EnableServerRulesTab": 1,
+    "EnableTerritoryTab": 1,
+    "EnableBookMenu": 1,
+    "CreateBookmarks": 1,
+    "ShowHaBStats": 1,
+    "ShowPlayerFaction": 0,
+    "RuleCategories": [
+        {
+            "CategoryName": "General",
+            "Rules": [
+                {
+                    "RuleParagraph": "1.1.",
+                    "RuleText": "Insults, discrimination, sexist, extremist and racist statements or texts are prohibited. This includes player names!"
+                },
+                {
+                    "RuleParagraph": "1.2.",
+                    "RuleText": "Provocations and toxic behavior will not be tolerated and shall be punished! Be friendly to fellow players and your team, both in chat and in voice!"
+                },
+                {
+                    "RuleParagraph": "1.3.",
+                    "RuleText": "The use of external programs, scripts and cheats is not tolerated and is punished with a permanent exclusion."
+                },
+                {
+                    "RuleParagraph": "1.4.",
+                    "RuleText": "No linking to piracy."
+                },
+                {
+                    "RuleParagraph": "1.5.",
+                    "RuleText": "No Spamming. No advertising (Only with permission)."
+                },
+                {
+                    "RuleParagraph": "1.6.",
+                    "RuleText": "No spreading of fake news."
+                },
+                {
+                    "RuleParagraph": "1.7.",
+                    "RuleText": "We reserve the right to exclude people from the server who do not adhere to these rules or who clearly disturb the server harmony."
+                },
+                {
+                    "RuleParagraph": "1.8.",
+                    "RuleText": "Decisions of the team members, both the supporter and the admin are to be accepted without discussion."
+                },
+                {
+                    "RuleParagraph": "1.9.",
+                    "RuleText": "Have fun! It`s still a game!"
+                }
+
+            ]
+        },
+        {
+            "CategoryName": "Trading",
+            "Rules": [
+                {
+                    "RuleParagraph": "1.1.",
+                    "RuleText": "P2P trading is allowed. You may use the p2p Trader at Green Mountain or you can trade in roleplay manner wherever you are."
+                },
+                {
+                    "RuleParagraph": "1.2.",
+                    "RuleText": "There are several NPC traders on the map. You can interact with them to sell equipment and earn money and you can buy stuff from them if you have enaugh money and reputation."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Sleep mechanics",
+            "Rules": [
+                {
+                    "RuleParagraph": "1.1.",
+                    "RuleText": "You can put yourself to rest by performing the 'lay down' emote"
+                },
+                {
+                    "RuleParagraph": "1.2.",
+                    "RuleText": "Make sure you're sleeping in a save and warm place, otherwise your character may not be able to replenish"
+                }
+            ]
+        },
+        {
+            "CategoryName": "Check Players Cause of Death",
+            "Rules": [
+                {
+                    "RuleParagraph": "What?",
+                    "RuleText": "On our server you have the ability to check other player's cause of death."
+                },
+                {
+                    "RuleParagraph": "How to?",
+                    "RuleText": "Simply walk up to a dead player and hold F on them to check for a cause of death."
+                }
+            ]
+        },
+        {
+            "CategoryName": "ZEN Virus (Spoiler)",
+            "Rules": [
+                {
+                    "RuleParagraph": "1.1.",
+                    "RuleText": "Getting hit by zombies has a chance to slowly infect the player with this virus agent, and once the player is infected past a certain point they are then stuck with the virus until they cure it."
+                },
+                {
+                    "RuleParagraph": "1.2.",
+                    "RuleText": "Once the player is sick with the zombie virus they will gradually become affected by various symptoms that start off benign and mostly just an inconvenience, but over time become life-threatening and eventually fatal."
+                },
+                {
+                    "RuleParagraph": "1.3.",
+                    "RuleText": "At first they will exhibit signs of sickness like coughing and blurry vision. They will also start to hear audible hallucinations such as whispers, footsteps, trees falling down etc - generally annoying symptoms that put the player on edge."
+                },
+                {
+                    "RuleParagraph": "1.4.",
+                    "RuleText": "But if they do not cure the virus in time eventually they will begin to vomit blood, develop wounds, fall unconscious and slowly lose health until they either find a cure - or die."
+                },
+                {
+                    "RuleParagraph": "1.5.",
+                    "RuleText": "If the player is fast to identify the symptoms then they can take tetracycline AND vitamins to cure the virus. This only works if both vitamins and tetracycline are in the player's system and their infection stage is below 20%. Consuming vitamins will reduce the amount of virus agents you are infected with by 50% while your immunity is boosted."
+                },
+                {
+                    "RuleParagraph": "1.6.",
+                    "RuleText": "Once the virus infection spreads through more than 20% of the player's system, then the only chance of survival is manufacturing a virus cure injector."
+                },
+                {
+                    "RuleParagraph": "1.7.",
+                    "RuleText": "To manufacture a cure the player needs the following items: A microscope (with a 9v battery), a petridish, a full blood bag, an empty syringe, an infected brain (from skinning dead zombies)."
+                }
+
+            ]
+        }
+
+
+    ],
+    "DisplayServerSettingsInServerInfoTab": 1,
+    "SettingCategories": [
+        {
+            "CategoryName": "Base-Building Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftVanillaBasebuilding",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.BaseBuilding.CanCraftExpansionBasebuilding",
+                    "SettingText": "",
+                    "SettingValue": ""
+                }
+            ]
+        },
+        {
+            "CategoryName": "Raid Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.CanRaidSafes",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.SafeExplosionDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.SafeProjectileDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.ExplosionTime",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.ExplosionDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Raid.ProjectileDamageMultiplier",
+                    "SettingText": "",
+                    "SettingValue": ""
+                }
+            ]
+        },
+        {
+            "CategoryName": "Territory Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.Territory.TerritorySize",
+                    "SettingText": "",
+                    "SettingValue": "150"
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Territory.UseWholeMapForInviteList",
+                    "SettingText": "Players have to be in the vicinity to be invited to your territory",
+                    "SettingValue": "0"
+                }
+            ]
+        },
+        {
+            "CategoryName": "Map Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.Map.NeedGPSItemForKeyBinding",
+                    "SettingText": "You will have to find a GPS item to use the GPS features",
+                    "SettingValue": "1"
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Map.NeedMapItemForKeyBinding",
+                    "SettingText": "You will have to find a Chernarus map item to use the ingame map features",
+                    "SettingValue": "1"
+                }
+            ]
+        },
+        {
+            "CategoryName": "Party Settings",
+            "Settings": [
+                {
+                    "SettingTitle": "Expansion.Settings.Party.MaxMembersInParty",
+                    "SettingText": "",
+                    "SettingValue": "10"
+                },
+                {
+                    "SettingTitle": "Expansion.Settings.Party.UseWholeMapForInviteList",
+                    "SettingText": "",
+                    "SettingValue": ""
+                }
+            ]
+        }
+    ],
+    "Links": [
+
+        {
+            "Name": "Discord",
+            "URL": "https://discord.gg/PV4SpWdEUE",
+            "IconName": "Discord",
+            "IconColor": -9270822
+        },
+        {
+            "Name": "Steam",
+            "URL": "https://steamcommunity.com/groups/IDZEx",
+            "IconName": "Steam",
+            "IconColor": -14006434
+        },
+        {
+            "Name": "Donate",
+            "URL": "https://www.paypal.com/paypalme/AlexHey666",
+            "IconName": "PayPal",
+            "IconColor": -14473430
+        }
+    ],
+    "Descriptions": [
+        {
+            "CategoryName": "General Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Our goal is to offer you the ultimate immersive survival experience on our server."
+                },
+                {
+                    "DescriptionText": "We are still a small community, but always open to new friendly people. Come and get in touch on our Discord!"
+                },
+                {
+                    "DescriptionText": "Please read and adhere to our server rules"
+                },
+                {
+                    "DescriptionText": "In the 'server rules' section of this book you will also find information about the mod mechanics on our server"
+                },
+                {
+                    "DescriptionText": "Server restart times are 1400 CEST and 0200 CEST"
+                }
+
+            ]
+        },
+        {
+            "CategoryName": "Mod Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "DayZ Expansion Bundle"
+                },
+                {
+                    "DescriptionText": "DayZ Expansion Animations"
+                },
+                {
+                    "DescriptionText": "Community Online Tools (Admin Tool)"
+                },
+                {
+                    "DescriptionText": "sVisual"
+                },
+                {
+                    "DescriptionText": "sGunplay"
+                },
+                {
+                    "DescriptionText": "Inedia Infected AI"
+                },
+                {
+                    "DescriptionText": "Inedia Stamina"
+                },
+                {
+                    "DescriptionText": "Search for Loot (improved)"
+                },
+                {
+                    "DescriptionText": "Garbage Search"
+                },
+                {
+                    "DescriptionText": "Shake for Fruit"
+                },
+                {
+                    "DescriptionText": "Zen's Cause of Death"
+                },
+                {
+                    "DescriptionText": "Medical Attention (compatible)"
+                },
+                {
+                    "DescriptionText": "Medical Attention Drunkenness"
+                },
+                {
+                    "DescriptionText": "Zen Virus"
+                },
+                {
+                    "DescriptionText": "Windstride's Clothing Pack"
+                },
+                {
+                    "DescriptionText": "Advanced Medicine items"
+                },
+                {
+                    "DescriptionText": "Additional Medical supplies"
+                },
+                {
+                    "DescriptionText": "Forward Operator Gear (selected items)"
+                },
+                {
+                    "DescriptionText": "Clouds Military Gear (selected items)"
+                },
+                {
+                    "DescriptionText": "Mortys Weapons (selected items)"
+                },
+                {
+                    "DescriptionText": "FOX Weapons (selected items)"
+                },
+                {
+                    "DescriptionText": "Edo Weapons (selected items)"
+                },
+                {
+                    "DescriptionText": "Weapons Overhaul"
+                },
+                {
+                    "DescriptionText": "Ammo Expansion"
+                },
+                {
+                    "DescriptionText": "Knife Pack"
+                },
+                {
+                    "DescriptionText": "FC Fish Equip"
+                },
+                {
+                    "DescriptionText": "Pokemon Cards"
+                },
+                {
+                    "DescriptionText": "Hope Survivor Backpacks"
+                },
+                {
+                    "DescriptionText": "Animal Pack"
+                },
+                {
+                    "DescriptionText": "More Food"
+                },
+                {
+                    "DescriptionText": "Mega Foodpack"
+                },
+                {
+                    "DescriptionText": "Mass Many Items (selected items)"
+                },
+                {
+                    "DescriptionText": "More Materials"
+                },
+                {
+                    "DescriptionText": "Zens Zippo lighter"
+                },
+                {
+                    "DescriptionText": "DayZ Dogs"
+                },
+                {
+                    "DescriptionText": "NBC Overcloth"
+                },
+                {
+                    "DescriptionText": "Zen's TimeBomb"
+                },
+                {
+                    "DescriptionText": "Zen's Tent Bags"
+                },
+                {
+                    "DescriptionText": "Zen's Catch Rain"
+                },
+                {
+                    "DescriptionText": "Zen's Leftovers"
+                },
+                {
+                    "DescriptionText": "Zen's Firewood Piles"
+                },
+                {
+                    "DescriptionText": "Eat Worms"
+                },
+                {
+                    "DescriptionText": "Creepy Zombies"
+                },
+                {
+                    "DescriptionText": "Hot Coffee"
+                },
+                {
+                    "DescriptionText": "Smoking Mod"
+                },
+                {
+                    "DescriptionText": "Immersive Placing"
+                },
+                {
+                    "DescriptionText": "Give and Take"
+                },
+                {
+                    "DescriptionText": "Surrender Inventory"
+                },
+                {
+                    "DescriptionText": "View Inventory"
+                },
+                {
+                    "DescriptionText": "Zens Immersive Login"
+                },
+                {
+                    "DescriptionText": "Treasures"
+                },
+                {
+                    "DescriptionText": "Zen's Notes"
+                },
+                {
+                    "DescriptionText": "Aimsounds"
+                },
+                {
+                    "DescriptionText": "Zen's Crafting Sounds"
+                },
+                {
+                    "DescriptionText": "Zen's Gun Move Sounds"
+                }
+            ]
+        }
+    ],
+    "CraftingCategories": [
+        {
+            "CategoryName": "Accessories",
+            "Results": [
+                "armband_",
+                "armband_white",
+                "eyepatch_improvised"
+            ]
+        },
+        {
+            "CategoryName": "Backpacks",
+            "Results": [
+                "courierbag",
+                "furcourierbag",
+                "furimprovisedbag",
+                "improvisedbag",
+                "leathersack_brown"
+            ]
+        },
+        {
+            "CategoryName": "Base-Building",
+            "Results": [
+                "expansionbarbedwirekit",
+                "fencekit",
+                "expansionfloorkit",
+                "expansionhelipadkit",
+                "expansionhescokit",
+                "expansionrampkit",
+                "shelterkit",
+                "expansionstairkit",
+                "territoryflagkit",
+                "expansionwallkit",
+                "watchtowerkit"
+            ]
+        },
+        {
+            "CategoryName": "Camouflage",
+            "Results": [
+                "camonet",
+                "ghillieatt_tan",
+                "ghillieatt_mossy",
+                "ghillieatt_woodland",
+                "ghilliebushrag_tan",
+                "ghilliebushrag_mossy",
+                "ghilliebushrag_woodland",
+                "ghilliehood_tan",
+                "ghilliehood_mossy",
+                "ghilliehood_woodland",
+                "ghilliesuit_tan",
+                "ghilliesuit_mossy",
+                "ghilliesuit_woodland",
+                "ghillietop_tan",
+                "ghillietop_mossy",
+                "ghillietop_woodland"
+            ]
+        },
+        {
+            "CategoryName": "Cooking",
+            "Results": [
+                "fireplace",
+                "firewood",
+                "handdrillkit"
+            ]
+        },
+        {
+            "CategoryName": "Fishing",
+            "Results": [
+                "bait",
+                "bonebait",
+                "bonehook",
+                "improvisedfishingrod"
+            ]
+        },
+        {
+            "CategoryName": "Food",
+            "Results": [
+                "carpfilletmeat",
+                "mackerelfilletmeat",
+                "expansionmilkbottle",
+                "potato",
+                "slicedpumpkin"
+            ]
+        },
+        {
+            "CategoryName": "Horticulture",
+            "Results": [
+                "pepperseeds",
+                "pumpkinseeds",
+                "tomatoseeds",
+                "zucchiniseeds"
+            ]
+        },
+        {
+            "CategoryName": "Lights",
+            "Results": [
+                "longtorch",
+                "torch"
+            ]
+        },
+        {
+            "CategoryName": "Medical Supplies",
+            "Results": [
+                "bloodbagiv",
+                "salinebagiv",
+                "splint"
+            ]
+        },
+        {
+            "CategoryName": "Melee Weapons",
+            "Results": [
+                "nailedbaseballbat",
+                "stoneknife"
+            ]
+        },
+        {
+            "CategoryName": "Storage",
+            "Results": [
+                "woodencrate"
+            ]
+        },
+        {
+            "CategoryName": "Supplies",
+            "Results": [
+                "boarpelt",
+                "burlapsack",
+                "burlapstrip",
+                "longwoodenstick",
+                "expansionlumber1",
+                "expansionlumber1_5",
+                "expansionlumber3",
+                "nails",
+                "netting",
+                "rag",
+                "rope",
+                "sharpwoodenstick",
+                "smallstone",
+                "tannedleather",
+                "woodenplank",
+                "woodenstick"
+            ]
+        },
+        {
+            "CategoryName": "Weapon Modifications",
+            "Results": [
+                "sawedoffizh18shotgun",
+                "ZenTimeBomb"
+            ]
+        },
+        {
+            "CategoryName": "Weapon Attachments",
+            "Results": [
+                "improvisedsuppressor"
+            ]
+        }
+    ],
+    "EnableCraftingRecipesTab": 1
+}

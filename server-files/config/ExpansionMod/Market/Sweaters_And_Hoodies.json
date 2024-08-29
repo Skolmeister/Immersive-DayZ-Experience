@@ -1,0 +1,183 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SWEATERS & #STR_EXPANSION_MARKET_CATEGORY_HOODIES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "sweater_gray",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "sweater_blue",
+            "sweater_red",
+            "sweater_green",
+            "Masswoodlandcamosweater"
+            ]
+        },
+        {
+            "ClassName": "hoodie_blue",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 225,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "hoodie_black",
+            "hoodie_brown",
+            "hoodie_grey",
+            "hoodie_red",
+            "hoodie_green"
+            ]
+        },
+        {
+            "ClassName": "Masswoodlandcamosweater",
+            "MaxPriceThreshold": 350,
+            "MinPriceThreshold": 315,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_G3_Hoodie_Black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_G3_Hoodie_MC",
+                "FOG_G3_Hoodie_Blue",
+                "FOG_G3_Hoodie_DPM",
+                "FOG_G3_Hoodie_MC_Pata",
+                "FOG_G3_Hoodie_AOR1",
+                "FOG_G3_Hoodie_AOR2",
+                "FOG_G3_Hoodie_M81"
+            ]
+        },
+        {
+            "ClassName": "FOG_G2_Hoodie_MC",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_Tactical_Hoodie_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"FOG_Tactical_Hoodie_CB",
+                "FOG_Tactical_Hoodie_RG",
+                "FOG_Tactical_Hoodie_MC",
+                "FOG_Tactical_Hoodie_MCB",
+                "FOG_Tactical_Hoodie_ERDL",
+                "FOG_Tactical_Hoodie_ERDL_Blk",
+                "FOG_Tactical_Hoodie_UWU"
+			]
+        },
+        {
+            "ClassName": "Military_Sweater",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Military_Sweater_Red",
+                "Military_Sweater_Blue",
+                "Military_Sweater_Green",
+                "Military_Sweater_White",
+                "Military_Sweater_Black"
+            ]
+        },
+        {
+            "ClassName": "Shabby_Hoodie_Black",
+            "MaxPriceThreshold": 440,
+            "MinPriceThreshold": 396,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Shabby_Hoodie_Grey",
+                "Shabby_Hoodie_Blue",
+                "Shabby_Hoodie_Brown",
+                "Shabby_Hoodie_Green",
+                "Shabby_Hoodie_Red",
+                "Shabby_Hoodie_Calligraphy"
+            ]
+        },
+        {
+            "ClassName": "FOG_Hoodie_Jacket_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"FOG_Hoodie_Jacket_Nike_G",
+				"FOG_Hoodie_Jacket_Patagonia",
+				"FOG_Hoodie_Jacket_FOG",
+				"FOG_Hoodie_Jacket_CDAJ",
+				"FOG_Hoodie_Jacket_MC",
+				"FOG_Hoodie_Jacket_ERDL",
+				"FOG_Hoodie_Jacket_PERDL",
+				"FOG_Hoodie_Jacket_Thrasher",
+				"FOG_Hoodie_Jacket_Supreme",
+				"FOG_Hoodie_Jacket_MLG"
+
+			]
+        },
+		{
+            "ClassName": "FOG_Hoodie_Jacket_Rolled_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"FOG_Hoodie_Jacket_Rolled_Nike_G",
+				"FOG_Hoodie_Jacket_Rolled_Patagonia",
+				"FOG_Hoodie_Jacket_Rolled_FOG",
+				"FOG_Hoodie_Jacket_Rolled_CDAJ",
+				"FOG_Hoodie_Jacket_Rolled_MC",
+				"FOG_Hoodie_Jacket_Rolled_ERDL",
+				"FOG_Hoodie_Jacket_Rolled_PERDL",
+				"FOG_Hoodie_Jacket_Rolled_Thrasher",
+				"FOG_Hoodie_Jacket_Rolled_Supreme",
+				"FOG_Hoodie_Jacket_Rolled_MLG"
+			]
+        }
+    ]
+}

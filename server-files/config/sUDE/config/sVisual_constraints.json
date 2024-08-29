@@ -1,0 +1,53 @@
+{
+    "effectsIntensity": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "min": 0.0,
+        "max": 2.0
+    },
+    "ddofIntensity": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "min": 0.0,
+        "max": 1.0
+    },
+    "ddofEnabledIn3PP": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "value": 0
+    },
+    "ddofEnabledInVehicle": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "value": 1
+    },
+    "headbobIntensity": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "min": 0.0,
+        "max": 1.0
+    },
+    "headbobEnabledIn3PP": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "value": 1
+    },
+    "motionBlurIntensity": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "min": 0.0,
+        "max": 1.0
+    },
+    "bloomIntensity": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "min": 0.0,
+        "max": 1.0
+    },
+    "headLeanAngle": {
+        "constrain": 0,
+        "message": "#STR_SUDE_LAYOUT_OPTIONS_CONSTRAINED",
+        "min": 0.0,
+        "max": 45.0
+    }
+}

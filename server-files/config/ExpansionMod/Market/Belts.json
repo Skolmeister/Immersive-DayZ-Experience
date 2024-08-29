@@ -1,0 +1,146 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_BELTS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "civilianbelt",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "militarybelt",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "hippack_black",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "hippack_green",
+                "hippack_medical",
+                "hippack_party"
+            ]
+        },
+        {
+            "ClassName": "FOG_Belt_RTGFB_Black",
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2520,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"FOG_Belt_RTGFB_CB",
+				"FOG_Belt_RTGFB_MC",
+				"FOG_Belt_RTGFB_RG",
+				"FOG_Belt_RTGFB_AOR1",
+				"FOG_Belt_RTGFB_AOR2",
+				"FOG_Belt_RTGFB_ALP"
+			]
+        },
+        {
+            "ClassName": "FOG_MRB_Belt_CB",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_MRB_Belt_MC",
+                "FOG_MRB_Belt_MCB",
+                "FOG_MRB_Belt_RG",
+                "FOG_MRB_Belt_AOR1",
+                "FOG_MRB_Belt_AOR2",
+                "FOG_MRB_Belt_ATACSAU",
+                "FOG_MRB_Belt_Black",
+                "FOG_MRB_Belt_6CD",
+                "FOG_MRB_Belt_MCT"
+			]
+        },
+        {
+            "ClassName": "FOG_BISON_Belt_CB",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_BISON_Belt_RG",
+                "FOG_BISON_Belt_Black",
+                "FOG_BISON_Belt_MC",
+                "FOG_BISON_Belt_MCB"
+            ]
+        },
+        {
+            "ClassName": "MassMolleBelt",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MassMolleBeltBlack",
+                "MassMolleBeltODG",
+                "MassMolleBeltWD",
+                "MassMolleBeltSnow"
+            ]
+        },
+        {
+            "ClassName": "MassToolbelt",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_WaistPack_Tan",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Msp_WaistPack_Black",
+                "Msp_WaistPack_Green",
+                "Msp_WaistPack_Brown",
+                "Msp_WaistPack_UrbanFlektarn",
+                "Msp_WaistPack_Blue"
+            ]
+        }
+    ]
+}

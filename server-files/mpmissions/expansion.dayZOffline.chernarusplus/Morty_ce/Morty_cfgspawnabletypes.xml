@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+    <damage min="0.1" max="0.7" />
+	<type name="TTC_R700">
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_KAC">
+		<attachments chance="0.20">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTCSR25">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock2" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTCSR25_Desert">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock2" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTCSR25_OD">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock2" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTCSR25_Snow">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock2" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M16">
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_HK416Tan">
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_HK416OD">
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_HK416Black">
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SG552">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_SG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SG552_Wood">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_SG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SG552_Black">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_SG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SG550">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_SG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SG550_Black">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_SG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SG550_Pink">
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_SG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M4DMR">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock3" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_DMR_Hndguard" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_308Stanag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M4DMROD">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock3" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_DMR_HndguardOD" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_308Stanag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M4DMRDesert">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock3" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_DMR_HndguardDesert" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_308Stanag" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 0.338 -->
+	<type name="TTC_FD338">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_338mag_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AACHoney">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock_Honey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_Honey_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AACHoney_B">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock_Honey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_Honey_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AACHoney_300blk">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock_Honey" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_Honey_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AACHoney_300blk_B">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock_Honey" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_Honey_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_300Stanag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M24">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M24_Bjorn">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M24_Woodland">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M24_WoodlandOld">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SCARH">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="TTC_SCARHMag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SCARHBlack">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="TTC_SCARHMag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SCARL">
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SCARLBlack">
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_SCARLSnow">
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M16A4">
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_Beowulf">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock3" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="TTC_50Beo_mag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M82">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M82_5rnd_Mag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M82_Tan">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M82_5rnd_Mag" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.11 -->
+	<type name="TTC_XM2010">
+		<attachments chance="0.60">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_XM2010_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MRAD">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_338mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M14">
+		<attachments chance="0.50">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_M14_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M4Tac">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock_Morty" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_HKG28">
+		<attachments chance="1.00">
+			<item name="TTC_ButtstockHK" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_G28_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_HK417_Magazine_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.11 -->
+	<type name="TTC_AK12">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock_AK12" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_AK12_Drum_90rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AK12_Worn">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock_AK12" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_AK12_Drum_90rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_G3">
+		<attachments chance="0.40">
+			<item name="TTC_G3_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_G3_Magazine_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M14_Camo">
+		<attachments chance="0.40">
+			<item name="TTC_BugBuster" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_M14_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M14_Snow">
+		<attachments chance="0.40">
+			<item name="TTC_BugBuster" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_M14_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_Kimber">
+		<attachments chance="0.30">
+			<item name="Mag_Kimber1911_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_HK417">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock2" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_HK417_Magazine_20rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="TTC_M14Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.12 -->
+	<type name="TTC_R700_Black">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M110">
+		<attachments chance="0.30">
+			<item name="TTC_M14Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M110_Black">
+		<attachments chance="0.30">
+			<item name="TTC_M14Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.12.1 -->
+	<type name="TTC_AG3">
+		<attachments chance="0.20">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_G3_Magazine_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_FAL">
+		<attachments chance="1.00">
+			<item name="TTC_FAL_Poly_Hndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_FAL_Wood_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_FAL_Magazine" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_Raptr">
+		<attachments chance="0.40">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="TTC_Raptr_Drum_45rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.13 -->
+	<type name="TTC_M24_NEW_Wood">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24New_mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M24_NEW_Black">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24New_mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M24_NEW_Camo">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24New_mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M24_NEW_CamoW">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M24New_mag_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AVS36">
+		<attachments chance="0.30">
+			<item name="TTC_AVS36_Mag_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_CAR15">
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_Aimpoint2000" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MCX">
+		<attachments chance="1.00">
+			<item name="TTC_MPXMCX1_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MCX_300blk">
+		<attachments chance="1.00">
+			<item name="TTC_MPXMCX1_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_300Cmag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AKM">
+		<attachments chance="0.60">
+			<item name="AK74_WoodBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="AK_PlasticBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="AKS74U_Bttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="AKS74U_Bttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="AK74_Hndgrd" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="AK_RailHndgrd" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_WoodBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_WoodHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="AK_Suppressor" chance="0.20" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_Deagle">
+		<attachments chance="0.40">
+			<item name="TTC_Deagle_Magazine_7rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_Glock17">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TTC_Mag_Glock_17Rnd" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="TTC_M9">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="TTC_Mag_M9_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M9_Custom">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_Mag_M9_Custom_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MP5SD">
+		<attachments chance="0.30">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_MP5_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MPX">
+		<attachments chance="1.00">
+			<item name="TTC_MPXMCX2_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_MPX_Mag_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_PP91">
+		<attachments chance="0.30">
+			<item name="TTC_PP91_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_UZI">
+		<attachments chance="0.30">
+			<item name="TTC_UZI_Mag_30rnd" chance="1.00" />
+		</attachments>
+	<!-- Update 1.13.2 -->
+	</type>
+	<type name="TTC_SVT40">
+		<attachments chance="0.30">
+			<item name="TTC_SVT40_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_SVT40_Bayonet" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_Mag_SVT40_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MP7A1">
+		<attachments chance="0.30">
+			<item name="TTC_Holo" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_MP7A1_Mag_40rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.13.5 -->
+	<type name="TTC_M4DMRSNOW">
+		<attachments chance="1.00">
+			<item name="TTC_Buttstock3" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_DMR_HndguardSnow" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_308Stanag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_STG44">
+		<attachments chance="0.30">
+			<item name="TTC_STG44_Magazine_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_BAR">
+		<attachments chance="0.30">
+			<item name="TTC_BAR_Magazine_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_AWM">
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_AWM_Magazine_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.14 -->
+	<type name="TTC_GEVAR43">
+		<attachments chance="1.00">
+			<item name="TTC_VortexRHDAMG_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_GEVAR43_Magazine_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_GEVAR43_Green">
+		<attachments chance="1.00">
+			<item name="TTC_VortexRHDAMG_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_GEVAR43_Magazine_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_GEVAR43_Tan">
+		<attachments chance="1.00">
+			<item name="TTC_VortexRHDAMG_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_GEVAR43_Magazine_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_GEVAR43_silver">
+		<attachments chance="1.00">
+			<item name="TTC_VortexRHDAMG_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_GEVAR43_Magazine_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_L85">
+		<attachments chance="1.00">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_TAVOR">
+		<attachments chance="0.30">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_TAVOR_Magazine_60rnd" chance="0.15" />
+			<item name="TTC_TAVOR_Magazine_30rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="TTC_TAVOR_DMR">
+		<attachments chance="0.30">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_TAVOR_Magazine_60rnd" chance="0.15" />
+			<item name="TTC_TAVOR_Magazine_30rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<!-- Update 1.15 -->
+	<type name="TTC_HK416Comp">
+		<attachments chance="1.00">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MCX_Spear">
+		<attachments chance="1.00">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="TTC_MCX_Spear_Magazine_20rnd" chance="1.00" /> 	<!-- Was an error here. Please fix in your file -->
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_MPXMCXSPEAR_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_MCX_Spear_Suppressor" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="TTC_MCX_Spear_Black">
+		<attachments chance="1.00">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="TTC_MCX_Spear_Magazine_20rnd" chance="1.00" /> 	<!-- Was an error here. Please fix in your file -->
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_MPXMCXSPEAR_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_MCX_Spear_Suppressor" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="TTC_MK18">
+		<attachments chance="1.00">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MK18_Black">
+		<attachments chance="1.00">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.15.2 -->
+	<type name="TTC_P320">
+		<attachments chance="0.50">
+			<item name="TTC_P320_17Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TTC_Pistol_Optic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_Mk47">
+		<attachments chance="0.50">
+			<item name="TTC_HAMR" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="0.30" />
+			<item name="Mag_AKM_Palm30Rnd" chance="0.50" />
+			<item name="Mag_AKM_Drum75Rnd" chance="0.15" />
+		</attachments>
+	</type>
+	<type name="TTC_M1A_Black">
+		<attachments chance="0.10">
+			<item name="TTC_HAMR" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M14_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M1A_Green">
+		<attachments chance="0.10">
+			<item name="TTC_HAMR" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M14_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M1A_Tan">
+		<attachments chance="0.10">
+			<item name="TTC_HAMR" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M14_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M1A_Snow">
+		<attachments chance="0.10">
+			<item name="TTC_HAMR" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_M14_Mag_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_VHS">
+		<attachments chance="0.30">
+			<item name="TTC_Elcan" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- Update 1.20 -->
+	<type name="TTC_Car15V2">
+		<attachments chance="1.00">
+			<item name="TTC_Car15V2_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_Car15V2_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TTC_Car15V2_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

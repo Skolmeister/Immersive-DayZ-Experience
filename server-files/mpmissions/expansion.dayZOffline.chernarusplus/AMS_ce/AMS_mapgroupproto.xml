@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prototype>
+    <group name="Land_City_Hospital">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="-1.48 -2.71 -8.65" rpy="0.0 -90.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Village_HealthCare">
+        <dispatch>
+            <proxy type="AMS_MedChest_Green" pos="2.033 -1.95 -1.84" rpy="0.0 180.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Village_HealthCare_Enoch">
+        <dispatch>
+            <proxy type="AMS_MedChest_Green" pos="2.033 -1.95 -1.84" rpy="0.0 180.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Camp_House_white">
+        <dispatch>
+            <proxy type="AMS_MedChest_Green" pos="-0.60 -0.61 1.28" rpy="0.0 -90.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Camp_House_brown">
+        <dispatch>
+            <proxy type="AMS_MedChest_Green" pos="-0.60 -0.80 -1.70" rpy="0.0 -90.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Camp_House_red">
+        <dispatch>
+            <proxy type="AMS_MedChest_Green" pos="-0.60 -0.85 1.19" rpy="0.0 -90.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Medical_Tent_Big">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="-2.19 0.06 -4.68" rpy="0.0 180.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Office1">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="2.2 -1.29 -2.00" rpy="0.0 90.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Office2">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="-1.70 -7.41 -7.05" rpy="0.0 180.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_City_FireStation">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="1.35 0.83 -14.78" rpy="0.0 180.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_Village_PoliceStation">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="7.10 -5.4 7.85" rpy="0.0 90.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_City_PoliceStation">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="5.60 -1.89 4.3" rpy="0.0 90.0 0.0"/>
+        </dispatch>
+    </group>
+    <group name="Land_City_PoliceStation_Enoch">
+        <dispatch>
+            <proxy type="AMS_MedChest_Red" pos="5.60 -1.89 4.3" rpy="0.0 90.0 0.0"/>
+        </dispatch>
+    </group>
+</prototype>
