@@ -55,7 +55,7 @@ extract_dayz_xml <- function(type) {
   ) |>
     dplyr::mutate(
       dplyr::across(
-        -c(name, usages, values),
+        -c(name, usages, values, category_name),
         as.integer
       )
     )
@@ -105,9 +105,36 @@ classnames_df <- purrr::map_df(
   .progress = TRUE
 )
 
+categories <- classnames_df |>
+  dplyr::count(
+    category_name
+  )
+
+usages <- classnames_df |>
+  dplyr::select(
+    name,
+    tidyselect::starts_with("usages_")
+  ) |>
+  tidyr::pivot_longer(
+    -name,
+    names_to = "usage_prio",
+    values_to = "usage"
+  ) |>
+  dplyr::filter(
+    !is.na(usage)
+  ) |>
+  dplyr::select(name, usage) |>
+  dplyr::count(usage)
+
+excel_output <- list(
+  "classnames" = classnames_df,
+  "categories" = categories,
+  "usage" = usages
+)
+
 
 writexl::write_xlsx(
-  classnames_df,
+  excel_output,
   glue::glue(
     "{format(lubridate::today(), '%Y%m%d')}",
     "_classnames_with_attributes",
