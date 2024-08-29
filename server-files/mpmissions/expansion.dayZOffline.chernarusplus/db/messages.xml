@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+<!--
+See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
+
+Example messages:
+
+1) following message will be displayed to every player in countdown manner
+    and shuts down server in 10 hours from its start
+
+    <message>
+        <deadline>720</deadline>
+        <shutdown>1</shutdown>
+        <text>The server will shutdown in #tmin minutes.</text>
+    </message>
+
+2) following message will be displayed every 15 minutes to every player
+
+    <message>
+        <repeat>15</repeat>
+        <text>You're playing on my server (#name). Thank you .)</text>
+    </message>
+    -->
+
+3) following message will be displayed every 50 minutes to every player
+    and 10 minutes after player connect
+
+    <message>
+        <delay>5</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>We want to grow our community! Join our Discord Server: https://discord.gg/PV4SpWdEUE</text>
+    </message>
+
+4) following message will be displayed every 60 minutes to every player
+    and 10 minutes after player connect
+
+    <message>
+        <delay>10</delay>
+        <repeat>60</repeat>
+        <onconnect>1</onconnect>
+        <text>Please give yourself a DayZ profile name if you have not already done so. You can do this by clicking on "Parameters" in the DayZ Launcher or even better, you can download the DZSA Launcher. </text>
+    </message>
+
+
+
+5) following message will be displayed once
+    and 2 minutes after player connect
+
+    <message>
+        <delay>2</delay>
+        <onconnect>1</onconnect>
+        <text>Greetings Survivor and welcome to our 'Immersive DayZ Roleplay' Server. We're glad you're here. For more information press B</text>
+    </message>
+
+</messages>
