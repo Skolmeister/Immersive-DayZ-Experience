@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 100000,
+            "Amount": 150000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -54,7 +54,7 @@
         }
     ],
     "QuestColor": -930200403,
-    "ReputationReward": 0,
+    "ReputationReward": 1500,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",
