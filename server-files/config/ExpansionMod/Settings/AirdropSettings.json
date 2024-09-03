@@ -2632,16 +2632,16 @@
       "Loot": [
         {
           "Name": "SewingKit",
-          "Chance": 0.4,
+          "Chance": 0.8,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
-          "Min": 0,
+          "Min": 2,
           "Variants": []
         },
         {
           "Name": "LeatherSewingKit",
-          "Chance": 0.25,
+          "Chance": 0.4,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -2718,7 +2718,7 @@
         },
         {
           "Name": "CZ75",
-          "Chance": 0.4,
+          "Chance": 0.2,
           "Attachments": [
             {
               "Name": "Mag_CZ75_15Rnd",
@@ -2840,7 +2840,7 @@
         },
         {
           "Name": "MKII",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [
             {
               "Name": "Mag_MKII_10Rnd",
@@ -2855,7 +2855,7 @@
         },
         {
           "Name": "P1",
-          "Chance": 0.20,
+          "Chance": 0.10,
           "Attachments": [
             {
               "Name": "Mag_P1_8Rnd",
@@ -2870,7 +2870,7 @@
         },
         {
           "Name": "MakarovIJ70",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [
             {
               "Name": "Mag_IJ70_8Rnd",
@@ -2885,7 +2885,7 @@
         },
         {
           "Name": "Derringer_Grey",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -2894,7 +2894,7 @@
         },
         {
           "Name": "FOX_MP443",
-          "Chance": 0.20,
+          "Chance": 0.10,
           "Attachments": [
             {
               "Name": "FOX_Mag_MP443",
@@ -2909,7 +2909,7 @@
         },
         {
           "Name": "BO_RugerMkIV_Black",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [
             {
               "Name": "BO_Mag_RugerMkIV_10Rnd",
@@ -2924,7 +2924,7 @@
         },
         {
           "Name": "Flaregun",
-          "Chance": 0.20,
+          "Chance": 0.10,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -2951,7 +2951,7 @@
         },
         {
           "Name": "Izh18Shotgun",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -2969,7 +2969,7 @@
         },
         {
           "Name": "Izh43Shotgun",
-          "Chance": 0.20,
+          "Chance": 0.10,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -2978,7 +2978,7 @@
         },
         {
           "Name": "CZ61",
-          "Chance": 0.20,
+          "Chance": 0.10,
           "Attachments": [
             {
               "Name": "Mag_CZ61_20Rnd",
@@ -3023,7 +3023,7 @@
         },
         {
           "Name": "Izh18",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -3057,7 +3057,7 @@
         },
         {
           "Name": "Ruger1022",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [
             {
               "Name": "Mag_Ruger1022_15Rnd",
@@ -3098,7 +3098,7 @@
         },
         {
           "Name": "CrossbowAutumn",
-          "Chance": 0.40,
+          "Chance": 0.20,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -3339,24 +3339,6 @@
           ]
         },
         {
-          "Name": "Ammo_762x39",
-          "Chance": 1,
-          "Attachments": [],
-          "QuantityPercent": -1,
-          "Max": -1,
-          "Min": 0,
-          "Variants": []
-        },
-        {
-          "Name": "Ammo_380",
-          "Chance": 1,
-          "Attachments": [],
-          "QuantityPercent": -1,
-          "Max": -1,
-          "Min": 0,
-          "Variants": []
-        },
-        {
           "Name": "DuctTape",
           "Chance": 0.20000000298023225,
           "Attachments": [],
@@ -3367,7 +3349,7 @@
         },
         {
           "Name": "Fabric",
-          "Chance": 0.5,
+          "Chance": 0.2,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -3441,18 +3423,7 @@
           "QuantityPercent": -1,
           "Max": -1,
           "Min": 0,
-          "Variants": [
-            {
-              "Name": "MediumGasCanister",
-              "Chance": 1,
-              "Attachments": []
-            },
-            {
-              "Name": "LargeGasCanister",
-              "Chance": 1,
-              "Attachments": []
-            }
-          ]
+          "Variants": []
         },
         {
           "Name": "FirstAidKit",
@@ -3842,7 +3813,7 @@
         },
         {
           "Name": "DirtBikeHelmet_Chernarus",
-          "Chance": 0.30000001192092898,
+          "Chance": 0.4,
           "Attachments": [
             {
               "Name": "DirtBikeHelmet_Visor",
@@ -3996,7 +3967,7 @@
         },
         {
           "Name": "CanOpener",
-          "Chance": 0.5,
+          "Chance": 0.4,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -4058,6 +4029,24 @@
           "Variants": []
         },
         {
+          "Name": "Netting",
+          "Chance": 0.2,
+          "Attachments": [],
+          "QuantityPercent": -1,
+          "Max": -1,
+          "Min": 0,
+          "Variants": []
+        },
+        {
+          "Name": "Whetstone",
+          "Chance": 0.5,
+          "Attachments": [],
+          "QuantityPercent": -1,
+          "Max": -1,
+          "Min": 1,
+          "Variants": []
+        },
+        {
           "Name": "PetrolLighter",
           "Chance": 0.2,
           "Attachments": [],
@@ -4068,7 +4057,7 @@
         },
         {
           "Name": "Matchbox",
-          "Chance": 0.4,
+          "Chance": 0.6,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -4174,7 +4163,7 @@
         },
         {
           "Name": "HunterPants_Autumn",
-          "Chance": 0.2,
+          "Chance": 0.4,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -4199,7 +4188,7 @@
         },
         {
           "Name": "Poncho_Brown",
-          "Chance": 0.2,
+          "Chance": 0.4,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -4224,7 +4213,7 @@
         },
         {
           "Name": "Shemagh_Brown",
-          "Chance": 0.2,
+          "Chance": 0.4,
           "Attachments": [],
           "QuantityPercent": -1,
           "Max": -1,
@@ -4292,31 +4281,6 @@
               },
               {
                 "Name": "ZmijovkaCap_Green",
-                "Chance": 0.2,
-                "Attachments": []
-              }
-          ]
-        },
-        {
-          "Name": "M65Jacket_Black",
-          "Chance": 0.1,
-          "Attachments": [],
-          "QuantityPercent": -1,
-          "Max": -1,
-          "Min": 0,
-          "Variants": [
-              {
-                "Name": "M65Jacket_Khaki",
-                "Chance": 0.2,
-                "Attachments": []
-              },
-              {
-                "Name": "M65Jacket_Olive",
-                "Chance": 0.2,
-                "Attachments": []
-              },
-              {
-                "Name": "M65Jacket_Tan",
                 "Chance": 0.2,
                 "Attachments": []
               }
