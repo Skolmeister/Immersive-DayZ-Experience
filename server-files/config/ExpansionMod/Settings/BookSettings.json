@@ -224,6 +224,111 @@
                     "SettingValue": ""
                 }
             ]
+        },
+        {
+            "CategoryName": "Hardline Loss",
+            "Settings": [
+                {
+                    "SettingTitle": "On Player Death",
+                    "SettingText": "",
+                    "SettingValue": "1.000"
+                }
+            ]
+        },
+        {
+            "CategoryName": "Hardline Gain",
+            "Settings": [
+                {
+                    "SettingTitle": "Zombie (Standard)",
+                    "SettingText": "",
+                    "SettingValue": "10"
+                },
+                {
+                    "SettingTitle": "Zombie (NBC)",
+                    "SettingText": "",
+                    "SettingValue": "20"
+                },
+                {
+                    "SettingTitle": "Zombie (Military)",
+                    "SettingText": "",
+                    "SettingValue": "30"
+                },
+                {
+                    "SettingTitle": "AI",
+                    "SettingText": "",
+                    "SettingValue": "250"
+                },
+                {
+                    "SettingTitle": "Other Player",
+                    "SettingText": "",
+                    "SettingValue": "500"
+                },
+                {
+                    "SettingTitle": "Animal (Standard)",
+                    "SettingText": "",
+                    "SettingValue": "10"
+                },
+                {
+                    "SettingTitle": "Animal (Snake)",
+                    "SettingText": "",
+                    "SettingValue": "20"
+                },
+                {
+                    "SettingTitle": "Animal (Wolf)",
+                    "SettingText": "",
+                    "SettingValue": "30"
+                },
+                {
+                    "SettingTitle": "Animal (Bear)",
+                    "SettingText": "",
+                    "SettingValue": "60"
+                },
+                {
+                    "SettingTitle": "Items (Based on Rarity)",
+                    "SettingText": "",
+                    "SettingValue": "2 - 8"
+                }
+            ]
+        },
+        {
+            "CategoryName": "Trading: Hardline Requirements",
+            "Settings": [
+                {
+                    "SettingTitle": "Item Rarity: Poor",
+                    "SettingText": "",
+                    "SettingValue": "0"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Common",
+                    "SettingText": "",
+                    "SettingValue": "0"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Uncommon",
+                    "SettingText": "",
+                    "SettingValue": "1.000"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Rare",
+                    "SettingText": "",
+                    "SettingValue": "2.000"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Epic",
+                    "SettingText": "",
+                    "SettingValue": "5.000"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Legendary",
+                    "SettingText": "",
+                    "SettingValue": "7.500"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Mythic / Exotic",
+                    "SettingText": "",
+                    "SettingValue": "10.000"
+                }
+            ]
         }
     ],
     "Links": [
@@ -265,78 +370,6 @@
                 },
                 {
                     "DescriptionText": "Server restart times are 1400 CEST and 0200 CEST"
-                }
-
-            ]
-        },
-        {
-            "CategoryName": "Hardline Settings",
-            "Descriptions": [
-                {
-                    "DescriptionText": "General Settings"
-                },
-                {
-                    "DescriptionText": "Hardline loss on death: 1000"
-                },
-                {
-                    "DescriptionText": "Hardline gain:"
-                },
-                {
-                    "DescriptionText": "Zombie (Base): 10"
-                },
-                {
-                    "DescriptionText": "Zombie (NBC): 20"
-                },
-                {
-                    "DescriptionText": "Zombie (Military): 30"
-                },
-                {
-                    "DescriptionText": "AI: 250"
-                },
-                {
-                    "DescriptionText": "Other Player: 500"
-                },
-                {
-                    "DescriptionText": "Animal (Base): 10"
-                },
-                {
-                    "DescriptionText": "Animal (Snake): 20"
-                },
-                {
-                    "DescriptionText": "Animal (Wolf): 30"
-                },
-                {
-                    "DescriptionText": "Animal (Bear): 60"
-                },
-                {
-                    "DescriptionText": "Items (Based on rarity): 2 - 8"
-                },
-                {
-                    "DescriptionText": ""
-                },
-                {
-                    "DescriptionText": "Hardline Requirements for Trading:"
-                },
-                {
-                    "DescriptionText": "Poor Item: 0"
-                },
-                {
-                    "DescriptionText": "Common Item: 0"
-                },
-                {
-                    "DescriptionText": "Uncommon Item: 1000"
-                },
-                {
-                    "DescriptionText": "Rare Item: 2000"
-                },
-                {
-                    "DescriptionText": "Epic Item: 5000"
-                },
-                {
-                    "DescriptionText": "Legendary Item: 7500"
-                },
-                {
-                    "DescriptionText": "Mythic / Exotic Item: 10000"
                 }
 
             ]
