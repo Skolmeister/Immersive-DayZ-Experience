@@ -124,9 +124,86 @@
                 }
 
             ]
+        },
+        {
+            "CategoryName": "Diseases and their treatment",
+            "Rules": [
+                {
+                    "RuleParagraph": "Wound Infection",
+                    "RuleText": "Treatment: Disinfectant + Antibiotics (only stage 2). Symptoms: Blood on screen, pain sounds, health loss"
+                },
+                {
+                    "RuleParagraph": "Cholera",
+                    "RuleText": "Treatment: Antibiotics, Vitamins. Symptoms: Fever, Vomiting, Dehydration"
+                },
+                {
+                    "RuleParagraph": "Cold",
+                    "RuleText": "Treatment: Antibiotics, Vitamins. Symptoms: Sneezing and coughing. (Can spread to nearby survivors)"
+                },
+                {
+                    "RuleParagraph": "Influenza (Flu)",
+                    "RuleText": "Treatment: Antibiotics, Vitamins. Symptoms: Sneezing and coughing, fever. (Can spread to nearby survivors)"
+                },
+                {
+                    "RuleParagraph": "Salmonella",
+                    "RuleText": "Treatment: Charcoal Tablets, Vitamins. Symptoms: Vomiting, pain sounds"
+                },
+                {
+                    "RuleParagraph": "Chemical Poisoning",
+                    "RuleText": "Treatment: Charcoal Tablets + Vitamins. Symptoms: Hydration and blood loss"
+                },
+                {
+                    "RuleParagraph": "Heart Attack",
+                    "RuleText": "Treatment: Epinephrine Auto-injector. Symptoms: Falling unconscious, health damage, possibly death"
+                },
+                {
+                    "RuleParagraph": "Hemolytic Reaction",
+                    "RuleText": "Treatment: None, ends after 3 minutes. Symptoms: Blood loss and health damage"
+                },
+                {
+                    "RuleParagraph": "Toxic Poisoning",
+                    "RuleText": "Treatment: PO-X Antidote. Symptoms: Coughing blood, vomiting blood, unconciousness, health damage"
+                },
+                {
+                    "RuleParagraph": "Brain Disease (Kuru)",
+                    "RuleText": "Treatment: Only your gun will help you. Symptoms: Uncontrollable random laughter and random tremors"
+                }
+                
+            ]
+        },
+        {
+            "CategoryName": "Medicines",
+            "Rules": [
+                {
+                    "RuleParagraph": "Antibiotics",
+                    "RuleText": "Tetracycline, Amoxicillin"
+                },
+                {
+                    "RuleParagraph": "Pain Killers",
+                    "RuleText": "Codein, Polaris, Ai2, Methadon, Morphine, Paracetamol, Cocodamol, Lyxmecycline, Tramadol, Oxycodon"
+                },
+                {
+                    "RuleParagraph": "Disinfectants",
+                    "RuleText": "Alcohol, Iodine Tincture, Antiseptic Disinfection Powder, Disinfectant Spray, Chlorine Tablets"
+                },
+                {
+                    "RuleParagraph": "Common Medication",
+                    "RuleText": "Aspirin, Charcoal Tablets, Poter, Flouxatin, Fuclocaxillin"
+                },
+                {
+                    "RuleParagraph": "Vitamins",
+                    "RuleText": "Multivitamin Pills, Nutrivital, Xanax, ACID (LSD)"
+                },
+                {
+                    "RuleParagraph": "Anti-Poisoning",
+                    "RuleText": "Charcoal Tablets, PO-X Antidote, Snake Venom Antidote"
+                },
+                {
+                    "RuleParagraph": "Bleed Reducer",
+                    "RuleText": "Vikasol"
+                }
+            ]
         }
-
-
     ],
     "DisplayServerSettingsInServerInfoTab": 1,
     "SettingCategories": [
