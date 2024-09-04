@@ -4584,10 +4584,10 @@
         <usage name="Village"/>
     </type>
     <type name="ChernarusMap">
-        <nominal>80</nominal>
+        <nominal>120</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>50</min>
+        <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4599,6 +4599,11 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Office"/>
+        <usage name="Farm"/>
+        <usage name="Prison"/>
+        <usage name="School"/>
+        <usage name="Police"/>
+        <usage name="Coast"/>
     </type>
     <type name="ChernarusMap_Open">
         <nominal>0</nominal>

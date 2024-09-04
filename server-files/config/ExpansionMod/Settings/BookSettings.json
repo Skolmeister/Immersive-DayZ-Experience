@@ -8,7 +8,7 @@
     "EnableBookMenu": 1,
     "CreateBookmarks": 1,
     "ShowHaBStats": 1,
-    "ShowPlayerFaction": 0,
+    "ShowPlayerFaction": 1,
     "RuleCategories": [
         {
             "CategoryName": "General",
@@ -222,6 +222,111 @@
                     "SettingTitle": "Expansion.Settings.Party.UseWholeMapForInviteList",
                     "SettingText": "",
                     "SettingValue": ""
+                }
+            ]
+        },
+        {
+            "CategoryName": "Hardline Loss",
+            "Settings": [
+                {
+                    "SettingTitle": "On Player Death",
+                    "SettingText": "",
+                    "SettingValue": "1.000"
+                }
+            ]
+        },
+        {
+            "CategoryName": "Hardline Gain",
+            "Settings": [
+                {
+                    "SettingTitle": "Zombie (Standard)",
+                    "SettingText": "",
+                    "SettingValue": "10"
+                },
+                {
+                    "SettingTitle": "Zombie (NBC)",
+                    "SettingText": "",
+                    "SettingValue": "20"
+                },
+                {
+                    "SettingTitle": "Zombie (Military)",
+                    "SettingText": "",
+                    "SettingValue": "30"
+                },
+                {
+                    "SettingTitle": "AI",
+                    "SettingText": "",
+                    "SettingValue": "250"
+                },
+                {
+                    "SettingTitle": "Other Player",
+                    "SettingText": "",
+                    "SettingValue": "500"
+                },
+                {
+                    "SettingTitle": "Animal (Standard)",
+                    "SettingText": "",
+                    "SettingValue": "10"
+                },
+                {
+                    "SettingTitle": "Animal (Snake)",
+                    "SettingText": "",
+                    "SettingValue": "20"
+                },
+                {
+                    "SettingTitle": "Animal (Wolf)",
+                    "SettingText": "",
+                    "SettingValue": "30"
+                },
+                {
+                    "SettingTitle": "Animal (Bear)",
+                    "SettingText": "",
+                    "SettingValue": "60"
+                },
+                {
+                    "SettingTitle": "Items (Based on Rarity)",
+                    "SettingText": "",
+                    "SettingValue": "2 - 8"
+                }
+            ]
+        },
+        {
+            "CategoryName": "Trading: Hardline Requirements",
+            "Settings": [
+                {
+                    "SettingTitle": "Item Rarity: Poor",
+                    "SettingText": "",
+                    "SettingValue": "0"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Common",
+                    "SettingText": "",
+                    "SettingValue": "0"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Uncommon",
+                    "SettingText": "",
+                    "SettingValue": "1.000"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Rare",
+                    "SettingText": "",
+                    "SettingValue": "2.000"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Epic",
+                    "SettingText": "",
+                    "SettingValue": "5.000"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Legendary",
+                    "SettingText": "",
+                    "SettingValue": "7.500"
+                },
+                {
+                    "SettingTitle": "Item Rarity: Mythic / Exotic",
+                    "SettingText": "",
+                    "SettingValue": "10.000"
                 }
             ]
         }

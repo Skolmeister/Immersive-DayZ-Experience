@@ -4307,6 +4307,7 @@
         <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <tag name="shelves"/>
     </type>
     <type name="ExpansionBanknoteEuro">
         <nominal>0</nominal>
@@ -4317,16 +4318,18 @@
         <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <tag name="shelves"/>
     </type>
     <type name="ExpansionBanknoteHryvnia">
-        <nominal>0</nominal>
+        <nominal>100</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>30</quantmax>
+        <restock>0</restock>
+        <min>60</min>
+        <quantmin>1</quantmin>
+        <quantmax>500</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <tag name="shelves"/>
     </type>
     <!-- OTHER MARKET ITEMS -->
     <type name="ExpansionTemporaryOwnedContainer">
