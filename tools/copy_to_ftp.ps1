@@ -19,7 +19,7 @@ Get-ChildItem $server_dir -Directory | ForEach-Object {
         '\\server-files\\config' {
           [string[]]$dir_str=$dir.Directory 
           $detailed_dir = [regex]::Match($dir_str, '(?<=\\server-files\\config).*').Value
-          $path_output = $ftp_dir + '\ServerProfile' + $detailed_dir
+          $path_output = $ftp_dir + '\config' + $detailed_dir
         }
         '\\server-files\\mpmissions' {
           [string[]]$dir_str=$dir.Directory 
@@ -29,7 +29,7 @@ Get-ChildItem $server_dir -Directory | ForEach-Object {
       }
       # Wenn der Zielordner nicht existiert wird dieser erstellt
       If(!(Test-Path -PathType Container $path_output)) {
-        New-Item -ItemType Directory -Path $path_output
+        [void](New-Item -ItemType Directory -Path $path_output)
       }
       # Kopiere jedes Item an die richtige Stelle
       $_ | Copy-Item -Force -Destination $path_output
