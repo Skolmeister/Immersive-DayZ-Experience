@@ -1,20 +1,4 @@
-{
-    "ConfigVersion": 28,
-    "ID": 2,
-    "ObjectiveType": 2,
-    "ObjectiveText": "Kill 100 Infected",
-    "TimeLimit": -1,
-    "Active": 1,
-    "Position": [
-        0.0,
-        0.0,
-        0.0
-    ],
-    "MaxDistance": 150.0,
-    "MinDistance": -1.0,
-    "Amount": 100,
-    "ClassNames": [
-    "ZmbM_HermitSkinny_Base",
+"ZmbM_HermitSkinny_Base",
 	"ZmbM_HermitSkinny_Beige",
 	"ZmbM_HermitSkinny_Black",
 	"ZmbM_HermitSkinny_Green",
@@ -112,11 +96,3 @@
 	"ZmbF_SkaterYoung_Violet",
 	"ZmbF_DoctorSkinny_Base",
 	"ZmbF_DoctorSkinny"
-    ],
-    "CountSelfKill": 1,
-    "AllowedWeapons": [],
-    "ExcludedClassNames": [],
-    "CountAIPlayers": 0,
-    "AllowedTargetFactions": [],
-    "AllowedDamageZones": []
-}
