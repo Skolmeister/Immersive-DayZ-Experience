@@ -1,16 +1,16 @@
 {
     "ConfigVersion": 22,
-    "ID": 10,
+    "ID": 64,
     "Type": 1,
-    "Title": "[VIP] Test quest",
+    "Title": "[VIP] Join the NATO",
     "Descriptions": [
-        "PLACEHOLDER",
-        "PLACEHOLDER",
-        "PLACEHOLDER"
+        "Hey, I heard you want to join the most peaceful faction in the whole world? We need help escorting one of our Lieutenants to the nearest safezone. I'm sure we'll let you join afterwards.",
+        "You didn't do anything yet! What are you doing here?",
+        "Thank god you brought him here safely! I hope the commie scum was not that big of a problem for you?"
     ],
-    "ObjectiveText": "PLACEHOLDER",
+    "ObjectiveText": "Escort the NATO Member",
     "FollowUpQuest": -1,
-    "Repeatable": 0,
+    "Repeatable": 1,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 100,
+            "Amount": 10000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -44,21 +44,28 @@
     "Objectives": [
         {
             "ConfigVersion": 28,
+            "ID": 5,
+            "ObjectiveType": 8
+        },
+        {
+            "ConfigVersion": 28,
             "ID": 1,
             "ObjectiveType": 9
         }
     ],
-    "QuestColor": -930200403,
+    "QuestColor": 0,
     "ReputationReward": 0,
-    "ReputationRequirement": -1,
+    "ReputationRequirement": 1000,
     "PreQuestIDs": [],
     "RequiredFaction": "",
-    "FactionReward": "",
+    "FactionReward": "West",
     "PlayerNeedQuestItems": 1,
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
+    "FactionReputationRewards": {
+        "West": 500
+    },
     "SuppressQuestLogOnCompetion": 0,
     "Active": 1
 }
