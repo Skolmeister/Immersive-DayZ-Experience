@@ -135,9 +135,12 @@ excel_output <- list(
 
 writexl::write_xlsx(
   excel_output,
-  glue::glue(
-    "{format(lubridate::today(), '%Y%m%d')}",
-    "_classnames_with_attributes",
-    ".xlsx"
+  here::here(
+    "ressources",
+    glue::glue(
+      "{format(lubridate::today(), '%Y%m%d')}",
+      "_classnames_with_attributes",
+      ".xlsx"
+    )
   )
 )
