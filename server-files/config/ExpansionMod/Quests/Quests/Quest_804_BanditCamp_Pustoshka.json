@@ -2,7 +2,7 @@
     "ConfigVersion": 22,
     "ID": 804,
     "Type": 1,
-    "Title": "Clear Village - Pustoshka",
+    "Title": "Clear Bandit Camp - Pustoshka",
     "Descriptions": [
         "Difficulty: HARD",
         "PLACEHOLDER",
@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 96000,
+            "Amount": 240000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -44,17 +44,17 @@
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 13,
+            "ID": 14,
             "ObjectiveType": 3
         },
         {
             "ConfigVersion": 28,
-            "ID": 4,
+            "ID": 5,
             "ObjectiveType": 8
         }
     ],
     "QuestColor": -930200403,
-    "ReputationReward": 1200,
+    "ReputationReward": 3000,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",
@@ -63,7 +63,9 @@
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
+    "FactionReputationRewards": {
+        "West": 500
+    },
     "SuppressQuestLogOnCompetion": 0,
     "Active": 1
 }
