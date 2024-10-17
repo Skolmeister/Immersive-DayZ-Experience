@@ -1,42 +1,59 @@
 {
     "ConfigVersion": 22,
-    "ID": 14,
+    "ID": 500,
     "Type": 1,
-    "Title": "Welcome to Hell",
+    "Title": "Clear Patrol - Devil's Castle",
     "Descriptions": [
         "PLACEHOLDER",
         "PLACEHOLDER",
         "PLACEHOLDER"
     ],
-    "ObjectiveText": "Visit the camp at the marked location.",
+    "ObjectiveText": "Kill all members of the bandit patrol at the marked location.",
     "FollowUpQuest": -1,
-    "Repeatable": 0,
+    "Repeatable": 1,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
-    "Autocomplete": 1,
-    "IsGroupQuest": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 1,
     "ObjectSetFileName": "",
     "QuestItems": [],
-    "Rewards": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 20000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
     "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
     "RewardBehavior": 0,
-    "QuestGiverIDs": [],
+    "QuestGiverIDs": [
+        3
+    ],
     "QuestTurnInIDs": [
-        1
+        3
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 3,
+            "ID": 4,
             "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 7
         }
     ],
-    "QuestColor": 0,
+    "QuestColor": -930200403,
     "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],

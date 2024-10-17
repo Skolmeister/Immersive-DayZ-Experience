@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 5,
+    "ID": 801,
     "Type": 1,
-    "Title": "Clear Patrol - Bandits",
+    "Title": "Clear Village - Myshkino",
     "Descriptions": [
         "PLACEHOLDER",
         "PLACEHOLDER",
         "PLACEHOLDER"
     ],
-    "ObjectiveText": "Kill all members of the bandit patrol at the marked location.",
+    "ObjectiveText": "Kill all bandits at the marked location.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 20000,
+            "Amount": 120000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -44,17 +44,17 @@
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 4,
+            "ID": 11,
             "ObjectiveType": 3
         },
         {
             "ConfigVersion": 28,
-            "ID": 1,
-            "ObjectiveType": 7
+            "ID": 2,
+            "ObjectiveType": 8
         }
     ],
     "QuestColor": -930200403,
-    "ReputationReward": 0,
+    "ReputationReward": 1500,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",
