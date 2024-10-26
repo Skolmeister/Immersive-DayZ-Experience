@@ -48,7 +48,7 @@
         {
             "Spatial_MinCount": 1,
             "Spatial_MaxCount": 3,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "HumanLoadout.json",
             "Spatial_Faction": "Shamans",
             "Spatial_Name": "Shaman",
@@ -61,10 +61,23 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 3,
-            "Spatial_Weight": 350.0,
+            "Spatial_Weight": 200.0,
             "Spatial_Loadout": "EastLoadout.json",
             "Spatial_Faction": "Passive",
             "Spatial_Name": "Passive",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.5,
+            "Spatial_MinAccuracy": 0.25,
+            "Spatial_MaxAccuracy": 0.6600000262260437,
+            "Spatial_UnlimitedReload": 1
+        },
+        {
+            "Spatial_MinCount": 2,
+            "Spatial_MaxCount": 3,
+            "Spatial_Weight": 350.0,
+            "Spatial_Loadout": "BanditLoadout.json",
+            "Spatial_Faction": "Raiders",
+            "Spatial_Name": "Bandits",
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.5,
             "Spatial_MinAccuracy": 0.25,
