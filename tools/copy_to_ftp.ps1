@@ -2,6 +2,13 @@
 # Definiere Quell- und Zielordner
 $server_dir = "C:\Users\alexa\projects\Immersive-DayZ-Experience\server-files"
 $ftp_dir =  "C:\Users\alexa\projects\test"
+# # Part fürs FTP
+# $client = New-Object System.Net.WebClient
+# $client.Credentials =
+#     New-Object System.Net.NetworkCredential("gpftp593641302069433", "WfJ3oi9w")
+# $client.UploadFile(
+#     "ftp://176.57.171.6:50421/test.json", "C:\Users\alexa\test.json")
+
 # Minimales alter der Änderungen
 $age = -120
 # Ziehe alle Unterordner aus dem Quellordner
