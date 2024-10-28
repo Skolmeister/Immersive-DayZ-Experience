@@ -1,6 +1,6 @@
 {
     "ConfigVersion": 28,
-    "ID": 5,
+    "ID": 900,
     "ObjectiveType": 8,
     "ObjectiveText": "Kill the commie scum at the marked location!",
     "TimeLimit": -1,
@@ -12,7 +12,7 @@
     "AllowedDamageZones": [],
     "AISpawns": [
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Vladimir",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -76,14 +76,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4351.330078125,
-                    307.0679931640625,
-                    6400.52001953125
+                    3779.54,
+                    307.531,
+                    8736.5
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Ivan",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -147,14 +147,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4389.02978515625,
-                    302.802001953125,
-                    6391.77001953125
+                    3807.37,
+                    314.627,
+                    8782.66
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Boris",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -218,14 +218,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4416.669921875,
-                    301.97698974609377,
-                    6395.7001953125
+                    3822.25,
+                    312.176,
+                    8875.58
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Petr",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -289,14 +289,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4431.81982421875,
-                    298.9010009765625,
-                    6452.22021484375
+                    3833.63,
+                    311.613,
+                    8872.18
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Gabor",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -360,14 +360,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4418.52001953125,
-                    299.6000061035156,
-                    6441.919921875
+                    3832.03,
+                    311.105,
+                    8825.5
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Nikita",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -431,14 +431,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4475.16015625,
-                    295.2200012207031,
-                    6461.56982421875
+                    3784.29,
+                    311.232,
+                    8858.67
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Aljoscha",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -502,14 +502,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4485.009765625,
-                    295.2200012207031,
-                    6466.97021484375
+                    3759.85,
+                    311.283,
+                    8920.29
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Mihail",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -573,14 +573,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4435.5400390625,
-                    297.74700927734377,
-                    6470.2998046875
+                    3761.89,
+                    311.276,
+                    8918.26
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Radoslav",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -644,14 +644,14 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4556.2998046875,
-                    289.2749938964844,
-                    6390.83984375
+                    3745.74,
+                    314.1,
+                    8926.31
                 ]
             ]
         },
         {
-            "Name": "Commie",
+            "NPCName": "Comrade Boleslav",
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
@@ -715,9 +715,364 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4523.009765625,
-                    290.427001953125,
-                    6448.2998046875
+                    3756.79,
+                    311.276,
+                    8914.91
+                ]
+            ]
+        },
+        {
+            "NPCName": "Comrade Nikolas",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 300.0,
+            "AccuracyMin": 0.5,
+            "AccuracyMax": 0.800000011920929,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "MinDistRadius": 50.0,
+            "MaxDistRadius": 300.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1.0,
+            "RespawnTime": 1.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3817.27,
+                    311.275,
+                    8941.75
+                ]
+            ]
+        },
+        {
+            "NPCName": "Comrade Sergej",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 300.0,
+            "AccuracyMin": 0.5,
+            "AccuracyMax": 0.800000011920929,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "MinDistRadius": 50.0,
+            "MaxDistRadius": 300.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1.0,
+            "RespawnTime": 1.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3854.93,
+                    311.295,
+                    8947.14
+                ]
+            ]
+        },
+        {
+            "NPCName": "Comrade Evgenij",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 300.0,
+            "AccuracyMin": 0.5,
+            "AccuracyMax": 0.800000011920929,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "MinDistRadius": 50.0,
+            "MaxDistRadius": 300.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1.0,
+            "RespawnTime": 1.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3847.23,
+                    311.841,
+                    9010.35
+                ]
+            ]
+        },
+        {
+            "NPCName": "Comrade Oleg",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 300.0,
+            "AccuracyMin": 0.5,
+            "AccuracyMax": 0.800000011920929,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "MinDistRadius": 50.0,
+            "MaxDistRadius": 300.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1.0,
+            "RespawnTime": 1.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3762.16,
+                    312.504,
+                    9007.74
+                ]
+            ]
+        },
+        {
+            "NPCName": "Comrade Aleksej",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 300.0,
+            "AccuracyMin": 0.5,
+            "AccuracyMax": 0.800000011920929,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "MinDistRadius": 50.0,
+            "MaxDistRadius": 300.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 1.0,
+            "RespawnTime": 1.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3726.71,
+                    316.424,
+                    8920.93
                 ]
             ]
         }
