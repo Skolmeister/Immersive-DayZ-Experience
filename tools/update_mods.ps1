@@ -8,7 +8,7 @@ $server_dir = "D:\SteamLibrary\steamapps\common\DayZServer"
 # Mapping der Workshop IDs zu den Ordnernamen auf dem Server
 $csv = Import-Csv -Path ".\ressources\modmapping.csv" -Delimiter ";" 
 # Minimales alter der Änderungen
-$age = -1
+$age = -7
 
 # Erstelle eine Lookup Table fuer die Workshop-Ids
 $lookupHash = @{}
