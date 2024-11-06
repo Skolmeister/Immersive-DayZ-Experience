@@ -10,7 +10,7 @@ import re
 
 # Lade environment und setze variablen
 load_dotenv()
-directory_path = '/logs' 
+directory_path = 'logs' 
 TARGET_CHANNEL_ID = 1271160668770275429  
 MESSAGE_CONTENT = "Hier sind die neuesten Modupdates:"
 
@@ -22,7 +22,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 # Funktion zum durchsuchen der Mods
 def search_updated_mods():
         subprocess.Popen(["Rscript", 
-                  os.getcwd() + "/tools/find_last_updates.r"])
+                  os.getcwd() + "/find_last_updates.r"])
         return
 
 # Funktion zum finden des letzten Logs
@@ -65,11 +65,11 @@ async def send_daily_message():
         # Warte bis alles generiert wurde
         time.sleep(60)
         # Finde das neueste Logfile
-        latest_file = get_latest_file_by_timestamp(os.getcwd() + directory_path)
+        latest_file = get_latest_file_by_timestamp(directory_path)
         # Sende die Nachricht mit Anhang
         await channel.send(MESSAGE_CONTENT)
         with open(latest_file, 'rb') as fp:
-            await channel.send(file=discord.File(fp, 'mod.csv'))
+            await channel.send(file=discord.File(fp, 'mod.log'))
     else:
         print("Channel wurde nicht gefunden. Bitte überprüfe die Channel-ID.")
 
@@ -90,9 +90,9 @@ async def on_message(message):
 
     if message.content.startswith('?modupdates'):
         await message.channel.send('Here are the latest Mod updates!')
-        latest_file = get_latest_file_by_timestamp(os.getcwd() + directory_path)
+        latest_file = get_latest_file_by_timestamp(directory_path)
         with open(latest_file, 'rb') as fp:
-            await message.channel.send(file=discord.File(fp, 'mod.csv'))
+            await message.channel.send(file=discord.File(fp, 'mod.log'))
 
 # Starte den Bot
 bot.run(os.getenv("DISCORD_BOT"))

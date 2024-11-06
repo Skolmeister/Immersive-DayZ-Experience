@@ -3,7 +3,7 @@
 base_url <- "https://steamcommunity.com/sharedfiles/filedetails/?id="
 
 # Mod List
-all_mods <- readr::read_csv2(here::here("ressources", "modmapping.csv"))
+all_mods <- readr::read_csv2(here::here("modmapping.csv"))
 
 
 get_last_updated <- function(steam_id) {
@@ -86,8 +86,7 @@ get_last_updated <- function(steam_id) {
 
 # Loop through all mods
 all_mod_updates <- purrr::map_df(
-  all_mods$mod_id, get_last_updated,
-  .progress = TRUE
+  all_mods$mod_id, get_last_updated
 )
 
 # Construct a datetime column from the information
