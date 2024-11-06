@@ -20,5 +20,6 @@ COPY ./app/modmapping.csv /app/modmapping.csv
 COPY ./.env /app/.env
 
 RUN mkdir -p /app/logs
+# COPY ./logs/. /app/logs
 
 CMD ["python3", "discord_scheduler_bot.py"]

@@ -1,0 +1,9 @@
+---
+
+services: 
+  discord_bot:
+    image: discord_bot
+    container_name: discord_bot
+    restart: unless-stopped
+    volumes: 
+      - /home/alex/Documents/projects/Immersive-DayZ-Experience/discordbot/logs:/app/logs
