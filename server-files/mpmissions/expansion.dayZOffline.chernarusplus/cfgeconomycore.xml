@@ -131,7 +131,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="MSP_ce">
 		<file name="msp_types.xml" type="types" />
 	</ce>
-						<!-- Cigarettes Mod -->
+				<!-- Cigarettes Mod -->
 	<ce folder="cigarettes_ce">
 		<file name="cigarettes_types.xml" type="types" />
 		<file name="cigarettes_cfgspawnabletypes.xml" type="spawnabletypes" />
@@ -163,7 +163,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="BBP_ce">
 		<file name="BBP_types.xml" type="types" />
 	</ce>
-
+						<!-- Infected AI -->
+	<ce folder="Inedia_ce">
+		<file name="inedia_types.xml" type="types" />
+	</ce>
 		<!-- More Materials
 	<ce folder="MoreMaterials_ce">
 		<file name="MoreMaterials_Types.xml" type="types" />

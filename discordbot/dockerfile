@@ -1,0 +1,25 @@
+FROM rocker/r-ver:4.3
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential python3 python3-pip libxml2
+
+WORKDIR /app
+
+COPY /app/requirements.txt /app/requirements.txt
+
+RUN pip3 install -r requirements.txt
+
+COPY /app/requirements.r /app/requirements.r
+
+RUN Rscript requirements.r
+
+COPY ./discord_scheduler_bot.py /app/discord_scheduler_bot.py
+COPY ./find_last_updates.r /app/find_last_updates.r
+COPY ./app/modmapping.csv /app/modmapping.csv
+COPY ./.env /app/.env
+
+RUN mkdir -p /app/logs
+# COPY ./logs/. /app/logs
+
+CMD ["python3", "discord_scheduler_bot.py"]
