@@ -12,8 +12,7 @@
     "AllowedDamageZones": [],
     "AISpawns": [
         {
-            "NPCName": "Comrade Vladimir",
-            "Persist": 0,
+            "Name": "Comrade Vladimir",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -83,8 +82,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Ivan",
-            "Persist": 0,
+            "Name": "Comrade Ivan",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -154,8 +152,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Boris",
-            "Persist": 0,
+            "Name": "Comrade Boris",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -225,8 +222,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Petr",
-            "Persist": 0,
+            "Name": "Comrade Petr",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -296,8 +292,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Gabor",
-            "Persist": 0,
+            "Name": "Comrade Gabor",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -367,8 +362,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Nikita",
-            "Persist": 0,
+            "Name": "Comrade Nikita",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -438,8 +432,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Aljoscha",
-            "Persist": 0,
+            "Name": "Comrade Aljoscha",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -509,8 +502,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Mihail",
-            "Persist": 0,
+            "Name": "Comrade Mihail",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -580,8 +572,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Radoslav",
-            "Persist": 0,
+            "Name": "Comrade Radoslav",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -651,8 +642,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Boleslav",
-            "Persist": 0,
+            "Name": "Comrade Boleslav",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -722,8 +712,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Nikolas",
-            "Persist": 0,
+            "Name": "Comrade Nikolas",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -793,8 +782,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Sergej",
-            "Persist": 0,
+            "Name": "Comrade Sergej",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -864,8 +852,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Evgenij",
-            "Persist": 0,
+            "Name": "Comrade Evgenij",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -935,8 +922,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Oleg",
-            "Persist": 0,
+            "Name": "Comrade Oleg",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
@@ -1006,8 +992,7 @@
             ]
         },
         {
-            "NPCName": "Comrade Aleksej",
-            "Persist": 0,
+            "Name": "Comrade Aleksej",
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
