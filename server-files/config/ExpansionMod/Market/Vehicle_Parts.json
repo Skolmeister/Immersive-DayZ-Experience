@@ -31,17 +31,6 @@
             "Variants": []
         },
         {
-            "ClassName": "TruckBattery",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "CarBattery",
             "MaxPriceThreshold": 1500,
             "MinPriceThreshold": 13500,
