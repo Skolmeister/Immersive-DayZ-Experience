@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 200,
+    "ID": 202,
     "Type": 1,
-    "Title": "Help the NATO",
+    "Title": "Help the Mercenaries",
     "Descriptions": [
-        "Thank god you found me! We need help clearing a roaming enemy's patrol, could you help with that?",
-        "What are you doing here? The patrol is still roaming!",
-        "Wow, thanks for your help! We need every help that we can get. We could make use of good fighters like you."
+        "Hey, wanna kill some Infected for money?",
+        "I know you didn't kill enough! Fuck off until you complete your task or I'll kill you.",
+        "That took long enough, fuck off and take the money"
     ],
-    "ObjectiveText": "Kill the roaming East patrol",
+    "ObjectiveText": "Kill 20 military infected",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -20,45 +20,31 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "Classname": "M16A2",
-            "Amount": 1,
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 20000,
             "Attachments": [],
             "DamagePercent": 0,
+            "HealthPercent": 0,
             "QuestID": -1,
             "Chance": 1.0
-          },
-        {
-            "Name": "TTC_MP5SD",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "QuestID": -1,
-            "Chance": 1.0
-          },
-        {
-            "Classname": "AssaultBag_Green",
-            "Amount": 1,
-            "DamagePercent": 0,
-            "QuestID": -1,
-            "Chance": 1.0
-          }
+        }
     ],
-    "NeedToSelectReward": 1,
+    "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 0,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
-        5
+        7
     ],
     "QuestTurnInIDs": [
-        5
+        7
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 5,
+            "ID": 7,
             "ObjectiveType": 2
         }
     ],
@@ -67,13 +53,13 @@
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",
-    "FactionReward": "West",
+    "FactionReward": "Mercenaries",
     "PlayerNeedQuestItems": 0,
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
     "FactionReputationRewards": {
-        "West": 500
+        "Mercenaries": 500
     },
     "SuppressQuestLogOnCompetion": 0,
     "Active": 1

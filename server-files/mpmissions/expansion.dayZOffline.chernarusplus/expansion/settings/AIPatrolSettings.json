@@ -1338,7 +1338,7 @@
         },
         {
             "Name": "Southeast Patrol",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
