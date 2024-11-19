@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 6,
+    "ClassName": "ExpansionQuestNPCAIBoris",
+    "Position": [
+        10615.943359375,
+        99.48274993896485,
+        9986.515625
+    ],
+    "Orientation": [
+        134.99986267089845,
+        0.0,
+        -0.0
+    ],
+    "NPCName": "лейтена́нт Дмитров [East]",
+    "DefaultNPCText": "За родину!!",
+    "Waypoints": [
+        [
+            10615.943359375,
+            99.48274993896485,
+            9986.515625
+        ]
+    ],
+    "NPCEmoteID": 44,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "EastLoadout",
+    "NPCInteractionEmoteID": 44,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 9,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}

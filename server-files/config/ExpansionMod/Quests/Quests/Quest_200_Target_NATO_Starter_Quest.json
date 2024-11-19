@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 900,
+    "ID": 200,
     "Type": 1,
-    "Title": "[Faction] Join the NATO",
+    "Title": "Help the NATO",
     "Descriptions": [
-        "Hey, I heard you want to join the most peaceful faction in the whole world? We need help escorting one of our Lieutenants to the nearest safezone. I'm sure we'll let you join afterwards.",
-        "You didn't do anything yet! What are you doing here?",
-        "Thank god you brought him here safely! I hope the commie scum was not that big of a problem for you?"
+        "Thank god you found me! We need help clearing a roaming enemy's patrol, could you help with that?",
+        "What are you doing here? The patrol is still roaming!",
+        "Wow, thanks for your help! We need every help that we can get. We could make use of good fighters like you."
     ],
-    "ObjectiveText": "Escort the NATO Member",
+    "ObjectiveText": "Kill the roaming East patrol",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -20,51 +20,55 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 10000,
+            "Classname": "M16A2",
+            "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
-            "HealthPercent": 0,
             "QuestID": -1,
             "Chance": 1.0
-        }
+          },
+        {
+            "Name": "TTC_MP5SD",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+        {
+            "Classname": "AssaultBag_Green",
+            "Amount": 1,
+            "DamagePercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+          }
     ],
-    "NeedToSelectReward": 0,
+    "NeedToSelectReward": 1,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 0,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
-        1
+        5
     ],
     "QuestTurnInIDs": [
-        4
+        5
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 900,
-            "ObjectiveType": 3
-        },
-        {
-            "ConfigVersion": 28,
-            "ID": 900,
-            "ObjectiveType": 8
-        },
-        {
-            "ConfigVersion": 28,
-            "ID": 1,
-            "ObjectiveType": 9
+            "ID": 5,
+            "ObjectiveType": 2
         }
     ],
     "QuestColor": 0,
     "ReputationReward": 0,
-    "ReputationRequirement": 1000,
+    "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",
     "FactionReward": "West",
-    "PlayerNeedQuestItems": 1,
+    "PlayerNeedQuestItems": 0,
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
