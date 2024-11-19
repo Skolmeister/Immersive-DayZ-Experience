@@ -1335,6 +1335,107 @@
                     2063.2548828125
                 ]
             ]
+        },
+        {
+            "Name": "Southeast Patrol",
+            "Persist": 1,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [],
+            "NumberOfAI": 3,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11159.2412109375,
+                    263.08880615234377,
+                    4341.912109375    
+                ],
+                [
+                    11229.232421875,
+                    260.0552062988281,
+                    4486.25439453125
+                ],
+                [
+                    11227.2607421875,
+                    234.12518310546876,
+                    4609.833984375
+                ],
+                [
+                    11195.998046875,
+                    258.30206298828127,
+                    4828.8134765625
+                ],
+                [
+                    11183.330078125,
+                    266.00634765625,
+                    4945.962890625
+                ],
+                [
+                    11255.232421875,
+                    246.76187133789063,
+                    4812.78955078125
+                ],
+                [
+                    11458.1630859375,
+                    183.98672485351563,
+                    4679.0302734375
+                ],
+                [
+                    11727.677734375,
+                    150.08065795898438,
+                    4760.6845703125
+                ],
+                [
+                    11778.7783203125,
+                    180.8768310546875,
+                    4681.12158203125
+                ],
+                [
+                    11808.533203125,
+                    202.16934204101563,
+                    4620.80322265625
+                ],
+                [
+                    11589.759765625,
+                    188.43679809570313,
+                    4522.759765625
+                ],
+                [
+                    11383.09765625,
+                    222.61566162109376,
+                    4493.95458984375
+                ],
+                [
+                    11266.2978515625,
+                    290.1854553222656,
+                    4305.43212890625
+                ]
+            ]
         }
     ]
 }

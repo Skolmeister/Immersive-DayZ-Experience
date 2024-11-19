@@ -1,0 +1,38 @@
+{
+    "ConfigVersion": 28,
+    "ID": 7,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Kill 20 Military Infected",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "Amount": 3,
+    "ClassNames": [
+        "ZmbM_usSoldier_Heavy_Woodland",
+        "ZmbM_usSoldier_Officer_Desert",
+        "ZmbM_usSoldier_normal_Desert",
+        "ZmbM_usSoldier_normal_Woodland",
+        "ZmbM_usSoldier_Heavy_Woodland",
+        "ZmbM_usSoldier_Officer_Desert",
+        "ZmbM_usSoldier_Officer_Convoy",
+        "ZmbM_eastSoldier_normal_Navy",
+        "ZmbM_eastSoldier_Heavy_Navy",
+        "ZmbM_SoldierNormal",
+        "ZmbM_PatrolNormal_Autumn",
+        "ZmbM_PatrolNormal_Flat",
+        "ZmbM_PatrolNormal_PautRev",
+        "ZmbM_PatrolNormal_Summer"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}
