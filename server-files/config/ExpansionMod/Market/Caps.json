@@ -196,6 +196,40 @@
             ]
         },
         {
+            "ClassName": "FOG_Fleececap_Black",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Fleececap_Grey",
+                "FOG_Fleececap_CB",
+                "FOG_Fleececap_RG",
+                "FOG_Fleececap_White"
+            ]
+        },
+        {
+            "ClassName": "FOG_Watchcap_Black",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Watchcap_Grey",
+                "FOG_Watchcap_Red",
+                "FOG_Watchcap_CB",
+                "FOG_Watchcap_RG",
+                "FOG_Watchcap_Tan",
+                "FOG_Watchcap_White"
+            ]
+        },
+        {
             "ClassName": "Msp_BaseballCap_Beige",
             "MaxPriceThreshold": 60,
             "MinPriceThreshold": 54,

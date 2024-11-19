@@ -487,7 +487,8 @@
 				"FOG_Tactical_Fleece_RG",
 				"FOG_Tactical_Fleece_CB",
 				"FOG_Tactical_Fleece_MC",
-				"FOG_Tactical_Fleece_Arctic"
+				"FOG_Tactical_Fleece_Arctic",
+                "FOG_Tactical_Fleece_White"
 			]
         },
         {
@@ -522,7 +523,8 @@
 				"FOG_Gorka_Jacket_Green",
 				"FOG_Gorka_Jacket_Partizan",
 				"FOG_Gorka_Jacket_Autumn",
-				"FOG_Gorka_Jacket_Summer"
+				"FOG_Gorka_Jacket_Summer",
+                "FOG_Gorka_Jacket_White"
 			]
         },
         {
@@ -541,7 +543,8 @@
                 "FOG_Jacket_SoftShell_MC",
                 "FOG_Jacket_SoftShell_MCB",
                 "FOG_Jacket_SoftShell_RG",
-                "FOG_Jacket_SoftShell_CB"
+                "FOG_Jacket_SoftShell_CB",
+                "FOG_Jacket_SoftShell_White"
             ]
         },
 		{
@@ -572,7 +575,11 @@
             "Variants": [
 				"FOG_Shirt_ISOF_Jacket_MC",
                 "FOG_Shirt_ISOF_Jacket_MC2",
-				"FOG_Shirt_ISOF_Jacket_M81"
+				"FOG_Shirt_ISOF_Jacket_M81",
+                "FOG_Shirt_ISOF_Jacket_MCAL",
+                "FOG_Shirt_ISOF_Jacket_RG",
+                "FOG_Shirt_ISOF_Jacket_CB",
+                "FOG_Shirt_ISOF_Jacket_White"
 			]
         },
 		{
@@ -700,7 +707,8 @@
                 "FOG_Enhanced_PCU_Tan",
                 "FOG_Enhanced_PCU_RG",
                 "FOG_Enhanced_PCU_USMC",
-                "FOG_Enhanced_PCU_DNC"
+                "FOG_Enhanced_PCU_DNC",
+                "FOG_Enhanced_PCU_White"
             ]
         }
     ]

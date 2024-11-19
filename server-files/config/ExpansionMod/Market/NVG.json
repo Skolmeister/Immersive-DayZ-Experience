@@ -46,6 +46,22 @@
             ],
             "Variants": []
         },
+        {
+            "ClassName": "FOG_UAPNVG_Black",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": [
+                "FOG_UAPNVG_Tan",
+                "FOG_UAPNVG_RG"
+            ]
+        },
 		{
             "ClassName": "FOG_PVS31",
             "MaxPriceThreshold": 4000,

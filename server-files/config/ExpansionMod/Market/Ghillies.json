@@ -40,6 +40,52 @@
             ]
         },
         {
+            "ClassName": "FOG_GhillieHood_GrassMulti",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_GhillieHood_GrassGreen",
+                "FOG_GhillieHood_Grass",
+                "FOG_GhillieHood_BushYellow",
+                "FOG_GhillieHood_Urban",
+                "FOG_GhillieHood_Snow",
+                "FOG_GhillieHood_Rags",
+                "FOG_GhillieHood_RagsMCB",
+                "FOG_GhillieHood_Pine",
+                "FOG_GhillieHood_Green",
+                "FOG_GhillieHood_MCBrowns",
+                "FOG_GhillieHood_Leaf"
+            ]
+        },
+        {
+            "ClassName": "FOG_GhillieBushrag_GrassMulti",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_GhillieBushrag_GrassGreen",
+                "FOG_GhillieBushrag_Grass",
+                "FOG_GhillieBushrag_BushYellow",
+                "FOG_GhillieBushrag_Urban",
+                "FOG_GhillieBushrag_Snow",
+                "FOG_GhillieBushrag_Rags",
+                "FOG_GhillieBushrag_RagsMCB",
+                "FOG_GhillieBushrag_Pine",
+                "FOG_GhillieBushrag_Green",
+                "FOG_GhillieBushrag_MCBrowns",
+                "FOG_GhillieBushrag_Leaf"
+            ]
+        },
+        {
             "ClassName": "ghilliebushrag_tan",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 900,
@@ -69,6 +115,7 @@
                 "MilitaryGear_GhillieBushrag_Yeger"
             ]
         },
+
         {
             "ClassName": "ghillietop_tan",
             "MaxPriceThreshold": 2000,
@@ -97,6 +144,29 @@
                 "MilitaryGear_GhillieTop_CADPAT",
                 "MilitaryGear_GhillieTop_Tropic",
                 "MilitaryGear_GhillieTop_Yeger"
+            ]
+        },
+        {
+            "ClassName": "FOG_GhillieTop_GrassMulti",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            "FOG_GhillieTop_GrassGreen",
+            "FOG_GhillieTop_Grass",
+            "FOG_GhillieTop_BushYellow",
+            "FOG_GhillieTop_Urban",
+            "FOG_GhillieTop_Snow",
+            "FOG_GhillieTop_Rags",
+            "FOG_GhillieTop_RagsMCB",
+            "FOG_GhillieTop_Pine",
+            "FOG_GhillieTop_Green",
+            "FOG_GhillieTop_MCBrowns",
+            "FOG_GhillieTop_Leaf"
             ]
         },
         {
@@ -138,7 +208,19 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "FOG_GhillieSuit_Green"
+                "FOG_GhillieSuit_Green",
+                "FOG_GhillieSuit_GrassMulti",
+                "FOG_GhillieSuit_GrassGreen",
+                "FOG_GhillieSuit_Grass",
+                "FOG_GhillieSuit_BushYellow",
+                "FOG_GhillieSuit_Urban",
+                "FOG_GhillieSuit_Snow",
+                "FOG_GhillieSuit_Rags",
+                "FOG_GhillieSuit_RagsMCB",
+                "FOG_GhillieSuit_Pine",
+                "FOG_GhillieSuit_Livonia",
+                "FOG_GhillieSuit_MCBrowns",
+                "FOG_GhillieSuit_Leaf"
             ]
         },
         {
@@ -226,6 +308,29 @@
                 "MassWinterGhillieWrap",
                 "GhillieAtt_Tan",
                 "GhillieAtt_Woodland"
+            ]
+        },
+        {
+            "ClassName": "FOG_GhillieAtt_GrassMulti",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_GhillieAtt_GrassGreen",
+                "FOG_GhillieAtt_Grass",
+                "FOG_GhillieAtt_BushYellow",
+                "FOG_GhillieAtt_Urban",
+                "FOG_GhillieAtt_Snow",
+                "FOG_GhillieAtt_Rags",
+                "FOG_GhillieAtt_RagsMCB",
+                "FOG_GhillieAtt_Pine",
+                "FOG_GhillieAtt_Green",
+                "FOG_GhillieAtt_MCBrowns",
+                "FOG_GhillieAtt_Leaf"
             ]
         },
         {
