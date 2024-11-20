@@ -182,6 +182,7 @@
 				<item name="AMS_Aspirin" chance="0.02" />
 				<item name="AMS_Poter" chance="0.02" />
 				<item name="AMS_Methadone" chance="0.01" />
+				<item name="InediaInfectedAI_Calcium" chance="0.05" />
 		</cargo>
 		<cargo chance="0.5" name="toolsPolice">
 				<item name="Battery9V" chance="0.1" />

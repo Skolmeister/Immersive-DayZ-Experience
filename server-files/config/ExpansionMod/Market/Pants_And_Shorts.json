@@ -494,7 +494,8 @@
                 "FOG_Pants_Crye_G3_BTGR",
                 "FOG_Pants_Crye_G3_RTGR",
                 "FOG_Pants_Crye_G3_KBTGR",
-                "FOG_Pants_Crye_G3_UCP"
+                "FOG_Pants_Crye_G3_UCP",
+                "FOG_Pants_Crye_G3_White"
             ]
         },
         {
@@ -517,7 +518,8 @@
                 "FOG_MTF_Pants_MC",
                 "FOG_MTF_Pants_MCB",
                 "FOG_MTF_Pants_FK",
-                "FOG_MTF_Pants_TS"
+                "FOG_MTF_Pants_TS",
+                "FOG_MTF_Pants_White"
             ]
         },
 		{
@@ -530,7 +532,8 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_Gorka_Pants_Khaki"
+				"FOG_Gorka_Pants_Khaki",
+                "FOG_Gorka_Pants_White"
 			]
         },
         {
@@ -570,7 +573,8 @@
             "Variants": [
                 "FOG_G99_Pants_CB",
                 "FOG_G99_Pants_RG",
-                "FOG_G99_Pants_M81"
+                "FOG_G99_Pants_M81",
+                "FOG_G99_Pants_White"
             ]
         },
 		{
@@ -593,7 +597,8 @@
                 "FOG_FieldShorts_MCB",
                 "FOG_FieldShorts_UCP",
                 "FOG_FieldShorts_AOR1",
-                "FOG_FieldShorts_AOR2"
+                "FOG_FieldShorts_AOR2",
+                "FOG_FieldShorts_White"
 			]
         },
 		{
@@ -606,7 +611,7 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"OG_FieldPants_Grey",
+				"FOG_FieldPants_Grey",
                 "FOG_FieldPants_RG",
                 "FOG_FieldPants_CB",
                 "FOG_FieldPants_KHK",
@@ -616,7 +621,8 @@
                 "FOG_FieldPants_MCB",
                 "FOG_FieldPants_UCP",
                 "FOG_FieldPants_AOR1",
-                "FOG_FieldPants_AOR2"
+                "FOG_FieldPants_AOR2",
+                "FOG_FieldPants_White"
 			]
         },
         {

@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 4,
+    "ClassName": "ExpansionQuestNPCAIRolf",
+    "Position": [
+        3208.13,
+        226.598,
+        13725.7
+    ],
+    "Orientation": [
+        -126,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Colonel Hightower",
+    "DefaultNPCText": "Show some respect to your superordinates!",
+    "Waypoints": [
+        [
+            3208.13,
+            226.598,
+            13725.7
+        ]
+    ],
+    "NPCEmoteID": 44,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "WestLoadout",
+    "NPCInteractionEmoteID": 44,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 9,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}

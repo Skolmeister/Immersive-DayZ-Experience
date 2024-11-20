@@ -3,15 +3,15 @@
     "ID": 1,
     "ObjectiveType": 9,
     "ObjectiveText": "Escort the NATO Lieutenant to the Safezone!",
-    "TimeLimit": 600,
+    "TimeLimit": 1200,
     "Active": 1,
     "Position": [
-        3193.590087890625,
-        296.7070007324219,
-        6090.56982421875
+        3208.13,
+        226.598,
+        13725.7
     ],
-    "MaxDistance": 20.0,
-    "MarkerName": "Escort Survivor",
+    "MaxDistance": 10.0,
+    "MarkerName": "Escort the Lieutenant",
     "ShowDistance": 1,
     "CanLootAI": 0,
     "NPCLoadoutFile": "WestLoadout",

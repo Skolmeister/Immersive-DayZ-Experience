@@ -241,6 +241,22 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "FOG_Beard_Handlebar_LightBrown",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Beard_Handlebar_Brown",
+                "FOG_Beard_Handlebar_Black",
+                "FOG_Beard_Handlebar_Grey"
+            ]
         }
+
     ]
 }

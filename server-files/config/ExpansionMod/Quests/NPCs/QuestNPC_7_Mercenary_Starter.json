@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 7,
+    "ClassName": "ExpansionQuestNPCAICyril",
+    "Position": [
+        11930.87890625,
+        142.38760375976563,
+        13175.5419921875
+    ],
+    "Orientation": [
+        -117.00003814697266,
+        0.0,
+        -0.0
+    ],
+    "NPCName": "Cutthroat-Tom [Mercenaries]",
+    "DefaultNPCText": "Wanna taste my ammo?",
+    "Waypoints": [
+        [
+            11930.87890625,
+            142.38760375976563,
+            13175.5419921875
+        ]
+    ],
+    "NPCEmoteID": 44,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "SurvivorLoadout",
+    "NPCInteractionEmoteID": 44,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 9,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}

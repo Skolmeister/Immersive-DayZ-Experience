@@ -5,7 +5,7 @@
             <item name="FOG_RTGFB_Holster_Tan" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
     </type>
@@ -14,7 +14,7 @@
             <item name="FOG_RTGFB_Holster_MC" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
     </type>
@@ -23,7 +23,7 @@
             <item name="FOG_RTGFB_Holster_RG" chance="0.50" />
             <item name="FOG_SAS_Holster_RG" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
     </type>
@@ -32,7 +32,7 @@
             <item name="FOG_RTGFB_Holster_Black" chance="0.50" />
             <item name="FOG_SAS_Holster_Black" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MCB" chance="1.00" />
         </attachments>
     </type>
@@ -50,7 +50,7 @@
             <item name="FOG_RTGFB_Holster_Tan" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
     </type>
@@ -59,187 +59,187 @@
             <item name="FOG_RTGFB_Holster_RG" chance="0.50" />
             <item name="FOG_SAS_Holster_RG" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_CB">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_Tan" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_CB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_CB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_CB" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_MC">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_MC" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_MC" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_MCB">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_Black" chance="0.50" />
             <item name="FOG_SAS_Holster_Black" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MCB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_MCB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_MCB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_Black" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_RG">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_RG" chance="0.50" />
             <item name="FOG_SAS_Holster_RG" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_RG" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_RG" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_RG" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_AOR1">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_Tan" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_RG" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_CB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_AOR1" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_AOR2">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_RG" chance="0.50" />
             <item name="FOG_SAS_Holster_RG" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_AOR2" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_RG" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_AOR1" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_ATACSAU">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_Tan" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_CB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_CB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_CB" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_Black">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_Black" chance="0.50" />
             <item name="FOG_SAS_Holster_Black" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MCB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_Black" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_Black" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_Black" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_6CD">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_Tan" chance="0.50" />
             <item name="FOG_SAS_Holster_Tan" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_CB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_CB" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_CB" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_MRB_Belt_MCT">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_RTGFB_Holster_RG" chance="0.50" />
             <item name="FOG_SAS_Holster_RG" chance="0.50" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_LBT_MC" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Dump_RG" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_SingleMag_RG" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Esstac_RG" chance="1.00" />
         </attachments>
     </type>
@@ -254,7 +254,7 @@
             <item name="FOG_Airframe_Cover_AOR1" chance="0.12" />
             <item name="FOG_Airframe_Cover_AOR2" chance="0.12" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.20" />
             <item name="FOG_Comtac_IV_RG" chance="0.20" />
             <item name="FOG_Comtac_IV_Black" chance="0.20" />
@@ -274,7 +274,7 @@
             <item name="FOG_Airframe_Cover_AOR1" chance="0.12" />
             <item name="FOG_Airframe_Cover_AOR2" chance="0.12" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.20" />
             <item name="FOG_Comtac_IV_RG" chance="0.20" />
             <item name="FOG_Comtac_IV_Black" chance="0.20" />
@@ -294,7 +294,7 @@
             <item name="FOG_Airframe_Cover_AOR1" chance="0.12" />
             <item name="FOG_Airframe_Cover_AOR2" chance="0.12" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.20" />
             <item name="FOG_Comtac_IV_RG" chance="0.20" />
             <item name="FOG_Comtac_IV_Black" chance="0.20" />
@@ -304,7 +304,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_Tan">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -314,7 +314,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_RG">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -324,7 +324,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_Black">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -334,7 +334,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_Grey">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -344,7 +344,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_MC">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -354,7 +354,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_MCB">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -364,7 +364,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_ERDL">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -374,22 +374,22 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FASTMT_Tan">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_FastMT_RAC_Tan" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FASTMT_MC">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_FastMT_RAC_Tan" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FASTMT_Black">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_FastMT_RAC_Tan" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_Tan">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -397,7 +397,7 @@
             <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
             <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
             <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
             <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
@@ -406,7 +406,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_RG">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -414,7 +414,7 @@
             <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
             <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
             <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
             <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
@@ -423,7 +423,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_Black">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -431,7 +431,7 @@
             <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
             <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
             <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
             <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
@@ -440,7 +440,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_MC">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -448,7 +448,7 @@
             <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
             <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
             <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
             <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
@@ -457,7 +457,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_MCB">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -465,7 +465,7 @@
             <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
             <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
             <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
             <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
@@ -474,7 +474,7 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_ERDL">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Comtac_IV_CB" chance="0.10" />
             <item name="FOG_Comtac_IV_RG" chance="0.10" />
             <item name="FOG_Comtac_IV_Black" chance="0.10" />
@@ -482,7 +482,7 @@
             <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
             <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
             <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
             <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
@@ -491,10 +491,10 @@
         </attachments>
     </type>
     <type name="FOG_Helmet_Exfil_MC">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_FastMT_RAC_Tan" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
             <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
             <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
@@ -503,7 +503,7 @@
         </attachments>
     </type>
     <type name="FOG_Ghost_Mask_New">
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Ghost_Headset_Tan" chance="1.00" />
         </attachments>
     </type>
@@ -884,7 +884,7 @@
         <attachments chance="0.30">
             <item name="FOG_Tourniquet" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_IFAK_CB" chance="1.00" />
         </attachments>
         <attachments chance="0.30">
@@ -1439,7 +1439,7 @@
         <attachments chance="0.30">
             <item name="FOG_Tourniquet" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_IFAK_CB" chance="1.00" />
         </attachments>
         <attachments chance="0.50">
@@ -1562,7 +1562,7 @@
         <attachments chance="0.30">
             <item name="FOG_Pouch_IFAK_Brown" chance="1.00" />
         </attachments>
-        <attachments chance="0.5">
+        <attachments chance="0.50">
             <item name="FOG_Pouch_Belly_MC" chance="0.50" />
             <item name="FOG_Pouch_Belly_CB" chance="0.50" />
         </attachments>

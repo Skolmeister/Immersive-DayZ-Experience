@@ -225,7 +225,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "WestLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ALTERNATE",
@@ -316,7 +316,7 @@
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "WestLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ALTERNATE",
@@ -387,7 +387,7 @@
             "Faction": "Raiders",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": 1,
             "Behaviour": "ALTERNATE",
@@ -443,7 +443,7 @@
             "Faction": "Raiders",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": 1,
             "Behaviour": "ALTERNATE",
@@ -594,7 +594,7 @@
             "Faction": "Civilian",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "SurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ALTERNATE",
@@ -645,7 +645,7 @@
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "EastLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ALTERNATE",
@@ -706,7 +706,7 @@
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "EastLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ALTERNATE",
@@ -767,7 +767,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -795,16 +795,6 @@
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-                [
-                    3553.0,
-                    0.0,
-                    2321.0
-                ],
-                [
-                    4129.0,
-                    0.0,
-                    2356.0
-                ],
                 [
                     14273.2001953125,
                     2.4000000953674318,
@@ -833,7 +823,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -861,16 +851,6 @@
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-                [
-                    1885.373779296875,
-                    0.0,
-                    2929.090576171875
-                ],
-                [
-                    2747.998779296875,
-                    0.0,
-                    2681.00341796875
-                ],
                 [
                     12915.7001953125,
                     3.4000000953674318,
@@ -899,7 +879,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -927,16 +907,6 @@
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-                [
-                    2631.060302734375,
-                    0.0,
-                    2408.110595703125
-                ],
-                [
-                    2593.548583984375,
-                    0.0,
-                    2473.546630859375
-                ],
                 [
                     13169.5,
                     3.0756099224090578,
@@ -965,7 +935,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -993,11 +963,6 @@
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-                [
-                    8489.3779296875,
-                    0.0,
-                    3345.391845703125
-                ],
                 [
                     13529.5302734375,
                     2.251228094100952,
@@ -1026,7 +991,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -1054,16 +1019,6 @@
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-                [
-                    7105.50341796875,
-                    0.0,
-                    1972.2802734375
-                ],
-                [
-                    6802.22607421875,
-                    0.0,
-                    1697.111083984375
-                ],
                 [
                     12321.939453125,
                     1.9261399507522584,
@@ -1092,7 +1047,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -1120,16 +1075,6 @@
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-                [
-                    7105.50341796875,
-                    0.0,
-                    1972.2802734375
-                ],
-                [
-                    6802.22607421875,
-                    0.0,
-                    1697.111083984375
-                ],
                 [
                     11099.068359375,
                     2.2976760864257814,
@@ -1168,7 +1113,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -1197,16 +1142,6 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    6359.14111328125,
-                    0.0,
-                    2858.410888671875
-                ],
-                [
-                    6248.1650390625,
-                    0.0,
-                    3028.804931640625
-                ],
-                [
                     3887.55908203125,
                     1.5955090522766114,
                     2207.158935546875
@@ -1234,7 +1169,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -1290,7 +1225,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -1351,7 +1286,7 @@
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
-            "Loadout": "",
+            "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "ROAMING",
@@ -1398,6 +1333,107 @@
                     1563.32568359375,
                     2.1741321086883547,
                     2063.2548828125
+                ]
+            ]
+        },
+        {
+            "Name": "Southeast Patrol",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "EastLoadout",
+            "Units": [],
+            "NumberOfAI": 3,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11159.2412109375,
+                    263.08880615234377,
+                    4341.912109375    
+                ],
+                [
+                    11229.232421875,
+                    260.0552062988281,
+                    4486.25439453125
+                ],
+                [
+                    11227.2607421875,
+                    234.12518310546876,
+                    4609.833984375
+                ],
+                [
+                    11195.998046875,
+                    258.30206298828127,
+                    4828.8134765625
+                ],
+                [
+                    11183.330078125,
+                    266.00634765625,
+                    4945.962890625
+                ],
+                [
+                    11255.232421875,
+                    246.76187133789063,
+                    4812.78955078125
+                ],
+                [
+                    11458.1630859375,
+                    183.98672485351563,
+                    4679.0302734375
+                ],
+                [
+                    11727.677734375,
+                    150.08065795898438,
+                    4760.6845703125
+                ],
+                [
+                    11778.7783203125,
+                    180.8768310546875,
+                    4681.12158203125
+                ],
+                [
+                    11808.533203125,
+                    202.16934204101563,
+                    4620.80322265625
+                ],
+                [
+                    11589.759765625,
+                    188.43679809570313,
+                    4522.759765625
+                ],
+                [
+                    11383.09765625,
+                    222.61566162109376,
+                    4493.95458984375
+                ],
+                [
+                    11266.2978515625,
+                    290.1854553222656,
+                    4305.43212890625
                 ]
             ]
         }

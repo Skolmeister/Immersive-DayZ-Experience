@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 900,
+    "ID": 202,
     "Type": 1,
-    "Title": "[Faction] Join the NATO",
+    "Title": "Help the Mercenaries",
     "Descriptions": [
-        "Hey, I heard you want to join the most peaceful faction in the whole world? We need help escorting one of our Lieutenants to the nearest safezone. I'm sure we'll let you join afterwards.",
-        "You didn't do anything yet! What are you doing here?",
-        "Thank god you brought him here safely! I hope the commie scum was not that big of a problem for you?"
+        "Hey, wanna kill some Infected for money?",
+        "I know you didn't kill enough! Fuck off until you complete your task or I'll kill you.",
+        "That took long enough, fuck off and take the money"
     ],
-    "ObjectiveText": "Escort the NATO Member",
+    "ObjectiveText": "Kill 20 military infected",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 10000,
+            "Amount": 20000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -35,41 +35,31 @@
     "RewardsForGroupOwnerOnly": 0,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
-        1
+        7
     ],
     "QuestTurnInIDs": [
-        4
+        7
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 900,
-            "ObjectiveType": 3
-        },
-        {
-            "ConfigVersion": 28,
-            "ID": 900,
-            "ObjectiveType": 8
-        },
-        {
-            "ConfigVersion": 28,
-            "ID": 1,
-            "ObjectiveType": 9
+            "ID": 7,
+            "ObjectiveType": 2
         }
     ],
     "QuestColor": 0,
     "ReputationReward": 0,
-    "ReputationRequirement": 1000,
+    "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",
-    "FactionReward": "West",
-    "PlayerNeedQuestItems": 1,
+    "FactionReward": "Mercenaries",
+    "PlayerNeedQuestItems": 0,
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
     "FactionReputationRewards": {
-        "West": 500
+        "Mercenaries": 500
     },
     "SuppressQuestLogOnCompetion": 0,
     "Active": 1
