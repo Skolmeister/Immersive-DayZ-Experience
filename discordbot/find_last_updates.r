@@ -3,7 +3,7 @@
 base_url <- "https://steamcommunity.com/sharedfiles/filedetails/?id="
 
 # Mod List
-all_mods <- readr::read_csv2(here::here("discordbot", "app","modmapping.csv"))
+all_mods <- readr::read_csv2(here::here("modmapping.csv"))
 
 
 get_last_updated <- function(steam_id) {
