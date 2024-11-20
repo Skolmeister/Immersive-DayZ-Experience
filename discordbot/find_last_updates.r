@@ -3,7 +3,7 @@
 base_url <- "https://steamcommunity.com/sharedfiles/filedetails/?id="
 
 # Mod List
-all_mods <- readr::read_csv2(here::here("modmapping.csv"))
+all_mods <- readr::read_csv2(here::here("discordbot", "app","modmapping.csv"))
 
 
 get_last_updated <- function(steam_id) {
@@ -95,7 +95,7 @@ updated_times <- all_mod_updates |>
   tidyr::separate_wider_position(minute, widths = c("minute" = 2, "ampm" = 2)) |>
   dplyr::mutate(
     datetime = glue::glue("{year}_{month}_{day} {hour}_{minute}{ampm}"),
-    datetime = lubridate::parse_date_time(datetime, "%Y_%b_%d %I_%M_%p")
+    datetime = lubridate::parse_date_time(datetime, "%Y_%b_%d %I_%M_%p") + lubridate::hours(9)
   ) |>
   dplyr::select(
     steam_id,
