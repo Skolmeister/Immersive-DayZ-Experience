@@ -1,0 +1,125 @@
+{
+    "ConfigVersion": 28,
+    "ID": 3,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Eliminate the roaming East patrol.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "AllowedWeapons": [],
+    "AllowedDamageZones": [],
+    "AISpawn": {
+        "Name": "Roaming Patrol [East]",
+        "Persist": 0,
+        "Faction": "East",
+        "Formation": "RANDOM",
+        "FormationLooseness": 0.0,
+        "Loadout": "EastLoadout",
+        "Units": [
+            "eAI_SurvivorF_Eva",
+            "eAI_SurvivorF_Frida",
+            "eAI_SurvivorF_Gabi",
+            "eAI_SurvivorF_Helga",
+            "eAI_SurvivorF_Irena",
+            "eAI_SurvivorF_Judy",
+            "eAI_SurvivorF_Keiko",
+            "eAI_SurvivorF_Linda",
+            "eAI_SurvivorF_Maria",
+            "eAI_SurvivorF_Naomi",
+            "eAI_SurvivorF_Baty",
+            "eAI_SurvivorM_Boris",
+            "eAI_SurvivorM_Cyril",
+            "eAI_SurvivorM_Denis",
+            "eAI_SurvivorM_Elias",
+            "eAI_SurvivorM_Francis",
+            "eAI_SurvivorM_Guo",
+            "eAI_SurvivorM_Hassan",
+            "eAI_SurvivorM_Indar",
+            "eAI_SurvivorM_Jose",
+            "eAI_SurvivorM_Kaito",
+            "eAI_SurvivorM_Lewis",
+            "eAI_SurvivorM_Manua",
+            "eAI_SurvivorM_Mirek",
+            "eAI_SurvivorM_Niki",
+            "eAI_SurvivorM_Oliver",
+            "eAI_SurvivorM_Peter",
+            "eAI_SurvivorM_Quinn",
+            "eAI_SurvivorM_Rolf",
+            "eAI_SurvivorM_Seth",
+            "eAI_SurvivorM_Taiki"
+        ],
+        "NumberOfAI": 3,
+        "Behaviour": "ALTERNATE",
+        "Speed": "WALK",
+        "UnderThreatSpeed": "SPRINT",
+        "CanBeLooted": 1,
+        "UnlimitedReload": 1,
+        "SniperProneDistanceThreshold": 300.0,
+        "AccuracyMin": 0.3,
+        "AccuracyMax": 0.6,
+        "ThreatDistanceLimit": 250.0,
+        "NoiseInvestigationDistanceLimit": -1.0,
+        "DamageMultiplier": 1.0,
+        "DamageReceivedMultiplier": 1.0,
+        "MinDistRadius": 50.0,
+        "MaxDistRadius": 500.0,
+        "DespawnRadius": 600.0,
+        "WaypointInterpolation": "",
+        "DespawnTime": 1.0,
+        "RespawnTime": 1.0,
+        "UseRandomWaypointAsStartPoint": 1,
+        "Waypoints": [
+            [
+                10959.234375,
+                286.62152099609377,
+                5494.60546875
+            ],
+            [
+                11073.2294921875,
+                277.3385009765625,
+                5389.50537109375
+            ],
+            [
+                11081.6328125,
+                274.93896484375,
+                5327.41259765625
+            ],
+            [
+                11157.150390625,
+                262.3699951171875,
+                5398.55029296875
+            ],
+            [
+                11254.80859375,
+                252.87889099121095,
+                5431.1640625
+            ],
+            [
+                11292.74609375,
+                256.86004638671877,
+                5253.08349609375
+            ],
+            [
+                11489.505859375,
+                219.91854858398438,
+                5005.11181640625
+            ],
+            [
+                11270.1533203125,
+                258.0362548828125,
+                4965.3583984375
+            ],
+            [
+                11100.8720703125,
+                286.6396179199219,
+                5000.54541015625
+            ],
+            [
+                11111.9345703125,
+                292.4754638671875,
+                5182.45849609375
+            ]
+        ]
+    }
+}
