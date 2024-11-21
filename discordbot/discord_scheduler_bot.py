@@ -89,7 +89,12 @@ async def on_message(message):
         return
 
     if message.content.startswith('?modupdates'):
-        await message.channel.send('Here are the latest Mod updates!')
+        await message.channel.send('Searching for updates, this will take a minute!')
+        # Generiere die Mod-Datei
+        search_updated_mods()
+        # Warte bis alles generiert wurde
+        time.sleep(60)
+        await message.channel.send('Here are the latest updates!')
         latest_file = get_latest_file_by_timestamp(directory_path)
         with open(latest_file, 'rb') as fp:
             await message.channel.send(file=discord.File(fp, 'mod.log'))
