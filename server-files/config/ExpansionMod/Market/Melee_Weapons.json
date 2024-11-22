@@ -80,10 +80,10 @@
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+            "SpawnAttachments": [
                 "Battery9V"
-            ]
+            ],
+            "Variants": []
         },
         {
             "ClassName": "baseballbat",
