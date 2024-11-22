@@ -20,10 +20,11 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "AKS74U",
+            "ClassName": "AssaultBag_Green",
             "Amount": 1,
             "Attachments": [
-                "Mag_AK74_30Rnd"
+                "AmmoBox_545x39_20Rnd",
+                "CombatKnife"
             ],
             "DamagePercent": 0,
             "HealthPercent": 100,
@@ -31,10 +32,10 @@
             "Chance": 1.0
           },
           {
-            "ClassName": "Expansion_VityazSN",
+            "ClassName": "PlateCarrierVest_Camo",
             "Amount": 1,
             "Attachments": [
-                "Mag_Expansion_Vityaz_30Rnd"
+                "PlateCarrierHolster_Camo"
             ],
             "DamagePercent": 0,
             "HealthPercent": 100,

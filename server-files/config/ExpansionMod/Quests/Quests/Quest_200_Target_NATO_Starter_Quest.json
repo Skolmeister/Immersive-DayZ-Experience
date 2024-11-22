@@ -20,10 +20,11 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "M16A2",
+            "ClassName": "AssaultBag_Green",
             "Amount": 1,
             "Attachments": [
-                "Mag_CMAG_30Rnd"
+                "AmmoBox_556x45_20Rnd",
+                "CombatKnife"
             ],
             "DamagePercent": 0,
             "HealthPercent": 100,
@@ -31,10 +32,10 @@
             "Chance": 1.0
           },
           {
-            "ClassName": "MP5K",
+            "ClassName": "PlateCarrierVest_Camo",
             "Amount": 1,
             "Attachments": [
-                "Mag_MP5_30Rnd"
+                "PlateCarrierHolster_Camo"
             ],
             "DamagePercent": 0,
             "HealthPercent": 100,
