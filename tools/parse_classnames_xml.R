@@ -30,8 +30,9 @@ types_files <- purrr::map_df(
     file_path = glue::glue("{base_path}/{folder}/{files}")
   ) |>
   dplyr::filter(
-    stringr::str_detect(files, "[^spawnable](t|T)ypes")
+    stringr::str_detect(files, "^((?!spawnable|events).)*$")
   )
+
 
 find_first_xml <- function(data, name) {
   xml2::xml_find_first(
