@@ -1,7 +1,7 @@
 # Hier muss der Pfad zu den types.xml eingefuegt werden
 types_files <- fs::dir_ls(
   "/mnt/ftp_dayz/mpmissions/expansion.dayzOffline.chernarusplus/",
-  regexp = ".+[^spawnable]types\\.xml$",
+  regexp = ".+[^spawnable](t|T)ypes\\.xml$",
   recurse = TRUE
 )
 
