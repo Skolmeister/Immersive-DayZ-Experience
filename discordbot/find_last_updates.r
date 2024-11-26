@@ -95,7 +95,7 @@ updated_times <- all_mod_updates |>
   tidyr::separate_wider_position(minute, widths = c("minute" = 2, "ampm" = 2)) |>
   dplyr::mutate(
     datetime = glue::glue("{year}_{month}_{day} {hour}_{minute}{ampm}"),
-    datetime = lubridate::parse_date_time(datetime, "%Y_%b_%d %I_%M_%p")
+    datetime = lubridate::parse_date_time(datetime, "%Y_%b_%d %I_%M_%p") + lubridate::hours(9)
   ) |>
   dplyr::select(
     steam_id,

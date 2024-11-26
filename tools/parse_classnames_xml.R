@@ -1,9 +1,37 @@
 # Hier muss der Pfad zu den types.xml eingefuegt werden
-types_files <- fs::dir_ls(
-  "/mnt/ftp_dayz/mpmissions/expansion.dayzOffline.chernarusplus/",
-  regexp = ".+[^spawnable]types\\.xml$",
-  recurse = TRUE
+base_path <- "/mnt/ftp_dayz/mpmissions/expansion.dayzOffline.chernarusplus/"
+
+economycore <- xml2::read_xml(glue::glue("{base_path}/cfgeconomycore.xml")) 
+
+folder <- economycore |>
+  xml2::xml_find_all(
+    "ce"
+  )
+
+get_types <- function(folder) {
+
+folder_types <- folder |>
+  xml2::xml_find_all("file") |>
+  xml2::xml_attr("name")
+
+folder_output <- tibble::tibble(
+  folder = xml2::xml_attr(folder, "folder"),
+  files = folder_types
 )
+
+return(folder_output)
+
+}
+
+types_files <- purrr::map_df(
+  folder, get_types
+) |>
+  dplyr::mutate(
+    file_path = glue::glue("{base_path}/{folder}/{files}")
+  ) |>
+  dplyr::filter(
+    stringr::str_detect(files, "^((?!spawnable|events).)*$")
+  )
 
 
 find_first_xml <- function(data, name) {
@@ -100,7 +128,7 @@ read_types_xml <- function(path) {
 }
 
 classnames_df <- purrr::map_df(
-  types_files,
+  types_files$file_path,
   read_types_xml,
   .progress = TRUE
 )

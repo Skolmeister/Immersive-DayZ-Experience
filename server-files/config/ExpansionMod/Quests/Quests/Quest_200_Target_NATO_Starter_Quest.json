@@ -8,7 +8,7 @@
         "What are you doing here? The patrol is still roaming!",
         "Wow, thanks for your help! We need every help that we can get. We could make use of good fighters like you."
     ],
-    "ObjectiveText": "Kill the roaming East patrol",
+    "ObjectiveText": "Eliminate the roaming East patrol",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -20,25 +20,25 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "Classname": "M16A2",
+            "ClassName": "AssaultBag_Green",
             "Amount": 1,
-            "Attachments": [],
+            "Attachments": [
+                "AmmoBox_556x45_20Rnd",
+                "CombatKnife"
+            ],
             "DamagePercent": 0,
+            "HealthPercent": 100,
             "QuestID": -1,
             "Chance": 1.0
           },
-        {
-            "Name": "TTC_MP5SD",
+          {
+            "ClassName": "PlateCarrierVest_Camo",
             "Amount": 1,
-            "Attachments": [],
+            "Attachments": [
+                "PlateCarrierHolster_Camo"
+            ],
             "DamagePercent": 0,
-            "QuestID": -1,
-            "Chance": 1.0
-          },
-        {
-            "Classname": "AssaultBag_Green",
-            "Amount": 1,
-            "DamagePercent": 0,
+            "HealthPercent": 100,
             "QuestID": -1,
             "Chance": 1.0
           }
@@ -47,7 +47,6 @@
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 0,
-    "RewardBehavior": 0,
     "QuestGiverIDs": [
         5
     ],
@@ -58,15 +57,15 @@
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 5,
-            "ObjectiveType": 2
+            "ID": 3,
+            "ObjectiveType": 7
         }
     ],
     "QuestColor": 0,
     "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
-    "RequiredFaction": "",
+    "RequiredFaction": "Raiders",
     "FactionReward": "West",
     "PlayerNeedQuestItems": 0,
     "DeleteQuestItems": 1,
