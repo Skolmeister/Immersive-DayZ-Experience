@@ -8,15 +8,15 @@
         "PLACEHOLDER",
         "PLACEHOLDER"
     ],
-    "ObjectiveText": "Eliminate all bandits in Sosnovka",
+    "ObjectiveText": "Bandits have settled in Sosnovka. We have to get rid of them.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
-    "IsDailyQuest": 1,
+    "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
-    "ObjectSetFileName": "",
+    "ObjectSetFileName": "Sosnovka_Camp",
     "QuestItems": [],
     "Rewards": [
         {

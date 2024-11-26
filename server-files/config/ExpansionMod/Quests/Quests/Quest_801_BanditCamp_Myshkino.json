@@ -8,7 +8,7 @@
         "PLACEHOLDER",
         "PLACEHOLDER"
     ],
-    "ObjectiveText": "Eliminate all bandits at the marked location.",
+    "ObjectiveText": "Bandits have settled in Myshkino. We have to get rid of them.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -16,7 +16,7 @@
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
-    "ObjectSetFileName": "",
+    "ObjectSetFileName": "Myshkino_Camp",
     "QuestItems": [],
     "Rewards": [
         {
@@ -54,7 +54,7 @@
         }
     ],
     "QuestColor": -930200403,
-    "ReputationReward": 1500,
+    "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",

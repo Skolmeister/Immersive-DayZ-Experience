@@ -2,10 +2,10 @@
     "ConfigVersion": 28,
     "ID": 2,
     "ObjectiveType": 8,
-    "ObjectiveText": "Eliminate all bandits at the marked location.",
+    "ObjectiveText": "Eliminate all bandits in Myshkino.",
     "TimeLimit": -1,
     "Active": 1,
-    "InfectedDeletionRadius": 0.0,
+    "InfectedDeletionRadius": 75.0,
     "MaxDistance": -1.0,
     "MinDistance": -1.0,
     "AllowedWeapons": [],
@@ -14,7 +14,7 @@
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -52,40 +52,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2009.496094,
-                    254.269943,
-                    7357.433105
+                    1985.489258,
+                    254.286102,
+                    7352.359863
+                ],
+                [
+                    1993.135986,
+                    254.120087,
+                    7349.347168
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -123,40 +128,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2001.984253,
-                    254.260193,
-                    7359.750000
+                    2009.683716,
+                    254.173935,
+                    7357.299316
+                ],
+                [
+                    2004.970337,
+                    254.173691,
+                    7348.063477
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -194,40 +204,46 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1974.623413,
-                    258.288971,
-                    7316.754395
+
+                    2001.540161,
+                    254.173935,
+                    7359.166992
+                ],
+                [
+                    2001.161377,
+                    254.173935,
+                    7344.416504
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -265,40 +281,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1989.725830,
-                    249.921829,
-                    7305.364258
+                    1974.736206,
+                    258.077698,
+                    7317.183105
+                ],
+                [
+                    1974.452637,
+                    258.077667,
+                    7324.023438
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -336,40 +357,70 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "ALTERNATE",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1995.109253,
-                    248.572037,
-                    7285.325684
+                    1990.835815,
+                    249.619354,
+                    7305.140625
+                ],
+                [
+                    1998.044678,
+                    249.698151,
+                    7307.720215
+                ],
+                [
+                    1997.051392,
+                    251.080994,
+                    7317.674805
+                ],
+                [
+                    1999.028687,
+                    252.764099,
+                    7325.839844
+                ],
+                [
+                    2003.740723,
+                    253.614456,
+                    7332.694824
+                ],
+                [
+                    2013.837036,
+                    254.287872,
+                    7328.975586
+                ],
+                [
+                    2039.269897,
+                    256.875061,
+                    7324.958984
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -407,40 +458,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2009.316528,
-                    262.038849,
-                    7414.483398
+                    1994.785034,
+                    248.360764,
+                    7285.273926                    
+                ],
+                [
+                    1975.842041,
+                    243.983276,
+                    7258.524414
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -478,40 +534,84 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "ALTERNATE",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1947.761597,
-                    258.873810,
-                    7398.390137
+                    1952.821045,
+                    261.187653,
+                    7434.286621
+                ],
+                [   1963.991943,
+                    260.537903,
+                    7432.226563
+                ],
+                [   1979.042358,
+                    260.558960,
+                    7425.226563
+                ],
+                [   2005.964111,
+                    261.738770,
+                    7416.338379
+                ],
+                [   2018.885010,
+                    263.137939,
+                    7413.051270
+                ],
+                [   2035.831543,
+                    266.349487,
+                    7413.927246
+                ],
+                [   2052.034424,
+                    271.511719,
+                    7422.994629
+                ],
+                [   2068.125000,
+                    275.263580,
+                    7430.504883
+                ],
+                [   2084.814941,
+                    279.255157,
+                    7433.080078
+                ],
+                [   2105.533203,
+                    282.656250,
+                    7425.896484
+                ],
+                [   2124.018555,
+                    286.010010,
+                    7425.479492
+                ],
+                [   2146.290039,
+                    289.145203,
+                    7423.021973
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -549,40 +649,55 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "ALTERNATE",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1987.305542,
-                    241.285568,
-                    7239.511230
+                    1945.941284,
+                    261.304871,
+                    7431.808594                    
+                ],
+                [
+                    1953.573242,
+                    258.487610,
+                    7395.311523
+                ],
+                [
+                    1962.236572,
+                    256.640350,
+                    7363.944336
+                ],
+                [
+                    1984.993774,
+                    254.312225,
+                    7343.890137
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -620,40 +735,56 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "ALTERNATE",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1966.993164,
-                    244.657227,
-                    7273.750000
+                    1973.888306,
+                    240.714737,
+                    7239.968750                    
+                ],
+                [   1985.990845,
+                    240.610672,
+                    7235.217285
+                ],
+                [   1990.097778,
+                    240.789795,
+                    7233.524414
+                ],
+                [   1999.657471,
+                    244.411499,
+                    7254.786621
+                ],
+                [   2011.118408,
+                    247.367203,
+                    7275.946777
                 ]
             ]
         },
         {
             "Name": "Bandit Boss",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -691,40 +822,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
+            "SniperProneDistanceThreshold": 250.0,
             "AccuracyMin": 0.5,
-            "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "AccuracyMax": 0.900000011920929,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2001.419800,
-                    236.662125,
-                    7174.717285
+                    1966.528687,
+                    244.411102,
+                    7273.842285
+                ],
+                [
+                    2053.641846,
+                    261.170593,
+                    7308.560547
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -762,40 +898,73 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "ALTERNATE",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1998.859985,
-                    237.394028,
-                    7159.917969
+                    2002.358765,
+                    236.409576,
+                    7173.591309                    
+                ],
+                [
+                    1997.802856,
+                    236.666885,
+                    7176.964844
+                ],
+                [   2001.243896,
+                    236.234528,
+                    7186.306641
+                ],
+                [   1998.325684,
+                    236.237595,
+                    7178.623047
+                ],
+                [   2027.664185,
+                    240.544312,
+                    7159.912598
+                ],
+                [   2045.413208,
+                    240.931381,
+                    7184.022949
+                ],
+                [   2028.207031,
+                    235.941116,
+                    7216.313477
+                ],
+                [   1989.480103,
+                    237.194595,
+                    7208.513184
+                ],
+                [   1985.494995,
+                    236.341003,
+                    7179.959961
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -833,40 +1002,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1954.822144,
-                    255.194031,
-                    7336.386719
+                    2003.394897,
+                    237.393250,
+                    7160.237793
+                ],
+                [
+                    1971.300171,
+                    237.517761,
+                    7213.752441
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -904,40 +1078,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2030.548462,
-                    257.244629,
-                    7311.944336
+                    1952.233276,
+                    257.084869,
+                    7352.297852
+                ],
+                [
+                    1939.826416,
+                    259.183228,
+                    7380.135742
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -975,40 +1154,45 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1985.219727,
-                    254.509354,
-                    7351.587891
+                    2030.220215,
+                    257.032715,
+                    7312.609375
+                ],
+                [
+                    2058.196289,
+                    258.058838,
+                    7339.218750
                 ]
             ]
         },
         {
             "Name": "Bandit",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Mercenaries",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -1046,33 +1230,38 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "NumberOfAI": 1,
-            "Behaviour": "HALT_OR_ALTERNATE",
+            "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 300.0,
-            "AccuracyMin": 0.5,
+            "SniperProneDistanceThreshold": 250.0,
+            "AccuracyMin": 0.4,
             "AccuracyMax": 0.800000011920929,
-            "ThreatDistanceLimit": 400.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 200.0,
+            "NoiseInvestigationDistanceLimit": 200.0,
             "DamageMultiplier": 1.0,
             "DamageReceivedMultiplier": 1.0,
-            "MinDistRadius": 50.0,
-            "MaxDistRadius": 300.0,
+            "MinDistRadius": 0.0,
+            "MaxDistRadius": 150.0,
             "DespawnRadius": 500.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
-            "DespawnTime": 1.0,
+            "DespawnTime": 5.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2149.819824,
-                    289.648041,
-                    7425.013672
+                    2031.305054,
+                    258.425110,
+                    7344.909668
+                ],
+                [
+                    2006.392822,
+                    254.173935,
+                    7354.835449
                 ]
             ]
         }
