@@ -8,7 +8,7 @@
         "PLACEHOLDER",
         "PLACEHOLDER"
     ],
-    "ObjectiveText": "Eliminate all bandits at the marked location.",
+    "ObjectiveText": "Bandits have settled in Rogovo. We have to get rid of them.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -54,7 +54,7 @@
         }
     ],
     "QuestColor": -930200403,
-    "ReputationReward": 1200,
+    "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",

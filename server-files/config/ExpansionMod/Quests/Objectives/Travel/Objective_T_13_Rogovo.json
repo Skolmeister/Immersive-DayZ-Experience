@@ -5,14 +5,15 @@
     "ObjectiveText": "Get to Rogovo",
     "TimeLimit": -1,
     "Active": 1,
-    "Position": [
-        4802.624512,
-        261.022675,
-        6587.993164
+    "Position": 
+    [
+        4765.800293,
+        270.011932,
+        6759.007324
     ],
-    "MaxDistance": 20.0,
-    "MarkerName": "Entry Point",
-    "ShowDistance": 1,
+    "MaxDistance": 250.0,
+    "MarkerName": "Rogovo",
+    "ShowDistance": 0,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0
 }
