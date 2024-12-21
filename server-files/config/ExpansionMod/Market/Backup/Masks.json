@@ -1,0 +1,262 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_MASKS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "surgicalmask",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 27,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "nioshfacemask",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 40,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "hockeymask",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 40,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "balaclavamask_beige",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "balaclavamask_blue",
+                "balaclavamask_pink",
+                "balaclavamask_white",
+                "balaclavamask_blackskull",
+                "balaclavamask_black",
+                "balaclavamask_green"
+            ]
+        },
+        {
+            "ClassName": "balaclavamask_blackskull",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MilitaryGear_Balaclava3Skull_PartizanM",
+                "MilitaryGear_Balaclava3Skull_Duckhunter",
+                "MilitaryGear_Balaclava3Skull_Multicam",
+                "MilitaryGear_Balaclava3Skull_Splinter",
+                "MilitaryGear_Balaclava3Skull_Splinter_Dark",
+                "MilitaryGear_Balaclava3Skull_Tiger",
+                "MilitaryGear_Balaclava3Skull_Woodland",
+                "MilitaryGear_Balaclava3Skull_FLT",
+                "MilitaryGear_Balaclava3Skull_DPM",
+                "MilitaryGear_Balaclava3Skull_MPAT",
+                "MilitaryGear_Balaclava3Skull_Partizan",
+                "MilitaryGear_Balaclava3Skull_Skol",
+                "MilitaryGear_Balaclava3Skull_ATACS",
+                "MilitaryGear_Balaclava3Skull_CADPAT",
+                "MilitaryGear_Balaclava3Skull_Tropic",
+                "MilitaryGear_Balaclava3Skull_Yeger"
+            ]
+        },
+        {
+            "ClassName": "balaclavamask_black",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "balaclavamask_green",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "balaclava3holes_green",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "balaclava3holes_beige",
+                "balaclava3holes_black",
+                "MilitaryGear_Balaclava3_PartizanM",
+                "MilitaryGear_Balaclava3_Duckhunter",
+                "MilitaryGear_Balaclava3_Multicam",
+                "MilitaryGear_Balaclava3_Splinter",
+                "MilitaryGear_Balaclava3_Splinter_Dark",
+                "MilitaryGear_Balaclava3_Tiger",
+                "MilitaryGear_Balaclava3_Woodland",
+                "MilitaryGear_Balaclava3_FLT",
+                "MilitaryGear_Balaclava3_DPM",
+                "MilitaryGear_Balaclava3_MPAT",
+                "MilitaryGear_Balaclava3_Partizan",
+                "MilitaryGear_Balaclava3_Skol",
+                "MilitaryGear_Balaclava3_ATACS",
+                "MilitaryGear_Balaclava3_CADPAT",
+                "MilitaryGear_Balaclava3_Tropic",
+                "MilitaryGear_Balaclava3_Yeger"
+            ]
+        },
+        {
+            "ClassName": "weldingmask",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "mimemask_female",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mimemask_male"
+            ]
+        },
+        {
+            "ClassName": "FOG_Knight_Mask",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Knight_Mask_Black"
+
+            ]
+        },
+        {
+            "ClassName": "FOG_Ghost_Mask_New",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Ghost_Mask_Black",
+                "FOG_Ghost_Mask_Black_White",
+                "FOG_Ghost_Mask_Black_Gold",
+                "FOG_Ghost_Mask_RG",
+                "FOG_Ghost_Mask_Tan",
+                "FOG_Ghost_Mask_Red",
+                "FOG_Ghost_Mask_Red_Gold"
+            ]
+        },
+        {
+            "ClassName": "FOG_Arcteryx_Balaclava_Black",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Arcteryx_Balaclava_CB",
+                "FOG_Arcteryx_Balaclava_RG",
+                "FOG_Arcteryx_Balaclava_Grey"
+            ]
+        },
+        {
+            "ClassName": "SkullMask",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Plague_Mask",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MassSmiley",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_Beard_Handlebar_LightBrown",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Beard_Handlebar_Brown",
+                "FOG_Beard_Handlebar_Black",
+                "FOG_Beard_Handlebar_Grey"
+            ]
+        }
+
+    ]
+}

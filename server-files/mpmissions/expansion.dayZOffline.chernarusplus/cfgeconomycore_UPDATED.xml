@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+	<classes>
+<!--
+These are rootclasses to be used by economy.
+Do not forget to add attribute act="character", if root class represents character (player, infected, animal)
+Do not forget to add attribute act="car", if root class represents moveable vehicles
+-->
+		<rootclass name="DefaultWeapon" /> <!-- weapons -->
+		<rootclass name="DefaultMagazine" /> <!-- magazines -->
+		<rootclass name="Inventory_Base" /> <!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+	</classes>
+	<defaults>
+		<default name="dyn_radius" value="30" />
+		<default name="dyn_smin" value="0" />
+		<default name="dyn_smax" value="0" />
+		<default name="dyn_dmin" value="1" />
+		<default name="dyn_dmax" value="5" />
+		<default name="log_ce_loop" value="false"/>
+		<default name="log_ce_dynamicevent" value="false"/>
+		<default name="log_ce_vehicle" value="false"/>
+		<default name="log_ce_lootspawn" value="false"/>
+		<default name="log_ce_lootcleanup" value="false"/>
+		<default name="log_ce_lootrespawn" value="false"/>
+		<default name="log_ce_statistics" value="false"/>
+		<default name="log_ce_zombie" value="false"/>
+		<default name="log_storageinfo" value="false"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
+		<default name="save_events_startup" value="true"/>
+		<default name="save_types_startup" value="true"/>
+	</defaults>
+		<!-- EXPANSION -->
+		<ce folder="CE_expansion">
+		<file name="expansion_types.xml" type="types" />
+		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="expansion_events.xml" type="events" />
+	</ce>
+	<!-- More Food -->
+	<ce folder="CE_morefood">
+		<file name="morefood_types.xml" type="types" />
+		<file name="morefood_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+		<!-- Mass Many Items -->
+	<ce folder="Mass_Many_Items_ce">
+		<file name="Legacy_types.xml" type="types" />
+	</ce>
+		<!-- Mega Food Pack -->
+	<ce folder="CE_MFP">
+		<file name="MFP_types.xml" type="types" />
+	</ce>
+		<!-- FC_Fish -->
+	<ce folder="CE_fish">
+		<file name="fish_types.xml" type="types" />
+	</ce>
+		<!-- Forward Operator Gear -->
+	<ce folder="CE_fog">
+		<file name="FOG_Types.xml" type="types" />
+		<file name="FOG_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+		<!-- FOG Patches Retextures-->
+	<ce folder="CE_fog">
+		<file name="Patch_Types.xml" type="types" />
+	</ce>
+		<!-- Cl0uds Military Gear -->
+	<ce folder="CE_cl0uds">
+		<file name="cl0uds_types.xml" type="types" />
+	</ce>
+		<!-- Morty Weapons -->
+	<ce folder="Morty_ce">
+		<file name="Morty_types.xml" type="types" />
+		<file name="Morty_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+		<!-- FOX Weapons -->
+	<ce folder="FOX_ce">
+		<file name="fox_ammo_types.xml" type="types" />
+		<file name="fox_assaultrifles_types.xml" type="types" />
+		<file name="fox_optics_types.xml" type="types" />
+		<file name="fox_other_types.xml" type="types" />
+		<file name="fox_pistol_types.xml" type="types" />
+		<file name="fox_shotguns_types.xml" type="types" />
+		<file name="fox_shotgun_types.xml" type="types" />
+		<file name="fox_sniperrifles_types.xml" type="types" />
+		<file name="fox_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+			<!-- Edo Weapons -->
+	<ce folder="CE_edo">
+		<file name="bo_types.xml" type="types" />
+		<file name="AE_Ammo.xml" type="types" />
+		<file name="bo_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+		<!-- DayZ Dogs -->
+	<ce folder="CE_dogz">
+		<file name="DogZ_types.xml" type="types" />
+		<file name="DogZ_events.xml" type="events" />
+	</ce>
+			<!-- Animal Pack -->
+	<ce folder="CE_animals">
+		<file name="animal_types.xml" type="types" />
+	</ce>
+			<!-- Windstrides Clothing Pack -->
+	<ce folder="CE_windstrides">
+		<file name="windstrides_types.xml" type="types" />
+	</ce>
+			<!-- Zenarchist-->
+	<ce folder="CE_zen">
+		<file name="virus_types.xml" type="types" />
+		<file name="notes_types.xml" type="types" />
+		<file name="tent_types.xml" type="types" />
+		<file name="zippo_types.xml" type="types" />
+	</ce>
+			<!-- Additional Medical Supplies-->
+	<ce folder="CE_ams">
+		<file name="ams_types.xml" type="types" />
+		<file name="ams_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+			<!-- Advanced Medicine and items-->
+	<ce folder="CE_ams">
+		<file name="ami_types.xml" type="types" />
+	</ce>
+			<!-- Project Hope Backpack -->
+	<ce folder="CE_survivor_backpack">
+		<file name="hope_types.xml" type="types" />
+	</ce>
+				<!-- Pokemon Cards-->
+	<ce folder="CE_pokemon">
+		<file name="Pokemon_types.xml" type="types" />
+		<file name="Pokemon_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+				<!-- Much Stuff pack -->
+	<ce folder="MSP_ce">
+		<file name="msp_types.xml" type="types" />
+	</ce>
+			<!-- Flip Transport -->
+	<ce folder="CE_flip">
+		<file name="flip_types.xml" type="types" />
+	</ce>
+					<!-- DINGO-->
+	<ce folder="CE_dingo">
+		<file name="dingo_types.xml" type="types" />
+		<file name="dingo_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="dingo_events.xml" type="events" />
+	</ce>
+			<!-- Parachute -->
+	<ce folder="CE_parachute">
+		<file name="para_types.xml" type="types" />
+	</ce>
+				<!-- Knife Pack  -->
+	<ce folder="CE_knifepack">
+		<file name="knife_types.xml" type="types" />
+	</ce>
+					<!-- ARMA II Helicopters -->
+	<ce folder="CE_helicotpers">
+		<file name="ext_covers_types.xml" type="types" />
+		<file name="ext_types.xml" type="types" />
+	</ce>
+						<!-- Basebuilding Plus -->
+	<ce folder="CE_bbp">
+		<file name="BBP_types.xml" type="types" />
+	</ce>
+						<!-- Infected AI -->
+	<ce folder="CE_inedia">
+		<file name="inedia_types.xml" type="types" />
+	</ce>
+		<!-- More Materials
+	<ce folder="MoreMaterials_ce">
+		<file name="MoreMaterials_Types.xml" type="types" />
+	</ce>  -->
+					<!-- Cigarettes Mod
+	<ce folder="cigarettes_ce">
+		<file name="cigarettes_types.xml" type="types" />
+		<file name="cigarettes_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+	 -->
+					<!-- Treasures
+	<ce folder="treasure_ce">
+		<file name="treasure_types.xml" type="types" />
+	</ce>
+	 -->
+	</economycore>

@@ -1,0 +1,284 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SUBMACHINE_GUNS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 60.0,
+    "Items": [
+        {
+            "ClassName": "cz61",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_cz61_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "ump45",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_ump_25rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "mp5k",
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2520,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mp5k_stockbttstck",
+                "mp5_plastichndgrd",
+                "mag_mp5_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "pp19",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "pp19_bttstck",
+                "mag_pp19_64rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_kedr",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1620,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_expansion_kedr_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_vityazsn",
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2520,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "ak_plasticbttstck",
+                "ak_plastichndgrd",
+                "mag_expansion_vityaz_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOX_MP5",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_mp5_30rnd",
+                "FOX_MP5_hndgrd",
+                "FOX_MP5_Bttstck"
+            ],
+            "Variants": [
+                "FOX_MP5_GREEN",
+                "FOX_MP5_TAN",
+                "FOX_MP5_SNOW"
+            ]
+          },
+          {
+            "ClassName": "TTC_MP5SD",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_mp5_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_MP7A1",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_MP7A1_Mag_40rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_MPX",
+            "MaxPriceThreshold": 4200,
+            "MinPriceThreshold": 3780,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_MPX_Mag_30rnd",
+                "TTC_MPXMCX1_Bttstck2"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOX_UZI",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "FOX_Mag_UZI_32Rnd",
+                "FOX_UZI_Bttstck_metal"
+            ],
+            "Variants": [
+                "FOX_UZI_GREEN",
+                "FOX_UZI_TAN",
+                "FOX_UZI_SNOW"
+            ]
+          },
+          {
+            "ClassName": "FOX_EVO",
+            "MaxPriceThreshold": 3800,
+            "MinPriceThreshold": 3420,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "FOX_Mag_EVO",
+                "FOX_EVO_hndgrd",
+                "FOX_EVO_Bttstck"
+            ],
+            "Variants": [
+                "FOX_EVO_GREEN",
+                "FOX_EVO_TAN",
+                "FOX_EVO_SNOW"
+            ]
+          },
+          {
+            "ClassName": "TTC_AACHoney_300blk",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_300Cmag",
+                "TTC_Buttstock_Honey"
+            ],
+            "Variants": [
+				"TTC_AACHoney_300blk_B"
+			]
+            },
+            {
+            "ClassName": "BO_Tec9",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1620,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_Tec9_32rnd"
+            ],
+            "Variants": []
+            },
+            {
+            "ClassName": "BO_Thompson",
+            "MaxPriceThreshold": 3800,
+            "MinPriceThreshold": 3420,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_Thompson_30Rnd"
+            ],
+            "Variants": []
+            },
+            {
+            "ClassName": "BO_MP9",
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2520,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_MP9_30rnd"
+            ],
+            "Variants": []
+            },
+            {
+            "ClassName": "BO_PP2000",
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2520,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_PP2000_20rnd"
+            ],
+            "Variants": []
+            },
+            {
+            "ClassName": "BO_Vector",
+            "MaxPriceThreshold": 5800,
+            "MinPriceThreshold": 5220,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_Vector_32rnd",
+                "BO_MK18Bttstck"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "VIKHR",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "Mag_Vikhr_30Rnd"
+            ],
+            "Variants": []
+        }
+    ]
+}

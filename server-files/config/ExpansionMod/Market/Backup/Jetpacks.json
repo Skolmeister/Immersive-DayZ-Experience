@@ -1,0 +1,81 @@
+{
+    "m_Version": 12,
+    "DisplayName": "JETPACKS AND PARAMOTORS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+        "ClassName": "ADM_JetPack_Green",
+        "MaxPriceThreshold": 250000,
+        "MinPriceThreshold": 225000,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 100,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParaMotor_Fabric",
+        "MaxPriceThreshold": 100000,
+        "MinPriceThreshold": 90000,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 100,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": [
+            "ADM_ParaMotor_RWB",
+            "ADM_ParaMotor_Target",
+            "ADM_ParaMotor_Skull",
+            "ADM_ParaMotor_ADM"
+        ]
+        },
+        {
+        "ClassName": "ADM_ParaMotor_RWB",
+        "MaxPriceThreshold": 100000,
+        "MinPriceThreshold": 90000,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 100,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParaMotor_Target",
+        "MaxPriceThreshold": 100000,
+        "MinPriceThreshold": 90000,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 100,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParaMotor_Skull",
+        "MaxPriceThreshold": 100000,
+        "MinPriceThreshold": 90000,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 100,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParaMotor_ADM",
+        "MaxPriceThreshold": 100000,
+        "MinPriceThreshold": 90000,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 100,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        }
+    ]
+}

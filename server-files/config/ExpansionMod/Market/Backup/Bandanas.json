@@ -1,0 +1,69 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_BANDANAS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "bandana_blue",
+            "MaxPriceThreshold": 35,
+            "MinPriceThreshold": 31,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "bandana_pink",
+                "bandana_yellow",
+                "bandana_redpattern",
+                "bandana_blackpattern",
+                "bandana_polkapattern"
+            ]
+        },
+        {
+            "ClassName": "bandana_greenpattern",
+            "MaxPriceThreshold": 40,
+            "MinPriceThreshold": 36,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MilitaryGear_Bandana_Black",
+                "MilitaryGear_Bandana_Brown"
+            ]
+        },
+        {
+            "ClassName": "bandana_camopattern",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MilitaryGear_Bandana_PartizanM",
+                "MilitaryGear_Bandana_Duckhunter",
+                "MilitaryGear_Bandana_Multicam",
+                "MilitaryGear_Bandana_Splinter",
+                "MilitaryGear_Bandana_Splinter_Dark",
+                "MilitaryGear_Bandana_Tiger",
+                "MilitaryGear_Bandana_Woodland",
+                "MilitaryGear_Bandana_FLT",
+                "MilitaryGear_Bandana_DPM",
+                "MilitaryGear_Bandana_MPAT",
+                "MilitaryGear_Bandana_Partizan",
+                "MilitaryGear_Bandana_Skol",
+                "MilitaryGear_Bandana_ATACS",
+                "MilitaryGear_Bandana_CADPAT",
+                "MilitaryGear_Bandana_Tropic",
+                "MilitaryGear_Bandana_Yeger"
+            ]
+        }
+    ]
+}

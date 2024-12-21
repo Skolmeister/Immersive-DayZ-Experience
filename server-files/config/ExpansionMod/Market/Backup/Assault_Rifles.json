@@ -1,0 +1,741 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_ASSAULT_RIFLES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 60.0,
+    "Items": [
+        {
+            "ClassName": "fal",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "fal_oebttstck",
+                "mag_fal_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "akm",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "ak_woodbttstck",
+                "ak_woodhndgrd",
+                "mag_akm_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "ak101",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "ak_plasticbttstck",
+                "ak_plastichndgrd",
+                "mag_ak101_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "ak74",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "ak74_woodbttstck",
+                "ak74_hndgrd",
+                "mag_ak74_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "aks74u",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "aks74u_bttstck",
+                "mag_ak74_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4a1",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "m4_carryhandleoptic",
+                "mag_stanag_30rnd",
+                "m4_oebttstck",
+                "m4_plastichndgrd"
+            ],
+            "Variants": [
+                "m4a1_clean",
+                "m4a1_yellow",
+                "m4a1_orange",
+                "m4a1_brown",
+                "m4a1_white",
+                "m4a1_grey",
+                "m4a1_blue",
+                "m4a1_red",
+                "m4a1_pink"
+            ]
+        },
+        {
+            "ClassName": "m16a2",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "FAMAS",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "Mag_FAMAS_25Rnd"
+            ],
+            "Variants": [
+                "BO_FAMAS"
+            ]
+        },
+        {
+            "ClassName": "BO_FAMAS",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": []
+        },
+
+        {
+            "ClassName": "aug",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_aug_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "augshort",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_aug_30rnd"
+            ],
+            "Variants": []
+        },
+
+        {
+            "ClassName": "asval",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_val_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_m16",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_AN94",
+            "MaxPriceThreshold": 6800,
+            "MinPriceThreshold": 6120,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 30,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "Mag_AK74_30Rnd"
+            ],
+            "Variants": []
+          },
+          {
+            "ClassName": "TTC_AG3",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_G3_Magazine_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_SG550",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "Mag_SG_30Rnd"
+            ],
+            "Variants": [
+				"TTC_SG550_Black",
+				"TTC_SG550_Pink"
+			]
+        },
+        {
+            "ClassName": "TTC_SG552_Black",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "Mag_SG_30Rnd"
+            ],
+            "Variants": [
+				"TTC_SG552",
+				"TTC_SG552_wood"
+			]
+        },
+        {
+            "ClassName": "TTC_TAVOR",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_TAVOR_Magazine_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_TAVOR_DMR",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_TAVOR_Magazine_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOX_HK416D",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "FOX_HK416D_Bttstck",
+                "FOX_HK416D_hndgrd",
+                "mag_stanag_30rnd",
+                "FOX_HK416_REAR_SIGHT"
+            ],
+            "Variants": [
+                "FOX_HK416D_TAN",
+                "FOX_HK416D_GREEN",
+                "FOX_HK416D_SNOW"
+            ]
+          },
+          {
+            "ClassName": "TTC_HK416Comp",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": []
+          },
+          {
+            "ClassName": "TTC_HK417",
+            "MaxPriceThreshold": 6500,
+            "MinPriceThreshold": 5850,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_HK417_Magazine_20rnd",
+                "TTC_Buttstock3"
+            ],
+            "Variants": []
+        },
+          {
+            "ClassName": "FOX_STG44",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "FOX_Mag_STG44_30Rnd",
+                "FOX_STG44_Bttstck"
+            ],
+            "Variants": [
+                "FOX_STG44_GREEN",
+                "FOX_STG44_TAN",
+                "FOX_STG44_SNOW"
+            ]
+          },
+          {
+            "ClassName": "FOX_AK102",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_ak101_30rnd",
+                "FOX_AK_BttstckTac",
+                "FOX_AK_rail_hndgrd"
+            ],
+            "Variants": [
+                "FOX_AK102_GREEN",
+                "FOX_AK102_TAN",
+                "FOX_AK102_SNOW"
+            ]
+          },
+          {
+            "ClassName": "FOX_SR47",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 30,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_akm_30rnd",
+                "FOX_SR47_hndgrd",
+                "FOX_SR47_Bttstck"
+            ],
+            "Variants": [
+                "FOX_SR47_GREEN",
+                "FOX_SR47_TAN",
+                "FOX_SR47_SNOW"
+            ]
+          },
+        {
+            "ClassName": "TTC_G3",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_G3_Magazine_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_MCX_300blk",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_300Cmag",
+                "TTC_MPXMCX1_Bttstck"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_MCX_Tan_300blk",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_300Cmag",
+                "TTC_MPXMCX1_Bttstck"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_MCX",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_MPXMCX1_Bttstck",
+                "mag_stanag_30rnd"
+            ],
+            "Variants": [
+				"TTC_MCX_Tan",
+                "TTC_MCX_300blk",
+                "TTC_MCX_Tan_300blk"
+			]
+        },
+        {
+            "ClassName": "TTC_M14",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_M14_Mag_20rnd"
+            ],
+            "Variants": [
+				"TTC_M14_Camo",
+				"TTC_M14_Snow",
+				"TTC_M14_Black"
+			]
+        },
+        {
+            "ClassName": "TTC_VHS",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "TTC_ModDMR_556",
+            "MaxPriceThreshold": 8800,
+            "MinPriceThreshold": 7920,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_DMR_556Pmag_30rnd",
+                "TTC_Buttstock"
+            ],
+            "Variants": [
+				"TTC_ModDMRTan_556",
+				"TTC_ModDMRtwotone_556",
+				"TTC_ModDMRCamo_556",
+				"TTC_ModDMRDigiTan_556",
+				"TTC_ModDMRUPC_556",
+				"TTC_ModDMRSnow_556"
+			]
+        },
+        {
+            "ClassName": "TTC_AKMod",
+            "MaxPriceThreshold": 8800,
+            "MinPriceThreshold": 7920,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_AKMod_Hndguard",
+                "TTC_AKMod_bttstk",
+                "mag_akm_palm30rnd"
+            ],
+            "Variants": [
+				"TTC_AKMod_Tan",
+				"TTC_AKMod_Digi",
+				"TTC_AKMod_Multi",
+				"TTC_AKMod_Snow",
+				"TTC_AKMod_Gold"
+			]
+        },
+        {
+            "ClassName": "TTC_AKModPK",
+            "MaxPriceThreshold": 8800,
+            "MinPriceThreshold": 7920,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_AKMod_Hndguard",
+                "TTC_AKMod_bttstk",
+                "TTC_AKMod_762x54_30rnd"
+            ],
+            "Variants": [
+				"TTC_AKModPK_Tan",
+				"TTC_AKModPK_Digi",
+				"TTC_AKModPK_Multi",
+				"TTC_AKModPK_Snow",
+				"TTC_AKModPK_Gold"			
+			]
+        },
+        {
+            "ClassName": "TTC_KAC",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd",
+                "TTC_Buttstock_Morty"   
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_L85",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": [
+                "BO_L85_RIS"
+            ]
+        },
+        {
+            "ClassName": "BO_L85_RIS",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": []
+        },
+
+        {
+            "ClassName": "BO_ACR17S",
+            "MaxPriceThreshold": 5800,
+            "MinPriceThreshold": 5220,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_ACR17_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_AEK971",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_ak74_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_AK5C",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_PMAG_Tan_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_F2000",
+            "MaxPriceThreshold": 7500,
+            "MinPriceThreshold": 6750,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_PMAGWindow_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_ARX160",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_ARX160_30rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_G36C",
+            "MaxPriceThreshold": 4800,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_PMAGWindow_30Rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_G36A1",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_G36Optic",
+                "BO_Mag_PMAGWindow_30Rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Groza_9x39",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_Groza_20rnd"
+            ],
+            "Variants": [
+                "BO_Groza_762"
+            ]
+        },
+        {
+            "ClassName": "BO_SCARL_Tan",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Holosun_HS510C_Optic",
+                "BO_Mag_PMAGWindow_30Rnd"
+            ],
+            "Variants": [
+                "BO_SCARL_Black"
+            ]
+        },
+        {
+            "ClassName": "BO_SCARH_Tan",
+            "MaxPriceThreshold": 5700,
+            "MinPriceThreshold": 5130,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_SCARH_20Rnd"
+            ],
+            "Variants": [
+                "BO_SCARH_Black"
+            ]
+        },
+        {
+            "ClassName": "TTC_M1A_Black",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "TTC_M14_Mag_20rnd"
+            ],
+            "Variants": [
+				"TTC_M1A_Green",
+				"TTC_M1A_Tan",
+				"TTC_M1A_Snow"
+			]
+        }
+    ]
+}

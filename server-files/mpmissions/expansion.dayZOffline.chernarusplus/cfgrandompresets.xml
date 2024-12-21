@@ -705,15 +705,15 @@
 				<item name="BO_ACOGOptic_300blk_Red" chance="0.09" />
 				<item name="BO_ACOGOptic_Chevron_Green" chance="0.09" />
 				<item name="BO_ACOGOptic_ACSS_Red" chance="0.09" />
-				<item name="BO_HAMROptic" chance="0.09" />
+				<item name="BO_HAMROptic" chance="0.00" />
 				<item name="BO_LeupoldHoloDEVO" chance="0.09" />
 				<item name="BO_Bravo4" chance="0.09" />
-				<item name="BO_SpecterDROptic" chance="0.09" />
+				<item name="BO_SpecterDROptic" chance="0.00" />
 				<item name="BO_EotechHHS" chance="0.09" />
 				<item name="BO_Spitfire" chance="0.09" />
 		</attachments>
 		<attachments chance="0.30" name="reddot">
-				<item name="BO_VortexAMG_UH1_Optic" chance="0.10" />
+				<item name="BO_VortexAMG_UH1_Optic" chance="0.00" />
 				<item name="BO_AimpointT1" chance="0.10" />
 				<item name="BO_AimpointCS" chance="0.10" />
 				<item name="BO_DeltaPoint" chance="0.10" />
@@ -736,8 +736,8 @@
 				<item name="BO_SchmidtBender25" chance="0.07" />
 				<item name="BO_Sight_4_6" chance="0.07" />
 				<item name="BO_Vudu" chance="0.07" />
-				<item name="BO_VortexRazor_Black" chance="0.07" />
-				<item name="BO_VortexRazor_Brown" chance="0.07" />
+				<item name="BO_VortexRazor_Black" chance="0.00" />
+				<item name="BO_VortexRazor_Brown" chance="0.00" />
 		</attachments>
 		<attachments chance="0.40" name="pistol">
 				<item name="Pistol_Suppressor" chance="0.33" />
@@ -1071,21 +1071,21 @@
 			<item name="Mag_STANAG_60Rnd" chance="0.05" />
 			<item name="Mag_AKM_Drum75Rnd" chance="0.05" />
 		</cargo>
-				<cargo chance="0.15" name="PokemonCards">
+		<cargo chance="0.01" name="PokemonCards">
 				<!-- 1 Card Booster -->
-				<item name="PokemonBooster001_1" chance="0.2" />
-				<item name="PokemonBooster002_1" chance="0.2" />
-				<item name="PokemonBooster003_1" chance="0.2" />
+				<item name="PokemonBooster001_1" chance="0.20" />
+				<item name="PokemonBooster002_1" chance="0.20" />
+				<item name="PokemonBooster003_1" chance="0.20" />
 				<!-- 3 Cards Booster -->
-				<item name="PokemonBooster001_3" chance="0.08" />
-				<item name="PokemonBooster002_3" chance="0.08" />
-				<item name="PokemonBooster003_3" chance="0.08" />
+				<item name="PokemonBooster001_3" chance="0.10" />
+				<item name="PokemonBooster002_3" chance="0.10" />
+				<item name="PokemonBooster003_3" chance="0.10" />
 				<!-- 5 Cards Booster -->
-				<item name="PokemonBooster001_5" chance="0.01" />
-				<item name="PokemonBooster002_5" chance="0.01" />
-				<item name="PokemonBooster003_5" chance="0.01" />
+				<item name="PokemonBooster001_5" chance="0.05" />
+				<item name="PokemonBooster002_5" chance="0.05" />
+				<item name="PokemonBooster003_5" chance="0.05" />
 		</cargo>
-		<cargo chance="0.15" name="toolsHermit">
+		<cargo chance="0.30" name="toolsHermit">
 				<item name="PokemonCard_Box1" chance="0.005" />
 				<item name="PokemonCard_Box2" chance="0.005" />
 				<item name="PokemonCard_Box3" chance="0.005" />
@@ -1099,13 +1099,14 @@
 				<item name="PokemonCard_Box4s" chance="0.005" />
 				<item name="PokemonCard_Box5s" chance="0.005" />
 				<!-- INVENTORY GRID
-				<item name="PokemonCard_Box1i" chance="0.005" />
-				<item name="PokemonCard_Box2i" chance="0.005" />
-				<item name="PokemonCard_Box3i" chance="0.005" />
-				<item name="PokemonCard_Box4i" chance="0.005" />
-				<item name="PokemonCard_Box5i" chance="0.005" />  -->
+				<item name="PokemonCard_Box1i" chance="0.000" />
+				<item name="PokemonCard_Box2i" chance="0.000" />
+				<item name="PokemonCard_Box3i" chance="0.000" />
+				<item name="PokemonCard_Box4i" chance="0.000" />
+				<item name="PokemonCard_Box5i" chance="0.000" />
+				 -->
 		</cargo>
-		<cargo chance="0.1" name="toolsVillage">
+		<cargo chance="0.40" name="toolsVillage">
 				<item name="PokemonCard_Box1" chance="0.005" />
 				<item name="PokemonCard_Box2" chance="0.005" />
 				<item name="PokemonCard_Box3" chance="0.005" />
@@ -1118,14 +1119,15 @@
 				<item name="PokemonCard_Box3s" chance="0.005" />
 				<item name="PokemonCard_Box4s" chance="0.005" />
 				<item name="PokemonCard_Box5s" chance="0.005" />
-				<!-- INVENTORY GRID 
-				<item name="PokemonCard_Box1i" chance="0.005" />
-				<item name="PokemonCard_Box2i" chance="0.005" />
-				<item name="PokemonCard_Box3i" chance="0.005" />
-				<item name="PokemonCard_Box4i" chance="0.005" />
-				<item name="PokemonCard_Box5i" chance="0.005" /> -->
+				<!-- INVENTORY GRID
+				<item name="PokemonCard_Box1i" chance="0.000" />
+				<item name="PokemonCard_Box2i" chance="0.000" />
+				<item name="PokemonCard_Box3i" chance="0.000" />
+				<item name="PokemonCard_Box4i" chance="0.000" />
+				<item name="PokemonCard_Box5i" chance="0.000" />
+				 -->
 		</cargo>
-		<cargo chance="0.1" name="toolsCity">
+		<cargo chance="0.40" name="toolsCity">
 				<item name="PokemonCard_Box1" chance="0.005" />
 				<item name="PokemonCard_Box2" chance="0.005" />
 				<item name="PokemonCard_Box3" chance="0.005" />
@@ -1138,12 +1140,14 @@
 				<item name="PokemonCard_Box3s" chance="0.005" />
 				<item name="PokemonCard_Box4s" chance="0.005" />
 				<item name="PokemonCard_Box5s" chance="0.005" />
-				<!-- INVENTORY GRID 
-				<item name="PokemonCard_Box1i" chance="0.005" />
-				<item name="PokemonCard_Box2i" chance="0.005" />
-				<item name="PokemonCard_Box3i" chance="0.005" />
-				<item name="PokemonCard_Box4i" chance="0.005" />
-				<item name="PokemonCard_Box5i" chance="0.005" /> -->
+				<!-- INVENTORY GRID
+				<item name="PokemonCard_Box1i" chance="0.000" />
+				<item name="PokemonCard_Box2i" chance="0.000" />
+				<item name="PokemonCard_Box3i" chance="0.000" />
+				<item name="PokemonCard_Box4i" chance="0.000" />
+				<item name="PokemonCard_Box5i" chance="0.000" />
+				 -->
+		</cargo>
 		</cargo>
 				<cargo chance="0.15" name="cigarettes">
 				<item name="wt_smoke_cigarpack_kosmos" chance="0.15" />

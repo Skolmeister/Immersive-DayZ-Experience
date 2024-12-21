@@ -1,7 +1,7 @@
 {
     "EnableDebug": 0,
     "Rarity": 33.0,
-    "InitialCooldown": 120,
+    "InitialCooldown": 0,
     "XPGain": 1,
     "SoundEnabled": 1,
     "DisableNotifications": 0,
@@ -636,7 +636,7 @@
         },
         {
             "name": "Civilian_Clothing",
-            "rarity": 40.0,
+            "rarity": 25.0,
             "loot": [
                 "CivilianBelt",
                 "AthleticShoes_Blue",
@@ -1205,7 +1205,7 @@
         },
         {
             "name": "Industrial_Food",
-            "rarity": 33.0,
+            "rarity": 20.0,
             "loot": [
                 "WaterBottle",
                 "Pajka",
@@ -1254,7 +1254,7 @@
         },
         {
             "name": "Industrial_Clothing",
-            "rarity": 50.0,
+            "rarity": 25.0,
             "loot": [
                 "JumpsuitJacket_Blue",
                 "JumpsuitJacket_Gray",
@@ -1309,7 +1309,7 @@
         },
         {
             "name": "Industrial_Tools",
-            "rarity": 40.0,
+            "rarity": 30.0,
             "loot": [
                 "NailBox",
                 "NailBox",
@@ -1389,7 +1389,7 @@
         },
         {
             "name": "Farm_Food",
-            "rarity": 50.0,
+            "rarity": 30.0,
             "loot": [
                 "WaterBottle",
                 "Pajka",
@@ -1464,7 +1464,7 @@
         },
         {
             "name": "Farm_Clothing",
-            "rarity": 33.0,
+            "rarity": 25.0,
             "loot": [
                 "CargoPants_Beige",
                 "CowboyHat_Brown",
@@ -1492,7 +1492,7 @@
         },
         {
             "name": "Farm_Tools",
-            "rarity": 33.0,
+            "rarity": 25.0,
             "loot": [
                 "Ammo_12gaSlug",
                 "Ammo_357",
@@ -1532,7 +1532,7 @@
         },
         {
             "name": "Hunting_Food",
-            "rarity": 50.0,
+            "rarity": 25.0,
             "loot": [
                 "WaterBottle",
                 "Pajka",
@@ -1747,7 +1747,7 @@
         },
         {
             "name": "Police_Food",
-            "rarity": 50.0,
+            "rarity": 25.0,
             "loot": [
                 "WaterBottle",
                 "TunaCan",
@@ -1831,7 +1831,7 @@
         },
         {
             "name": "Police_Clothing",
-            "rarity": 25.0,
+            "rarity": 20.0,
             "loot": [
                 "PoliceCap",
                 "PolicePants",
@@ -1930,7 +1930,7 @@
         },
         {
             "name": "Medical_Food",
-            "rarity": 33.0,
+            "rarity": 25.0,
             "loot": [
                 "WaterBottle",
                 "PowderedMilk",
@@ -1960,7 +1960,7 @@
         },
         {
             "name": "Medical_Clothing",
-            "rarity": 33.0,
+            "rarity": 20.0,
             "loot": [
                 "SurgicalGloves_Blue",
                 "SurgicalGloves_Green",
@@ -2004,7 +2004,7 @@
         },
         {
             "name": "Medical_Tools",
-            "rarity": 33.0,
+            "rarity": 25.0,
             "loot": [
                 "BloodBagEmpty",
                 "BloodBagEmpty",
@@ -2059,7 +2059,6 @@
                 "AMS_Vikasol",
                 "AMS_Energy",
                 "AMS_Narcotics",
-                "AMS_Tourniquet",
                 "AMS_Methadone",
                 "AMS_BandAid",
                 "AMS_Splint",
@@ -2089,7 +2088,7 @@
         },
         {
             "name": "Military_Food",
-            "rarity": 33.0,
+            "rarity": 20.0,
             "loot": [
                 "WaterBottle",
                 "UnknownFoodCan",
@@ -3333,7 +3332,7 @@
         },
         {
             "name": "Bar_Food",
-            "rarity": 50.0,
+            "rarity": 25.0,
             "loot": [
                 "MFP_BudLight",
                 "MFP_BuschLight",
@@ -3411,7 +3410,7 @@
         },
         {
             "name": "Bar_Clothing",
-            "rarity": 33.0,
+            "rarity": 15.0,
             "loot": [
                 "WorkingGloves_Black",
                 "BaseballCap_Pink",
@@ -3473,7 +3472,7 @@
         },
         {
             "name": "Bar_Tools",
-            "rarity": 33.0,
+            "rarity": 20.0,
             "loot": [
                 "CookingStand",
                 "ChernarusMap",

@@ -1,0 +1,35 @@
+{
+    "m_Version": 12,
+    "DisplayName": "LASERS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "BO_MK23_LAM",
+            "MaxPriceThreshold": 440,
+            "MinPriceThreshold": 396,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Expansion_ANPEQ15_Red",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Expansion_ANPEQ15_Green",
+                "Expansion_ANPEQ15_GreenNV"
+            ]
+        }
+    ]
+}

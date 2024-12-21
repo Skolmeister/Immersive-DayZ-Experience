@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+	<event name="AnimalWildDog_1">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild1"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild4"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild8"/>
+        </children>
+    </event>
+	<event name="AnimalWildDog_2">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild2"/>
+        </children>
+    </event>
+	    <event name="AnimalWildDog_3">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild3"/>
+        </children>
+    </event>
+		<event name="AnimalWildDog_4">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild5"/>
+        </children>
+    </event>
+	    </event>
+		<event name="AnimalWildDog_5">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild6"/>
+        </children>
+    </event>
+		<event name="AnimalWildDog_6">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild7"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild14"/>
+        </children>
+    </event>
+	    </event>
+		<event name="AnimalWildDog_7">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild9"/>
+        </children>
+    </event>
+		<event name="AnimalWildDog_8">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild10"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild11"/>
+        </children>
+    </event>
+	    </event>
+		<event name="AnimalWildDog_9">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild12"/>
+        </children>
+    </event>
+		<event name="AnimalWildDog_10">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild13"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_11">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild15"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_12">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild16"/>
+        </children>
+	</event>
+			<event name="AnimalWildDog_13">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild17"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_14">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild18"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_15">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild19"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_16">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild20"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_17">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild21"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild22"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_18">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild23"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_19">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild24"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_20">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild25"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_21">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild26"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_22">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild27"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild28"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild29"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_23">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild30"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild31"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild32"/>
+        </children>
+	</event>
+		<event name="AnimalWildDog_24">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>150</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild33"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild34"/>
+		<child lootmax="0" lootmin="0" max="1" min="0" type="Doggo_Wild35"/>
+        </children>
+	</event>
+</events>

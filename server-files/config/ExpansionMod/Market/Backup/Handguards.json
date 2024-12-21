@@ -1,0 +1,346 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_HANDGUARDS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "mp5_plastichndgrd",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "mp5_railhndgrd",
+            "MaxPriceThreshold": 350,
+            "MinPriceThreshold": 315,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ak74_hndgrd",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ak74_hndgrd_CAMO",
+                "ak74_hndgrd_black"
+            ]
+        },
+        {
+            "ClassName": "ak_woodhndgrd",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ak_woodhndgrd_camo",
+                "ak_woodhndgrd_black"
+            ]
+        },
+        {
+            "ClassName": "ak_railhndgrd",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ak_railhndgrd_green"
+            ]
+        },
+        {
+            "ClassName": "ak_plastichndgrd",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4_plastichndgrd",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "m4_plastichndgrd_green"
+            ]
+        },
+        {
+            "ClassName": "m4_rishndgrd",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "m4_rishndgrd_green"
+            ]
+        },
+        {
+            "ClassName": "m4_mphndgrd",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "m4_mphndgrd_green"
+            ]
+        },
+        {
+            "ClassName": "FOX_HK416D_hndgrd",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "FOX_HK416_FRONT_SIGHT"
+            ],
+            "Variants": [
+                "FOX_HK416D_hndgrd_tan",
+                "FOX_HK416D_hndgrd_snow",
+                "FOX_HK416D_hndgrd_green"
+            ]
+          },
+          {
+            "ClassName": "FOX_SR47_hndgrd",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_SR47_hndgrd_tan",
+                "FOX_SR47_hndgrd_green",
+                "FOX_SR47_hndgrd_snow"
+            ]
+          },
+          {
+            "ClassName": "FOX_AK_magpull_hndgrd",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_AK_magpull_hndgrd_green",
+                "FOX_AK_magpull_hndgrd_tan",
+                "FOX_AK_magpull_hndgrd_snow"
+            ]
+          },
+          {
+            "ClassName": "FOX_AK_rail_hndgrd",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_AK_rail_hndgrd_green",
+                "FOX_AK_rail_hndgrd_tan",
+                "FOX_AK_rail_hndgrd_snow"
+            ]
+          },
+          {
+            "ClassName": "TTC_AKMod_Hndguard",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TTC_AKMod_Snow_Hndguard",
+				"TTC_AKMod_Multi_Hndguard",
+				"TTC_AKMod_Digi_Hndguard",
+				"TTC_AKMod_Tan_Hndguard",
+				"TTC_AKMod_Gold_Hndguard"
+			]
+        },
+        {
+            "ClassName": "TTC_DMR_Hndguard",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TTC_DMR_HndguardDesert",
+				"TTC_DMR_HndguardOD",
+				"TTC_DMR_HndguardSnow",
+				"TTC_DMR_Hndguard_SLR"
+			]
+        },
+        {
+            "ClassName": "FOX_EVO_hndgrd",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_EVO_hndgrd_green",
+                "FOX_EVO_hndgrd_tan",
+                "FOX_EVO_hndgrd_snow"
+            ]
+          },
+          {
+            "ClassName": "FOX_MP5_hndgrd",
+            "MaxPriceThreshold": 350,
+            "MinPriceThreshold": 315,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_MP5_hndgrd_green",
+                "FOX_MP5_hndgrd_tan",
+                "FOX_MP5_hndgrd_snow"
+            ]
+          },
+          {
+            "ClassName": "TTC_AKMod_Hndguard",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TTC_AKMod_Snow_Hndguard",
+				"TTC_AKMod_Multi_Hndguard",
+				"TTC_AKMod_Digi_Hndguard",
+				"TTC_AKMod_Tan_Hndguard",
+				"TTC_AKMod_Gold_Hndguard"
+			]
+        },
+        {
+            "ClassName": "TTC_DMR_Hndguard",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+				"TTC_DMR_HndguardDesert",
+				"TTC_DMR_HndguardOD",
+				"TTC_DMR_HndguardSnow",
+				"TTC_DMR_Hndguard_SLR"
+			]
+        },
+        {
+            "ClassName": "FOX_VPO205_hndgrd",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_VPO205_hndgrd_green",
+                "FOX_VPO205_hndgrd_tan",
+                "FOX_VPO205_hndgrd_snow"
+            ]
+          },
+          {
+            "ClassName": "FOX_RPK_hndgrd",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_RPK74_hndgrd_green"
+            ]
+          },
+          {
+            "ClassName": "BO_Tigr_Handguard_Original",
+            "MaxPriceThreshold": 550,
+            "MinPriceThreshold": 495,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "BO_Tigr_Handguard_Rail"
+            ]
+          },
+          {
+            "ClassName": "BO_Tigr_Handguard_Rail",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "BO_Tigr_Handguard_Original"
+            ]
+        },
+        {
+            "ClassName": "TTC_Car15V2_PlasticHndgrd",
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

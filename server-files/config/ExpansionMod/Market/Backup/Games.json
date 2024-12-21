@@ -1,0 +1,130 @@
+{
+    "m_Version": 12,
+    "DisplayName": "GAMES AND COLLECTIBLES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "PokemonBooster001_1",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 1000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBooster002_1",
+                "PokemonBooster003_1"
+            ]
+        },
+        {
+            "ClassName": "PokemonBooster002_3",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 3000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBooster001_3",
+                "PokemonBooster003_3"
+            ]
+        },
+        {
+            "ClassName": "PokemonBooster003_5",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 5000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBooster001_5",
+                "PokemonBooster002_5"
+            ]
+        },
+        {
+            "ClassName": "PokemonCard_Box1",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonCard_Box2",
+                "PokemonCard_Box3",
+                "PokemonCard_Box4",
+                "PokemonCard_Box5"
+            ]
+        },
+        {
+            "ClassName": "PokemonCard_Box1s",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonCard_Box2s",
+                "PokemonCard_Box3s",
+                "PokemonCard_Box4s",
+                "PokemonCard_Box5s"
+            ]
+        },
+        {
+            "ClassName": "MassChessboard",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "MassWhitePawn",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 225,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MassWhiteQueen",
+                "MassWhiteKing",
+                "MassWhiteBishop",
+                "MassWhiteKnight",
+                "MassWhiteRook"
+            
+            ]
+        },
+        {
+            "ClassName": "MassblackPawn",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 225,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MassblackQueen",
+                "MassblackKing",
+                "MassblackBishop",
+                "MassblackKnight",
+                "MassblackRook"
+            ]
+        }
+    ]
+}

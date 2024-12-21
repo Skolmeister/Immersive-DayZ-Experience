@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<types>
+	<!-- Tent bags -->
+	<type name="TentBag_Orel">
+		<nominal>2</nominal>
+		<min>1</min>
+		<lifetime>28800</lifetime>
+		<restock>7200</restock>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+		<usage />
+		<category name="containers"/>
+        <usage name="Hunting"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TentBag_Camo">
+		<nominal>2</nominal>
+		<min>1</min>
+		<lifetime>28800</lifetime>
+		<restock>7200</restock>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+		<category name="containers"/>
+        <usage name="Hunting"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TentBag_Desert">
+		<nominal>1</nominal>
+		<min>0</min>
+		<lifetime>28800</lifetime>
+		<restock>7200</restock>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+		<category name="containers"/>
+        <usage name="Village"/>
+		<usage name="Military"/>
+	</type>
+	<type name="TentBag_Arctic">
+		<nominal>1</nominal>
+		<min>0</min>
+		<lifetime>28800</lifetime>
+		<restock>7200</restock>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+		<category name="containers"/>
+        <usage name="Hunting"/>
+	</type>
+	<type name="TentBag">
+		<nominal>3</nominal>
+		<min>1</min>
+		<lifetime>28800</lifetime>
+		<restock>7200</restock>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+		<category name="containers"/>
+        <usage name="Hunting"/>
+		<usage name="Village"/>
+		<usage name="Coast"/>
+	</type>
+</types>

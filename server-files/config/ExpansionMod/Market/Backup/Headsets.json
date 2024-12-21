@@ -1,0 +1,128 @@
+{
+    "m_Version": 12,
+    "DisplayName": "HEADSETS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "FOG_FastMT_RAC_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_FastMT_RAC_Tan",
+                "FOG_FastMT_RAC_RG"
+            ]
+        },
+        {
+            "ClassName": "FOG_AMP_MCBT",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_AMP_Tan",
+                "FOG_AMP_MC",
+                "FOG_AMP_Black",
+                "FOG_AMP_MCB"
+            ]
+        },
+        {
+            "ClassName": "FOG_M32_Helmet_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_M32_Helmet_RG"
+            ]
+        },
+        {
+            "ClassName": "FOG_Comtac_IV_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Comtac_IV_CB",
+                "FOG_Comtac_IV_RG"
+            ]
+        },
+        {
+            "ClassName": "FOG_Comtac3_Headphones_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Comtac3_Headphones_AJ",
+                "FOG_Comtac3_Headphones_CB",
+                "FOG_Comtac3_Headphones_FG",
+                "FOG_Comtac3_Headphones_RG",
+                "FOG_Comtac3_Headphones_RG_01",
+                "FOG_Comtac3_Headphones_RG_XPI",
+                "FOG_Comtac3_Headphones_RG_Spray",
+                "FOG_Comtac3_Headphones_CB_Velcro",
+                "FOG_Comtac3_Headphones_RG_Velcro",
+                "FOG_Comtac3_Headphones_FG_Velcro",
+                "FOG_Comtac3_Headphones_Tan_Velcro",
+                "FOG_Comtac3_Headphones_Black_Velcro"
+            ]
+        },
+        {
+            "ClassName": "FOG_COMTAC3_Headset_CB",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_COMTAC3_Headset_RG"
+            ]
+        },
+        {
+            "ClassName": "FOG_M32_Headset_Black",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_M32_Headset_RG"
+            ]
+        },
+        {
+            "ClassName": "FOG_Ghost_Headset_Tan",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1080,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

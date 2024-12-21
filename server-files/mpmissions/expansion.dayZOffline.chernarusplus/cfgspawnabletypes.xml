@@ -391,9 +391,13 @@
 		<cargo chance="0.05"> <item name="AE_AmmoBox_127x99_10rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="AE_AmmoBox_338_20rnd" /> </cargo>
 		<cargo chance="0.10"> <item name="AE_AmmoBox_338_20rnd" /> </cargo>
+		<cargo chance="0.10"> <item name="AE_AmmoBox_792x57_20rnd" /> </cargo>
 		<cargo chance="0.15"> <item name="TTC_AmmoBox_300blk_20rnd" /> </cargo>			
 		<cargo chance="0.15"> <item name="TTC_AmmoBox_300blk_20rnd" /> </cargo>			
-
+		<cargo chance="0.15"> <item name="TTC_AmmoBox_50AE" /> </cargo>			
+		<cargo chance="0.15"> <item name="TTC_AmmoBox_50AE" /> </cargo>		
+		<cargo chance="0.20"> <item name="9x21FOX_AmmoBox_25rnd" /> </cargo>
+		<cargo chance="0.10"> <item name="9x21EXP_AmmoBox_25rnd" /> </cargo>
 	</type>
 	
 	<type name="AirborneMask">
@@ -1884,8 +1888,8 @@
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.50">
-			<item name="TTC_MP7A1_Mag_40rnd" chance="0.10" />
+		<cargo chance="0.25">
+			<item name="TTC_MP7A1_Mag_40rnd" chance="0.05" />
 			<item name="Mag_Scout_5Rnd" chance="0.10" />
 			<item name="Mag_CZ61_20Rnd" chance="0.20" />
 			<item name="Mag_MP5_30Rnd" chance="0.20" />
@@ -1897,7 +1901,7 @@
 	<type name="ZmbM_PolicemanSpecForce_Heavy">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
-		<cargo chance="0.50">
+		<cargo chance="0.25">
 			<item name="TTC_MP7A1_Mag_40rnd" chance="0.20" />
 			<item name="TTC_300Cmag" chance="0.10" />
 			<item name="TTC_MPX_Mag_30rnd" chance="0.10" />
@@ -2764,6 +2768,7 @@
 		<cargo preset="Xmas_Repairs_Small" />
 		<cargo preset="Xmas_Food_Small" />
 		<cargo preset="Xmas_Chemlights_Small" />
+
 	</type>
 	<type name="GiftBox_Small_2">
 		<cargo preset="Xmas_Clothes_Small" />

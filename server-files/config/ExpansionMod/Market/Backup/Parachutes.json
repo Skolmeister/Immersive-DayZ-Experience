@@ -1,0 +1,153 @@
+{
+    "m_Version": 12,
+    "DisplayName": "PARACHUTES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+        "ClassName": "ADM_ParachuteBag_Fabric",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_RWB",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_Target",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_Skull",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_ADM",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_INVIS",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_Fabric_Speed",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_RWB_Speed",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_Target_Speed",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_Skull_Speed",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_ParachuteBag_ADM_Speed",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_TactiParaBag_Camo",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        },
+        {
+        "ClassName": "ADM_TactiParaBag_Camo_Speed",
+        "MaxPriceThreshold": 5000,
+        "MinPriceThreshold": 4500,
+        "SellPricePercent": -1,
+        "MaxStockThreshold": 200,
+        "MinStockThreshold": 1,
+        "QuantityPercent": -1,
+        "SpawnAttachments": [],
+        "Variants": []
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+eAILootingBehavior
+NONE
+WEAPONS_FIREARMS 
+WEAPONS_LAUNCHERS
+WEAPONS_MELEE
+WEAPONS
+BANDAGES
+CLOTHING
+UPGRADE 
+DEFAULT
+ALL
+
+
+Massive Cheekbone Endorser AKA LiquirdRock — Today at 2:03 PM
+DEFAULT is synonymous to WEAPONS (but may be subject to change)
+WEAPONS is shorthand for WEAPONS_FIREARMS | WEAPONS_LAUNCHERS | WEAPONS_MELEE
+
+And yeah you can combine options like that
+    "LootingBehaviour": "WEAPONS_MELEE | CLOTHING"

@@ -1431,7 +1431,9 @@
     <event name="AnimalWildBoar" />
 	<event name="AnimalWildDog" />
 	<event name="AnimalSnake" />
-
+	<event name="AmbientFox" />
+	<event name="AmbientHare" />
+	
 		<!-- EXPANSION CARS -->
 	<event name="VehicleUAZ">
 		<!-- Airfield Vyvor -->

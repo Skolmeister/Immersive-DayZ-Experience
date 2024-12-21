@@ -5,28 +5,28 @@
     "StaminaGeneralOptions": {
         "IsActive": 1,
         "RespawnValuePercent": 100.0,
-        "WeightOverloadThresholdKg": 35.0,
-        "WeightOverloadMultiplierMax": 8.0,
+        "WeightOverloadThresholdKg": 50.0,
+        "WeightOverloadMultiplierMax": 6.0,
         "CostPerSecondRestPercent": 0.8,
         "CostPerSecondNoMovementPercent": 0.5,
         "CostPerSecondNormalWalkingPercent": 0.30000001192092898,
         "CostPerSecondCrouchWalkingPercent": 0.15000000596046449,
         "CostPerSecondProneWalkingPercent": 0.15000000596046449,
-        "CostPerSecondJogPercent": -0.05000000074505806,
-        "CostPerSecondCrouchSprintPercent": -0.15000000596046449,
-        "CostPerSecondSprintPercent": -0.5,
+        "CostPerSecondJogPercent": -0.03000000074505806,
+        "CostPerSecondCrouchSprintPercent": -0.12000000596046449,
+        "CostPerSecondSprintPercent": -0.333,
         "CostPerRollPercent": -0.5,
-        "CostPerJumpPercent": -1.0,
-        "CostPerVaultPercent": -1.0,
-        "CostPerClimbPercent": -2.0,
-        "CostPerMeleeAttackPercent": -0.25,
+        "CostPerJumpPercent": -0.9,
+        "CostPerVaultPercent": -0.8,
+        "CostPerClimbPercent": -1.8,
+        "CostPerMeleeAttackPercent": -0.20,
         "CostPerPushCarApplyForcePercent": -0.05000000074505806,
-        "CostPerMinePercent": -3.0,
-        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -3.0,
-        "CostPerMinePlanksFromWoodenLogPercent": -15.0,
-        "CostPerBuildPercent": -3.0,
-        "WalkingWeightDebuffBorderKg": 50.0,
-        "MovementRestrictionWeightLimitKg": 100.0,
+        "CostPerMinePercent": -2.5,
+        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -2.5,
+        "CostPerMinePlanksFromWoodenLogPercent": -12.0,
+        "CostPerBuildPercent": -1.5,
+        "WalkingWeightDebuffBorderKg": 60.0,
+        "MovementRestrictionWeightLimitKg": 120.0,
         "OneDegreeOfSlopeUpMultiplierPercent": 10.0,
         "OneDegreeOfSlopeDownMultiplierPercent": 5.0,
         "SurfaceRoadMultiplier": 0.8999999761581421,
@@ -78,8 +78,8 @@
         "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -0.009999999776482582,
         "CostPerMinePlanksFromWoodenLogPercent": -0.05000000074505806,
         "CostPerBuildPercent": -0.009999999776482582,
-        "EpinephrineMultiplier": 0.20000000298023225,
-        "MorphineMultiplier": 50.0,
+        "EpinephrineMultiplier": 0.18000000298023225,
+        "MorphineMultiplier": 45.0,
         "TremorLevelAtCritical": 0.0,
         "TremorLevelAtLow": 0.0,
         "SleepyAlertsWhenLessCriticalIsActive": 1,
@@ -93,13 +93,13 @@
         {
             "ItemClass": "SodaCan_Cola",
             "StaminaGeneralIncreasePercent": 20.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 15.0
         },
 
         {
             "ItemClass": "SodaCan_Pipsi",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 15.0
         },
 
         {
@@ -119,13 +119,13 @@
         },
         {
             "ItemClass": "Epinephrine",
-            "StaminaGeneralIncreasePercent": 25.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaGeneralIncreasePercent": 40.0,
+            "StaminaSleepIncreasePercent": 15.0
         },
         {
             "ItemClass": "Morphine",
             "StaminaGeneralIncreasePercent": 1.0,
-            "StaminaSleepIncreasePercent": -25.0
+            "StaminaSleepIncreasePercent": -30.0
         },
         {
             "ItemClass": "AntiChemInjector",
@@ -139,23 +139,23 @@
         },
         {
             "ItemClass": "MFP_Pepsi",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 15.0
         },
         {
             "ItemClass": "MFP_PepsiMax",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 15.0
         },
         {
             "ItemClass": "MFP_ClassicCoke",
             "StaminaGeneralIncreasePercent": 20.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 15.0
         },
         {
             "ItemClass": "MFP_CokeZero",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 15.0
         },
         {
             "ItemClass": "MFP_LaCroix",
@@ -169,23 +169,23 @@
         },
         {
             "ItemClass": "MFP_NitroBrew",
-            "StaminaGeneralIncreasePercent": 25.0,
-            "StaminaSleepIncreasePercent": 15.0
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 30.0
         },
         {
             "ItemClass": "MFP_BajaBlast",
+            "StaminaGeneralIncreasePercent": 30.0,
+            "StaminaSleepIncreasePercent": 25.0
+        },
+        {
+            "ItemClass": "MFP_LiveWire",
             "StaminaGeneralIncreasePercent": 20.0,
             "StaminaSleepIncreasePercent": 15.0
         },
         {
-            "ItemClass": "MFP_LiveWire",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
             "ItemClass": "MFP_CodeRed",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaGeneralIncreasePercent": 20.0,
+            "StaminaSleepIncreasePercent": 15.0
         },
         {
             "ItemClass": "MFP_ZombieDrink",
@@ -210,7 +210,7 @@
         {
             "ItemClass": "MFP_DrPepper",
             "StaminaGeneralIncreasePercent": 20.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 15.0
         },
         {
             "ItemClass": "MFP_OrangeSoda",
@@ -224,13 +224,13 @@
         },
         {
             "ItemClass": "MFP_CoffeeBeans",
-            "StaminaGeneralIncreasePercent": 40.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaGeneralIncreasePercent": 10.0,
+            "StaminaSleepIncreasePercent": 40.0
         },
         {
             "ItemClass": "MFP_MonsterEnergy",
-            "StaminaGeneralIncreasePercent": 30.0,
-            "StaminaSleepIncreasePercent": 25.0
+            "StaminaGeneralIncreasePercent": 25.0,
+            "StaminaSleepIncreasePercent": 30.0
         },
         {
             "ItemClass": "MFP_HappyDadLemonLime",
@@ -964,12 +964,12 @@
          },
          {
             "ItemClass": "Psix_StimPackSecret",
-            "StaminaGeneralIncreasePercent": 100.00,
-            "StaminaSleepIncreasePercent": 50.0
+            "StaminaGeneralIncreasePercent": -100.0,
+            "StaminaSleepIncreasePercent": -100.0
          },
          {
             "ItemClass": "Psix_StimPackFull",
-            "StaminaGeneralIncreasePercent": 100,
+            "StaminaGeneralIncreasePercent": 100.0,
             "StaminaSleepIncreasePercent": 100.0
          },
          {
@@ -1042,17 +1042,17 @@
          {
             "ItemClass": "Psix_Cola",
             "StaminaGeneralIncreasePercent": 20.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 15.0
          },
 
          {
             "ItemClass": "Psix_CoolCold",
             "StaminaGeneralIncreasePercent": 30.0,
-            "StaminaSleepIncreasePercent": 10.0
+            "StaminaSleepIncreasePercent": 20.0
          },
          {
             "ItemClass": "Psix_EnergyTablets",
-            "StaminaGeneralIncreasePercent": 25.0,
+            "StaminaGeneralIncreasePercent": 30.0,
             "StaminaSleepIncreasePercent": 25.0
          },
          {
@@ -1125,7 +1125,6 @@
             "StaminaGeneralIncreasePercent": -10.0,
             "StaminaSleepIncreasePercent": 25.0
          }
-
     ],
     "ComfortablePlaces": [
         {

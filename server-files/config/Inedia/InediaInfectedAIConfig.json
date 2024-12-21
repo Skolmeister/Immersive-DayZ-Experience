@@ -445,7 +445,9 @@
                 "Animal_Otter": 1,
                 "Animal_Rabbit_Grey": 1,
                 "Animal_Rabbit_Brown": 1,
-                "Animal_Squirrel": 1
+                "Animal_Squirrel": 1,
+                "Animal_VulpesVulpes": 1,
+                "Animal_LepusEuropaeus": 1
             }
         },
         "FriendlyNPC": {
@@ -506,7 +508,7 @@
             "all": 1
         },
         "UpJumpHeightMax": {
-            "all": 1.7000000476837159
+            "all": 1.5000000476837159
         },
         "UpJumpImpulseDamageChancePercent": {
             "all": 50.0
@@ -654,7 +656,21 @@
                 "ExpansionMerlin": 0.20000000298023225,
                 "ExpansionVodnik": 0.20000000298023225,
                 "ExpansionUAZ": 0.6000000238418579,
-                "ExpansionBus": 0.3499999940395355
+                "ExpansionBus": 0.3499999940395355,
+                "dingo": 0.10000000298023225,
+                "EXT_MH6": 0.4000000059604645,
+                "EXT_Uh1h": 0.4000000059604645,
+                "EXT_MI24": 0.4000000059604645,
+                "EXT_AH64D": 0.3499999940395355,
+                "EXT_UH60M": 0.3499999940395355,
+                "EXT_CH_47F": 0.20000000298023225,
+                "EXT_Mi8": 0.4000000059604645,
+                "EXT_KA52": 0.3499999940395355,
+                "EXT_UH1Y": 0.4000000059604645,
+                "EXT_AW159": 0.3499999940395355,
+                "EXT_AH1Z": 0.3499999940395355,
+                "EXT_MerlinHC3": 0.20000000298023225,
+                "EXT_Mi171": 0.4000000059604645
             }
         },
         "AttackCarWindowDamagePercent": {
@@ -933,10 +949,10 @@
             "lowstr": 0.8999999761581421
         },
         "DamageToPlayerStaminaPercent": {
-            "all": 5.0,
-            "highstr": 15.0,
-            "mediumstr": 10.0,
-            "lowstr": 5.0
+            "all": 3.0,
+            "highstr": 8.0,
+            "mediumstr": 5.0,
+            "lowstr": 2.0
         },
         "DamageToPlayerBloodPercent": {
             "all": 0.0
@@ -1231,7 +1247,7 @@
             "all": 60.0
         },
         "SearchBodyToViewCargo": {
-            "all": 1
+            "all": 0
         },
         "SearchBodyToViewCargoSeconds": {
             "all": 1.8
