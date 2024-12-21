@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 200,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Get to the industrial complex",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        5687.009277,
+        89.155548,
+        2977.429932
+    ],
+    "MaxDistance": 50.0,
+    "MarkerName": "Industrial complex",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}
