@@ -1,5 +1,6 @@
 # Hier muss der Pfad zu den types.xml eingefuegt werden
-base_path <- "/mnt/ftp_dayz/mpmissions/expansion.dayzOffline.chernarusplus/"
+# base_path <- "/mnt/ftp_dayz/mpmissions/expansion.dayzOffline.chernarusplus/"
+base_path <- here::here("server-files", "mpmissions", "expansion.dayzOffline.chernarusplus")
 
 economycore <- xml2::read_xml(glue::glue("{base_path}/cfgeconomycore.xml")) 
 
