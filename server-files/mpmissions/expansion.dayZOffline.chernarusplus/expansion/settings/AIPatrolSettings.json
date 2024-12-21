@@ -6426,50 +6426,6 @@
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
             "Units": [
-                "eAI_SurvivorM_Guo",
-                "eAI_SurvivorM_Kaito"
-            ],
-            "NumberOfAI": 1,
-            "Behaviour": "HALT",
-            "LootingBehaviour": "DEFAULT",
-            "Speed": "STATIC",
-            "UnderThreatSpeed": "STATIC",
-            "CanBeLooted": 1,
-            "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 250.0,
-            "AccuracyMin": 0.5,
-            "AccuracyMax": 0.9,
-            "ThreatDistanceLimit": 150.0,
-            "NoiseInvestigationDistanceLimit": 0.0,
-            "DamageMultiplier": -1.0,
-            "DamageReceivedMultiplier": -1.0,
-            "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
-            "MaxDistRadius": 800.0,
-            "DespawnRadius": -1.0,
-            "MinSpreadRadius": 0.0,
-            "MaxSpreadRadius": 0.0,
-            "Chance": 1.0,
-            "WaypointInterpolation": "",
-            "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
-            "UseRandomWaypointAsStartPoint": 0,
-            "Waypoints": [
-                [
-                    7218.351563,
-                    29.964741,
-                    3070.097656
-                ]
-            ]
-        },
-        {
-            "Name": "Nato Camp Guard Chernogorsk",
-            "Persist": 0,
-            "Faction": "InvincibleGuards",
-            "Formation": "",
-            "FormationLooseness": 0.0,
-            "Loadout": "WestLoadout",
-            "Units": [
                 "eAI_SurvivorM_Niki"
             ],
             "NumberOfAI": 1,

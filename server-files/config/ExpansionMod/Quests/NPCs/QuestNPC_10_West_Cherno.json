@@ -3,23 +3,22 @@
     "ID": 10,
     "ClassName": "ExpansionQuestNPCAIPeter",
     "Position": [
-        7258.613770,
-        27.499681,
-        3050.289307
+        7258.609863,
+        27.499701,
+        3050.290039
         ],
     "Orientation": [
         153.0,
         0.0,
         0.0
     ],
-    "NPCName": "Steve",
+    "NPCName": "LtCol. Coon",
     "DefaultNPCText": "What do you want? I am busy...",
     "Waypoints": [
         [
-            7258.613770,
-            27.499681,
-            3050.289307
-    
+            7258.609863,
+            27.499701,
+            3050.290039
         ],
         [
             7260.02,
@@ -27,14 +26,14 @@
             3020.63
         ]
     ],
-    "NPCEmoteID": 14,
+    "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
     "NPCLoadoutFile": "WestLoadout",
     "NPCInteractionEmoteID": 58,
-    "NPCQuestCancelEmoteID": 35,
-    "NPCQuestStartEmoteID": 44,
-    "NPCQuestCompleteEmoteID": 9,
-    "NPCFaction": "InvincibleObservers",
+    "NPCQuestCancelEmoteID": 52,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 44,
+    "NPCFaction": "InvincibleGuards",
     "NPCType": 2,
     "Active": 1
 }

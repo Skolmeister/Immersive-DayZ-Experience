@@ -1,0 +1,35 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_COMPONENTS",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Hammer",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Tools",
+        "Supplies",
+        "Locks",
+        "Tents",
+        "Kits",
+        "Navigation",
+        "Electronics",
+        "Lights",
+        "Cooking",
+        "Fishing"
+    ],
+    "Items": {
+        "nvgoggles": 3,
+        "rangefinder": 3,
+        "universallight": 3,
+        "tlrlight": 3,
+        "BO_MK23_LAM": 3,
+        "TTC_Pistol_Light": 3,
+        "battery9v": 1
+    }
+}
