@@ -93,7 +93,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="FOG_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 		<!-- FOX Weapons -->
-	<ce folder="FOX_ce">
+	<ce folder="CE_fox">
 		<file name="fox_ammo_types.xml" type="types" />
 		<file name="fox_assaultrifles_types.xml" type="types" />
 		<file name="fox_optics_types.xml" type="types" />
@@ -105,7 +105,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="fox_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 		<!-- ARMA II Helicopters -->
-	<ce folder="CE_helicotpers">
+	<ce folder="CE_helicopters">
 		<file name="ext_covers_types.xml" type="types" />
 		<file name="ext_types.xml" type="types" />
 	</ce>

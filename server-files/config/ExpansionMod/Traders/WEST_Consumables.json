@@ -3,17 +3,11 @@
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
     "MinRequiredReputation": 0,
     "MaxRequiredReputation": 2147483647,
-    "RequiredFaction": "",
+    "RequiredFaction": "West",
     "RequiredCompletedQuestID": -1,
     "TraderIcon": "Can Of Beans Big",
     "Currencies": [
-        "expansionbanknotehryvnia",
-        "wt_smoke_cigarpack_kosmos",
-        "wt_smoke_cigarpack_camal",
-        "wt_smoke_cigarpack_mallabro",
-        "wt_smoke_cigarpack_magma",
-        "wt_smoke_cigarpack_ronin",
-        "wt_smoke_cigarette"
+        "expansionbanknotehryvnia"
     ],
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
@@ -25,11 +19,8 @@
         "Flasks",
         "Snacks",
         "Fruit_And_Vegetables",
-        "Meat",
-        "Fish",
         "Cigarettes",
-        "Alcohol",
-        "Games"
+        "Alcohol"
     ],
     "Items": {}
 }
