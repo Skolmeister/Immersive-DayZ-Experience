@@ -2,13 +2,13 @@
     "ConfigVersion": 22,
     "ID": 200,
     "Type": 1,
-    "Title": "Help the NATO",
+    "Title": "Help the scout out of his difficult situation [West]",
     "Descriptions": [
-        "Thank god you found me! We need help clearing a roaming enemy's patrol, could you help with that?",
-        "What are you doing here? The patrol is still roaming!",
-        "Wow, thanks for your help! We need every help that we can get. We could make use of good fighters like you."
+        "One of our scouts got in trouble with the infected while searching for the enemy's troups.\nCould you help him out of this situation?\nHe is located in an industrial complex to the west.",
+        "What are you doing here? We still get his call for help via our comms!",
+        "You brought him here safely, thanks for your help! We could make use of good fighters like you."
     ],
-    "ObjectiveText": "Eliminate the roaming East patrol",
+    "ObjectiveText": "Help the West Scout",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -20,45 +20,53 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "AssaultBag_Green",
+            "ClassName": "MilitaryGear_FieldJacket_Multicam",
             "Amount": 1,
             "Attachments": [
-                "AmmoBox_556x45_20Rnd",
+                "AmmoBox_9x19_20Rnd",
                 "CombatKnife"
             ],
-            "DamagePercent": 0,
+            "DamagePrcent": 0,
             "HealthPercent": 100,
             "QuestID": -1,
             "Chance": 1.0
           },
           {
-            "ClassName": "PlateCarrierVest_Camo",
+            "ClassName": "MilitaryGear_FieldPants_Multicam",
             "Amount": 1,
-            "Attachments": [
-                "PlateCarrierHolster_Camo"
-            ],
+            "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 100,
             "QuestID": -1,
             "Chance": 1.0
           }
     ],
-    "NeedToSelectReward": 1,
+    "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 0,
     "QuestGiverIDs": [
-        5
+        10
     ],
     "QuestTurnInIDs": [
-        5
+        10
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 3,
-            "ObjectiveType": 7
+            "ID": 200,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 200,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 200,
+            "ObjectiveType": 9
         }
     ],
     "QuestColor": 0,
