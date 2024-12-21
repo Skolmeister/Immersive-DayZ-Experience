@@ -73,8 +73,8 @@ async def send_daily_message():
     else:
         print("Channel wurde nicht gefunden. Bitte überprüfe die Channel-ID.")
 
-# Ereignis für den Scheduler hinzufügen, um täglich um 12 Uhr zu senden
-scheduler.add_job(send_daily_message, CronTrigger(hour=12, minute=0))
+# Ereignis für den Scheduler hinzufügen, um täglich um 18 Uhr zu senden
+scheduler.add_job(send_daily_message, CronTrigger(hour=17, minute=0))
 
 @bot.event
 async def on_ready():
