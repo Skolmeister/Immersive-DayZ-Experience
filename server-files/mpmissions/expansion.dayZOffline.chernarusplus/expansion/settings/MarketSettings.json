@@ -10,7 +10,7 @@
     "ATMPartyLockerEnabled": 1,
     "MaxPartyDepositMoney": 10000000,
     "UseWholeMapForATMPlayerList": 1,
-    "SellPricePercent": 66.5999984741211,
+    "SellPricePercent": 33.3333333333333,
     "NetworkBatchSize": 100,
     "MaxVehicleDistanceToTrader": 120.0,
     "MaxLargeVehicleDistanceToTrader": 744.0,
@@ -20,210 +20,108 @@
     "LandSpawnPositions": [
         {
             "Position": [
-                11903.400390625,
-                140.0,
-                12455.099609375
             ],
             "Orientation": [
-                24.0,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                11898.400390625,
-                140.0,
-                12481.599609375
             ],
             "Orientation": [
-                24.0,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                11878.0,
-                140.0,
-                12482.7998046875
             ],
             "Orientation": [
-                24.0,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                1145.0,
-                6.0,
-                2405.0
             ],
             "Orientation": [
-                0.0,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                3722.77001953125,
-                402.0,
-                6018.93017578125
             ],
             "Orientation": [
-                138.0,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                3737.18994140625,
-                402.70001220703127,
-                6001.9501953125
             ],
             "Orientation": [
-                138.0,
-                0.0,
-                0.0
             ]
         }
     ],
     "AirSpawnPositions": [
         {
             "Position": [
-                12178.900390625,
-                140.0,
-                12638.400390625
             ],
             "Orientation": [
-                -157.1999969482422,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                12126.7001953125,
-                140.0,
-                12664.7001953125
             ],
             "Orientation": [
-                -66.5999984741211,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                5006.27001953125,
-                9.5,
-                2491.10009765625
             ],
             "Orientation": [
-                -131.6999969482422,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                4982.0,
-                9.5,
-                2468.0
             ],
             "Orientation": [
-                -131.6999969482422,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                4968.0,
-                9.5,
-                2513.0
             ],
             "Orientation": [
-                -131.6999969482422,
-                0.0,
-                0.0
             ]
         }
     ],
     "WaterSpawnPositions": [
         {
             "Position": [
-                1759.0,
-                0.0,
-                1994.0
             ],
             "Orientation": [
-                0.0,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                14347.7998046875,
-                0.0,
-                13235.7998046875
             ],
             "Orientation": [
-                -147.5,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                14344.099609375,
-                0.0,
-                13219.7001953125
             ],
             "Orientation": [
-                -147.5,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                14360.900390625,
-                0.0,
-                13246.7001953125
             ],
             "Orientation": [
-                -147.5,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                1760.0,
-                0.0,
-                1730.0
             ],
             "Orientation": [
-                0.0,
-                0.0,
-                0.0
             ]
         },
         {
             "Position": [
-                14540.0,
-                0.0,
-                12995.0
             ],
             "Orientation": [
-                0.0,
-                0.0,
-                0.0
             ]
         }
     ],

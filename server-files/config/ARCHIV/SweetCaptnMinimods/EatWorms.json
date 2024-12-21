@@ -1,0 +1,16 @@
+{
+    "IsActive": 1,
+    "EnableVomit": 1,
+    "EnableFoodPoisoning": 1,
+    "EnableSalmonella": 1,
+    "EnablePenaltiesOnVomit": 1,
+    "CheckStomachVolumeVomit": 0,
+    "NoPenaltiesOnCooked": 1,
+    "VomitChance": 0.6499999761581421,
+    "FoodPoisoningChance": 0.800000011920929,
+    "FoodPoisoningPenalty": 10.0,
+    "SalmonellaChance": 0.6000000238418579,
+    "SalmonellaPenalty": 15.0,
+    "VomitWaterDrain": 70.0,
+    "VomitEnergyDrain": 35.0
+}

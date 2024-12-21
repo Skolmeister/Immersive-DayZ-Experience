@@ -50,16 +50,13 @@
     "SimpleTerritory": 1,
     "AutomaticFlagOnCreation": 1,
     "GetTerritoryFlagKitAfterBuild": 0,
-    "BuildZoneRequiredCustomMessage": "",
+    "BuildZoneRequiredCustomMessage": "You mustn't build here!",
     "Zones": [
         {
-            "Name": "Krasnostav Trader Camp",
+            "Name": "",
             "Center": [
-                11882.0,
-                143.0,
-                12466.0
             ],
-            "Radius": 1000.0,
+            "Radius": 0.0,
             "Items": [
                 "Fireplace",
                 "LandMineTrap",
@@ -74,32 +71,18 @@
             "CustomMessage": ""
         },
         {
-            "Name": "Green Mountain Trader Camp",
+            "Name": "",
             "Center": [
-                3728.27001953125,
-                403.0,
-                6003.60009765625
             ],
-            "Radius": 440.0,
+            "Radius": 0.0,
             "Items": [
-                "Fireplace",
-                "LandMineTrap",
-                "BearTrap",
-                "FishNetTrap",
-                "RabbitSnareTrap",
-                "SmallFishTrap",
-                "TripwireTrap",
-                "ExplosivesBase"
             ],
             "IsWhitelist": 1,
             "CustomMessage": ""
         },
         {
-            "Name": "Kamenka Trader Camp",
+            "Name": "",
             "Center": [
-                1143.1400146484376,
-                6.900000095367432,
-                2423.27001953125
             ],
             "Radius": 440.0,
             "Items": [
