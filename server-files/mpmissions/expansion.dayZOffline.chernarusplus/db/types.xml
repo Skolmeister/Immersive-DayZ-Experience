@@ -3326,7 +3326,7 @@
         <usage name="Medic"/>
     </type>
     <type name="Blouse_Blue">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -3338,7 +3338,7 @@
         <usage name="Town"/>
     </type>
     <type name="Blouse_Green">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -3350,7 +3350,7 @@
         <usage name="Town"/>
     </type>
     <type name="Blouse_Violet">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -3362,7 +3362,7 @@
         <usage name="Town"/>
     </type>
     <type name="Blouse_White">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -18690,7 +18690,7 @@
         <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

@@ -109,7 +109,7 @@
             "Variants": []
         },
         {
-            "ClassName": "beaniehat_green",
+            "ClassName": "MilitaryGear_Beanie_PartizanM",
             "MaxPriceThreshold": 120,
             "MinPriceThreshold": 108,
             "SellPricePercent": -1.0,
@@ -118,7 +118,6 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "MilitaryGear_Beanie_PartizanM",
                 "MilitaryGear_Beanie_Duckhunter",
                 "MilitaryGear_Beanie_Multicam",
                 "MilitaryGear_Beanie_Splinter",
