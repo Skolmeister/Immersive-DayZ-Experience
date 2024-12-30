@@ -994,16 +994,16 @@
             "lowstr": 5.0
         },
         "StunToPlayerChancePercent": {
-            "all": 15.0,
-            "highstr": 25.0,
-            "mediumstr": 20.0,
-            "lowstr": 15.0
+            "all": 10.0,
+            "highstr": 18.0,
+            "mediumstr": 12.0,
+            "lowstr": 8.0
         },
         "StunToPlayerInBlockChancePercent": {
             "all": 7.5,
-            "highstr": 12.5,
-            "mediumstr": 10.0,
-            "lowstr": 7.5
+            "highstr": 10.0,
+            "mediumstr": 8.0,
+            "lowstr": 5.0
         },
         "DiseasesToPlayerHandlerIsActive": {
             "all": 1

@@ -120,10 +120,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CE_mfp">
 		<file name="mfp_types.xml" type="types" />
 	</ce>
-		<!-- Mass Many Items -->
-	<ce folder="CE_mmio">
-		<file name="mmiol_types.xml" type="types" />
-	</ce>
 		<!-- More Food -->
 	<ce folder="CE_morefood">
 		<file name="morefood_types.xml" type="types" />
@@ -161,6 +157,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="notes_types.xml" type="types" />
 		<file name="zippo_types.xml" type="types" />
 	</ce>
+			<!-- Mass Many Items 
+	<ce folder="CE_mmio">
+		<file name="mmiol_types.xml" type="types" />
+	</ce>
+	-->
 		<!-- More Materials
 	<ce folder="MoreMaterials_ce">
 		<file name="MoreMaterials_Types.xml" type="types" />
