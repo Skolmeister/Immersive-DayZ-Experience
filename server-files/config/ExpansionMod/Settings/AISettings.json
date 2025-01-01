@@ -20,7 +20,7 @@
     "PreventClimb": [],
     "ExcludedRoamingLocations": [],
     "ExcludedRoamingBuildings": [],
-    "PlayerFactions": [],
+    "PlayerFactions": ["Survivors"],
     "LogAIHitBy": 1,
     "LogAIKilled": 1
 }

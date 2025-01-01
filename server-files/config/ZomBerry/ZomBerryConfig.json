@@ -1,0 +1,20 @@
+{
+    "DebugLevel": 0,
+    "UseScriptLog": 0,
+    "MenuKey": "KC_M",
+    "SpawnMenuSorting": [
+        {
+            "CategoryName": "Items",
+            "BaseClassNames": "Edible_Base,Weapon_Base,Magazine_Base,Clothing_Base"
+        },
+        {
+            "CategoryName": "Objects",
+            "BaseClassNames": "Transport,House"
+        },
+        {
+            "CategoryName": "AI",
+            "BaseClassNames": "DZ_LightAI"
+        }
+    ],
+    "PermissionGroups": []
+}

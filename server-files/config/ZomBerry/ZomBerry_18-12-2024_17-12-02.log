@@ -1,0 +1,34 @@
+---------------------------------------------
+ZomBerry v0.6.4 log started at 18.12.2024 17:12:02
+
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function TPCur to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function TPForward to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function TPToTarget to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function TPToAdmin to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function HealTarget to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function HealTargetPart to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function GodTarget to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function RepairTargetHands to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function RefuelAndRepair to category OnTarget
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function KillTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function BiteTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function StripTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function RejectBellyTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function PsycoTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function SneezeTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function SetHealthTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function SetBloodTarget to category ==
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added category OnServer
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function FreeCamAdm to category OnServer
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function TimeDay to category OnServer
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function TimeNight to category OnServer
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function SetTime to category OnServer
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function SetDate to category OnServer
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function SetWeather to category OnServer
+18.12.2024 17:12:02 [ZomBerryCmdAPI]: INFO: Added function DeleteObj to category OnServer
+18.12.2024 17:12:02 [ZomBerryConfig]: INFO: Using admins.cfg from Profile directory
+18.12.2024 17:12:02 [ZomBerryDbg]: Server ready, loading admin list from: $profile:ZomBerry\admins.cfg
+18.12.2024 17:12:02 [ZomBerryConfig]: admins.cfg loaded
+18.12.2024 17:12:02 [ZomBerryConfig]: Added admin: 76561198038543835
