@@ -2,7 +2,7 @@
     "m_Version": 22,
     "Enabled": 1,
     "DespawnTime": 600.0,
-    "RespawnTime": -1.0,
+    "RespawnTime": 20.0,
     "MinDistRadius": 400.0,
     "MaxDistRadius": 1000.0,
     "DespawnRadius": 1100.0,
@@ -221,7 +221,7 @@
     "Patrols": [
         {
             "Name": "Belaya Polyana",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -277,7 +277,7 @@
         },
         {
             "Name": "Turovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -333,7 +333,7 @@
         },
         {
             "Name": "Svetloyarsk",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -389,7 +389,7 @@
         },
         {
             "Name": "Khelm",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -445,7 +445,7 @@
         },
         {
             "Name": "Berezino",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -511,7 +511,7 @@
         },
         {
             "Name": "Dubrovko",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -567,7 +567,7 @@
         },
         {
             "Name": "Orlovets",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -623,7 +623,7 @@
         },
         {
             "Name": "Nizhneye",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -679,7 +679,7 @@
         },
         {
             "Name": "Solnechny",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -735,7 +735,7 @@
         },
         {
             "Name": "Tri Doliny",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -791,7 +791,7 @@
         },
         {
             "Name": "Mys Krutoy",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -847,7 +847,7 @@
         },
         {
             "Name": "Tulga",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -903,7 +903,7 @@
         },
         {
             "Name": "Kamyshovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -959,7 +959,7 @@
         },
         {
             "Name": "Kometa",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1015,7 +1015,7 @@
         },
         {
             "Name": "Elektrozavodsk",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1071,7 +1071,7 @@
         },
         {
             "Name": "Pusta",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1127,7 +1127,7 @@
         },
         {
             "Name": "Cherno East",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1183,7 +1183,7 @@
         },
         {
             "Name": "Dubovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1239,7 +1239,7 @@
         },
         {
             "Name": "Novoselki",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1295,7 +1295,7 @@
         },
         {
             "Name": "Vysotovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1351,7 +1351,7 @@
         },
         {
             "Name": "Cherno Central",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1407,7 +1407,7 @@
         },
         {
             "Name": "Balota",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1463,7 +1463,7 @@
         },
         {
             "Name": "Komarovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1519,7 +1519,7 @@
         },
         {
             "Name": "Kamenka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1575,7 +1575,7 @@
         },
         {
             "Name": "West Kamenka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1631,7 +1631,7 @@
         },
         {
             "Name": "Bor",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1687,7 +1687,7 @@
         },
         {
             "Name": "Nadezhdino",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1743,7 +1743,7 @@
         },
         {
             "Name": "Mogilevka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1799,7 +1799,7 @@
         },
         {
             "Name": "Msta",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1855,7 +1855,7 @@
         },
         {
             "Name": "Karmanovka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1911,7 +1911,7 @@
         },
         {
             "Name": "Chernaya Polyana",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -1967,7 +1967,7 @@
         },
         {
             "Name": "Novodmitrovsk",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2023,7 +2023,7 @@
         },
         {
             "Name": "Svergino",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2079,7 +2079,7 @@
         },
         {
             "Name": "Gvozdno",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2135,7 +2135,7 @@
         },
         {
             "Name": "Severograd",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2191,7 +2191,7 @@
         },
         {
             "Name": "Kamensk",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2247,7 +2247,7 @@
         },
         {
             "Name": "Zaprudnoye",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2303,7 +2303,7 @@
         },
         {
             "Name": "Bogat",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2359,7 +2359,7 @@
         },
         {
             "Name": "Kabanino",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2415,7 +2415,7 @@
         },
         {
             "Name": "Stary Sobor",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2471,7 +2471,7 @@
         },
         {
             "Name": "Gorka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2527,7 +2527,7 @@
         },
         {
             "Name": "Guglovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2583,7 +2583,7 @@
         },
         {
             "Name": "Lesnoy khrebet",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2639,7 +2639,7 @@
         },
         {
             "Name": "Nadezhda",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2695,7 +2695,7 @@
         },
         {
             "Name": "Novaya Petrovka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2751,7 +2751,7 @@
         },
         {
             "Name": "Starye luga",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2807,7 +2807,7 @@
         },
         {
             "Name": "Vybor",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2863,7 +2863,7 @@
         },
         {
             "Name": "Lopatino",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2919,7 +2919,7 @@
         },
         {
             "Name": "Vavilovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -2975,7 +2975,7 @@
         },
         {
             "Name": "Topolniki",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3031,7 +3031,7 @@
         },
         {
             "Name": "Sinystok",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3087,7 +3087,7 @@
         },
         {
             "Name": "Zabolotye",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3143,7 +3143,7 @@
         },
         {
             "Name": "Galkino",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3199,7 +3199,7 @@
         },
         {
             "Name": "Myshkinsky les",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3255,7 +3255,7 @@
         },
         {
             "Name": "Matveyevo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3311,7 +3311,7 @@
         },
         {
             "Name": "Plotina Tishina",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3367,7 +3367,7 @@
         },
         {
             "Name": "Zvir",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3423,7 +3423,7 @@
         },
         {
             "Name": "Pavlovo",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3479,7 +3479,7 @@
         },
         {
             "Name": "Zelenogorsk",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3535,7 +3535,7 @@
         },
         {
             "Name": "Kozlovka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3591,7 +3591,7 @@
         },
         {
             "Name": "Stary Yar",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -3647,7 +3647,7 @@
         },
         {
             "Name": "Shakhovka",
-            "Persist": 1,
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationLooseness": 10.0,
@@ -5971,9 +5971,9 @@
             ]
         },
         {
-            "Name": "Nato Camp Chernogorsk Patrol",
+            "Name": "West Camp Chernogorsk Patrol",
             "Persist": 0,
-            "Faction": "Guards",
+            "Faction": "WestGuards",
             "Formation": "Column",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6020,7 +6020,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6028,80 +6028,210 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    7206.583496,
-                    6.699999,
-                    2958.828613
+                    6991.466797,
+                    5.975245,
+                    2918.329102
                 ],
                 [
-                    7268.613770,
-                    17.182587,
-                    2976.518311
+                    7001.326660,
+                    5.986251,
+                    2917.901611
                 ],
                 [
-                    7311.098145,
-                    21.025026,
-                    3002.191162
+                    7030.655762,
+                    6.083499,
+                    2925.656006
                 ],
                 [
-                    7324.895996,
-                    23.929825,
-                    3048.347168
+                    7054.488281,
+                    6.155983,
+                    2929.846191
                 ],
                 [
-                    7299.861816,
-                    23.896406,
-                    3087.720703
+                    7082.223145,
+                    6.177037,
+                    2938.358154
                 ],
                 [
-                    7269.859863,
-                    19.601271,
-                    3114.657471
+                    7104.509277,
+                    6.278034,
+                    2943.799072
                 ],
                 [
-                    7221.664551,
-                    13.052432,
-                    3136.180176
+                    7322.427734,
+                    23.709957,
+                    3046.218506
                 ],
                 [
-                    7178.784668,
-                    6.224361,
-                    3161.509766
+                    7128.605469,
+                    6.564417,
+                    2950.134033
                 ],
                 [
-                    7108.369629,
-                    7.239244,
-                    3119.630859
+                    7143.708008,
+                    6.692970,
+                    2954.358398
                 ],
                 [
-                    6998.401855,
-                    8.279679,
-                    3031.914307
+                    7164.565918,
+                    6.420002,
+                    2959.124756
                 ],
                 [
-                    7004.375000,
-                    8.404107,
-                    3014.309814
+                    7178.458008,
+                    6.369999,
+                    2956.636719
                 ],
                 [
-                    6983.838379,
-                    9.532349,
-                    2980.147705
+                    7191.581055,
+                    6.585941,
+                    2957.914307
                 ],
                 [
-                    7076.976563,
-                    6.188065,
-                    2935.296875
+                    7209.846191,
+                    6.700417,
+                    2962.175049
+                ],
+                [
+                    7237.673340,
+                    11.813086,
+                    2969.244873
+                ],
+                [
+                    7257.703613,
+                    15.314657,
+                    2974.651611
+                ],
+                [
+                    7271.506348,
+                    18.013466,
+                    2979.731689
+                ],
+                [
+                    7278.640137,
+                    26.530464,
+                    3040.635742
+                ],
+                [
+                    7313.951172,
+                    24.042017,
+                    3064.806152
+                ],
+                [
+                    7295.125977,
+                    20.848183,
+                    2992.823242
+                ],
+                [
+                    7288.026367,
+                    23.286409,
+                    3092.912109
+                ],
+                [
+                    7270.500000,
+                    19.767208,
+                    3111.416504
+                ],
+                [
+                    7239.518066,
+                    15.332321,
+                    3125.391113
+                ],
+                [
+                    7307.596191,
+                    21.031368,
+                    3001.279053
+                ],
+                [
+                    7210.657227,
+                    11.320922,
+                    3138.161377
+                ],
+                [
+                    7179.905273,
+                    6.260586,
+                    3159.512939
+                ],
+                [
+                    7156.164551,
+                    6.597227,
+                    3146.993164
+                ],
+                [
+                    7316.626465,
+                    21.045429,
+                    3013.353760
+                ],
+                [
+                    7118.410645,
+                    7.173863,
+                    3123.117432
+                ],
+                [
+                    7078.089355,
+                    6.975319,
+                    3092.229980
+                ],
+                [
+                    7042.866211,
+                    8.163857,
+                    3067.400146
+                ],
+                [
+                    7322.106934,
+                    21.944721,
+                    3027.432373
+                ],
+                [
+                    7010.270996,
+                    8.103130,
+                    3039.434814
+                ],
+                [
+                    6998.839844,
+                    8.281898,
+                    3027.421631
+                ],
+                [
+                    7004.950195,
+                    8.335926,
+                    3015.892822
+                ],
+                [
+                    6995.197266,
+                    9.109261,
+                    2999.907471
+                ],
+                [
+                    6985.984863,
+                    9.525068,
+                    2985.709229
+                ],
+                [
+                    6978.853027,
+                    9.550002,
+                    2968.157959
+                ],
+                [
+                    6975.509766,
+                    8.543636,
+                    2950.779297
+                ],
+                [
+                    6981.499512,
+                    6.764822,
+                    2934.458740
                 ]
             ]
         },
         {
-            "Name": "Nato Camp Guards Chernogorsk",
+            "Name": "West Camp Guard Patrol Chernogorsk",
             "Persist": 0,
-            "Faction": "InvincibleGuards",
+            "Faction": "InvincibleWestGuards",
             "Formation": "Wall",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6148,7 +6278,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6156,140 +6286,211 @@
             "Chance": 1.0,
             "WaypointInterpolation": "UniformCubic",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
+
                 [
-                    7198.000977,
-                    31.370918,
-                    3037.439697
+                    7207.813477,
+                    30.212326,
+                    3035.973145
                 ],
                 [
-                    7205.054199,
-                    30.555721,
-                    3036.581055
+                    7218.401855,
+                    29.275333,
+                    3037.733154
                 ],
                 [
-                    7226.805664,
-                    28.749998,
-                    3038.792725
+                    7229.126953,
+                    28.621181,
+                    3036.832275
                 ],
                 [
-                    7231.669434,
-                    30.133961,
-                    3050.378906
+                    7233.321777,
+                    30.226063,
+                    3051.004150
                 ],
                 [
-                    7223.866699,
-                    30.079998,
-                    3071.050049
+                    7227.680176,
+                    30.269156,
+                    3061.763184
                 ],
                 [
-                    7239.950195,
-                    30.385405,
-                    3071.149170
+                    7223.430664,
+                    30.124146,
+                    3068.740479
                 ],
                 [
-                    7246.845215,
-                    30.390156,
-                    3060.991699
+                    7233.131836,
+                    30.217379,
+                    3072.385742
                 ],
                 [
-                    7250.501953,
-                    30.377447,
-                    3063.696777
+                    7242.519531,
+                    30.399992,
+                    3064.166504
                 ],
                 [
-                    7237.923340,
-                    30.269430,
-                    3051.590820
+                    7247.654785,
+                    30.385847,
+                    3061.293457
                 ],
                 [
-                    7245.687012,
-                    29.706903,
-                    3049.275879
+                    7237.022461,
+                    30.301197,
+                    3051.671387
                 ],
                 [
-                    7251.745605,
-                    29.858719,
-                    3056.893555
+                    7244.174316,
+                    29.464163,
+                    3047.016602
                 ],
                 [
-                    7254.427246,
-                    28.970478,
-                    3053.985107
+                    7252.292969,
+                    29.531887,
+                    3054.902588
                 ],
                 [
-                    7244.261230,
-                    27.558432,
-                    3035.190918
+                    7245.598145,
+                    27.802528,
+                    3038.524414
                 ],
                 [
-                    7252.350098,
-                    26.761673,
-                    3032.290039
+                    7268.070313,
+                    26.431040,
+                    3035.979736
                 ],
                 [
-                    7269.378418,
-                    26.387493,
-                    3038.016602
+                    7273.722656,
+                    26.381695,
+                    3037.777588
                 ],
                 [
-                    7249.978516,
-                    26.993778,
-                    3031.730225
+                    7252.091797,
+                    26.794846,
+                    3033.150146
                 ],
                 [
-                    7249.263184,
-                    26.760347,
-                    3020.719238
+                    7250.103516,
+                    26.851593,
+                    3029.910400
                 ],
                 [
-                    7249.647461,
-                    27.627983,
-                    3015.028809
+                    7250.952148,
+                    26.797934,
+                    3024.644287
                 ],
                 [
-                    7262.974609,
-                    26.663813,
-                    3008.872803
+                    7250.056152,
+                    26.755754,
+                    3022.496582
                 ],
                 [
-                    7240.501953,
-                    29.211235,
-                    3018.562500
+                    7248.168945,
+                    27.143551,
+                    3018.140625
                 ],
                 [
-                    7232.670898,
-                    29.240717,
-                    3025.339355
+                    7262.166504,
+                    26.741552,
+                    3015.029053
                 ],
                 [
-                    7227.038086,
-                    29.106226,
-                    3030.142578
+                    7260.826660,
+                    26.745443,
+                    3012.149414
                 ],
                 [
-                    7218.972656,
-                    32.473782,
-                    3019.779785
+                    7249.686523,
+                    27.201088,
+                    3016.349854
                 ],
                 [
-                    7221.551270,
-                    29.709026,
-                    3019.439209
+                    7235.325195,
+                    28.985931,
+                    3025.755127
                 ],
                 [
-                    7229.067871,
-                    28.719578,
-                    3035.189697
+                    7231.827637,
+                    28.632755,
+                    3031.920166
+                ],
+                [
+                    7227.318848,
+                    29.060480,
+                    3030.904297
+                ],
+                [
+                    7223.789063,
+                    29.334112,
+                    3029.535400
+                ],
+                [
+                    7220.758789,
+                    29.654491,
+                    3025.791504
+                ],
+                [
+                    7213.656250,
+                    29.939808,
+                    3025.750000
+                ],
+                [
+                    7222.781738,
+                    29.472870,
+                    3027.719971
+                ],
+                [
+                    7229.052734,
+                    28.915852,
+                    3031.785645
+                ],
+                [
+                    7229.345703,
+                    28.678684,
+                    3035.553711
+                ],
+                [
+                    7223.730469,
+                    28.982174,
+                    3037.313477
+                ],
+                [
+                    7214.539063,
+                    29.545258,
+                    3037.043457
+                ],
+                [
+                    7205.659180,
+                    30.530403,
+                    3035.425293
+                ],
+                [
+                    7203.594238,
+                    31.023197,
+                    3031.797119
+                ],
+                [
+                    7200.119141,
+                    31.567287,
+                    3031.387939
+                ],
+                [
+                    7199.776367,
+                    31.358952,
+                    3035.357422
+                ],
+                [
+                    7251.105469,
+                    26.917137,
+                    3033.172852
                 ]
             ]
         },
         {
-            "Name": "Nato Camp Guard Chernogorsk",
+            "Name": "West Camp Guard Chernogorsk",
             "Persist": 0,
-            "Faction": "InvincibleGuards",
+            "Faction": "InvincibleWestGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6312,7 +6513,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6320,7 +6521,7 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
@@ -6331,9 +6532,9 @@
             ]
         },
         {
-            "Name": "Nato Camp Guard Chernogorsk",
+            "Name": "West Camp Guard Chernogorsk",
             "Persist": 0,
-            "Faction": "InvincibleGuards",
+            "Faction": "InvincibleWestGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6356,7 +6557,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6364,7 +6565,7 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
@@ -6375,9 +6576,9 @@
             ]
         },
         {
-            "Name": "Nato Camp Guard Chernogorsk",
+            "Name": "West Camp Guard Chernogorsk",
             "Persist": 0,
-            "Faction": "InvincibleGuards",
+            "Faction": "InvincibleWestGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6400,7 +6601,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6408,7 +6609,7 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
@@ -6419,9 +6620,9 @@
             ]
         },
         {
-            "Name": "Nato Camp Guard Chernogorsk",
+            "Name": "West Camp Guard Chernogorsk",
             "Persist": 0,
-            "Faction": "InvincibleGuards",
+            "Faction": "InvincibleWestGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6443,7 +6644,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6451,7 +6652,7 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
@@ -6462,9 +6663,9 @@
             ]
         },
         {
-            "Name": "Nato Camp Guard Chernogorsk",
+            "Name": "West Camp Guard Chernogorsk",
             "Persist": 0,
-            "Faction": "InvincibleGuards",
+            "Faction": "InvincibleWestGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6487,7 +6688,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6495,7 +6696,7 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
@@ -6506,9 +6707,9 @@
             ]
         },
         {
-            "Name": "Nato Camp Guard Chernogorsk",
+            "Name": "West Camp Guard Chernogorsk",
             "Persist": 0,
-            "Faction": "InvincibleGuards",
+            "Faction": "InvincibleWestGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "WestLoadout",
@@ -6531,7 +6732,7 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 0,
+            "MinDistRadius": 1.0,
             "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 0.0,
@@ -6539,7 +6740,7 @@
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
+            "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [

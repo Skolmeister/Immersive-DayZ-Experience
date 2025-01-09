@@ -2,8 +2,8 @@
     "ConfigVersion": 28,
     "ID": 200,
     "ObjectiveType": 9,
-    "ObjectiveText": "Escort the Scout to the West Camp!",
-    "TimeLimit": 1200,
+    "ObjectiveText": "Escort the Scout to the West Base!",
+    "TimeLimit": 1800,
     "Active": 1,
     "Position": [
         7258.609863,
@@ -11,10 +11,10 @@
         3050.290039
     ],
     "MaxDistance": 5.0,
-    "MarkerName": "Get to the West Camp",
+    "MarkerName": "West Base",
     "ShowDistance": 1,
     "CanLootAI": 0,
-    "NPCLoadoutFile": "WestLoadout",
+    "NPCLoadoutFile": "WestScoutLoadout",
     "NPCClassName": "eAI_SurvivorM_Manua",
-    "NPCName": "Pvt. Miller"
+    "NPCName": "SSgt. Miller"
 }

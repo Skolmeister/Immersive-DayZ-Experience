@@ -2,15 +2,15 @@
     "ConfigVersion": 22,
     "ID": 200,
     "Type": 1,
-    "Title": "West - Starter Quest",
+    "Title": "Into the West",
     "Descriptions": [
-        "One of our scouts got in trouble with the infected while searching for the enemy's troups.\nCould you help him out of this situation?\nHe is located in an industrial complex to the west.",
-        "What are you doing here? We still get his call for help via our comms!",
-        "You brought him here safely, thanks for your help! We could make use of good fighters like you."
+        "Survivor... so, you claim you're with us? We'll see about that. One of our scouts got cornered by a horde of infected during his mission. He's pinned down in a factory not far from here. We don't have a recovery team available right now. If you're serious about proving yourself, this is your chance. \nClear out that horde and get him back to base.\n Show your loyalty to the West, and you'll have our backing.",
+        "What are you standing around for? He's still calling for help over comms!",
+        "You got him out? Respect. We could use more solid fighters like you. Come on - join our ranks."
     ],
-    "ObjectiveText": "Help the West Scout",
+    "ObjectiveText": "Extract the West Scout",
     "FollowUpQuest": -1,
-    "Repeatable": 1,
+    "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
@@ -19,20 +19,44 @@
     "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
-        {
+        {         
             "ClassName": "MilitaryGear_FieldJacket_Multicam",
             "Amount": 1,
-            "Attachments": [
-                "AmmoBox_9x19_20Rnd",
-                "CombatKnife"
-            ],
-            "DamagePrcent": 0,
+            "Attachments": [],
+            "DamagePercent": 0,
             "HealthPercent": 100,
             "QuestID": -1,
             "Chance": 1.0
           },
           {
-            "ClassName": "MilitaryGear_FieldPants_Multicam",
+            "ClassName": "MilitaryGear_TacticalPants_Multicam",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+          {
+            "ClassName": "armband_expansion_nato",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+          {
+            "ClassName": "CombatKnife",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+          {
+            "ClassName": "chernarusmap",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
@@ -78,7 +102,7 @@
     "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
-    "RequiredFaction": "Raiders",
+    "RequiredFaction": "Survivors",
     "FactionReward": "West",
     "PlayerNeedQuestItems": 0,
     "DeleteQuestItems": 1,

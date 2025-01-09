@@ -35,8 +35,8 @@
         </children>
     </event>
     <event name="AmbientHen">
-        <nominal>4</nominal>
-        <min>2</min>
+        <nominal>6</nominal>
+        <min>3</min>
         <max>50</max>
         <lifetime>90</lifetime>
         <restock>0</restock>
@@ -145,7 +145,7 @@
         </children>
     </event>
     <event name="AmbientSquirrel">
-        <nominal>10</nominal>
+        <nominal>12</nominal>
         <min>5</min>
         <max>50</max>
         <lifetime>60</lifetime>
@@ -867,7 +867,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="15" lootmin="10" max="13" min="13" type="ChristmasTree"/>
         </children>
@@ -987,7 +987,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_SantasSleigh"/>
         </children>

@@ -71,7 +71,6 @@
 				<spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
 				<spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
@@ -116,7 +115,6 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Otter" chance="10" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
@@ -134,7 +132,6 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Rabbit_Brown" chance="10" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
@@ -152,7 +149,6 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Rat_White" chance="10" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
@@ -171,7 +167,6 @@
 			<spawn configName="Animal_Raven" chance="10" />
 				<spawn configName="Animal_Raven2" chance="10" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
@@ -189,7 +184,6 @@
 			<agent type="Female" chance="1">
 				<spawn configName="Animal_Seagull" chance="10" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
@@ -207,7 +201,6 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Squirrel" chance="10" />
 			</agent>
-
 			<item name="globalCountMax" val="50" />
 			<item name="zoneCountMin" val="1" />
 			<item name="zoneCountMax" val="1" />
@@ -225,7 +218,6 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_LepusEuropaeus" chance="1" />
 			</agent>
-
 			<item name="globalCountMax" val="0" />
 			<item name="zoneCountMin" val="3" />
 			<item name="zoneCountMax" val="5" />

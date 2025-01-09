@@ -88,9 +88,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 		<!-- Forward Operator Gear -->
 	<ce folder="CE_fog">
-		<file name="Patch_Types.xml" type="types" />
-		<file name="FOG_Types.xml" type="types" />
-		<file name="FOG_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="patch_types.xml" type="types" />
+		<file name="fog_types.xml" type="types" />
+		<file name="fog_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 		<!-- FOX Weapons -->
 	<ce folder="CE_fox">
@@ -101,6 +101,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="fox_pistol_types.xml" type="types" />
 		<file name="fox_shotgun_types.xml" type="types" />
 		<file name="fox_sniperrifle_types.xml" type="types" />
+		<file name="fox_smg_types.xml" type="types" />
 		<file name="fox_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 		<!-- ARMA II Helicopters -->
