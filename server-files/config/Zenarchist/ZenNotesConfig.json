@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": "2",
+    "AllowChangingFonts": 1,
+    "PenConsumeQuantity": 3,
+    "NoteDateFormat": {
+        "Format": 1,
+        "DaySuffix": [
+            "st",
+            "nd",
+            "rd",
+            "th"
+        ],
+        "MonthName": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ]
+    },
+    "WordBlacklist": [
+        "FUCK",
+        "ARSCH"
+    ],
+    "SendPlayerWarning": "We don't tolerate that sort of language on our server. Your note has been logged and any repeat offenses may result in a permanent ban."
+}

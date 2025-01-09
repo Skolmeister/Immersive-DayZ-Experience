@@ -1,0 +1,83 @@
+{
+    "ConfigVersion": "2",
+    "CauseOfDeathPrefix1": "It appears",
+    "DeadPlayerPrefix": "this",
+    "MaleGender": "man's",
+    "FemaleGender": "woman's",
+    "CauseOfDeathPrefix2": "cause of death was",
+    "CauseOfDeathDefs": [
+        {
+            "AmmoType": "unknown",
+            "CauseMessage": "unknown"
+        },
+        {
+            "AmmoType": "falldamage",
+            "CauseMessage": "the result of falling from a great height."
+        },
+        {
+            "AmmoType": "melee",
+            "CauseMessage": "from some kind of blunt force trauma."
+        },
+        {
+            "AmmoType": "zombie",
+            "CauseMessage": "probably the result of a zombie attack."
+        },
+        {
+            "AmmoType": "bullet",
+            "CauseMessage": "from a gunshot wound..."
+        },
+        {
+            "AmmoType": "explosion",
+            "CauseMessage": "from an explosion of some kind."
+        },
+        {
+            "AmmoType": "grenade",
+            "CauseMessage": "from a grenade explosion perhaps..."
+        },
+        {
+            "AmmoType": "landmine",
+            "CauseMessage": "from a land mine explosion perhaps..."
+        },
+        {
+            "AmmoType": "transport",
+            "CauseMessage": "from being run over by a vehicle."
+        },
+        {
+            "AmmoType": "wolf",
+            "CauseMessage": "from a wolf attack maybe?"
+        },
+        {
+            "AmmoType": "bear",
+            "CauseMessage": "from being mauled by a large creature, probably a bear..."
+        },
+        {
+            "AmmoType": "fire",
+            "CauseMessage": "third-degree burns."
+        },
+        {
+            "AmmoType": "bleeding",
+            "CauseMessage": "from bleeding out."
+        },
+        {
+            "AmmoType": "hunger",
+            "CauseMessage": "starvation."
+        },
+        {
+            "AmmoType": "thirst",
+            "CauseMessage": "dehydration."
+        },
+        {
+            "AmmoType": "woundinfection",
+            "CauseMessage": "wound infection."
+        },
+        {
+            "AmmoType": "contamination",
+            "CauseMessage": "toxic contamination. I better not get too close!"
+        },
+        {
+            "AmmoType": "suicide",
+            "CauseMessage": "suicide, but I could be wrong..."
+        }
+    ],
+    "DebugOn": 0
+}
