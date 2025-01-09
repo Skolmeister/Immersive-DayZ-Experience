@@ -128,20 +128,24 @@
 		</territory>
 
 		<!-- HEN -->
-        <territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
-            <file usable="hen_territories" />
-            <!-- different agent types - class has to begin with AgentType:w -->
-            <agent type="Male" chance="1">
-                <spawn configName="Animal_GallusGallusDomesticus" chance="1" />
-            </agent>
-            <agent type="Female" chance="3">
-                <spawn configName="Animal_GallusGallusDomesticusF_Brown" chance="1" />
-                <spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
-                <spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
-            </agent>
-            <item name="zoneTouchDisableEditPeriodSec" val="180" />
-        </territory>
-
+		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
+			<file usable="hen_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_GallusGallusDomesticus" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_GallusGallusDomesticusF_Brown" chance="1" />
+				<spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
+				<spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
+			</agent>
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+		
 		<!-- HARE -->
 		<territory type="Ambient" name="AmbientHare" behavior="DZAmbientLifeGroupBeh">
 			<file usable="hare_territories" />
@@ -179,7 +183,11 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Otter" chance="10" />
 			</agent>
-			<item name="zoneTouchDisableEditPeriodSec" val="450" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
 		</territory>
 
 		<!-- RABBIT -->
@@ -192,7 +200,11 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Rabbit_Brown" chance="10" />
 			</agent>
-			<item name="zoneTouchDisableEditPeriodSec" val="450" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
 		</territory>
 
 		<!-- RAT -->
@@ -205,7 +217,11 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Rat_White" chance="10" />
 			</agent>
-			<item name="zoneTouchDisableEditPeriodSec" val="180" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
 		</territory>
 
 		<!-- RAVEN -->
@@ -219,7 +235,11 @@
 			<spawn configName="Animal_Raven" chance="10" />
 				<spawn configName="Animal_Raven2" chance="10" />
 			</agent>
-			<item name="zoneTouchDisableEditPeriodSec" val="180" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
 		</territory>
 
 		<!-- SEAGULL -->
@@ -232,7 +252,11 @@
 			<agent type="Female" chance="1">
 				<spawn configName="Animal_Seagull" chance="10" />
 			</agent>
-			<item name="zoneTouchDisableEditPeriodSec" val="180" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
 		</territory>
 
 		<!-- SQUIRREL -->
@@ -245,7 +269,11 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Squirrel" chance="10" />
 			</agent>
-			<item name="zoneTouchDisableEditPeriodSec" val="300" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
 		</territory>
 		
 		<!-- INFECTED -->
