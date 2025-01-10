@@ -49,9 +49,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CE_ami">
 		<file name="ami_types.xml" type="types" />
 	</ce>
-		<!-- Animal Pack -->
+		<!-- Ambient Animals -->
 	<ce folder="CE_animals">
 		<file name="animal_types.xml" type="types" />
+		<file name="animal_events.xml" type="events" />
+		<file name="cat_types.xml" type="types" />
+		<file name="cat_events.xml" type="events" />
 	</ce>
 		<!-- Basebuilding Plus -->
 	<ce folder="CE_bbp">
@@ -71,6 +74,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CE_dogz">
 		<file name="dogz_types.xml" type="types" />
 		<file name="dogz_events.xml" type="events" />
+	</ce>
+			<!-- DayZ Horse -->
+	<ce folder="CE_horse">
+		<file name="horse_types.xml" type="types" />
+		<file name="horse_events.xml" type="events" />
 	</ce>
 		<!-- Edo Weapons -->
 	<ce folder="CE_edo">

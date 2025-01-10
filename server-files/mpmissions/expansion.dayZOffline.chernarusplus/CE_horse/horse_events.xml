@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="AnimalWildHorse">
+        <nominal>8</nominal>
+        <min>1</min>
+        <max>4</max>
+        <lifetime>600</lifetime>
+        <restock>90</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_White"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Gray"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Gray2"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_Horse_Palomino"/>
+        </children>
+    </event>
+</events>

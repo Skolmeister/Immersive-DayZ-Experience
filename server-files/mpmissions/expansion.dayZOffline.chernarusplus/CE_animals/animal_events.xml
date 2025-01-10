@@ -18,7 +18,7 @@
         </children>
     </event>
     <event name="AmbientRabbit">
-        <nominal>10</nominal>
+        <nominal>14</nominal>
         <min>2</min>
         <max>25</max>
         <lifetime>600</lifetime>
@@ -36,8 +36,8 @@
         </children>
     </event>
     <event name="AmbientRat">
-        <nominal>20</nominal>
-        <min>3</min>
+        <nominal>30</nominal>
+        <min>5</min>
         <max>50</max>
         <lifetime>600</lifetime>
         <restock>90</restock>
@@ -74,7 +74,7 @@
     </event>
     <event name="AmbientSeagull">
         <nominal>20</nominal>
-        <min>2</min>
+        <min>3</min>
         <max>50</max>
         <lifetime>600</lifetime>
         <restock>90</restock>

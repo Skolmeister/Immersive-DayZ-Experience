@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
  <event name="AmbientFox">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <min>2</min>
         <max>25</max>
         <lifetime>600</lifetime>
@@ -18,7 +18,7 @@
         </children>
     </event>
     <event name="AmbientHare">
-        <nominal>10</nominal>
+        <nominal>12</nominal>
         <min>2</min>
         <max>40</max>
         <lifetime>600</lifetime>
@@ -35,8 +35,8 @@
         </children>
     </event>
     <event name="AmbientHen">
-        <nominal>12</nominal>
-        <min>2</min>
+        <nominal>20</nominal>
+        <min>4</min>
         <max>49</max>
         <lifetime>600</lifetime>
         <restock>90</restock>
@@ -48,10 +48,10 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_GallusGallusDomesticus"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_GallusGallusDomesticusF_Brown"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_GallusGallusDomesticusF_Spotted"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_GallusGallusDomesticusF_White"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_GallusGallusDomesticus"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_Brown"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_Spotted"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_White"/>
         </children>
     </event>
     <event name="AnimalBear">
