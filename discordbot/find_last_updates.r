@@ -71,7 +71,7 @@ get_last_updated <- function(steam_id) {
   if (!"year" %in% names(date_parsed)) {
     date_parsed <- date_parsed |>
       dplyr::mutate(
-        year = "2024"
+        year = as.character(lubridate::year(lubridate::today()))
       )
   }
 
