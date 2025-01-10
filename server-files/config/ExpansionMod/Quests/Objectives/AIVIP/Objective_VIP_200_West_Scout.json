@@ -1,0 +1,20 @@
+{
+    "ConfigVersion": 28,
+    "ID": 200,
+    "ObjectiveType": 9,
+    "ObjectiveText": "Escort the Scout to the West Base!",
+    "TimeLimit": 1800,
+    "Active": 1,
+    "Position": [
+        7258.609863,
+        27.499701,
+        3050.290039
+    ],
+    "MaxDistance": 5.0,
+    "MarkerName": "West Base",
+    "ShowDistance": 1,
+    "CanLootAI": 0,
+    "NPCLoadoutFile": "WestScoutLoadout",
+    "NPCClassName": "eAI_SurvivorM_Manua",
+    "NPCName": "SSgt. Miller"
+}

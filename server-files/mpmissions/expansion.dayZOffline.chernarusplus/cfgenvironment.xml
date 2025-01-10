@@ -20,9 +20,13 @@
 		<file path="env/rat_territories.xml" />
 		<file path="env/raven_territories.xml" />
 		<file path="env/seagull_territories.xml" />
+		<file path="env/squirrel_territories.xml" />
 		<file path="env/snake_territories.xml" />
 		<file path="env/hare_territories.xml" />
 		<file path="env/fox_territories.xml" />
+		<file path="env/cat_territories.xml" />
+		<file path="env/wild_horse_territories.xml" />
+
 
 		<territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
 			<file usable="red_deer_territories" />
@@ -51,34 +55,100 @@
 		<territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
 			<file usable="bear_territories"/>
 		</territory>
-		<territory type="Herd" name="WildDog" behavior="DZWolfGroupBeh">
-			<file usable="dog_territories" />
-		</territory>
 		<territory type="Herd" name="Snake" behavior="DZSnakeGroupBeh">
 			<file usable="snake_territories" />
 		</territory>
-
+		<territory type="Herd" name="WildDog_1" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_2" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_3" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_4" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_5" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_6" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_7" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_8" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_9" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_10" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_11" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_12" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_13" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_14" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_15" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_16" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_17" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_18" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_19" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_20" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_21" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_22" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_23" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildDog_24" behavior="DZWolfGroupBeh">
+			<file usable="dog_territories" />
+		</territory>
+		<territory type="Herd" name="WildHorse" behavior="DZDeerGroupBeh">
+			<file usable="wild_horse_territories" />
+		</territory>
 
 		<!-- HEN -->
-		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
-			<file usable="hen_territories" />
-			<!-- different agent types - class has to begin with AgentType:w -->
-			<agent type="Male" chance="1">
-				<spawn configName="Animal_GallusGallusDomesticus" chance="1" />
-			</agent>
-			<agent type="Female" chance="3">
-				<spawn configName="Animal_GallusGallusDomesticusF_Brown" chance="1" />
-				<spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
-				<spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
-			</agent>
+        <territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
+            <file usable="hen_territories" />
+            <!-- different agent types - class has to begin with AgentType:w -->
+            <agent type="Male" chance="1">
+                <spawn configName="Animal_GallusGallusDomesticus" chance="1" />
+            </agent>
+            <agent type="Female" chance="3">
+                <spawn configName="Animal_GallusGallusDomesticusF_Brown" chance="1" />
+                <spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
+                <spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
+            </agent>
+            <item name="zoneTouchDisableEditPeriodSec" val="180" />
+        </territory>
 
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
-		</territory>
-		
 		<!-- HARE -->
 		<territory type="Ambient" name="AmbientHare" behavior="DZAmbientLifeGroupBeh">
 			<file usable="hare_territories" />
@@ -106,6 +176,21 @@
 			<item name="zoneTouchDisableEditPeriodSec" val="450" />
 		</territory>
 
+		<!-- CAT -->
+		<territory type="Ambient" name="AmbientCat" behavior="DZCatGroupBeh">
+			<file usable="cat_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_Cat_Mourek" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_Cat_Black" chance="1" />
+				<spawn configName="Animal_Cat_Orange" chance="10" />
+				<spawn configName="Animal_Cat_Grey" chance="20" />
+			</agent>
+			<item name="zoneTouchDisableEditPeriodSec" val="450" />
+		</territory>
+
 		<!-- OTTER -->
 		<territory type="Ambient" name="AmbientOtter" behavior="DZOtterGroupBeh">
 			<file usable="otter_territories" />
@@ -116,12 +201,7 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Otter" chance="10" />
 			</agent>
-
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
+			<item name="zoneTouchDisableEditPeriodSec" val="450" />
 		</territory>
 
 		<!-- RABBIT -->
@@ -134,12 +214,7 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Rabbit_Brown" chance="10" />
 			</agent>
-
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
 		</territory>
 
 		<!-- RAT -->
@@ -152,12 +227,7 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Rat_White" chance="10" />
 			</agent>
-
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
+			<item name="zoneTouchDisableEditPeriodSec" val="180" />
 		</territory>
 
 		<!-- RAVEN -->
@@ -171,12 +241,7 @@
 			<spawn configName="Animal_Raven" chance="10" />
 				<spawn configName="Animal_Raven2" chance="10" />
 			</agent>
-
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
+			<item name="zoneTouchDisableEditPeriodSec" val="180" />
 		</territory>
 
 		<!-- SEAGULL -->
@@ -189,12 +254,7 @@
 			<agent type="Female" chance="1">
 				<spawn configName="Animal_Seagull" chance="10" />
 			</agent>
-
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
+			<item name="zoneTouchDisableEditPeriodSec" val="180" />
 		</territory>
 
 		<!-- SQUIRREL -->
@@ -207,30 +267,7 @@
 			<agent type="Female" chance="3">
 				<spawn configName="Animal_Squirrel" chance="10" />
 			</agent>
-
-			<item name="globalCountMax" val="50" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="25" />
-			<item name="playerSpawnRadiusFar" val="75" />
-		</territory>
-
-		<!-- HARE -->
-		<territory type="Ambient" name="AmbientHare" behavior="DZAmbientLifeGroupBeh">
-			<file usable="hare_territories" />
-			<!-- different agent types - class has to begin with AgentType:w -->
-			<agent type="Male" chance="1">
-				<spawn configName="Animal_LepusEuropaeus" chance="1" />
-			</agent>
-			<agent type="Female" chance="3">
-				<spawn configName="Animal_LepusEuropaeus" chance="1" />
-			</agent>
-
-			<item name="globalCountMax" val="0" />
-			<item name="zoneCountMin" val="3" />
-			<item name="zoneCountMax" val="5" />
-			<item name="playerSpawnRadiusNear" val="15" />
-			<item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
 		</territory>
 		
 		<!-- INFECTED -->

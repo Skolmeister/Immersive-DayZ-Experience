@@ -645,53 +645,14 @@
         "Headgear": [],
         "Glasses": [],
         "Masks": [],
-        "Tops": [
-            "TShirt_Green",
-            "TShirt_Blue",
-            "TShirt_Black",
-            "TShirt_Beige",
-            "TShirt_Red",
-            "TShirt_OrangeWhiteStripes",
-            "TShirt_White",
-            "TShirt_Red",
-            "TShirt_Grey",
-            "TShirt_RedBlackStripes",
-            "Shirt_PlaneBlack",
-            "Shirt_BlueCheck",
-            "Shirt_BlueCheckBright",
-            "Shirt_GreenCheck",
-            "Shirt_RedCheck",
-            "Shirt_WhiteCheck"
-        ],
+        "Tops": [],
         "Vests": [],
         "Gloves": [],
-        "Pants": [
-            "CanvasPants_Beige",
-            "CanvasPants_Blue",
-            "CanvasPants_Grey",
-            "CanvasPants_Red",
-            "CanvasPants_Violet",
-            "CanvasPantsMidi_Beige",
-            "CanvasPantsMidi_Blue",
-            "CanvasPantsMidi_Grey",
-            "CanvasPantsMidi_Red",
-            "CanvasPantsMidi_Violet"
-        ],
+        "Pants": [],
         "Belts": [],
-        "Shoes": [
-            "AthleticShoes_Blue",
-            "AthleticShoes_Grey",
-            "AthleticShoes_Brown",
-            "AthleticShoes_Green",
-            "AthleticShoes_Black"
-        ],
+        "Shoes": [],
         "Armbands": [],
-        "Backpacks": [
-            "TaloonBag_Blue",
-            "TaloonBag_Green",
-            "TaloonBag_Orange",
-            "TaloonBag_Violet"
-        ]
+        "Backpacks": []
     },
     "EnableSpawnSelection": 1,
     "SpawnOnTerritory": 1,
@@ -701,47 +662,21 @@
         "SetRandomHealth": 0,
         "UpperGear": [],
         "PantsGear": [],
-        "BackpackGear": [            
-        {
-            "ClassName": "BandageDressing",
-            "Quantity": -1,
-            "Attachments": []
-        },
-        {
-            "ClassName": "Apple",
-            "Quantity": -1,
-            "Attachments": []
-        },
-        {
-            "ClassName": "SurgicalMask",
-            "Quantity": 1,
-            "Attachments": []
-        },
-        {
-            "ClassName": "SurgicalGloves_White",
-            "Quantity": 1,
-            "Attachments": []
-        },
-        {
-            "ClassName": "BloodTestKit",
-            "Quantity": 1,
-            "Attachments": []
-        }
-],
+        "BackpackGear": [],
         "VestGear": [],
         "PrimaryWeapon": {},
         "SecondaryWeapon": {}
     },
-    "UseLoadouts": 0,
+    "UseLoadouts": 1,
     "MaleLoadouts": [
         {
-            "Loadout": "PlayerSurvivorLoadout",
+            "Loadout": "PlayerMaleSurvivorLoadout",
             "Chance": 1.0
         }
     ],
     "FemaleLoadouts": [
         {
-            "Loadout": "PlayerSurvivorLoadout",
+            "Loadout": "PlayerFemaleSurvivorLoadout",
             "Chance": 1.0
         }
     ],

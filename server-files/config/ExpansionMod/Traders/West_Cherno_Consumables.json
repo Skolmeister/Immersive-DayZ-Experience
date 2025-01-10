@@ -1,0 +1,26 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "West",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Can Of Beans Big",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Drinks",
+        "Food",
+        "Candy",
+        "Canned_Food",
+        "Flasks",
+        "Snacks",
+        "Fruit_And_Vegetables",
+        "Cigarettes",
+        "Alcohol"
+    ],
+    "Items": {}
+}

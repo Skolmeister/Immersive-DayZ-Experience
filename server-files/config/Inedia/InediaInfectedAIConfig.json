@@ -1,5 +1,5 @@
 {
-    "AdminsSteamIds": ["76561198035229734"],
+    "AdminsSteamIds": ["76561198035229734","76561197988931009"],
     "Zombies": {
         "Groups": {
             "police": [
@@ -11,21 +11,40 @@
                 "military",
                 "police",
                 "firefighters",
+                "ZmbM_Gamedev_Base"
+            ],
+            "mediumstr": [
+                "prisoners",
                 "hunters"
+            ],
+            "lowstr": [
+                "city",
+                "villagers",
+                "fishermen",
+                "priests",
+                "industrial",
+                "medics"
             ],
             "highdef": [
                 "military",
                 "police",
                 "firefighters",
-                "hunters"
+                "ZmbM_Gamedev_Base"
+            ],
+            "mediumdef": [
+                "medics",
+                "hunters",
+                "priests"
+            ],
+            "lowdef": [
+                "city",
+                "villagers",
+                "prisoners",
+                "industrial",
+                "fishermen"
             ],
             "priests": [
                 "ZmbM_priestPopSkinny_Base"
-            ],
-            "lowstr": [
-                "city",
-                "villagers",
-                "fishermen"
             ],
             "industrial": [
                 "ZmbF_BlueCollarFat_Base",
@@ -53,19 +72,8 @@
                 "ZmbM_HermitSkinny_Base",
                 "ZmbM_HikerSkinny_Base"
             ],
-            "mediumdef": [
-                "medics",
-                "industrial",
-                "prisoners"
-            ],
             "bears": [
                 "Animal_UrsusArctos"
-            ],
-            "lowdef": [
-                "city",
-                "villagers",
-                "priests",
-                "fishermen"
             ],
             "wolves": [
                 "Animal_CanisLupus"
@@ -109,12 +117,6 @@
             "prisoners": [
                 "ZmbM_PrisonerSkinny_Base"
             ],
-            "mediumstr": [
-                "medics",
-                "industrial",
-                "priests",
-                "prisoners"
-            ],
             "hunters": [
                 "ZmbM_HunterOld_Base"
             ],
@@ -142,11 +144,13 @@
         "ThrowingProjectiles": {
             "PoliceProjectile": {
                 "ItemClasses": [
-                    "Glock19",
-                    "MakarovIJ70",
-                    "Mp133Shotgun",
+                    "WoodenStick",
+                    "SmallStone",
+                    "Vodka",
+                    "DONDRINK_BEER_GREEN",
                     "CombatKnife",
-                    "CombatKnife"
+                    "Flashlight",
+                    "Pen_Black"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 1.0,
@@ -156,25 +160,32 @@
             },
             "HuntersProjectile": {
                 "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
                     "Vodka",
+                    "DONDRINK_WINEBOTTLE_RUSSKAYALOZA",
+                    "DONDRINK_WINEBOTTLE_QUEENOFNIGHT",
                     "HuntingKnife",
-                    "HuntingKnife",
-                    "Canteen",
-                    "Binoculars"
+                    "Potato",
+                    "Apple",
+                    "BakedBeansCan_Opened",
+                    "SardinesCan_Opened",
+                    "SpaghettiCan_Opened"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 1.0,
-                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionThrowChancePercent": 5.0,
                     "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "FirefightersProjectile": {
                 "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
                     "FirefightersHelmet_Red",
-                    "FirefightersHelmet_White",
-                    "FirefightersHelmet_Yellow",
-                    "FirefighterAxe",
-                    "FirefighterAxe"
+                    "Pipe"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 1.0,
@@ -184,34 +195,58 @@
             },
             "MilitaryProjectile": {
                 "ItemClasses": [
-                    "Binoculars",
-                    "Ssh68Helmet",
-                    "GorkaHelmet",
-                    "BallisticHelmet_Green",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "TacticalBaconCan_Opened",
                     "Canteen",
+                    "Vodka",
                     "CombatKnife",
                     "AK_Bayonet",
-                    "SKS_Bayonet",
                     "M9A1_Bayonet",
-                    "Mosin_Bayonet"
+                    "DONDRINK_BEER_GREEN",
+                    "DONDRINK_WINEBOTTLE_RUSSKAYALOZA"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 1.0,
-                    "ThrowConditionThrowChancePercent": 5.0,
+                    "ThrowConditionThrowChancePercent": 3.0,
                     "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "CityProjectile": {
                 "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "Apple",
+                    "DONDRINK_BEER_GREEN",
+                    "Tomato",
                     "Vodka",
                     "WaterBottle",
                     "BaseballBat",
                     "Pipe",
                     "Flashlight",
-                    "CombinationLock",
                     "KitchenKnife",
-                    "KitchenKnife",
-                    "SteakKnife"
+                    "SteakKnife",
+                    "SodaCan_Fronta",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Pipsi",
+                    "SodaCan_Spite",
+                    "Hammer",
+                    "MeatTenderizer",
+                    "DONFOOD_BREAD",
+                    "DONFOOD_BREAD2",
+                    "DONFOOD_BREADROLL1",
+                    "MFP_TomatoSoup_Opened",
+                    "MFP_SpaghettiO_Opened",
+                    "MFP_BlackBeans_Opened",
+                    "MFP_ChiliBeans_Opened",
+                    "Pen_Black"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 1.0,
@@ -241,6 +276,19 @@
             },
             "VillagersProjectile": {
                 "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "DONDRINK_BEER_GREEN",
+                    "Plum",
+                    "Pear",
+                    "Apple",
+                    "Tomato",
                     "Vodka",
                     "FryingPan",
                     "Firewood",
@@ -254,11 +302,18 @@
                     "WoodAxe",
                     "Cleaver",
                     "Shovel",
-                    "FarmingHoe"
+                    "FarmingHoe",
+                    "DONFOOD_BREAD",
+                    "DONFOOD_BREAD2",
+                    "DONFOOD_BREADROLL1",
+                    "MFP_TomatoSoup_Opened",
+                    "MFP_SpaghettiO_Opened",
+                    "MFP_BlackBeans_Opened",
+                    "MFP_ChiliBeans_Opened"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 1.0,
-                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionThrowChancePercent": 1.0,
                     "ThrowConditionCooldownSeconds": 60.0
                 }
             },
@@ -268,17 +323,21 @@
                     "SmallStone"
                 ],
                 "Parameters": {
-                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
+                    "ThrowConditionZombieTargetVerticalDistanceMin": 2.0,
                     "TargetStunChancePercent": 50.0,
                     "ThrowConditionGroundTargetDistanceMin": 0.5,
-                    "TargetShockDamage": 20.0,
-                    "TargetHealthDamage": 5.0,
-                    "TargetBleedingChancePercent": 5.0,
-                    "ThrowConditionCooldownSeconds": 5.0
+                    "TargetShockDamage": 10.0,
+                    "TargetHealthDamage": 2.0,
+                    "TargetBleedingChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 15.0
                 }
             },
             "IndustrialProjectile": {
                 "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
                     "Vodka",
                     "Pipe",
                     "PipeWrench",
@@ -304,25 +363,31 @@
                     "SmallStone"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "TargetBleedingChancePercent": 5.0,
+                    "ThrowConditionZombieTargetVerticalDistanceMin": 2.0,
                     "TargetStunChancePercent": 50.0,
-                    "TargetShockDamage": 20.0,
-                    "TargetHealthDamage": 5.0,
-                    "ThrowConditionThrowChancePercent": 5.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionGroundTargetDistanceMin": 0.5,
+                    "TargetShockDamage": 10.0,
+                    "TargetHealthDamage": 2.0,
+                    "TargetBleedingChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 15.0
                 }
             },
             "MedicsProjectile": {
                 "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
                     "Vodka",
-                    "KitchenKnife",
                     "KitchenKnife",
                     "SteakKnife",
                     "GasMask_Filter",
                     "IodineTincture",
-                    "DisinfectantAlcohol",
-                    "DisinfectantSpray"
+                    "BloodBagEmpty",
+                    "BandageDressing",
+                    "Pen_Black",
+                    "Syringe",
+                    "Thermometer"
                 ],
                 "Parameters": {
                     "ThrowConditionAmountOfProjectiles": 1.0,
@@ -398,10 +463,10 @@
             "all": 5.0
         },
         "BreakingDoorsLossInterestAfterHitChancePercent": {
-            "all": 10.0
+            "all": 20.0
         },
         "BreakingDoorsLossInterestAfterHitLockPickChancePercent": {
-            "all": 25.0
+            "all": 30.0
         },
         "BreakingDoorsCrawlersChanceMultiplier": {
             "all": 0.0
@@ -475,13 +540,13 @@
             "all": 1
         },
         "SpeedLimitInSearchMode": {
-            "all": 2.1
+            "all": 1.8
         },
         "SpeedLimitInChaseMode": {
-            "all": 3.0
+            "all": 2.5
         },
         "SpeedMultiplierInCalmMode": {
-            "all": 0.8
+            "all": 0.6
         },
         "SpeedMultiplierInSearchMode": {
             "all": 0.8
@@ -490,7 +555,7 @@
             "all": 0.7
         },
         "SpeedNoLimitsFromDistanceMeters": {
-            "all": 0.0
+            "all": 5.0
         },
         "SmellsHandlerIsActive": {
             "all": 1
@@ -511,13 +576,13 @@
             "all": 1.5000000476837159
         },
         "UpJumpImpulseDamageChancePercent": {
-            "all": 50.0
+            "all": 30.0
         },
         "UpJumpChancePercent": {
-            "all": 50.0
+            "all": 40.0
         },
         "UpJumpCooldownSeconds": {
-            "all": 5.0
+            "all": 10.0
         },
         "DownJumpHandlerIsActive": {
             "all": 1
@@ -994,16 +1059,16 @@
             "lowstr": 5.0
         },
         "StunToPlayerChancePercent": {
-            "all": 15.0,
-            "highstr": 25.0,
-            "mediumstr": 20.0,
-            "lowstr": 15.0
+            "all": 10.0,
+            "highstr": 18.0,
+            "mediumstr": 12.0,
+            "lowstr": 8.0
         },
         "StunToPlayerInBlockChancePercent": {
             "all": 7.5,
-            "highstr": 12.5,
-            "mediumstr": 10.0,
-            "lowstr": 7.5
+            "highstr": 10.0,
+            "mediumstr": 8.0,
+            "lowstr": 5.0
         },
         "DiseasesToPlayerHandlerIsActive": {
             "all": 1
