@@ -11,23 +11,40 @@
                 "military",
                 "police",
                 "firefighters",
-                "hunters",
                 "ZmbM_Gamedev_Base"
+            ],
+            "mediumstr": [
+                "prisoners",
+                "hunters"
+            ],
+            "lowstr": [
+                "city",
+                "villagers",
+                "fishermen",
+                "priests",
+                "industrial",
+                "medics"
             ],
             "highdef": [
                 "military",
                 "police",
                 "firefighters",
-                "hunters",
                 "ZmbM_Gamedev_Base"
+            ],
+            "mediumdef": [
+                "medics",
+                "hunters",
+                "priests"
+            ],
+            "lowdef": [
+                "city",
+                "villagers",
+                "prisoners",
+                "industrial",
+                "fishermen"
             ],
             "priests": [
                 "ZmbM_priestPopSkinny_Base"
-            ],
-            "lowstr": [
-                "city",
-                "villagers",
-                "fishermen"
             ],
             "industrial": [
                 "ZmbF_BlueCollarFat_Base",
@@ -55,19 +72,8 @@
                 "ZmbM_HermitSkinny_Base",
                 "ZmbM_HikerSkinny_Base"
             ],
-            "mediumdef": [
-                "medics",
-                "industrial",
-                "priests",
-                "prisoners"
-            ],
             "bears": [
                 "Animal_UrsusArctos"
-            ],
-            "lowdef": [
-                "city",
-                "villagers",
-                "fishermen"
             ],
             "wolves": [
                 "Animal_CanisLupus"
@@ -91,7 +97,6 @@
                 "ZmbM_CitizenBFat_Base",
                 "ZmbM_ClerkFat_Base",
                 "ZmbM_ClerkFat_LT_Base",
-                "ZmbF_ClerkFat_Base",
                 "ZmbM_CommercialPilotOld_Base",
                 "ZmbM_CommercialPilotOld_LT_Base",
                 "ZmbM_JournalistSkinny_Base",
@@ -111,12 +116,6 @@
             ],
             "prisoners": [
                 "ZmbM_PrisonerSkinny_Base"
-            ],
-            "mediumstr": [
-                "medics",
-                "industrial",
-                "priests",
-                "prisoners"
             ],
             "hunters": [
                 "ZmbM_HunterOld_Base"
@@ -145,81 +144,114 @@
         "ThrowingProjectiles": {
             "PoliceProjectile": {
                 "ItemClasses": [
-                    "Glock19",
-                    "MakarovIJ70",
-                    "Mp133Shotgun",
+                    "WoodenStick",
+                    "SmallStone",
+                    "Vodka",
+                    "DONDRINK_BEER_GREEN",
                     "CombatKnife",
-                    "CombatKnife"
+                    "Flashlight",
+                    "Pen_Black"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "HuntersProjectile": {
                 "ItemClasses": [
-                    "GlassBottle",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "Vodka",
+                    "DONDRINK_WINEBOTTLE_RUSSKAYALOZA",
+                    "DONDRINK_WINEBOTTLE_QUEENOFNIGHT",
                     "HuntingKnife",
-                    "HuntingKnife",
-                    "Canteen",
-                    "Binoculars"
+                    "Potato",
+                    "Apple",
+                    "BakedBeansCan_Opened",
+                    "SardinesCan_Opened",
+                    "SpaghettiCan_Opened"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 5.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "FirefightersProjectile": {
                 "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
                     "FirefightersHelmet_Red",
-                    "FirefightersHelmet_White",
-                    "FirefightersHelmet_Yellow",
-                    "FirefighterAxe",
-                    "FirefighterAxe"
+                    "Pipe"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "MilitaryProjectile": {
                 "ItemClasses": [
-                    "Binoculars",
-                    "Ssh68Helmet",
-                    "GorkaHelmet",
-                    "BallisticHelmet_Green",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "TacticalBaconCan_Opened",
                     "Canteen",
+                    "Vodka",
                     "CombatKnife",
                     "AK_Bayonet",
-                    "SKS_Bayonet",
                     "M9A1_Bayonet",
-                    "Mosin_Bayonet"
+                    "DONDRINK_BEER_GREEN",
+                    "DONDRINK_WINEBOTTLE_RUSSKAYALOZA"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 3.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "CityProjectile": {
                 "ItemClasses": [
-                    "GlassBottle",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "Apple",
+                    "DONDRINK_BEER_GREEN",
+                    "Tomato",
+                    "Vodka",
                     "WaterBottle",
                     "BaseballBat",
                     "Pipe",
                     "Flashlight",
-                    "CombinationLock",
                     "KitchenKnife",
-                    "KitchenKnife",
-                    "SteakKnife"
+                    "SteakKnife",
+                    "SodaCan_Fronta",
+                    "SodaCan_Cola",
+                    "SodaCan_Kvass",
+                    "SodaCan_Pipsi",
+                    "SodaCan_Spite",
+                    "Hammer",
+                    "MeatTenderizer",
+                    "DONFOOD_BREAD",
+                    "DONFOOD_BREAD2",
+                    "DONFOOD_BREADROLL1",
+                    "MFP_TomatoSoup_Opened",
+                    "MFP_SpaghettiO_Opened",
+                    "MFP_BlackBeans_Opened",
+                    "MFP_ChiliBeans_Opened",
+                    "Pen_Black"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "FlashGrenade": {
@@ -244,7 +276,20 @@
             },
             "VillagersProjectile": {
                 "ItemClasses": [
-                    "GlassBottle",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "DONDRINK_BEER_GREEN",
+                    "Plum",
+                    "Pear",
+                    "Apple",
+                    "Tomato",
+                    "Vodka",
                     "FryingPan",
                     "Firewood",
                     "Pot",
@@ -257,12 +302,19 @@
                     "WoodAxe",
                     "Cleaver",
                     "Shovel",
-                    "FarmingHoe"
+                    "FarmingHoe",
+                    "DONFOOD_BREAD",
+                    "DONFOOD_BREAD2",
+                    "DONFOOD_BREADROLL1",
+                    "MFP_TomatoSoup_Opened",
+                    "MFP_SpaghettiO_Opened",
+                    "MFP_BlackBeans_Opened",
+                    "MFP_ChiliBeans_Opened"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 1.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "GarbageIfPlayerOnObstacle": {
@@ -271,18 +323,22 @@
                     "SmallStone"
                 ],
                 "Parameters": {
-                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
+                    "ThrowConditionZombieTargetVerticalDistanceMin": 2.0,
                     "TargetStunChancePercent": 50.0,
                     "ThrowConditionGroundTargetDistanceMin": 0.5,
-                    "TargetShockDamage": 20.0,
-                    "TargetHealthDamage": 5.0,
-                    "TargetBleedingChancePercent": 5.0,
-                    "ThrowConditionCooldownSeconds": 5.0
+                    "TargetShockDamage": 10.0,
+                    "TargetHealthDamage": 2.0,
+                    "TargetBleedingChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 15.0
                 }
             },
             "IndustrialProjectile": {
                 "ItemClasses": [
-                    "GlassBottle",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "Vodka",
                     "Pipe",
                     "PipeWrench",
                     "Wrench",
@@ -296,9 +352,9 @@
                     "Pliers"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "GarbageIfPlayerNonObstacle": {
@@ -307,35 +363,41 @@
                     "SmallStone"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "TargetBleedingChancePercent": 5.0,
+                    "ThrowConditionZombieTargetVerticalDistanceMin": 2.0,
                     "TargetStunChancePercent": 50.0,
-                    "TargetShockDamage": 20.0,
-                    "TargetHealthDamage": 5.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionGroundTargetDistanceMin": 0.5,
+                    "TargetShockDamage": 10.0,
+                    "TargetHealthDamage": 2.0,
+                    "TargetBleedingChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 15.0
                 }
             },
             "MedicsProjectile": {
                 "ItemClasses": [
-                    "GlassBottle",
-                    "KitchenKnife",
+                    "WoodenStick",
+                    "SmallStone",
+                    "WoodenStick",
+                    "SmallStone",
+                    "Vodka",
                     "KitchenKnife",
                     "SteakKnife",
                     "GasMask_Filter",
                     "IodineTincture",
-                    "DisinfectantAlcohol",
-                    "DisinfectantSpray"
+                    "BloodBagEmpty",
+                    "BandageDressing",
+                    "Pen_Black",
+                    "Syringe",
+                    "Thermometer"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "FishermenProjectile": {
                 "ItemClasses": [
-                    "GlassBottle",
+                    "Vodka",
                     "HuntingKnife",
                     "KitchenKnife",
                     "Canteen",
@@ -343,9 +405,9 @@
                     "Shovel"
                 ],
                 "Parameters": {
-                    "ThrowConditionAmountOfProjectiles": 2.0,
-                    "ThrowConditionThrowChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 10.0
+                    "ThrowConditionAmountOfProjectiles": 1.0,
+                    "ThrowConditionThrowChancePercent": 2.0,
+                    "ThrowConditionCooldownSeconds": 60.0
                 }
             },
             "HEGrenade": {
@@ -366,14 +428,12 @@
         "BreakingDoorsRestrictedDoors": {
             "all": {
                 "DNA_Lockout_OneWayDoor": [],
-                "Jmc_Security_Door": [],
                 "DNA_Lockout_Dbl_ColourBase": [],
                 "land_bunker_entrance": [],
                 "land_bunker_entrance1": [],
                 "land_bunker_entrance2": [],
                 "DNA_Lockout_ColourBase": [],
                 "DNA_Strongroom_ColourBase": [],
-                "Jmc_Security_Door_Carrier": [],
                 "land_bunker_door_base": [],
                 "Land_KlimaX_T3Door": [],
                 "EVG_KeycardDoor": [],
@@ -384,41 +444,43 @@
                 "Land_KlimaX_T1Door": [],
                 "DNA_LockoutSteel_ColourBase": [],
                 "Land_KlimaX_T2Door": [],
-                "DNA_Door_NoLock_ColourBase": [],
-                "Land_WarheadStorage_Main": []
+                "DNA_Door_NoLock_ColourBase": []
             }
         },
         "BreakingDoorsDestroyAfterOpenChancePercent": {
-            "all": 30.0,
-            "highstr": 50.0,
-            "mediumstr": 40.0,
-            "lowstr": 30.0
+            "all": 10.0,
+            "highstr": 30.0,
+            "mediumstr": 20.0,
+            "lowstr": 10.0
         },
         "BreakingDoorsOpenChancePercent": {
-            "all": 30.0,
-            "highstr": 50.0,
-            "mediumstr": 40.0,
-            "lowstr": 30.0
+            "all": 10.0,
+            "highstr": 30.0,
+            "mediumstr": 20.0,
+            "lowstr": 10.0
         },
         "BreakingDoorsOpenLockPickChancePercent": {
             "all": 5.0
         },
         "BreakingDoorsLossInterestAfterHitChancePercent": {
-            "all": 5.0
+            "all": 20.0
         },
         "BreakingDoorsLossInterestAfterHitLockPickChancePercent": {
-            "all": 25.0
+            "all": 30.0
         },
         "BreakingDoorsCrawlersChanceMultiplier": {
             "all": 0.0
         },
-        "AttackPlayersUnconsciousHandlerIsActive": {
-            "all": 1
-        },
-        "AttackPlayersUnconsciousHitsLimit": {
-            "all": 5.0
+        "AttackPlayersUnconscious": {
+            "all": 0
         },
         "AttackAnimalsHandlerIsActive": {
+            "all": 1
+        },
+        "AttackAnimalsWolfs": {
+            "all": 1
+        },
+        "AttackAnimalsBears": {
             "all": 1
         },
         "AttackAnimalsWildBoar": {
@@ -444,7 +506,13 @@
         },
         "AttackAnimalsCustom": {
             "all": {
-                "all": 0
+                "all": 0,
+                "Animal_Otter": 1,
+                "Animal_Rabbit_Grey": 1,
+                "Animal_Rabbit_Brown": 1,
+                "Animal_Squirrel": 1,
+                "Animal_VulpesVulpes": 1,
+                "Animal_LepusEuropaeus": 1
             }
         },
         "FriendlyNPC": {
@@ -471,35 +539,23 @@
         "SpeedHandlerIsActive": {
             "all": 1
         },
-        "SpeedMinimumInCalmMode": {
-            "all": 0.0
-        },
-        "SpeedLimitInCalmMode": {
-            "all": 3.0
-        },
-        "SpeedMultiplierInCalmMode": {
-            "all": 1.0
-        },
-        "SpeedMinimumInSearchMode": {
-            "all": 0.0
-        },
         "SpeedLimitInSearchMode": {
-            "all": 3.0
-        },
-        "SpeedMultiplierInSearchMode": {
-            "all": 1.0
-        },
-        "SpeedMinimumInChaseMode": {
-            "all": 0.0
+            "all": 1.8
         },
         "SpeedLimitInChaseMode": {
-            "all": 3.0
+            "all": 2.5
+        },
+        "SpeedMultiplierInCalmMode": {
+            "all": 0.6
+        },
+        "SpeedMultiplierInSearchMode": {
+            "all": 0.8
         },
         "SpeedMultiplierInChaseMode": {
-            "all": 1.0
+            "all": 0.7
         },
         "SpeedNoLimitsFromDistanceMeters": {
-            "all": 0.0
+            "all": 5.0
         },
         "SmellsHandlerIsActive": {
             "all": 1
@@ -511,22 +567,22 @@
             "all": 1
         },
         "SmellsLossInterestAfterReactionForSeconds": {
-            "all": 0.0
+            "all": 120.0
         },
         "UpJumpHandlerIsActive": {
             "all": 1
         },
         "UpJumpHeightMax": {
-            "all": 1.7999999523162842
+            "all": 1.5000000476837159
         },
         "UpJumpImpulseDamageChancePercent": {
-            "all": 50.0
+            "all": 30.0
         },
         "UpJumpChancePercent": {
-            "all": 100.0
+            "all": 40.0
         },
         "UpJumpCooldownSeconds": {
-            "all": 0.0
+            "all": 10.0
         },
         "DownJumpHandlerIsActive": {
             "all": 1
@@ -544,10 +600,10 @@
             "all": 3.0
         },
         "FallHandlerLegBreakHeightMax": {
-            "all": 15.0
+            "all": 10.0
         },
         "FallHandlerDeathHeightMin": {
-            "all": 10.0
+            "all": 8.0
         },
         "FallHandlerDeathHeightMax": {
             "all": 20.0
@@ -592,21 +648,20 @@
             "all": 0.5
         },
         "InjuryHandlerInjuredBothArmsBleedingChanceMultiplier": {
-            "all": 0.0
+            "all": 0.1
         },
         "InjuryHandlerSpawnWithInjuredOneArmChancePercent": {
-            "all": 0.0
+            "all": 10.0
         },
         "InjuryHandlerSpawnWithInjuredBothArmsChancePercent": {
-            "all": 0.0
+            "all": 5.0
         },
         "InjuryHandlerDamageThresholdToInjuryLeg": {
             "all": 30.0,
             "bears": 50.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
-            "all": 0.0,
-            "AnimalBase": 900.0
+            "all": 0.0
         },
         "InjuryHandlerInjuredOneLegSpeedLimit": {
             "all": 2.0999999046325685
@@ -621,13 +676,14 @@
             "all": 0.0
         },
         "InjuryHandlerSpawnWithInjuredOneLegChancePercent": {
-            "all": 0.0
+            "all": 20.0
         },
         "InjuryHandlerSpawnWithInjuredBothLegsChancePercent": {
-            "all": 0.0
+            "all": 5.0
         },
         "AttackCarHandlerIsActive": {
-            "all": 1
+            "all": 1,
+            "wolves": 0
         },
         "AttackCarPlayersIsActive": {
             "all": 1
@@ -643,7 +699,7 @@
             "all": 2.0
         },
         "AttackCarElementsGlobalDamageMultiplier": {
-            "all": 1.0,
+            "all":1.0,
             "bears": 3.0
         },
         "AttackCarElementsByCollisionsIsActive": {
@@ -665,38 +721,52 @@
                 "ExpansionMerlin": 0.20000000298023225,
                 "ExpansionVodnik": 0.20000000298023225,
                 "ExpansionUAZ": 0.6000000238418579,
-                "ExpansionBus": 0.3499999940395355
+                "ExpansionBus": 0.3499999940395355,
+                "dingo": 0.10000000298023225,
+                "EXT_MH6": 0.4000000059604645,
+                "EXT_Uh1h": 0.4000000059604645,
+                "EXT_MI24": 0.4000000059604645,
+                "EXT_AH64D": 0.3499999940395355,
+                "EXT_UH60M": 0.3499999940395355,
+                "EXT_CH_47F": 0.20000000298023225,
+                "EXT_Mi8": 0.4000000059604645,
+                "EXT_KA52": 0.3499999940395355,
+                "EXT_UH1Y": 0.4000000059604645,
+                "EXT_AW159": 0.3499999940395355,
+                "EXT_AH1Z": 0.3499999940395355,
+                "EXT_MerlinHC3": 0.20000000298023225,
+                "EXT_Mi171": 0.4000000059604645
             }
         },
         "AttackCarWindowDamagePercent": {
-            "all": 25.0
-        },
-        "AttackCarDoorDamagePercent": {
             "all": 20.0
         },
+        "AttackCarDoorDamagePercent": {
+            "all": 10.0
+        },
         "AttackCarDoorChancePercent": {
-            "all": 60.0
+            "all": 45.0
         },
         "AttackCarRadiatorDamagePercent": {
             "all": 10.0
         },
         "AttackCarCarBatteryDamagePercent": {
-            "all": 10.0
+            "all": 5.0
         },
         "AttackCarPlugDamagePercent": {
-            "all": 25.0
+            "all": 5.0
         },
         "AttackCarEngineDamagePercent": {
-            "all": 10.0
+            "all": 5.0
         },
         "AttackCarLightsDamagePercent": {
-            "all": 50.0
+            "all": 15.0
         },
         "AttackCarFenderDamagePercent": {
-            "all": 10.0
+            "all": 5.0
         },
         "AttackCarBumperDamagePercent": {
-            "all": 10.0
+            "all": 5.0
         },
         "AttackCarHoodDamagePercent": {
             "all": 10.0
@@ -777,7 +847,7 @@
             "all": 1.0
         },
         "ReactScreamNoise": {
-            "all": 1.0
+            "all": 0.8
         },
         "ReactWeaponShotNoise": {
             "all": 1.0
@@ -804,12 +874,6 @@
             "all": 1.0
         },
         "ReactDoorsNightNoise": {
-            "all": 1.0
-        },
-        "ReactPlayerFallDayNoise": {
-            "all": 1.0
-        },
-        "ReactPlayerFallNightNoise": {
             "all": 1.0
         },
         "ReactBodyfallDayNoise": {
@@ -938,22 +1002,22 @@
             "all": 1
         },
         "DamageToPlayerHealthMultiplier": {
-            "all": 1.2000000476837159,
-            "highstr": 1.399999976158142,
-            "mediumstr": 1.2999999523162842,
-            "lowstr": 1.2000000476837159
+            "all": 0.8999999761581421,
+            "highstr": 1.1999999523162842,
+            "mediumstr": 1.0,
+            "lowstr": 0.8999999761581421
         },
         "DamageToPlayerShockMultiplier": {
-            "all": 1.2000000476837159,
-            "highstr": 1.399999976158142,
-            "mediumstr": 1.2999999523162842,
-            "lowstr": 1.2000000476837159
+            "all": 0.8999999761581421,
+            "highstr": 1.1999999523162842,
+            "mediumstr": 1.0,
+            "lowstr": 0.8999999761581421
         },
         "DamageToPlayerStaminaPercent": {
-            "all": 12.0,
-            "highstr": 20.0,
-            "mediumstr": 16.0,
-            "lowstr": 12.0
+            "all": 3.0,
+            "highstr": 8.0,
+            "mediumstr": 5.0,
+            "lowstr": 2.0
         },
         "DamageToPlayerBloodPercent": {
             "all": 0.0
@@ -968,22 +1032,22 @@
             "lowstr": 10.0
         },
         "DamageToPlayerInBlockHealthMultiplier": {
-            "all": 0.6000000238418579,
-            "highstr": 0.699999988079071,
-            "mediumstr": 0.6499999761581421,
-            "lowstr": 0.6000000238418579
+            "all": 0.499999988079071,
+            "highstr": 0.6999999761581421,
+            "mediumstr": 0.600000011920929,
+            "lowstr": 0.499999988079071
         },
         "DamageToPlayerInBlockShockMultiplier": {
-            "all": 0.6000000238418579,
-            "highstr": 0.699999988079071,
-            "mediumstr": 0.6499999761581421,
-            "lowstr": 0.6000000238418579
+            "all": 0.499999988079071,
+            "highstr": 0.6999999761581421,
+            "mediumstr": 0.600000011920929,
+            "lowstr": 0.499999988079071
         },
         "DamageToPlayerInBlockStaminaPercent": {
-            "all": 6.0,
-            "highstr": 10.0,
+            "all": 3.0,
+            "highstr": 13.5,
             "mediumstr": 8.0,
-            "lowstr": 6.0
+            "lowstr": 3.0
         },
         "DamageToPlayerInBlockBloodPercent": {
             "all": 0.0
@@ -995,22 +1059,16 @@
             "lowstr": 5.0
         },
         "StunToPlayerChancePercent": {
-            "all": 25.0,
-            "highstr": 35.0,
-            "mediumstr": 30.0,
-            "lowstr": 25.0
+            "all": 10.0,
+            "highstr": 18.0,
+            "mediumstr": 12.0,
+            "lowstr": 8.0
         },
         "StunToPlayerInBlockChancePercent": {
-            "all": 12.5,
-            "highstr": 17.5,
-            "mediumstr": 15.0,
-            "lowstr": 12.5
-        },
-        "DisarmToPlayerChancePercent": {
-            "all": 0.0
-        },
-        "DisarmToPlayerInBlockChancePercent": {
-            "all": 0.0
+            "all": 7.5,
+            "highstr": 10.0,
+            "mediumstr": 8.0,
+            "lowstr": 5.0
         },
         "DiseasesToPlayerHandlerIsActive": {
             "all": 1
@@ -1020,11 +1078,10 @@
                 {
                     "AgentId": 64,
                     "AddChance": 10.0,
-                    "AddChanceInBlock": 5.0,
                     "AddAmount": 10.0,
-                    "AddAmountInBlock": 5.0,
                     "AddAmountNoMoreThan": 50.0,
-                    "AddOnlyIfBleeding": 1
+                    "AddOnlyIfBleeding": 1,
+                    "IgnoreBlock": 1
                 }
             ],
             "all": [],
@@ -1032,33 +1089,30 @@
                 {
                     "AgentId": 64,
                     "AddChance": 20.0,
-                    "AddChanceInBlock": 10.0,
                     "AddAmount": 10.0,
-                    "AddAmountInBlock": 5.0,
                     "AddAmountNoMoreThan": 50.0,
-                    "AddOnlyIfBleeding": 1
+                    "AddOnlyIfBleeding": 1,
+                    "IgnoreBlock": 1
                 }
             ],
             "mediumstr": [
                 {
                     "AgentId": 64,
                     "AddChance": 15.0,
-                    "AddChanceInBlock": 7.5,
                     "AddAmount": 10.0,
-                    "AddAmountInBlock": 5.0,
                     "AddAmountNoMoreThan": 50.0,
-                    "AddOnlyIfBleeding": 1
+                    "AddOnlyIfBleeding": 1,
+                    "IgnoreBlock": 1
                 }
             ],
             "lowstr": [
                 {
                     "AgentId": 64,
                     "AddChance": 10.0,
-                    "AddChanceInBlock": 5.0,
                     "AddAmount": 10.0,
-                    "AddAmountInBlock": 5.0,
                     "AddAmountNoMoreThan": 50.0,
-                    "AddOnlyIfBleeding": 1
+                    "AddOnlyIfBleeding": 1,
+                    "IgnoreBlock": 1
                 }
             ]
         },
@@ -1069,32 +1123,32 @@
             "all": 1
         },
         "PainToPlayerHeadMultiplier": {
-            "all": 1.2000000476837159,
+            "all": 1.0,
             "SurvivorBase": 1.0,
-            "highstr": 1.399999976158142,
-            "mediumstr": 1.2999999523162842,
-            "lowstr": 1.2000000476837159
+            "highstr": 1.2999999523162842,
+            "mediumstr": 1.200000023841858,
+            "lowstr": 1.0
         },
         "PainToPlayerHeadInBlockMultiplier": {
-            "all": 0.6000000238418579,
+            "all": 0.5,
             "SurvivorBase": 0.5,
-            "highstr": 0.699999988079071,
-            "mediumstr": 0.6499999761581421,
-            "lowstr": 0.6000000238418579
+            "highstr": 0.6999999761581421,
+            "mediumstr": 0.600000011920929,
+            "lowstr": 0.5
         },
         "PainToPlayerArmsMultiplier": {
-            "all": 1.2000000476837159,
+            "all": 1.0,
             "SurvivorBase": 1.0,
-            "highstr": 1.399999976158142,
-            "mediumstr": 1.2999999523162842,
-            "lowstr": 1.2000000476837159
+            "highstr": 1.2999999523162842,
+            "mediumstr": 1.200000023841858,
+            "lowstr": 1.0
         },
         "PainToPlayerArmsInBlockMultiplier": {
-            "all": 0.6000000238418579,
+            "all": 0.5,
             "SurvivorBase": 0.5,
-            "highstr": 0.699999988079071,
-            "mediumstr": 0.6499999761581421,
-            "lowstr": 0.6000000238418579
+            "highstr": 0.6999999761581421,
+            "mediumstr": 0.600000011920929,
+            "lowstr": 0.5
         },
         "PainToPlayerArmsDisarmMultiplier": {
             "all": 0.30000001192092898,
@@ -1111,148 +1165,115 @@
             "lowstr": 0.15000000596046449
         },
         "PainToPlayerLegsMultiplier": {
-            "all": 1.2000000476837159,
+            "all": 1.0,
             "SurvivorBase": 1.0,
-            "highstr": 1.399999976158142,
-            "mediumstr": 1.2999999523162842,
-            "lowstr": 1.2000000476837159
+            "highstr": 1.2999999523162842,
+            "mediumstr": 1.200000023841858,
+            "lowstr": 1.0
         },
         "PainToPlayerLegsInBlockMultiplier": {
-            "all": 0.6000000238418579,
+            "all": 0.5,
             "SurvivorBase": 0.5,
-            "highstr": 0.699999988079071,
-            "mediumstr": 0.6499999761581421,
-            "lowstr": 0.6000000238418579
+            "highstr": 0.6999999761581421,
+            "mediumstr": 0.600000011920929,
+            "lowstr": 0.5
         },
         "PainToPlayerTorsoMultiplier": {
-            "all": 1.2000000476837159,
+            "all": 1.0,
             "SurvivorBase": 1.0,
-            "highstr": 1.399999976158142,
-            "mediumstr": 1.2999999523162842,
-            "lowstr": 1.2000000476837159
+            "highstr": 1.2999999523162842,
+            "mediumstr": 1.200000023841858,
+            "lowstr": 1.0
         },
         "PainToPlayerTorsoInBlockMultiplier": {
-            "all": 0.6000000238418579,
+            "all": 0.5,
             "SurvivorBase": 0.5,
-            "highstr": 0.699999988079071,
-            "mediumstr": 0.6499999761581421,
-            "lowstr": 0.6000000238418579
-        },
-        "PainToPlayerLimbsBreakChancesMultiplier": {
-            "all": 1.0
-        },
-        "PainToPlayerLimbsDeepWoundChancesMultiplier": {
-            "all": 1.0
+            "highstr": 0.6999999761581421,
+            "mediumstr": 0.600000011920929,
+            "lowstr": 0.5
         },
         "DamageToZombieHandlerIsActive": {
             "all": 1
         },
-        "DamageToZombieHealthPoints": {
-            "all": -1.0
-        },
-        "DamageToZombieHealthPointsLeg": {
-            "all": -1.0
-        },
         "DamageToZombieHeadMeleeMultiplier": {
-            "mediumdef": 0.30000001192092898,
-            "all": 0.4000000059604645,
-            "lowdef": 0.4000000059604645,
-            "highdef": 0.20000000298023225
+            "mediumdef": 1.0,
+            "all": 1.0,
+            "lowdef": 1.0,
+            "highdef": 1.0
         },
         "DamageToZombieHeadRangeMultiplier": {
             "all": 1.0
         },
         "DamageToZombieBodyMeleeMultiplier": {
-            "mediumdef": 0.30000001192092898,
-            "all": 0.4000000059604645,
-            "lowdef": 0.4000000059604645,
-            "highdef": 0.20000000298023225
+            "mediumdef": 0.9,
+            "all": 1.0,
+            "lowdef": 1.0,
+            "highdef": 0.8
         },
         "DamageToZombieBodyRangeMultiplier": {
-            "mediumdef": 0.30000001192092898,
-            "all": 0.4000000059604645,
-            "lowdef": 0.4000000059604645,
-            "highdef": 0.20000000298023225
+            "mediumdef": 0.9,
+            "all": 1.0,
+            "lowdef": 1.0,
+            "highdef": 0.8
         },
         "DamageToZombieFromCarsMultiplier": {
-            "mediumdef": 0.30000001192092898,
-            "all": 0.4000000059604645,
-            "lowdef": 0.4000000059604645,
-            "highdef": 0.20000000298023225
+            "mediumdef": 0.9,
+            "all": 1.0,
+            "lowdef": 1.0,
+            "highdef": 0.8
         },
         "DamageToZombieFromExplosionsMultiplier": {
-            "mediumdef": 0.30000001192092898,
-            "all": 0.4000000059604645,
-            "lowdef": 0.4000000059604645,
-            "highdef": 0.20000000298023225
+            "mediumdef": 0.9,
+            "all": 1.0,
+            "lowdef": 1.0,
+            "highdef": 0.8
         },
         "DamageToZombieFromHotItemsHp": {
-            "all": 10.0
-        },
-        "DamageToZombieBodyPartsPiercingIsActive": {
-            "all": 1
-        },
-        "DamageToZombieAlwaysKillOnBackstab": {
-            "all": 1
+            "all": 20.0
         },
         "DamageToZombieShockToStunHandlerIsActive": {
             "all": 1
         },
-        "DamageToZombieShockToStunLightHeavyAnimationThresholdMeleeHeavy": {
-            "all": 0.0
-        },
-        "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
-            "all": 70.0
-        },
-        "DamageToZombieShockToStunThresholdMeleeHeavy": {
+        "DamageToZombieShockToStunThresholdMelee": {
             "all": 0.0
         },
         "DamageToZombieShockToStunThresholdRange": {
             "all": 0.0
         },
+        "DamageToZombieShockToStunLightHeavyAnimationThresholdMelee": {
+            "all": 16.0
+        },
+        "DamageToZombieShockToStunLightHeavyAnimationThresholdRange": {
+            "all": 70.0
+        },
         "DamageToZombieShockToStunFromButtstockHit": {
             "all": 2.0
         },
-        "DamageToZombieShockToStunCumulativeDamage": {
-            "all": 1
-        },
         "DamageToZombieWeaponsMultipliers": {
             "all": {
-                "all": 1.0
+                "all": 1.2
             }
         },
         "MeleeAttacksDodgeHandlerIsActive": {
             "all": 1
         },
         "MeleeAttacksDodgeChance": {
-            "all": 50.0
+            "all": 20.0
         },
         "MeleeAttacksDodgeCooldownSeconds": {
             "all": 10.0
-        },
-        "JumpAttackHandlerIsActive": {
-            "all": 1
-        },
-        "JumpAttackChance": {
-            "all": 10.0
-        },
-        "JumpAttackCooldownSeconds": {
-            "all": 60.0
         },
         "BloodHandlerIsActive": {
             "all": 1
         },
         "BloodVolumeMl": {
-            "all": 0.0,
-            "Horse_Base": 30000.0,
-            "Animal_BosTaurus": 30000.0,
-            "Animal_BosTaurusF": 30000.0
+            "all": 0.0
         },
         "BloodLossRateMinMl": {
             "all": 5.0
         },
         "BloodLossRateMaxMl": {
-            "all": 60.0
+            "all": 50.0
         },
         "BloodLossRateRegenMl": {
             "all": 0.20000000298023225
@@ -1260,22 +1281,12 @@
         "BloodOnExplosiveDamageChancePercent": {
             "all": 50.0
         },
-        "BloodSplatParticlesIsActive": {
-            "all": 1
-        },
-        "BloodTrailParticlesIsActive": {
-            "all": 1
-        },
-        "BloodPoolParticlesIsActive": {
-            "all": 1
-        },
         "ResistContaminatedEffectHandlerIsActive": {
             "all": 1
         },
         "ResistContaminatedEffect": {
             "all": 0,
             "ZmbM_NBC_Grey": 1,
-            "SurvivorBase": 0,
             "ZmbM_Mummy": 1,
             "ZmbM_NBC_Yellow": 1
         },
@@ -1283,18 +1294,16 @@
             "all": 1
         },
         "RespawnInCrawlingChancePercent": {
-            "all": 0.0
+            "all": 5.0
         },
         "ScreamHandlerIsActive": {
             "all": 1
         },
         "ScreamAttractsZombiesInRadius": {
-            "all": 50.0,
-            "ZmbM_usSoldier_Officer_Desert": 120.0
+            "all": 25.0
         },
         "ScreamChancePercent": {
-            "all": 25.0,
-            "ZmbM_usSoldier_Officer_Desert": 100.0
+            "all": 15.0
         },
         "ScreamCooldownSeconds": {
             "all": 60.0
@@ -1303,10 +1312,10 @@
             "all": 60.0
         },
         "SearchBodyToViewCargo": {
-            "all": 1
+            "all": 0
         },
         "SearchBodyToViewCargoSeconds": {
-            "all": 3.0
+            "all": 1.8
         },
         "SearchBodyExtendLootingToPlayersInRadiusMeters": {
             "all": 30.0
@@ -1395,16 +1404,16 @@
             ]
         },
         "CanBeBackstabbedHandlerIsActive": {
-            "all": 0
+            "all": 1
         },
         "CanBeBackstabbed": {
             "all": 1
         },
         "VisionRangeMultiplierDay": {
-            "all": 2.0
+            "all": 0.800000011920929
         },
         "VisionRangeMultiplierNight": {
-            "all": 0.800000011920929
+            "all": 0.400000011920929
         },
         "SizeHandlerIsActive": {
             "all": 0
@@ -1421,9 +1430,6 @@
         "SizeBloodVolumeScalingIsActive": {
             "all": 1
         },
-        "SizeSpeedMultiplierScalingIsActive": {
-            "all": 1
-        },
         "ThrowingProjectilesHandlerIsActive": {
             "all": 1
         },
@@ -1435,11 +1441,11 @@
             "lowstr": 0.8999999761581421
         },
         "ThrowingProjectilesHandlerVehiclesDamageMultiplier": {
-            "all": 1.7999999523162842,
-            "SurvivorBase": 2.200000047683716,
-            "highstr": 2.200000047683716,
-            "mediumstr": 2.0,
-            "lowstr": 1.7999999523162842
+            "all": 0.7999999523162842,
+            "SurvivorBase": 1.200000047683716,
+            "highstr": 1.200000047683716,
+            "mediumstr": 1.0,
+            "lowstr": 0.7999999523162842
         },
         "ThrowingProjectilesHandlerProjectilesList": {
             "police": [
@@ -1492,10 +1498,13 @@
             "all": 0
         },
         "RangeAttacksHandlerZombiePlayerDistance": {
-            "all": 2.0
+            "all": 2.5
         },
         "RangeAttacksHandlerPlayerOnObstacleHeight": {
             "all": 0.5
+        },
+        "PreventClustering": {
+            "all": 1
         }
     },
     "Players": {
@@ -1508,8 +1517,8 @@
         "SearchBodyExtendLootingToPlayersInRadiusMeters": 30.0,
         "SearchBodyOnlyEmptyHands": 0,
         "QuietDoorOpeningMechanicIsActive": 1,
-        "QuietDoorOpeningMechanicDisabledForOpening": 1,
-        "QuietDoorOpeningMechanicSeconds": 3.0,
+        "QuietDoorOpeningMechanicDisabledForOpening": 0,
+        "QuietDoorOpeningMechanicSeconds": 2.0,
         "QuietDoorOpeningMechanicRestrictedBuildings": [
             "DNA_Strongroom_ColourBase",
             "DNA_Strongroom_Open_Base",
@@ -1528,51 +1537,22 @@
             "land_bunker_entrance",
             "land_bunker_entrance1",
             "land_bunker_entrance2",
-            "land_bunker_door_area04",
-            "Land_WarheadStorage_Main",
-            "Jmc_Security_Door",
-            "Jmc_Security_Door_Carrier"
+            "land_bunker_door_area04"
         ],
-        "DisableVanillaDoorNoiseSystem": 1,
-        "OverrideGetHitComponentChances": 1,
         "PainSystemIsActive": 1,
-        "PainSystemNotificationsType": 2.0,
         "ShowPainBadges": 1,
-        "ShowPainBlur": 1,
-        "ShowMedicationInfo": 1,
-        "PainHealingRatePerSecondPercent": 0.10000000149011612,
+        "PainHealingRatePerSecondPercent": 0.20000000149011612,
         "HealthDrainWithOverPainedLimbPerSecondPercent": 0.10000000149011612,
-        "VehicleCrashPainMultiplier": 1.0,
-        "VehicleCollisionsPainMultiplier": 1.0,
-        "FallPainMultiplier": 1.0,
-        "ExplosionsPainMultiplier": 1.0,
+        "BleedingChanceMultiplierWhenOverPainedLimbReceivingHits": 2.0,
+        "DisableVanillaLegsDamageSystem": 1,
+        "ShowPainBlur": 1,
         "UnconsciousWhenOverPainedHeadReceivingHits": 1,
+        "BreakOverPainedLegsWhenReceivingHits": 1,
+        "BreakOverPainedLegsWhenOtherFactors": 1,
         "CrouchWhenOverPainedTorsoReceivingHits": 1,
-        "ArmsLowerWhenAimingWithPainedArms": 1,
+        "ArmsLowerWhenAimingWithInjuredArms": 1,
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
-        "ArmsPainShockDamageActions": {
-            "all": 2.0,
-            "ActionMineRock": 4.0,
-            "ActionPushCar": 4.0,
-            "ActionForceConsume": 0.0,
-            "ActionConsume": 0.0,
-            "ActionForceConsumeSingle": 0.0,
-            "ActionDisinfectTarget": 0.0,
-            "ActionDisinfectSelf": 0.0,
-            "ActionInjectTarget": 0.0,
-            "ActionInjectSelf": 0.0,
-            "ActionConsumeSingle": 0.0,
-            "ActionUnrestrainSelf": 1.0,
-            "ActionMineTree": 4.0
-        },
-        "ArmsPainUnrestrainItems": {
-            "MetalWireLocked": 4.0,
-            "all": 2.0,
-            "BarbedWireLocked": 3.0,
-            "HandcuffsLocked": 8.0
-        },
         "AuditoryHallucinationsWithPainedHead": 1,
-        "VomitWithPainedHead": 1,
         "TinnitusWhenHeadReceivingHits": 1,
         "BlurWhenHeadReceivingHits": 1,
         "SoundAttenuationWhenHeadReceivingHits": 1,
@@ -1580,39 +1560,150 @@
         "PainArmsWhenHitWithoutGloves": 1,
         "ShockIfRunsWithPainedLegs": 1,
         "ShockIfAttackingWithPainedArms": 1,
-        "LimbsBreakSystemIsActive": 1,
-        "LimbsBreakPainThresholdPercent": 30.0,
-        "HeadBreakDurationSeconds": 1800.0,
-        "ArmsBreakDurationSeconds": 1800.0,
-        "LegsBreakDurationSeconds": 1800.0,
-        "TorsoBreakDurationSeconds": 1800.0,
-        "LimbsBreakFromFalls": 1,
-        "LegsBreakFromTraps": 1,
-        "UnconsciousWhenHeadBreak": 1,
-        "LimbsDeepWoundSystemIsActive": 1,
-        "HeadDeepWoundDurationSeconds": 1800.0,
-        "ArmsDeepWoundDurationSeconds": 1800.0,
-        "LegsDeepWoundDurationSeconds": 1800.0,
-        "TorsoDeepWoundDurationSeconds": 1800.0,
-        "LimbsDeepWoundVanillaCutBleedRateMultiplier": 0.10000000149011612,
-        "LimbsDeepWoundFromFalls": 1,
-        "LegsDeepWoundFromTraps": 1,
-        "LimbsBulletSystemIsActive": 1,
-        "LimbsBulletTimeToSecondStageSeconds": 3600.0,
-        "InternalBleedingSystemIsActive": 1,
-        "InternalBleedingBloodLossRateMl": 2.0,
-        "DestroyedDoorNotificationType": 2.0,
-        "NoiseMultiplierDay": 2.0,
-        "NoiseMultiplierNight": 2.0,
-        "NoiseMultiplierCrouchDay": 1.0,
-        "NoiseMultiplierCrouchNight": 1.0,
-        "NoiseMultiplierLadderDay": 0.20000000298023225,
-        "NoiseMultiplierLadderNight": 0.20000000298023225,
+        "AllowPainFromGrenades": 1,
+        "NoiseMultiplierDay": 1.0,
+        "NoiseMultiplierNight": 1.0,
+        "NoiseMultiplierCrouchDay": 0.800000011920929,
+        "NoiseMultiplierCrouchNight": 0.800000011920929,
         "CamoClothingVisibilityMultipliers": {
-            "GhillieSuit_ColorBase": 0.800000011920929,
             "all": 1.0,
-            "GhillieTop_ColorBase": 0.800000011920929,
-            "GhillieHood_ColorBase": 0.800000011920929
+
+            "GhillieTop_ColorBase": 0.5,
+            "MilitaryGear_GhillieTop_PartizanM": 0.5,
+            "MilitaryGear_GhillieTop_DPM": 0.5,
+            "MilitaryGear_GhillieTop_Duckhunter": 0.5,
+            "MilitaryGear_GhillieTop_FLT": 0.5,
+            "MilitaryGear_GhillieTop_MPAT": 0.5,
+            "MilitaryGear_GhillieTop_Multicam": 0.5,
+            "MilitaryGear_GhillieTop_Partizan": 0.5,
+            "MilitaryGear_GhillieTop_Skol": 0.5,
+            "MilitaryGear_GhillieTop_Splinter": 0.5,
+            "MilitaryGear_GhillieTop_Splinter_Dark": 0.5,
+            "MilitaryGear_GhillieTop_Tiger": 0.5,
+            "MilitaryGear_GhillieTop_Woodland": 0.5,
+            "MilitaryGear_GhillieTop_ATACS": 0.5,
+            "MilitaryGear_GhillieTop_CADPAT": 0.5,
+            "MilitaryGear_GhillieTop_Tropic": 0.5,
+            "MilitaryGear_GhillieTop_Yeger": 0.5,
+            "MassGhillieTopWoodland": 0.5,
+            "MassGhillieTopMossy": 0.5,
+            "MassGhillieTopSnow": 0.5,
+
+            "GhillieHood_ColorBase": 0.8,
+            "ghilliehood_tan": 0.8,
+            "ghilliehood_woodland": 0.8,
+            "ghilliehood_mossy": 0.8,
+            "MilitaryGear_GhillieHood_PartizanM": 0.8,
+            "MilitaryGear_GhillieHood_Duckhunter": 0.8,
+            "MilitaryGear_GhillieHood_Multicam": 0.8,
+            "MilitaryGear_GhillieHood_Splinter": 0.8,
+            "MilitaryGear_GhillieHood_Splinter_Dark": 0.8,
+            "MilitaryGear_GhillieHood_Tiger": 0.8,
+            "MilitaryGear_GhillieHood_Woodland": 0.8,
+            "MilitaryGear_GhillieHood_FLT": 0.8,
+            "MilitaryGear_GhillieHood_DPM": 0.8,
+            "MilitaryGear_GhillieHood_MPAT": 0.8,
+            "MilitaryGear_GhillieHood_Partizan": 0.8,
+            "MilitaryGear_GhillieHood_Skol": 0.8,
+            "MilitaryGear_GhillieHood_ATACS": 0.8,
+            "MilitaryGear_GhillieHood_CADPAT": 0.8,
+            "MilitaryGear_GhillieHood_Tropic": 0.8,
+            "MilitaryGear_GhillieHood_Yeger": 0.8,
+            "MassGhillieHood_Woodland": 0.8,
+            "MassGhillieHoodMossy": 0.8,
+            "MassGhillieHood_Snowy": 0.8,
+
+            "ghilliebushrag_tan": 0.8,
+            "ghilliebushrag_woodland": 0.8,
+            "ghilliebushrag_mossy": 0.8,
+            "MilitaryGear_GhillieBushrag_PartizanM": 0.8,
+            "MilitaryGear_GhillieBushrag_Duckhunter": 0.8,
+            "MilitaryGear_GhillieBushrag_Multicam": 0.8,
+            "MilitaryGear_GhillieBushrag_Splinter": 0.8,
+            "MilitaryGear_GhillieBushrag_Splinter_Dark": 0.8,
+            "MilitaryGear_GhillieBushrag_Tiger": 0.8,
+            "MilitaryGear_GhillieBushrag_Woodland": 0.8,
+            "MilitaryGear_GhillieBushrag_FLT": 0.8,
+            "MilitaryGear_GhillieBushrag_DPM": 0.8,
+            "MilitaryGear_GhillieBushrag_MPAT": 0.8,
+            "MilitaryGear_GhillieBushrag_Partizan": 0.8,
+            "MilitaryGear_GhillieBushrag_Skol": 0.8,
+            "MilitaryGear_GhillieBushrag_ATACS": 0.8,
+            "MilitaryGear_GhillieBushrag_CADPAT": 0.8,
+            "MilitaryGear_GhillieBushrag_Tropic": 0.8,
+            "MilitaryGear_GhillieBushrag_Yeger": 0.8,
+
+            "GhillieSuit_ColorBase": 0.33333333333333,
+            "FOG_GhillieSuit_Tan": 0.33333333333333,
+            "FOG_GhillieSuit_Green": 0.33333333333333,
+            "ghilliesuit_tan": 0.33333333333333,
+            "ghilliesuit_woodland": 0.33333333333333,
+            "ghilliesuit_mossy": 0.33333333333333,
+            "MassGhillieSuitWoodland": 0.33333333333333,
+            "MassGhillieSuitMossy":0.33333333333333,
+            "MassGhillieSuitSnow": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_PartizanM": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Duckhunter": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Multicam": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Splinter_Dark": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Tiger": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Woodland": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_FLT": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_DPM": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_MPAT": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Partizan": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Skol": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_ATACS": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_CADPAT": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Tropic": 0.33333333333333,
+            "MilitaryGear_GhillieSuit_Yeger": 0.33333333333333,
+
+            "MilitaryGear_GhillieGunWrap_PartizanM": 0.9,
+            "MilitaryGear_GhillieGunWrap_DPM": 0.9,
+            "MilitaryGear_GhillieGunWrap_Duckhunter": 0.9,
+            "MilitaryGear_GhillieGunWrap_FLT": 0.9,
+            "MilitaryGear_GhillieGunWrap_MPAT": 0.9,
+            "MilitaryGear_GhillieGunWrap_Multicam": 0.9,
+            "MilitaryGear_GhillieGunWrap_Partizan": 0.9,
+            "MilitaryGear_GhillieGunWrap_Skol": 0.9,
+            "MilitaryGear_GhillieGunWrap_Splinter": 0.9,
+            "MilitaryGear_GhillieGunWrap_Splinter_Dark": 0.9,
+            "MilitaryGear_GhillieGunWrap_Tiger": 0.9,
+            "MilitaryGear_GhillieGunWrap_Woodland": 0.9,
+            "MilitaryGear_GhillieGunWrap_ATACS": 0.9,
+            "MilitaryGear_GhillieGunWrap_CADPAT": 0.9,
+            "MilitaryGear_GhillieGunWrap_Tropic": 0.9,
+            "MilitaryGear_GhillieGunWrap_Yeger": 0.9,
+            "GhillieAtt_Mossy": 0.9,
+            "MassWinterGhillieWrap": 0.9,
+            "GhillieAtt_Tan": 0.9,
+            "GhillieAtt_Woodland": 0.9,
+
+            "Mass_CamonetGhillie_East": 0.4,
+            "Mass_CamonetGhillie_Nato": 0.4,
+            "Mass_CamonetGhillie_Winter": 0.4,
+
+            "FOG_SniperHood_MC": 0.8,
+            "FOG_SniperHood_Black": 0.8,
+            "FOG_SniperHood_RG": 0.8,
+            "FOG_SniperHood_CB": 0.8,
+            "FOG_SniperHood_Grey": 0.8,
+            "FOG_SniperHood_MC_Black": 0.8,
+            "FOG_SniperHood_MCB": 0.8,
+            "FOG_SniperHood_MCT": 0.8,
+            "FOG_SniperHood_MCAL": 0.8,
+            "FOG_SniperHood_M81": 0.8,
+
+            "FOG_Hooded_Cloak_Grey": 0.8,
+            "FOG_Hooded_Cloak_RG": 0.8,
+            "FOG_Hooded_Cloak_Black": 0.8,
+
+            "Poncho_Brown": 0.9,
+            "Poncho_Green": 0.9,
+            "Poncho_Black": 0.9,
+            "Leather_Cloak": 0.95,
+            "Leather_Cloak_up": 0.9,
+            "SkullMask": 0.8
         }
     },
     "Vehicles": {
@@ -1630,8 +1721,8 @@
                 "RpmIdleMeters": 60.0
             },
             "Bicycle_Base": {
-                "RpmMaxMeters": 40.0,
-                "RpmIdleMeters": 20.0
+                "RpmMaxMeters": 20.0,
+                "RpmIdleMeters": 10.0
             }
         },
         "CollisionsSoundThreshold": {
@@ -1639,16 +1730,10 @@
         },
         "CollisionsSpeedReductionMultiplier": {
             "all": 1.0
-        },
-        "CollisionsDamageSpeedThresholdKmH": {
-            "all": 10.0,
-            "Bicycle_Base": 0.0
         }
     },
     "LossInterestToIrritantAfterSeconds": 120.0,
     "LightInHouseMultiplier": 0.20000000298023225,
     "SoundInHouseMultiplier": 0.5,
-    "BloodParticlesLimit": 1000.0,
-    "BloodParticleDurationSeconds": 600.0,
     "SaveConfigAfterInit": 0
 }

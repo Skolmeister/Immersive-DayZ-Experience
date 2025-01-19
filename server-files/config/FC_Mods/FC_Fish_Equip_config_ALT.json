@@ -1,0 +1,85 @@
+{
+    "ConfigVersion": "1",
+    "Discription": "!!!Шансы в сумме должны давать 100 процентов. Можно использовать как целые (55) так и дробные (22.5).",
+    "Chanse": "-----Шансы-----",
+    "FISHING_HIGH_CHANCE": 75.0,
+    "FISHING_MEDIUM_CHANCE": 8.0,
+    "FISHING_SMALL_CHANCE": 1.9500000476837159,
+    "FISHING_RARITY_CHANCE": 0.05000000074505806,
+    "FISHING_GARBAGE_CHANCE": 15.0,
+    "Garbage": "-----Мусор-----",
+    "GarbageChanse": "Этот массив относится к шансу - FISHING_GARBAGE_CHANCE",
+    "m_JunkTypes": [
+        "Pot",
+        "FC_Fish_Other_Shell1",
+        "FC_Fish_Other_Shell2",
+        "FC_Fish_Other_Shell3",
+        "FC_Fish_Other_Skeleton"
+    ],
+    "SeaFish": "-----Морская рыба-----",
+    "SeaFishChanseH": "Этот массив относится к шансу - FISHING_HIGH_CHANCE",
+    "m_SeaFishHigh": [
+        "FC_Fish_Anchous",
+        "Mackerel",
+        "FC_Fish_Bluegill",
+        "FC_Fish_Snapper",
+        "FC_Fish_PerchRed"
+    ],
+    "SeaFishChanseM": "Этот массив относится к шансу - FISHING_MEDIUM_CHANCE",
+    "m_SeaFishMedium": [
+        "FC_Fish_Other_Seastar",
+        "FC_Fish_Barracuda",
+        "FC_Fish_Other_Cucumber",
+        "FC_Fish_Stigray",
+        "FC_Fish_Mojarra"
+    ],
+    "SeaFishChanseS": "Этот массив относится к шансу - FISHING_SMALL_CHANCE",
+    "m_SeaFishSmall": [
+        "FC_Fish_Shark_Hammer",
+        "FC_Fish_Shark_Saw",
+        "FC_Fish_Angelfish",
+        "FC_Fish_Sword",
+        "FC_Fish_Butterfly",
+        "FC_Fish_Clown",
+        "FC_Fish_Blow",
+        "FC_Fish_Angel"
+    ],
+    "SeaFishChanseR": "Этот массив относится к шансу - FISHING_RARITY_CHANCE",
+    "m_SeaFishRarity": [
+        "FC_Fish_Shark_Whale",
+        "FC_Fish_Shark_Corrupted",
+        "FC_Fish_Shark_White",
+        "FC_Fish_Sunfish",
+        "FC_Fish_Demon"
+    ],
+    "FreshFish": "-----Озёрная рыба-----",
+    "FreshFishChanseH": "Этот массив относится к шансу - FISHING_HIGH_CHANCE",
+    "m_FreshFishHigh": [
+        "FC_Fish_Perch",
+        "FC_Fish_Rouch",
+        "FC_Fish_Forel",
+        "FC_Fish_Bocachico",
+        "FC_Fish_Carp",
+        "Carp"
+    ],
+    "FreshFishChanseM": "Этот массив относится к шансу - FISHING_MEDIUM_CHANCE",
+    "m_FreshFishMedium": [
+        "FC_Fish_PerchBass",
+        "FC_Fish_Pikeperch",
+        "FC_Fish_Pike",
+        "FC_Fish_Gold"
+    ],
+    "FreshFishChanseS": "Этот массив относится к шансу - FISHING_SMALL_CHANCE",
+    "m_FreshFishSmall": [
+        "FC_Fish_Sturgeon",
+        "FC_Fish_Catfish"
+    ],
+    "FreshFishChanseR": "Этот массив относится к шансу - FISHING_RARITY_CHANCE",
+    "m_FreshFishRarity": [
+        "FC_Fish_Demon",
+        "FC_Fish_Pirahna",
+        "FC_Fish_Scalar",
+        "FC_Fish_Pearlscale",
+        "FC_Fish_Plecostomus"
+    ]
+}
