@@ -1,19 +1,21 @@
 {
     "configVersion": 4,
-    "DescriptionDebug": "-Отключение дебага (0-1). Подробное логирование данных (Включать просто так не рекомендую. Только для технических целей).  Disabling debug (0-1). Detailed data logging (I don't recommend turning it on just like that. For technical purposes only)",
+    "DescriptionDebug": "Disabling debug (0-1). Detailed data logging (I don't recommend turning it on just like that. For technical purposes only)",
     "isDebugEnabled": 0,
-    "DescriptionCraft": "-Отключение крафтов (0-1). Параметры для настройки ниже, это строка с описанием.  Disabling crafting (0-1). The settings are below, this is the description line.",
+    "DescriptionCraft": "Disabling crafting (0-1). The settings are below, this is the description line.",
     "CraftCan": 1,
     "CraftMetalSheet": 1,
     "CraftWoodenLure": 1,
-    "DescriptionCan": "-Отключение появления банки после опустошения консервы (0-1). Параметры для настройки ниже, это строка с описанием.  Disabling the appearance of the can after emptying the canned food (0-1). The settings are below, this is the description line.",
+    "DescriptionCan": "Disabling the appearance of the can after emptying the canned food (0-1). The settings are below, this is the description line.",
     "CreateCan": 0,
-    "DescriptionRod": "-Множитель урона по удочкам. 0.5 - будут получать половину от указанного урона, 1 - столько, сколько указано, 2 - в 2 раза больше, чем указано.",
+    "DescriptionRod": "-Fishing rod damage multiplier. 0.5 - will take half of the specified damage, 1 - as long as it's specified, 2 - W 2 twice as much as indicated.",
     "rodMultiplierX0_5": [
         "FC_FishingRod_Plastic_Blue",
         "FC_FishingRod_Plastic_Green",
         "FC_FishingRod_Plastic_Yellow",
-        "FC_FishingRod_Plastic_Red"
+        "FC_FishingRod_Plastic_Red",
+        "FishingRod"
+
     ],
     "rodMultiplierX1": [
         "FC_FishingRod_Wooden_Blue",
@@ -22,10 +24,9 @@
         "FC_FishingRod_Wooden_Red"
     ],
     "rodMultiplierX2": [
-        "ImprovisedFishingRod",
-        "FishingRod"
+        "ImprovisedFishingRod"
     ],
-    "DescriptionItems": "-Настройка вылавливаемых предметов. Параметры для настройки ниже, это строка с описанием.  Setting up the items to be caught. The settings are below, this is the description line.",
+    "DescriptionItems": "Setting up the items to be caught. The settings are below, this is the description line.",
     "items": [
         {
             "name": "Mackerel",
@@ -37,7 +38,7 @@
                 "trapLarge"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
+            "damageRod": 4,
             "validRods": [
                 "ImprovisedFishingRod",
                 "FishingRod",
@@ -53,17 +54,15 @@
         },
         {
             "name": "Carp",
-            "chance": 9,
+            "chance": 6,
             "quantity": 1.0,
             "waterType": "fresh",
             "instruments": [
-                "rod",
-                "trapLarge"
+                "rod"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
+            "damageRod": 7,
             "validRods": [
-                "ImprovisedFishingRod",
                 "FishingRod",
                 "FC_FishingRod_Wooden_Blue",
                 "FC_FishingRod_Wooden_Green",
@@ -77,7 +76,7 @@
         },
         {
             "name": "Sardines",
-            "chance": 15,
+            "chance": 18,
             "quantity": 0.5,
             "waterType": "sea",
             "instruments": [
@@ -102,7 +101,7 @@
         },
         {
             "name": "Bitterlings",
-            "chance": 15,
+            "chance": 12,
             "quantity": 0.5,
             "waterType": "fresh",
             "instruments": [
@@ -111,7 +110,7 @@
                 "trapSmall"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 3,
+            "damageRod": 2,
             "validRods": [
                 "ImprovisedFishingRod",
                 "FishingRod",
@@ -149,7 +148,7 @@
         },
         {
             "name": "SteelheadTrout",
-            "chance": 4,
+            "chance": 3,
             "quantity": 1.0,
             "waterType": "all",
             "instruments": [
@@ -175,12 +174,63 @@
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
-                "rod",
                 "trapLarge",
                 "trapSmall"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 1,
+            "validRods": [
+            ]
+        },
+        {
+            "name": "FC_Fish_Anchous",
+            "chance": 15,
+            "quantity": 0.5,
+            "waterType": "sea",
+            "instruments": [
+                "rod",
+                "trapLarge",
+                "trapSmall"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 2,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Angel",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "trapLarge",
+                "trapSmall"
+            ],
+            "time": "0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0",
+            "damageRod": 1,
+            "validRods": [
+            ]
+        },
+        {
+            "name": "FC_Fish_Angelfish",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "sea",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1",
+            "damageRod": 10,
             "validRods": [
                 "FishingRod",
                 "FC_FishingRod_Wooden_Blue",
@@ -194,10 +244,103 @@
             ]
         },
         {
-            "name": "FC_Fish_Anchous",
-            "chance": 15,
-            "quantity": 0.5,
+            "name": "FC_Fish_Barracuda",
+            "chance": 4,
+            "quantity": 1.0,
             "waterType": "sea",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "damageRod": 12,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Blow",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "sea",
+            "instruments": [
+                "rod",
+                "trap_Large"
+            ],
+            "time": "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1",
+            "damageRod": 10,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Bluegill",
+            "chance": 2,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0",
+            "damageRod": 5,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Bocachico",
+            "chance": 0,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 5,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Rouch",
+            "chance": 18,
+            "quantity": 1.0,
+            "waterType": "fresh",
             "instruments": [
                 "rod",
                 "trapLarge",
@@ -219,174 +362,8 @@
             ]
         },
         {
-            "name": "FC_Fish_Angel",
-            "chance": 15,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Angelfish",
-            "chance": 2,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 7,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Barracuda",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0",
-            "damageRod": 10,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Blow",
-            "chance": 2,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 7,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Bluegill",
-            "chance": 5,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Bocachico",
-            "chance": 15,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Rouch",
-            "chance": 15,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
             "name": "FC_Fish_Butterfly",
-            "chance": 15,
+            "chance": 2,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
@@ -411,18 +388,15 @@
         },
         {
             "name": "FC_Fish_Carp",
-            "chance": 15,
+            "chance":4,
             "quantity": 1.0,
             "waterType": "fresh",
             "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
+                "rod"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
+            "damageRod": 8,
             "validRods": [
-                "ImprovisedFishingRod",
                 "FishingRod",
                 "FC_FishingRod_Wooden_Blue",
                 "FC_FishingRod_Wooden_Green",
@@ -436,287 +410,7 @@
         },
         {
             "name": "FC_Fish_Catfish",
-            "chance": 2,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 7,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Clown",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Demon",
-            "chance": 2,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 50,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Forel",
-            "chance": 3,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 7,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Gold",
             "chance": 1,
-            "quantity": 1.0,
-            "waterType": "all",
-            "instruments": [
-                "rod"
-            ],
-            "time": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-            "damageRod": 1,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Mojarra",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Perch",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_PerchBass",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod",
-                "trapLarge"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 7,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_PerchRed",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Pearlscale",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod",
-                "trapLarge"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Pirahna",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod",
-                "trapLarge",
-                "trapSmall"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 6,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Pikeperch",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "fresh",
-            "instruments": [
-                "rod"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 7,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Pike",
-            "chance": 2,
             "quantity": 1.0,
             "waterType": "fresh",
             "instruments": [
@@ -737,31 +431,8 @@
             ]
         },
         {
-            "name": "FC_Fish_Plecostomus",
-            "chance": 4,
-            "quantity": 1.0,
-            "waterType": "sea",
-            "instruments": [
-                "rod",
-                "trapLarge"
-            ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 7,
-            "validRods": [
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
-            ]
-        },
-        {
-            "name": "FC_Fish_Scalar",
-            "chance": 15,
+            "name": "FC_Fish_Clown",
+            "chance": 1,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
@@ -785,17 +456,39 @@
             ]
         },
         {
-            "name": "FC_Fish_Snapper",
-            "chance": 15,
+            "name": "FC_Fish_Demon",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 50,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Forel",
+            "chance": 2,
             "quantity": 1.0,
             "waterType": "fresh",
             "instruments": [
                 "rod",
-                "trapLarge",
-                "trapSmall"
+                "trapLarge"
+
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 5,
+            "damageRod": 7,
             "validRods": [
                 "ImprovisedFishingRod",
                 "FishingRod",
@@ -810,8 +503,56 @@
             ]
         },
         {
-            "name": "FC_Fish_Sunfish",
-            "chance": 4,
+            "name": "FC_Fish_Gold",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod",
+                "trapLarge",
+                "trapSmall"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Mojarra",
+            "chance": 2,
+            "quantity": 1.0,
+            "waterType": "sea",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 5,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Perch",
+            "chance": 8,
             "quantity": 1.0,
             "waterType": "fresh",
             "instruments": [
@@ -834,12 +575,13 @@
             ]
         },
         {
-            "name": "FC_Fish_Sword",
+            "name": "FC_Fish_PerchBass",
             "chance": 2,
             "quantity": 1.0,
             "waterType": "fresh",
             "instruments": [
-                "rod"
+                "rod",
+                "trapLarge"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 7,
@@ -856,8 +598,141 @@
             ]
         },
         {
-            "name": "FC_Fish_Other_Cucumber",
-            "chance": 6,
+            "name": "FC_Fish_PerchRed",
+            "chance": 12,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 4,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Pearlscale",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 5,
+            "validRods": [
+            ]
+        },
+        {
+            "name": "FC_Fish_Pirahna",
+            "chance": 0,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod",
+                "trapLarge",
+                "trapSmall"
+            ],
+            "time": "0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+            "damageRod": 7,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Pikeperch",
+            "chance": 3,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1",
+            "damageRod": 8,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Pike",
+            "chance": 2,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod"
+            ],
+            "time": "0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0",
+            "damageRod": 12,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Plecostomus",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "all",
+            "instruments": [
+                "trapLarge",
+                "trapSmall"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 5,
+            "validRods": [
+            ]
+        },
+        {
+            "name": "FC_Fish_Scalar",
+            "chance": 0,
+            "quantity": 1.0,
+            "waterType": "fresh",
+            "instruments": [
+                "trapLarge",
+                "trapSmall"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 3,
+            "validRods": [
+            ]
+        },
+        {
+            "name": "FC_Fish_Snapper",
+            "chance": 2,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
@@ -865,9 +740,67 @@
                 "trapLarge"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "damageRod": 1,
+            "damageRod": 5,
             "validRods": [
-                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Sunfish",
+            "chance": 1,
+            "quantity": 1.0,
+            "waterType": "sea",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1",
+            "damageRod": 15,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Sword",
+            "chance": 2,
+            "quantity": 1.0,
+            "waterType": "sea",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 15,
+            "validRods": [
+                "FishingRod",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Fish_Other_Cucumber",
+            "chance": 3,
+            "quantity": 1.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1",
+            "damageRod": 6,
+            "validRods": [
                 "FishingRod",
                 "FC_FishingRod_Wooden_Blue",
                 "FC_FishingRod_Wooden_Green",
@@ -881,32 +814,21 @@
         },
         {
             "name": "FC_Fish_Other_Krill",
-            "chance": 6,
+            "chance": 3,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
-                "rod",
                 "trapLarge",
                 "trapSmall"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 1,
             "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
             ]
         },
         {
             "name": "FC_Fish_Stigray",
-            "chance": 4,
+            "chance": 0,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
@@ -928,20 +850,16 @@
         },
         {
             "name": "FC_Fish_Shark_Corrupted",
-            "chance": 2,
+            "chance": 1,
             "quantity": 1.0,
-            "waterType": "fresh",
+            "waterType": "sea",
             "instruments": [
                 "rod"
             ],
-            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "time": "1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1",
             "damageRod": 50,
             "validRods": [
                 "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
                 "FC_FishingRod_Plastic_Blue",
                 "FC_FishingRod_Plastic_Green",
                 "FC_FishingRod_Plastic_Yellow",
@@ -950,21 +868,16 @@
         },
         {
             "name": "FC_Fish_Sturgeon",
-            "chance": 5,
+            "chance": 2,
             "quantity": 1.0,
             "waterType": "fresh",
             "instruments": [
-                "rod",
-                "trapLarge"
+                "rod"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 15,
             "validRods": [
                 "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
                 "FC_FishingRod_Plastic_Blue",
                 "FC_FishingRod_Plastic_Green",
                 "FC_FishingRod_Plastic_Yellow",
@@ -973,7 +886,7 @@
         },
         {
             "name": "FC_Fish_Shark_Hammer",
-            "chance": 2,
+            "chance": 1,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
@@ -983,10 +896,6 @@
             "damageRod": 50,
             "validRods": [
                 "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
                 "FC_FishingRod_Plastic_Blue",
                 "FC_FishingRod_Plastic_Green",
                 "FC_FishingRod_Plastic_Yellow",
@@ -1005,10 +914,6 @@
             "damageRod": 50,
             "validRods": [
                 "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
                 "FC_FishingRod_Plastic_Blue",
                 "FC_FishingRod_Plastic_Green",
                 "FC_FishingRod_Plastic_Yellow",
@@ -1017,7 +922,7 @@
         },
         {
             "name": "FC_Fish_Shark_Whale",
-            "chance": 2,
+            "chance": 0,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
@@ -1027,10 +932,6 @@
             "damageRod": 50,
             "validRods": [
                 "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
                 "FC_FishingRod_Plastic_Blue",
                 "FC_FishingRod_Plastic_Green",
                 "FC_FishingRod_Plastic_Yellow",
@@ -1039,7 +940,7 @@
         },
         {
             "name": "FC_Fish_Shark_White",
-            "chance": 2,
+            "chance": 0,
             "quantity": 1.0,
             "waterType": "sea",
             "instruments": [
@@ -1049,10 +950,6 @@
             "damageRod": 50,
             "validRods": [
                 "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
                 "FC_FishingRod_Plastic_Blue",
                 "FC_FishingRod_Plastic_Green",
                 "FC_FishingRod_Plastic_Yellow",
@@ -1061,99 +958,63 @@
         },
         {
             "name": "FC_Fish_Other_Seastar",
-            "chance": 15,
+            "chance": 8,
             "quantity": 1.0,
-            "waterType": "all",
+            "waterType": "sea",
             "instruments": [
-                "rod"
+                "trapLarge",
+                "trapSmall"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 1,
             "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
             ]
         },
         {
             "name": "FC_Fish_Other_Shell1",
-            "chance": 15,
+            "chance": 10,
             "quantity": 1.0,
             "waterType": "all",
             "instruments": [
-                "rod"
+                "trapLarge",
+                "trapSmall"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 1,
             "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
             ]
         },
         {
             "name": "FC_Fish_Other_Shell2",
-            "chance": 15,
+            "chance": 8,
             "quantity": 1.0,
-            "waterType": "all",
+            "waterType": "sea",
             "instruments": [
-                "rod"
+                "trapLarge",
+                "trapSmall"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 1,
             "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
             ]
         },
         {
             "name": "FC_Fish_Other_Shell3",
-            "chance": 15,
+            "chance": 8,
             "quantity": 1.0,
-            "waterType": "all",
+            "waterType": "sea",
             "instruments": [
-                "rod"
+                "trapLarge",
+                "trapSmall"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 1,
             "validRods": [
-                "ImprovisedFishingRod",
-                "FishingRod",
-                "FC_FishingRod_Wooden_Blue",
-                "FC_FishingRod_Wooden_Green",
-                "FC_FishingRod_Wooden_Yellow",
-                "FC_FishingRod_Wooden_Red",
-                "FC_FishingRod_Plastic_Blue",
-                "FC_FishingRod_Plastic_Green",
-                "FC_FishingRod_Plastic_Yellow",
-                "FC_FishingRod_Plastic_Red"
             ]
         },
         {
             "name": "FC_Fish_Other_Skeleton",
-            "chance": 15,
+            "chance": 4,
             "quantity": 1.0,
             "waterType": "all",
             "instruments": [
@@ -1176,11 +1037,274 @@
         },
         {
             "name": "Pot",
-            "chance": 15,
+            "chance": 2,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "Wellies_Green",
+            "chance": 2,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "Working_Boots_Green",
+            "chance": 2,
+            "quantity": 0.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+
+        {
+            "name": "SurgicalGloves_White",
+            "chance": 3,
+            "quantity": 0.0,
+            "waterType": "fresh",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "Rag",
+            "chance": 5,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "BurlapSack",
+            "chance": 3,
             "quantity": 0.0,
             "waterType": "all",
             "instruments": [
                 "rod"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "Netting",
+            "chance": 5,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "Woodenstick",
+            "chance": 5,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "LongWoodenstick",
+            "chance": 3,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "Firewood",
+            "chance": 2,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "SodaCan_Empty",
+            "chance": 2,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
+            ],
+            "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "damageRod": 1,
+            "validRods": [
+                "ImprovisedFishingRod",
+                "FishingRod",
+                "FC_FishingRod_Wooden_Blue",
+                "FC_FishingRod_Wooden_Green",
+                "FC_FishingRod_Wooden_Yellow",
+                "FC_FishingRod_Wooden_Red",
+                "FC_FishingRod_Plastic_Blue",
+                "FC_FishingRod_Plastic_Green",
+                "FC_FishingRod_Plastic_Yellow",
+                "FC_FishingRod_Plastic_Red"
+            ]
+        },
+        {
+            "name": "FC_Conserv_Can_Empty",
+            "chance": 2,
+            "quantity": 0.0,
+            "waterType": "all",
+            "instruments": [
+                "rod",
+                "trapLarge"
             ],
             "time": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "damageRod": 1,
