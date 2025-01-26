@@ -2,10 +2,10 @@
 <events>
     <event name="VehicleDingo">
         <nominal>1</nominal>
-        <min>1</min> 
-        <max>2</max>
+        <min>0</min> 
+        <max>1</max>
         <lifetime>1200</lifetime>
-        <restock>0</restock>
+        <restock>3600</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
         <cleanupradius>200</cleanupradius>

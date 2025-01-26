@@ -1447,7 +1447,6 @@
 	<type name="ZmbF_SkaterYoung_Brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="glassesCity" />
 		<attachments preset="bagsCity" />
@@ -1455,7 +1454,6 @@
 	<type name="ZmbF_SkaterYoung_Striped">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="glassesCity" />
 		<attachments preset="bagsCity" />
@@ -1463,7 +1461,6 @@
 	<type name="ZmbF_SkaterYoung_Violet">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="glassesCity" />
 		<attachments preset="bagsCity" />
@@ -1471,8 +1468,6 @@
 	<type name="ZmbF_SurvivorNormal_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="toolsCommon_T1" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1481,15 +1476,12 @@
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="hatsCommon_T1" />
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="toolsCommon_T1" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1497,8 +1489,6 @@
 	<type name="ZmbF_SurvivorNormal_White">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="toolsCommon_T1" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
@@ -1700,28 +1690,24 @@
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="helmetsCommon_T1" />
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Grey">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<cargo preset="PokemonCards" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
@@ -2020,7 +2006,6 @@
 			<item name="mag_saiga_5rnd" chance="0.05" />
 			<item name="FOX_Mag_EVO" chance="0.05" />
 			<item name="mag_ak101_30rnd" chance="0.05" />
-			<item name="Mag_STANAG_30Rnd" chance="0.05" />
 		</cargo>
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
