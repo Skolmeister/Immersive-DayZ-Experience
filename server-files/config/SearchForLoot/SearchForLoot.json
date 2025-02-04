@@ -589,6 +589,7 @@
                 "MFP_HFlask_Lavender",
                 "MFP_HFlask_Slate",
                 "MFP_HFlask_Midnight",
+                "MFP_HFlask_Lime",
                 "MFP_Unidentified",
                 "MFP_MonsterEnergy",
                 "MFP_BLueRibbonBeer",
@@ -622,7 +623,6 @@
                 "MFP_Jerky_Beyond",
                 "MFP_PopTarts2",
                 "MFP_HotPocket2",
-                "MFP_HFlask_Lime",
                 "MFP_Starry",
                 "MFP_BudLight",
                 "MFP_BuschLight"
@@ -1398,7 +1398,6 @@
                 "CanisterGasoline",
                 "NailBox",
                 "Screwdriver",
-                "EngineOil",
                 "Paper",
                 "Whetstone",
                 "CanOpener",
@@ -3266,7 +3265,9 @@
                 "static_pipe-small",
                 "static_phonebox",
                 "static_table_umakart",
-                "static_misc_boxwooden"
+                "static_misc_boxwooden",
+                "static_shelf",
+                "static_shelf_1side"
             ]
         }
     ]

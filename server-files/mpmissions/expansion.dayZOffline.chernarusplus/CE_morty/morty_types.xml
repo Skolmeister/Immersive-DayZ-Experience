@@ -2621,10 +2621,10 @@
         <usage name="military"/>
     </type>
     <type name="TTC_HAMR">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3427,10 +3427,10 @@
         <value name="tier4"/>
     </type>
     <type name="TTC_Aimpoint2000">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4083,10 +4083,10 @@
     //////////// Update 1
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
     <type name="TTC_EotechVudu_Optic">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4125,10 +4125,10 @@
         <value name="tier4"/>
     </type>
     <type name="TTC_EotechVudu_AK_Optic">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4167,10 +4167,10 @@
         <value name="tier4"/>
     </type>
     <type name="TTC_HAMR_AK">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

@@ -6,7 +6,7 @@
             "StartTime": 0.0,
             "StopTime": 24.0,
             "AgeTime": 1.5,
-            "MessageType": 1,
+            "MessageType": 0,
             "MessageTitle": "East AI",
             "MessageText": [
                 "Enemies nearby",
@@ -19,7 +19,7 @@
             "StartTime": 0.0,
             "StopTime": 24.0,
             "AgeTime": 2.5,
-            "MessageType": 3,
+            "MessageType": 0,
             "MessageTitle": "West AI",
             "MessageText": [
                 "Enemies nearby",
@@ -31,7 +31,7 @@
             "StartTime": 0.0,
             "StopTime": 24.0,
             "AgeTime": 4.5,
-            "MessageType": 5,
+            "MessageType": 0,
             "MessageTitle": "Guard AI",
             "MessageText": [
                 "Guards detected",

@@ -336,6 +336,7 @@
                     "TargetShockDamage": 10.0,
                     "TargetHealthDamage": 2.0,
                     "TargetBleedingChancePercent": 2.0,
+                    "ThrowConditionTargetInWater": 1.0,
                     "ThrowConditionCooldownSeconds": 15.0
                 }
             },
@@ -371,7 +372,7 @@
                 ],
                 "Parameters": {
                     "ThrowConditionZombieTargetVerticalDistanceMin": 2.0,
-                    "TargetStunChancePercent": 50.0,
+                    "TargetStunChancePercent": 30.0,
                     "ThrowConditionGroundTargetDistanceMin": 0.5,
                     "TargetShockDamage": 10.0,
                     "TargetHealthDamage": 2.0,
@@ -396,6 +397,21 @@
                     "ThrowConditionAmountOfProjectiles": 1.0,
                     "ThrowConditionThrowChancePercent": 2.0,
                     "ThrowConditionCooldownSeconds": 60.0
+                }
+            },
+            "GarbageIfPlayerInWater": {
+                "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone",
+                    "GlassBottle"
+                ],
+                "Parameters": {
+                    "TargetStunChancePercent": 50.0,
+                    "TargetShockDamage": 20.0,
+                    "TargetHealthDamage": 5.0,
+                    "TargetBleedingChancePercent": 5.0,
+                    "ThrowConditionTargetInWater": 1.0,
+                    "ThrowConditionCooldownSeconds": 5.0
                 }
             },
             "FishermenProjectile": {
@@ -456,14 +472,14 @@
         },
         "BreakingDoorsDestroyAfterOpenChancePercent": {
             "all": 10.0,
-            "highstr": 30.0,
-            "mediumstr": 20.0,
+            "highstr": 25.0,
+            "mediumstr": 15.0,
             "lowstr": 10.0
         },
         "BreakingDoorsOpenChancePercent": {
             "all": 10.0,
-            "highstr": 30.0,
-            "mediumstr": 20.0,
+            "highstr": 25.0,
+            "mediumstr": 15.0,
             "lowstr": 10.0
         },
         "BreakingDoorsOpenLockPickChancePercent": {
@@ -590,7 +606,7 @@
             "all": 1
         },
         "UpJumpHeightMax": {
-            "all": 1.5000000476837159
+            "all": 1.0
         },
         "UpJumpImpulseDamageChancePercent": {
             "all": 30.0
@@ -1101,6 +1117,9 @@
         "DisarmToPlayerInBlockChancePercent": {
             "all": 0.0
         },
+        "FastAttackToPlayerChancePercent": {
+            "all": 10.0
+        },
         "DiseasesToPlayerHandlerIsActive": {
             "all": 1
         },
@@ -1186,32 +1205,32 @@
             "all": 1
         },
         "PainToPlayerHeadMultiplier": {
-            "all": 1.0,
+            "all": 0.8,
             "SurvivorBase": 1.0,
-            "highstr": 1.2999999523162842,
-            "mediumstr": 1.100000023841858,
-            "lowstr": 1.0
+            "highstr": 0.9,
+            "mediumstr": 0.8,
+            "lowstr": 0.7
         },
         "PainToPlayerHeadInBlockMultiplier": {
-            "all": 0.5,
+            "all": 0.3,
             "SurvivorBase": 0.5,
-            "highstr": 0.6999999761581421,
-            "mediumstr": 0.600000011920929,
-            "lowstr": 0.5
+            "highstr": 0.4,
+            "mediumstr": 0.3,
+            "lowstr": 0.25
         },
         "PainToPlayerArmsMultiplier": {
-            "all": 1.0,
+            "all": 0.8,
             "SurvivorBase": 1.0,
-            "highstr": 1.2999999523162842,
-            "mediumstr": 1.100000023841858,
-            "lowstr": 1.0
+            "highstr": 0.9,
+            "mediumstr": 0.8,
+            "lowstr": 0.7
         },
         "PainToPlayerArmsInBlockMultiplier": {
-            "all": 0.5,
+            "all": 0.3,
             "SurvivorBase": 0.5,
-            "highstr": 0.6999999761581421,
-            "mediumstr": 0.600000011920929,
-            "lowstr": 0.5
+            "highstr": 0.4,
+            "mediumstr": 0.3,
+            "lowstr": 0.25
         },
         "PainToPlayerArmsDisarmMultiplier": {
             "all": 0.30000001192092898,
@@ -1228,38 +1247,38 @@
             "lowstr": 0.15000000596046449
         },
         "PainToPlayerLegsMultiplier": {
-            "all": 1.0,
+            "all": 0.8,
             "SurvivorBase": 1.0,
-            "highstr": 1.2999999523162842,
-            "mediumstr": 1.200000023841858,
-            "lowstr": 1.0
+            "highstr": 0.9,
+            "mediumstr": 0.8,
+            "lowstr": 0.7
         },
         "PainToPlayerLegsInBlockMultiplier": {
-            "all": 0.5,
+            "all": 0.3,
             "SurvivorBase": 0.5,
-            "highstr": 0.6999999761581421,
-            "mediumstr": 0.600000011920929,
-            "lowstr": 0.5
+            "highstr": 0.4,
+            "mediumstr": 0.3,
+            "lowstr": 0.25
         },
         "PainToPlayerTorsoMultiplier": {
-            "all": 1.0,
+            "all": 0.8,
             "SurvivorBase": 1.0,
-            "highstr": 1.2999999523162842,
-            "mediumstr": 1.100000023841858,
-            "lowstr": 1.0
+            "highstr": 0.9,
+            "mediumstr": 0.8,
+            "lowstr": 0.7
         },
         "PainToPlayerTorsoInBlockMultiplier": {
-            "all": 0.6000000238418579,
+            "all": 0.3,
             "SurvivorBase": 0.5,
-            "highstr": 0.699999988079071,
-            "mediumstr": 0.6499999761581421,
-            "lowstr": 0.6000000238418579
+            "highstr": 0.4,
+            "mediumstr": 0.3,
+            "lowstr": 0.25
         },
         "PainToPlayerLimbsBreakChancesMultiplier": {
-            "all": 0.8
+            "all": 0.7
         },
         "PainToPlayerLimbsDeepWoundChancesMultiplier": {
-            "all": 0.8
+            "all": 0.7
         },
         "DamageToZombieHandlerIsActive": {
             "all": 1
@@ -1271,13 +1290,13 @@
             "all": -1.0
         },
         "DamageToZombieHeadMeleeMultiplier": {
-            "mediumdef": 1.0,
-            "all": 1.0,
-            "lowdef": 1.0,
-            "highdef": 1.0
+            "mediumdef": 1.8,
+            "all": 1.8,
+            "lowdef": 1.8,
+            "highdef": 1.8
         },
         "DamageToZombieHeadRangeMultiplier": {
-            "all": 1.0
+            "all": 2.0
         },
         "DamageToZombieBodyMeleeMultiplier": {
             "mediumdef": 0.7,
@@ -1328,7 +1347,7 @@
             "all": 0.0
         },
         "DamageToZombieShockToStunFromButtstockHit": {
-            "all": 2.0
+            "all": 3.0
         },
         "DamageToZombieShockToStunCumulativeDamage": {
             "all": 1
@@ -1374,7 +1393,7 @@
             "all": 1
         },
         "JumpAttackChance": {
-            "all": 10.0
+            "all": 2.0
         },
         "JumpAttackCooldownSeconds": {
             "all": 60.0
@@ -1423,7 +1442,7 @@
             "all": 1
         },
         "RespawnInCrawlingChancePercent": {
-            "all": 3.5
+            "all": 1.0
         },
         "ScreamHandlerIsActive": {
             "all": 1
@@ -1648,7 +1667,7 @@
         "SearchBodyExtendLootingToPlayersInRadiusMeters": 30.0,
         "SearchBodyOnlyEmptyHands": 0,
         "QuietDoorOpeningMechanicIsActive": 1,
-        "QuietDoorOpeningMechanicDisabledForOpening": 1,
+        "QuietDoorOpeningMechanicDisabledForOpening": 0,
         "QuietDoorOpeningMechanicSeconds": 1.0,
         "QuietDoorOpeningMechanicRestrictedBuildings": [
             "DNA_Strongroom_ColourBase",
@@ -1676,14 +1695,14 @@
         "DisableVanillaDoorNoiseSystem": 1,
         "OverrideGetHitComponentChances": 1,
         "PainSystemIsActive": 1,
-        "PainSystemNotificationsType": 2.0,
+        "PainSystemNotificationsType": 2,
         "ShowPainBadges": 1,
         "ShowPainBlur": 1,
         "ShowMedicationInfo": 1,
         "PainHealingRatePerSecondPercent": 0.10000000149011612,
         "HealthDrainWithOverPainedLimbPerSecondPercent": 0.10000000149011612,
-        "VehicleCrashPainMultiplier": 1.0,
-        "VehicleCollisionsPainMultiplier": 1.0,
+        "VehicleCrashPainMultiplier": 0.8,
+        "VehicleCollisionsPainMultiplier": 0.8,
         "FallPainMultiplier": 1.0,
         "ExplosionsPainMultiplier": 1.0,
         "UnconsciousWhenOverPainedHeadReceivingHits": 1,
@@ -1717,11 +1736,11 @@
         "BlurWhenHeadReceivingHits": 1,
         "SoundAttenuationWhenHeadReceivingHits": 1,
         "MovementCoordinationImpairmentWhenHeadReceivingHits": 1,
-        "PainArmsWhenHitWithoutGloves": 1,
+        "PainArmsWhenHitWithoutGloves": 0,
         "ShockIfRunsWithPainedLegs": 1,
         "ShockIfAttackingWithPainedArms": 1,
         "LimbsBreakSystemIsActive": 1,
-        "LimbsBreakPainThresholdPercent": 40.0,
+        "LimbsBreakPainThresholdPercent": 50.0,
         "HeadBreakDurationSeconds": 2400.0,
         "ArmsBreakDurationSeconds": 1800.0,
         "LegsBreakDurationSeconds": 1800.0,
@@ -1738,10 +1757,10 @@
         "LimbsDeepWoundFromFalls": 1,
         "LegsDeepWoundFromTraps": 1,
         "LimbsBulletSystemIsActive": 1,
-        "LimbsBulletTimeToSecondStageSeconds": 2400.0,
+        "LimbsBulletTimeToSecondStageSeconds": 3600.0,
         "InternalBleedingSystemIsActive": 1,
         "InternalBleedingBloodLossRateMl": 1.8,
-        "DestroyedDoorNotificationType": 2.0,
+        "DestroyedDoorNotificationType": 2,
         "NoiseMultiplierDay": 1.0,
         "NoiseMultiplierNight": 1.0,
         "NoiseMultiplierCrouchDay": 0.800000011920929,

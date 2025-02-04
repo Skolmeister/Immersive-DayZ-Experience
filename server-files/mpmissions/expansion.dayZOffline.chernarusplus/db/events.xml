@@ -18,7 +18,7 @@
         </children>
     </event>
     <event name="AmbientHare">
-        <nominal>12</nominal>
+        <nominal>10</nominal>
         <min>2</min>
         <max>40</max>
         <lifetime>600</lifetime>
@@ -35,7 +35,7 @@
         </children>
     </event>
     <event name="AmbientHen">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <min>4</min>
         <max>49</max>
         <lifetime>600</lifetime>

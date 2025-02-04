@@ -32,7 +32,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="DingoDoors_Driver">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -44,7 +44,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Driver_CZ">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -56,7 +56,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Driver_CZ_Desert">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -68,10 +68,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoWheel">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -80,10 +80,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoWheel_CZ_Desert">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -92,7 +92,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoHood">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -116,7 +116,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoHood_CZ_Desert">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -128,7 +128,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_CoDriver">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -140,7 +140,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_CoDriver_CZ">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -152,7 +152,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_CoDriver_CZ_Desert">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -164,7 +164,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Cargo1">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -176,7 +176,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Cargo1_CZ">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -188,7 +188,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Cargo1_CZ_Desert">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -200,7 +200,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Cargo2">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -212,7 +212,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Cargo2_CZ">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -224,7 +224,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoDoors_Cargo2_CZ_Desert">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -236,7 +236,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoTrunk">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -248,7 +248,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoTrunk_CZ">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -260,7 +260,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="DingoTrunk_CZ_Desert">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
