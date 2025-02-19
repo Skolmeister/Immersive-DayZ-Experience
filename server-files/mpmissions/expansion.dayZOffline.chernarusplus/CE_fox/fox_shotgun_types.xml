@@ -4,10 +4,10 @@
 <!-- Generated on 2024-12-09 22:54:40 -->
 <types>
     <type name="FOX_VPO205">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -54,10 +54,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_VPO205_Bttstck">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -102,10 +102,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_VPO205_hndgrd">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -150,10 +150,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_Mag_VPO_10Rnd">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -342,7 +342,7 @@
         <usage name="Town"/>
     </type>
     <type name="FOX_MP153">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>5</min>

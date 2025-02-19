@@ -1631,7 +1631,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_SV98M">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -1691,7 +1691,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_SV98M_Bttstck_tan">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -1703,7 +1703,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_SV98M_Bttstck_green">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -1715,7 +1715,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_SV98M_Bttstck_snow">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -1727,10 +1727,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_Mag_SV98">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

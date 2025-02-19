@@ -2083,10 +2083,10 @@
         <usage name="military"/>
     </type>
     <type name="TTC_G3_Magazine_20rnd">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2191,7 +2191,7 @@
         <usage name="military"/>
     </type>
     <type name="TTC_HK417">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -2204,10 +2204,10 @@
         <value name="tier4"/>
     </type>
     <type name="TTC_HK417_Magazine_20rnd">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2639,10 +2639,10 @@
     //////////// Update 1
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
     <type name="TTC_AG3">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2653,10 +2653,10 @@
         <value name="tier2"/>
     </type>
     <type name="TTC_AG3_Coupled_Magazine_40rnd">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2771,11 +2771,22 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
         <category name="weapons"/>
-        <usage name="military"/>
-        <value name="tier3"/>
-        <value name="tier4"/>
+		<usage name="Military" />
+		<value name="ContaminatedArea" />
     </type>
-
+	<type name="TTC_Raptr">
+		<nominal>4</nominal>
+		<lifetime>10800</lifetime>
+		<restock>14400</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<usage name="Military" />
+		<value name="ContaminatedArea" />
+	</type>
 <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //////////// 1.13
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -4051,7 +4062,7 @@
         <value name="tier3"/>
     </type>
     <type name="TTC_VHS">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>0</min>
