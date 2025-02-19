@@ -1,0 +1,437 @@
+{
+    "Settings": [				PARAMETERS
+        {
+            "Config_Version": 2.0,								DO NOT TOUCH or your configs might reset
+            "Minimum_Players": 0,								Minimum players to start the AI Missions
+            "Bots_Timeout_Radius": 150,							METRES in which bots can travel from mission coordinates, before they are considered 'away from home'
+            "Bots_Timeout_Time": 300,							How long bots can remain 'away from home', in SECONDS before they try to return home. (NOTE - If a player is close, they will stay put)
+            "Cleanup_Radius_Startup": 50,						How many METRES to check for old mission entities, on server start-up, before starting first mission
+            "Cleanup_Radius_Running": 100,						If mission entities do not travel further than this distance in METRES after a mission cleanup, they are considered abandoned and cleaned up
+            "Cleanup_Time_Running": 300,	**NEW v2.0**		How long after a mission ends, should it be force cleaned up? NOTE: Missions clean-up instantly if no players are in the vicinity.
+            "Missions_Max_Concurrent": 1,	**NEW v2.0**		Maximum missions to run at the same time
+            "Mission_Start_Delay": 600,							Startup delay for first mission in SECONDS after server start-up	
+            "Mission_Starting_Failed_Retry_Delay": 120,			If a mission fails to start for any reason, it will wait this many SECONDS before trying again
+            "Mission_Time_Between": 2700,						How many SECONDS to wait after a mission ends, before trying to start the next one
+            "Mission_Time_Limit": 2700,							Missions maximum time limit in SECONDS
+            "Mission_Time_Extension_Limit": 900,				If a player is inside the mission radius trying to complete the mission / looting, it will extend by up to this amount in SECONDS before forcing next mission timer to start
+            "Mission_Inner_Radius": 500,						Inner radius of the mission area in METRES which allows time extension
+            "Mission_AI_Spawn_Radius": 1200,					Bots will spawn when players are detected in this spawn radius, from mission area, in METRES
+            "Reward_Loot_Weapons_Minimum": 1,					MINIMUM quantity of Weapons Loot to spawn as a reward in storage / vehicle rewards
+            "Reward_Loot_Weapons_Maximum": 2,					MAXIMUM quantity of Weapons Loot to spawn as a reward in storage / vehicle rewards
+            "Reward_Loot_Weapons_Multiplier": 0.75,				MULTIPLIER of quantity of Weapons Loot to spawn based on AI count (I.E if 4 AI spawn at 0.75, it will try to spawn 3 items, restricted within the MINIMUM and MAXIMUM quantities
+            "Reward_Loot_Armour_Minimum": 1,					MINIMUM quantity of Armour Loot to spawn as a reward in storage / vehicle rewards
+            "Reward_Loot_Armour_Maximum": 2,					MAXIMUM quantity of Armour Loot to spawn as a reward in storage / vehicle rewards
+            "Reward_Loot_Armour_Multiplier": 0.5,				MULTIPLIER of quantity of Armour Loot to spawn based on AI count (I.E if 4 AI spawn at 0.5, it will try to spawn 2 items, restricted within the MINIMUM and MAXIMUM quantities
+            "Reward_Loot_Misc_Minimum": 1,						MINIMUM quantity of Misc Loot to spawn as a reward in storage / vehicle rewards
+            "Reward_Loot_Misc_Maximum": 4,						MAXIMUM quantity of Misc Loot to spawn as a reward in storage / vehicle rewards
+            "Reward_Loot_Misc_Multiplier": 0.5,					MULTIPLIER of quantity of Misc Loot to spawn based on AI count (I.E if 4 AI spawn at 0.5, it will try to spawn 2 items, restricted within the MINIMUM and MAXIMUM quantities
+            "Text_MissionTitle": "AI Mission",					Title text for notifications
+            "Notification_StartMessage": "Mission '%1' starting! Eliminate all threats to claim the loot!",
+											**NEW v2.0**		Starting notification text. %1 is required to display the mission name within the message.
+            "Notification_WinMessage": "Mission '%1' completed! All threats were eliminated!",
+											**NEW v2.0**		Completed notification text. %1 is required to display the mission name within the message.
+            "Notification_LoseMessage": "Mission '%1' failed! You ran out of time!",
+											**NEW v2.0**		Failed notification text. %1 is required to display the mission name within the message.
+            "Notification_Time": 10,		**NEW v2.0**		How long the notification will display before fading out
+            "Notification_Icon": "Soldier",	**NEW v2.0**		Icon to display within the notification
+            "Marker3D_LB_Path": "LBmaster_Groups\\gui\\icons\\player.paa",
+											**NEW v2.0**		LB Master Marker Icon Path (must be configured with LB as well)
+            "Markers_Icon": "",				**NEW v2.0**		Expansion Navigation Icon Path
+            "Markers_Show2D": 1,			**NEW v2.0**		Show 2D Markers (on the map)?
+            "Markers_Show3D": 0,			**NEW v2.0**		Show 3D Markers?
+            "Markers_ColourAlpha": 255,		**NEW v2.0**		Marker Alpha (transparency). 0 to 255, 0 is completely transparent
+            "Markers_ColourRed": 255,		**NEW v2.0**		Marker Red Value. 0 to 255, 0 is pitch black and 255 is solid red
+            "Markers_ColourGreen": 0,		**NEW v2.0**		Marker Green Value. 0 to 255, 0 is pitch black and 255 is solid green
+            "Markers_ColourBlue": 0,		**NEW v2.0**		Marker Blue Value. 0 to 255, 0 is pitch black and 255 is solid blue
+            "Markers_CircleRadius": 350,	**NEW v2.0**		Marker circle radius (LB Master Only)
+            "Debug_Logging_Enabled": 1,							DEBUG LOGGING - Recommended to leave this on, basic debug logging in case of a crash, item spawn or item deleted during cleanup
+            "Debug_Disable_Notifications": 0,					DEBUG - Disables Expansion Notification of mission spawns
+            "Debug_Disable_Markers": 0,							DEBUG - Disabled Markers (Expansion and LBMaster)
+            "Debug_Force_Win": 0,								DEBUG - Force mission win, even if no players contesting
+            "Debug_QuickMode": 0,								DEBUG - Quick Mode - useful to brute force test your config before pushing it live and check for any issues. Overrides time values above, and tricks the mission into thinking a player is there so AI spawns
+            "Debug_Ignore_Player_Radius": 0						DEBUG - Ignore player radius, to force missions to end if you are for example checking them by teleporting in using admin mode (prevents mission time extension)
+        }
+    ],
+    "Missions": [				MISSIONS
+        {
+            "Name": "NWAF Runway",								Mission Name ....
+            "Position": [										Position coordinates ....
+                4176.365234375,
+                338.7732238769531,
+                10725.6533203125
+            ],
+            "Bots_Count_Minimum": 5,							MINIMUM bot count to spawn for mission
+            "Bots_Count_Maximum": 8,							MAXIMUM bot count to spawn for mission
+            "Bots_Expansion_Loadout": "",	**NEW v2.0**		Enter the Expansion Loadouts loadout ID if you want to use that system. If this is empty, it will use the loadouits defined in this config.
+            "Bots_Loadout_ID": 1,								LOADOUT ID, as per loadouts below, for this mission. NOTE - You should ideally have one Weapon, Armour and Headgear defined
+            "Bots_Range": 800,									ACCURACY RANGE for bots. Recommended 400 - 800
+            "Bots_Accuracy": 0.5,								ACCURACY for bots. Recommended 0.4 to 0.8
+            "Bots_Damage_Done_Multiplier": 1.0,					DAMAGE DONE Multipler (bots when they shoot you)
+            "Bots_Damage_Taken_Multiplier": 1.0,				DAMAGE TAKEN Multiplier (bots when you shoot them)
+            "Bots_Drop_Loot": 1,								Should bots drop loot? If disabled, deletes their bodies as soon as they are killed.
+            "Bots_Drop_Weapon": 1,								NOT CURRENTLY WORKING. I've tried alot with this, but can't get it to work correctly. Disabled for now.
+            "Is_NBC_Mission": 0,								NBC MISSION? Forces NBC gear on the bots when they spawn for this mission
+            "Allow_Crate_Reward": 1,							CRATE REWARD? If set to 0, crate reward types (Type 1) will not spawn for this mission
+            "Allow_Vehicle_Reward": 1,							VEHICLE REWARD? If set to 0, vehicle reward types (Type 2) will not spawn for this mission
+            "Allow_Helicopter_Reward": 1,						HELICOPTER REWARD? If set to 0, helicopter reward types (Type 3) will not spawn for this mission
+            "Static_Objects": []								STATIC OBJECTS array for the mission - See below example, you can have as many objects as you want. Recommended static objects only
+        },
+        {
+            "Name": "Downed Helicopter",
+            "Position": [
+                144.31246948242188,
+                319.55841064453127,
+                8073.83740234375
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 5,
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 400,									Note lowered range in this example as these guys are probably shaken up and crashed in a thick forest
+            "Bots_Accuracy": 0.5,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,							Note this example mission does not spawn a vehicle as it's a crashed helicopter. Not enough room in the heli to fit one :>
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wreck_Mi8_Crashed",
+                    "Scale": 1.0,
+                    "Position": [
+                        144.06399536132813,
+                        321.1470031738281,
+                        8068.35986328125
+                    ],
+                    "Rotation": [
+                        -69.11962890625,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        }
+    ],
+    "Loadouts": [				BOT LOADOUTS
+        {
+            "AI_Loot_Misc_Max": 2,				Quantity of MISC inventory loot to spawn, maximum. It does a random number between 0 and this number.
+            "AI_Loot_Special_Max": 1,			Quantity of SPECIAL inventory loot to spawn, maximum. It does a random number between 0 and this number.
+            "Shirts": [
+                "GorkaEJacket_Autumn",
+                "GorkaEJacket_Flat",
+                "GorkaEJacket_PautRev",
+                "GorkaEJacket_Summer"
+            ],
+            "Pants": [
+                "GorkaPants_Autumn",
+                "GorkaPants_Flat",
+                "GorkaPants_PautRev",
+                "GorkaPants_Summer"
+            ],
+            "Shoes": [
+                "TTSKOBoots",
+                "WorkingBoots_Beige",
+                "CombatBoots_Beige",
+                "CombatBoots_Black",
+                "CombatBoots_Brown"
+            ],
+            "BackPacks": [
+                "CoyoteBag_Brown",
+                "CoyoteBag_Green",
+                "HuntingBag",
+                "TortillaBag",
+                "WaterproofBag_Green"
+            ],
+            "Gloves": [
+                "WorkingGloves_Beige",
+                "WorkingGloves_Black",
+                "NBCGlovesGray",
+                "OMNOGloves_Brown"
+            ],
+            "Belts": [
+                "CivilianBelt",
+                "MilitaryBelt"
+            ],
+            "NBC_Loadout": [					This loadout is forced onto bots when the mission has Is_NBC_Mission set to 1 (true)
+                "NBCGlovesGray",
+                "NBCJacketGray",
+                "NBCPantsGray",
+                "NBCBootsGray",
+                "NBCHoodGray",
+                "GasMask"
+            ],
+            "AI_Loot_Misc": [					This is the MISC inventory loot that can spawn on bots, separate from reward loot
+                "SardinesCan",
+                "SodaCan_Cola",
+                "SodaCan_Kvass",
+                "Rice",
+                "Rope",
+                "Screwdriver"
+            ],
+            "AI_Loot_Special": [				This is the SPECIAL inventory loot that can spawn on bots, separate from reward loot. They will probably utilize grenades if they have them ;)
+                "NailBox",
+                "Hatchet",
+                "RGD5Grenade"
+            ],
+            "Weapons": [
+                {
+                    "Loadout_ID": 0,								LOADOUT ID for this specific weapon
+                    "Weapon_ClassName": "CZ61",
+                    "Magazine_ClassName": "Mag_CZ61_20Rnd",
+                    "Attach": []
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Weapon_ClassName": "M4A1",
+                    "Magazine_ClassName": "Mag_CMAG_40Rnd",			MAGAZINES must be defined like this to avoid spawning a debug mag for example
+                    "Attach": [										ATTACH(ments) are defined as follows in an array
+                        "M4_RISHndgrd",
+                        "M4_MPBttstck",
+                        "ACOGOptic"
+                    ]
+                },
+                {
+                    "Loadout_ID": 2,
+                    "Weapon_ClassName": "SVD",
+                    "Magazine_ClassName": "Mag_SVD_10Rnd",
+                    "Attach": [
+                        "PSO1Optic"
+                    ]
+                }
+            ],
+            "Armour": [
+                {
+                    "Loadout_ID": 0,								LOADOUT ID for this specific armour
+                    "Armour_ClassName": "PlateCarrierVest_Black",
+                    "Attach": [],									ATTACH(ments) are defined as follows in an array
+                    "Contents": []									CONTENTS to spawn inside the armour item (meds/food/etc)
+                },
+                {
+                    "Loadout_ID": 0,
+                    "Armour_ClassName": "PlateCarrierVest_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Armour_ClassName": "PlateCarrierVest_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Armour_ClassName": "PlateCarrierVest_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "Loadout_ID": 2,
+                    "Armour_ClassName": "PlateCarrierVest_Camo",
+                    "Attach": [],
+                    "Contents": []
+                }
+            ],
+            "Headgear": [
+                {
+                    "Loadout_ID": 0,								LOADOUT ID for this specific headgear
+                    "Helmet_ClassName": "GorkaHelmet",
+                    "Give_NVG": 1									Do you want the bot to spawn with Night Vision?
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Helmet_ClassName": "GorkaHelmet",
+                    "Give_NVG": 1
+                },
+                {
+                    "Loadout_ID": 2,
+                    "Helmet_ClassName": "Mich2001Helmet",
+                    "Give_NVG": 1
+                }
+            ]
+        }
+    ],
+    "RewardObjects": [			REWARD OBJECTS / ENTITIES
+        {
+            "Reward_Type": 1,										REWARD TYPE - 0 is scripted (spawns your own loot through script when opened), 1 is containers, 2 is land vehicles, 3 is helicopters
+            "ClassName": "SeaChest",								CLASSNAME - Classname to spawn when the mission spawns
+            "Replace_ClassName": "",								REPLACE CLASSNAME - Classname to spawn when the mission ends. Leave blank if you dont want to replace it with a new entity
+            "Loot_Initial": [],										LOOT INITIAL string aray - these items will fill the reward object on mission spawn (overrides random loot)
+            "Loot_Win": []											LOOT WIN string array - these items will fill the reward object on mission win (overrides random loot)
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Barrel_Blue",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "Truck_01_Covered",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "Truck_01_Wheel",
+                "Truck_01_Wheel",
+                "Truck_01_WheelDouble",
+                "Truck_01_WheelDouble",
+                "Truck_01_WheelDouble",
+                "Truck_01_WheelDouble",
+                "Truck_01_Door_1_1",
+                "Truck_01_Door_2_1",
+                "Truck_01_Hood",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "TruckBattery",
+                "SparkPlug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "Offroad_02",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "Offroad_02_Wheel",
+                "Offroad_02_Wheel",
+                "Offroad_02_Wheel",
+                "Offroad_02_Wheel",
+                "Offroad_02_Door_1_1",
+                "Offroad_02_Door_1_2",
+                "Offroad_02_Door_2_1",
+                "Offroad_02_Door_2_2",
+                "Offroad_02_Hood",
+                "Offroad_02_Trunk",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "Offroad_02_Wheel",
+                "CarBattery",
+                "GlowPlug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "OffroadHatchback",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "HatchbackWheel",
+                "HatchbackWheel",
+                "HatchbackWheel",
+                "HatchbackWheel",
+                "HatchbackDoors_Driver",
+                "HatchbackDoors_CoDriver",
+                "HatchbackHood",
+                "HatchbackTrunk",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug"
+            ]
+        }
+    ],
+    "Loot": [					RANDOM REWARD LOOT				This is random reward loot spawned in the reward object / entity on mission win, if NOT a scritped item (Reward_Type 0)
+        {
+            "Weapons": [										This is identical to Bot Loadouts above. Except you have a Loot array. Weapons, Armour and MISC
+                {												Items are randomized based on parameters at the top of the file
+                    "ClassName": "FAL",
+                    "Magazine_ClassName": "Mag_FAL_20Rnd",
+                    "Attach": [
+                        "Fal_OeBttsck",
+                        "ACOGOptic"
+                    ],
+                    "Loot": [									This Loot array spawns these items in the root inventory of the Reward Object when the reward is spawned in. Useful for magazines like so.
+                        "Mag_FAL_20Rnd",
+                        "Mag_FAL_20Rnd"
+                    ]
+                },
+                {
+                    "ClassName": "SVD",
+                    "Magazine_ClassName": "Mag_SVD_10Rnd",
+                    "Attach": [
+                        "PSO1Optic"
+                    ],
+                    "Loot": [
+                        "Mag_SVD_10Rnd",
+                        "Mag_SVD_10Rnd"
+                    ]
+                }
+            ],
+            "Armour": [
+                {
+                    "ClassName": "PlateCarrierVest",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "PlateCarrierVest_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "PlateCarrierVest_Camo",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "BallisticHelmet_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "BallisticHelmet_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "BallisticHelmet_Woodland",
+                    "Attach": [],
+                    "Contents": []
+                }
+            ],
+            "Misc": [
+                {
+                    "ClassName": "BandageDressing",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "PainkillerTablets",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Morphine",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "SledgeHammer",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Hatchet",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MetalPlate",
+                    "Attach": [],
+                    "Contents": []
+                }
+            ]
+        }
+    ]
+}

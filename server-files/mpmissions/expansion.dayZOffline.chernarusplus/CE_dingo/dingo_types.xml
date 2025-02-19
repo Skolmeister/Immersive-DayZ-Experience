@@ -10,6 +10,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
     </type>
     <type name="Dingo_CZ">
         <nominal>0</nominal>
@@ -20,6 +21,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
     </type>
     <type name="Dingo_CZ_Desert">
         <nominal>0</nominal>
@@ -30,6 +32,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
     </type>
     <type name="DingoDoors_Driver">
         <nominal>2</nominal>
@@ -40,6 +43,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <category name="vehiclesparts"/>
         <usage name="Industrial"/>
     </type>
@@ -52,6 +56,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <category name="vehiclesparts"/>
         <usage name="Industrial"/>
     </type>
@@ -64,30 +69,33 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <category name="vehiclesparts"/>
         <usage name="Industrial"/>
     </type>
     <type name="DingoWheel">
-        <nominal>8</nominal>
+        <nominal>12</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
     <type name="DingoWheel_CZ_Desert">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -100,6 +108,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -112,6 +121,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -124,6 +134,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -136,6 +147,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -148,6 +160,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -160,6 +173,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -172,6 +186,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -184,6 +199,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -196,6 +212,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -208,6 +225,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -220,6 +238,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -232,6 +251,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -244,6 +264,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -256,6 +277,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
@@ -268,7 +290,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="lootdispatch" />
         <tag name="floor"/>
         <usage name="Industrial"/>
+    </type>
+    <type name="DingoWheel_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_CZ_Desert_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
 </types>

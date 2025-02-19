@@ -60,6 +60,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CE_bbp">
 		<file name="bbp_types.xml" type="types" />
 	</ce>
+	<!-- Bicycles-->
+	<ce folder="CE_bicycle">
+		<file name="bicycle_types.xml" type="types" />
+		<file name="bicycle_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="bicycle_events.xml" type="events" />
+	</ce>
 		<!-- Cl0uds Military Gear -->
 	<ce folder="CE_cl0uds">
 		<file name="cl0uds_types.xml" type="types" />
@@ -143,6 +149,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CE_msp">
 		<file name="msp_types.xml" type="types" />
 	</ce>
+		<!-- Nomad Backpack  -->
+	<ce folder="CE_nomad">
+		<file name="nomad_types.xml" type="types" />
+		<file name="nomad_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 		<!-- Parachute -->
 	<ce folder="CE_parachute">
 		<file name="para_types.xml" type="types" />
@@ -156,6 +167,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CE_survivor_backpack">
 		<file name="hope_types.xml" type="types" />
 	</ce>
+	<!-- Techs 4x4 ATV -->
+	<ce folder="CE_Techs_ATV">
+		<file name="Techs_ATV_types.xml" type="types" />
+		<file name="Techs_ATV_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="Techs_ATV_events.xml" type="events" />
+	</ce>
 		<!-- Windstrides Clothing Pack -->
 	<ce folder="CE_windstrides">
 		<file name="windstrides_types.xml" type="types" />
@@ -165,6 +182,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="virus_types.xml" type="types" />
 		<file name="notes_types.xml" type="types" />
 		<file name="zippo_types.xml" type="types" />
+		<file name="music_types.xml" type="types" />
+		<file name="flint_types.xml" type="types" />
 	</ce>
 			<!-- Mass Many Items 
 	<ce folder="CE_mmio">

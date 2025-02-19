@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+<!-- Black -->
+	<type name="Techs_ATV_Black">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Red -->
+	<type name="Techs_ATV_Red">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- White -->
+	<type name="Techs_ATV_White">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Blue -->
+	<type name="Techs_ATV_Blue">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Yellow -->
+	<type name="Techs_ATV_Yellow">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- OD -->
+	<type name="Techs_ATV_OD">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Brown -->
+	<type name="Techs_ATV_Brown">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Lime -->
+	<type name="Techs_ATV_Lime">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Orange -->
+	<type name="Techs_ATV_Orange">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Pink -->
+	<type name="Techs_ATV_Pink">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Purple -->
+	<type name="Techs_ATV_Purple">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Teal -->
+	<type name="Techs_ATV_Teal">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- Evolutionary gaming ATV's -->
+<!-- EVO Black -->
+	<type name="Techs_EvoGaming_ATV_Black">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Red -->
+	<type name="Techs_EvoGaming_ATV_Red">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO White -->
+	<type name="Techs_EvoGaming_ATV_White">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Blue -->
+	<type name="Techs_EvoGaming_ATV_Blue">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Yellow -->
+	<type name="Techs_EvoGaming_ATV_Yellow">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO OD -->
+	<type name="Techs_EvoGaming_ATV_OD">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Brown -->
+	<type name="Techs_EvoGaming_ATV_Brown">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Lime -->
+	<type name="Techs_EvoGaming_ATV_Lime">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Orange -->
+	<type name="Techs_EvoGaming_ATV_Orange">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Pink -->
+	<type name="Techs_EvoGaming_ATV_Pink">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Purple -->
+	<type name="Techs_EvoGaming_ATV_Purple">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+<!-- EVO Teal -->
+	<type name="Techs_EvoGaming_ATV_Teal">
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Techs_ATV_Wheel" chance="0.8" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+		</attachments>
+	</type>
+</spawnabletypes>

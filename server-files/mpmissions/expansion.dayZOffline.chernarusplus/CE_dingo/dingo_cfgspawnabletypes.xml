@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
+	<type name="DingoWheel">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_CZ_Desert">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoHood">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoTrunk">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_CZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_CZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_CZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_CZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_CZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoTrunk_CZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_CZ_Desert">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_CZ_Desert">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_CZ_Desert">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_CZ_Desert">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_CZ_Desert">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoTrunk_CZ_Desert">
+		<damage min="0.0" max="0.75" />
+	</type>
+
 	<type name="Dingo">
-		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.30" />
 		</attachments>
@@ -29,7 +78,22 @@
 			<item name="HeadlightH7" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoHood" chance="0.50" />
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="DingoDoors_Driver" chance="0.50" />
@@ -49,18 +113,6 @@
 	</type>
 	<type name="Dingo_CZ">
 		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
@@ -76,7 +128,25 @@
 			<item name="HeadlightH7" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoHood_CZ" chance="0.50" />
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_CZ" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="DingoDoors_Driver_CZ" chance="0.50" />
@@ -96,18 +166,6 @@
 	</type>
 	<type name="Dingo_CZ_Desert">
 		<attachments chance="1.00">
-			<item name="DingoWheel_CZ_Desert " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel_CZ_Desert " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel_CZ_Desert " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DingoWheel_CZ_Desert " chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
@@ -123,7 +181,25 @@
 			<item name="HeadlightH7" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoHood_CZ_Desert" chance="0.50" />
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_CZ_Desert" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="DingoDoors_Driver_CZ_Desert" chance="0.50" />

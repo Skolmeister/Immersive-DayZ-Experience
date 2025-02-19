@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="VehicleTechs_ATV_Spawn">
+        <nominal>4</nominal>
+        <min>2</min>
+        <max>8</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>		
+		<!-- By default this is set to spawn both branded and Non Branded ATV's  -->
+		<!-- If you want one set or the other, simply remove the unwanted lines  -->
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Black" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Red" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_White" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Blue" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Yellow" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_OD" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Brown" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Lime" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Orange" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Pink" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Purple" />
+			<child lootmax="0" lootmin="0" max="1" min="0" type="Techs_ATV_Teal" />		
+        </children>
+    </event>
+</events>

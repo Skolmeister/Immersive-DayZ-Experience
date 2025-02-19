@@ -1,0 +1,14 @@
+{
+    "CONFIG_VERSION": "1",
+    "AllowCarInventory": 1,
+    "StaticBoomboxAutoPlay": 1,
+    "StaticBoomboxSongs": [
+        "Zen_Cassette_Zen1"
+    ],
+    "StaticBoomboxTurnsOffInvisibleRange": 10,
+    "StaticBoomboxTurnsOnInvisibleRange": 10,
+    "StaticInvisibleBoomboxAutoPlay": 0,
+    "StaticInvisibleBoomboxSongs": [
+        "Zen_Cassette_Zen2"
+    ]
+}

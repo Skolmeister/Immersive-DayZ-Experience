@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+<!-- If you add this to the existing file, DO NOT COPY ABOVE!
+	 COPY FROM HERE -->
+
+<!-- NomadBackpack - CLOTHES - BAGS -->
+	<type name="Nomadbackpack_v3_BaseColor">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+    </type>
+	<type name="Nomadbackpack_v3_Blue">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+    </type>
+	<type name="Nomadbackpack_v3_Teal">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+    </type>
+	<type name="Nomadbackpack_v3_Green">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+    </type>
+	<type name="Nomadbackpack_v3_Grey">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+    </type>
+	<type name="Nomadbackpack_v3_Red">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+    </type>
+	<type name="Nomadbackpack_v3_Yellow">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+    </type>
+	<type name="Nomadbackpack_v3_Black">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+		<cargo preset="mixArmy" />
+    </type>
+	<type name="Nomadbackpack_v3_AoR2">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+		<cargo preset="mixArmy" />
+    </type>
+	<type name="Nomadbackpack_v3_Woodland">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+		<cargo preset="mixArmy" />
+    </type>
+	<type name="Nomadbackpack_v3_Winter">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+		<cargo preset="mixArmy" />
+    </type>
+
+<!-- If you add this to the existing file, COPY TILL HERE!
+	 DO NOT COPY “</spawnabletypes>” -->
+</spawnabletypes>
