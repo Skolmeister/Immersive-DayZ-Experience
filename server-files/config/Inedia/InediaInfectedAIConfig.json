@@ -1932,7 +1932,7 @@
     "LossInterestToIrritantAfterSeconds": 120.0,
     "LightInHouseMultiplier": 0.20000000298023225,
     "SoundInHouseMultiplier": 0.5,
-    "SuppressorShotCooldownSeconds": 5.0,
+    "SuppressorShotCooldownSeconds": 0.5,
     "BloodParticlesLimit": 1000.0,
     "BloodParticleDurationSeconds": 600.0,
     "SaveConfigAfterInit": 1

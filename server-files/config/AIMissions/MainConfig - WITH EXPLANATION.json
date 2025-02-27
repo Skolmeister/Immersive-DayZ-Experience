@@ -25,12 +25,12 @@
             "Reward_Loot_Misc_Minimum": 1,						MINIMUM quantity of Misc Loot to spawn as a reward in storage / vehicle rewards
             "Reward_Loot_Misc_Maximum": 4,						MAXIMUM quantity of Misc Loot to spawn as a reward in storage / vehicle rewards
             "Reward_Loot_Misc_Multiplier": 0.5,					MULTIPLIER of quantity of Misc Loot to spawn based on AI count (I.E if 4 AI spawn at 0.5, it will try to spawn 2 items, restricted within the MINIMUM and MAXIMUM quantities
-            "Text_MissionTitle": "AI Mission",					Title text for notifications
-            "Notification_StartMessage": "Mission '%1' starting! Eliminate all threats to claim the loot!",
+            "Text_MissionTitle": "AI Event",					Title text for notifications
+            "Notification_StartMessage": "Event '%1' starting! Eliminate all threats to claim the loot!",
 											**NEW v2.0**		Starting notification text. %1 is required to display the mission name within the message.
-            "Notification_WinMessage": "Mission '%1' completed! All threats were eliminated!",
+            "Notification_WinMessage": "Event '%1' completed! All threats have been eliminated!",
 											**NEW v2.0**		Completed notification text. %1 is required to display the mission name within the message.
-            "Notification_LoseMessage": "Mission '%1' failed! You ran out of time!",
+            "Notification_LoseMessage": "Event '%1' failed! You ran out of time!",
 											**NEW v2.0**		Failed notification text. %1 is required to display the mission name within the message.
             "Notification_Time": 10,		**NEW v2.0**		How long the notification will display before fading out
             "Notification_Icon": "Soldier",	**NEW v2.0**		Icon to display within the notification
@@ -62,7 +62,7 @@
             ],
             "Bots_Count_Minimum": 5,							MINIMUM bot count to spawn for mission
             "Bots_Count_Maximum": 8,							MAXIMUM bot count to spawn for mission
-            "Bots_Expansion_Loadout": "",	**NEW v2.0**		Enter the Expansion Loadouts loadout ID if you want to use that system. If this is empty, it will use the loadouits defined in this config.
+            "Bots_Expansion_Loadout": "BanditLoadout",	**NEW v2.0**		Enter the Expansion Loadouts loadout ID if you want to use that system. If this is empty, it will use the loadouits defined in this config.
             "Bots_Loadout_ID": 1,								LOADOUT ID, as per loadouts below, for this mission. NOTE - You should ideally have one Weapon, Armour and Headgear defined
             "Bots_Range": 800,									ACCURACY RANGE for bots. Recommended 400 - 800
             "Bots_Accuracy": 0.5,								ACCURACY for bots. Recommended 0.4 to 0.8

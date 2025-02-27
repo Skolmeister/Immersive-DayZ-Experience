@@ -16,8 +16,6 @@
 			<item name="Mag_STANAG_60Rnd" chance="0.50" />
 		</attachments>
 		<attachments preset="m4" />
-		<attachments chance="0.20">
-			<item name="BO_G36Optic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_G36A1">

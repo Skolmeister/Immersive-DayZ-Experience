@@ -1,0 +1,324 @@
+	<event name="InfectedArmy">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>250</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>250</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_usSoldier_normal_Woodland"/>
+		</children>
+	</event>
+	<event name="InfectedCity">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>250</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_BlueCollarFat_White"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_CitizenANormal_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_CitizenANormal_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_CitizenANormal_Brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_CitizenBSkinny"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_Clerk_Normal_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_Clerk_Normal_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_Clerk_Normal_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_Clerk_Normal_White"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JournalistNormal_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JournalistNormal_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JournalistNormal_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JournalistNormal_White"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_checks"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_stripes"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_white"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ShortSkirt_yellow"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_SkaterYoung_Brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_SkaterYoung_Striped"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_SkaterYoung_Violet"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_SurvivorNormal_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_SurvivorNormal_Orange"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_SurvivorNormal_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_SurvivorNormal_White"/>
+			<child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CitizenASkinny_Blue"/>
+			<child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CitizenASkinny_Brown"/>
+			<child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CitizenASkinny_Grey"/>
+			<child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CitizenASkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CitizenBFat_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CitizenBFat_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CitizenBFat_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ClerkFat_Brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ClerkFat_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ClerkFat_Khaki"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ClerkFat_White"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CommercialPilotOld_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CommercialPilotOld_Brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CommercialPilotOld_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_CommercialPilotOld_Olive"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_bluechecks"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_greenchecks"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_khaki"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_magenta"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_stripes"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_JournalistSkinny"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_MotobikerFat_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_MotobikerFat_Black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_SkaterYoung_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_SkaterYoung_Brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_SkaterYoung_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_SkaterYoung_Grey"/>
+		</children>
+	</event>
+	<event name="InfectedFirefighter">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FirefighterNormal"/>
+		</children>
+	</event>
+	<event name="InfectedIndustrial">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_BlueCollarFat_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_BlueCollarFat_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_BlueCollarFat_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_BlueCollarFat_White"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MechanicNormal_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MechanicNormal_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MechanicNormal_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MechanicNormal_Orange"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ConstrWorkerNormal_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ConstrWorkerNormal_Black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ConstrWorkerNormal_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ConstrWorkerNormal_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HandymanNormal_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HandymanNormal_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HandymanNormal_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HandymanNormal_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HandymanNormal_White"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HeavyIndustryWorker"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_MechanicSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_MechanicSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_MechanicSkinny_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_MechanicSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_OffshoreWorker_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_OffshoreWorker_Orange"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_OffshoreWorker_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_OffshoreWorker_Yellow"/>
+		</children>
+	</event>
+	<event name="InfectedMedic">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_DoctorSkinny"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_NurseFat"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ParamedicNormal_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ParamedicNormal_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_ParamedicNormal_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_PatientOld"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_DoctorFat"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ParamedicNormal_Black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ParamedicNormal_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ParamedicNormal_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_ParamedicNormal_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_PatientSkinny"/>
+		</children>
+	</event>
+	<event name="InfectedPolice">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_PoliceWomanNormal"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_PolicemanFat"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_PolicemanSpecForce"/>
+		</children>
+	</event>
+	<event name="InfectedPrisoner">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_RCZ_PrisonerSkinny"/>
+		</children>
+	</event>
+	<event name="InfectedReligious">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_priestPopSkinny"/>
+		</children>
+	</event>
+	<event name="InfectedSolitude">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_HikerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_HikerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_HikerSkinny_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_HikerSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FishermanOld_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FishermanOld_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FishermanOld_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FishermanOld_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HermitSkinny_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HermitSkinny_Black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HermitSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HermitSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HikerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HikerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HikerSkinny_Yellow"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HunterOld_Autumn"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HunterOld_Spring"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HunterOld_Summer"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_HunterOld_Winter"/>
+		</children>
+	</event>
+	<event name="InfectedVillage">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JoggerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JoggerSkinny_Brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JoggerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_JoggerSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MilkMaidOld_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MilkMaidOld_Black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MilkMaidOld_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_MilkMaidOld_Grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_VillagerOld_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_VillagerOld_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_VillagerOld_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbF_RCZ_VillagerOld_White"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FarmerFat_Beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FarmerFat_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FarmerFat_Brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_FarmerFat_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_beige"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_black"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_bluechecks"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_brown"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_greenchecks"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_grey"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_khaki"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_magenta"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_Jacket_stripes"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_JoggerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_JoggerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_JoggerSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_VillagerOld_Blue"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_VillagerOld_Green"/>
+            <child lootmax="5" lootmin="0" max="1" min="1" type="ZmbM_RCZ_VillagerOld_White"/>
+		</children>
+	</event>
