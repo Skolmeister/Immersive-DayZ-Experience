@@ -18,6 +18,7 @@ MESSAGE_CONTENT = "Hier sind die neuesten Modupdates:"
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
+client = discord.Client(intents=intents)
 
 # Funktion zum durchsuchen der Mods
 def search_updated_mods():
@@ -82,7 +83,7 @@ async def on_ready():
     # Starte den Scheduler
     scheduler.start()
 
-# Zusätzliches Event zur manuellen abgrage
+# Zusätzliches Event zur manuellen abfrage
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
@@ -98,6 +99,13 @@ async def on_message(message):
         latest_file = get_latest_file_by_timestamp(directory_path)
         with open(latest_file, 'rb') as fp:
             await message.channel.send(file=discord.File(fp, 'mod.log'))
+
+# Neue Member bekommen Rolle "Survivor"
+@client.event
+async def on_member_join(member): 
+  await person.send(f"Thanks for joining {member.guild.name}")
+  role = discord.utils.get(member.guild.roles, name="Survivor")
+  await member.add_roles(role)
 
 # Starte den Bot
 bot.run(os.getenv("DISCORD_BOT"))
