@@ -129,6 +129,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="ext_covers_types.xml" type="types" />
 		<file name="ext_types.xml" type="types" />
 	</ce>
+		<!-- Immersive DayZ Experience -->
+	<ce folder="CE_IDE">
+		<file name="IDE_events.xml" type="events" />
+	</ce>
 		<!-- Infected AI -->
 	<ce folder="CE_inedia">
 		<file name="inedia_types.xml" type="types" />

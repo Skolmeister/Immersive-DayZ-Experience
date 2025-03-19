@@ -3,7 +3,7 @@
     "Enabled": 1,
     "DespawnTime": 600.0,
     "RespawnTime": 20.0,
-    "MinDistRadius": 400.0,
+    "MinDistRadius": 300.0,
     "MaxDistRadius": 1000.0,
     "DespawnRadius": 1100.0,
     "AccuracyMin": -1.0,
@@ -354,18 +354,18 @@
             "ClassName": "StaticObj_Wreck_Train_742_Blue_DE"
         },
         {
-            "Name": "Die Bretterbande",
+            "Name": "Chedaki Roadblock",
             "Persist": 0,
-            "Faction": "Bandits",
+            "Faction": "East",
             "Formation": "",
-            "FormationLooseness": 10.0,
-            "Loadout": "BanditLoadout",
+            "FormationLooseness": 5.0,
+            "Loadout": "ChedakiLoadout",
             "Units": [],
-            "NumberOfAI": -3,
+            "NumberOfAI": -6,
             "Behaviour": "HALT_OR_ALTERNATE",
             "LootingBehaviour": "DEFAULT",
-            "Speed": "JOG",
-            "UnderThreatSpeed": "SPRINT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
             "CanBeLooted": 1,
             "UnlimitedReload": 6,
             "SniperProneDistanceThreshold": 0.0,
@@ -375,27 +375,27 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
-            "CanBeTriggeredByAI": 0,
+            "CanBeTriggeredByAI": 1,
             "MinDistRadius": -1.0,
             "MaxDistRadius": 1000.0,
             "DespawnRadius": -1.0,
-            "MinSpreadRadius": 5.0,
-            "MaxSpreadRadius": 20.0,
-            "Chance": 0.5,
+            "MinSpreadRadius": 2.0,
+            "MaxSpreadRadius": 5.0,
+            "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
-            "ClassName": "PileOfWoodenPlanks"
+            "ClassName": "bldr_prop_Flag_Chedaki"
         },
         {
             "Name": "Zagoria Pathogen Institute",
             "Persist": 0,
             "Faction": "Researchers",
             "Formation": "",
-            "FormationLooseness": 0.0,
+            "FormationLooseness": 10.0,
             "Loadout": "NBCLoadout",
             "Units": [],
-            "NumberOfAI": -3,
+            "NumberOfAI": -5,
             "Behaviour": "HALT_OR_ALTERNATE",
             "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
@@ -426,10 +426,10 @@
             "Persist": 0,
             "Faction": "Researchers",
             "Formation": "",
-            "FormationLooseness": 0.0,
+            "FormationLooseness": 5.0,
             "Loadout": "NBCLoadout",
             "Units": [],
-            "NumberOfAI": -3,
+            "NumberOfAI": -4,
             "Behaviour": "HALT_OR_ALTERNATE",
             "LootingBehaviour": "DEFAULT",
             "Speed": "JOG",
@@ -443,7 +443,7 @@
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
-            "CanBeTriggeredByAI": 0,
+            "CanBeTriggeredByAI": 1,
             "MinDistRadius": -1.0,
             "MaxDistRadius": 1000.0,
             "DespawnRadius": -1.0,
@@ -5512,7 +5512,7 @@
             ]
         },
         {
-            "Name": "Carrion Shepherds",
+            "Name": "Die Hohlgeborenen",
             "Persist": 0,
             "Faction": "Shamans",
             "Formation": "RANDOM",
@@ -5638,7 +5638,7 @@
             ]
         },
         {
-            "Name": "Whisperers of Rot",
+            "Name": "Der Bleiche Zirkel",
             "Persist": 0,
             "Faction": "Shamans",
             "Formation": "RANDOM",
@@ -5784,7 +5784,7 @@
             ]
         },
         {
-            "Name": "The Ghoul Wardens",
+            "Name": "Die Todesflüsterer",
             "Persist": 0,
             "Faction": "Shamans",
             "Formation": "RANDOM",
@@ -5870,7 +5870,7 @@
             ]
         },
         {
-            "Name": "The Withered Coven",
+            "Name": "Der Schwarze Schleier",
             "Persist": 0,
             "Faction": "Shamans",
             "Formation": "RANDOM",
@@ -5951,7 +5951,7 @@
             ]
         },
         {
-            "Name": "The Fungus Seekers",
+            "Name": "Die Wurzelflüsterer",
             "Persist": 0,
             "Faction": "Shamans",
             "Formation": "RANDOM",
@@ -6027,7 +6027,7 @@
             ]
         },
         {
-            "Name": "Festerborn Circle",
+            "Name": "Die Schleierwanderer",
             "Persist": 0,
             "Faction": "Shamans",
             "Formation": "RANDOM",
@@ -6205,6 +6205,380 @@
                     9081.297852,
                     326.571106,
                     10095.181641
+                ]
+            ]
+        },
+        {
+            "Name": "Die Aschenschreiter",
+            "Persist": 0,
+            "Faction": "Shamans",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "ShamanLoadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "UPGRADE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": 500.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 0.66,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    8866.462891,
+                    355.561920,
+                    5657.513672
+                ],
+                [
+                    9157.487305,
+                    198.823502,
+                    5406.014160
+                ],
+                [
+                    9750.272461,
+                    270.571014,
+                    5281.108887
+                ],
+                [
+                    10237.191406,
+                    264.912476,
+                    4878.916992
+                ],
+                [
+                    10760.575195,
+                    264.512115,
+                    4161.638672
+                ]
+            ]
+        },
+        {
+            "Name": "Die Düsterwanderer",
+            "Persist": 0,
+            "Faction": "Shamans",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "ShamanLoadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "UPGRADE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": 500.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 0.66,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    8200.978516,
+                    423.628571,
+                    8434.948242
+                ],
+                [
+                    8242.240234,
+                    416.232239,
+                    8389.221680
+                ],
+                [
+                    8221.675781,
+                    414.902557,
+                    8295.737305
+                ],
+                [
+                    8199.395508,
+                    412.854797,
+                    8253.791016
+                ],
+                [
+                    8122.599609,
+                    405.716644,
+                    8235.027344
+                ],
+                [
+                    8160.800781,
+                    407.170105,
+                    8110.916016
+                ],
+                [
+                    8138.906738,
+                    408.520599,
+                    8065.207520
+                ],
+                [
+                    8150.672852,
+                    414.421021,
+                    7998.031250
+                ],
+                [
+                    8184.569824,
+                    430.564178,
+                    7899.281250
+                ],
+                [
+                    8207.836914,
+                    441.232910,
+                    7802.708984
+                ],
+                [
+                    8210.744141,
+                    443.608246,
+                    7753.015625
+                ],
+                [
+                    8237.501953,
+                    433.028229,
+                    7659.967773
+                ],
+                [
+                    8317.641602,
+                    445.787628,
+                    7535.246582
+                ],
+                [
+                    8536.437500,
+                    406.857178,
+                    7453.109375
+                ],
+                [
+                    8636.216797,
+                    371.308777,
+                    7536.166504
+                ]
+            ]
+        },
+        {
+            "Name": "Die Totwald-Sippe",
+            "Persist": 0,
+            "Faction": "Shamans",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "ShamanLoadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "UPGRADE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": 500.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 0.66,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    9328.374023,
+                    283.908813,
+                    7291.506348
+                ],
+                [
+                    9269.494141,
+                    303.482269,
+                    7318.772461
+                ],
+                [
+                    9179.166016,
+                    339.374268,
+                    7389.459473
+                ],
+                [
+                    9087.015625,
+                    358.882996,
+                    7384.133301
+                ],
+                [
+                    8932.075195,
+                    369.161163,
+                    7507.795410
+                ],
+                [
+                    8993.490234,
+                    291.269318,
+                    7809.003906
+                ],
+                [
+                    9141.594727,
+                    251.645905,
+                    7838.457520
+                ],
+                [
+                    9321.688477,
+                    257.760162,
+                    7685.344238
+                ],
+                [
+                    9444.010742,
+                    256.511993,
+                    7643.587891
+                ],
+                [
+                    9603.277344,
+                    255.657944,
+                    7456.714355
+                ],
+                [
+                    9352.681641,
+                    301.405731,
+                    7491.283203
+                ],
+                [
+                    9309.604492,
+                    272.270721,
+                    7086.362793
+                ],
+                [
+                    9275.728516,
+                    279.116547,
+                    6998.025879
+                ],
+                [
+                    8790.627930,
+                    322.636719,
+                    6923.084961
+                ],
+                [
+                    9152.714844,
+                    302.675018,
+                    6432.192871
+                ],
+                [
+                    9432.775391,
+                    288.536316,
+                    6249.684082
+                ]
+            ]
+        },
+        {
+            "Name": "Die Verdorrten",
+            "Persist": 0,
+            "Faction": "Shamans",
+            "Formation": "RANDOM",
+            "FormationLooseness": 0.0,
+            "Loadout": "ShamanLoadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "UPGRADE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 200.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 400.0,
+            "NoiseInvestigationDistanceLimit": 500.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 0.66,
+            "WaypointInterpolation": "UniformCubic",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    10169.385742,
+                    315.094452,
+                    6242.183105
+                ],
+                [
+                    10230.314453,
+                    197.206223,
+                    6704.562012
+                ],
+                [
+                    10480.456055,
+                    121.961945,
+                    6903.753418
+                ],
+                [
+                    10846.451172,
+                    122.157692,
+                    6501.740234
+                ],
+                [
+                    11348.937500,
+                    146.088058,
+                    6220.834961
+                ],
+                [
+                    11684.238281,
+                    106.006119,
+                    6275.854980
+                ],
+                [
+                    11992.703125,
+                    170.743179,
+                    5877.023438
+                ],
+                [
+                    12280.439453,
+                    168.656311,
+                    5944.161133
+                ],
+                [
+                    12413.708008,
+                    144.056900,
+                    5948.692383
+                ],
+                [
+                    10418.310547,
+                    134.650345,
+                    4358.608887
                 ]
             ]
         },
@@ -6985,6 +7359,45 @@
                     7278.220215,
                     26.550617,
                     3034.942383
+                ]
+            ]
+        },
+        {
+            "Name": "Mighty Bungholes",
+            "Persist": 0,
+            "Faction": "Bandits",
+            "Formation": "",
+            "FormationLooseness": 10.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -4,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 250.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 1,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 0.5,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+
                 ]
             ]
         }

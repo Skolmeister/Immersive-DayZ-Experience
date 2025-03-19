@@ -1,19 +1,25 @@
-eAILootingBehavior
-NONE
-WEAPONS_FIREARMS 
+WEAPONS_FIREARMS
 WEAPONS_LAUNCHERS
 WEAPONS_MELEE
-WEAPONS
+WEAPONS               //! Same as WEAPONS_FIREARMS | WEAPONS_LAUNCHERS | WEAPONS_MELEE
 BANDAGES
-CLOTHING
-UPGRADE 
-DEFAULT
-ALL
-
-
-Massive Cheekbone Endorser AKA LiquirdRock — Today at 2:03 PM
-DEFAULT is synonymous to WEAPONS (but may be subject to change)
-WEAPONS is shorthand for WEAPONS_FIREARMS | WEAPONS_LAUNCHERS | WEAPONS_MELEE
-
-And yeah you can combine options like that
-    "LootingBehaviour": "WEAPONS_MELEE | CLOTHING"
+CLOTHING_ARMBAND
+CLOTHING_BACK_LARGE
+CLOTHING_BACK_MEDIUM
+CLOTHING_BACK_SMALL
+CLOTHING_BODY
+CLOTHING_EYEWEAR
+CLOTHING_FEET
+CLOTHING_GLOVES
+CLOTHING_HEADGEAR
+CLOTHING_HIPS
+CLOTHING_LEGS
+CLOTHING_MASK
+CLOTHING_MELEE
+CLOTHING_SHOULDER
+CLOTHING_VEST
+CLOTHING              //! Same as all the other CLOTHING_* options combined
+UPGRADE               //! If the AI already has a weapon or clothing in slot, 
+                      //! should it be allowed to upgrade?
+DEFAULT               //! Same as WEAPONS_FIREARMS | WEAPONS_LAUNCHERS | WEAPONS_MELEE
+ALL                   //! Same as WEAPONS | BANDAGES | CLOTHING | UPGRADE
