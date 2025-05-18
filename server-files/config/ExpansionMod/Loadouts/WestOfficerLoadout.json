@@ -114,7 +114,27 @@
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []
+                },
+                {
+                    "ClassName": "FOG_SoftCap_MC",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [
+                        {
+                            "Min": 0.699999988079071,
+                            "Max": 1.0,
+                            "Zone": ""
+                        }
+                    ],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
                 }
+
             ],
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],

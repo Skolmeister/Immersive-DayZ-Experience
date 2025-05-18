@@ -6,6 +6,6 @@
     "TerritoryPerimeterSize": 250.0,
     "MaxMembersInTerritory": 10,
     "MaxTerritoryPerPlayer": 3,
-    "TerritoryInviteAcceptRadius": 150.0,
+    "TerritoryInviteAcceptRadius": 1000.0,
     "AuthenticateCodeLockIfTerritoryMember": 0
 }

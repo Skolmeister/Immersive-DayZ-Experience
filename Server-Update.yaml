@@ -1,0 +1,53 @@
+Changelog:
+
+- Central Economy:
+  - Zombie Territorien komplett überarbeitet
+  - Zombie Spawndistanz wurde um 200 Meter angehoben, heißt der Server kann Zombies schon weiter vom Spieler entfernt reinladen (wichtig beim schnellen bewegen über die Map, z.B. mit Heli oder Dingo)
+
+- Items:
+  - neue FOG Items zugefügt
+  - Waffen und Scopes ausgemistet. Neue HQ Waffen und Scopes werden nach und nach wieder zugefügt. Nicht mehr alles ist als freies Loot auffindbar. Spezielle Sachen müssen über Quests oder Events verdient werden
+
+- Spawnsettings:
+  - Neue und zusätzliche Player Spawnpunkte zugefügt
+  - Player und AI Spawnpunkte in Startergebieten wurden weiter voneinander entfernt
+  - Cooldowns für Respawns angepasst > 1 Std eigenens Territorium, 30 Minuten selbiges Startergebiet
+
+- AI Settings:
+  - Freundliche Einheiten können nicht mehr rekrutiert werden (Dies würde sonst nämlich ermöglichen sämtliche Einheiten zu rekrutieren, die nicht feindlich gesinnt sind)
+
+- AI Patrols:
+  - Roaming Survivors (Raiders) Spawnpunkte wurden komplett überarbeitet
+  - Roaming Survivors (Raiders) wurden in Tier 1 - 4 aufgeteilt
+  - Roaming Survivors (Raiders) meiden jetzt einige Gebiete, wie z.B. Traderzones und Faction Camps
+  - West Patrols zugefügt
+  - East Patrols zugefügt
+  - Ghouls Faction AI taucht an passenden Orten auf (Obacht, können viel einstecken und teilen ordentlich aus!)
+  - neue Object Patrols
+
+- Loadouts:
+  - West und East Loadouts überarbeitet
+  - Tier 1 - 4 AI Survivor Loadouts
+  - Shamans Loadout überarbeitet
+  - Ghoul Loadout zugefügt
+  - Chedakit Loadout zugefügt
+
+- Events:
+  - neues Event: Chedaki Straßenblockade / Checkpoint
+
+- Factions:
+  - Bestehende Factions überarbeitet und Diplomatien angepasst
+  - neue Factions: Ghouls, Bounty Hunters, Chernarussian Defence Forces (CDF), Chedaki
+  - Raiders heißen jetzt Looters (Survivor AI)
+
+- Trader:
+  - Schwarzmarkt ist jetzt eröffnet (Müsst ihr finden)
+  - Trader im Faction Camp West
+
+- Quests:
+  - neue Banditencamps
+  - neue East Patrols
+  - Jedes Gruppenmitglied kann Quests annehmen und abschließen und auch Belohnungen einfahren
+
+- Vehicles:
+  - Rus Forma Vehicles Mod zugefügt und einige Spawn eingearbeitet

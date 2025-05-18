@@ -21,15 +21,15 @@
     "QuestNotInGroupText": "Group quests can only be accepted while in a group!",
     "QuestNotGroupOwnerTitle": "Group Quest",
     "QuestNotGroupOwnerText": "Only a group owner can accept and turn-in a group quest!",
-    "GroupQuestMode": 0,
+    "GroupQuestMode": 2,
     "AchievementCompletedTitle": "Achievement \"%1\" completed!",
     "AchievementCompletedText": "%1",
-    "WeeklyResetDay": "Wednesday",
+    "WeeklyResetDay": "Sunday",
     "WeeklyResetMinute": 0,
     "WeeklyResetHour": 2,
     "DailyResetHour": 2,
     "DailyResetMinute": 0,
     "UseUTCTime": 0,
     "UseQuestNPCIndicators": 1,
-    "MaxActiveQuests": -1
+    "MaxActiveQuests": 5
 }

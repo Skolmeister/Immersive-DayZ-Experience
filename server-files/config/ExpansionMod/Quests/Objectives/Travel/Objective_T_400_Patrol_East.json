@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 400,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Recon the enemy patrol",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        9819.0234375,
+        167.21310424804688,
+        10322.2216796875
+    ],
+    "MaxDistance": 5.0,
+    "MarkerName": "Entry Point",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

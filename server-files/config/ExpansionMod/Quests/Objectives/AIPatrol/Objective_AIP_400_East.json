@@ -1,0 +1,197 @@
+{
+    "ConfigVersion": 28,
+    "ID": 400,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Neutralize all units of the East patrol in the vicinity of Dubrovka",
+    "TimeLimit": -1,
+    "Active": 1,
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "AllowedWeapons": [],
+    "AllowedDamageZones": [],
+    "AISpawn": {
+        "Name": "East Patrol Dubrovka",
+        "Persist": 0,
+        "Faction": "East",
+        "Formation": "Column",
+        "FormationLooseness": 0.0,
+        "Loadout": "EastLoadout",
+        "Units": [
+            "eAI_SurvivorF_Eva",
+            "eAI_SurvivorF_Baty",
+            "eAI_SurvivorF_Frida",
+            "eAI_SurvivorF_Gabi",
+            "eAI_SurvivorF_Helga",
+            "eAI_SurvivorF_Irena",
+            "eAI_SurvivorF_Keiko",
+            "eAI_SurvivorF_Linda",
+            "eAI_SurvivorF_Maria",
+            "eAI_SurvivorF_Baty",
+            "eAI_SurvivorM_Boris",
+            "eAI_SurvivorM_Cyril",
+            "eAI_SurvivorM_Denis",
+            "eAI_SurvivorM_Elias",
+            "eAI_SurvivorM_Guo",
+            "eAI_SurvivorM_Jose",
+            "eAI_SurvivorM_Mirek",
+            "eAI_SurvivorM_Kaito",
+            "eAI_SurvivorM_Niki",
+            "eAI_SurvivorM_Oliver",
+            "eAI_SurvivorM_Rolf",
+            "eAI_SurvivorM_Seth",
+            "eAI_SurvivorM_Quinn",
+            "eAI_SurvivorM_Peter",
+            "eAI_SurvivorM_Taiki"
+    ],
+        "NumberOfAI": 8,
+        "Behaviour": "LOOP",
+        "Speed": "WALK",
+        "UnderThreatSpeed": "SPRINT",
+        "CanBeLooted": 1,
+        "UnlimitedReload": 1,
+        "SniperProneDistanceThreshold": 300.0,
+        "AccuracyMin": 0.5,
+        "AccuracyMax": 0.800000011920929,
+        "ThreatDistanceLimit": 300.0,
+        "NoiseInvestigationDistanceLimit": -1.0,
+        "DamageMultiplier": 1.0,
+        "DamageReceivedMultiplier": 1.0,
+        "MinDistRadius": 50.0,
+        "MaxDistRadius": 1000.0,
+        "DespawnRadius": 1100.0,
+        "MinSpreadRadius": 0.0,
+        "MaxSpreadRadius": 0.0,
+        "Chance": 1.0,
+        "WaypointInterpolation": "UniformCubic",
+        "DespawnTime": 1.0,
+        "RespawnTime": 1.0,
+        "UseRandomWaypointAsStartPoint": 1,
+        "Waypoints": [
+            [
+                10217.224609375,
+                152.76170349121094,
+                9721.0087890625
+            ],
+            [
+                10203.859375,
+                152.1260986328125,
+                9757.705078125
+            ],
+            [
+                10250.8505859375,
+                141.866455078125,
+                9802.1494140625
+            ],
+            [
+                10284.22265625,
+                138.0413818359375,
+                9885.6748046875
+            ],
+            [
+                10316.6826171875,
+                132.29299926757812,
+                9969.8505859375
+            ],
+            [
+                10303.2421875,
+                131.21707153320312,
+                10024.9599609375
+            ],
+            [
+                10309.7177734375,
+                129.50038146972656,
+                10076.06640625
+            ],
+            [
+                10289.734375,
+                131.94351196289062,
+                10112.1708984375
+            ],
+            [
+                10250.9287109375,
+                135.27191162109375,
+                10161.33984375
+            ],
+            [
+                10226.0263671875,
+                134.80328369140625,
+                10216.798828125
+            ],
+            [
+                10192.09765625,
+                137.15924072265625,
+                10246.21484375
+            ],
+            [
+                10131.1865234375,
+                145.73703002929688,
+                10243.93359375
+            ],
+            [
+                10075.576171875,
+                151.74807739257812,
+                10245.5283203125
+            ],
+            [
+                10067.0166015625,
+                152.69796752929688,
+                10271.7646484375
+            ],
+            [
+                10093.7705078125,
+                150.50962829589844,
+                10324.19921875
+            ],
+            [
+                10075.41796875,
+                150.882080078125,
+                10345.5341796875
+            ],
+            [
+                10005.6904296875,
+                152.42971801757812,
+                10365.4228515625
+            ],
+            [
+                9943.1787109375,
+                156.92080688476562,
+                10381.7841796875
+            ],
+            [
+                9880.5654296875,
+                164.1937255859375,
+                10415.05859375
+            ],
+            [
+                9814.056640625,
+                169.6291046142578,
+                10455.5322265625
+            ],
+            [
+                9758.125,
+                173.03558349609375,
+                10466.2158203125
+            ],
+            [
+                9713.48828125,
+                177.29867553710938,
+                10466.9345703125
+            ],
+            [
+                9690.2861328125,
+                179.51451110839844,
+                10456.197265625
+            ],
+            [
+                9667.6650390625,
+                181.70037841796875,
+                10429.3203125
+            ],
+            [
+                9637.001953125,
+                181.5745849609375,
+                10431.12109375
+            ]
+        ]
+    }
+}

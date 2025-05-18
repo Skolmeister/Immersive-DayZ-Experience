@@ -731,9 +731,9 @@
         </children>
     </event>
     <event name="StaticBonfire">
-        <nominal>5</nominal>
-        <min>0</min>
-        <max>0</max>
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>10</max>
         <lifetime>86400</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -743,7 +743,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="8" lootmin="4" max="20" min="20" type="Bonfire"/>
         </children>

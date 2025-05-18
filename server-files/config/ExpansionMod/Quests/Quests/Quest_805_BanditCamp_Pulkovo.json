@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 802,
+    "ID": 805,
     "Type": 1,
-    "Title": "Clear Bandit Camp - Sosnovka",
+    "Title": "Clear Bandit Camp - Pulkovo",
     "Descriptions": [
-        "Difficulty: MEDIUM",
+        "Difficulty: HARD",
         "PLACEHOLDER",
         "PLACEHOLDER"
     ],
-    "ObjectiveText": "Bandits have settled in Sosnovka. We have to get rid of them.",
+    "ObjectiveText": "Eliminate all bandits at the marked location.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -16,12 +16,12 @@
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
-    "ObjectSetFileName": "Sosnovka_Camp",
+    "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 80000,
+            "Amount": 240000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -32,7 +32,7 @@
     "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
-    "RewardsForGroupOwnerOnly": 1,
+    "RewardsForGroupOwnerOnly": 0,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
         10
@@ -44,17 +44,17 @@
     "Objectives": [
         {
             "ConfigVersion": 28,
-            "ID": 12,
+            "ID": 14,
             "ObjectiveType": 3
         },
         {
             "ConfigVersion": 28,
-            "ID": 3,
+            "ID": 6,
             "ObjectiveType": 8
         }
     ],
     "QuestColor": -922770176,
-    "ReputationReward": 0,
+    "ReputationReward": 3000,
     "ReputationRequirement": -1,
     "PreQuestIDs": [],
     "RequiredFaction": "",
@@ -63,7 +63,9 @@
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
+    "FactionReputationRewards": {
+        "West": 500
+    },
     "SuppressQuestLogOnCompetion": 0,
     "Active": 1
 }

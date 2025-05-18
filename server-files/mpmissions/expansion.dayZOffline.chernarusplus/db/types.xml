@@ -4090,10 +4090,10 @@
         <usage name="Village"/>
     </type>
     <type name="Broom_Birch">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4708,10 +4708,10 @@
         <category name="food"/>
     </type>
     <type name="Cauldron">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5959,10 +5959,10 @@
         <value name="Tier1"/>
     </type>
     <type name="CrookedNose">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13783,10 +13783,10 @@
         <usage name="School"/>
     </type>
     <type name="MorozkoHat">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20875,10 +20875,10 @@
         <usage name="Village"/>
     </type>
     <type name="WitchHat">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20886,10 +20886,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WitchHood_Black">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20897,10 +20897,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WitchHood_Brown">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20908,10 +20908,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WitchHood_Chainmail_Black">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20941,10 +20941,10 @@
         <category name="clothes"/>
     </type>
     <type name="WitchHood_Red">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20952,10 +20952,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WitchHoodCoif_Black">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20963,10 +20963,10 @@
         <category name="clothes" />
     </type>
     <type name="WitchHoodCoif_Brown">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

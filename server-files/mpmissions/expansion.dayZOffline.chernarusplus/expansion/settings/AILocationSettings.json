@@ -1990,7 +1990,7 @@
             ],
             "Radius": 100.0,
             "Type": "BigMilitary",
-            "Enabled": 1
+            "Enabled": 0
         },
         {
             "Name": "Local_AF_Krasno (Airfield Krasno)",
@@ -2001,7 +2001,7 @@
             ],
             "Radius": 100.0,
             "Type": "MediumMilitary",
-            "Enabled": 1
+            "Enabled": 0
         },
         {
             "Name": "Local_AF_Vybor (Airfield Vybor)",
@@ -2727,7 +2727,7 @@
             ],
             "Radius": 100.0,
             "Type": "SmallMilitary",
-            "Enabled": 1
+            "Enabled": 0
         },
         {
             "Name": "Local_MB_Novoselki (Novoselki Military)",

@@ -1,0 +1,445 @@
+TTC_MAS36
+
+TTC_R700
+
+Waffe:  BO_Mini14
+    Attachm:    BO_Mag_Mini14_20rnd
+        Cargo:  BO_Mag_Mini14_20rnd
+                BO_Mag_Mini14_20rnd
+
+"BO_R700" Chance 0.05
+"HuntingOptic" Chance 0.5
+"BO_Mag_R700_5rnd"
+
+"BO_G43" 0.02
+"ACOGOptic" 0.3
+"M68Optic" 0.1
+"BO_Mag_G43_10Rnd"
+"Ammo_AE792x57" (Cargo) 0.3
+
+"expansion_benellim4" 0.04
+"Ammo_12gaPellets" 1.0 Attachment
+"UniversalLight" 0.2
+"ExpansionReflexMRSOptic" 0.2
+"Ammo_12gaPellets" Cargo
+"Ammo_12gaSlug" Cargo
+
+"FOX_MP153"
+"FOX_MP153_Bttstck" 1.0 Attachment
+"Ammo_12gaPellets" 1.0 Attachment
+"FOX_OKP7_Rail" 0.2 Attachment /with "Battery9v" Attachment 1.0
+"Ammo_12gaPellets" Cargo
+
+BO_R870 0.08
+UniversalLight 0.2
+Ammo_12gaPellets 1.0 Attachment
+Ammo_12gaSlug 0.35 Attachement
+ReflexOptic 0.35 Attachement /with "Battery9v" Attachment 1.0
+
+UMP45 0.1
+Mag_UMP_25Rnd 1.0 Attachement
+UniversalLight 0.2 Attachement /with "Battery9v" Attachment 1.0
+ReflexOptic 0.3 Attachement /with "Battery9v" Attachment 1.0
+ACOGOptic 0.05 Attachement
+PistolSuppressor 0.1 Attachement
+
+Vikhr 0.05
+Mag_Vikhr_30Rnd 1.0
+PSO1Optic 0.2 /with "Battery9v" Attachment 1.0
+PSO11Optic 0.1 /with "Battery9v" Attachment 1.0
+FOX_OKP7 0.2 /with "Battery9v" Attachment 1.0
+KobraOptic 0.3   /with "Battery9v" Attachment 1.0
+
+BO_MP5A2 0.1
+Mag_MP5_30Rnd 1.0 Attachement
+UniversalLight 0.2 Attachement /with "Battery9v" Attachment 1.0
+ReflexOptic 0.3 Attachement /with "Battery9v" Attachment 1.0
+BO_Eotech552 0.1 Attachement
+MP5_Compensator 0.25 Attachement
+
+BO_G3A3 0.12
+BO_Mag_G3A3_20rnd 1.0 Attachement
+
+FAMAS
+Mag_FAMAS_25Rnd
+
+ASVAL 0.05
+Mag_VAL_20Rnd 1.0 Attachment
+Mag_Vikhr_30Rnd 0.5 Attachment
+Mag_VSS_10Rnd 0.2 Attachment
+UniversalLight 0.2 Attachment /with "Battery9v" Attachment 1.0
+ReflexOptic 0.3 Attachment /with "Battery9v" Attachment 1.0
+ACOGOptic 0.12 Attachment
+ACOGOptic_6x 0.05 Attachment
+M68Optic 0.12 Attachment /with "Battery9v" Attachment 1.0
+Mag_VAL_20Rnd 1.0 Cargo
+Mag_Vikhr_30Rnd 0.15 Cargo
+Mag_VSS_10Rnd 0.5 Cargo
+
+VSS
+Mag_VSS_10Rnd
+Mag_VSS_10Rnd 1.0 Attachment
+PSO1Optic 0.5 /with "Battery9v" Attachment 1.0
+PSO11Optic 1.0 /with "Battery9v" Attachment 1.0
+
+SV98 0.15
+Mag_SV98_10Rnd 1.0
+ACOGOptic 0.5 Attachment
+ACOGOptic_6x 0.1 Attachment
+BO_DragonScope 0.4 Attachment
+TTC_VortexSE_Optic 0.4 Attachment
+TTC_G28_Optic_Black 0.05 Attachment
+TTC_Universal_Suppressor_BLACK 0.1 Attachment
+TTC_DMR_Suppressor 0.05 Attachment
+
+Pistolen:
+
+MakarovIJ70
+    Mag_IJ70_8Rnd 1.0
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+
+IDE_MakarovIJ70_Red
+    Mag_IJ70_8Rnd 1.0
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+
+CZ75
+    Mag_CZ75_15Rnd 1.0
+    PistolSuppressor 0.1
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+Glock19
+    Mag_Glock_15Rnd 1.0
+    PistolSuppressor 0.1
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+P1
+    Mag_P1_8Rnd 1.0
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+Magnum
+    Ammo_357 1.0
+
+FNX45
+    Mag_FNX45_15Rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+Colt1911
+    Mag_1911_7Rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+
+Engraved1911
+    Mag_1911_7Rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+Deagle
+    Mag_Deagle_9rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolOptic 0.15
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+Deagle_Gold
+    Mag_Deagle_9rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolOptic 0.15
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+Derringer_Black
+    Ammo_357 1.0
+
+Derringer_Pink
+    Ammo_357 1.0
+
+Derringer_Grey
+    Ammo_357 1.0
+
+LongHorn
+    Ammo_308Win 1.0
+    Ammo_308WinTracer 0.1
+    PistolOptic 0.15
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+MKII
+    Mag_MKII_10Rnd 1.0
+    Ammo_22 1.0
+
+IDE_MKII_Black
+    Mag_MKII_10Rnd 1.0
+    Ammo_22 1.0
+
+FlareGun
+    Ammo_Flare
+    Ammo_FlareRed
+    Ammo_FlareGreen
+    Ammo_FlareBlue
+
+BO_RagingBull
+    Ammo_357 1.0
+
+FOX_FN57
+    FOX_Mag_FN57_20rnd 1.0
+    FOX_Mag_FN57_30rnd 0.5
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+FOX_P99
+    FOX_Mag_P99_15rnd 1.0
+    TLRLight 0.25 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+
+TTC_M9
+    TTC_Mag_M9_15Rnd 1.0
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+TTC_M9_Custom
+    TTC_Mag_M9_Custom_20Rnd 1.0
+    TTC_Mag_M9_15Rnd 0.5
+    TLRLight 0.25 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+
+
+BO_MK23
+    BO_Mag_MK23_12rnd 1.0
+    BO_MK23_LAM 0.35 /with "Battery9v" Attachment 0.5
+    BO_MK23_Suppressor 0.1
+    TLRLight 0.05 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolSuppressor 0.05
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+FOX_MP443
+    FOX_Mag_MP443 1.0
+    PistolSuppressor 0.15
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+TTC_P320
+    TTC_P320_17Rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+BO_Glock18c
+    BO_Mag_Glock18C_17rnd 1.0
+    BO_Mag_Glock18C_33rnd 0.33
+    BO_Mag_Glock18C_50rnd 0.03
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+FOX_COLT1911_TAC
+    FOX_Mag_1911_10Rnd 1.0
+    Mag_1911_7Rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    FOX_45ACP_Suppressor1 0.05
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+TTC_Deagle
+    TTC_Deagle_Magazine_7rnd
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolOptic 0.15
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+BO_P30L_Black
+    BO_Mag_P30L_15rnd 1.0
+    BO_P30L_Compensator 0.2
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+
+BO_P30L_Grey
+    BO_Mag_P30L_15rnd 1.0
+    BO_P30L_Compensator 0.2
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+BO_RugerMkIV_Red
+    BO_Mag_RugerMkIV_10Rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolOptic 0.15
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+BO_RugerMkIV_Black
+    BO_Mag_RugerMkIV_10Rnd 1.0
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolOptic 0.15
+    FNP45_MRDSOptic 0.05
+    TTC_Pistol_Optic 0.05
+    ExpansionDeltaPointOptic 0.05
+    PistolSuppressor 0.10
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+
+FOX_SR1
+    FOX_Mag_SR1 1.0
+    FOX_SR1_Suppressor 0.2
+    TLRLight 0.15 /with "Battery9v" Attachment 0.5
+    TTC_Pistol_Light 0.05 /with "Battery9v" Attachment 0.5
+    PistolSuppressor 0.03
+    TTC_PistolSuppressor 0.03
+    TTC_Universal_Suppressor_BLACK 0.02
+    TTC_Universal_Suppressor_CAMO 0.01
+    TTC_Universal_Suppressor_TAN 0.005
+    TTC_Universal_Suppressor_SNOW 0.005
+

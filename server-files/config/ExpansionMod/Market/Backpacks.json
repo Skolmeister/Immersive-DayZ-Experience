@@ -385,6 +385,24 @@
                 "FOG_Bag_DrawBridge_White"
             ]
         },
+        {
+            "ClassName": "FOG_Bag_SATL_MC",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Bag_SATL_RG",
+                "FOG_Bag_SATL_CB",
+                "FOG_Bag_SATL_KHK",
+                "FOG_Bag_SATL_Black",
+                "FOG_Bag_SATL_Grey"
+
+            ]
+        },
 		{
             "ClassName": "FOG_Bag_F4Terminator",
             "MaxPriceThreshold": 9000,
