@@ -1,0 +1,24 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_TRADER_MAGAZINES",
+    "MinRequiredReputation": 2000,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Shotgun Bullets",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Magazines_Pistol",
+        "Magazines_Rifle",
+        "Magazines_SMG",
+        "Magazines_Drum",
+        "Magazines_Coupled",
+        "Magazines_Belt_Boxes"
+    ],
+    "Items": {
+    }
+}

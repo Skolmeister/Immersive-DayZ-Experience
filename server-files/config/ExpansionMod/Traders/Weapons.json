@@ -5,7 +5,7 @@
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
-    "TraderIcon": "Shotgun",
+    "TraderIcon": "Gun",
     "Currencies": [
         "expansionbanknotehryvnia"
     ],
@@ -19,18 +19,16 @@
         "Sniper_Rifles",
         "Shotguns",
         "Crossbows",
-        "Melee_Weapons",
         "Machine_Guns",
-        "Ammo",
-        "Ammo_Boxes",
-        "Knifes",
+        "Ammo:3",
         "Magazines:3",
         "Muzzles:3",
         "Bayonets:3",
         "Optics:3",
         "Buttstocks:3",
         "Handguards:3",
-        "Barrels_and_Frames:3"
+        "Weapon_Parts:3",
+        "Grips: 3"
     ],
     "Items": {
         "expansionammorpg": 3,

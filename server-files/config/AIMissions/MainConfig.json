@@ -18,27 +18,27 @@
             "Mission_AI_Spawn_Radius": 1200,
             "Reward_Loot_Weapons_Minimum": 1,
             "Reward_Loot_Weapons_Maximum": 2,
-            "Reward_Loot_Weapons_Multiplier": 0.75,
+            "Reward_Loot_Weapons_Multiplier": 0.25,
             "Reward_Loot_Armour_Minimum": 1,
             "Reward_Loot_Armour_Maximum": 2,
             "Reward_Loot_Armour_Multiplier": 0.5,
             "Reward_Loot_Misc_Minimum": 1,
-            "Reward_Loot_Misc_Maximum": 4,
+            "Reward_Loot_Misc_Maximum": 5,
             "Reward_Loot_Misc_Multiplier": 0.5,
             "Text_MissionTitle": "AI Mission",
             "Notification_StartMessage": "Mission '%1' starting! Eliminate all threats to claim the loot!",
             "Notification_WinMessage": "Mission '%1' completed! All threats were eliminated!",
             "Notification_LoseMessage": "Mission '%1' failed! You ran out of time!",
-            "Notification_Time": 10,
+            "Notification_Time": 20,
             "Notification_Marker": "Soldier",
             "Marker3D_LB_Path": "LBmaster_Groups\\gui\\icons\\player.paa",
             "Markers_Icon": "",
             "Markers_Show2D": 1,
-            "Markers_Show3D": 0,
+            "Markers_Show3D": 1,
             "Markers_ColourAlpha": 255,
-            "Markers_ColourRed": 255,
-            "Markers_ColourGreen": 0,
-            "Markers_ColourBlue": 0,
+            "Markers_ColourRed": 221,
+            "Markers_ColourGreen": 176,
+            "Markers_ColourBlue": 36,
             "Markers_CircleRadius": 350,
             "Debug_Logging_Enabled": 1,
             "Debug_Disable_Notifications": 0,
@@ -50,39 +50,83 @@
     ],
     "Missions": [
         {
-            "Name": "NWAF Runway",
+            "Name": "Ursus Group at NWAF!",
             "Position": [
-                4176.365234375,
-                338.7732238769531,
-                10725.6533203125
+                4331.8681640625,
+                338.22406005859377,
+                10472.3916015625
             ],
-            "Bots_Count_Minimum": 5,
-            "Bots_Count_Maximum": 8,
-            "Bots_Expansion_Loadout": "",
+            "Bots_Count_Minimum": 8,
+            "Bots_Count_Maximum": 10,
+            "Bots_Expansion_Loadout": "UrsusLoadout",
             "Bots_Loadout_ID": 1,
             "Bots_Range": 800,
-            "Bots_Accuracy": 0.5,
+            "Bots_Accuracy": 0.65,
             "Bots_Damage_Done_Multiplier": 1.0,
             "Bots_Damage_Taken_Multiplier": 1.0,
             "Bots_Drop_Loot": 1,
             "Bots_Drop_Weapon": 1,
             "Is_NBC_Mission": 0,
             "Allow_Crate_Reward": 1,
-            "Allow_Vehicle_Reward": 1,
-            "Static_Objects": []
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_HA_Heli_1",
+                    "Scale": 0.9999881386756897,
+                    "Position": [
+                        4331.3642578125,
+                        340.42987060546875,
+                        10465.4521484375
+                    ],
+                    "Rotation": [
+                        -44.99999237060547,
+                        -0.21611343324184418,
+                        0.43206799030303955
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_ammoboxes_single",
+                    "Scale": 1.0,
+                    "Position": [
+                        4335.76318359375,
+                        338.7226867675781,
+                        10469.638671875
+                    ],
+                    "Rotation": [
+                        80.99992370605469,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_ammoboxes_single",
+                    "Scale": 1.0,
+                    "Position": [
+                        4335.7587890625,
+                        339.10418701171875,
+                        10469.626953125
+                    ],
+                    "Rotation": [
+                        79.199951171875,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
         },
         {
-            "Name": "Downed Helicopter",
+            "Name": "Bandits at Novaya industrial complex!",
             "Position": [
-                144.31246948242188,
-                319.55841064453127,
-                8073.83740234375
+                3828.32568359375,
+                189.21829223632813,
+                13021.140625
             ],
-            "Bots_Count_Minimum": 3,
-            "Bots_Count_Maximum": 5,
-            "Bots_Expansion_Loadout": "",
+            "Bots_Count_Minimum": 8,
+            "Bots_Count_Maximum": 12,
+            "Bots_Expansion_Loadout": "BanditLoadout",
             "Bots_Loadout_ID": 1,
-            "Bots_Range": 400,
+            "Bots_Range": 500,
             "Bots_Accuracy": 0.5,
             "Bots_Damage_Done_Multiplier": 1.0,
             "Bots_Damage_Taken_Multiplier": 1.0,
@@ -91,18 +135,595 @@
             "Is_NBC_Mission": 0,
             "Allow_Crate_Reward": 1,
             "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
             "Static_Objects": [
                 {
-                    "ClassName": "StaticObj_Wreck_Mi8_Crashed",
-                    "Scale": 1.0,
+                    "ClassName": "Land_HA_Truck_3",
+                    "Scale": 0.9986984729766846,
                     "Position": [
-                        144.06399536132813,
-                        321.1470031738281,
-                        8068.35986328125
+                        3818.604736328125,
+                        189.69686889648438,
+                        13022.4521484375
                     ],
                     "Rotation": [
-                        -69.11962890625,
+                        62.99997329711914,
+                        -4.849382400512695,
+                        -1.4660060405731201
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Misc_WoodenCrate_3x",
+                    "Scale": 1.0,
+                    "Position": [
+                        3814.59619140625,
+                        190.73219299316406,
+                        13017.3271484375
+                    ],
+                    "Rotation": [
+                        36.00001907348633,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Misc_WoodenCrate_5x",
+                    "Scale": 1.0,
+                    "Position": [
+                        3823.292724609375,
+                        190.60916137695312,
+                        13018.8017578125
+                    ],
+                    "Rotation": [
+                        -62.99997329711914,
                         0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Slum_Roof4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3817.8603515625,
+                        190.5541534423828,
+                        13012.326171875
+                    ],
+                    "Rotation": [
+                        -18.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Slum_Roof6",
+                    "Scale": 1.0,
+                    "Position": [
+                        3827.453857421875,
+                        189.14102172851562,
+                        13031.626953125
+                    ],
+                    "Rotation": [
+                        -53.9999885559082,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Slum_Roof3",
+                    "Scale": 1.0,
+                    "Position": [
+                        3810.434326171875,
+                        190.7100830078125,
+                        13024.0380859375
+                    ],
+                    "Rotation": [
+                        -62.99997329711914,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Shamans holded up at Krona Castle!",
+            "Position": [
+                1417.8109130859376,
+                308.8882141113281,
+                9259.5185546875
+            ],
+            "Bots_Count_Minimum": 8,
+            "Bots_Count_Maximum": 10,
+            "Bots_Expansion_Loadout": "ShamanLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.65,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": [
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1426.4046630859375,
+                        311.44287109375,
+                        9293.830078125
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1390.5780029296875,
+                        303.32861328125,
+                        9272.8388671875
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1450.002197265625,
+                        291.98919677734375,
+                        9222.33203125
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "SV_Deadhead",
+                    "Scale": 1.0,
+                    "Position": [
+                        1505.08056640625,
+                        298.78424072265625,
+                        9187.181640625
+                    ],
+                    "Rotation": [
+                        134.9999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "SV_Deadhead",
+                    "Scale": 1.0,
+                    "Position": [
+                        1502.7354736328125,
+                        298.6891174316406,
+                        9184.4580078125
+                    ],
+                    "Rotation": [
+                        134.9999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1382.66064453125,
+                        334.1156005859375,
+                        9259.2099609375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1364.9122314453125,
+                        291.6000061035156,
+                        9307.73828125
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1420.3587646484375,
+                        308.8370361328125,
+                        9260.005859375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1488.0557861328125,
+                        312.5398254394531,
+                        9178.2919921875
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_prop_Fireplace",
+                    "Scale": 1.0,
+                    "Position": [
+                        1394.548828125,
+                        325.3608093261719,
+                        9287.2529296875
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Ghouls roaming Pustoshka Graveyard!",
+            "Position": [
+                2932.534423828125,
+                304.5224609375,
+                8049.625
+            ],
+            "Bots_Count_Minimum": 8,
+            "Bots_Count_Maximum": 12,
+            "Bots_Expansion_Loadout": "GhoulLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.7,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": [
+                {
+                    "ClassName": "SV_Deadhead",
+                    "Scale": 1.0,
+                    "Position": [
+                        2932.634765625,
+                        305.15802001953125,
+                        8054.3427734375
+                    ],
+                    "Rotation": [
+                        -53.999942779541016,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "SV_Deadhead",
+                    "Scale": 1.0,
+                    "Position": [
+                        2928.173095703125,
+                        305.2282409667969,
+                        8050.1435546875
+                    ],
+                    "Rotation": [
+                        -53.999942779541016,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_pile4",
+                    "Scale": 1.0,
+                    "Position": [
+                        2941.620849609375,
+                        305.162841796875,
+                        8039.59716796875
+                    ],
+                    "Rotation": [
+                        -9.000009536743164,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_pile4",
+                    "Scale": 1.0,
+                    "Position": [
+                        2914.3798828125,
+                        304.58203125,
+                        8057.01611328125
+                    ],
+                    "Rotation": [
+                        26.99998664855957,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_pile1",
+                    "Scale": 0.9999999403953552,
+                    "Position": [
+                        2923.9931640625,
+                        304.6377868652344,
+                        8057.853515625
+                    ],
+                    "Rotation": [
+                        -25.199983596801758,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_MassGrave_8m",
+                    "Scale": 0.9999999403953552,
+                    "Position": [
+                        2935.2822265625,
+                        304.90997314453125,
+                        8044.9697265625
+                    ],
+                    "Rotation": [
+                        -44.99998092651367,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_MassGrave_15m",
+                    "Scale": 1.0,
+                    "Position": [
+                        2881.389892578125,
+                        304.1104431152344,
+                        8096.7333984375
+                    ],
+                    "Rotation": [
+                        44.99999237060547,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_MassGrave",
+                    "Scale": 1.0,
+                    "Position": [
+                        2906.970947265625,
+                        304.3350524902344,
+                        8080.87939453125
+                    ],
+                    "Rotation": [
+                        -35.999996185302734,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_pile1",
+                    "Scale": 1.0,
+                    "Position": [
+                        2923.8525390625,
+                        304.378173828125,
+                        8067.83984375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Dead_pile1",
+                    "Scale": 1.0,
+                    "Position": [
+                        2895.922119140625,
+                        304.5911865234375,
+                        8057.69775390625
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Researchers Crew at Rify Wreck!",
+            "Position": [
+                13723.1806640625,
+                1.8524208068847657,
+                11170.701171875
+            ],
+            "Bots_Count_Minimum": 6,
+            "Bots_Count_Maximum": 8,
+            "Bots_Expansion_Loadout": "ResearcherLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 500,
+            "Bots_Accuracy": 0.5,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": [
+                {
+                    "ClassName": "bldr_lab_bench",
+                    "Scale": 0.9999999403953552,
+                    "Position": [
+                        13713.9384765625,
+                        1.6127985715866089,
+                        11166.462890625
+                    ],
+                    "Rotation": [
+                        -27.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_lab_microscope",
+                    "Scale": 0.9999992847442627,
+                    "Position": [
+                        13714.111328125,
+                        2.462799549102783,
+                        11166.4833984375
+                    ],
+                    "Rotation": [
+                        -134.9999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_lab_petri_dish",
+                    "Scale": 0.9999538064002991,
+                    "Position": [
+                        13713.8447265625,
+                        2.4707045555114746,
+                        11166.302734375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_lab_erlenmeyer_flask",
+                    "Scale": 0.9999538064002991,
+                    "Position": [
+                        13714.3427734375,
+                        2.522610664367676,
+                        11166.578125
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_lab_bunsen",
+                    "Scale": 0.9999983906745911,
+                    "Position": [
+                        13713.435546875,
+                        2.462799549102783,
+                        11166.2236328125
+                    ],
+                    "Rotation": [
+                        -161.9998779296875,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_mil_camonet_tent2",
+                    "Scale": 1.0,
+                    "Position": [
+                        13713.1455078125,
+                        4.501602649688721,
+                        11168.23828125
+                    ],
+                    "Rotation": [
+                        9.000143051147461,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_tent_stretcher",
+                    "Scale": 1.0,
+                    "Position": [
+                        13713.71484375,
+                        1.6708853244781494,
+                        11168.3671875
+                    ],
+                    "Rotation": [
+                        -53.9999885559082,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_misc_antenna",
+                    "Scale": 1.0,
+                    "Position": [
+                        13720.798828125,
+                        4.982170104980469,
+                        11164.02734375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_HA_Boat_3",
+                    "Scale": 1.0,
+                    "Position": [
+                        13737.9072265625,
+                        0.9200997352600098,
+                        11146.7607421875
+                    ],
+                    "Rotation": [
+                        71.99987030029297,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_HA_Boat_3",
+                    "Scale": 0.9999999403953552,
+                    "Position": [
+                        13744.75,
+                        0.643310546875,
+                        11153.587890625
+                    ],
+                    "Rotation": [
+                        35.99985504150391,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_HA_Boat_3",
+                    "Scale": 1.0,
+                    "Position": [
+                        13741.8994140625,
+                        0.9965839385986328,
+                        11164.7021484375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        -0.0,
                         -0.0
                     ]
                 }
@@ -257,10 +878,123 @@
         },
         {
             "Reward_Type": 1,
+            "ClassName": "woodencrate",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
             "ClassName": "Barrel_Blue",
             "Replace_ClassName": "",
             "Loot_Initial": [],
             "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "barrel_green",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Barrel_red",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Barrel_yellow",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Msp_MilitaryCrate_Brown",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Msp_MilitaryCrate_Grey",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Msp_MilitaryCrate_Green",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Msp_MilitaryCrate_Olive",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Msp_MilitaryCrate_Tan",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "sedan_02",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "sedan_02_wheel",
+                "sedan_02_wheel",
+                "sedan_02_wheel",
+                "sedan_02_wheel",
+                "sedan_02_wheel",
+                "carradiator",
+                "sedan_02_hood",
+                "sedan_02_trunk",
+                "sedan_02_door_1_1",
+                "sedan_02_door_2_1",
+                "sedan_02_door_1_2",
+                "sedan_02_door_2_2",
+                "headlighth7",
+                "headlighth7"
+            ],
+            "Loot_Win": [
+                "carbattery",
+                "sparkplug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "civiliansedan",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "civsedanwheel",
+                "civsedanwheel",
+                "civsedanwheel",
+                "civsedanwheel",
+                "civsedanwheel",
+                "carradiator",
+                "civsedanhood",
+                "civsedantrunk",
+                "civsedandoors_driver",
+                "civsedandoors_codriver",
+                "civsedandoors_backleft",
+                "civsedandoors_backright",
+                "headlighth7",
+                "headlighth7"
+            ],
+            "Loot_Win": [
+                "carbattery",
+                "SparkPlug"
+            ]
         },
         {
             "Reward_Type": 2,
@@ -329,6 +1063,101 @@
                 "CarBattery",
                 "SparkPlug"
             ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "expansion_landrover",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "expansion_landrover_hood",
+                "expansion_landrover_driverdoor",
+                "expansion_landrover_codriverdoor",
+                "expansion_landrover_left",
+                "expansion_landrover_right",
+                "expansion_landrover_trunk",
+                "carradiator",
+                "headlighth7",
+                "headlighth7",
+                "canistergasoline",
+                "seachest",
+                "woodencrate",
+                "woodencrate",
+                "woodencrate",
+                "expansion_landrover_wheel",
+                "expansion_landrover_wheel",
+                "expansion_landrover_wheel",
+                "expansion_landrover_wheel",
+                "expansion_landrover_wheel"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "Dingo",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "DingoDoors_Driver",
+                "DingoDoors_CoDriver",
+                "DingoDoors_Cargo1",
+                "DingoDoors_Cargo2",
+                "DingoHood",
+                "DingoTrunk",
+                "DingoWheel",
+                "DingoWheel",
+                "DingoWheel",
+                "DingoWheel",
+                "DingoWheel",
+                "headlighth7",
+                "headlighth7",
+                "CarRadiator"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "expansionvodnik",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "expansionvodnikwheel",
+                "expansionvodnikwheel",
+                "expansionvodnikwheel",
+                "expansionvodnikwheel",
+                "carradiator",
+                "expansionvodnikdoordriver",
+                "expansionvodnikdoorcodriver",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "truckbattery",
+                "sparkplug"
+            ]
+        },
+        {
+            "Reward_Type": 3,
+            "ClassName": "expansiongyrocopter",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": [
+                "expansionhelicopterbattery",
+                "sparkplug"
+            ]
+        },
+        {
+            "Reward_Type": 3,
+            "ClassName": "expansionbiggyrocopter",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": [
+                "expansionhelicopterbattery",
+                "sparkplug"
+            ]
         }
     ],
     "Loot": [
@@ -343,7 +1172,8 @@
                     ],
                     "Loot": [
                         "Mag_FAL_20Rnd",
-                        "Mag_FAL_20Rnd"
+                        "Mag_FAL_20Rnd",
+                        "weaponcleaningkit"
                     ]
                 },
                 {
@@ -354,7 +1184,123 @@
                     ],
                     "Loot": [
                         "Mag_SVD_10Rnd",
-                        "Mag_SVD_10Rnd"
+                        "Mag_SVD_10Rnd",
+                        "weaponcleaningkit"
+                    ]
+                },
+                {
+                    "ClassName": "BO_Glock18c",
+                    "Magazine_ClassName": "BO_Mag_Glock18C_33rnd",
+                    "Attach": [
+                        "TLRLight",
+                        "FNP45_MRDSOptic",
+                        "TTC_Universal_Suppressor_BLACK"
+                    ],
+                    "Loot": [
+                        "battery9v",
+                        "BO_Mag_Glock18C_33rnd",
+                        "BO_Mag_Glock18C_33rnd",
+                        "weaponcleaningkit"
+                    ]
+                },
+                {
+                    "ClassName": "IDE_APS",
+                    "Magazine_ClassName": "IDE_Mag_APS_20rnd",
+                    "Attach": [
+                        "FOX_APS_Suppressor"
+                    ],
+                    "Loot": [
+                        "IDE_Mag_APS_20rnd",
+                        "IDE_Mag_APS_20rnd"
+                    ]
+                },
+                {
+                    "ClassName": "FOX_Evo",
+                    "Magazine_ClassName": "FOX_Mag_EVO",
+                    "Attach": [
+                        "FOX_EVO_hndgrd",
+                        "FOX_EVO_Bttstck",
+                        "FOX_EVO_REAR_SIGHT"
+                    ],
+                    "Loot": [
+                        "FOX_Mag_EVO",
+                        "FOX_Mag_EVO",
+                        "weaponcleaningkit"
+                    ]
+                },
+                                {
+                    "ClassName": "BO_SPAS12_SemiAuto",
+                    "Magazine_ClassName": "",
+                    "Attach": [
+                    ],
+                    "Loot": [
+                        "AmmoBox_12gaSlug_10Rnd",
+                        "AmmoBox_12gaSlug_10Rnd",
+                        "AmmoBox_12gaSlug_10Rnd",
+                        "weaponcleaningkit"
+                    ]
+                },
+
+                {
+                    "ClassName": "IDE_AWSM",
+                    "Magazine_ClassName": "TTC_AWM_Magazine_5rnd",
+                    "Attach": [
+                        "TTC_G28_Optic"
+                    ],
+                    "Loot": [
+                        "TTC_AWM_Magazine_5rnd",
+                        "TTC_AWM_Magazine_5rnd",
+                        "weaponcleaningkit"
+                    ]
+                },
+                                {
+                    "ClassName": "FOX_AK102",
+                    "Magazine_ClassName": "FOX_Mag_AK101_30rnd",
+                    "Attach": [
+                        "FOX_AK_Bttstck_Polimer_Folding",
+                        "FOX_AKS74U_Compensator",
+                        "FOX_AK_polimer_hndgrd"
+                    ],
+                    "Loot": [
+                        "FOX_Mag_AK101_30rnd",
+                        "FOX_Mag_AK101_30rnd",
+                        "weaponcleaningkit"
+                    ]
+                },
+
+                {
+                    "ClassName": "IDE_G3A3",
+                    "Magazine_ClassName": "TTC_G3_Magazine_20rnd",
+                    "Attach": [
+                        "TTC_DMR_Suppressor",
+                        "BO_ACOGOptic_Chevron_Green"
+                    ],
+                    "Loot": [
+                        "TTC_G3_Magazine_20rnd",
+                        "TTC_G3_Magazine_20rnd",
+                        "weaponcleaningkit"
+                    ]
+                },
+                                {
+                    "ClassName": "IDE_G36A1",
+                    "Magazine_ClassName": "BO_Mag_PMAGWindow_30rnd",
+                    "Attach": [
+                        "IDE_G36Optic"
+                    ],
+                    "Loot": [
+                        "BO_Mag_PMAGWindow_30rnd",
+                        "BO_Mag_PMAGWindow_30rnd",
+                        "weaponcleaningkit"
+                    ]
+                },
+                                                {
+                    "ClassName": "IDE_G36A1",
+                    "Magazine_ClassName": "BO_Mag_PMAGWindow_30rnd",
+                    "Attach": [],
+                    "Loot": [
+                        "BO_Mag_PMAGWindow_30rnd",
+                        "BO_Mag_PMAGWindow_30rnd",
+                        "weaponcleaningkit"
                     ]
                 }
             ],
@@ -388,41 +1334,3161 @@
                     "ClassName": "BallisticHelmet_Woodland",
                     "Attach": [],
                     "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_AVS_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_AVS_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_AVS_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_AVS_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_AVS_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_AVS_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_AVS_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_JPC_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_JPC_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_JPC_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_JPC_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_JPC_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_JPC_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_JPC_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_CPC_ATACS",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LBT6094_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LBT6094_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LBT6094_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LBT6094_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LBT6094_Blue",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LBT6094_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LBT6094_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TacTec_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TacTec_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TacTec_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TacTec_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TacTec_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TacTec_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TacTec_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_MMAC_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_MMAC_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_MMAC_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_MMAC_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_MMAC_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TV110T_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TV110T_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TV110T_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TV110T_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TV110T_AU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TV110T_FG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_TV110T_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_FCPC_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LV119_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LV119_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LV119_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LV119_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LV119_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LV119_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LV119_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LVMBAV_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LVMBAV_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LVMBAV_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_LVMBAV_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_PACA_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Thor_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Thor_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Thor_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Thor_EMR",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Thor_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Thor_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Thor_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_MC_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Osprey_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Gen4_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Gen4_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Gen4_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Gen4_EMR",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Gen4_UCP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Gen4_NWU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_Gen4_MARPAT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_SSMK4_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_D3CRX_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_D3CRX_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_D3CRX_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_D3CRX_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_CB_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_RG_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_MC_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_DNC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_DTGR",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MTEK_Flux_KBTGR",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Airframe_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Airframe_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Airframe_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Airframe_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Airframe_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_Bump_ERDL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FASTMT_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_Tan_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_RG_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_MudTan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_CB_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_MCB2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_ERDL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_FAST_SF_ERDL_BLK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_TanRattle",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_RGRattle",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_MICH2000_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Exfil_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Exfil_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Exfil_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Helmet_Exfil_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_BISON_Belt_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_BISON_Belt_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_BISON_Belt_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_BISON_Belt_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_BISON_Belt_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Belt_RTGFB_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Belt_RTGFB_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Belt_RTGFB_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Belt_RTGFB_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Belt_RTGFB_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Belt_RTGFB_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Belt_RTGFB_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_ATACSAU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_6CD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_MRB_Belt_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_White",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_CommsBag_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_6ShBagT_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_6ShBagT_BlackEMR",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_6ShBagT_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_6ShBagT_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_6ShBagT_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_6ShBagT_White",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_6ShBagT_EMR_White",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bergen_Rucksack_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bergen_Rucksack_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bergen_Rucksack_Woodland",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bergen_Rucksack_Multicam",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bergen_Rucksack_ERDL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_DrawBridge_White",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_F4Terminator",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_F4Terminator_BlackTiger",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_F4Terminator_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_F4Terminator_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_F4Terminator_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_F4Terminator_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_MRASAP_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_MRASAP_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_MRASAP_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_MRASAP_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_MRASAP_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_ERDL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_BlackJack_KHK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SSO_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SSO_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SSO_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SSO_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SSO_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SSO_Toxic",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_Puke",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_RGCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_MARPAT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_ATACSFG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_DCU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_ERDL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_Trizip_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SATL_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SATL_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SATL_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SATL_KHK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SATL_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Bag_SATL_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_White",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_WinterGloves_Red",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Red",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Blue",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_White",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_White_TanTrim",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Black_WhiteTrim",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Black_BlueTrim",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Black_RedTrim",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_Black_TanTrim",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FerroGloves_AJ",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Tactical_Fingerless_Gloves_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Tactical_Fingerless_Gloves_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Tactical_Fingerless_Gloves_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Tactical_Fingerless_Gloves_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Tactical_Fingerless_Gloves_Red",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GunGloves_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Small_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Small_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Small_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Small_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Small_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Small_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Small_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Spiritus_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Spiritus_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Spiritus_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Spiritus_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Spiritus_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Admin_Spiritus_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Tall_Spiritus_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Tall_Spiritus_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Tall_Spiritus_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Tall_Spiritus_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Tall_Spiritus_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Tall_Spiritus_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_KHK",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_FannyPack_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_Spiritus_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_Spiritus_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_Spiritus_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_Spiritus_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_Spiritus_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Belly_Spiritus_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_TraumaRoll_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Grenade_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Grenade_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Grenade_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Grenade_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Grenade_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_IFAK_Brown",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_IFAK_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_IFAK_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_IFAK_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_IFAK_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_AVS_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_AVS_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_AVS_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_AVS_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_AVS_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_AVS_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_AVS_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Dope_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_DW_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Kangaroo_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Kangaroo_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Kangaroo_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Kangaroo_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Kangaroo_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Kangaroo_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_Kangaroo_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_BlueFor_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_BlueFor_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_BlueFor_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_BlueFor_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_BlueFor_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_BlueFor_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_BlueFor_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_KTAR_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_MCAL",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_TEAR_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_LV119_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_LV119_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_LV119_OD",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_LV119_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_LV119_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_LV119_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_MCA",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_MCT",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Mag_SSMK4_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_JPC_Panel_CB_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_JPC_Panel_RG_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_JPC_Panel_Black_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_JPC_Panel_MC_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_JPC_Panel_AOR1_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_JPC_Panel_AOR2_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_Black_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_CB_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_RG_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_Grey_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_MC_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_MCT_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_MCA_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_ALP_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_M81_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_ALP_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_AOR1_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_FC_Panel_AOR2_Flag_US",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Panel_MapPackMed_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Panel_MapPackMed_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Panel_MapPackMed_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Panel_MapPackMed_Khk",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_PhoneCase1_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_PhoneCase1_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_PhoneCase1_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Vest_PhoneCase1_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Tourniquet",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Dump_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Dump_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Dump_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Dump_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Dump_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Dump_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_SingleMag_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_SingleMag_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_SingleMag_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_SingleMag_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_SingleMag_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Esstac_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Esstac_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Esstac_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Esstac_AOR1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Esstac_AOR2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Esstac_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_Esstac_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_RTGFB_Holster_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_RTGFB_Holster_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_RTGFB_Holster_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_RTGFB_Holster_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_RTGFB_Holster_ALP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_SAS_Holster_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_SAS_Holster_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_SAS_Holster_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_SAS_Holster_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_SAS_Holster_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_SAS_Holster_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_SAS_Holster_M81",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_LBT_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Pouch_LBT_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_MagPouches_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_MagPouches_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_MagPouches_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_MagPouches_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_MagPouches_AU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_MagPouches_FG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_MagPouches_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_AdminPouch_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_AdminPouch_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_AdminPouch_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_AdminPouch_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_AdminPouch_AU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_AdminPouch_FG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_AdminPouch_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_FastMag_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_FastMag_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_FastMag_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_FastMag_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_FastMag_AU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_FastMag_FG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_FastMag_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_GrenadePouch_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_GrenadePouch_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_GrenadePouch_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_GrenadePouch_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_GrenadePouch_AU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_GrenadePouch_FG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_GrenadePouch_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_Medkit_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_Medkit_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_Medkit_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_Medkit_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_Medkit_AU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_Medkit_FG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_Medkit_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_UtilityPouch_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_UtilityPouch_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_UtilityPouch_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_UtilityPouch_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_UtilityPouch_AU",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_UtilityPouch_FG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_TV110T_UtilityPouch_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GPNVG_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GPNVG_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GPNVG_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_GPNVG_Elite",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_PVS31",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_PVS31_Wrapped",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_PVS31_FDE",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_PVS31_FDE_Wrapped",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_PVS31A_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_UAPNVG_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_UAPNVG_Tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_UAPNVG_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Combat_HikingBoots_Brown",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Combat_HikingBoots_Khaki",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Combat_HikingBoots_Grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Combat_HikingBoots_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Operator_Boots_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Operator_Boots_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Operator_Boots_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_Tan_Socks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_Tan_NoSocks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_Black_Socks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_Black_NoSocks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_RG_Socks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_RG_NoSocks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_CB_Socks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Zypher_Boots_CB_NoSocks",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Lerch_Boots_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Lerch_Boots_Black_Dirty",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Lerch_Boots_MC",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Lerch_Boots_MCB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Lerch_Boots_Khk",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Lerch_Boots_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Lerch_Boots_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_COMTAC3_Headset_CB",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_COMTAC3_Headset_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_M32_Headset_RG",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_M32_Headset_Black",
+                    "Attach": [],
+                    "Contents": []
                 }
             ],
             "Misc": [
                 {
-                    "ClassName": "BandageDressing",
+                    "ClassName": "sewingkit",
                     "Attach": [],
                     "Contents": []
                 },
                 {
-                    "ClassName": "PainkillerTablets",
+                    "ClassName": "leathersewingkit",
                     "Attach": [],
                     "Contents": []
                 },
                 {
-                    "ClassName": "Morphine",
+                    "ClassName": "weaponcleaningkit",
                     "Attach": [],
                     "Contents": []
                 },
                 {
-                    "ClassName": "SledgeHammer",
+                    "ClassName": "electronicrepairkit",
                     "Attach": [],
                     "Contents": []
                 },
                 {
-                    "ClassName": "NailBox",
+                    "ClassName": "tirerepairkit",
                     "Attach": [],
                     "Contents": []
                 },
                 {
-                    "ClassName": "Hatchet",
+                    "ClassName": "Psix_Bandage_Improved",
                     "Attach": [],
                     "Contents": []
                 },
                 {
-                    "ClassName": "MetalPlate",
+                    "ClassName": "Psix_Bandage_Advanced",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Psix_Bandage_Specional",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "iodinetincture",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "FOG_Tourniquet",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "charcoaltablets",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "vitaminbottle",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "tetracyclineantibiotics",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "painkillertablets",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "InediaPain_Tramadol",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "InediaPain_Vikasol",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "InediaPain_Calcium",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "InediaPain_SurgicalKit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "InediaPain_SplintKit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "InediaPain_HemostaticDressing",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "epinephrine",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "morphine",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "anticheminjector",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Psix_StimPack20HP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Psix_StimPack40HP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Psix_StimPack60HP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Psix_StimPack80HP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Psix_StimPack100HP",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Psix_StimPackFull",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Zen_Virus_Cure_Injector",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "AntiViperInjector",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "SparkPlug",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "GlowPlug",
                     "Attach": [],
                     "Contents": []
                 }

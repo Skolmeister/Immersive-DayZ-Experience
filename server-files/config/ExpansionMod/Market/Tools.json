@@ -290,7 +290,7 @@
             ],
             "Variants": []
         },
-        {
+                {
             "ClassName": "expansionpropanetorch",
             "MaxPriceThreshold": 700,
             "MinPriceThreshold": 630,
@@ -301,6 +301,7 @@
             "SpawnAttachments": [],
             "Variants": []
         },
+
         {
             "ClassName": "expansionboltcutters",
             "MaxPriceThreshold": 450,
@@ -349,28 +350,6 @@
             "ClassName": "HydraulicJack",
             "MaxPriceThreshold": 1450,
             "MinPriceThreshold": 1305,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "TRMetalDetector",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "TRMetalDetectorMil",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_MEDICALS",
-    "MinRequiredReputation": 0,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
@@ -19,13 +19,11 @@
     ],
     "Items": {
         "AMS_MFAK": 1,
-        "MassMedical_Bag": 1,
         "FOG_Pouch_IFAK_Black": 1,
         "FOG_Pouch_TraumaRoll_Black": 1,
         "FOG_TV110T_Medkit_Black": 1,
         "Msp_ParamedicBag_Red": 1,
         "Msp_MedicBag": 1,
-        "Massmedbag": 1,
         "canvasbag_medical": 1,
         "duffelbagsmall_medical": 1,
         "Msp_MedCase": 1,

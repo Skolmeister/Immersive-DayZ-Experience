@@ -2,51 +2,817 @@
     "Version": 2,
     "notification": [
         {
-            "Spatial_Name": "East",
+            "Spatial_Name": "Ursus Group",
             "StartTime": 0.0,
             "StopTime": 24.0,
             "AgeTime": 1.5,
-            "MessageType": 0,
-            "MessageTitle": "East AI",
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Ursus Group Mercenaries!",
             "MessageText": [
-                "Enemies nearby",
-                "AI Detected: East",
-                "Example 3"
+                "Heavy hands, heavier price.",
+                "Schwere Waffen. Harte Männer. Null Diskussion.",
+                "Die Ursus Group marschiert – und alles weicht.",
+                "Sie reden nicht. Sie räumen.",
+                "Wo sie auftauchen, bleibt nur Staub und Stille."
             ]
         },
         {
-            "Spatial_Name": "West",
+            "Spatial_Name": "Silverline",
             "StartTime": 0.0,
             "StopTime": 24.0,
-            "AgeTime": 2.5,
-            "MessageType": 0,
-            "MessageTitle": "West AI",
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Silverline Mercenaries!",
             "MessageText": [
-                "Enemies nearby",
-                "AI Detected: West"
+                "We don’t hunt. We cull.",
+                "Militärische Präzision. Tödliche Effizienz.",
+                "Silverline greift an – strukturiert, eiskalt, koordiniert.",
+                "Ihre Ziele werden markiert – und verschwinden.",
+                "Einsatz abgeschlossen, bevor du reagieren kannst."
             ]
         },
         {
-            "Spatial_Name": "Guard",
+            "Spatial_Name": "New Fawn",
             "StartTime": 0.0,
             "StopTime": 24.0,
-            "AgeTime": 4.5,
-            "MessageType": 0,
-            "MessageTitle": "Guard AI",
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - New Fawn Mercenaries!",
             "MessageText": [
-                "Guards detected",
-                "Friendlies in the area, guns down."
+                "The swift kill.",
+                "Bewegung im Wald – flüchtig und präzise.",
+                "New Fawn agiert schnell, schlau und unterschätzt.",
+                "Tarnung ist ihre Waffe – der Rückzug ihr Plan.",
+                "Sie verschwinden, bevor du überhaupt anlegst."
             ]
         },
         {
-            "Spatial_Name": "Disabled",
+            "Spatial_Name": "Obsidian Fang",
             "StartTime": 0.0,
             "StopTime": 24.0,
-            "AgeTime": 10.0,
-            "MessageType": 0,
-            "MessageTitle": "Disabled",
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Obsidian Fang Mercenaries!",
             "MessageText": [
-                "Disabled"
+                "Strike unseen.",
+                "Sabotage, Vergiftung, lautloses Töten – Obsidian Fang war hier.",
+                "Du merkst erst, dass sie da waren, wenn es zu spät ist.",
+                "Sie kommen nicht frontal – sie zerlegen dich im Schatten.",
+                "Obsidian Fang hinterlässt Spuren... in deinen Albträumen."
+            ]
+        },
+        {
+            "Spatial_Name": "Team Rocket",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Team Rocket Schurken!",
+            "MessageText": [
+                "Jetzt gibt’s Ärger... und es kommt noch härter...",
+                "Wir wollen über die Erde regieren und unseren eigenen Staat kreieren",
+                "Liebe und Wahrheit verurteilen wir...mehr und mehr Loot, das wollen wir!",
+                "Wir sind Team Rocket - so schnell wie das Licht - drum gebt lieber auf und bekämpft uns nicht!",
+                "Jetzt gibt's mal wieder einen Schuss in den Ofen!"
+            ]
+        },
+        {
+            "Spatial_Name": "BangBros",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - BangBros!",
+            "MessageText": [
+                "Sie drehen keine Filme mehr – nur noch Kreise um dein Zelt.",
+                "Versteckt euren Loot...und eure Würde.",
+                "Ene Mene Miste, ich finger net ich fiste.",
+                "Es wird heiß, nass... und tödlich.",
+                "Sie kommen schnell – und bleiben selten lang."
+            ]
+        },
+        {
+            "Spatial_Name": "MILF Hunterz",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - MILF Hunterz!",
+            "MessageText": [
+                "Bringt eure Mütter in Sicherheit!",
+                "Warnung an alle Mütter – sie sind wieder unterwegs.",
+                "MILF gesichtet? Sicher. Bewaffnet? Auch.",
+                "Sie jagen gezielt – aber schießen auf alles.",
+                "Nicht alle Helden tragen Kondome. Manche tragen Sturmhauben.",
+                "Sie wollen diesmal nicht eure Mütter - sondern euren Loot!"
+            ]
+        },
+        {
+            "Spatial_Name": "Gypsy Rappers",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Gypsy Rappers!",
+            "MessageText": [
+                "Jiggibuggulää!",
+                "She gimme guularrgghhhh...Me gibu bulleearhh...Anabigullää......",
+                "Wiggle, wiggle, wiggle....",
+                "You know what to do with da big fat but?",
+                "Ma Baby is da Boi"
+            ]
+        },
+        {
+            "Spatial_Name": "JiggyBuggles",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - JiggyBuggles!",
+            "MessageText": [
+                "Sie wigglen sich ran – und schießen off-beat.",
+                "Kein Taktgefühl, aber gutes Aim.",
+                "Du hörst nur Autotune – dann fällt dein Squad.",
+                "Wiggle Wiggle Boom."
+            ]
+        },
+        {
+            "Spatial_Name": "Morrafockaz",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Morrafockaz!",
+            "MessageText": [
+                "Sie klopfen nicht. Sie treten die Tür ein.",
+                "Wenn du denkst, sie zielen nicht – ist es schon vorbei.",
+                "Morrafockaz in der Nähe. Sag nicht, wir hätten dich nicht gewarnt.",
+                "Respekt wird erzwungen – Kugel für Kugel."
+            ]
+        },
+        {
+            "Spatial_Name": "Burger Kings",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Burger King liefert!",
+            "MessageText": [
+                "Die Jungs servieren nur heiß – und nicht zum Mitnehmen.",
+                "Drive-by mit Menü 2.",
+                "Menü 3: Extra Blut, wenig Überlebende.",
+                "Spezialität: doppelt belegt mit Blei.",
+                "Fast Food. Faster Firefights."
+            ]
+        },
+        {
+            "Spatial_Name": "Honkey Tonkeys",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Honkey Tonkeys inbound!",
+            "MessageText": [
+                "Yee und Haw sind bewaffnet unterwegs.",
+                "Sie singen nicht – sie schießen.",
+                "Mit Banjo auf dem Rücken und Buckshot im Lauf.",
+                "Der Süden hat wieder Munition."
+            ]
+        },
+        {
+            "Spatial_Name": "Zombie Snaggers",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Zombie Snaggers spotted!",
+            "MessageText": [
+                "Zombies sind ihr Hobby. Menschen ihre Beute.",
+                "Zombie-Fänger? Nur Tarnung.",
+                "Wenn du denkst, sie retten dich – klauen sie gerade dein Inventar."
+            ]
+        },
+        {
+            "Spatial_Name": "Crippled Bois",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Crippled Bois rollen ran!",
+            "MessageText": [
+                "Langsam im Anrollen – schnell im Abdrücken.",
+                "Cracked Aim. Crooked Spines. Clean Kills.",
+                "Schlechter Rücken, besseres Aim."
+            ]
+        },
+        {
+            "Spatial_Name": "FriDayZ for Future",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - FriDayZ for Future!",
+            "MessageText": [
+                "Erwarte kein Erbarmen. Nur Protest und Patronen.",
+                "FriDayZ für Future meldet sich zurück. Laut, grün, bewaffnet.",
+                "Heute keine Schule!"
+            ]
+        },
+        {
+            "Spatial_Name": "Killma Klebaz",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Killma Klebaz!",
+            "MessageText": [
+                "Straße dicht. Moral hoch. Magazin voll.",
+                "Sie klebt nicht mehr – sie kämpft.",
+                "Klimaneutral ist sie nicht – nur kompromisslos.",
+                "Letzte Generation? Nein. Erste mit Kalaschnikow."
+            ]
+        },
+        {
+            "Spatial_Name": "Last Generation Z",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Generation Z!",
+            "MessageText": [
+                "Das habt ihr davon!",
+                "Sie haben keine Zukunft – also nimm dich in Acht.",
+                "Das einzige was wir opfern seid ihr!",
+                "Letzte Generation. Letzter Schuss. Letztes Wort."
+            ]
+        },
+        {
+            "Spatial_Name": "The 404th",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - The 404th detected!",
+            "MessageText": [
+                "Taktischer Fehler erkannt – und bewaffnet.",
+                "Mercy not found. Violence executed.",
+                "The 404th – systemfeindlich. Überlebensfeindlich."
+            ]
+        },
+        {
+            "Spatial_Name": "Die Geringverdiener",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Die Geringverdiener gesichtet!",
+            "MessageText": [
+                "Sie nehmen, was ihnen zusteht – deinen Loot.",
+                "Zu arm für Steuern – reich an Munition.",
+                "Umverteilung? Sofort. Durchlaufend. Bleihaltig.",
+                "Kein Dispo. Kein Mitleid.",
+                "Sie fordern Mindestlohn in Form von Loot.",
+                "Steuern? Nein. Schüsse? Ja."
+            ]
+        },
+        {
+            "Spatial_Name": "Rotfront-Räuber",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Rotfront-Räuber gesichtet!",
+            "MessageText": [
+                "Kapitalismus abschaffen – per Sturmgewehr.",
+                "Bewaffnete Umverteilung gemeldet. Rotfront-Räuber sichtbar aktiv.",
+                "Waffen für alle – außer dir.",
+                "Für das Volk! Für die Sache! Für deinen Loot!"
+            ]
+        },
+        {
+            "Spatial_Name": "Die Talahons",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Die Talahons marschieren...",
+            "MessageText": [
+                "Namen wie Legenden. Waffen wie Mythen.",
+                "Die Talahons – kein Clan, ein Fluch.",
+                "Wo sie marschieren, stirbt die Stille.",
+                "Halb Mythos, halb Maschinenpistole. Voller Stil, keine Gnade."
+            ]
+        },
+        {
+            "Spatial_Name": "C.L.I.T",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - C.L.I.T is active!",
+            "MessageText": [
+                "Commando Laufenlassen Inhaftierter Tiere",
+                "You don't mess with the C.L.I.T.",
+                "Jay and Silent Bob send their regards – C.L.I.T is back in business.",
+                "Funk intercepted: 'Respect the C.L.I.T or face the consequences.'"
+            ]
+        },
+        {
+            "Spatial_Name": "Mighty Bungholes",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Mighty Bungholes incoming!",
+            "MessageText": [
+                "Sie kommen von hinten – immer.",
+                "Tief drin in deiner Base – und in deinem Popo.",
+                "Kein Anstand. Kein Schmerz. Nur Bunghole.",
+                "Du lachst... bis sie dich looten."
+            ]
+        },
+        {
+            "Spatial_Name": "AntifArmA",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - AntifArmA mobilisiert sich!",
+            "MessageText": [
+                "Heute schmeißen wir nicht nur mit Steinen!",
+                "Gegen Faschismus. Für Feuergefechte.",
+                "AntifArmA: Vermummt, bewaffnet, bereit.",
+                "Militanz in Taktikform. Nicht diskutieren – ducken."
+            ]
+        },
+        {
+            "Spatial_Name": "Lenins Genossen",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Lenins Genossen!",
+            "MessageText": [
+                "Ihr 5-Jahres-Plan: 5 Minuten, 5 Leichen.",
+                "Proletarier aller Länder – duckt euch!",
+                "Manifest vergessen. Munition geladen."
+            ]
+        },
+        {
+            "Spatial_Name": "Hartz IV Kommando",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Hartz IV Kommando im Anmarsch!",
+            "MessageText": [
+                "Keine Arbeit. Kein Problem",
+                "Billig bewaffnet, aber effizient.",
+                "Keine Arbeit, keine Gnade.",
+                "Sie leben von nichts - und nehmen euch alles!",
+                "Mit dem Sozialausweis in der Weste und 'ner Zastava im Anschlag."
+            ]
+        },
+        {
+            "Spatial_Name": "Blyatmans",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Die Blyatmans!",
+            "MessageText": [
+                "Squat detected. Blyat confirmed.",
+                "Sie kommen im LADA – und gehen mit deinem Loot.",
+                "Tracksuit. Vodka. Vollautomatik.",
+                "Ushanka auf, Sicherung aus."
+            ]
+        },
+        {
+            "Spatial_Name": "Cherno Billies",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Cherno Billies!",
+            "MessageText": [
+                "Verstrahlt bis zum Geht-Nicht-Mehr.",
+                "Sie strahlen über beide Ohren.",
+                "Gezeugt in der Zone. Geboren für Chaos.",
+                "Uran im Blut. Blei im Lauf."
+            ]
+        },
+        {
+            "Spatial_Name": "Fachkräfte",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Fachkräfte kommen!",
+            "MessageText": [
+                "Integration abgeschlossen. Kaliber geprüft.",
+                "Sie kamen wegen Arbeit – blieben für Loot.",
+                "Sie sprechen nur eine Sprache!"
+            ]
+        },
+        {
+            "Spatial_Name": "PETA-Patrouille",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - PETA-Patrouille entdeckt!",
+            "MessageText": [
+                "Pelzträger werden gnadenlos verfolgt!",
+                "Sie töten nur, wenn du Tiere getötet hast. Wahrscheinlich.",
+                "Die Patrouille hat den Wurstgeruch aufgenommen."
+            ]
+        },
+        {
+            "Spatial_Name": "Womb Raiders",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Womb Raiders!",
+            "MessageText": [
+                "Sie kommen von innen. Für dein Inneres.",
+                "Fleisch? Ja. Ethik? Nein.",
+                "Ein warmes Mahl ist nie weit.",
+                "Sie wollen, was dich am Leben hält – wörtlich."
+            ]
+        },
+        {
+            "Spatial_Name": "Snackrifice Sekte",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Snackrifice Sekte streift umher!",
+            "MessageText": [
+                "Bring Opfer. Oder sei eins.",
+                "Im Namen des Geschmacks – Amen.",
+                "Sie beten. Und beißen.",
+                "Ihr Ritual beginnt mit Hunger – und endet mit dir."
+            ]
+        },
+        {
+            "Spatial_Name": "Mando",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Mando auf Kopfgeldjagd!",
+            "MessageText": [
+                "Das ist der Weg.",
+                "Ziel erfasst. Zahlung offen.",
+                "Er redet nicht. Er liefert.",
+                "Mando jagt nicht – er vollstreckt."
+            ]
+        },
+        {
+            "Spatial_Name": "Boba",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Boba auf Kopfgeldjagd!",
+            "MessageText": [
+                "Er war nie tot – nur teuer.",
+                "Wenn du seinen Namen hörst, ist es zu spät.",
+                "Er nimmt nur lebend – und bringt selten zurück."
+            ]
+        },
+        {
+            "Spatial_Name": "Die Mahnung",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Letzte Mahnung!",
+            "MessageText": [
+                "Zahlung überfällig. Vollstreckung eingeleitet.",
+                "Du kennst die Rechnung. Er bringt sie mit.",
+                "Die Mahnung kommt nie alleine. Sie bringt den Tod."
+            ]
+        },
+        {
+            "Spatial_Name": "Kopfgeld-Kalle",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Kopfgeld-Kalle jagt euch!",
+            "MessageText": [
+                "Gesucht, gefunden, geliefert.",
+                "Kalle kommt nicht zum Reden.",
+                "Halt still, dann tut’s nur kurz weh."
+            ]
+        },
+        {
+            "Spatial_Name": "The Biter",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Der Beißer jagt euch!",
+            "MessageText": [
+                "Er beißt, wenn du noch nachlädst.",
+                "Ziel erfasst – Mahlzeit beginnt.",
+                "Nicht freundlich. Nicht vorsichtig. Nur hungrig.",
+                "Manche jagen mit Kugeln. Er nimmt den direkten Weg."
+            ]
+        },
+        {
+            "Spatial_Name": "Ghostmark",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Ghostmark jagt euch!",
+            "MessageText": [
+                "Kein Laut. Kein Licht. Kein Entkommen.",
+                "Ghostmark jagt, was du nicht mal hörst.",
+                "Er sieht dich – bevor du ahnst, dass du lebst.",
+                "Ein Schuss. Kein Zeuge. Nur Gerüchte."
+            ]
+        },
+        {
+            "Spatial_Name": "Hollowshot",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Hollowshot jagt euch!",
+            "MessageText": [
+                "Ein sauberer Schuss. Ein stilles Ende.",
+                "Du hörst ihn nicht kommen – nur aufhören.",
+                "Wenn du ihn siehst, war er nachlässig.",
+                "Er trifft nicht laut – aber endgültig."
+            ]
+        },
+        {
+            "Spatial_Name": "Der Profi",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Der Profi jagt euch!",
+            "MessageText": [
+                "Keine Fragen. Nur Ergebnisse.",
+                "Der Profi ist unterwegs – präzise und kalt.",
+                "Er redet nicht. Er liefert.",
+                "Kein Auftrag zu schmutzig. Kein Ziel zu weit.",
+                "Er fragt nicht nach Gründen. Nur nach Entfernung.",
+                "Wo er auftaucht, bleiben keine Fragen – nur Leichen."
+            ]
+        },
+        {
+            "Spatial_Name": "Ashwalker",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Ashwalker jagt euch!",
+            "MessageText": [
+                "Er kommt aus dem Rauch – und bringt das Ende.",
+                "Kein Schritt zu viel. Kein Schuss zu wenig.",
+                "Asche im Wind – und dein Name darin.",
+                "Er jagt nicht für Geld. Er jagt, weil es niemand sonst tut."
+            ]
+        },
+        {
+            "Spatial_Name": "Der Gerichtsvollzieher",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Der Gerichtsvollzieher kommt!",
+            "MessageText": [
+                "Zwangsvollstreckung beginnt. Widerstand zwecklos.",
+                "Dein Konto ist leer – jetzt folgt dein Inventar.",
+                "Er pfändet dich persönlich.",
+                "Zahlung überfällig. Konsequenz aktiv.",
+                "Letzte Mahnung wurde ignoriert – er nicht.",
+                "Wo er klingelt, öffnet niemand zweimal."
+            ]
+        },
+        {
+            "Spatial_Name": "The Nightseer",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - The Nightseer jagt euch!",
+            "MessageText": [
+                "Wenn du nichts mehr siehst – sieht er dich.",
+                "Die Nacht gehört ihm. Du nur kurz.",
+                "Er zielt durchs Dunkel – und trifft ins Mark.",
+                "Kein Licht. Kein Laut. Nur dein letzter Atemzug."
+            ]
+        },
+        {
+            "Spatial_Name": "Redneck",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Redneck is lockin' on!",
+            "MessageText": [
+                "Yeehaw. Boom. Loot.",
+                "Er grillt Wild – und erledigt Ziele nebenbei.",
+                "Schnaps im Blut, Ziel im Blick.",
+                "Nicht unterschätzen. Nur fürchten.",
+                "Du hörst ihn nicht. Du schmeckst ihn im Nachgang.",
+                "Er ist kein NPC – er ist ein Naturgesetz."
+            ]
+        },
+        {
+            "Spatial_Name": "The Blackcoat",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - The Blackcoat jagt euch!",
+            "MessageText": [
+                "Ein schwarzer Mantel. Ein sauberer Schuss.",
+                "Er spricht nicht. Er rechnet ab.",
+                "Wo sein Mantel weht, herrscht Endgültigkeit.",
+                "Er hinterlässt keine Zeugen – nur Schatten."
+            ]
+        },
+        {
+            "Spatial_Name": "The Kid",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - The Kid jagt euch!",
+            "MessageText": [
+                "Klein im Kaliber – groß im Ergebnis.",
+                "Er wirkt jung. Du wirkst bald tot.",
+                "Schnell, frech, final.",
+                "Du willst ihm nicht in die Quere kommen – er zielt tiefer."
+            ]
+        },
+        {
+            "Spatial_Name": "Das Reptil",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Das Reptil schleicht sich an!",
+            "MessageText": [
+                "Kalt. Lautlos. Tödlich.",
+                "Schuppen schützt nicht vor Kugeln.",
+                "Wenn du ihn siehst, ist es zu spät.",
+                "Er zischt und feuert dann.",
+                "Das Reptil kriecht nicht zum Ziel. Es gleitet.",
+                "Du siehst ihn erst, wenn du am Boden liegst."
+            ]
+        },
+        {
+            "Spatial_Name": "Die Ratte",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Die Ratte kriecht näher!",
+            "MessageText": [
+                "Sie stiehlt. Sie schießt. Sie überlebt.",
+                "Lautlos, listig, gefährlich.",
+                "Sie schleicht, sie stiehlt, sie schießt.",
+                "Unterschätze sie – und du hast verloren.",
+                "Die Ratte kriecht durch jede Lücke. Auch in deine Deckung.",
+                "Sie kommt nicht frontal – aber sie kommt an."
+            ]
+        },
+        {
+            "Spatial_Name": "Der Wolf",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Der Wolf jagt allein!",
+            "MessageText": [
+                "Er heult nicht. Er tötet.",
+                "Der Wolf markiert sein Revier mit Blut.",
+                "Schnell. Still. Sicher.",
+                "Er jagt nicht aus Hunger – er jagt aus Prinzip.",
+                "Keine Meute. Keine Gnade.",
+                "Der Wolf kommt leise – und geht mit allem.",
+                "Du hörst ihn nicht – du fühlst nur den Biss."
+            ]
+        },
+        {
+            "Spatial_Name": "Die Schlange",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Die Schlange lauert im Gras!",
+            "MessageText": [
+                "Zischt nicht. Beißt direkt.",
+                "Kein Zögern. Kein Mitleid.",
+                "Sie bewegt sich schnell – und stirbt selten.",
+                "Kein Zischen. Kein Warnsignal. Nur ein Biss.",
+                "Sie sieht alles – und zeigt sich nie.",
+                "Bewegung aus dem Nichts. Treffer aus dem Schatten.",
+                "Sie schlägt zu, wenn du denkst, du wärst allein."
+            ]
+        },
+        {
+            "Spatial_Name": "Das Phantom",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Das Phantom ist nah!",
+            "MessageText": [
+                "Es gibt keine Zeugen. Nur Gerüchte.",
+                "Das Phantom – nicht zu sehen, nur zu fürchten.",
+                "Sein Ziel: dich. Seine Spur: nichts.",
+                "Du wirst es nicht sehen – nur spüren.",
+                "Das Phantom hinterlässt keine Spuren. Nur Leichen.",
+                "Es spricht nicht. Es existiert nicht. Es trifft.",
+                "Niemand kennt sein Gesicht – nur das Ergebnis."
+            ]
+        },
+        {
+            "Spatial_Name": "Inkasso Moskau",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Inkasso Moskau zieht ein!",
+            "MessageText": [
+                "Der Endgegner der Zahlungsabwicklung",
+                "Sie klopfen nicht. Sie kassieren. In Rubel. Oder Blut.",
+                "Zahlungsziel überschritten. Frist endet mit Blut.",
+                "Moskauer Inkasso: freundlich, effektiv, final.",
+                "Schulden begleichen – oder sie begleichen dich.",
+                "Moskauer Mahnung: höflich, bewaffnet, bindend.",
+                "Sie rechnen mit 7,62x39 – und du zahlst mit Zeit.",
+                "Offene Forderungen werden hier endgültig beglichen."
+            ]
+        },
+        {
+            "Spatial_Name": "Mettmenschen",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Mettmenschen unterwegs!",
+            "MessageText": [
+                "Gehirngulasch schmeckt. Besonders frisch.",
+                "Dein Loot ist ihnen egal – sie wollen dein Filet.",
+                "Alles muss raus – auch dein Zwerchfell.",
+                "Hunger kennt keine Moral. Hunger kennt keine Ethik."
+            ]
+        },
+        {
+            "Spatial_Name": "Gehirngulaschi",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Gehirngulaschi greift an!",
+            "MessageText": [
+                "Zart gekocht. Direkt entnommen.",
+                "Rezept des Tages: Du.",
+                "Serviert mit Schreien – und etwas Salz.",
+                "Schmeckt am besten mit Panik.",
+                "Etwas Kultur muss sein!"
+            ]
+        },
+        {
+            "Spatial_Name": "Die Hack-Genossen",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Die Hack-Genossen sind aktiv!",
+            "MessageText": [
+                "Für das gemeinsame Mahl!",
+                "Hackepeter mit Haltung.",
+                "Sie teilen alles – sogar dich.",
+                "Für die Gemeinschaft. Gegen dein Zwerchfell.",
+                "Kollektiver Hunger braucht kollektive Opfer."
+            ]
+        },
+        {
+            "Spatial_Name": "Die Haxen-Jünger",
+            "StartTime": 0.0,
+            "StopTime": 24.0,
+            "AgeTime": 1.5,
+            "MessageType": 5,
+            "MessageTitle": "GPS Alert - Die Haxen-Jünger nähern sich!",
+            "MessageText": [
+                "Ihr Glaube beginnt am Knochen.",
+                "Zerlegt in Ehren.",
+                "Wem das Bein gehört, entscheidet der Biss.",
+                "Zerlegt in Ehren. Verspeist im Ritual.",
+                "Ihr Glaube ist stark – ihr Hunger stärker.",
+                "Sie singen nicht. Sie kauen."
             ]
         }
     ]

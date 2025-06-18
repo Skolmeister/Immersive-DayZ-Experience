@@ -108,19 +108,6 @@
             "Variants": []
         },
         {
-            "ClassName": "portablegasstove",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 540,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mediumgascanister"
-            ],
-            "Variants": []
-        },
-        {
             "ClassName": "headtorch_black",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 450,

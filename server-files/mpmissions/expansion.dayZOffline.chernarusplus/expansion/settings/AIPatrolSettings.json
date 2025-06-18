@@ -278,7 +278,7 @@
             "MaxDistRadius": 1000.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 20.0,
-            "MaxSpreadRadius":75.0,
+            "MaxSpreadRadius": 75.0,
             "Chance": 0.5,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
@@ -1028,7 +1028,7 @@
                     20.285268783569337,
                     13248.4580078125
                 ],
-                [    
+                [
                     13592.552734375,
                     32.82177734375,
                     13598.283203125
@@ -1561,7 +1561,7 @@
                     12399.0595703125,
                     206.82806396484376,
                     4666.7802734375
-                ]                
+                ]
             ]
         },
         {
@@ -1622,7 +1622,7 @@
                     12153.6162109375,
                     31.23553466796875,
                     3634.642578125
-                ]              
+                ]
             ]
         },
         {
@@ -2176,7 +2176,7 @@
                     6768.80517578125,
                     3.0000076293945314,
                     2506.359130859375
-                ]                
+                ]
             ]
         },
         {
@@ -2406,7 +2406,7 @@
                     185.1580810546875,
                     11988.134765625
                 ],
-                [  
+                [
                     11166.69140625,
                     199.6962890625,
                     12329.7275390625
@@ -2915,7 +2915,7 @@
                     116.1283187866211,
                     13915.2353515625
                 ],
-                [   
+                [
                     9604.99609375,
                     83.32998657226563,
                     13666.2197265625
@@ -2985,7 +2985,7 @@
                     7444.330078125,
                     190.8569793701172,
                     13293.58984375
-                ]            
+                ]
             ]
         },
         {
@@ -3158,7 +3158,7 @@
                     8327.09765625,
                     354.7103576660156,
                     6526.2216796875
-                ]            
+                ]
             ]
         },
         {
@@ -3728,7 +3728,7 @@
                     4874.49658203125,
                     258.11090087890627,
                     6592.35791015625
-                ]              
+                ]
             ]
         },
         {
@@ -3840,7 +3840,7 @@
                     5421.943359375,
                     173.61021423339845,
                     12915.6162109375
-                ]            
+                ]
             ]
         },
         {
@@ -3952,7 +3952,7 @@
                     6439.53271484375,
                     159.76223754882813,
                     12788.0166015625
-                ]            
+                ]
             ]
         },
         {
@@ -4008,7 +4008,7 @@
                     6033.16064453125,
                     266.93231201171877,
                     10579.982421875
-                ]            
+                ]
             ]
         },
         {
@@ -4120,7 +4120,7 @@
                     6169.1259765625,
                     334.3660583496094,
                     8029.62646484375
-                ]            
+                ]
             ]
         },
         {
@@ -4176,7 +4176,7 @@
                     7084.0810546875,
                     302.3575134277344,
                     7858.10498046875
-                ]            
+                ]
             ]
         },
         {
@@ -4288,7 +4288,7 @@
                     4126.42236328125,
                     324.42633056640627,
                     8929.8935546875
-                ]            
+                ]
             ]
         },
         {
@@ -4400,7 +4400,7 @@
                     1223.693115234375,
                     290.4234924316406,
                     8632.6787109375
-                ]            
+                ]
             ]
         },
         {
@@ -4456,7 +4456,7 @@
                     1808.072998046875,
                     280.42083740234377,
                     7378.19970703125
-                ]            
+                ]
             ]
         },
         {
@@ -4512,7 +4512,8 @@
                     3069.0830078125,
                     287.49871826171877,
                     8203.55859375
-                ]               ]
+                ]
+            ]
         },
         {
             "Name": "Matveyevo",
@@ -4791,7 +4792,7 @@
                     2791.507080078125,
                     210.51806640625,
                     5469.04736328125
-                ]            
+                ]
             ]
         },
         {
@@ -4950,7 +4951,7 @@
                     313.76611328125,
                     14758.1279296875
                 ],
-                [     
+                [
                     3562.18359375,
                     279.2019958496094,
                     14693.0361328125
@@ -5096,7 +5097,7 @@
                     2528.5595703125,
                     262.3866882324219,
                     9892.9521484375
-                ]            
+                ]
             ]
         },
         {
@@ -5938,202 +5939,202 @@
             "RespawnTime": -2.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-                [   
+                [
                     11552.216797,
                     191.447418,
                     13521.305664
                 ],
-                [   
+                [
                     11612.236328,
                     189.689606,
                     13510.583008
                 ],
-                [   
+                [
                     11641.843750,
                     187.997803,
                     13501.077148
                 ],
-                [   
+                [
                     11671.146484,
                     183.260925,
                     13502.402344
                 ],
-                [   
+                [
                     11693.344727,
                     182.699783,
                     13488.276367
                 ],
-                [   
+                [
                     11724.208984,
                     181.487915,
                     13477.464844
                 ],
-                [   
+                [
                     11755.125977,
                     180.726456,
                     13475.636719
                 ],
-                [   
+                [
                     11770.810547,
                     180.964157,
                     13460.929688
                 ],
-                [   
+                [
                     11803.209961,
                     177.989716,
                     13450.500977
                 ],
-                [   
+                [
                     11855.369141,
                     173.928131,
                     13434.918945
                 ],
-                [   
+                [
                     11916.028320,
                     164.881180,
                     13410.125000
                 ],
-                [   
+                [
                     11973.113281,
                     154.484039,
                     13379.272461
                 ],
-                [   
+                [
                     11996.023438,
                     149.851410,
                     13363.155273
                 ],
-                [   
+                [
                     12035.355469,
                     141.080612,
                     13336.716797
                 ],
-                [   
+                [
                     12072.296875,
                     130.991211,
                     13311.189453
                 ],
-                [   
+                [
                     12097.061523,
                     119.520889,
                     13277.061523
                 ],
-                [   
+                [
                     12123.456055,
                     113.226135,
                     13262.225586
                 ],
-                [   
+                [
                     12148.574219,
                     108.898880,
                     13271.107422
                 ],
-                [   
+                [
                     11929.164063,
                     141.639359,
                     13190.889648
                 ],
-                [   
+                [
                     11611.067383,
                     169.816254,
                     13204.153320
                 ],
-                [   
+                [
                     11443.473633,
                     189.970734,
                     13049.635742
                 ],
-                [   
+                [
                     11354.175781,
                     201.576157,
                     13123.701172
                 ],
-                [   
+                [
                     11158.515625,
                     225.111572,
                     13176.565430
                 ],
-                [   
+                [
                     11098.435547,
                     233.201324,
                     13240.751953
                 ],
-                [   
+                [
                     11051.008789,
                     234.005920,
                     13264.430664
                 ],
-                [   
+                [
                     11049.340820,
                     225.953110,
                     13330.361328
                 ],
-                [   
+                [
                     11028.401367,
                     232.786011,
                     13264.181641
                 ],
-                [   
+                [
                     10996.117188,
                     250.258774,
                     13186.977539
                 ],
-                [   
+                [
                     10993.657227,
                     264.211609,
                     13117.223633
                 ],
-                [   
+                [
                     10975.012695,
                     278.759460,
                     13056.275391
                 ],
-                [   
+                [
                     10950.446289,
                     291.729675,
                     13022.556641
                 ],
-                [   
+                [
                     10929.627930,
                     305.232513,
                     12999.925781
                 ],
-                [   
+                [
                     10907.440430,
                     314.293732,
                     12980.470703
                 ],
-                [   
+                [
                     10879.497070,
                     318.829407,
                     12959.276367
                 ],
-                [   
+                [
                     10855.212891,
                     321.361938,
                     12934.377930
                 ],
-                [   
+                [
                     10839.733398,
                     326.321045,
                     12896.534180
                 ],
-                [   
+                [
                     10816.766602,
                     335.158478,
                     12866.947266
                 ],
-                [   
+                [
                     10773.075195,
                     335.525513,
                     12857.031250
                 ],
-                [   
+                [
                     10721.900391,
                     322.193604,
                     12858.788086
                 ],
-                [       
+                [
                     10635.004883,
                     311.319336,
                     12830.879883
@@ -6178,142 +6179,142 @@
                     305.526672,
                     162.982574,
                     2733.124756
-                ],                   
+                ],
                 [
                     352.162811,
                     147.296783,
                     2697.192871
-                ],                   
+                ],
                 [
                     451.443268,
                     107.148163,
                     2641.560303
-                ],                   
+                ],
                 [
                     527.392090,
                     112.831650,
                     2695.565186
-                ],                   
+                ],
                 [
                     496.424744,
                     112.575912,
                     2823.945801
-                ],                   
+                ],
                 [
                     477.953583,
                     103.363235,
                     2926.170166
-                ],                   
+                ],
                 [
                     398.486938,
                     98.786026,
                     3047.000244
-                ],                   
+                ],
                 [
                     346.155823,
                     99.217789,
                     3114.621094
-                ],                   
+                ],
                 [
                     365.257141,
                     101.295212,
                     3266.574219
-                ],                   
+                ],
                 [
                     442.205292,
                     77.230919,
                     3385.889404
-                ],                   
+                ],
                 [
                     521.337158,
                     56.124493,
                     3498.531006
-                ],                   
+                ],
                 [
                     507.077728,
                     48.289665,
                     3617.869629
-                ],                   
+                ],
                 [
                     454.038391,
                     65.832359,
                     3639.121826
-                ],                   
+                ],
                 [
                     316.319397,
                     69.287483,
                     3655.136475
-                ],                   
+                ],
                 [
                     234.939056,
                     58.749897,
                     3636.753906
-                ],                   
+                ],
                 [
                     187.673965,
                     72.302559,
                     3581.546875
-                ],                   
+                ],
                 [
                     196.008347,
                     102.309219,
                     3525.864746
-                ],                   
+                ],
                 [
                     197.417496,
                     122.081253,
                     3480.320313
-                ],                   
+                ],
                 [
                     215.360168,
                     141.980927,
                     3404.078125
-                ],                   
+                ],
                 [
                     183.443909,
                     146.572891,
                     3388.725342
-                ],                   
+                ],
                 [
                     179.932617,
                     148.985962,
                     3318.858398
-                ],                   
+                ],
                 [
                     251.097626,
                     146.830444,
                     3287.413086
-                ],                   
+                ],
                 [
                     231.219330,
                     147.577637,
                     3248.932129
-                ],                   
+                ],
                 [
                     210.261963,
                     150.445038,
                     3173.623779
-                ],                   
+                ],
                 [
                     329.876648,
                     99.246292,
                     3023.327881
-                ],                   
+                ],
                 [
                     367.261566,
                     123.696320,
                     2874.681396
-                ],                   
+                ],
                 [
                     399.905975,
                     130.183289,
                     2773.550781
-                ],                   
+                ],
                 [
                     387.706848,
                     130.956802,
                     2707.910156
-                ],                   
+                ],
                 [
                     334.472778,
                     142.770172,
@@ -8494,7 +8495,6 @@
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
-
                 [
                     7207.813477,
                     30.212326,
@@ -9690,7 +9690,7 @@
                     401.4091796875,
                     5.999996185302734,
                     1626.7742919921876
-                ]            
+                ]
             ]
         },
         {
@@ -10600,7 +10600,6 @@
                 "eAI_SurvivorM_Quinn",
                 "eAI_SurvivorM_Peter",
                 "eAI_SurvivorM_Taiki"
-        
             ],
             "NumberOfAI": 4,
             "Behaviour": "ALTERNATE",
@@ -11450,7 +11449,7 @@
                     12405.6865234375
                 ]
             ]
-        },   
+        },
         {
             "Name": "Сова-2",
             "Persist": 0,
@@ -11707,7 +11706,7 @@
                     14634.76171875
                 ]
             ]
-        },   
+        },
         {
             "Name": "Охотник-3",
             "Persist": 0,
@@ -12683,7 +12682,7 @@
                     14468.7890625
                 ]
             ]
-        },   
+        },
         {
             "Name": "Стрелка-1",
             "Persist": 0,
@@ -12865,7 +12864,7 @@
                     10333.5078125
                 ]
             ]
-        },  
+        },
         {
             "Name": "Тень-2",
             "Persist": 0,
@@ -13099,41 +13098,368 @@
             ]
         },
         {
-            "Name": "Mighty Bungholes",
+            "Name": "Black Market Guard 1",
             "Persist": 0,
-            "Faction": "Bandits",
+            "Faction": "Guards",
             "Formation": "",
-            "FormationLooseness": 10.0,
+            "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
             "Units": [],
-            "NumberOfAI": -4,
-            "Behaviour": "ROAMING",
-            "LootingBehaviour": "ALL",
+            "NumberOfAI": 1,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "NONE",
             "Speed": "JOG",
             "UnderThreatSpeed": "SPRINT",
-            "CanBeLooted": 1,
-            "UnlimitedReload": 6,
-            "SniperProneDistanceThreshold": 0.0,
+            "CanBeLooted": 0,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 150.0,
             "AccuracyMin": -1.0,
             "AccuracyMax": -1.0,
-            "ThreatDistanceLimit": 250.0,
+            "ThreatDistanceLimit": 450.0,
             "NoiseInvestigationDistanceLimit": -1.0,
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": -1.0,
-            "CanBeTriggeredByAI": 1,
-            "MinDistRadius": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 2.0,
             "MaxDistRadius": 1000.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 10.0,
             "MaxSpreadRadius": 100.0,
-            "Chance": 0.5,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 0.0,
+            "RespawnTime": 0.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                8114.979980,
+                461.960510,
+                9301.718750
+            ]
+        },
+        {
+            "Name": "Black Market Guard 2",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "NONE",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 150.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 450.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 2.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": 0.0,
+            "RespawnTime": 0.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                8078.618652,
+                458.917847,
+                9369.716797
+            ]
+        },
+        {
+            "Name": "Black Market Guard 3",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "NONE",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 150.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 450.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 2.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                8073.768555,
+                455.482269,
+                9361.474609
+            ]
+        },
+        {
+            "Name": "Black Market Guard 4",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "NONE",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 150.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 450.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 2.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                8107.874512,
+                458.653107,
+                9328.646484
+            ]
+        },
+        {
+            "Name": "Black Market Guard 5",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "HALT",
+            "LootingBehaviour": "NONE",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 150.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 450.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 2.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                8085.076660,
+                462.963104,
+                9310.423828
+            ]
+        },
+        {
+            "Name": "Black Market Patrol",
+            "Persist": 0,
+            "Faction": "Guards",
+            "Formation": "",
+            "FormationLooseness": 0.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": 2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 150.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 450.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 2.0,
+            "MaxDistRadius": 1000.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
-
+                    8045.159180,
+                    457.940216,
+                    9348.761719
+                ],
+                [
+                    8044.623047,
+                    455.717560,
+                    9365.464844
+                ],
+                [
+                    8065.803223,
+                    454.804657,
+                    9371.696289
+                ],
+                [
+                    8084.281738,
+                    456.252716,
+                    9355.535156
+                ],
+                [
+                    8097.603027,
+                    458.448151,
+                    9342.747070
+                ],
+                [
+                    8079.241211,
+                    458.850037,
+                    9320.328125
+                ],
+                [
+                    8085.164063,
+                    458.850006,
+                    9314.225586
+                ],
+                [
+                    8104.960449,
+                    458.534821,
+                    9336.013672
+                ],
+                [
+                    8112.181641,
+                    458.550903,
+                    9325.693359
+                ],
+                [
+                    8120.094727,
+                    457.929962,
+                    9306.569336
+                ],
+                [
+                    8070.139160,
+                    455.410339,
+                    9368.963867
+                ],
+                [
+                    8064.694824,
+                    454.631622,
+                    9374.362305
+                ],
+                [
+                    8066.561523,
+                    453.360565,
+                    9383.426758
+                ],
+                [
+                    8077.629395,
+                    452.609772,
+                    9388.633789
+                ],
+                [
+                    8103.472168,
+                    450.510803,
+                    9379.020508
+                ],
+                [
+                    8132.763672,
+                    451.676788,
+                    9354.044922
+                ],
+                [
+                    8151.140625,
+                    453.266327,
+                    9329.380859
+                ],
+                [
+                    8161.383301,
+                    453.949005,
+                    9310.879883
+                ],
+                [
+                    8155.329590,
+                    460.501556,
+                    9265.620117
+                ],
+                [
+                    8127.118652,
+                    459.940063,
+                    9274.539063
+                ],
+                [
+                    8121.602539,
+                    459.042511,
+                    9285.292969
+                ],
+                [
+                    8111.734375,
+                    458.767181,
+                    9291.685547
+                ],
+                [
+                    8101.689941,
+                    458.849976,
+                    9293.580078
+                ],
+                [
+                    8081.362793,
+                    458.850037,
+                    9289.451172
+                ],
+                [
+                    8063.542969,
+                    458.849976,
+                    9289.352539
+                ],
+                [
+                    8049.049316,
+                    458.850006,
+                    9290.573242
+                ],
+                [
+                    8031.479980,
+                    459.349823,
+                    9309.154297
                 ]
             ]
         }

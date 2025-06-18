@@ -1,11 +1,11 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_TRADER_EVENT",
-    "MinRequiredReputation": 0,
+    "DisplayName": "#STR_IDE_MARKET_TRADER_EVENT",
+    "MinRequiredReputation": 2147483647,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
-    "TraderIcon": "Questionmark",
+    "TraderIcon": "Group",
     "Currencies": [
         "expansionbanknotehryvnia"
     ],

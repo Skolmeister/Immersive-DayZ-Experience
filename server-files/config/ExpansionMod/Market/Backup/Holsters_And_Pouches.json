@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "BARRELS AND FRAMES",
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_HOLSTERS",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "TTC_DMR_RifleFrame",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "ClassName": "chestholster",
+            "MaxPriceThreshold": 1795,
+            "MinPriceThreshold": 1075,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -18,9 +18,25 @@
             "Variants": []
         },
         {
-            "ClassName": "TTC_AKMod_RifleFrame",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "ClassName": "platecarrierholster",
+            "MaxPriceThreshold": 1725,
+            "MinPriceThreshold": 1035,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "platecarrierholster_green",
+                "platecarrierholster_black",
+                "platecarrierholster_camo",
+                "platecarrierholster_winter"
+            ]
+        },
+        {
+            "ClassName": "platecarrierholster_camo",
+            "MaxPriceThreshold": 11845,
+            "MinPriceThreshold": 7105,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -29,9 +45,9 @@
             "Variants": []
         },
         {
-            "ClassName": "TTC_DMR_Barrel_762",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "ClassName": "platecarrierholster_winter",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1080,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -40,9 +56,25 @@
             "Variants": []
         },
         {
-            "ClassName": "TTC_DMR_Barrel_556",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "ClassName": "platecarrierpouches",
+            "MaxPriceThreshold": 1725,
+            "MinPriceThreshold": 1035,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "platecarrierpouches_green",
+                "platecarrierpouches_black",
+                "platecarrierpouches_camo",
+                "platecarrierpouches_winter"
+            ]
+        },
+        {
+            "ClassName": "platecarrierpouches_camo",
+            "MaxPriceThreshold": 11845,
+            "MinPriceThreshold": 7105,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -51,9 +83,9 @@
             "Variants": []
         },
         {
-            "ClassName": "TTC_AKMod_Barrel_76239",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "ClassName": "platecarrierpouches_winter",
+            "MaxPriceThreshold": 1980,
+            "MinPriceThreshold": 1190,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -62,20 +94,9 @@
             "Variants": []
         },
         {
-            "ClassName": "TTC_AKMod_Barrel_76254",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "BO_GlockPDWKit",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "ClassName": "nylonknifesheath",
+            "MaxPriceThreshold": 855,
+            "MinPriceThreshold": 515,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

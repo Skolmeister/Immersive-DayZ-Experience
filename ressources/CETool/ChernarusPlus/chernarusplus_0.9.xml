@@ -7129,7 +7129,7 @@
                 <zone name="InfectedIndustrial" smin="0" smax="0" dmin="1" dmax="4" x="7407.27" z="2691.82" r="80" d="2"/>
                 <zone name="InfectedIndustrial" smin="0" smax="0" dmin="1" dmax="4" x="7509.55" z="2811.82" r="80" d="2"/>
                 <zone name="InfectedIndustrial" smin="0" smax="0" dmin="1" dmax="4" x="7583.41" z="2942.05" r="80" d="2"/>
-                <zone name="InfectedArmy" smin="0" smax="0" dmin="25" dmax="25" x="5679.29" z="2973.57" r="50" d="2"/>
+                <zone name="InfectedIndustrial" smin="15" smax="15" dmin="0" dmax="0" x="5679.29" z="2973.57" r="50" d="2"/>
             </territory>
             <territory name="IndustrialT2" visible="0" color="2615190015">
                 <zone name="InfectedIndustrial" smin="0" smax="0" dmin="4" dmax="6" x="12584.2" z="13797.5" r="70" d="2"/>

@@ -1,0 +1,25 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_TRADER_FASTFOOD",
+    "MinRequiredReputation": 2000,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Chocolate",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Drinks",
+        "Food",
+        "Sweets",
+        "Canned_Food",
+        "Flasks",
+        "Snacks",
+        "Cigarettes",
+        "Alcohol"
+    ],
+    "Items": {}
+}

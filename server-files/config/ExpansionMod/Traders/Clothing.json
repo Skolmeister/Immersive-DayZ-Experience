@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CLOTHING",
-    "MinRequiredReputation": 0,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
@@ -21,5 +21,14 @@
         "Sweaters_And_Hoodies",
         "Cloaks_And_Scarfs"
     ],
-    "Items": {}
+    "Items": {
+        "HuntingVest": 1,
+        "HuntingVest_Winter": 1,
+        "LeatherStorageVest_Beige": 1,
+        "LeatherStorageVest_Black": 1,
+        "LeatherStorageVest_Brown": 1,
+        "LeatherStorageVest_Natural": 1,
+        "ReflexVest": 1
+
+    }
 }

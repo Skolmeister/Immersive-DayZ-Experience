@@ -1,0 +1,47 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_TRADER_SURVIVAL",
+    "MinRequiredReputation": 2000,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Fireplace",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Tents",
+        "Navigation",
+        "Cooking",
+        "Fishing",
+        "Pelts_And_Leather",
+        "Crafting_Materials"
+    ],
+    "Items": {
+        "battery9v": 1,
+        "paper": 1,
+        "rope": 1,
+        "metalwire": 1,
+        "ducttape": 1,
+        "netting": 1,
+        "burlapsack": 1,
+        "camonet": 1,
+        "chemlight_blue": 1,
+        "chemlight_green": 1,
+        "chemlight_red": 1,
+        "chemlight_white": 1,
+        "chemlight_yellow": 1,
+        "roadflare": 1,
+        "matchbox": 1,
+        "petrollighter": 1,
+        "flashlight": 1,
+        "portablegaslamp": 1,
+        "headtorch_black": 1,
+        "ZenZippoLighter": 1,
+        "ZenZippoLighter_Peace": 1,
+        "ZenZippoLighter_Anarchy": 1,
+        "ZenZippoLighter_Zenarchist": 1
+    }
+}

@@ -593,8 +593,14 @@
         "SmellsHandlerIsActive": {
             "all": 1
         },
-        "SmellsSphereRadius": {
-            "all": 2.0
+        "SmellsSphereRadiusInCalmMode": {
+            "all": 1.5
+        },
+        "SmellsSphereRadiusInSearchMode": {
+            "all": 3.0
+        },
+            "SmellsChaseMultiplier": {
+            "all": 0.6000000238418579
         },
         "SmellsAllowStealthKills": {
             "all": 1
@@ -887,6 +893,9 @@
         "ReactWeaponShotNoise": {
             "all": 1.0
         },
+        "ReactFriendlyWeaponShotNoise": {
+            "all": 0.0
+        },
         "ReactFootstepsJogDayNoise": {
             "all": 0.8
         },
@@ -903,6 +912,12 @@
             "all": 1.0
         },
         "ReactFootstepsSprintNightNoise": {
+            "all": 1.0
+        },
+        "ReactHorseHoofstepsDayNoise": {
+            "all": 1.0
+        },
+        "ReactHorseHoofstepsNightNoise": {
             "all": 1.0
         },
         "ReactDoorsDayNoise": {
@@ -1132,7 +1147,9 @@
                     "AddAmount": 10.0,
                     "AddAmountInBlock": 5.0,
                     "AddAmountNoMoreThan": 50.0,
-                    "AddOnlyIfBleeding": 1
+                    "AddOnlyIfBleeding": 1,
+                    "AddOnlyToPlayers": 1
+
                 }
             ],
             "all": [],
@@ -1290,31 +1307,31 @@
             "all": -1.0
         },
         "DamageToZombieHeadMeleeMultiplier": {
-            "mediumdef": 1.8,
-            "all": 1.8,
-            "lowdef": 1.8,
-            "highdef": 1.8
+            "mediumdef": 1.7,
+            "all": 1.7,
+            "lowdef": 1.7,
+            "highdef": 1.7
         },
         "DamageToZombieHeadRangeMultiplier": {
             "all": 2.0
         },
         "DamageToZombieBodyMeleeMultiplier": {
-            "mediumdef": 0.7,
-            "all": 0.8,
-            "lowdef": 0.8,
-            "highdef": 0.6
+            "mediumdef": 0.30000001192092898,
+            "all": 0.4000000059604645,
+            "lowdef": 0.4000000059604645,
+            "highdef": 0.20000000298023225
         },
         "DamageToZombieBodyRangeMultiplier": {
-            "mediumdef": 0.7,
-            "all": 0.8,
-            "lowdef": 0.8,
-            "highdef": 0.6
+            "mediumdef": 0.30000001192092898,
+            "all": 0.4000000059604645,
+            "lowdef": 0.4000000059604645,
+            "highdef": 0.20000000298023225
         },
         "DamageToZombieFromCarsMultiplier": {
-            "mediumdef": 0.7,
-            "all": 0.8,
-            "lowdef": 0.8,
-            "highdef": 0.6
+            "mediumdef": 0.30000001192092898,
+            "all": 0.4000000059604645,
+            "lowdef": 0.4000000059604645,
+            "highdef": 0.20000000298023225
         },
         "DamageToZombieFromExplosionsMultiplier": {
             "mediumdef": 1.0,

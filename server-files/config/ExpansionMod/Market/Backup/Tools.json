@@ -291,17 +291,6 @@
             "Variants": []
         },
         {
-            "ClassName": "expansionpropanetorch",
-            "MaxPriceThreshold": 700,
-            "MinPriceThreshold": 630,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 500,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "expansionboltcutters",
             "MaxPriceThreshold": 450,
             "MinPriceThreshold": 405,

@@ -7,11 +7,26 @@ Changelog:
 - Items:
   - neue FOG Items zugefügt
   - Waffen und Scopes ausgemistet. Neue HQ Waffen und Scopes werden nach und nach wieder zugefügt. Nicht mehr alles ist als freies Loot auffindbar. Spezielle Sachen müssen über Quests oder Events verdient werden
+  - Einige Waffen, Ausrüstung etc kann nur noch über Quests, Dynamic Missions, Airdrops oder von AI erhalten werden
+    - Dadurch wird die economy queue etwas entlastet und ich denke das bietet Anreize Loot auf verschiedene Arten zu bekommen
+- Custom Waffen:
+  - Dadurch, dass ich bei den Waffen ordentlich durchgesiebt habe, habe ich dafür neue IDE-exklusive Custom Waffen gemoddet. Dazu wurden bestehende Waffen aus anderen Mods überschrieben
+    - APS
+    - G3A3
+    - G36A1
+    - G36C
+    - AWSM
+    - tbc...
 
 - Spawnsettings:
   - Neue und zusätzliche Player Spawnpunkte zugefügt
   - Player und AI Spawnpunkte in Startergebieten wurden weiter voneinander entfernt
   - Cooldowns für Respawns angepasst > 1 Std eigenens Territorium, 30 Minuten selbiges Startergebiet
+
+- Factions:
+  - Bestehende Factions überarbeitet und Diplomatien angepasst
+  - neue Factions: Ghouls, Bounty Hunters, Chernarussian Defence Forces (CDF), Chedaki
+  - Raiders heißen jetzt Looters (Survivor AI)
 
 - AI Settings:
   - Freundliche Einheiten können nicht mehr rekrutiert werden (Dies würde sonst nämlich ermöglichen sämtliche Einheiten zu rekrutieren, die nicht feindlich gesinnt sind)
@@ -25,24 +40,35 @@ Changelog:
   - Ghouls Faction AI taucht an passenden Orten auf (Obacht, können viel einstecken und teilen ordentlich aus!)
   - neue Object Patrols
 
+- Dynamic AI Encounters:
+  - 4 Custom Söldnerfraktion können komplett random um euch herum spawnen und jagen die Gruppe
+  - Meme-Banden können komplett random um euch spawnen und euch attackieren (Banditen, Ghoule, Kopfgeldjäger)
+
+- GPS Gerät (Neue Funktion):
+  - Lohnt sich umso mehr jetzt, da es euch vor Angriffen der Random AI Begegnungen warnt, wenn es eingeschaltet ist (gilt nicht für reguläte AI Patrols)
+
+- Globale dynamische AI Missionen:
+  - Serverweite Events in denen ihr AI besiegen müsst und als Belohnung Loot bekommt.
+  - Basiert quasi auf den Airdrops, aber ist halt mehr Action --- ;)
+
 - Loadouts:
   - West und East Loadouts überarbeitet
   - Tier 1 - 4 AI Survivor Loadouts
   - Shamans Loadout überarbeitet
   - Ghoul Loadout zugefügt
-  - Chedakit Loadout zugefügt
+  - Chedaki Loadout zugefügt
+  - Bounty Hunter Loadouts zugefügt
+  - Söldner Loadouts für die 4 Söldner Unterfraktionen zugefügt (Ursus Group, Silverline, New Fawn, Obsidian Fang)
 
 - Events:
   - neues Event: Chedaki Straßenblockade / Checkpoint
 
-- Factions:
-  - Bestehende Factions überarbeitet und Diplomatien angepasst
-  - neue Factions: Ghouls, Bounty Hunters, Chernarussian Defence Forces (CDF), Chedaki
-  - Raiders heißen jetzt Looters (Survivor AI)
-
 - Trader:
   - Schwarzmarkt ist jetzt eröffnet (Müsst ihr finden)
   - Trader im Faction Camp West
+  - Neue Händlerkategorien erstellt, so wurden z. B. Magazine in weitere Unterkategorien aufgeteilt
+  - Stringtable für alle Sprachen erstellt für neue Händler und Kategorien
+  - tbc...
 
 - Quests:
   - neue Banditencamps
@@ -50,4 +76,7 @@ Changelog:
   - Jedes Gruppenmitglied kann Quests annehmen und abschließen und auch Belohnungen einfahren
 
 - Vehicles:
-  - Rus Forma Vehicles Mod zugefügt und einige Spawn eingearbeitet
+  - Rus Forma Vehicles Mod zugefügt und einige Spawns eingearbeitet
+
+- Search For Loot:
+  - mögliches Loot überarbeitet, wird aber weiter fortlaufend überarbeitet

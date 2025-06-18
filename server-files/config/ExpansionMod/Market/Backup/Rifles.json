@@ -140,16 +140,17 @@
             "Variants": []
         },
         {
-            "ClassName": "TTC_R700",
+            "ClassName": "BO_R700",
             "MaxPriceThreshold": 2500,
             "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "BO_Mag_R700_5rnd"
+            ],
             "Variants": [
-				"TTC_R700_Black"
 			]
         },
         {

@@ -13882,7 +13882,7 @@
                 },
                 {
                     "ClassName": "cowboyhat_black",
-                    "Chance": 1.0,
+                    "Chance": 0.5,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -13901,7 +13901,7 @@
                 },
                 {
                     "ClassName": "cowboyhat_darkbrown",
-                    "Chance": 1.0,
+                    "Chance": 0.5,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -14680,7 +14680,7 @@
                 },
                 {
                     "ClassName": "ballistichelmet_black",
-                    "Chance": 0.03,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -14699,7 +14699,7 @@
                 },
                 {
                     "ClassName": "ballistichelmet_green",
-                    "Chance": 0.03,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -14718,7 +14718,7 @@
                 },
                 {
                     "ClassName": "ballistichelmet_bdu",
-                    "Chance": 0.03,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -14737,7 +14737,7 @@
                 },
                 {
                     "ClassName": "ballistichelmet_desert",
-                    "Chance": 0.03,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -14756,7 +14756,7 @@
                 },
                 {
                     "ClassName": "ballistichelmet_woodland",
-                    "Chance": 0.03,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15250,7 +15250,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_PartizanM",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15288,7 +15288,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_Multicam",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15364,7 +15364,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_Woodland",
-                    "Chance": 0.01,
+                    "Chance": 0.05,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15383,7 +15383,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_FLT",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15402,7 +15402,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_DPM",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15421,7 +15421,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_MPAT",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15440,7 +15440,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_Partizan",
-                    "Chance": 0.01,
+                    "Chance": 0.05,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15459,7 +15459,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_Skol",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15478,7 +15478,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_ATACS",
-                    "Chance": 0.01,
+                    "Chance": 0.02,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15497,7 +15497,7 @@
                 },
                 {
                     "ClassName": "MilitaryGear_TacticalHelmet_CADPAT",
-                    "Chance": 0.01,
+                    "Chance": 0.02,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15554,7 +15554,7 @@
                 },
                 {
                     "ClassName": "gorkahelmet",
-                    "Chance": 0.03,
+                    "Chance": 0.8,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15577,7 +15577,7 @@
                 },
                 {
                     "ClassName": "gorkahelmet_black",
-                    "Chance": 0.03,
+                    "Chance": 0.5,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15681,7 +15681,7 @@
                 },
                 {
                     "ClassName": "OMNOGloves_Brown",
-                    "Chance": 0.019999999552965164,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -15700,7 +15700,7 @@
                 },
                 {
                     "ClassName": "OMNOGloves_Gray",
-                    "Chance": 0.019999999552965164,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16099,7 +16099,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_Tan",
-                    "Chance": 0.01,
+                    "Chance": 0.04,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16118,7 +16118,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_Grey",
-                    "Chance": 0.01,
+                    "Chance": 0.04,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16137,7 +16137,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_Red",
-                    "Chance": 0.01,
+                    "Chance": 0.04,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16156,7 +16156,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_Blue",
-                    "Chance": 0.01,
+                    "Chance": 0.04,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16175,7 +16175,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_White",
-                    "Chance": 0.01,
+                    "Chance": 0.04,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16213,7 +16213,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_CB",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16232,7 +16232,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_RG",
-                    "Chance": 0.01,
+                    "Chance": 0.03,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16251,7 +16251,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_Black",
-                    "Chance": 0.01,
+                    "Chance": 0.05,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16346,7 +16346,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_MC",
-                    "Chance": 0.01,
+                    "Chance": 0.05,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16384,7 +16384,7 @@
                 },
                 {
                     "ClassName": "FOG_FerroGloves_M81",
-                    "Chance": 0.01,
+                    "Chance": 0.05,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16688,7 +16688,7 @@
                 },
                 {
                     "ClassName": "paddedgloves_brown",
-                    "Chance": 0.05,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16707,7 +16707,7 @@
                 },
                 {
                     "ClassName": "paddedgloves_beige",
-                    "Chance": 0.05,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16726,7 +16726,7 @@
                 },
                 {
                     "ClassName": "paddedgloves_threat",
-                    "Chance": 0.05,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16745,7 +16745,7 @@
                 },
                 {
                     "ClassName": "tacticalgloves_black",
-                    "Chance": 0.05,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16764,7 +16764,7 @@
                 },
                 {
                     "ClassName": "tacticalgloves_beige",
-                    "Chance": 0.05,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16783,7 +16783,7 @@
                 },
                 {
                     "ClassName": "tacticalgloves_green",
-                    "Chance": 0.05,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16802,7 +16802,7 @@
                 },
                 {
                     "ClassName": "expansiontacticalglovesdesert",
-                    "Chance": 0.05,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16826,7 +16826,7 @@
             "Items": [
                 {
                     "ClassName": "MilitaryBelt",
-                    "Chance": 0.20000000298023224,
+                    "Chance": 0.40000000298023224,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -16856,7 +16856,9 @@
                                             "Zone": ""
                                         }
                                     ],
-                                    "InventoryAttachments": [
+                                    "InventoryAttachments": [],
+                                    "InventoryCargo": [
+                                        
                                         {
                                             "ClassName": "HuntingKnife",
                                             "Chance": 0.5,
@@ -16897,7 +16899,7 @@
                                         },
                                         {
                                             "ClassName": "CombatKnife",
-                                            "Chance": 0.05000000074505806,
+                                            "Chance": 0.5,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -16915,7 +16917,6 @@
                                             "Sets": []
                                         }
                                     ],
-                                    "InventoryCargo": [],
                                     "ConstructionPartsBuilt": [],
                                     "Sets": []
                                 },
@@ -16933,7 +16934,8 @@
                                             "Zone": ""
                                         }
                                     ],
-                                    "InventoryAttachments": [
+                                    "InventoryAttachments": [],
+                                    "InventoryCargo": [
                                         {
                                             "ClassName": "MakarovIJ70",
                                             "Chance": 0.5,
@@ -16994,7 +16996,7 @@
                                         },
                                         {
                                             "ClassName": "Glock19",
-                                            "Chance": 0.20000000298023224,
+                                            "Chance": 0.35,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -17110,7 +17112,7 @@
                                         },
                                         {
                                             "ClassName": "CZ75",
-                                            "Chance": 0.20000000298023224,
+                                            "Chance": 0.45,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -17186,7 +17188,6 @@
                                             "Sets": []
                                         }
                                     ],
-                                    "InventoryCargo": [],
                                     "ConstructionPartsBuilt": [],
                                     "Sets": []
                                 }
@@ -17251,7 +17252,9 @@
                                             "Zone": ""
                                         }
                                     ],
-                                    "InventoryAttachments": [
+                                    "InventoryAttachments": [],
+                                    "InventoryCargo": [
+                                        
                                         {
                                             "ClassName": "HuntingKnife",
                                             "Chance": 0.5,
@@ -17289,261 +17292,9 @@
                                             "InventoryCargo": [],
                                             "ConstructionPartsBuilt": [],
                                             "Sets": []
-                                        }
-                                    ],
-                                    "InventoryCargo": [],
-                                    "ConstructionPartsBuilt": [],
-                                    "Sets": []
-                                },
-                                {
-                                    "ClassName": "PlateCarrierHolster",
-                                    "Chance": 0.20000000298023224,
-                                    "Quantity": {
-                                        "Min": 0.0,
-                                        "Max": 0.0
-                                    },
-                                    "Health": [
-                                        {
-                                            "Min": 0.299999988079071,
-                                            "Max": 1.0,
-                                            "Zone": ""
-                                        }
-                                    ],
-                                    "InventoryAttachments": [
-                                        {
-                                            "ClassName": "MakarovIJ70",
-                                            "Chance": 0.5,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [
-                                                {
-                                                    "Min": 0.299999988079071,
-                                                    "Max": 1.0,
-                                                    "Zone": ""
-                                                }
-                                            ],
-                                            "InventoryAttachments": [
-                                                {
-                                                    "ClassName": "Mag_IJ70_8Rnd",
-                                                    "Chance": 1.0,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 0.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                },
-                                                {
-                                                    "ClassName": "PistolSuppressor",
-                                                    "Chance": 0.20000000298023224,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 1.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                }
-                                            ],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
                                         },
                                         {
-                                            "ClassName": "Glock19",
-                                            "Chance": 0.20000000298023224,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [
-                                                {
-                                                    "Min": 0.299999988079071,
-                                                    "Max": 1.0,
-                                                    "Zone": ""
-                                                }
-                                            ],
-                                            "InventoryAttachments": [
-                                                {
-                                                    "ClassName": "Mag_Glock_15Rnd",
-                                                    "Chance": 1.0,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 1.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                },
-                                                {
-                                                    "ClassName": "PistolSuppressor",
-                                                    "Chance": 0.20000000298023224,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 1.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                }
-                                            ],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        },
-                                        {
-                                            "ClassName": "TTC_M9",
-                                            "Chance": 0.20000000298023224,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [
-                                                {
-                                                    "Min": 0.299999988079071,
-                                                    "Max": 1.0,
-                                                    "Zone": ""
-                                                }
-                                            ],
-                                            "InventoryAttachments": [
-                                                {
-                                                    "ClassName": "TTC_Mag_M9_15Rnd",
-                                                    "Chance": 1.0,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 0.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                },
-                                                {
-                                                    "ClassName": "PistolSuppressor",
-                                                    "Chance": 0.20000000298023224,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 1.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                }
-                                            ],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        },
-                                        {
-                                            "ClassName": "CZ75",
-                                            "Chance": 0.20000000298023224,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [
-                                                {
-                                                    "Min": 0.299999988079071,
-                                                    "Max": 1.0,
-                                                    "Zone": ""
-                                                }
-                                            ],
-                                            "InventoryAttachments": [
-                                                {
-                                                    "ClassName": "Mag_CZ75_15Rnd",
-                                                    "Chance": 1.0,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 0.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                },
-                                                {
-                                                    "ClassName": "PistolSuppressor",
-                                                    "Chance": 0.20000000298023224,
-                                                    "Quantity": {
-                                                        "Min": 0.0,
-                                                        "Max": 1.0
-                                                    },
-                                                    "Health": [
-                                                        {
-                                                            "Min": 0.299999988079071,
-                                                            "Max": 1.0,
-                                                            "Zone": ""
-                                                        }
-                                                    ],
-                                                    "InventoryAttachments": [],
-                                                    "InventoryCargo": [],
-                                                    "ConstructionPartsBuilt": [],
-                                                    "Sets": []
-                                                }
-                                            ],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        },
-                                        {
-                                            "ClassName": "Magnum",
+                                            "ClassName": "CombatKnife",
                                             "Chance": 0.5,
                                             "Quantity": {
                                                 "Min": 0.0,
@@ -17561,7 +17312,26 @@
                                             "ConstructionPartsBuilt": [],
                                             "Sets": []
                                         }
+
                                     ],
+                                    "ConstructionPartsBuilt": [],
+                                    "Sets": []
+                                },
+                                {
+                                    "ClassName": "PlateCarrierHolster",
+                                    "Chance": 0.4,
+                                    "Quantity": {
+                                        "Min": 0.0,
+                                        "Max": 0.0
+                                    },
+                                    "Health": [
+                                        {
+                                            "Min": 0.299999988079071,
+                                            "Max": 1.0,
+                                            "Zone": ""
+                                        }
+                                    ],
+                                    "InventoryAttachments": [],
                                     "InventoryCargo": [],
                                     "ConstructionPartsBuilt": [],
                                     "Sets": []

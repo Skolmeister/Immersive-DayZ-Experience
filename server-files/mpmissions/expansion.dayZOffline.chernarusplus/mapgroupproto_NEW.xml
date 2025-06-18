@@ -18240,6 +18240,27 @@
 						<point pos="0.878849 -0.900024 -0.231583" range="0.366364" height="0.920135" flags="32" />
 				</container>
 		</group>
+		<group name="StaticObj_Misc_WoodenCrate_5x" lootmax="2">
+			<usage name="Industrial" />
+			<usage name="Farm" />
+			<usage name="Military" />
+			<container name="lootFloor" lootmax="2">
+					<point pos="0.193516 -0.973790 -1.160584" range="1" height="1" /> 
+					<point pos="-1.310592 -0.905955 0.061957" range="1" height="1" /> 
+					<point pos="0.036532 -0.969549 1.357847" range="1" height="1" /> 
+			</container>
+			<usage name="Industrial" />
+			<usage name="Farm" />
+			<usage name="Military" />
+			<container name="lootShelves" lootmax="1">
+					<point pos="0.398950 0.951554 -0.151831" range="0.251009" height="1" /> 
+					<point pos="-0.284422 0.951347 -0.099308" range="0.251009" height="1" /> 
+					<point pos="0.338856 0.319934 0.579468" range="0.222352" height="1" /> 
+					<point pos="-0.458039 0.319695 0.569775" range="0.222352" height="1" /> 
+					<point pos="-0.480091 0.319669 -0.685542" range="0.222352" height="1" /> 
+			</container>
+		</group>
+		
 		<!-- NOT INGAME - PREPARATION
 		<group name="Land_Wreck_truck02_aban1_green" >
 						<usage name="Village" />		

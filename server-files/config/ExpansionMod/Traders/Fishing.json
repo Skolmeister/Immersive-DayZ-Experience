@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_FISHING",
-    "MinRequiredReputation": 0,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
@@ -13,7 +13,7 @@
     "DisplayCurrencyName": "",
     "Categories": [
         "Fishing",
-        "Fishes"
+        "Fish_Whole"
     ],
     "Items": {
         "Msp_TackleBox": 1,

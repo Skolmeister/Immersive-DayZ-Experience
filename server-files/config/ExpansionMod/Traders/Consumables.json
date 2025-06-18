@@ -1,19 +1,13 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
-    "MinRequiredReputation": 0,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
     "TraderIcon": "Can Of Beans Big",
     "Currencies": [
-        "expansionbanknotehryvnia",
-        "wt_smoke_cigarpack_kosmos",
-        "wt_smoke_cigarpack_camal",
-        "wt_smoke_cigarpack_mallabro",
-        "wt_smoke_cigarpack_magma",
-        "wt_smoke_cigarpack_ronin",
-        "wt_smoke_cigarette"
+        "expansionbanknotehryvnia"
     ],
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",

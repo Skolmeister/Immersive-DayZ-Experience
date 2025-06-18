@@ -1,0 +1,20 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_TRADER_AMMO",
+    "MinRequiredReputation": 2000,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Gun Bullets",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Ammo",
+        "Ammo_Boxes"
+    ],
+    "Items": {
+    }
+}

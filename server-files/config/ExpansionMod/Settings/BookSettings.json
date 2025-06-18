@@ -57,7 +57,7 @@
             "Rules": [
                 {
                     "RuleParagraph": "1.1.",
-                    "RuleText": "P2P trading is allowed. You may use the p2p Trader at Green Mountain or you can trade in roleplay manner wherever you are."
+                    "RuleText": "P2P trading is allowed. You may use the p2p Trader or you can trade in roleplay manner wherever you are."
                 },
                 {
                     "RuleParagraph": "1.2.",
@@ -92,7 +92,7 @@
             ]
         },
         {
-            "CategoryName": "ZEN Virus (Spoiler)",
+            "CategoryName": "Z-Virus (Spoiler)",
             "Rules": [
                 {
                     "RuleParagraph": "1.1.",
@@ -297,7 +297,7 @@
                 },
                 {
                     "SettingTitle": "Expansion.Settings.Party.UseWholeMapForInviteList",
-                    "SettingText": "",
+                    "SettingText": "You can invite Players on the whole map to your group",
                     "SettingValue": ""
                 }
             ]
@@ -458,10 +458,7 @@
                     "DescriptionText": "DayZ Expansion Bundle"
                 },
                 {
-                    "DescriptionText": "DayZ Expansion Animations"
-                },
-                {
-                    "DescriptionText": "Community Online Tools (Admin Tool)"
+                    "DescriptionText": "Immersive DayZ Experience - Serverpack"
                 },
                 {
                     "DescriptionText": "sVisual"
@@ -479,28 +476,10 @@
                     "DescriptionText": "Search for Loot (improved)"
                 },
                 {
-                    "DescriptionText": "Garbage Search"
-                },
-                {
                     "DescriptionText": "Shake for Fruit"
                 },
                 {
-                    "DescriptionText": "Zen's Cause of Death"
-                },
-                {
-                    "DescriptionText": "Medical Attention (compatible)"
-                },
-                {
-                    "DescriptionText": "Medical Attention Drunkenness"
-                },
-                {
-                    "DescriptionText": "Zen Virus"
-                },
-                {
                     "DescriptionText": "Windstride's Clothing Pack"
-                },
-                {
-                    "DescriptionText": "Advanced Medicine items"
                 },
                 {
                     "DescriptionText": "Additional Medical supplies"
@@ -521,13 +500,7 @@
                     "DescriptionText": "Edo Weapons (selected items)"
                 },
                 {
-                    "DescriptionText": "Weapons Overhaul"
-                },
-                {
                     "DescriptionText": "Ammo Expansion"
-                },
-                {
-                    "DescriptionText": "Knife Pack"
                 },
                 {
                     "DescriptionText": "FC Fish Equip"
@@ -536,10 +509,7 @@
                     "DescriptionText": "Pokemon Cards"
                 },
                 {
-                    "DescriptionText": "Hope Survivor Backpacks"
-                },
-                {
-                    "DescriptionText": "Animal Pack"
+                    "DescriptionText": "Ambient Animal Pack"
                 },
                 {
                     "DescriptionText": "More Food"
@@ -548,76 +518,10 @@
                     "DescriptionText": "Mega Foodpack"
                 },
                 {
-                    "DescriptionText": "Mass Many Items (selected items)"
-                },
-                {
-                    "DescriptionText": "More Materials"
-                },
-                {
-                    "DescriptionText": "Zens Zippo lighter"
-                },
-                {
                     "DescriptionText": "DayZ Dogs"
                 },
                 {
-                    "DescriptionText": "NBC Overcloth"
-                },
-                {
-                    "DescriptionText": "Zen's TimeBomb"
-                },
-                {
-                    "DescriptionText": "Zen's Tent Bags"
-                },
-                {
-                    "DescriptionText": "Zen's Catch Rain"
-                },
-                {
-                    "DescriptionText": "Zen's Leftovers"
-                },
-                {
-                    "DescriptionText": "Zen's Firewood Piles"
-                },
-                {
-                    "DescriptionText": "Eat Worms"
-                },
-                {
                     "DescriptionText": "Creepy Zombies"
-                },
-                {
-                    "DescriptionText": "Hot Coffee"
-                },
-                {
-                    "DescriptionText": "Smoking Mod"
-                },
-                {
-                    "DescriptionText": "Immersive Placing"
-                },
-                {
-                    "DescriptionText": "Give and Take"
-                },
-                {
-                    "DescriptionText": "Surrender Inventory"
-                },
-                {
-                    "DescriptionText": "View Inventory"
-                },
-                {
-                    "DescriptionText": "Zens Immersive Login"
-                },
-                {
-                    "DescriptionText": "Treasures"
-                },
-                {
-                    "DescriptionText": "Zen's Notes"
-                },
-                {
-                    "DescriptionText": "Aimsounds"
-                },
-                {
-                    "DescriptionText": "Zen's Crafting Sounds"
-                },
-                {
-                    "DescriptionText": "Zen's Gun Move Sounds"
                 }
             ]
         }

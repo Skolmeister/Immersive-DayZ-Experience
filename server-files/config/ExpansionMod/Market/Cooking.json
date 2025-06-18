@@ -1,6 +1,6 @@
 {
     "m_Version": 12,
-    "DisplayName": "COOKING",
+    "DisplayName": "#STR_IDE_MARKET_CATEGORY_COOKING",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
@@ -27,6 +27,20 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+                {
+            "ClassName": "portablegasstove",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mediumgascanister"
+            ],
+            "Variants": []
         }
+
     ]
 }

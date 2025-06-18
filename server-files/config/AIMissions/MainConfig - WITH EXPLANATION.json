@@ -32,7 +32,7 @@
 											**NEW v2.0**		Completed notification text. %1 is required to display the mission name within the message.
             "Notification_LoseMessage": "Event '%1' failed! You ran out of time!",
 											**NEW v2.0**		Failed notification text. %1 is required to display the mission name within the message.
-            "Notification_Time": 10,		**NEW v2.0**		How long the notification will display before fading out
+            "Notification_Time": 20,		**NEW v2.0**		How long the notification will display before fading out
             "Notification_Icon": "Soldier",	**NEW v2.0**		Icon to display within the notification
             "Marker3D_LB_Path": "LBmaster_Groups\\gui\\icons\\player.paa",
 											**NEW v2.0**		LB Master Marker Icon Path (must be configured with LB as well)

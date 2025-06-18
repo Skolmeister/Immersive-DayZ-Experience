@@ -1,0 +1,44 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_TRADER_COMBATGEAR",
+    "MinRequiredReputation": 2000,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Shield",
+    "Currencies": [
+        "expansionbanknotehryvnia"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "Categories": [
+        "Military_Helmets",
+        "Vests",
+        "Pouches",
+        "Headsets",
+        "Holsters",
+        "Ghillies",
+        "Tactical_Rigs",
+        "Patches",
+        "Helmet_Accessories"
+    ],
+    "Items": {
+        "FOG_FastMT_RAC_Black": 3,
+        "FOG_FastMT_RAC_Tan": 3,
+        "FOG_FastMT_RAC_RG": 3,
+        "FOG_AMP_MCBT": 3,
+        "FOG_AMP_Tan": 3,
+        "FOG_AMP_MC": 3,
+        "FOG_AMP_Black": 3,
+        "FOG_AMP_MCB": 3,
+        "FOG_M32_Helmet_Black": 3,
+        "FOG_M32_Helmet_RG": 3,
+        "HuntingVest": 3,
+        "HuntingVest_Winter": 3,
+        "LeatherStorageVest_Beige": 3,
+        "LeatherStorageVest_Black": 3,
+        "LeatherStorageVest_Brown": 3,
+        "LeatherStorageVest_Natural": 3,
+        "ReflexVest": 3
+    }
+}
