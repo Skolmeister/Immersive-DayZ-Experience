@@ -1,10 +1,10 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CLOTHING",
-    "MinRequiredReputation": 0,
+    "MinRequiredReputation": 5000,
     "MaxRequiredReputation": 2147483647,
-    "RequiredFaction": "",
-    "RequiredCompletedQuestID": -1,
+    "RequiredFaction": "PlayerWest",
+    "RequiredCompletedQuestID": 200,
     "TraderIcon": "Backpack",
     "Currencies": [
         "expansionbanknotehryvnia"

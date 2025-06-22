@@ -29,7 +29,7 @@ Example messages:
         <delay>5</delay>
         <repeat>120</repeat>
         <onconnect>1</onconnect>
-        <text>We want to grow our community! Join our Discord Server: https://discord.gg/PV4SpWdEUE</text>
+        <text>We are still a small group, but want to grow our community! Join our Discord Server: https://discord.gg/PV4SpWdEUE</text>
     </message>
 
 
@@ -39,11 +39,11 @@ Example messages:
     <message>
         <delay>1</delay>
         <onconnect>1</onconnect>
-        <text>Greetings Survivor and welcome to our 'Immersive DayZ Roleplay' Server. We're glad you're here. For more information press B</text>
+        <text>Greetings Survivor and welcome to our 'Immersive DayZ Experience' Server. We're glad you're here. For more information press B or refer to the server panel</text>
     </message>
     <message>
-        <delay>2</delay>
+        <delay>3</delay>
         <onconnect>1</onconnect>
-        <text>Please give yourself a DayZ profile name if you have not already done so. You can do this by clicking on "Parameters" in the DayZ Launcher or even better, you can download the DZSA Launcher.</text>
+        <text>Please give yourself a DayZ profile name if you have not already done so. You can do this by clicking on "Parameters" in the DayZ Launcher or you can download the DZSA Launcher.</text>
     </message>
 </messages>

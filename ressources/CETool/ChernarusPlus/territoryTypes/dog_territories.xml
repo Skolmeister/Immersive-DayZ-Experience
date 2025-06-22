@@ -1,486 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9593.5" z="8813.5" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9848.5" z="8738.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10358.5" z="7418.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9623.5" z="8588.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3346" z="3923.5" r="135"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4403.5" z="3938.5" r="105"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11213.5" z="6586" r="135"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10561" z="7021" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9136" z="3826" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9983.5" z="2633.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10343.5" z="3458.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6923.5" z="11408.5" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8108.5" z="11558.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7786" z="12428.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7456" z="12668.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7981" z="11311" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7223.5" z="11318.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6923.5" z="11686" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7951" z="11971" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10426" z="14483.5" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4936" z="15136" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3661" z="14776" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3638.5" z="14956" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="15248.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3646" z="2476" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3841" z="2311" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3203.5" z="2581" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11386" z="15038.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6256" z="7741" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5993.5" z="7831" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6331" z="7508.5" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12751" z="9698.5" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12878.5" z="10036" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12256" z="9563.5" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12511" z="9541" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12046" z="9368.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12653.5" z="9931" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12248.5" z="10621" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12698.5" z="9451" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12173.5" z="9788.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12923.5" z="10261" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9578.5" z="14723.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10463.5" z="2033.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12121" z="7268.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12218.5" z="6301" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11746" z="6413.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12946" z="6751" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11506" z="6616" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12893.5" z="6991" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4493.5" z="6413.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3706" z="5986" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3203.5" z="6106" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4936" z="14866" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4298.5" z="14168.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2236" z="12991" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8033.5" z="3316" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7778.5" z="3511" r="120"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10658.5" z="8078.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14828.5" z="14566" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7966" z="14648.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7741" z="14828.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7951" z="14858.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6811" z="15143.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6586" z="6038.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6766" z="5596" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1523.5" z="12023.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1268.5" z="12038.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1913.5" z="12001" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2033.5" z="12173.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2378.5" z="11806" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2506" z="11993.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2243.5" z="12226" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9143.5" z="4096" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10238.5" z="3751" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5731" z="2596" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6398.5" z="2386" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5168.5" z="2258.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5753.5" z="2326" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5468.5" z="2701" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6203.5" z="2153.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6323.5" z="2641" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5971" z="2611" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6023.5" z="2161" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6188.5" z="2506" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11416" z="10643.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3443.5" z="14791" r="90"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12421" z="14866" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11626" z="15068.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12878.5" z="15128.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12706" z="15083.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11978.5" z="14776" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1148.5" z="7208.5" r="97.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13433.5" z="3308.5" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14153.5" z="13013.5" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3143.5" z="4043.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2573.5" z="3458.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2086" z="3533.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12976" z="8273.5" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6233.5" z="12698.5" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6436" z="12728.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6218.5" z="13411" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6788.5" z="12571" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5911" z="13291" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5783.5" z="8701" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3173.5" z="13711" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1133.5" z="2431" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4471" z="2461" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4771" z="2506" r="135"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4891" z="2843.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4966" z="2371" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4223.5" z="2318.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="188.5" z="12526" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2731" z="9991" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2881" z="9743.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4681" z="6323.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9991" z="10388.5" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9346" z="8821" r="97.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9473.5" z="13733.5" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9391" z="14596" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9721" z="13891" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9271" z="13531" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10238.5" z="14086" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9713.5" z="13156" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9338.5" z="13096" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9976" z="13163.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9323.5" z="13928.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12293.5" z="10913.5" r="127.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7066" z="4298.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="773.5" z="12233.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1351" z="14168.5" r="97.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="8281" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5348.5" z="8588.5" r="120"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3698.5" z="8273.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3616" z="6953.5" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14041" z="15068.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13171" z="14933.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14191" z="14858.5" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5941" z="10373.5" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12946" z="8063.5" r="127.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5866" z="4771" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6541" z="5603.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6083.5" z="4906" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7208.5" z="6983.5" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2491" z="11003.5" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2288.5" z="11243.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12263.5" z="12556" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11971" z="12563.5" r="142.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12136" z="13561" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11573.5" z="12421" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11746" z="12166" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12436" z="12368.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11333.5" z="12518.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11768.5" z="12496" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12488.5" z="12526" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1561" z="14288.5" r="105"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1973.5" z="10636" r="127.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11933.5" z="9106" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11701" z="9158.5" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5266" z="10583.5" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13231" z="3871" r="105"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1606" z="7808.5" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9661" z="10448.5" r="97.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14956" z="14258.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14551" z="13996" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14783.5" z="14048.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8521" z="15068.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8836" z="14626" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9166" z="14851" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13096" z="7073.5" r="142.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10673.5" z="2438.5" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1883.5" z="10838.5" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2528.5" z="6376" r="120"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10111" z="5513.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9893.5" z="5446" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10313.5" z="5498.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10966" z="5521" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5843.5" z="3968.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5431" z="3818.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5243.5" z="3691" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5918.5" z="10163.5" r="127.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2513.5" z="9661" r="105"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5491" z="12616" r="142.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5101" z="12728.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5971" z="12413.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5701" z="12631" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5273.5" z="12653.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5926" z="12661" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3083.5" z="7846" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3181" z="8108.5" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3496" z="8393.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11498.5" z="14506" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10711" z="14393.5" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11011" z="14401" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11258.5" z="14356" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11866" z="13898.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11588.5" z="14258.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10951" z="13396" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10576" z="14191" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11513.5" z="14071" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11296" z="14641" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4561" z="4591" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4351" z="4681" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3346" z="4928.5" r="105"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6676" z="14416" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7486" z="13793.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7081" z="14573.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7546" z="13576" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6563.5" z="14213.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4966" z="5596" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5258.5" z="5498.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12863.5" z="4456" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12638.5" z="4381" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2003.5" z="7328.5" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2993.5" z="6743.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1891" z="7508.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6136" z="10396" r="120"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9668.5" z="6541" r="97.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13366" z="6196" r="150"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10538.5" z="9706" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10298.5" z="9571" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10328.5" z="9833.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10583.5" z="9901" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8341" z="2746" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8686" z="2431" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8041" z="3023.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8266" z="2903.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8311" z="7538.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6893.5" z="7763.5" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11146" z="12331" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10208.5" z="12046" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10883.5" z="12428.5" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11108.5" z="11978.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10696" z="12443.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10816" z="12856" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3683.5" z="13073.5" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3413.5" z="12743.5" r="135"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3076" z="12638.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3863.5" z="12863.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4133.5" z="13118.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4028.5" z="11663.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3961" z="12563.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4171" z="12113.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3436" z="12323.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3901" z="13036" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7501" z="5153.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7733.5" z="5153.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8416" z="4958.5" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2596" z="1321" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7133.5" z="7696" r="150"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13628.5" z="2948.5" r="97.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13388.5" z="6601" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8401" z="12781" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8783.5" z="11656" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8191" z="12226" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8648.5" z="11858.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8498.5" z="12016" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8641" z="12788.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8416" z="12226" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8161" z="12421" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8813.5" z="12893.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9586" z="11798.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3871" z="8866" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4133.5" z="8956" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3668.5" z="8566" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3083.5" z="9203.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3796" z="9083.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4118.5" z="9151" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2933.5" z="9376" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="11371" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4583.5" z="11618.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2333.5" z="9083.5" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1711" z="5093.5" r="97.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11453.5" z="7501" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12293.5" z="8491" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7418.5" z="9121" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8371" z="5978.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8498.5" z="6653.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8543.5" z="6053.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11213.5" z="5393.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11528.5" z="5026" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12616" z="5746" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11506" z="5506" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4718.5" z="6796" r="135"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1066" z="13891" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8078.5" z="9293.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9257.05" z="4972.38" r="100"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10831" z="2678.5" r="105"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13351" z="12953.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13141" z="13103.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12511" z="13876" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13726" z="13298.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13553.5" z="13336" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13246" z="13696" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12946" z="12773.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12458.5" z="13561" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12346" z="13816" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12751" z="13928.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4988.5" z="13006" r="135"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5896" z="13568.5" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5671" z="13126" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4471" z="13201" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6473.5" z="6181" r="90"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11236" z="4283.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11116" z="4096" r="82.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1688.5" z="3818.5" r="127.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2738.5" z="5363.5" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2641" z="5093.5" r="135"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2296" z="5228.5" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2618.5" z="5618.5" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2971" z="5408.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2663.5" z="5978.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2506" z="5408.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3188.5" z="5198.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5183.5" z="15016" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5753.5" z="15218.5" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5446" z="14521" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5641" z="14551" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6473.5" z="14851" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6481" z="15038.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6653.5" z="15158.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5573.5" z="15203.5" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8108.5" z="10988.5" r="97.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12061" z="3571" r="120"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4808.5" z="10253.5" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4628.5" z="9638.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4996" z="9991" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4568.5" z="10703.5" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4681" z="10448.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4898.5" z="9638.5" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="9886" r="75"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13111" z="10343.5" r="127.5"/>
-    </territory>
-    <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13373.5" z="5446" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3586" z="2228.5" r="90"/>
     </territory>
     <territory color="1785939712">
         <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6638.5" z="2566" r="150"/>
@@ -513,102 +130,485 @@
         <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10028.5" z="2123.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9346" z="8821" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12061" z="3571" r="120"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12293.5" z="10913.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4808.5" z="10253.5" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4628.5" z="9638.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4996" z="9991" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4568.5" z="10703.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4681" z="10448.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4898.5" z="9638.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="9886" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="773.5" z="12233.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13111" z="10343.5" r="127.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3586" z="2228.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13373.5" z="5446" r="90"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5783.5" z="8701" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1688.5" z="3818.5" r="127.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1133.5" z="2431" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2738.5" z="5363.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2641" z="5093.5" r="135"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2296" z="5228.5" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2618.5" z="5618.5" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2971" z="5408.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2663.5" z="5978.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2506" z="5408.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3188.5" z="5198.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="188.5" z="12526" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5183.5" z="15016" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5753.5" z="15218.5" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5446" z="14521" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5641" z="14551" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6473.5" z="14851" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6481" z="15038.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6653.5" z="15158.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5573.5" z="15203.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4681" z="6323.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8108.5" z="10988.5" r="97.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3443.5" z="14791" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13351" z="12953.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13141" z="13103.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12511" z="13876" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13726" z="13298.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13553.5" z="13336" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13246" z="13696" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12946" z="12773.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12458.5" z="13561" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12346" z="13816" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12751" z="13928.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1148.5" z="7208.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4988.5" z="13006" r="135"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5896" z="13568.5" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5671" z="13126" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4471" z="13201" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14153.5" z="13013.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6473.5" z="6181" r="90"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12976" z="8273.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11236" z="4283.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11116" z="4096" r="82.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14828.5" z="14566" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1066" z="13891" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6586" z="6038.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6766" z="5596" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8078.5" z="9293.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9143.5" z="4096" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9257.05" z="4972.38" r="100"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5731" z="2596" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6398.5" z="2386" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5168.5" z="2258.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5753.5" z="2326" r="120"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5468.5" z="2701" r="112.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6203.5" z="2153.5" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6323.5" z="2641" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5971" z="2611" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6023.5" z="2161" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6188.5" z="2506" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10831" z="2678.5" r="105"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9578.5" z="14723.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7418.5" z="9121" r="90"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12121" z="7268.5" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12218.5" z="6301" r="97.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11746" z="6413.5" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12946" z="6751" r="90"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11506" z="6616" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12893.5" z="6991" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8371" z="5978.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8498.5" z="6653.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8543.5" z="6053.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4936" z="14866" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4298.5" z="14168.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6136" z="10396" r="120"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8033.5" z="3316" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7778.5" z="3511" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11213.5" z="5393.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11528.5" z="5026" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12616" z="5746" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11506" z="5506" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9136" z="3826" r="105"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9983.5" z="2633.5" r="82.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10343.5" z="3458.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9668.5" z="6541" r="97.5"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10426" z="14483.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4718.5" z="6796" r="135"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3646" z="2476" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3841" z="2311" r="75"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3203.5" z="2581" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13366" z="6196" r="150"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6256" z="7741" r="150"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5993.5" z="7831" r="127.5"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6331" z="7508.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="11371" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4583.5" z="11618.5" r="75"/>
     </territory>
     <territory color="1785939712">
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3346" z="3923.5" r="135"/>
-        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4403.5" z="3938.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10538.5" z="9706" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10298.5" z="9571" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10328.5" z="9833.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10583.5" z="9901" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2333.5" z="9083.5" r="90"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6676" z="14416" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7486" z="13793.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7081" z="14573.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7546" z="13576" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6563.5" z="14213.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1711" z="5093.5" r="97.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4966" z="5596" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5258.5" z="5498.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11453.5" z="7501" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12293.5" z="8491" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12863.5" z="4456" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12638.5" z="4381" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13628.5" z="2948.5" r="97.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2003.5" z="7328.5" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2993.5" z="6743.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1891" z="7508.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13388.5" z="6601" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5491" z="12616" r="142.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5101" z="12728.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5971" z="12413.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5701" z="12631" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5273.5" z="12653.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5926" z="12661" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8401" z="12781" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8783.5" z="11656" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8191" z="12226" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8648.5" z="11858.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8498.5" z="12016" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8641" z="12788.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8416" z="12226" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8161" z="12421" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8813.5" z="12893.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9586" z="11798.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3083.5" z="7846" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3181" z="8108.5" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3496" z="8393.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3871" z="8866" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4133.5" z="8956" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3668.5" z="8566" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3083.5" z="9203.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3796" z="9083.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4118.5" z="9151" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2933.5" z="9376" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11498.5" z="14506" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10711" z="14393.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11011" z="14401" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11258.5" z="14356" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11866" z="13898.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11588.5" z="14258.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10951" z="13396" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10576" z="14191" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11513.5" z="14071" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11296" z="14641" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3683.5" z="13073.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3413.5" z="12743.5" r="135"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3076" z="12638.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3863.5" z="12863.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4133.5" z="13118.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4028.5" z="11663.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3961" z="12563.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4171" z="12113.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3436" z="12323.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3901" z="13036" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4561" z="4591" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4351" z="4681" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3346" z="4928.5" r="105"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7501" z="5153.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7733.5" z="5153.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8416" z="4958.5" r="90"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10111" z="5513.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9893.5" z="5446" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10313.5" z="5498.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10966" z="5521" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2596" z="1321" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5843.5" z="3968.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5431" z="3818.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5243.5" z="3691" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7133.5" z="7696" r="150"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5918.5" z="10163.5" r="127.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8341" z="2746" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8686" z="2431" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8041" z="3023.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8266" z="2903.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2513.5" z="9661" r="105"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8311" z="7538.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13096" z="7073.5" r="142.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6893.5" z="7763.5" r="90"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10673.5" z="2438.5" r="90"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11146" z="12331" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10208.5" z="12046" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10883.5" z="12428.5" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11108.5" z="11978.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10696" z="12443.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10816" z="12856" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1883.5" z="10838.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2528.5" z="6376" r="120"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1606" z="7808.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9661" z="10448.5" r="97.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14956" z="14258.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14551" z="13996" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14783.5" z="14048.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8521" z="15068.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8836" z="14626" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9166" z="14851" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1973.5" z="10636" r="127.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11933.5" z="9106" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11701" z="9158.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5266" z="10583.5" r="90"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13231" z="3871" r="105"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7208.5" z="6983.5" r="90"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2491" z="11003.5" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2288.5" z="11243.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12263.5" z="12556" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11971" z="12563.5" r="142.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12136" z="13561" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11573.5" z="12421" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11746" z="12166" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12436" z="12368.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11333.5" z="12518.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11768.5" z="12496" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12488.5" z="12526" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1561" z="14288.5" r="105"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14041" z="15068.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13171" z="14933.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="14191" z="14858.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5941" z="10373.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12946" z="8063.5" r="127.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5866" z="4771" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6541" z="5603.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6083.5" z="4906" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7066" z="4298.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1351" z="14168.5" r="97.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="8281" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5348.5" z="8588.5" r="120"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3698.5" z="8273.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3616" z="6953.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4471" z="2461" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4771" z="2506" r="135"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4891" z="2843.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4966" z="2371" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4223.5" z="2318.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2731" z="9991" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2881" z="9743.5" r="97.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9991" z="10388.5" r="112.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9473.5" z="13733.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9391" z="14596" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9721" z="13891" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9271" z="13531" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10238.5" z="14086" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9713.5" z="13156" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9338.5" z="13096" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9976" z="13163.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9323.5" z="13928.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="13433.5" z="3308.5" r="120"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3143.5" z="4043.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2573.5" z="3458.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2086" z="3533.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6233.5" z="12698.5" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6436" z="12728.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6218.5" z="13411" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6788.5" z="12571" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="5911" z="13291" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3173.5" z="13711" r="120"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1523.5" z="12023.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1268.5" z="12038.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="1913.5" z="12001" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2033.5" z="12173.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2378.5" z="11806" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2506" z="11993.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2243.5" z="12226" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10238.5" z="3751" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11416" z="10643.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12421" z="14866" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11626" z="15068.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12878.5" z="15128.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12706" z="15083.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11978.5" z="14776" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4493.5" z="6413.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3706" z="5986" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3203.5" z="6106" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="2236" z="12991" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10658.5" z="8078.5" r="150"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7966" z="14648.5" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7741" z="14828.5" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7951" z="14858.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6811" z="15143.5" r="82.5"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4936" z="15136" r="127.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3661" z="14776" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="3638.5" z="14956" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="4523.5" z="15248.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11386" z="15038.5" r="90"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12751" z="9698.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12878.5" z="10036" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12256" z="9563.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12511" z="9541" r="112.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12046" z="9368.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12653.5" z="9931" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12248.5" z="10621" r="90"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12698.5" z="9451" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12173.5" z="9788.5" r="82.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="12923.5" z="10261" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10463.5" z="2033.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9593.5" z="8813.5" r="150"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9848.5" z="8738.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10358.5" z="7418.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="9623.5" z="8588.5" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="11213.5" z="6586" r="135"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="10561" z="7021" r="75"/>
+    </territory>
+    <territory color="1785939712">
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6923.5" z="11408.5" r="120"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="8108.5" z="11558.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7786" z="12428.5" r="105"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7456" z="12668.5" r="97.5"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7981" z="11311" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7223.5" z="11318.5" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="6923.5" z="11686" r="75"/>
+        <zone name="Zone_dog" smin="0" smax="0" dmin="0" dmax="1" x="7951" z="11971" r="75"/>
     </territory>
 </territory-type>

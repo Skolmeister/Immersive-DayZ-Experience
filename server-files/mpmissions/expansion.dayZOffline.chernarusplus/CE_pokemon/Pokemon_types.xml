@@ -1,142 +1,439 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-    <type name="PokemonBooster001_1">
-        <nominal>7</nominal>
+    <type name="PokemonBoosterPack_Basic1_1x">
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>60</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="food"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Town"/>
         <usage name="School"/>
     </type>
-    <type name="PokemonBooster002_1">
-        <nominal>7</nominal>
+    <type name="PokemonBoosterPack_Basic2_1x">
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>60</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="food"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Town"/>
         <usage name="School"/>
     </type>
-    <type name="PokemonBooster003_1">
-        <nominal>7</nominal>
+    <type name="PokemonBoosterPack_Basic3_1x">
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>60</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="food"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Town"/>
         <usage name="School"/>
     </type>
-    <type name="PokemonBooster001_3">
+    <type name="PokemonBoosterPack_Basic1_3x">
         <nominal>4</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>3</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="School"/>
-    </type>
-    <type name="PokemonBooster002_3">
-        <nominal>4</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>3</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="School"/>
-    </type>
-    <type name="PokemonBooster003_3">
-        <nominal>4</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>3</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="School"/>
-    </type>
-    <type name="PokemonBooster001_5">
-        <nominal>4</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>3</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="School"/>
-    </type>
-    <type name="PokemonBooster002_5">
-        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="food"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Town"/>
         <usage name="School"/>
     </type>
-    <type name="PokemonBooster003_5">
-        <nominal>3</nominal>
+    <type name="PokemonBoosterPack_Basic2_3x">
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-        <cost>100</cost>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="food"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Basic3_3x">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Basic1_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>21</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Basic2_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Basic3_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil1_1x">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>60</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil2_1x">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil3_1x">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil1_3x">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil2_3x">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil3_3x">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil1_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil2_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Fossil3_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle1_1x">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle2_1x">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle3_1x">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle1_3x">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle2_3x">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle3_3x">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle1_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle2_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <usage name="School"/>
+    </type>
+    <type name="PokemonBoosterPack_Jungle3_5x">
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>20</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
         <usage name="School"/>
     </type>
     <type name="PokemonCard_Box1">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -151,7 +448,7 @@
         <usage name="School"/>
     </type>
     <type name="PokemonCard_Box2">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -166,7 +463,7 @@
         <usage name="School"/>
     </type>
     <type name="PokemonCard_Box3">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -181,7 +478,7 @@
         <usage name="School"/>
     </type>
     <type name="PokemonCard_Box4">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -196,7 +493,7 @@
         <usage name="School"/>
     </type>
     <type name="PokemonCard_Box5">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -442,708 +739,1068 @@
         <lifetime>216000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster001_1">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic1_1x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster002_1">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic2_1x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster003_1">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic3_1x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster001_3">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic1_3x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster002_3">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic2_3x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster003_3">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic3_3x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster001_5">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic1_5x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster002_5">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic2_5x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonBooster003_5">
-        <lifetime>21600</lifetime>
+    <type name="OpenedPokemonBoosterPack_Basic3_5x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil1_1x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil2_1x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil3_1x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil1_3x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil2_3x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil3_3x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil1_5x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil2_5x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Fossil3_5x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle1_1x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle2_1x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle3_1x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle1_3x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle2_3x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle3_3x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle1_5x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle2_5x">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="OpenedPokemonBoosterPack_Jungle3_5x">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="PokemonEnergy1">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="PokemonEnergy2">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="PokemonEnergy3">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="PokemonEnergy4">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="PokemonEnergy5">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="PokemonEnergy6">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="PokemonEnergy7">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonEnergy8">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer01">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer1">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer02">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer2">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer03">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer3">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer04">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer4">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer05">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer5">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer06">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer6">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer07">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer7">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer08">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="PokemonTrainer8">
-        <lifetime>21600</lifetime>
+    <type name="PokemonTrainer09">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer10">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer11">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer12">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer13">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer14">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer15">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer16">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer17">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer18">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer19F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer20F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer21F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer22F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer23F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="PokemonTrainer24J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard001">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard002">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard003">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard003H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard004">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard005">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard006">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard006H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard007">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard008">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard009">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard009H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard010">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard011">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard012">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard013">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard014">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard015">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard016">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard017">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard018">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard018J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard018JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard019">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard020">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard021">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard021J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard022">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard022J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard023">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard023F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard024">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard024F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard025">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard025J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard026">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard026F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard026H">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard026FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard027">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard028">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard028F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard029">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard029J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard030">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard030J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard031">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard031J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard031JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard032">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard033">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard034">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard034H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard035">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard036">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard035H">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard036J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard036JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard037">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard038">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard039">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard038H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard040">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard039J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard041">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard040J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard042">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard040JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard043">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard041F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard044">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard042F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard045">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard043J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard046">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard044J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard047">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard045J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard048">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard045JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard049">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard046J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard047J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard048J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard049J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard049JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard050">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard051">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard052">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard052J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard053">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard053J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard054">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard054F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard055">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard055F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard056">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard056J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard057">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard057J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard058">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard059">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard060">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard061">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard062">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard062H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard063">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard064">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard065">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard065H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard066">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard067">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard068">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard069">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard068H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard070">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard069J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard071">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard070J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard072">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard071J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard073">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard071JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard074">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard072F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard075">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard073F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard076">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard074F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard075F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard076F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard077">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard078">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard078J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard079">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard079F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard080">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard080F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard081">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard082">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard082F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard082H">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard082FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard083">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard084">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard085">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard085J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard086">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard087">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard088">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard088F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard089">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard089F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard090">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard089FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard091">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard090F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard091F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard092">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard092F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard093">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard094">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard093F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard093FH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard094F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard094FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard095">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard096">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard097">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard097F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard098">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard097FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard099">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard098F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard099F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard100">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard101">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard102">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard101J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard103">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard101JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard104">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard102J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard105">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard103J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard106">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard104J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard105J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard106F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard106FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard107">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard108">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard107H">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard108J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard109">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard110">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard110F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard111">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard111J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard112">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard112J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard113">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard113H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard114">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard115">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard115J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard116">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard115JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard117">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard116F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard118">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard117F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard119">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard118J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard119J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard120">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard121">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard122">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard122J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard123">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard122JH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard123J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard123JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard124">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard125">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard126">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard127">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard126F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard128">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard127J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard127JH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard128J">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard129">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard130">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard131">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard130H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard132">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard131F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard133">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard131FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard134">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard132F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard135">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard132FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard136">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard133J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard134J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard134JH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard135J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard135JH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard136J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard136JH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard137">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard138">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard138F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard139">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard139F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard140">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard140F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard141">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard141F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard142">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard141FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard143">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard142F">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard144">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard142FH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard143J">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard143JH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard144F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard144FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard145">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard146">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard145F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard145H">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard145FH">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard146F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard146FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard147">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard148">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Pokemoncard149">
-        <lifetime>21600</lifetime>
+    <type name="Pokemoncard149F">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard149FH">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard150">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard150H">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Pokemoncard151">
-        <lifetime>21600</lifetime>
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard151H">
+        <lifetime>14400</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Pokemoncard151P">
+        <lifetime>14400</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 </types>

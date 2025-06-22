@@ -1,0 +1,116 @@
+{
+    "ConfigVersion": 22,
+    "ID": 200,
+    "Type": 1,
+    "Title": "Into the West",
+    "Descriptions": [
+        "Survivor... so, you claim you're with us? We'll see about that. One of our scouts got cornered by a horde of infected during his mission. He's pinned down in a factory not far from here. We don't have a recovery team available right now. If you're serious about proving yourself, this is your chance. \nClear out that horde and get him back to base.\n Show your loyalty to the West, and you'll have our backing.",
+        "What are you standing around for? He's still calling for help over comms!",
+        "You got him out? Respect. We could use more solid fighters like you. Come on - join our ranks."
+    ],
+    "ObjectiveText": "Extract the West Scout",
+    "FollowUpQuest": -1,
+    "Repeatable": 0,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 1,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {         
+            "ClassName": "MilitaryGear_FieldJacket_Multicam",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+          {
+            "ClassName": "MilitaryGear_TacticalPants_Multicam",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+          {
+            "ClassName": "armband_expansion_nato",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+          {
+            "ClassName": "CombatKnife",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          },
+          {
+            "ClassName": "chernarusmap",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 100,
+            "QuestID": -1,
+            "Chance": 1.0
+          }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": -1,
+    "RewardsForGroupOwnerOnly": 0,
+    "QuestGiverIDs": [
+        20
+    ],
+    "QuestTurnInIDs": [
+        20
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 200,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 200,
+            "ObjectiveType": 2
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 201,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 28,
+            "ID": 200,
+            "ObjectiveType": 9
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "Survivors",
+    "FactionReward": "PlayerWest",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {
+        "West": 500
+    },
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

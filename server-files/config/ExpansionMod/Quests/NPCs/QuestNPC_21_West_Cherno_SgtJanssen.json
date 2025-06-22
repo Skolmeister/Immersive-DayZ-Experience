@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 21,
+    "ClassName": "ExpansionQuestNPCAIHelga",
+    "Position": [
+        7274.419922,
+        26.626301,
+        3025.879883
+    ],
+    "Orientation": [
+        72.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Sgt. Janssen",
+    "DefaultNPCText": "Keep going!",
+    "Waypoints": [
+        [
+            7274.419922,
+            26.626301,
+            3025.879883
+        ]
+    ],
+    "NPCEmoteID": 52,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "NBCLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 4,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 44,
+    "NPCFaction": "InvincibleWest",
+    "NPCType": 2,
+    "Active": 1
+}

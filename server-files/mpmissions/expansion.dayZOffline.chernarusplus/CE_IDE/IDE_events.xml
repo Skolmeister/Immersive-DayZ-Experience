@@ -48,6 +48,28 @@
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_JoggerSkinny_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_VillagerOld_Blue"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_VillagerOld_White"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_HikerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_HikerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_HikerSkinny_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_HikerSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_FishermanOld_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_FishermanOld_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_FishermanOld_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_FishermanOld_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_HermitSkinny_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_HermitSkinny_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_HermitSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_HermitSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_HikerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_HikerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_HikerSkinny_Yellow"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_JoggerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_JoggerSkinny_Brown"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_JoggerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_RCZ_JoggerSkinny_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_JoggerSkinny_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_JoggerSkinny_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_JoggerSkinny_Red"/>
         </children>
     </event>
 </events>

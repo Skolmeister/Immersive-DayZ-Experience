@@ -1,14 +1,21 @@
-Changelog:
+Gut Ding will Weile haben....
+
+Die neue Season und das Server Update legt den Fokus auf AI. Wäre gut, wenn ihr das einmal hier lest.
+Ich hab erstmal auch viel runtergeschmissen was mir nicht gefiel, werde einiges davon aber selbst ummodden und dann wieder zufügen.
+Natürlich ist nix perfekt und ich bastel auch noch weiter, aber ich denke ihr habt lange genug gewartet und wollt wieder zocken. Das meiste von dem, was noch unfertig wirkt, hab ich auf dem Schirm, bitte immer Feedback in den Channel schreiben.
+
+Jetzt heißt es erstmal Spaß haben...
+Änderungen im Detail (möglicherweise hab ich das ein oder andere vergessen):
 
 - Central Economy:
   - Zombie Territorien komplett überarbeitet
   - Zombie Spawndistanz wurde um 200 Meter angehoben, heißt der Server kann Zombies schon weiter vom Spieler entfernt reinladen (wichtig beim schnellen bewegen über die Map, z.B. mit Heli oder Dingo)
-
-- Items:
+  - ALLE Types wurden komplett überarbeitet, insbesondere im Hinblick auf Spawnhäufigkeit von Items und in welchen Gebieten diese spawnen
   - neue FOG Items zugefügt
   - Waffen und Scopes ausgemistet. Neue HQ Waffen und Scopes werden nach und nach wieder zugefügt. Nicht mehr alles ist als freies Loot auffindbar. Spezielle Sachen müssen über Quests oder Events verdient werden
-  - Einige Waffen, Ausrüstung etc kann nur noch über Quests, Dynamic Missions, Airdrops oder von AI erhalten werden
-    - Dadurch wird die economy queue etwas entlastet und ich denke das bietet Anreize Loot auf verschiedene Arten zu bekommen
+  - Einige Waffen, Ausrüstung etc kann nur noch über Quests, Dynamic Missions, Airdrops oder von AI erhalten werden. Heißt, es liegt nicht nur noch alles in der Welt auf dem Boden rum und muss sich auf verschiedene Art verdient werden.
+    -> Dadurch wird die economy queue etwas entlastet und ich denke das bietet Anreize Loot auf verschiedene Arten zu bekommen
+
 - Custom Waffen:
   - Dadurch, dass ich bei den Waffen ordentlich durchgesiebt habe, habe ich dafür neue IDE-exklusive Custom Waffen gemoddet. Dazu wurden bestehende Waffen aus anderen Mods überschrieben
     - APS
@@ -16,7 +23,12 @@ Changelog:
     - G36A1
     - G36C
     - AWSM
+    - MG3
+    - SG552
+    - CZ82
     - tbc...
+
+  - neue Farbvarianten von Vanilla Waffen, z.B. Mosin, dunkles Holz
 
 - Spawnsettings:
   - Neue und zusätzliche Player Spawnpunkte zugefügt
@@ -32,24 +44,26 @@ Changelog:
   - Freundliche Einheiten können nicht mehr rekrutiert werden (Dies würde sonst nämlich ermöglichen sämtliche Einheiten zu rekrutieren, die nicht feindlich gesinnt sind)
 
 - AI Patrols:
-  - Roaming Survivors (Raiders) Spawnpunkte wurden komplett überarbeitet
-  - Roaming Survivors (Raiders) wurden in Tier 1 - 4 aufgeteilt
-  - Roaming Survivors (Raiders) meiden jetzt einige Gebiete, wie z.B. Traderzones und Faction Camps
+  - Roaming Survivors (Looters) Spawnpunkte wurden komplett überarbeitet
+  - Roaming Survivors (Looters) wurden in Tier 1 - 4 aufgeteilt
+  - Roaming Survivors (Looters) meiden jetzt einige Gebiete, wie z.B. Traderzones und Faction Camps
   - West Patrols zugefügt
   - East Patrols zugefügt
   - Ghouls Faction AI taucht an passenden Orten auf (Obacht, können viel einstecken und teilen ordentlich aus!)
-  - neue Object Patrols
+  - neue Object Patrols, heißt an einigen bestimmten static_objects (Gebäude, Map-Assets, etc) können bestimmte AI Spawnen, z.B. Können an Leichenhaufen Ghouls spawnen --- also immer Obacht
 
 - Dynamic AI Encounters:
   - 4 Custom Söldnerfraktion können komplett random um euch herum spawnen und jagen die Gruppe
   - Meme-Banden können komplett random um euch spawnen und euch attackieren (Banditen, Ghoule, Kopfgeldjäger)
+  - Vorsicht: Die Zielgenauigkeit ist bei den einzelnen Banden unterschiedlich. Kopfgeldjäger schießen äußerst präzise, Banditen weniger...
 
 - GPS Gerät (Neue Funktion):
   - Lohnt sich umso mehr jetzt, da es euch vor Angriffen der Random AI Begegnungen warnt, wenn es eingeschaltet ist (gilt nicht für reguläte AI Patrols)
 
 - Globale dynamische AI Missionen:
-  - Serverweite Events in denen ihr AI besiegen müsst und als Belohnung Loot bekommt.
-  - Basiert quasi auf den Airdrops, aber ist halt mehr Action --- ;)
+  - Serverweite Events in denen ihr AI besiegen müsst und als Belohnung besonderes Loot bekommt. Hier besteht u. a. die Möglichkeit exklusive FOG Ausrüstung und seltene Waffen zu bekommen
+  -> Basiert quasi auf den Airdrops, aber ist halt mehr Action --- ;)
+  -> Belohnungen werden zukünftig vielfältiger und ich werde auch noch mehr Missionen schreiben
 
 - Loadouts:
   - West und East Loadouts überarbeitet
@@ -60,15 +74,29 @@ Changelog:
   - Bounty Hunter Loadouts zugefügt
   - Söldner Loadouts für die 4 Söldner Unterfraktionen zugefügt (Ursus Group, Silverline, New Fawn, Obsidian Fang)
 
-- Events:
-  - neues Event: Chedaki Straßenblockade / Checkpoint
+- Neue Events:
+  - Chedaki Checkpoint
+  - Boot
+  - tbc...
+
+- Neue custom Locations:
+  - Überraschung...
 
 - Trader:
   - Schwarzmarkt ist jetzt eröffnet (Müsst ihr finden)
-  - Trader im Faction Camp West
   - Neue Händlerkategorien erstellt, so wurden z. B. Magazine in weitere Unterkategorien aufgeteilt
+  - Dinge sind teuer, sehr teuer...
+  - Verkauf von Sachen bringt unterschiedlich viel Kohle. Verkauf von Munition ist äußerst lukrativ (90% vom VK), während ihr für Standard Loot, wie normale Kleidung nur einen Bruchteil des Verkaufspreises bekommt.
+  - Ziel ist hier, dass Spieler immer noch auf Loot-Touren angewiesen sind und sich dafür im Gegenzug, das ein oder andere Item beim Trader zu kaufen. Sinn ist nicht, sämtliche benötigte Items nur noch beim Trader zu kaufen
   - Stringtable für alle Sprachen erstellt für neue Händler und Kategorien
   - tbc...
+
+- Personal Storage:
+  - Es gibt jetzt an manchen Orten statische Truhen, die als euer persönliches Lager genutzt werden können
+  - Vergleichbar mit Lagern in MMORPGs
+  - Manche Truhen erlauben es global auf das Inventar anderer globaler Truhen zuzugreifen
+  - Es gibt für manche Truhen eine Faction, Questabschluss oder Reputation Anforderung bevor ihr die nutzen könnt
+  - Die Kisten kann man upgraden
 
 - Quests:
   - neue Banditencamps
@@ -76,7 +104,8 @@ Changelog:
   - Jedes Gruppenmitglied kann Quests annehmen und abschließen und auch Belohnungen einfahren
 
 - Vehicles:
-  - Rus Forma Vehicles Mod zugefügt und einige Spawns eingearbeitet
+  - erste neue Autos aus der Rus Forma Vehicles Mod könnt ihr finden
+  - weitere Fahrzeuge und Spawnpunkte kommen nach und nach rein
 
 - Search For Loot:
-  - mögliches Loot überarbeitet, wird aber weiter fortlaufend überarbeitet
+  - mögliches Loot überarbeitet, wird aber weiter fortlaufend angepasst

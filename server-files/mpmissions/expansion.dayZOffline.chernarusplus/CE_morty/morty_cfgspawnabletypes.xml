@@ -604,7 +604,7 @@
 		<attachments chance="0.30">
 			<item name="TTC_Holo" chance="1.00" />
 		</attachments>
-		<attachments chance="0.40">
+		<attachments chance="0.60">
 			<item name="TTC_300Cmag" chance="1.00" />
 		</attachments>
 	</type>
@@ -647,7 +647,7 @@
 		</attachments>
 	</type>
 	<type name="TTC_Deagle">
-		<attachments chance="0.40">
+		<attachments chance="0.80">
 			<item name="TTC_Deagle_Magazine_7rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -669,7 +669,7 @@
 		<attachments chance="0.05">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
-		<attachments chance="0.50">
+		<attachments chance="0.60">
 			<item name="TTC_Mag_M9_15Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -699,7 +699,7 @@
 		<attachments chance="0.20">
 			<item name="TTC_Holo" chance="1.00" />
 		</attachments>
-		<attachments chance="0.40">
+		<attachments chance="0.60">
 			<item name="TTC_MPX_Mag_30rnd" chance="1.00" />
 		</attachments>
 	</type>

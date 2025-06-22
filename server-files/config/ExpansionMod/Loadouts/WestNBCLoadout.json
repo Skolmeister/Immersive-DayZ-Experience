@@ -27,20 +27,42 @@
                     "InventoryAttachments": [],
                     "InventoryCargo": [
                         {
-                            "ClassName": "MakarovIJ70",
+                            "ClassName": "Glock19",
                             "Chance": 0.3400000035762787,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
                             },
                             "Health": [],
-                            "InventoryAttachments": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Mag_Glock_15Rnd",
+                                            "Chance": 1.0,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ],
+                                    "InventoryCargo": [],
+                                    "ConstructionPartsBuilt": [],
+                                    "Sets": []
+                                }
+                            ],
                             "InventoryCargo": [],
                             "ConstructionPartsBuilt": [],
                             "Sets": []
                         },
                         {
-                            "ClassName": "Mag_IJ70_8Rnd",
+                            "ClassName": "Mag_Glock_15Rnd",
                             "Chance": 0.30000001192092898,
                             "Quantity": {
                                 "Min": 0.0,
@@ -53,7 +75,7 @@
                             "Sets": []
                         },
                         {
-                            "ClassName": "Mag_IJ70_8Rnd",
+                            "ClassName": "Mag_Glock_15Rnd",
                             "Chance": 0.20000000298023225,
                             "Quantity": {
                                 "Min": 0.0,
@@ -2100,90 +2122,6 @@
                 },
                 {
                     "ClassName": "Mag_Scout_5Rnd",
-                    "Chance": 0.15000000596046449,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                }
-            ],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "WEAPON",
-            "Chance": 1.0,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [
-                {
-                    "SlotName": "Shoulder",
-                    "Items": [
-                        {
-                            "ClassName": "TTC_VHS",
-                            "Chance": 1.0,
-                            "Quantity": {
-                                "Min": 0.0,
-                                "Max": 0.0
-                            },
-                            "Health": [
-                                {
-                                    "Min": 0.699999988079071,
-                                    "Max": 1.0,
-                                    "Zone": ""
-                                }
-                            ],
-                            "InventoryAttachments": [
-                                {
-                                    "SlotName": "",
-                                    "Items": [
-                                        {
-                                            "ClassName": "TTC_DMR_556Pmag_30rnd",
-                                            "Chance": 1.0,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        }
-                                    ]
-                                }
-                            ],
-                            "InventoryCargo": [],
-                            "ConstructionPartsBuilt": [],
-                            "Sets": []
-                        }
-                    ]
-                }
-            ],
-            "InventoryCargo": [
-                {
-                    "ClassName": "TTC_DMR_556Pmag_30rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "TTC_DMR_556Pmag_30rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,

@@ -39,9 +39,6 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
     </type>
 	<type name="Zen_Virus_Cure_Microscope"> <!-- Cures the virus -->
         <nominal>1</nominal>
@@ -55,9 +52,6 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
     </type>
 	<type name="Zen_Virus_Cure_Microscope_Static"> <!-- Cures the virus - cannot be picked up or moved. Place this using DayZ Editor or ZenVirus.json -->
         <lifetime>9999999</lifetime>
@@ -75,9 +69,6 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
     </type>
 	<type name="Zen_Virus_Injector"> <!-- Injects the virus -->
         <lifetime>14400</lifetime>

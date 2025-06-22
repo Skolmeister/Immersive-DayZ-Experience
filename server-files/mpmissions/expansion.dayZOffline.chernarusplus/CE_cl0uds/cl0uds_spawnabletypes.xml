@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawnabletypes>
+	<type name="MilitaryGear_MountainBag_PartizanM">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+	</type>
+    <type name="MilitaryGear_MountainBag_PartizanM">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Duckhunter">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Multicam">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Splinter">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Splinter_Dark">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Tiger">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Woodland">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_FLT">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_DPM">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_MPAT">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Partizan">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Skol">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_ATACS">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_CADPAT">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Tropic">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+    <type name="MilitaryGear_MountainBag_Yeger">
+        <cargo preset="foodVillage" />
+        <cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+        <cargo preset="mixArmy" />
+    </type>
+</spawnabletypes>

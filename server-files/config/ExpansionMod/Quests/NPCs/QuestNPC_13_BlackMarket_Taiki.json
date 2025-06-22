@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 13,
+    "ClassName": "ExpansionQuestNPCAITaiki",
+    "Position": [
+        8062.2705078125,
+        458.8501281738281,
+        9304.8408203125
+    ],
+    "Orientation": [
+        62.99997329711914,
+        -0.0,
+        -0.0
+    ],
+    "NPCName": "Nikita",
+    "DefaultNPCText": "Was machen Sachen?",
+    "Waypoints": [
+        [
+            8062.2705078125,
+            458.8501281738281,
+            9304.8408203125
+        ]
+    ],
+    "NPCEmoteID": 14,
+    "NPCEmoteIsStatic": 1,
+    "NPCLoadoutFile": "AI_Tier3_SurvivorLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}

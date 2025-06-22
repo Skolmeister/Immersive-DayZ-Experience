@@ -83,13 +83,13 @@
 			<item name="FOX_AK_Bttstck_Polimer_Folding" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="FOX_AKS74U_Compensator" chance="1.00" />
+			<item name="FOX_AKS74U_Compensator" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="FOX_AK_polimer_hndgrd" chance="1.00" />
 		</attachments>		
 		<attachments chance="0.40">
-			<item name="FOX_Mag_AK101_30rnd" chance="1.00" />
+			<item name="FOX_Mag_AK101_30rnd" chance="0.50" />
 		</attachments>
 	</type>	
 	<type name="FOX_AKMN">
@@ -114,7 +114,7 @@
 			<item name="FOX_AN94_Compensator" chance="1.00" />
 		</attachments>		
 		<attachments chance="1.00">
-			<item name="FOX_Mag_AK74_30rnd_polimer" chance="1.00" />
+			<item name="FOX_Mag_AK74_30rnd_polimer" chance="0.80" />
 		</attachments>
 	</type>
 	<type name="FOX_AEK971">

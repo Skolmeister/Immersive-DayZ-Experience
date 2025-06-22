@@ -484,27 +484,43 @@
                             "Health": [],
                             "InventoryAttachments": [
                                 {
-                                    "ClassName": "Mag_Glock_15Rnd",
-                                    "Chance": 1.0,
-                                    "Quantity": {
-                                        "Min": 0.0,
-                                        "Max": 0.0
-                                    },
-                                    "Health": [],
-                                    "InventoryAttachments": [],
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Mag_Glock_15Rnd",
+                                            "Chance": 1.0,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ],
                                     "InventoryCargo": [],
                                     "ConstructionPartsBuilt": [],
                                     "Sets": []
                                 },
                                 {
-                                    "ClassName": "Mag_Glock_15Rnd",
-                                    "Chance": 1.0,
-                                    "Quantity": {
-                                        "Min": 0.0,
-                                        "Max": 0.0
-                                    },
-                                    "Health": [],
-                                    "InventoryAttachments": [],
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Mag_Glock_15Rnd",
+                                            "Chance": 1.0,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ],
                                     "InventoryCargo": [],
                                     "ConstructionPartsBuilt": [],
                                     "Sets": []
@@ -524,23 +540,39 @@
                             "Health": [],
                             "InventoryAttachments": [
                                 {
-                                    "ClassName": "Glock19",
-                                    "Chance": 1.0,
-                                    "Quantity": {
-                                        "Min": 0.0,
-                                        "Max": 0.0
-                                    },
-                                    "Health": [],
-                                    "InventoryAttachments": [
+                                    "SlotName": "",
+                                    "Items": [
                                         {
-                                            "ClassName": "Mag_Glock_15Rnd",
+                                            "ClassName": "Glock19",
                                             "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
                                             },
                                             "Health": [],
-                                            "InventoryAttachments": [],
+                                            "InventoryAttachments": [
+                                                {
+                                                    "SlotName": "",
+                                                    "Items": [
+                                                        {
+                                                            "ClassName": "Mag_Glock_15Rnd",
+                                                            "Chance": 1.0,
+                                                            "Quantity": {
+                                                                "Min": 0.0,
+                                                                "Max": 0.0
+                                                            },
+                                                            "Health": [],
+                                                            "InventoryAttachments": [],
+                                                            "InventoryCargo": [],
+                                                            "ConstructionPartsBuilt": [],
+                                                            "Sets": []
+                                                        }
+                                                    ],
+                                                    "InventoryCargo": [],
+                                                    "ConstructionPartsBuilt": [],
+                                                    "Sets": []
+                                                }
+                                            ],
                                             "InventoryCargo": [],
                                             "ConstructionPartsBuilt": [],
                                             "Sets": []
@@ -1516,6 +1548,5 @@
             "ConstructionPartsBuilt": [],
             "Sets": []
         }
-
     ]
 }

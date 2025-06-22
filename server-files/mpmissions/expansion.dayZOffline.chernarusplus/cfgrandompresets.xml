@@ -18,7 +18,6 @@
 				<item name="WaterBottle" chance="0.02" />
 				<item name="MFP_BasicBeer" chance="0.02" />
 				<item name="MFP_Pilsner" chance="0.02" />
-				<item name="DONFOOD_CEREALBREAD" chance="0.05" />
 		</cargo>
 		<cargo chance="0.4" name="foodVillage">
 				<item name="SodaCan_Cola" chance="0.03" />
@@ -41,8 +40,6 @@
 				<item name="ChickenBreastMeat" chance="0.04" />
 				<item name="RabbitLegMeat" chance="0.04" />
 				<item name="GoatSteakMeat" chance="0.02" />
-				<item name="DONFOOD_BREAD" chance="0.05" />
-				<item name="DONFOOD_CEREALBREAD" chance="0.05" />
 				<item name="Potato" chance="0.05" />
 				<item name="Plum" chance="0.1" />
 				<item name="Apple" chance="0.1" />
@@ -74,7 +71,6 @@
 				<item name="BrisketSpread" chance="0.05" />
 				<item name="SaltySticks" chance="0.05" />
 				<item name="Crackers" chance="0.05" />
-				<item name="DONFOOD_BREAD" chance="0.05" />
 				<item name="Potato" chance="0.05" />
 				<item name="Plum" chance="0.05" />
 				<item name="Apple" chance="0.05" />
@@ -182,17 +178,10 @@
 				<item name="Heatpack" chance="0.05" />
 				<item name="Syringe" chance="0.05" />
 				<item name="PurificationTablets" chance="0.05" />
-				<item name="InediaPain_HemostaticDressing" chance="0.05" />
 				<item name="VitaminBottle" chance="0.04" />
-				<item name="InediaPain_Tramadol" chance="0.04" />
-				<item name="InediaPain_Calcium" chance="0.04" />
-				<item name="InediaPain_Sorbifer" chance="0.03" />
 				<item name="CharcoalTablets" chance="0.02" />
 				<item name="Epinephrine" chance="0.02" />
 				<item name="Morphine" chance="0.02" />
-				<item name="InediaPain_Metoclopramide" chance="0.02" />
-				<item name="InediaPain_SurgicalKit" chance="0.02" />
-				<item name="InediaPain_SplintKit" chance="0.02" />
 				<item name="Psix_StimPack20HP" chance="0.03" />
 				<item name="Psix_StimPack40HP" chance="0.02" />
 				<item name="Psix_StimPack60HP" chance="0.01" />
@@ -204,6 +193,15 @@
 				<item name="AMS_Methadone" chance="0.01" />
 				<item name="AMS_POX" chance="0.01" />
 				<item name="ExpansionBanknoteHryvnia" chance="0.1" />
+				<item name="InediaPain_HemostaticDressing" chance="0.1" />
+				<item name="InediaPain_Tramadol" chance="0.05" />
+				<item name="InediaPain_Vikasol" chance="0.05" />
+				<item name="InediaPain_Calcium" chance="0.05" />
+				<item name="InediaPain_Metoclopramide" chance="0.05" />
+				<item name="InediaPain_Sorbifer" chance="0.05" />
+				<item name="InediaPain_SurgicalKit" chance="0.05" />
+				<item name="InediaPain_SplintKit" chance="0.05" />
+
 		</cargo>
 		<cargo chance="0.4" name="toolsPolice">
 				<item name="Battery9V" chance="0.1" />
@@ -314,8 +312,6 @@
 				<item name="AE_AmmoBox_127x99_10rnd" chance="0.005" />
 				<item name="TTC_Ammo_338" chance="0.02" />
 				<item name="TTC_AmmoBox_338mm_10Rnd" chance="0.01" />
-				<item name="Ammo_BO_300WinMag" chance="0.02" />
-				<item name="BO_Ammobox_300WinMag_20rnd" chance="0.01" />
 				<item name="Ammo_57x28" chance="0.04" />
 				<item name="57x28_AmmoBox_25rnd" chance="0.01" />
 				<item name="Ammo_57x28AP" chance="0.03" />
@@ -324,12 +320,6 @@
 				<item name="9x21FOX_AmmoBox_25rnd" chance="0.01" />
 				<item name="Ammo_9x21EXP" chance="0.03" />
 				<item name="9x21EXP_AmmoBox_25rnd" chance="0.01" />
-				<item name="Ammo_AE792x57" chance="0.01" />
-				<item name="AE_AmmoBox_792x57_20rnd" chance="0.005" />
-				<item name="Ammo_792x33fox" chance="0.01" />
-				<item name="792x33fox_AmmoBox_30rnd" chance="0.005" />
-				<item name="Ammo_BO_3006" chance="0.01" />
-				<item name="BO_AmmoBox_3006_20rnd" chance="0.005" />
 		</cargo>
 		<cargo chance="0.25" name="mixVillage">
 				<item name="DuctTape" chance="0.07" />
@@ -423,7 +413,6 @@
 		<cargo chance="0.15" name="ContaminatedCargo">
 				<item name="GasMask_Filter" chance="1.00" />
 		</cargo>
-
 		<!--FARM ATTACHMENTS-->
 		<attachments chance="0.30" name="hatsFarm">
 			<item name="RadarCap_Black" chance="0.1" />
@@ -921,8 +910,6 @@
 				<item name="BO_ACOGOptic_ACSS_Red" chance="0.09" />
 				<item name="BO_LeupoldHoloDEVO" chance="0.09" />
 				<item name="BO_Bravo4" chance="0.09" />
-				<item name="BO_EotechHHS" chance="0.09" />
-				<item name="BO_Spitfire" chance="0.09" />
 		</attachments>
 		<attachments chance="0.30" name="reddot">
 				<item name="BO_AimpointT1" chance="0.10" />
@@ -934,21 +921,14 @@
 				<item name="BO_RMR_FDE" chance="0.10" />
 		</attachments>
 		<attachments chance="0.20" name="scopes">
-				<item name="BO_AccuPowerOptic" chance="0.07" />
-				<item name="BO_HMOptic" chance="0.07" />
-				<item name="BO_LeopoldMk4" chance="0.07" />
-				<item name="BO_DragonScope" chance="0.07" />
-				<item name="BO_Tango6" chance="0.07" />
-				<item name="BO_NFATACR_1_8" chance="0.07" />
 				<item name="BO_ShmidtBender20" chance="0.07" />
 				<item name="BO_ShmidtBender25" chance="0.07" />
-				<item name="BO_Sight_4_6" chance="0.07" />
-				<item name="BO_Vudu" chance="0.07" />
+				<item name="MK4Optic_Black" chance="0.07" />
+				<item name="MK4Optic_Green" chance="0.07" />
+				<item name="MK4Optic_Tan" chance="0.07" />
 		</attachments>
 		<attachments chance="0.40" name="pistol">
 				<item name="Pistol_Suppressor" chance="0.33" />
-				<item name="BO_OspreySuppressor" chance="0.33" />
-				<item name="BO_MK23_Suppressor" chance="0.33" />
 		</attachments>
 		<attachments chance="1.00" name="bttsttck">
 				<item name="BO_SOPMODBttstck" chance="0.20" />
@@ -965,13 +945,10 @@
 				<item name="M4_Suppressor" chance="0.20" />
 				<item name="BO_LegionSuppressor_Tan" chance="0.20" />
 				<item name="BO_LegionSuppressor_Black" chance="0.20" />
-				<item name="BO_MCXTacops_Suppressor_MODX" chance="0.20" />
-				<item name="BO_MCXTacops_Suppressor_QD" chance="0.20" />
 		</attachments>
 		<attachments chance="0.20" name="fal">
 				<item name="BO_CorduraSuppressor" chance="0.33" />
 				<item name="BO_CorduraSuppressor_Black" chance="0.33" />
-				<item name="BO_MCXSpear_Suppressor" chance="0.33" />
 		</attachments>
 		<attachments chance="0.20" name="338">
 				<item name="BO_HarvesterSuppressor" chance="1.00" />
@@ -1277,19 +1254,37 @@
 			<item name="Mag_STANAG_60Rnd" chance="0.05" />
 			<item name="Mag_AKM_Drum75Rnd" chance="0.05" />
 		</cargo>
-		<cargo chance="0.01" name="PokemonCards">
+		<cargo chance="0.10" name="PokemonCards">
 				<!-- 1 Card Booster -->
-				<item name="PokemonBooster001_1" chance="0.20" />
-				<item name="PokemonBooster002_1" chance="0.20" />
-				<item name="PokemonBooster003_1" chance="0.20" />
+				<item name="PokemonBoosterPack_Basic1_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Basic2_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Basic3_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Fossil1_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Fossil2_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Fossil3_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Jungle1_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Jungle2_1x" chance="0.05" />
+				<item name="PokemonBoosterPack_Jungle3_1x" chance="0.05" />
 				<!-- 3 Cards Booster -->
-				<item name="PokemonBooster001_3" chance="0.10" />
-				<item name="PokemonBooster002_3" chance="0.10" />
-				<item name="PokemonBooster003_3" chance="0.10" />
+				<item name="PokemonBoosterPack_Basic1_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Basic2_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Basic3_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Fossil1_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Fossil2_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Fossil3_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Jungle1_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Jungle2_3x" chance="0.03" />
+				<item name="PokemonBoosterPack_Jungle3_3x" chance="0.03" />
 				<!-- 5 Cards Booster -->
-				<item name="PokemonBooster001_5" chance="0.05" />
-				<item name="PokemonBooster002_5" chance="0.05" />
-				<item name="PokemonBooster003_5" chance="0.05" />
+				<item name="PokemonBoosterPack_Basic1_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Basic2_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Basic3_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Fossil1_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Fossil2_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Fossil3_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Jungle1_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Jungle2_5x" chance="0.01" />
+				<item name="PokemonBoosterPack_Jungle3_5x" chance="0.01" />
 				<!-- Deck Boxes-->
 				<item name="PokemonCard_Box1s" chance="0.02" />
 				<item name="PokemonCard_Box2s" chance="0.02" />

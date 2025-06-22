@@ -45,9 +45,9 @@
     <!-- Expansion content -->
     <!-- CARS -->
 	<event name="VehicleUAZ">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <min>1</min>
-        <max>6</max>
+        <max>5</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>

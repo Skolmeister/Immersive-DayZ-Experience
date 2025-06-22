@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="IDE_APS">
+		<attachments chance="0.60">
+			<item name="IDE_Mag_APS_20rnd" chance="0.60" />
+		</attachments>
+			<attachments chance="0.15">
+		<item name="TTC_PistolSuppressor" chance="1.00" />
+	</type>
+		<type name="IDE_MakarovIJ70_Red">
+		<attachments chance="0.70">
+			<item name="Mag_IJ70_8Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="MakarovPBSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="IDE_MKII_Black">
+		<attachments chance="0.60">
+			<item name="Mag_MKII_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="IDE_CZ82">
+		<attachments chance="0.70">
+			<item name="IDE_Mag_CZ82_20rnd" chance="0.60" />
+		</attachments>
+			<attachments chance="0.15">
+		<item name="TTC_PistolSuppressor" chance="1.00" />
+	</type>
+	<type name="IDE_Mp133Shotgun_Poly">
+		<damage min="0.0" max="0.32" />
+		<attachments chance="0.30">
+			<item name="FNP45_MRDSOptic" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="IDE_Saiga_Wood">
+		<attachments chance="1.00">
+			<item name="Saiga_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_Saiga_5Rnd" chance="0.60" />
+			<item name="Mag_Saiga_8Rnd" chance="0.40" />
+		</attachments>
+	<type name="IDE_Mosin9130_Dark">
+		<damage min="0.2" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mosin_Bayonet" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="IDE_Mosin9130_Light">
+		<damage min="0.2" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mosin_Bayonet" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="IDE_SKS_Light">
+		<damage min="0.2" max="0.7" />
+		<attachments chance="0.10">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="SKS_Bayonet" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="IDE_SKS_Dark">
+		<damage min="0.2" max="0.7" />
+		<attachments chance="0.10">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="SKS_Bayonet" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="IDE_SKS_Half">
+		<damage min="0.2" max="0.7" />
+		<attachments chance="0.10">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="SKS_Bayonet" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="IDE_B95_Old">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="SportingOptic" chance="0.90" />
+			<item name="HuntingOptic" chance="0.10" />
+		</attachments>
+	</type>
+	<type name="IDE_G36C">
+		<attachments chance="0.50">
+			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />
+			<item name="IDE_Mag_G36_30rnd" chance="0.50" />
+		</attachments>
+		<attachments preset="m4" />
+		</attachments>
+	</type>
+	<type name="IDE_G36A1">
+		<attachments chance="0.50">
+			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />
+			<item name="IDE_Mag_G36_30rnd" chance="0.50" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="IDE_G36Optic" chance="1.00" />
+		</attachments>
+	<type name="IDE_MG3">
+		<attachments chance="0.80">
+			<item name="IDE_Mag_MG3_100rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="IDE_SG552">
+		<attachments preset="bo_optics" />
+		<attachments preset="m4" />
+		<attachments chance="0.5">
+			<item name="BO_Mag_SIG552_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="IDE_AWSM">
+		<attachments chance="0.8">
+			<item name="HuntingOptic" chance="0.50" />
+			<item name="MK4Optic_Black" chance="0.45" />
+			<item name="TTC_G28_Optic" chance="0.05" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="TTC_AWM_Magazine_5rnd" chance="1.00" />
+		</attachments>
+			<attachments chance="0.20">
+		<item name="TTC_DMR_Suppressor" chance="1.00" />
+	</type>
+		<type name="IDE_G3A3">
+		</attachments>
+		<attachments chance="0.40">
+			<item name="TTC_G3_Magazine_20rnd" chance="0.80" />
+			<item name="IDE_Mag_G3A3_40rnd" chance="0.2" />
+		</attachments>
+	</type>
+		<type name="IDE_HKG28">
+		<attachments chance="1.00">
+			<item name="TTC_ButtstockHK" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="TTC_G28_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_HK417_Magazine_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="IDE_HKG28_Black">
+		<attachments chance="1.00">
+			<item name="TTC_ButtstockHK" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="TTC_G28_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TTC_HK417_Magazine_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+
+</spawnabletypes>

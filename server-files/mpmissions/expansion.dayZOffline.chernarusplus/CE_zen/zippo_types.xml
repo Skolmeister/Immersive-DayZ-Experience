@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="ZenZippoLighter">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -19,7 +19,7 @@
         <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

@@ -13,7 +13,7 @@
     //////////// Colored pens
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
     <type name="Pen_Black">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -30,7 +30,7 @@
         <usage name="police"/>
     </type>
     <type name="Pen_Blue">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>2</min>

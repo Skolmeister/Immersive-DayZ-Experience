@@ -12,6 +12,8 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_BeanBasher">
         <nominal>1</nominal>
@@ -24,6 +26,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_BlunderBat">
         <nominal>1</nominal>
@@ -142,10 +146,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="Msp_Sawblade">
-        <nominal>10</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -192,6 +196,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Greenhouse">
         <lifetime>3888000</lifetime>
@@ -210,6 +216,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Greenhouse_Vanilla">
         <lifetime>3888000</lifetime>
@@ -228,6 +236,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Greenhouse_White">
         <lifetime>3888000</lifetime>
@@ -261,10 +271,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Msp_TackleBox_Black">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -351,6 +361,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_TreasureChest">
         <nominal>2</nominal>
@@ -407,6 +419,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Industrial"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Mailbox">
         <nominal>1</nominal>
@@ -445,6 +459,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MilitaryCrate_Green">
         <nominal>1</nominal>
@@ -458,6 +474,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MilitaryCrate_Grey">
         <nominal>1</nominal>
@@ -471,6 +489,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MilitaryCrate_Olive">
         <nominal>1</nominal>
@@ -484,6 +504,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MilitaryCrate_Tan">
         <nominal>1</nominal>
@@ -497,6 +519,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MedCase">
         <nominal>2</nominal>
@@ -521,6 +545,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Medic"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_ParamedicBag_Green">
         <nominal>1</nominal>
@@ -533,6 +560,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Medic"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_ParamedicBag_Blue">
         <nominal>1</nominal>
@@ -545,6 +575,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Medic"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_ParamedicBag_NBC">
         <nominal>2</nominal>
@@ -556,7 +589,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
-        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <!-- Donation Barrels -->
     <type name="Msp_Barrel_Donation">
@@ -619,6 +655,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Gazebo">
         <lifetime>3888000</lifetime>
@@ -678,6 +716,8 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MoskvaFridge_Blue">
         <lifetime>3888000</lifetime>
@@ -696,6 +736,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MoskvaFridge_Cream">
         <lifetime>3888000</lifetime>
@@ -714,13 +756,15 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MoskvaFridge_Red">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="Msp_SovietOkaFridge_Kit">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -732,6 +776,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SovietOkaFridge">
         <lifetime>3888000</lifetime>
@@ -750,6 +796,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SnowballFridge">
         <lifetime>3888000</lifetime>
@@ -790,6 +838,9 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Bookcase">
         <lifetime>3888000</lifetime>
@@ -806,10 +857,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_GunCabinet">
         <lifetime>3888000</lifetime>
@@ -828,6 +880,8 @@
         <tag name="floor"/>
         <usage name="Hunting"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_DoubleGunRack">
         <lifetime>3888000</lifetime>
@@ -846,6 +900,8 @@
         <tag name="floor"/>
         <usage name="Hunting"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_GunRack">
         <lifetime>3888000</lifetime>
@@ -864,6 +920,8 @@
         <tag name="floor"/>
         <usage name="Hunting"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Gunwall">
         <lifetime>3888000</lifetime>
@@ -881,6 +939,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MilitaryLocker">
         <lifetime>3888000</lifetime>
@@ -899,6 +959,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_StorageBox">
         <lifetime>3888000</lifetime>
@@ -917,6 +980,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_ToolsBench_Blue">
         <lifetime>3888000</lifetime>
@@ -935,6 +1001,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_ToolsBench_Grey">
         <lifetime>3888000</lifetime>
@@ -953,6 +1022,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_ToolsBench_Red">
         <lifetime>3888000</lifetime>
@@ -971,6 +1043,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Locker">
         <lifetime>3888000</lifetime>
@@ -989,6 +1063,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker">
         <lifetime>3888000</lifetime>
@@ -1007,6 +1084,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker_Black">
         <lifetime>3888000</lifetime>
@@ -1025,6 +1105,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker_White">
         <lifetime>3888000</lifetime>
@@ -1043,6 +1126,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker_Green">
         <lifetime>3888000</lifetime>
@@ -1061,6 +1147,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker_Red">
         <lifetime>3888000</lifetime>
@@ -1079,6 +1168,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker_RedRusty">
         <lifetime>3888000</lifetime>
@@ -1097,6 +1189,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker_Yellow">
         <lifetime>3888000</lifetime>
@@ -1115,6 +1210,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_SoloLocker_YellowRusty">
         <lifetime>3888000</lifetime>
@@ -1133,6 +1231,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_OldLocker">
         <lifetime>3888000</lifetime>
@@ -1151,6 +1252,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_OldLocker_Green">
         <lifetime>3888000</lifetime>
@@ -1169,6 +1273,7 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <usage name="Industrial"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_FourDoor_MilitaryLocker">
         <lifetime>3888000</lifetime>
@@ -1187,6 +1292,7 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <usage name="Industrial"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_FourDoor_MilitaryLocker_Green">
         <lifetime>3888000</lifetime>
@@ -1204,6 +1310,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_WoodenGunRack">
         <lifetime>3888000</lifetime>
@@ -1222,6 +1330,8 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_RifleSafe">
         <lifetime>3888000</lifetime>
@@ -1240,6 +1350,8 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_RifleSafe_Grey">
         <lifetime>3888000</lifetime>
@@ -1258,6 +1370,8 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_RifleSafe_Green">
         <lifetime>3888000</lifetime>
@@ -1276,6 +1390,8 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_RifleSafe_Purple">
         <lifetime>3888000</lifetime>
@@ -1294,6 +1410,8 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_RifleSafe_Tan">
         <lifetime>3888000</lifetime>
@@ -1312,6 +1430,8 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MedicalBox">
         <lifetime>3888000</lifetime>
@@ -1330,6 +1450,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Wardrobe_Brown">
         <lifetime>3888000</lifetime>
@@ -1348,6 +1471,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Wardrobe_Green">
         <lifetime>3888000</lifetime>
@@ -1366,6 +1492,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Wardrobe_White">
         <lifetime>3888000</lifetime>
@@ -1394,7 +1523,7 @@
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1410,7 +1539,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="WG_CampingTent_Gray_Kit">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -1582,6 +1711,8 @@
         <category name="containers"/>
         <tag name="floor"/>
         <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MedicBag_Blue">
         <nominal>1</nominal>
@@ -1595,6 +1726,8 @@
         <category name="containers"/>
         <tag name="floor"/>
         <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MedicBag_Green">
         <nominal>1</nominal>
@@ -1608,6 +1741,8 @@
         <category name="containers"/>
         <tag name="floor"/>
         <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_MedicBag_Black">
         <nominal>0</nominal>
@@ -1621,6 +1756,8 @@
         <category name="containers"/>
         <tag name="floor"/>
         <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_BoxingShorts_Red">
         <lifetime>5400</lifetime>
@@ -2132,6 +2269,9 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Shelf">
         <lifetime>3888000</lifetime>
@@ -2320,6 +2460,7 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+
     </type>
     <type name="Msp_WoodenTable">
         <lifetime>3888000</lifetime>
@@ -2380,6 +2521,8 @@
         <tag name="floor"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Lamp_Standing_Wood">
         <lifetime>3888000</lifetime>
@@ -2398,6 +2541,8 @@
         <tag name="floor"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Lamp_Ceiling_Mosaic">
         <lifetime>3888000</lifetime>
@@ -2847,7 +2992,7 @@
         <usage name="Coast"/>
     </type>
  <type name="Msp_Mannequin_Kit">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -2858,7 +3003,10 @@
         <category name="tools" />
         <tag name="floor" />
         <usage name="Industrial" />
-        <usage name="Farm" />
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Msp_Mannequin_Male">
         <lifetime>86400</lifetime>
@@ -2880,6 +3028,8 @@
 		<category name="clothes" />
 		<usage name="Town" />
 		<usage name="Coast" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
 	</type> 
 	<type name="Msp_FlipFlops_White">
 		<nominal>2</nominal>
@@ -2893,6 +3043,8 @@
 		<category name="clothes" />
 		<usage name="Town" />
 		<usage name="Coast" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
 	</type>
 	<type name="Msp_FlipFlops_Blue">
 		<nominal>2</nominal>
@@ -2906,6 +3058,8 @@
 		<category name="clothes" />
 		<usage name="Town" />
 		<usage name="Coast" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
 	</type>
 	<type name="Msp_FlipFlops_Red">
 		<nominal>2</nominal>
@@ -2919,6 +3073,8 @@
 		<category name="clothes" />
 		<usage name="Town" />
 		<usage name="Coast" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
 	</type>
 	<type name="Msp_FlipFlops_Pink">
 		<nominal>2</nominal>
@@ -2932,6 +3088,8 @@
 		<category name="clothes" />
 		<usage name="Town" />
 		<usage name="Coast" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
 	</type>
 	<type name="Msp_FlipFlops_Purple">
 		<nominal>2</nominal>
@@ -2945,6 +3103,8 @@
 		<category name="clothes" />
 		<usage name="Town" />
 		<usage name="Coast" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
 	</type>
 	<type name="Msp_FlipFlops_Yellow">
 		<nominal>2</nominal>
@@ -2958,5 +3118,7 @@
 		<category name="clothes" />
 		<usage name="Town" />
 		<usage name="Coast" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
 	</type>
 </types>

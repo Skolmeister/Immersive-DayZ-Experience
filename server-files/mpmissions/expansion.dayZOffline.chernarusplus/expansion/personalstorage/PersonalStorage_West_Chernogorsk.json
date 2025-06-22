@@ -3,7 +3,7 @@
     "StorageID": 1,
     "ClassName": "ExpansionPersonalStorageChest",
     "DisplayName": "Personal Storage",
-    "DisplayIcon": "Backpack",
+    "DisplayIcon": "Deliver",
     "Position": [
         7260.536133,
         26.390057,
@@ -16,6 +16,6 @@
     ],
     "QuestID": 200,
     "Reputation": 2000,
-    "Faction": "West",
-    "IsGlobalStorage": 0
+    "Faction": "PlayerWest",
+    "IsGlobalStorage": 1
 }

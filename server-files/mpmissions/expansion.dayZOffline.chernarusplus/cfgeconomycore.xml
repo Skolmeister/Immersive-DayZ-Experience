@@ -53,8 +53,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="CE_animals">
 		<file name="animal_types.xml" type="types" />
 		<file name="animal_events.xml" type="events" />
-		<file name="cat_types.xml" type="types" />
-		<file name="cat_events.xml" type="events" />
 	</ce>
 		<!-- Basebuilding Plus -->
 	<ce folder="CE_bbp">
@@ -69,12 +67,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<!-- Cl0uds Military Gear -->
 	<ce folder="CE_cl0uds">
 		<file name="cl0uds_types.xml" type="types" />
+		<file name="cl0uds_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 			<!-- Creepy Zombies -->
 	<ce folder="CE_creepyZ">
 		<file name="creepy_types.xml" type="types" />
 		<file name="creepy_cfgspawnabletypes.xml" type="spawnabletypes" />
-		<file name="creepy_events.xml" type="events" />
 	</ce>
 		<!-- DINGO-->
 	<ce folder="CE_dingo">
@@ -132,10 +130,13 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<!-- Immersive DayZ Experience -->
 	<ce folder="CE_IDE">
 		<file name="IDE_events.xml" type="events" />
+		<file name="IDE_types.xml" type="types" />
+		<file name="IDE_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 		<!-- Infected AI -->
 	<ce folder="CE_inedia">
 		<file name="inedia_types.xml" type="types" />
+		<file name="inedia_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 		<!-- Knife Pack  -->
 	<ce folder="CE_knifepack">
@@ -144,11 +145,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<!-- Mega Food Pack -->
 	<ce folder="CE_mfp">
 		<file name="mfp_types.xml" type="types" />
-	</ce>
-		<!-- More Food -->
-	<ce folder="CE_morefood">
-		<file name="morefood_types.xml" type="types" />
-		<file name="morefood_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 		<!-- Morty Weapons -->
 	<ce folder="CE_morty">
@@ -179,9 +175,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 		<!-- RUS Forma Vehicles -->
 	<ce folder="CE_rusvehicles">
-		<file name="vehicles_types.xml" type="types" />
-		<file name="vehicles_cfgspawnabletypes.xml" type="spawnabletypes" />
-		<file name="vehicles_events.xml" type="events" />
+		<file name="rusvehicles_types.xml" type="types" />
+		<file name="rusvehicles_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="rusvehicles_events.xml" type="events" />
 	</ce>
 
 	<!-- Techs 4x4 ATV -->
@@ -201,6 +197,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="zippo_types.xml" type="types" />
 		<file name="music_types.xml" type="types" />
 		<file name="flint_types.xml" type="types" />
+		<file name="artillery_types.xml" type="types" />
 	</ce>
 			<!-- Mass Many Items 
 	<ce folder="CE_mmio">
