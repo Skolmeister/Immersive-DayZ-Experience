@@ -7,7 +7,8 @@
     "RequiredCompletedQuestID": 200,
     "TraderIcon": "Shotgun Bullets",
     "Currencies": [
-        "expansionbanknoteeuro"
+        "expansionbanknoteeuro",
+        "expansionbanknotedollar"
     ],
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
@@ -28,13 +29,10 @@
         "ammo_flaregreen": 1,
         "ammo_flarered": 1,
         "Ammo_AE127x99": 1,
-        "TTC_Ammo_4630": 1,
         "Ammo_57x28": 1,
         "Ammo_57x28AP": 1,
         "TTC_Ammo_300blk": 1,
-        "Ammo_BO_3006": 1,
         "Ammo_AE338": 1,
-        "Ammo_BO_300WinMag": 1,
         "ammobox_00buck_10rnd": 1,
         "ammobox_12gaslug_10rnd": 1,
         "ammobox_12garubberslug_10rnd": 1,
@@ -47,10 +45,7 @@
         "57x28_AmmoBox_25rnd": 1,
         "57x28AP_AmmoBox_25rnd": 1,
         "TTC_AmmoBox_300blk_20rnd": 1,
-        "TTC_AmmoBox_4630_20Rnd": 1,
         "AE_AmmoBox_127x99_10rnd": 1,
-        "BO_AmmoBox_3006_20rnd": 1,
-        "AE_AmmoBox_338_20rnd": 1,
-        "BO_Ammobox_300WinMag_20rnd": 1
+        "AE_AmmoBox_338_20rnd": 1
     }
 }

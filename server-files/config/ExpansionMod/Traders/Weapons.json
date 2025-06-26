@@ -21,7 +21,12 @@
         "Crossbows",
         "Machine_Guns",
         "Ammo:3",
-        "Magazines:3",
+        "Magazines_Belt_Boxes:3",
+        "Magazines_Coupled:3",
+        "Magazines_Drum:3",
+        "Magazines_Pistol:3",
+        "Magazines_Rifle:3",
+        "Magazines_SMG",
         "Muzzles:3",
         "Bayonets:3",
         "Optics:3",
@@ -31,6 +36,7 @@
         "Grips: 3"
     ],
     "Items": {
+        "BO_AN94": 2,
         "expansionammorpg": 3,
         "ammo_expansion_m203_smoke_white": 3,
         "tlrlight": 3,

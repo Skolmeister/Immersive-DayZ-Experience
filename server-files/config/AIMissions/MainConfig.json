@@ -1215,24 +1215,9 @@
                     ]
                 },
                 {
-                    "ClassName": "FOX_Evo",
-                    "Magazine_ClassName": "FOX_Mag_EVO",
-                    "Attach": [
-                        "FOX_EVO_hndgrd",
-                        "FOX_EVO_Bttstck",
-                        "FOX_EVO_REAR_SIGHT"
-                    ],
-                    "Loot": [
-                        "FOX_Mag_EVO",
-                        "FOX_Mag_EVO",
-                        "weaponcleaningkit"
-                    ]
-                },
-                                {
                     "ClassName": "BO_SPAS12_SemiAuto",
                     "Magazine_ClassName": "",
-                    "Attach": [
-                    ],
+                    "Attach": [],
                     "Loot": [
                         "AmmoBox_12gaSlug_10Rnd",
                         "AmmoBox_12gaSlug_10Rnd",
@@ -1240,7 +1225,6 @@
                         "weaponcleaningkit"
                     ]
                 },
-
                 {
                     "ClassName": "IDE_AWSM",
                     "Magazine_ClassName": "TTC_AWM_Magazine_5rnd",
@@ -1253,7 +1237,7 @@
                         "weaponcleaningkit"
                     ]
                 },
-                                {
+                {
                     "ClassName": "FOX_AK102",
                     "Magazine_ClassName": "FOX_Mag_AK101_30rnd",
                     "Attach": [
@@ -1267,7 +1251,6 @@
                         "weaponcleaningkit"
                     ]
                 },
-
                 {
                     "ClassName": "IDE_G3A3",
                     "Magazine_ClassName": "TTC_G3_Magazine_20rnd",
@@ -1281,7 +1264,7 @@
                         "weaponcleaningkit"
                     ]
                 },
-                                {
+                {
                     "ClassName": "IDE_G36A1",
                     "Magazine_ClassName": "BO_Mag_PMAGWindow_30rnd",
                     "Attach": [
@@ -1293,7 +1276,7 @@
                         "weaponcleaningkit"
                     ]
                 },
-                                                {
+                {
                     "ClassName": "IDE_G36A1",
                     "Magazine_ClassName": "BO_Mag_PMAGWindow_30rnd",
                     "Attach": [],

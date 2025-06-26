@@ -1,11 +1,3 @@
-TTC_MAS36
-
-TTC_R700
-
-Waffe:  BO_Mini14
-    Attachm:    BO_Mag_Mini14_20rnd
-        Cargo:  BO_Mag_Mini14_20rnd
-                BO_Mag_Mini14_20rnd
 
 "BO_R700" Chance 0.05
 "HuntingOptic" Chance 0.5
@@ -63,34 +55,6 @@ BO_Mag_G3A3_20rnd 1.0 Attachement
 FAMAS
 Mag_FAMAS_25Rnd
 
-ASVAL 0.05
-Mag_VAL_20Rnd 1.0 Attachment
-Mag_Vikhr_30Rnd 0.5 Attachment
-Mag_VSS_10Rnd 0.2 Attachment
-UniversalLight 0.2 Attachment /with "Battery9v" Attachment 1.0
-ReflexOptic 0.3 Attachment /with "Battery9v" Attachment 1.0
-ACOGOptic 0.12 Attachment
-ACOGOptic_6x 0.05 Attachment
-M68Optic 0.12 Attachment /with "Battery9v" Attachment 1.0
-Mag_VAL_20Rnd 1.0 Cargo
-Mag_Vikhr_30Rnd 0.15 Cargo
-Mag_VSS_10Rnd 0.5 Cargo
-
-VSS
-Mag_VSS_10Rnd
-Mag_VSS_10Rnd 1.0 Attachment
-PSO1Optic 0.5 /with "Battery9v" Attachment 1.0
-PSO11Optic 1.0 /with "Battery9v" Attachment 1.0
-
-SV98 0.15
-Mag_SV98_10Rnd 1.0
-ACOGOptic 0.5 Attachment
-ACOGOptic_6x 0.1 Attachment
-BO_DragonScope 0.4 Attachment
-TTC_VortexSE_Optic 0.4 Attachment
-TTC_G28_Optic_Black 0.05 Attachment
-TTC_Universal_Suppressor_BLACK 0.1 Attachment
-TTC_DMR_Suppressor 0.05 Attachment
 
 Pistolen:
 
@@ -443,3 +407,31 @@ FOX_SR1
     TTC_Universal_Suppressor_TAN 0.005
     TTC_Universal_Suppressor_SNOW 0.005
 
+Sturmgewehre:
+
+ASVAL 0.05
+    Mag_VAL_20Rnd 1.0 
+    Mag_Vikhr_30Rnd 0.5 
+    Mag_VSS_10Rnd 0.2 
+    UniversalLight 0.2 Attachment /with "Battery9v" Attachment 1.0
+    ReflexOptic 0.3 Attachment /with "Battery9v" Attachment 1.0
+    ACOGOptic 0.12 
+    ACOGOptic_6x 0.05 
+    M68Optic 0.12 Attachment /with "Battery9v" Attachment 1.0
+
+Scharfschützengewehre:
+
+VSS
+    Mag_VSS_10Rnd
+    PSO1Optic 0.5 /with "Battery9v" Attachment 1.0
+    PSO11Optic 1.0 /with "Battery9v" Attachment 1.0
+
+SV98
+    Mag_SV98_10Rnd 1.0
+    ACOGOptic 0.5 
+    ACOGOptic_6x 0.1 
+    BO_DragonScope 0.4 
+    TTC_VortexSE_Optic 0.4 
+    TTC_G28_Optic_Black 0.05 
+    TTC_Universal_Suppressor_BLACK 0.1 
+    TTC_DMR_Suppressor 0.05 
