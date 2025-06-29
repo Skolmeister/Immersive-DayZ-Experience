@@ -1969,11 +1969,12 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.20">
-			<item name="Mag_CZ75_15Rnd" chance="0.20" />	
+			<item name="Mag_CZ75_15Rnd" chance="0.05" />	
 			<item name="Mag_IJ70_8Rnd" chance="0.20" />
-			<item name="Mag_P1_8Rnd" chance="0.10" />
-			<item name="Mag_SSG82_5rnd" chance="0.20" />
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_P1_8Rnd" chance="0.20" />
+			<item name="Mag_SSG82_5rnd" chance="0.05" />
+			<item name="Mag_CZ61_20Rnd" chance="0.05" />
+			<item name="Mag_PM73_15Rnd" chance="0.20" />
 			<item name="mag_expansion_kedr_20rnd" chance="0.10" />
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -1982,11 +1983,12 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.20">
-			<item name="Mag_CZ75_15Rnd" chance="0.20" />	
-			<item name="Mag_IJ70_8Rnd" chance="0.20" />
-			<item name="Mag_P1_8Rnd" chance="0.10" />
-			<item name="Mag_SSG82_5rnd" chance="0.20" />
-			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_CZ75_15Rnd" chance="0.10" />	
+			<item name="Mag_IJ70_8Rnd" chance="0.10" />
+			<item name="Mag_P1_8Rnd" chance="0.20" />
+			<item name="Mag_SSG82_5rnd" chance="0.05" />
+			<item name="Mag_PM73_15Rnd" chance="0.20" />
+			<item name="Mag_CZ61_20Rnd" chance="0.05" />
 			<item name="mag_expansion_kedr_20rnd" chance="0.10" />
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -1997,12 +1999,12 @@
 		<cargo chance="0.25">
 			<item name="Mag_CZ75_15Rnd" chance="0.20" />	
 			<item name="Mag_Glock_15Rnd" chance="0.20" />
-			<item name="Mag_SSG82_5rnd" chance="0.20" />
+			<item name="Mag_SSG82_5rnd" chance="0.10" />
+			<item name="Mag_PM73_15Rnd" chance="0.10" />
 			<item name="mag_mp5_30rnd" chance="0.10" />
 			<item name="mag_cz550_10rnd" chance="0.10" />
-			<item name="mag_expansion_vityaz_30rnd" chance="0.05" />
+			<item name="mag_expansion_vityaz_30rnd" chance="0.10" />
 			<item name="mag_pp19_64rnd" chance="0.05" />
-			<item name="FOX_Mag_EVO" chance="0.05" />
 			<item name="Mag_Vikhr_30Rnd" chance="0.05" />
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -2013,12 +2015,11 @@
 		<cargo chance="0.25">
 			<item name="Mag_CZ75_15Rnd" chance="0.20" />	
 			<item name="Mag_Glock_15Rnd" chance="0.20" />
-			<item name="Mag_SSG82_5rnd" chance="0.20" />
+			<item name="Mag_SSG82_5rnd" chance="0.10" />
 			<item name="mag_mp5_30rnd" chance="0.10" />
 			<item name="mag_cz550_10rnd" chance="0.10" />
 			<item name="mag_ak74_30rnd" chance="0.05" />
 			<item name="mag_saiga_5rnd" chance="0.05" />
-			<item name="FOX_Mag_EVO" chance="0.05" />
 			<item name="mag_ak101_30rnd" chance="0.05" />
 			<item name="Mag_STANAG_30Rnd" chance="0.05" />
 		</cargo>
