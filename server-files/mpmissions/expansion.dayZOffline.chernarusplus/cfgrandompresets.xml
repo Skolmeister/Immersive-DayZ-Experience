@@ -1,618 +1,725 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
-	<cargo chance="0.3" name="foodHermit">
-		<!-- Grundversorgung: Obst (häufig) -->
-		<item name="Apple" chance="0.5" />
-		<item name="Pear" chance="0.4" />
-		<item name="Plum" chance="0.3" />
-		<item name="Potato" chance="0.25" />
-		<!-- Konserven (mittel) -->
-		<item name="TunaCan" chance="0.2" />
-		<item name="SardinesCan" chance="0.2" />
-		<item name="PorkCan" chance="0.15" />
-		<item name="Lunchmeat" chance="0.1" />
-		<!-- Pilze (selten) -->
-		<item name="AuriculariaMushroom" chance="0.03" />
-		<item name="LactariusMushroom" chance="0.03" />
-		<item name="AmanitaMushroom" chance="0.02" />
-		<!-- Flüssigkeit (kleine Chance) -->
-		<item name="WaterBottle" chance="0.08" />
-		<!-- Gönn dir (Seltenes) -->
-		<item name="MFP_BasicBeer" chance="0.03" />
-		<item name="MFP_Pilsner" chance="0.03" />
-	</cargo>
-	<cargo chance="0.2" name="foodVillage">
-		<!-- Dorfobst -->
-		<item name="Apple" chance="0.5" />
-		<item name="Plum" chance="0.3" />
-		<item name="Potato" chance="0.2" />
-		<item name="Banana" chance="0.15" />
-		<!-- Konserven & Hausmacher -->
+	<cargo chance="0.5" name="foodHermit">
+		<!-- Grundversorgung: Obst -->
+		<item name="Apple" chance="0.2" />
+		<item name="Pear" chance="0.2" />
+		<item name="Plum" chance="0.15" />
+		<item name="Potato" chance="0.15" />
+
+		<!-- Konserven -->
 		<item name="TunaCan" chance="0.15" />
 		<item name="SardinesCan" chance="0.15" />
+		<item name="PorkCan" chance="0.12" />
+		<item name="Lunchmeat" chance="0.1" />
+
+		<!-- Pilze -->
+		<item name="AuriculariaMushroom" chance="0.08" />
+		<item name="LactariusMushroom" chance="0.08" />
+		<item name="AmanitaMushroom" chance="0.06" />
+
+		<!-- Flüssigkeit -->
+		<item name="WaterBottle" chance="0.12" />
+
+		<!-- Gönn dir -->
+		<item name="MFP_BasicBeer" chance="0.1" />
+		<item name="MFP_Pilsner" chance="0.1" />
+	</cargo>
+
+	<cargo chance="0.45" name="foodVillage">
+		<!-- Dorfobst -->
+		<item name="Apple" chance="0.15" />
+		<item name="Plum" chance="0.15" />
+		<item name="Potato" chance="0.15" />
+		<item name="Banana" chance="0.12" />
+
+		<!-- Konserven & Hausmacher -->
+		<item name="TunaCan" chance="0.12" />
+		<item name="SardinesCan" chance="0.12" />
 		<item name="PeachesCan" chance="0.1" />
 		<item name="SpaghettiCan" chance="0.1" />
 		<item name="PorkCan" chance="0.1" />
 		<item name="MFP_TomatoSoup" chance="0.1" />
 		<item name="PowderedMilk" chance="0.15" />
-		<item name="MFP_Catfood" chance="0.05" />
+		<item name="MFP_Catfood" chance="0.07" />
+
 		<!-- Brotzeit & Stulle -->
 		<item name="Pajka" chance="0.1" />
 		<item name="Pate" chance="0.1" />
 		<item name="BrisketSpread" chance="0.1" />
 		<item name="MFP_Jerky_Original" chance="0.1" />
 		<item name="Crackers" chance="0.1" />
-		<item name="SaltySticks" chance="0.08" />
-		<item name="Zagorky" chance="0.08" />
-		<item name="MFP_Snickers" chance="0.05" />
+		<item name="SaltySticks" chance="0.1" />
+		<item name="Zagorky" chance="0.1" />
+		<item name="MFP_Snickers" chance="0.08" />
+
 		<!-- Getränke -->
-		<item name="SodaCan_Cola" chance="0.08" />
-		<item name="SodaCan_Kvass" chance="0.08" />
-		<item name="SodaCan_Pipsi" chance="0.05" />
-		<item name="SodaCan_Spite" chance="0.05" />
-		<item name="SodaCan_Fronta" chance="0.05" />
-		<item name="WaterBottle" chance="0.05" />
-		<item name="MFP_BasicBeer" chance="0.06" />
-		<item name="MFP_Pilsner" chance="0.05" />
+		<item name="SodaCan_Cola" chance="0.1" />
+		<item name="SodaCan_Kvass" chance="0.1" />
+		<item name="SodaCan_Pipsi" chance="0.08" />
+		<item name="SodaCan_Spite" chance="0.08" />
+		<item name="SodaCan_Fronta" chance="0.08" />
+		<item name="WaterBottle" chance="0.1" />
+		<item name="MFP_BasicBeer" chance="0.1" />
+		<item name="MFP_Pilsner" chance="0.1" />
 	</cargo>
-	<cargo chance="0.15" name="foodCity">
+	<cargo chance="0.4" name="foodCity">
 		<!-- Industrielle Konserven -->
-		<item name="TunaCan" chance="0.25" />
-		<item name="SardinesCan" chance="0.25" />
-		<item name="PeachesCan" chance="0.2" />
-		<item name="SpaghettiCan" chance="0.2" />
-		<item name="PorkCan" chance="0.2" />
-		<item name="BakedBeansCan" chance="0.15" />
-		<item name="PowderedMilk" chance="0.2" />
+		<item name="TunaCan" chance="0.1" />
+		<item name="SardinesCan" chance="0.1" />
+		<item name="PeachesCan" chance="0.12" />
+		<item name="SpaghettiCan" chance="0.12" />
+		<item name="PorkCan" chance="0.12" />
+		<item name="BakedBeansCan" chance="0.12" />
+		<item name="PowderedMilk" chance="0.12" />
+
 		<!-- Aufstrich & Lagerware -->
-		<item name="Pajka" chance="0.15" />
-		<item name="Pate" chance="0.15" />
-		<item name="BrisketSpread" chance="0.15" />
-		<item name="Crackers" chance="0.15" />
-		<item name="SaltySticks" chance="0.15" />
-		<item name="Zagorky" chance="0.12" />
+		<item name="Pajka" chance="0.12" />
+		<item name="Pate" chance="0.12" />
+		<item name="BrisketSpread" chance="0.12" />
+		<item name="Crackers" chance="0.12" />
+		<item name="SaltySticks" chance="0.12" />
+		<item name="Zagorky" chance="0.1" />
 		<item name="MFP_CoffeeBeans" chance="0.08" />
+
 		<!-- Früchte (urban selten) -->
 		<item name="Apple" chance="0.05" />
 		<item name="Plum" chance="0.04" />
-		<item name="Potato" chance="0.03" />
-		<item name="Banana" chance="0.03" />
+		<item name="Potato" chance="0.04" />
+		<item name="Banana" chance="0.04" />
+
 		<!-- Getränke -->
-		<item name="SodaCan_Cola" chance="0.08" />
-		<item name="SodaCan_Kvass" chance="0.08" />
-		<item name="SodaCan_Pipsi" chance="0.06" />
-		<item name="SodaCan_Spite" chance="0.06" />
-		<item name="SodaCan_Fronta" chance="0.06" />
-		<item name="WaterBottle" chance="0.05" />
-		<item name="MFP_Pilsner" chance="0.05" />
+		<item name="SodaCan_Cola" chance="0.1" />
+		<item name="SodaCan_Kvass" chance="0.1" />
+		<item name="SodaCan_Pipsi" chance="0.1" />
+		<item name="SodaCan_Spite" chance="0.1" />
+		<item name="SodaCan_Fronta" chance="0.1" />
+		<item name="WaterBottle" chance="0.1" />
+		<item name="MFP_Pilsner" chance="0.1" />
+
 		<!-- Süßigkeiten / Automatenloot -->
-		<item name="MFP_GummyBears" chance="0.05" />
-		<item name="MFP_Oreos" chance="0.05" />
-		<item name="MFP_Snickers" chance="0.06" />
-		<item name="MFP_Mars" chance="0.06" />
-		<item name="MFP_MandM1" chance="0.05" />
+		<item name="MFP_GummyBears" chance="0.07" />
+		<item name="MFP_Oreos" chance="0.07" />
+		<item name="MFP_Snickers" chance="0.08" />
+		<item name="MFP_Mars" chance="0.08" />
+		<item name="MFP_MandM1" chance="0.07" />
 	</cargo>
-	<cargo chance="0.2" name="foodArmy">
+	<cargo chance="0.35" name="foodArmy">
 		<!-- Flüssigkeit & Transport -->
-		<item name="Canteen" chance="0.05" />
+		<item name="Canteen" chance="0.09" />
 		<item name="WaterBottle" chance="0.15" />
 		<item name="SodaCan_Cola" chance="0.1" />
 		<item name="SodaCan_Pipsi" chance="0.1" />
 		<item name="SodaCan_Spite" chance="0.1" />
+
 		<!-- Snacks & Energieschub -->
-		<item name="MFP_Snickers" chance="0.2" />
-		<item name="MFP_Mars" chance="0.2" />
-		<item name="ZagorkyChocolate" chance="0.2" />
-		<item name="Zagorky" chance="0.2" />
-		<item name="MFP_Jerky_Original" chance="0.25" />
+		<item name="MFP_Snickers" chance="0.15" />
+		<item name="MFP_Mars" chance="0.15" />
+		<item name="ZagorkyChocolate" chance="0.15" />
+		<item name="Zagorky" chance="0.15" />
+		<item name="MFP_Jerky_Original" chance="0.15" />
+
 		<!-- Hochwertige Konserve -->
-		<item name="TacticalBaconCan" chance="0.25" />
-		<!-- MREs -->
-		<item name="MFP_MRE1" chance="0.05" />
-		<item name="MFP_MRE2" chance="0.05" />
-		<item name="MFP_MRE3" chance="0.05" />
-		<item name="MFP_MRE4" chance="0.05" />
-		<item name="MFP_MRE5" chance="0.05" />
-		<item name="MFP_MRE6" chance="0.05" />
-		<item name="MFP_MRE7" chance="0.05" />
+		<item name="TacticalBaconCan" chance="0.1" />
+
+		<!-- MREs (gleichverteilt) -->
+		<item name="MFP_MRE1" chance="0.09" />
+		<item name="MFP_MRE2" chance="0.09" />
+		<item name="MFP_MRE3" chance="0.09" />
+		<item name="MFP_MRE4" chance="0.09" />
+		<item name="MFP_MRE5" chance="0.09" />
+		<item name="MFP_MRE6" chance="0.09" />
+		<item name="MFP_MRE7" chance="0.09" />
 	</cargo>
-	<cargo chance="0.35" name="toolsHermit">
-		<!-- Messer (bewusst selten) -->
-		<item name="BoneKnife" chance="0.15" />
-		<item name="StoneKnife" chance="0.15" />
-		<item name="HuntingKnife" chance="0.03" />
+	<cargo chance="0.5" name="toolsHermit">
+		<!-- Messer -->
+		<item name="BoneKnife" chance="0.12" />
+		<item name="StoneKnife" chance="0.12" />
+		<item name="HuntingKnife" chance="0.05" />
+
 		<!-- Basics für Crafting & Überleben -->
-		<item name="Matchbox" chance="0.4" />
-		<item name="Rope" chance="0.35" />
-		<item name="Rag" chance="0.3" />
-		<item name="Hatchet" chance="0.2" />
-		<item name="CanOpener" chance="0.2" />
-		<item name="SewingKit" chance="0.25" />
-		<item name="LeatherSewingKit" chance="0.15" />
-		<item name="WeaponCleaningKit" chance="0.2" />
-		<item name="Whetstone" chance="0.15" />
+		<item name="Matchbox" chance="0.15" />
+		<item name="Rope" chance="0.15" />
+		<item name="Rag" chance="0.15" />
+		<item name="Hatchet" chance="0.12" />
+		<item name="CanOpener" chance="0.12" />
+		<item name="SewingKit" chance="0.12" />
+		<item name="LeatherSewingKit" chance="0.1" />
+		<item name="WeaponCleaningKit" chance="0.1" />
+		<item name="Whetstone" chance="0.1" />
+
 		<!-- Medizin & Nothilfe -->
-		<item name="BandageDressing" chance="0.15" />
-		<item name="PurificationTablets" chance="0.12" />
+		<item name="BandageDressing" chance="0.12" />
+		<item name="PurificationTablets" chance="0.1" />
 		<item name="CharcoalTablets" chance="0.1" />
 		<item name="DisinfectantAlcohol" chance="0.08" />
 		<item name="Heatpack" chance="0.08" />
+
 		<!-- Wildniskram & Jagd -->
 		<item name="Trap_RabbitSnare" chance="0.1" />
 		<item name="Trap_SmallFish" chance="0.1" />
 		<item name="Ammo_HuntingBolt" chance="0.1" />
 		<item name="Hook" chance="0.1" />
+
 		<!-- Orientierung -->
 		<item name="Compass" chance="0.08" />
-		<item name="ChernarusMap" chance="0.06" />
-		<!-- Immersives Extra -->
-		<item name="BookBible" chance="0.05" />
-		<item name="ExpansionBanknoteHryvnia" chance="0.2" />
+		<item name="ChernarusMap" chance="0.08" />
+
+		<!-- Immersion -->
+		<item name="BookBible" chance="0.06" />
+		<item name="ExpansionBanknoteHryvnia" chance="0.15" />
 	</cargo>
-	<cargo chance="0.15" name="toolsVillage">
+	<cargo chance="0.5" name="toolsVillage">
 		<!-- Basiswerkzeug & Kleinkram -->
 		<item name="DuctTape" chance="0.15" />
 		<item name="Battery9V" chance="0.1" />
 		<item name="Matchbox" chance="0.15" />
-		<item name="PetrolLighter" chance="0.2" />
-		<item name="CanOpener" chance="0.05" />
-		<item name="Flashlight" chance="0.05" />
+		<item name="PetrolLighter" chance="0.15" />
+		<item name="CanOpener" chance="0.1" />
+		<item name="Flashlight" chance="0.1" />
 		<item name="Hatchet" chance="0.1" />
+
 		<!-- Nähen & Reparieren -->
-		<item name="SewingKit" chance="0.2" />
+		<item name="SewingKit" chance="0.12" />
 		<item name="LeatherSewingKit" chance="0.1" />
 		<item name="WeaponCleaningKit" chance="0.1" />
+
 		<!-- Seile & Bastelkram -->
-		<item name="Rope" chance="0.25" />
-		<item name="Rag" chance="0.2" />
-		<item name="Hook" chance="0.1" />
-		<!-- Messer: nützlich, aber nicht garantiert -->
-		<item name="KitchenKnife" chance="0.1" />
-		<item name="SteakKnife" chance="0.1" />
-		<!-- Gesundheit & Reinigung -->
-		<item name="BandageDressing" chance="0.1" />
-		<item name="PurificationTablets" chance="0.03" />
-		<item name="CharcoalTablets" chance="0.03" />
-		<item name="DisinfectantAlcohol" chance="0.08" />
-		<item name="Heatpack" chance="0.03" />
-		<!-- Bargeld -->
-		<item name="ExpansionBanknoteHryvnia" chance="0.25" />
-	</cargo>
-	<cargo chance="0.1" name="toolsCity">
-		<!-- Alltag & Werkstatt -->
-		<item name="DuctTape" chance="0.05" />
-		<item name="Rope" chance="0.05" />
-		<item name="Rag" chance="0.2" />
-		<item name="Battery9V" chance="0.1" />
-		<item name="Matchbox" chance="0.1" />
-		<item name="PetrolLighter" chance="0.15" />
-		<!-- Licht & Elektrik -->
-		<item name="Flashlight" chance="0.05" />
-		<!-- Küchengeräte (leichte Dropchance) -->
+		<item name="Rope" chance="0.15" />
+		<item name="Rag" chance="0.12" />
+		<item name="Hook" chance="0.08" />
+
+		<!-- Messer -->
 		<item name="KitchenKnife" chance="0.08" />
 		<item name="SteakKnife" chance="0.08" />
-		<item name="CanOpener" chance="0.05" />
-		<!-- Nähen & Reparieren -->
-		<item name="SewingKit" chance="0.1" />
-		<item name="LeatherSewingKit" chance="0.05" />
-		<item name="WeaponCleaningKit" chance="0.03" />
+
 		<!-- Gesundheit & Reinigung -->
 		<item name="BandageDressing" chance="0.1" />
-		<item name="BloodTestKit" chance="0.15" />
-		<item name="PurificationTablets" chance="0.02" />
-		<item name="CharcoalTablets" chance="0.1" />
+		<item name="PurificationTablets" chance="0.06" />
+		<item name="CharcoalTablets" chance="0.06" />
 		<item name="DisinfectantAlcohol" chance="0.08" />
 		<item name="Heatpack" chance="0.06" />
-		<item name="VitaminBottle" chance="0.04" />
-		<item name="DisinfectantSpray" chance="0.08" />
-		<item name="PainkillerTablets" chance="0.05" />
-		<item name="TetracyclineAntibiotics" chance="0.01" />
+
 		<!-- Bargeld -->
-		<item name="ExpansionBanknoteHryvnia" chance="0.4" />
+		<item name="ExpansionBanknoteHryvnia" chance="0.2" />
 	</cargo>
-	<cargo chance="0.45" name="toolsMedic">
-		<!-- Basismedizin (immer gut) -->
-		<item name="BandageDressing" chance="0.5" />
+	<cargo chance="0.45" name="toolsCity">
+		<!-- Alltag & Werkstatt -->
+		<item name="DuctTape" chance="0.12" />
+		<item name="Rope" chance="0.1" />
+		<item name="Rag" chance="0.15" />
+		<item name="Battery9V" chance="0.12" />
+		<item name="Matchbox" chance="0.12" />
+		<item name="PetrolLighter" chance="0.12" />
+
+		<!-- Licht & Elektrik -->
+		<item name="Flashlight" chance="0.08" />
+
+		<!-- Küchengeräte -->
+		<item name="KitchenKnife" chance="0.08" />
+		<item name="SteakKnife" chance="0.08" />
+		<item name="CanOpener" chance="0.08" />
+
+		<!-- Nähen & Reparieren -->
+		<item name="SewingKit" chance="0.1" />
+		<item name="LeatherSewingKit" chance="0.08" />
+		<item name="WeaponCleaningKit" chance="0.05" />
+
+		<!-- Gesundheit & Reinigung -->
+		<item name="BandageDressing" chance="0.12" />
+		<item name="BloodTestKit" chance="0.08" />
+		<item name="PurificationTablets" chance="0.06" />
+		<item name="CharcoalTablets" chance="0.08"/>
+		
+		<!-- Bargeld -->
+		<item name="ExpansionBanknoteHryvnia" chance="0.25" />
+
+	</cargo>
+
+	<cargo chance="0.7" name="toolsMedic">
+		<!-- Basismedizin -->
+		<item name="BandageDressing" chance="0.15" />
 		<item name="PurificationTablets" chance="0.1" />
-		<item name="VitaminBottle" chance="0.15" />
-		<item name="PainkillerTablets" chance="0.25" />
-		<item name="CharcoalTablets" chance="0.15" />
-		<item name="TetracyclineAntibiotics" chance="0.15" />
-		<item name="Heatpack" chance="0.15" />
-		<item name="IodineTincture" chance="0.15" />
-		<item name="Thermometer" chance="0.15" />
+		<item name="VitaminBottle" chance="0.1" />
+		<item name="PainkillerTablets" chance="0.1" />
+		<item name="CharcoalTablets" chance="0.1" />
+		<item name="TetracyclineAntibiotics" chance="0.1" />
+		<item name="Heatpack" chance="0.1" />
+		<item name="IodineTincture" chance="0.1" />
+		<item name="Thermometer" chance="0.1" />
+
 		<!-- Infusion & Blut -->
-		<item name="SalineBag" chance="0.1" />
-		<item name="StartKitIV" chance="0.15" />
-		<item name="BloodBagEmpty" chance="0.1" />
-		<item name="BloodTestKit" chance="0.35" />
-		<item name="Syringe" chance="0.1" />
-		<!-- Inedia Mod-Kram -->
-		<item name="InediaPain_HemostaticDressing" chance="0.2" />
-		<item name="InediaPain_Tramadol" chance="0.1" />
-		<item name="InediaPain_Vikasol" chance="0.1" />
-		<item name="InediaPain_Calcium" chance="0.1" />
-		<item name="InediaPain_Metoclopramide" chance="0.1" />
-		<item name="InediaPain_Sorbifer" chance="0.1" />
-		<item name="InediaPain_SurgicalKit" chance="0.1" />
-		<item name="InediaPain_SplintKit" chance="0.1" />
+		<item name="SalineBag" chance="0.08" />
+		<item name="StartKitIV" chance="0.1" />
+		<item name="BloodBagEmpty" chance="0.08" />
+		<item name="BloodTestKit" chance="0.12" />
+		<item name="Syringe" chance="0.08" />
+
+		<!-- Inedia Mod -->
+		<item name="InediaPain_HemostaticDressing" chance="0.12" />
+		<item name="InediaPain_Tramadol" chance="0.08" />
+		<item name="InediaPain_Vikasol" chance="0.08" />
+		<item name="InediaPain_Calcium" chance="0.08" />
+		<item name="InediaPain_Metoclopramide" chance="0.08" />
+		<item name="InediaPain_Sorbifer" chance="0.08" />
+		<item name="InediaPain_SurgicalKit" chance="0.08" />
+		<item name="InediaPain_SplintKit" chance="0.08" />
+
 		<!-- AMS Mod -->
-		<item name="AMS_Absorbent" chance="0.35" />
-		<item name="AMS_Aspirin" chance="0.15" />
+		<item name="AMS_Absorbent" chance="0.12" />
+		<item name="AMS_Aspirin" chance="0.1" />
 		<item name="AMS_Poter" chance="0.05" />
-		<item name="AMS_Methadone" chance="0.02" />
-		<item name="AMS_POX" chance="0.02" />
-		<!-- Psix Stims (superrare) -->
-		<item name="Psix_StimPack20HP" chance="0.03" />
-		<item name="Psix_StimPack40HP" chance="0.02" />
+		<item name="AMS_Methadone" chance="0.03" />
+		<item name="AMS_POX" chance="0.03" />
+
+		<!-- Psix Stims -->
+		<item name="Psix_StimPack20HP" chance="0.05" />
+		<item name="Psix_StimPack40HP" chance="0.03" />
 		<item name="Psix_StimPack60HP" chance="0.01" />
 		<item name="Psix_StimPack80HP" chance="0.005" />
-		<item name="Psix_StimPack100HP" chance="0.0005" />
+		<item name="Psix_StimPack100HP" chance="0.0025" />
+
 		<!-- Klassiker -->
-		<item name="Epinephrine" chance="0.05" />
-		<item name="Morphine" chance="0.05" />
-		<!-- Geld im Medkit 💵 -->
-		<item name="ExpansionBanknoteHryvnia" chance="0.25" />
+		<item name="Epinephrine" chance="0.08" />
+		<item name="Morphine" chance="0.08" />
+
+		<!-- Bargeld -->
+		<item name="ExpansionBanknoteHryvnia" chance="0.12" />
 	</cargo>
-	<cargo chance="0.35" name="toolsPolice">
+	<cargo chance="0.65" name="toolsPolice">
 		<!-- Einsatzmittel -->
-		<item name="Roadflare" chance="0.25" />
-		<item name="Flashlight" chance="0.05" />
-		<item name="Battery9V" chance="0.2" />
-		<item name="Headtorch_Black" chance="0.02" />
-		<item name="Chemlight_Blue" chance="0.05" />
-		<item name="Chemlight_Green" chance="0.05" />
-		<item name="Chemlight_Red" chance="0.05" />
-		<item name="Chemlight_Yellow" chance="0.05" />
-		<item name="Chemlight_White" chance="0.05" />
+		<item name="Roadflare" chance="0.15" />
+		<item name="Flashlight" chance="0.1" />
+		<item name="Battery9V" chance="0.12" />
+		<item name="Headtorch_Black" chance="0.05" />
+		<item name="Chemlight_Blue" chance="0.06" />
+		<item name="Chemlight_Green" chance="0.06" />
+		<item name="Chemlight_Red" chance="0.06" />
+		<item name="Chemlight_Yellow" chance="0.06" />
+		<item name="Chemlight_White" chance="0.06" />
+
 		<!-- Funk & Kommunikation -->
-		<item name="AMS_Whistle" chance="0.15" />
+		<item name="AMS_Whistle" chance="0.1" />
 		<item name="PersonalRadio" chance="0.1" />
-		<item name="Megaphone" chance="0.03" />
+		<item name="Megaphone" chance="0.05" />
+
 		<!-- Zwangsmittel -->
-		<item name="Handcuffs" chance="0.12" />
-		<item name="HandcuffKeys" chance="0.12" />
-		<item name="stunbaton" chance="0.1" />
+		<item name="Handcuffs" chance="0.1" />
+		<item name="HandcuffKeys" chance="0.1" />
+		<item name="stunbaton" chance="0.08" />
+
 		<!-- Erste Hilfe -->
-		<item name="BandageDressing" chance="0.15" />
+		<item name="BandageDressing" chance="0.12" />
 		<item name="BloodTestKit" chance="0.1" />
-		<item name="Morphine" chance="0.02" />
-		<item name="DesinfectantAlcohol" chance="0.1" />
+		<item name="Morphine" chance="0.03" />
+		<item name="DesinfectantAlcohol" chance="0.08" />
+
 		<!-- Dienstwaffe & Pflege -->
-		<item name="CombatKnife" chance="0.05" />
-		<item name="WeaponCleaningKit" chance="0.12" />
+		<item name="CombatKnife" chance="0.06" />
+		<item name="WeaponCleaningKit" chance="0.1" />
+
 		<!-- Paperwork & Spaß -->
-		<item name="Paper" chance="0.05" />
+		<item name="Paper" chance="0.06" />
+
 		<!-- Geld im Spind -->
 		<item name="ExpansionBanknoteHryvnia" chance="0.2" />
 	</cargo>
-	<cargo chance="0.25" name="toolsHunter">
+	<cargo chance="0.65" name="toolsHunter">
 		<!-- Überleben -->
-		<item name="Matchbox" chance="0.4" />
-		<item name="Flashlight" chance="0.25" />
-		<item name="Battery9V" chance="0.25" />
-		<item name="CanOpener" chance="0.15" />
-		<item name="Roadflare" chance="0.1" />
+		<item name="Matchbox" chance="0.15" />
+		<item name="Flashlight" chance="0.12" />
+		<item name="Battery9V" chance="0.12" />
+		<item name="CanOpener" chance="0.1" />
+		<item name="Roadflare" chance="0.08" />
 		<item name="Chemlight_Blue" chance="0.05" />
 		<item name="Chemlight_Green" chance="0.05" />
 		<item name="Chemlight_Red" chance="0.05" />
 		<item name="Chemlight_Yellow" chance="0.05" />
 		<item name="Chemlight_White" chance="0.05" />
+
 		<!-- Waffen- & Kleidungspflege -->
-		<item name="WeaponCleaningKit" chance="0.25" />
-		<item name="LeatherSewingKit" chance="0.15" />
+		<item name="WeaponCleaningKit" chance="0.12" />
+		<item name="LeatherSewingKit" chance="0.1" />
+
 		<!-- Orientierung & Tracking -->
-		<item name="Compass" chance="0.1" />
-		<item name="ChernarusMap" chance="0.2" />
-		<item name="Binoculars" chance="0.04" />
+		<item name="Compass" chance="0.08" />
+		<item name="ChernarusMap" chance="0.12" />
+		<item name="Binoculars" chance="0.05" />
+
 		<!-- Jagdtools -->
 		<item name="HuntingKnife" chance="0.08" />
 		<item name="Hook" chance="0.1" />
-		<item name="Rope" chance="0.15" />
+		<item name="Rope" chance="0.1" />
 		<item name="Trap_RabbitSnare" chance="0.1" />
 		<item name="Trap_SmallFish" chance="0.1" />
 		<item name="Ammo_HuntingBolt" chance="0.1" />
-		<item name="Paper" chance="0.02" />
-		<item name="Bark_Birch" chance="0.1" />
-		<item name="Bark_Oak" chance="0.15" />
-		<!-- Medizinisches -->
-		<item name="BandageDressing" chance="0.15" />
-		<item name="PurificationTablets" chance="0.2" />
-		<item name="CharcoalTablets" chance="0.15" />
+
+		<!-- Crafting-Flair -->
+		<item name="Bark_Birch" chance="0.08" />
+		<item name="Bark_Oak" chance="0.1" />
+		<item name="Paper" chance="0.04" />
+
+		<!-- Medizin -->
+		<item name="BandageDressing" chance="0.1" />
+		<item name="PurificationTablets" chance="0.12" />
+		<item name="CharcoalTablets" chance="0.1" />
 		<item name="BloodTestKit" chance="0.05" />
 		<item name="DisinfectantAlcohol" chance="0.08" />
-		<item name="VitaminBottle" chance="0.03" />
-		<item name="PainkillerTablets" chance="0.03" />
-		<item name="Heatpack" chance="0.15" />
+		<item name="VitaminBottle" chance="0.04" />
+		<item name="PainkillerTablets" chance="0.04" />
+		<item name="Heatpack" chance="0.1" />
 		<item name="IodineTincture" chance="0.08" />
+
 		<!-- Immersion -->
-		<item name="ExpansionBanknoteHryvnia" chance="0.1" />
+		<item name="ExpansionBanknoteHryvnia" chance="0.12" />
 	</cargo>
-	<cargo chance="0.4" name="toolsIndustrial">
+	<cargo chance="0.6" name="toolsIndustrial">
 		<!-- Schweres Werkzeug -->
-		<item name="Pipe" chance="0.15" />
-		<item name="Hatchet" chance="0.05" />
-		<item name="Crowbar" chance="0.05" />
-		<item name="Hammer" chance="0.2" />
-		<item name="Wrench" chance="0.3" />
-		<item name="Pliers" chance="0.3" />
+		<item name="Pipe" chance="0.1" />
+		<item name="Hatchet" chance="0.1" />
+		<item name="Crowbar" chance="0.1" />
+		<item name="Hammer" chance="0.1" />
+		<item name="Wrench" chance="0.12" />
+		<item name="Pliers" chance="0.12" />
+
 		<!-- Verbrauchsmaterial & Crafting -->
-		<item name="Rope" chance="0.2" />
-		<item name="MetalWire" chance="0.1" />
-		<item name="DuctTape" chance="0.25" />
-		<item name="EpoxyPutty" chance="0.1" />
+		<item name="Rope" chance="0.1" />
+		<item name="MetalWire" chance="0.08" />
+		<item name="DuctTape" chance="0.12" />
+		<item name="EpoxyPutty" chance="0.08" />
+
 		<!-- Energie & Technik -->
-		<item name="Battery9V" chance="0.25" />
-		<item name="SparkPlug" chance="0.05" />
-		<item name="GlowPlug" chance="0.05" />
+		<item name="Battery9V" chance="0.12" />
+		<item name="SparkPlug" chance="0.06" />
+		<item name="GlowPlug" chance="0.06" />
+
 		<!-- Licht & Feuer -->
-		<item name="Flashlight" chance="0.1" />
-		<item name="PetrolLighter" chance="0.1" />
-		<item name="Matchbox" chance="0.1" />
+		<item name="Flashlight" chance="0.08" />
+		<item name="PetrolLighter" chance="0.08" />
+		<item name="Matchbox" chance="0.08" />
+
 		<!-- Baustoffe -->
-		<item name="NailBox" chance="0.25" />
+		<item name="NailBox" chance="0.12" />
 		<item name="Screwdriver" chance="0.08" />
-		<!-- Spraycans (optischer Bonus) -->
-		<item name="ExpansionSpraycanBlack" chance="0.03" />
-		<item name="ExpansionSpraycanOrange" chance="0.03" />
-		<item name="ExpansionSpraycanBlue" chance="0.03" />
-		<item name="ExpansionSpraycanWhite" chance="0.03" />
-		<item name="ExpansionSpraycanRed" chance="0.03" />
-		<item name="ExpansionSpraycanYellow" chance="0.03" />
+
+		<!-- Spraycans -->
+		<item name="ExpansionSpraycanBlack" chance="0.04" />
+		<item name="ExpansionSpraycanOrange" chance="0.04" />
+		<item name="ExpansionSpraycanBlue" chance="0.04" />
+		<item name="ExpansionSpraycanWhite" chance="0.04" />
+		<item name="ExpansionSpraycanRed" chance="0.04" />
+		<item name="ExpansionSpraycanYellow" chance="0.04" />
+
 		<!-- Medizinisches -->
-		<item name="BandageDressing" chance="0.05" />
-		<item name="BloodTestKit" chance="0.02" />
-		<item name="DisinfectantAlcohol" chance="0.05" />
-		<item name="PainkillerTablets" chance="0.01" />
+		<item name="BandageDressing" chance="0.06" />
+		<item name="BloodTestKit" chance="0.04" />
+		<item name="DisinfectantAlcohol" chance="0.06" />
+		<item name="PainkillerTablets" chance="0.03" />
+
 		<!-- Wirtschaftsgut -->
-		<item name="ExpansionBanknoteHryvnia" chance="0.15" />
+		<item name="ExpansionBanknoteHryvnia" chance="0.2" />
 	</cargo>
-	<cargo chance="0.12" name="ammoCivil">
+	<cargo chance="0.5" name="ammoCivil">
 		<!-- Pistolenmunition -->
-		<item name="Ammo_380" chance="0.3" />
-		<item name="Ammo_9x19" chance="0.25" />
-		<item name="Ammo_357" chance="0.15" />
-		<item name="AmmoBox_380_35Rnd" chance="0.05" />
-		<item name="AmmoBox_9x19_25Rnd" chance="0.03" />
-		<item name="AmmoBox_357_20Rnd" chance="0.02" />
-		<!-- .22 für Kleinkaliber & Einsteiger -->
-		<item name="Ammo_22" chance="0.35" />
-		<item name="AmmoBox_22_50Rnd" chance="0.07" />
+		<item name="Ammo_380" chance="0.12" />
+		<item name="AmmoBox_380_35Rnd" chance="0.08" />
+		<item name="Ammo_9x19" chance="0.12" />
+		<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
+		<item name="Ammo_357" chance="0.1" />
+		<item name="AmmoBox_357_20Rnd" chance="0.06" />
+
+		<!-- .22 Kleinkaliber -->
+		<item name="Ammo_22" chance="0.15" />
+		<item name="AmmoBox_22_50Rnd" chance="0.1" />
+
 		<!-- Schrotpatronen -->
-		<item name="Ammo_12gaPellets" chance="0.2" />
-		<item name="AmmoBox_00buck_10rnd" chance="0.02" />
-		<!-- Gewehrmunition (nur als Beifang) -->
-		<item name="Ammo_762x39" chance="0.1" />
-		<item name="Ammo_762x54" chance="0.05" />
-		<item name="AmmoBox_762x39_20Rnd" chance="0.01" />
+		<item name="Ammo_12gaPellets" chance="0.12" />
+		<item name="AmmoBox_00buck_10rnd" chance="0.05" />
+
+		<!-- Gewehrmunition -->
+		<item name="Ammo_762x39" chance="0.05" />
+		<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
+		<item name="Ammo_762x54" chance="0.03" />
 		<item name="AmmoBox_762x54_20Rnd" chance="0.01" />
 	</cargo>
-	<cargo chance="0.25" name="ammoPolice">
+	<cargo chance="0.6" name="ammoPolice">
 		<!-- Pistolen / MPs -->
-		<item name="Ammo_9x19" chance="0.4" />
-		<item name="AmmoBox_9x19_25Rnd" chance="0.15" />
-		<item name="Ammo_380" chance="0.35" />
-		<item name="AmmoBox_380_35Rnd" chance="0.12" />
-		<!-- CQB & Riot Gear -->
-		<item name="Ammo_12gaPellets" chance="0.3" />
-		<item name="AmmoBox_00buck_10rnd" chance="0.1" />
-		<item name="Ammo_12gaRubberSlug" chance="0.25" />
-		<item name="AmmoBox_12gaRubberSlug_10Rnd" chance="0.08" />
-		<!-- Taktisches Sturmgewehr (SWAT) -->
-		<item name="Ammo_545x39" chance="0.15" />
-		<item name="AmmoBox_545x39_20Rnd" chance="0.05" />
-		<item name="Ammo_556x45" chance="0.1" />
-		<item name="AmmoBox_556x45_20Rnd" chance="0.03" />
-		<!-- Urban Special Ops -->
-		<item name="Ammo_9x39" chance="0.07" />
-		<item name="AmmoBox_9x39_20Rnd" chance="0.02" />
-	</cargo>
-	<cargo chance="0.25" name="ammoArmy">
-		<!-- Pistolen / MPs -->
-		<item name="Ammo_9x19" chance="0.4" />
-		<item name="AmmoBox_9x19_25Rnd" chance="0.15" />
-		<item name="Ammo_45ACP" chance="0.3" />
-		<item name="AmmoBox_45ACP_25Rnd" chance="0.1" />
-		<!-- Sturmgewehre -->
-		<item name="Ammo_556x45" chance="0.4" />
-		<item name="AmmoBox_556x45_20Rnd" chance="0.15" />
-		<item name="Ammo_545x39" chance="0.4" />
-		<item name="AmmoBox_545x39_20Rnd" chance="0.15" />
-		<item name="Ammo_762x39" chance="0.3" />
-		<item name="AmmoBox_762x39_20Rnd" chance="0.1" />
-		<!-- DMR / Sniper -->
-		<item name="Ammo_762x54" chance="0.25" />
-		<item name="AmmoBox_762x54_20Rnd" chance="0.08" />
-		<item name="Ammo_308Win" chance="0.2" />
-		<item name="Ammo_308WinTracer" chance="0.08" />
-		<item name="AmmoBox_308Win_20Rnd" chance="0.15" />
-		<item name="AmmoBox_308WinTracer_20Rnd" chance="0.03" />
-		<!-- TTC / Spezial -->
-		<item name="TTC_Ammo_4630" chance="0.15" />
-		<item name="TTC_AmmoBox_4630_20Rnd" chance="0.05" />
-		<item name="TTC_Ammo_300blk" chance="0.15" />
-		<item name="TTC_AmmoBox_300blk_20rnd" chance="0.05" />
-		<!-- FOX / 57x28 / Exotic -->
-		<item name="Ammo_57x28" chance="0.1" />
-		<item name="57x28_AmmoBox_25rnd" chance="0.03" />
-		<item name="Ammo_57x28AP" chance="0.07" />
-		<item name="57x28AP_AmmoBox_25rnd" chance="0.02" />
-		<item name="Ammo_9x21FOX" chance="0.1" />
-		<item name="9x21FOX_AmmoBox_25rnd" chance="0.03" />
-		<item name="Ammo_9x21EXP" chance="0.07" />
-		<item name="9x21EXP_AmmoBox_25rnd" chance="0.02" />
-		<!-- High-End Sniper -->
-		<item name="TTC_Ammo_338" chance="0.02" />
-		<item name="TTC_AmmoBox_338mm_10Rnd" chance="0.01" />
-		<item name="Ammo_AE127x99" chance="0.01" />
-		<item name="AE_AmmoBox_127x99_10rnd" chance="0.005" />
-	</cargo>
-	<cargo chance="0.25" name="mixVillage">
-		<item name="DuctTape" chance="0.07" />
-		<item name="Battery9V" chance="0.07" />
-		<item name="Paper" chance="0.1" />
-		<item name="Flashlight" chance="0.1" />
-		<item name="Matchbox" chance="0.07" />
-		<item name="Roadflare" chance="0.2" />
-		<item name="KitchenKnife" chance="0.05" />
-		<item name="CanOpener" chance="0.05" />
-		<item name="BandageDressing" chance="0.05" />
-		<item name="Ammo_380" chance="0.22" />
-		<item name="AmmoBox_380_35Rnd" chance="0.08" />
-		<item name="Ammo_9x19" chance="0.15" />
+		<item name="Ammo_9x19" chance="0.12" />
 		<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-		<item name="Ammo_762x39" chance="0.12" />
-		<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
-		<item name="Ammo_762x54" chance="0.08" />
-		<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
-		<item name="Ammo_22" chance="0.15" />
-		<item name="AmmoBox_22_50Rnd" chance="0.05" />
-		<item name="Ammo_12gaPellets" chance="0.10" />
-		<item name="AmmoBox_00buck_10rnd" chance="0.02" />
-		<item name="Ammo_357" chance="0.10" />
-		<item name="AmmoBox_357_20Rnd" chance="0.02" />
-		<item name="SodaCan_Cola" chance="0.09" />
-		<item name="SodaCan_Pipsi" chance="0.09" />
-		<item name="SodaCan_Spite" chance="0.09" />
-		<item name="TunaCan" chance="0.10" />
-		<item name="SardinesCan" chance="0.09" />
-		<item name="PeachesCan" chance="0.10" />
-		<item name="SpaghettiCan" chance="0.09" />
-		<item name="BakedBeansCan" chance="0.10" />
+		<item name="Ammo_380" chance="0.12" />
+		<item name="AmmoBox_380_35Rnd" chance="0.08" />
+
+		<!-- CQB & Riot Gear -->
+		<item name="Ammo_12gaPellets" chance="0.1" />
+		<item name="AmmoBox_00buck_10rnd" chance="0.06" />
+		<item name="Ammo_12gaRubberSlug" chance="0.08" />
+		<item name="AmmoBox_12gaRubberSlug_10Rnd" chance="0.05" />
+
+		<!-- Taktisches Sturmgewehr -->
+		<item name="Ammo_545x39" chance="0.08" />
+		<item name="AmmoBox_545x39_20Rnd" chance="0.04" />
+		<item name="Ammo_556x45" chance="0.06" />
+		<item name="AmmoBox_556x45_20Rnd" chance="0.03" />
+
+		<!-- Urban Special Ops -->
+		<item name="Ammo_9x39" chance="0.03" />
+		<item name="AmmoBox_9x39_20Rnd" chance="0.01" />
 	</cargo>
-	<cargo chance="0.25" name="mixVillage">
+	<cargo chance="0.7" name="ammoArmy">
+		<!-- Pistolen / MPs -->
+		<item name="Ammo_9x19" chance="0.12" />
+		<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
+		<item name="Ammo_45ACP" chance="0.1" />
+		<item name="AmmoBox_45ACP_25Rnd" chance="0.06" />
+
+		<!-- Sturmgewehre -->
+		<item name="Ammo_556x45" chance="0.12" />
+		<item name="AmmoBox_556x45_20Rnd" chance="0.08" />
+		<item name="Ammo_545x39" chance="0.12" />
+		<item name="AmmoBox_545x39_20Rnd" chance="0.08" />
+		<item name="Ammo_762x39" chance="0.1" />
+		<item name="AmmoBox_762x39_20Rnd" chance="0.06" />
+
+		<!-- DMR / Sniper -->
+		<item name="Ammo_762x54" chance="0.1" />
+		<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+		<item name="Ammo_308Win" chance="0.08" />
+		<item name="Ammo_308WinTracer" chance="0.03" />
+		<item name="AmmoBox_308Win_20Rnd" chance="0.06" />
+		<item name="AmmoBox_308WinTracer_20Rnd" chance="0.02" />
+
+		<!-- TTC / Spezial -->
+		<item name="TTC_Ammo_4630" chance="0.05" />
+		<item name="TTC_AmmoBox_4630_20Rnd" chance="0.02" />
+		<item name="TTC_Ammo_300blk" chance="0.05" />
+		<item name="TTC_AmmoBox_300blk_20rnd" chance="0.02" />
+
+		<!-- FOX / 57x28 / Exotic -->
+		<item name="Ammo_57x28" chance="0.04" />
+		<item name="57x28_AmmoBox_25rnd" chance="0.015" />
+		<item name="Ammo_57x28AP" chance="0.03" />
+		<item name="57x28AP_AmmoBox_25rnd" chance="0.01" />
+		<item name="Ammo_9x21FOX" chance="0.04" />
+		<item name="9x21FOX_AmmoBox_25rnd" chance="0.015" />
+		<item name="Ammo_9x21EXP" chance="0.03" />
+		<item name="9x21EXP_AmmoBox_25rnd" chance="0.01" />
+
+		<!-- High-End Sniper -->
+		<item name="TTC_Ammo_338" chance="0.01" />
+		<item name="TTC_AmmoBox_338mm_10Rnd" chance="0.005" />
+		<item name="Ammo_AE127x99" chance="0.005" />
+		<item name="AE_AmmoBox_127x99_10rnd" chance="0.002" />
+	</cargo>
+	<cargo chance="0.5" name="mixVillage">
 		<!-- Tools & Basics -->
-		<item name="DuctTape" chance="0.15" />
-		<item name="Battery9V" chance="0.12" />
-		<item name="Flashlight" chance="0.12" />
-		<item name="Matchbox" chance="0.12" />
-		<item name="Roadflare" chance="0.15" />
+		<item name="DuctTape" chance="0.1" />
+		<item name="Battery9V" chance="0.08" />
+		<item name="Flashlight" chance="0.08" />
+		<item name="Matchbox" chance="0.08" />
+		<item name="Roadflare" chance="0.1" />
 		<item name="KitchenKnife" chance="0.06" />
 		<item name="CanOpener" chance="0.06" />
 		<item name="Hatchet" chance="0.06" />
 		<item name="SewingKit" chance="0.06" />
 		<item name="LeatherSewingKit" chance="0.06" />
 		<item name="Rope" chance="0.08" />
-		<item name="ExpansionBanknoteHryvnia" chance="0.15" />
+		<item name="ExpansionBanknoteHryvnia" chance="0.2" />
+
 		<!-- Medical & Utility -->
 		<item name="BandageDressing" chance="0.08" />
-		<item name="PurificationTablets" chance="0.04" />
+		<item name="PurificationTablets" chance="0.05" />
 		<item name="DisinfectantAlcohol" chance="0.06" />
-		<item name="Heatpack" chance="0.03" />
+		<item name="Heatpack" chance="0.05" />
 		<item name="Rag" chance="0.08" />
-		<item name="Paper" chance="0.1" />
-		<item name="Pen_Black" chance="0.05" />
+		<item name="Paper" chance="0.08" />
+		<item name="Pen_Black" chance="0.06" />
+
 		<!-- Ammo (zivil & einfach) -->
-		<item name="Ammo_380" chance="0.2" />
-		<item name="AmmoBox_380_35Rnd" chance="0.08" />
-		<item name="Ammo_9x19" chance="0.18" />
-		<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-		<item name="Ammo_762x39" chance="0.12" />
+		<item name="Ammo_380" chance="0.1" />
+		<item name="AmmoBox_380_35Rnd" chance="0.06" />
+		<item name="Ammo_9x19" chance="0.1" />
+		<item name="AmmoBox_9x19_25Rnd" chance="0.06" />
+		<item name="Ammo_762x39" chance="0.08" />
 		<item name="AmmoBox_762x39_20Rnd" chance="0.03" />
-		<item name="Ammo_762x54" chance="0.08" />
+		<item name="Ammo_762x54" chance="0.06" />
 		<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
-		<item name="Ammo_22" chance="0.2" />
+		<item name="Ammo_22" chance="0.1" />
 		<item name="AmmoBox_22_50Rnd" chance="0.06" />
-		<item name="Ammo_12gaPellets" chance="0.15" />
+		<item name="Ammo_12gaPellets" chance="0.08" />
 		<item name="AmmoBox_00buck_10rnd" chance="0.03" />
-		<item name="Ammo_357" chance="0.1" />
+		<item name="Ammo_357" chance="0.06" />
 		<item name="AmmoBox_357_20Rnd" chance="0.03" />
+
 		<!-- Getränke -->
-		<item name="SodaCan_Cola" chance="0.1" />
-		<item name="SodaCan_Pipsi" chance="0.1" />
-		<item name="SodaCan_Spite" chance="0.1" />
+		<item name="SodaCan_Cola" chance="0.08" />
+		<item name="SodaCan_Pipsi" chance="0.08" />
+		<item name="SodaCan_Spite" chance="0.08" />
 		<item name="WaterBottle" chance="0.06" />
 		<item name="MFP_BasicBeer" chance="0.03" />
 		<item name="MFP_Pilsner" chance="0.03" />
+
 		<!-- Nahrung -->
-		<item name="TunaCan" chance="0.1" />
-		<item name="SardinesCan" chance="0.1" />
-		<item name="PeachesCan" chance="0.1" />
-		<item name="SpaghettiCan" chance="0.1" />
-		<item name="BakedBeansCan" chance="0.1" />
-		<item name="Crackers" chance="0.08" />
-		<item name="SaltySticks" chance="0.08" />
-	</cargo>
-	<cargo chance="0.25" name="mixHunter">
-		<!-- Tools & Basics -->
-		<item name="Flashlight" chance="0.05" />
-		<item name="Matchbox" chance="0.25" />
-		<item name="WeaponCleaningKit" chance="0.25" />
-		<item name="Paper" chance="0.15" />
-		<item name="CanOpener" chance="0.15" />
-		<item name="HuntingKnife" chance="0.12" />
-		<!-- Munition (Jagd zuerst) -->
-		<item name="Ammo_308Win" chance="0.25" />
-		<item name="AmmoBox_308Win_20Rnd" chance="0.1" />
-		<item name="Ammo_762x54" chance="0.25" />
-		<item name="AmmoBox_762x54_20Rnd" chance="0.08" />
-		<item name="Ammo_762x39" chance="0.2" />
-		<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
-		<item name="Ammo_357" chance="0.18" />
-		<item name="AmmoBox_357_20Rnd" chance="0.05" />
-		<!-- Pistolenmunition (sekundär) -->
-		<item name="Ammo_9x19" chance="0.15" />
-		<item name="AmmoBox_9x19_25Rnd" chance="0.05" />
-		<!-- Medizinisches -->
-		<item name="BandageDressing" chance="0.15" />
-		<item name="PurificationTablets" chance="0.2" />
-		<item name="DisinfectantAlcohol" chance="0.08" />
-		<item name="Heatpack" chance="0.15" />
-		<!-- Getränke -->
-		<item name="SodaCan_Cola" chance="0.1" />
-		<item name="SodaCan_Pipsi" chance="0.1" />
-		<item name="SodaCan_Spite" chance="0.08" />
-		<!-- Nahrung -->
-		<item name="TunaCan" chance="0.1" />
-		<item name="SardinesCan" chance="0.1" />
-		<item name="PeachesCan" chance="0.1" />
+		<item name="TunaCan" chance="0.08" />
+		<item name="SardinesCan" chance="0.08" />
+		<item name="PeachesCan" chance="0.08" />
 		<item name="SpaghettiCan" chance="0.08" />
 		<item name="BakedBeansCan" chance="0.08" />
+		<item name="Crackers" chance="0.06" />
+		<item name="SaltySticks" chance="0.06" />
 	</cargo>
-	<cargo chance="0.25" name="mixArmy">
+
+		<cargo chance="0.5" name="mixCity">
+		<!-- Tools & Basics -->
+		<item name="DuctTape" chance="0.08" />
+		<item name="Battery9V" chance="0.08" />
+		<item name="Flashlight" chance="0.08" />
+		<item name="Matchbox" chance="0.08" />
+		<item name="Roadflare" chance="0.05" />
+		<item name="KitchenKnife" chance="0.06" />
+		<item name="CanOpener" chance="0.06" />
+		<item name="Hatchet" chance="0.06" />
+		<item name="SewingKit" chance="0.06" />
+		<item name="LeatherSewingKit" chance="0.06" />
+		<item name="Rope" chance="0.08" />
+		<item name="ExpansionBanknoteHryvnia" chance="0.2" />
+
+		<!-- Medical & Utility -->
+		<item name="BandageDressing" chance="0.08" />
+		<item name="PurificationTablets" chance="0.05" />
+		<item name="DisinfectantAlcohol" chance="0.06" />
+		<item name="Heatpack" chance="0.05" />
+		<item name="Rag" chance="0.08" />
+		<item name="Paper" chance="0.08" />
+		<item name="Pen_Black" chance="0.06" />
+
+		<!-- Ammo (zivil & einfach) -->
+		<item name="Ammo_380" chance="0.1" />
+		<item name="AmmoBox_380_35Rnd" chance="0.06" />
+		<item name="Ammo_9x19" chance="0.1" />
+		<item name="AmmoBox_9x19_25Rnd" chance="0.06" />
+		<item name="Ammo_762x39" chance="0.08" />
+		<item name="AmmoBox_762x39_20Rnd" chance="0.03" />
+		<item name="Ammo_762x54" chance="0.06" />
+		<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+		<item name="Ammo_22" chance="0.1" />
+		<item name="AmmoBox_22_50Rnd" chance="0.06" />
+		<item name="Ammo_12gaPellets" chance="0.08" />
+		<item name="AmmoBox_00buck_10rnd" chance="0.03" />
+		<item name="Ammo_357" chance="0.06" />
+		<item name="AmmoBox_357_20Rnd" chance="0.03" />
+
 		<!-- Getränke -->
-		<item name="SodaCan_Cola" chance="0.12" />
-		<item name="SodaCan_Pipsi" chance="0.1" />
-		<item name="SodaCan_Spite" chance="0.1" />
-		<item name="Canteen" chance="0.15" />
-		<item name="AMS_WaterStraw" chance="0.08" />
-		<item name="WaterBottle" chance="0.12" />
+		<item name="SodaCan_Cola" chance="0.08" />
+		<item name="SodaCan_Pipsi" chance="0.08" />
+		<item name="SodaCan_Spite" chance="0.08" />
+		<item name="WaterBottle" chance="0.06" />
+		<item name="MFP_BasicBeer" chance="0.03" />
+		<item name="MFP_Pilsner" chance="0.03" />
+
 		<!-- Nahrung -->
-		<item name="TunaCan" chance="0.12" />
-		<item name="SardinesCan" chance="0.1" />
-		<item name="SpaghettiCan" chance="0.1" />
-		<item name="BakedBeansCan" chance="0.1" />
-		<item name="TacticalBaconCan" chance="0.2" />
-		<item name="Pajka" chance="0.15" />
-		<item name="Zagorky" chance="0.15" />
-		<item name="BrisketSpread" chance="0.12" />
+		<item name="TunaCan" chance="0.08" />
+		<item name="SardinesCan" chance="0.08" />
+		<item name="PeachesCan" chance="0.08" />
+		<item name="SpaghettiCan" chance="0.08" />
+		<item name="BakedBeansCan" chance="0.08" />
+		<item name="Crackers" chance="0.06" />
+		<item name="SaltySticks" chance="0.06" />
+	</cargo>
+	<cargo chance="0.5" name="mixHunter">
+		<!-- Tools & Basics -->
+		<item name="Flashlight" chance="0.06" />
+		<item name="Matchbox" chance="0.12" />
+		<item name="WeaponCleaningKit" chance="0.12" />
+		<item name="Paper" chance="0.08" />
+		<item name="CanOpener" chance="0.08" />
+		<item name="HuntingKnife" chance="0.08" />
+		<item name="ChernarusMap" chance="0.06" />
+		<item name="Compass" chance="0.06" />
+		<item name="ExpansionBanknoteHryvnia" chance="0.12" />
+
+		<!-- Munition (Jagd zuerst) -->
+		<item name="Ammo_308Win" chance="0.1" />
+		<item name="AmmoBox_308Win_20Rnd" chance="0.06" />
+		<item name="Ammo_762x54" chance="0.1" />
+		<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+		<item name="Ammo_762x39" chance="0.08" />
+		<item name="AmmoBox_762x39_20Rnd" chance="0.04" />
+		<item name="Ammo_357" chance="0.08" />
+		<item name="AmmoBox_357_20Rnd" chance="0.04" />
+
+		<!-- Pistolenmunition -->
+		<item name="Ammo_9x19" chance="0.06" />
+		<item name="AmmoBox_9x19_25Rnd" chance="0.03" />
+
+		<!-- Medizinisches -->
+		<item name="BandageDressing" chance="0.08" />
+		<item name="PurificationTablets" chance="0.06" />
+		<item name="DisinfectantAlcohol" chance="0.05" />
+		<item name="Heatpack" chance="0.06" />
+
+		<!-- Getränke -->
+		<item name="SodaCan_Cola" chance="0.06" />
+		<item name="SodaCan_Pipsi" chance="0.06" />
+		<item name="SodaCan_Spite" chance="0.06" />
+
+		<!-- Nahrung -->
+		<item name="TunaCan" chance="0.06" />
+		<item name="SardinesCan" chance="0.06" />
+		<item name="PeachesCan" chance="0.06" />
+		<item name="SpaghettiCan" chance="0.05" />
+		<item name="BakedBeansCan" chance="0.05" />
+	</cargo>
+	<cargo chance="0.5" name="mixArmy">
+		<!-- Getränke -->
+		<item name="SodaCan_Cola" chance="0.08" />
+		<item name="SodaCan_Pipsi" chance="0.08" />
+		<item name="SodaCan_Spite" chance="0.08" />
+		<item name="Canteen" chance="0.1" />
+		<item name="AMS_WaterStraw" chance="0.06" />
+		<item name="WaterBottle" chance="0.08" />
+
+		<!-- Nahrung -->
+		<item name="TunaCan" chance="0.08" />
+		<item name="SardinesCan" chance="0.08" />
+		<item name="SpaghettiCan" chance="0.08" />
+		<item name="BakedBeansCan" chance="0.08" />
+		<item name="TacticalBaconCan" chance="0.12" />
+		<item name="Pajka" chance="0.08" />
+		<item name="Zagorky" chance="0.08" />
+		<item name="BrisketSpread" chance="0.08" />
 		<item name="MFP_MRE1" chance="0.05" />
 		<item name="MFP_MRE2" chance="0.05" />
+
 		<!-- Munition -->
-		<item name="Ammo_45ACP" chance="0.25" />
-		<item name="AmmoBox_45ACP_25Rnd" chance="0.08" />
-		<item name="Ammo_762x39" chance="0.25" />
-		<item name="AmmoBox_762x39_20Rnd" chance="0.08" />
-		<item name="Ammo_762x54" chance="0.2" />
-		<item name="AmmoBox_762x54_20Rnd" chance="0.06" />
-		<item name="Ammo_556x45" chance="0.2" />
-		<item name="AmmoBox_556x45_20Rnd" chance="0.06" />
-		<item name="Ammo_545x39" chance="0.2" />
-		<item name="AmmoBox_545x39_20Rnd" chance="0.08" />
+		<item name="Ammo_45ACP" chance="0.1" />
+		<item name="AmmoBox_45ACP_25Rnd" chance="0.06" />
+		<item name="Ammo_762x39" chance="0.1" />
+		<item name="AmmoBox_762x39_20Rnd" chance="0.06" />
+		<item name="Ammo_762x54" chance="0.08" />
+		<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+		<item name="Ammo_556x45" chance="0.08" />
+		<item name="AmmoBox_556x45_20Rnd" chance="0.05" />
+		<item name="Ammo_545x39" chance="0.08" />
+		<item name="AmmoBox_545x39_20Rnd" chance="0.05" />
+
 		<!-- Medizin -->
-		<item name="PainkillerTablets" chance="0.15" />
-		<item name="IodineTincture" chance="0.1" />
-		<item name="BloodTestKit" chance="0.15" />
-		<item name="InediaPain_HemostaticDressing" chance="0.12" />
+		<item name="PainkillerTablets" chance="0.08" />
+		<item name="IodineTincture" chance="0.06" />
+		<item name="BloodTestKit" chance="0.08" />
+		<item name="InediaPain_HemostaticDressing" chance="0.06" />
 		<item name="Morphine" chance="0.03" />
 		<item name="Heatpack" chance="0.05" />
+
 		<!-- Sonstiges -->
-		<item name="WeaponCleaningKit" chance="0.1" />
+		<item name="WeaponCleaningKit" chance="0.08" />
 		<item name="CombatKnife" chance="0.05" />
-		<item name="Roadflare" chance="0.15" />
-		<item name="Chemlight_Blue" chance="0.04" />
-		<item name="Chemlight_Green" chance="0.04" />
-		<item name="Chemlight_White" chance="0.04" />
+		<item name="Roadflare" chance="0.08" />
+		<item name="Chemlight_Blue" chance="0.05" />
+		<item name="Chemlight_Green" chance="0.05" />
+		<item name="Chemlight_White" chance="0.05" />
+		<item name="ChernarusMap" chance="0.05" />
+		<item name="Compass" chance="0.05" />
+		<item name="Paper" chance="0.06" />
 		<item name="ExpansionBanknoteHryvnia" chance="0.15" />
 	</cargo>
 	<cargo chance="0.06" name="grenades">
@@ -714,7 +821,7 @@
 		<item name="DesignerGlasses" chance="0.20" />
 	</attachments>
 	<!--CITY ATTACHMENTS-->
-	<attachments chance="0.25" name="hatsCity">
+	<attachments chance="0.15" name="hatsCity">
 		<item name="PetushokHat_Black" chance="0.05" />
 		<item name="PetushokHat_Green" chance="0.05" />
 		<item name="PetushokHat_Yellow" chance="0.05" />
