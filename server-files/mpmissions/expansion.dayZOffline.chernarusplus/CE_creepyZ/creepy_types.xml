@@ -1,3 +1,4 @@
+<types>
     <type name="ZmbF_RCZ_BlueCollarFat_Blue">
         <nominal>0</nominal>
         <lifetime>600</lifetime>
@@ -1538,3 +1539,4 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+</types>
