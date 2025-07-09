@@ -12,6 +12,31 @@
         <category name="tools"/>
         <usage name="Farm"/>
     </type>
+        <type name="Saddle_Western">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>7200</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Saddle_English">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>7200</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Farm"/>
+    </type>
+
 	<type name="Bridle">
         <nominal>25</nominal>
         <lifetime>14400</lifetime>
@@ -24,7 +49,7 @@
         <category name="tools"/>
         <usage name="Farm"/>
     </type>
-    <type name="SaddleBags">
+    <type name="HorseBags">
         <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>

@@ -28103,7 +28103,7 @@
                     "SlotName": "Shoulder",
                     "Items": [
                         {
-                            "ClassName": "BO_G3A3",
+                            "ClassName": "IDE_G3A3",
                             "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
@@ -28121,7 +28121,7 @@
                                     "SlotName": "",
                                     "Items": [
                                         {
-                                            "ClassName": "BO_Mag_G3A3_20rnd",
+                                            "ClassName": "TTC_G3_Magazine_20rnd",
                                             "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
@@ -28151,26 +28151,7 @@
             ],
             "InventoryCargo": [
                 {
-                    "ClassName": "BO_Mag_G3A3_20rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.499999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "BO_Mag_G3A3_20rnd",
+                    "ClassName": "TTC_G3_Magazine_20rnd",
                     "Chance": 0.4,
                     "Quantity": {
                         "Min": 0.0,
@@ -28189,7 +28170,7 @@
                     "Sets": []
                 },
                 {
-                    "ClassName": "BO_Mag_G3A3_20rnd",
+                    "ClassName": "TTC_G3_Magazine_20rnd",
                     "Chance": 0.1,
                     "Quantity": {
                         "Min": 0.0,

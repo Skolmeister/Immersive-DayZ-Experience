@@ -7431,16 +7431,18 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="kraz_255B_wheel">
-		<nominal>0</nominal>
+		<nominal>8</nominal>
 		<lifetime>3600</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="vehiclesparts"/>
-		<usage name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="industrial"/>
+		
 	</type>
 	<type name="kraz_255B_doors_driver">
 		<nominal>0</nominal>
@@ -12699,16 +12701,18 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="kamaz_4310RUS_wheel">
-		<nominal>0</nominal>
+		<nominal>8</nominal>
 		<lifetime>3600</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="vehiclesparts"/>
-		<usage name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+
 	</type>
 	<type name="kamaz_4310RUS_tent">
 		<nominal>0</nominal>
@@ -15543,16 +15547,17 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="AZLK_2141RF_wheel">
-		<nominal>0</nominal>
+		<nominal>8</nominal>
 		<lifetime>3600</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="vehiclesparts"/>
-		<usage name="Industrial"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
 	</type>
 	<type name="AZLK_2141RF_doors_driver">
 		<nominal>0</nominal>

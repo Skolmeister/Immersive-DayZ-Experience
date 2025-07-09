@@ -6,6 +6,7 @@
 		</attachments>
 			<attachments chance="0.15">
 		<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
 	</type>
 		<type name="IDE_MakarovIJ70_Red">
 		<attachments chance="0.70">
@@ -26,6 +27,7 @@
 		</attachments>
 			<attachments chance="0.15">
 		<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="IDE_Mp133Shotgun_Poly">
 		<damage min="0.0" max="0.32" />
@@ -41,6 +43,7 @@
 			<item name="Mag_Saiga_5Rnd" chance="0.60" />
 			<item name="Mag_Saiga_8Rnd" chance="0.40" />
 		</attachments>
+	</type>
 	<type name="IDE_Mosin9130_Dark">
 		<damage min="0.2" max="0.7" />
 		<attachments chance="0.10">
@@ -105,7 +108,6 @@
 			<item name="IDE_Mag_G36_30rnd" chance="0.50" />
 		</attachments>
 		<attachments preset="m4" />
-		</attachments>
 	</type>
 	<type name="IDE_G36A1">
 		<attachments chance="0.50">
@@ -115,6 +117,7 @@
 		<attachments chance="1.0">
 			<item name="IDE_G36Optic" chance="1.00" />
 		</attachments>
+	</type>
 	<type name="IDE_MG3">
 		<attachments chance="0.80">
 			<item name="IDE_Mag_MG3_100rnd" chance="1.00" />
@@ -138,9 +141,9 @@
 		</attachments>
 			<attachments chance="0.20">
 		<item name="TTC_DMR_Suppressor" chance="1.00" />
+		</attachments>
 	</type>
 		<type name="IDE_G3A3">
-		</attachments>
 		<attachments chance="0.40">
 			<item name="TTC_G3_Magazine_20rnd" chance="0.80" />
 			<item name="IDE_Mag_G3A3_40rnd" chance="0.2" />
@@ -168,5 +171,4 @@
 			<item name="TTC_HK417_Magazine_20rnd" chance="1.00" />
 		</attachments>
 	</type>
-
 </spawnabletypes>

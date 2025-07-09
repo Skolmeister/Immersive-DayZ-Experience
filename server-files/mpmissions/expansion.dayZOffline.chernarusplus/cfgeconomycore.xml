@@ -122,11 +122,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="fox_smg_types.xml" type="types" />
 		<file name="fox_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
-		<!-- ARMA II Helicopters -->
-	<ce folder="CE_helicopters">
-		<file name="ext_covers_types.xml" type="types" />
-		<file name="ext_types.xml" type="types" />
-	</ce>
 		<!-- Immersive DayZ Experience -->
 	<ce folder="CE_IDE">
 		<file name="IDE_events.xml" type="events" />

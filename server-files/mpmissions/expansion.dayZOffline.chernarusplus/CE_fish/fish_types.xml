@@ -15,7 +15,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Hat_Base">
         <nominal>4</nominal>
@@ -28,7 +27,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="village"/>
     </type>
 
@@ -46,7 +44,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Bag_Green">
         <nominal>0</nominal>
@@ -59,7 +56,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Spraycan_Black">
         <nominal>0</nominal>
@@ -72,7 +68,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Spraycan_Green">
         <nominal>0</nominal>
@@ -85,7 +80,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
 
 <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -102,7 +96,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="village"/>
     </type>
     <type name="FC_FishingRod_Wooden_Green">
@@ -116,7 +109,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="village"/>
     </type>
     <type name="FC_FishingRod_Wooden_Yellow">
@@ -130,7 +122,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="village"/>
     </type>
     <type name="FC_FishingRod_Wooden_Red">
@@ -144,7 +135,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="village"/>
     </type>
     <type name="FC_FishingRod_Plastic_Blue">
@@ -158,7 +148,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_FishingRod_Plastic_Green">
         <nominal>3</nominal>
@@ -171,7 +160,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_FishingRod_Plastic_Yellow">
         <nominal>3</nominal>
@@ -184,7 +172,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_FishingRod_Plastic_Red">
         <nominal>3</nominal>
@@ -197,7 +184,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
 
 <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -214,7 +200,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_Case_All">
         <nominal>0</nominal>
@@ -227,7 +212,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="village"/>
     </type>
     <type name="FC_Fish_Lure_Can">
@@ -241,7 +225,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Cooler_50">
         <nominal>1</nominal>
@@ -254,7 +237,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="village"/>
     </type>
     <type name="FC_Fish_Cooler_100">
@@ -268,7 +250,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
         <usage name="industrial"/>
     </type>
     <type name="FC_Fish_Cooler_300">
@@ -282,7 +263,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
 
 <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -299,7 +279,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_1_2">
         <nominal>2</nominal>
@@ -312,7 +291,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_1_3">
         <nominal>2</nominal>
@@ -325,7 +303,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_1_4">
         <nominal>2</nominal>
@@ -338,7 +315,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_1_5">
         <nominal>2</nominal>
@@ -351,7 +327,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_1_6">
         <nominal>2</nominal>
@@ -364,7 +339,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_2_1">
         <nominal>2</nominal>
@@ -377,7 +351,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_2_2">
         <nominal>2</nominal>
@@ -390,7 +363,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_2_3">
         <nominal>2</nominal>
@@ -403,7 +375,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_3_1">
         <nominal>2</nominal>
@@ -416,7 +387,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_4_1">
         <nominal>2</nominal>
@@ -429,7 +399,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_5_1">
         <nominal>2</nominal>
@@ -442,7 +411,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Lure_6_1">
         <nominal>2</nominal>
@@ -455,7 +423,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
 
 <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -472,7 +439,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Hook_Green">
         <nominal>5</nominal>
@@ -485,7 +451,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Hook_Yellow">
         <nominal>5</nominal>
@@ -498,7 +463,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Hook_Red">
         <nominal>5</nominal>
@@ -511,7 +475,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Bait_Blue">
         <nominal>0</nominal>
@@ -524,7 +487,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Bait_Green">
         <nominal>0</nominal>
@@ -537,7 +499,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Bait_Yellow">
         <nominal>0</nominal>
@@ -550,7 +511,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Bait_Red">
         <nominal>0</nominal>
@@ -563,7 +523,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
 
 <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -580,7 +539,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Tent_Bag_Blue">
         <nominal>1</nominal>
@@ -593,7 +551,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Tent_Green">
         <lifetime>388000</lifetime>
@@ -618,7 +575,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Tent_Bag_Big_Yellow">
         <nominal>1</nominal>
@@ -631,7 +587,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Tent_Bag_Big_Green">
         <nominal>1</nominal>
@@ -644,7 +599,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Tent_Bag_Big_Blue">
         <nominal>1</nominal>
@@ -657,7 +611,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Tent_Bag_Big_Black">
         <nominal>1</nominal>
@@ -670,7 +623,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Fish_Tent_Bag_Big_Grey">
         <nominal>1</nominal>
@@ -683,7 +635,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools"/>
         <usage name="coast"/>
-        <usage name="hunting"/>
     </type>
 
 <!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1199,7 +1150,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
         <usage name="coast"/>
         <usage name="industrial"/>
     </type>
@@ -1213,7 +1163,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Angel_Opened">
         <lifetime>28800</lifetime>
@@ -1229,7 +1178,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Anchous_Opened">
         <lifetime>28800</lifetime>
@@ -1245,7 +1193,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Angelfish_Opened">
         <lifetime>28800</lifetime>
@@ -1261,7 +1208,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Barracuda_Opened">
         <lifetime>28800</lifetime>
@@ -1277,7 +1223,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Blow_Opened">
         <lifetime>28800</lifetime>
@@ -1293,7 +1238,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Bluegill_Opened">
         <lifetime>28800</lifetime>
@@ -1309,7 +1253,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Bocachico_Opened">
         <lifetime>28800</lifetime>
@@ -1325,7 +1268,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Rouch_Opened">
         <lifetime>28800</lifetime>
@@ -1341,7 +1283,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Butterfly_Opened">
         <lifetime>28800</lifetime>
@@ -1357,7 +1298,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Carp_Opened">
         <lifetime>28800</lifetime>
@@ -1373,7 +1313,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Catfish_Opened">
         <lifetime>28800</lifetime>
@@ -1389,7 +1328,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Clown_Opened">
         <lifetime>28800</lifetime>
@@ -1405,7 +1343,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Demon_Opened">
         <lifetime>28800</lifetime>
@@ -1421,7 +1358,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Forel_Opened">
         <lifetime>28800</lifetime>
@@ -1437,7 +1373,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Mojarra_Opened">
         <lifetime>28800</lifetime>
@@ -1453,7 +1388,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Perch_Opened">
         <lifetime>28800</lifetime>
@@ -1469,7 +1403,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_PerchBass_Opened">
         <lifetime>28800</lifetime>
@@ -1485,7 +1418,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_PerchRed_Opened">
         <lifetime>28800</lifetime>
@@ -1501,7 +1433,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Pearlscale_Opened">
         <lifetime>28800</lifetime>
@@ -1517,7 +1448,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Pirahna_Opened">
         <lifetime>28800</lifetime>
@@ -1533,7 +1463,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Plecostomus_Opened">
         <lifetime>28800</lifetime>
@@ -1549,7 +1478,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Scalar_Opened">
         <lifetime>28800</lifetime>
@@ -1565,7 +1493,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Snapper_Opened">
         <lifetime>28800</lifetime>
@@ -1581,7 +1508,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Sunfish_Opened">
         <lifetime>28800</lifetime>
@@ -1597,7 +1523,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Corrupted_Opened">
         <lifetime>28800</lifetime>
@@ -1613,7 +1538,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Sword_Opened">
         <lifetime>28800</lifetime>
@@ -1629,7 +1553,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Stigray_Opened">
         <lifetime>28800</lifetime>
@@ -1645,7 +1568,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Shark_Opened">
         <lifetime>28800</lifetime>
@@ -1661,7 +1583,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Sturgeon_Opened">
         <lifetime>28800</lifetime>
@@ -1677,7 +1598,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Mackerel_Opened">
         <lifetime>28800</lifetime>
@@ -1693,7 +1613,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Pike_Opened">
         <lifetime>28800</lifetime>
@@ -1709,7 +1628,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers"/>
-        <usage name="hunting"/>
     </type>
     <type name="FC_Conserv_Pikeperch_Opened">
         <lifetime>28800</lifetime>

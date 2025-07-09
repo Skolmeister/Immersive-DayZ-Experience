@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="VehicleKAMAZ">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_orange"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung_orange"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung_oon"/>
+        </children>
+    </event>
+    <event name="VehicleKraz">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_yellow"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_kung"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_kung_yellow"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_kung_blue"/>
+        </children>
+    </event>
+        <event name="VehicleAZLK214RF">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_beige"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_Lettuce"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_milicia"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_milicia_PG"/>
+        </children>
+    </event>
+</events>
