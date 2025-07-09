@@ -26,7 +26,7 @@
 		<item name="MFP_Pilsner" chance="0.1" />
 	</cargo>
 
-	<cargo chance="0.45" name="foodVillage">
+	<cargo chance="0.40" name="foodVillage">
 		<!-- Dorfobst -->
 		<item name="Apple" chance="0.15" />
 		<item name="Plum" chance="0.15" />
@@ -34,13 +34,13 @@
 		<item name="Banana" chance="0.12" />
 
 		<!-- Konserven & Hausmacher -->
-		<item name="TunaCan" chance="0.12" />
-		<item name="SardinesCan" chance="0.12" />
+		<item name="TunaCan" chance="0.1" />
+		<item name="SardinesCan" chance="0.1" />
 		<item name="PeachesCan" chance="0.1" />
 		<item name="SpaghettiCan" chance="0.1" />
 		<item name="PorkCan" chance="0.1" />
 		<item name="MFP_TomatoSoup" chance="0.1" />
-		<item name="PowderedMilk" chance="0.15" />
+		<item name="PowderedMilk" chance="0.1" />
 		<item name="MFP_Catfood" chance="0.07" />
 
 		<!-- Brotzeit & Stulle -->
@@ -373,19 +373,19 @@
 		<!-- Immersion -->
 		<item name="ExpansionBanknoteHryvnia" chance="0.12" />
 	</cargo>
-	<cargo chance="0.6" name="toolsIndustrial">
+	<cargo chance="0.5" name="toolsIndustrial">
 		<!-- Schweres Werkzeug -->
 		<item name="Pipe" chance="0.1" />
 		<item name="Hatchet" chance="0.1" />
 		<item name="Crowbar" chance="0.1" />
 		<item name="Hammer" chance="0.1" />
-		<item name="Wrench" chance="0.12" />
-		<item name="Pliers" chance="0.12" />
+		<item name="Wrench" chance="0.1" />
+		<item name="Pliers" chance="0.1" />
 
 		<!-- Verbrauchsmaterial & Crafting -->
-		<item name="Rope" chance="0.1" />
+		<item name="Rope" chance="0.08" />
 		<item name="MetalWire" chance="0.08" />
-		<item name="DuctTape" chance="0.12" />
+		<item name="DuctTape" chance="0.08" />
 		<item name="EpoxyPutty" chance="0.08" />
 
 		<!-- Energie & Technik -->

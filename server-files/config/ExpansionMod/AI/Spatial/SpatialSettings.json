@@ -15,8 +15,8 @@
     "GroupDifficulty": 0,
     "MinimumPlayerDistance": 0,
     "MaxSoloPlayers": 3,
-    "MinimumAge": 180,
-    "ActiveHoursEnabled": 0,
+    "MinimumAge": 360,
+    "ActiveHoursEnabled": 3,
     "ActiveStartTime": 0.0,
     "ActiveStopTime": 24.0,
     "TargetBone": "Neck",
@@ -24,7 +24,7 @@
     "MessageTitle": "GPS Alert",
     "MessageText": "Caution! Detected movement towards your current position.",
     "LootWhitelist": [],
-    "Spatial_InVehicle": true,
+    "Spatial_InVehicle": false,
     "Spatial_IsBleeding": true,
     "Spatial_IsRestrained": false,
     "Spatial_IsUnconscious": false,
@@ -87,7 +87,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Team Rocket",
@@ -100,7 +100,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "BangBros",
@@ -113,7 +113,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "C.L.I.T",
@@ -126,7 +126,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "MILF Hunterz",
@@ -139,7 +139,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "JiggyBuggles",
@@ -152,7 +152,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "The 404th",
@@ -165,7 +165,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Mighty Bungholes",
@@ -178,7 +178,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Die Geringverdiener",
@@ -191,7 +191,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Fachkräfte",
@@ -204,7 +204,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Blyatmans",
@@ -217,7 +217,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Hartz IV Kommando",
@@ -230,7 +230,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "FriDayZ for Future",
@@ -243,7 +243,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Killma Klebaz",
@@ -256,7 +256,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Last Generation Z",
@@ -269,7 +269,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "PETA-Patrouille",
@@ -282,7 +282,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "AntifArmA",
@@ -295,7 +295,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Rotfront-Räuber",
@@ -308,7 +308,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Die Talahons",
@@ -321,7 +321,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Lenins Genossen",
@@ -334,7 +334,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Gypsy Rappers",
@@ -347,7 +347,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Morrafockaz",
@@ -360,7 +360,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Burger Kings",
@@ -373,7 +373,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Honkey Tonkeys",
@@ -386,7 +386,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Zombie Snaggers",
@@ -399,7 +399,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Crippled Bois",
@@ -412,7 +412,7 @@
         {
             "Spatial_MinCount": 2,
             "Spatial_MaxCount": 4,
-            "Spatial_Weight": 300.0,
+            "Spatial_Weight": 250.0,
             "Spatial_Loadout": "BanditLoadout.json",
             "Spatial_Faction": "Bandits",
             "Spatial_Name": "Cherno Billies",
@@ -676,6 +676,32 @@
             "Spatial_Loadout": "BountyHunterLoadout.json",
             "Spatial_Faction": "BountyHunters",
             "Spatial_Name": "Inkasso Moskau",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.5,
+            "Spatial_MinAccuracy": 0.65,
+            "Spatial_MaxAccuracy": 0.7900000262260437,
+            "Spatial_UnlimitedReload": 1
+        },
+        {
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 1,
+            "Spatial_Weight": 80.0,
+            "Spatial_Loadout": "BountyHunterLoadout.json",
+            "Spatial_Faction": "BountyHunters",
+            "Spatial_Name": "Der Gottkaiser",
+            "Spatial_Lootable": 1,
+            "Spatial_Chance": 0.5,
+            "Spatial_MinAccuracy": 0.65,
+            "Spatial_MaxAccuracy": 0.7900000262260437,
+            "Spatial_UnlimitedReload": 1
+        },
+        {
+            "Spatial_MinCount": 1,
+            "Spatial_MaxCount": 1,
+            "Spatial_Weight": 80.0,
+            "Spatial_Loadout": "BountyHunterLoadout.json",
+            "Spatial_Faction": "BountyHunters",
+            "Spatial_Name": "Der F0tzn Fritz",
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.5,
             "Spatial_MinAccuracy": 0.65,
