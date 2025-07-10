@@ -366,10 +366,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_FRF2">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>180</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -414,10 +414,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOX_Mag_FRF2">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>360</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
