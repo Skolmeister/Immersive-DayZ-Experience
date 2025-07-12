@@ -1354,10 +1354,10 @@
             <child lootmax="0" lootmin="0" max="0" min="0" type="SmallStone"/>
         </children>
     </event>
-        <event name="VehicleBoat">
-        <nominal>6</nominal>
-        <min>3</min>
-        <max>10</max>
+    <event name="VehicleBoat">
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>14</max>
         <lifetime>6000</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>

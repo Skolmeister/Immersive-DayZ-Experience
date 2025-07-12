@@ -258,10 +258,10 @@
     </type>
 <!-- ATV Wheels -->
     <type name="Techs_ATV_Wheel">
-        <nominal>12</nominal> 		<!-- <nominal>12</nominal> --> 
+        <nominal>15</nominal> 		<!-- <nominal>12</nominal> --> 
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>5</min>				<!-- <min>5</min> --> 
+        <min>8</min>				<!-- <min>5</min> --> 
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
