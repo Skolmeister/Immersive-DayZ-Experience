@@ -3097,22 +3097,22 @@
 	
 	
 	<type name="Boat_01_Black">
-		<attachments chance="0.10">
+		<attachments chance="0.25">
 			<item name="SparkPlug" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="Boat_01_Blue">
-		<attachments chance="0.10">
+		<attachments chance="0.25">
 			<item name="SparkPlug" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="Boat_01_Camo">
-		<attachments chance="0.10">
+		<attachments chance="0.25">
 			<item name="SparkPlug" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="Boat_01_Orange">
-		<attachments chance="0.10">
+		<attachments chance="0.25">
 			<item name="SparkPlug" chance="1.0" />
 		</attachments>
 	</type>

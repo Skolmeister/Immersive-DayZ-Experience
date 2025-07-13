@@ -35,7 +35,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 	</defaults>
 		<!-- EXPANSION -->
-		<ce folder="CE_expansion">
+	<ce folder="CE_expansion">
 		<file name="expansion_types.xml" type="types" />
 		<file name="expansion_cfgspawnabletypes.xml" type="spawnabletypes" />
 		<file name="expansion_events.xml" type="events" />
@@ -124,9 +124,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 		<!-- Immersive DayZ Experience -->
 	<ce folder="CE_IDE">
-		<file name="IDE_events.xml" type="events" />
 		<file name="IDE_types.xml" type="types" />
 		<file name="IDE_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="IDE_events.xml" type="events" />
 	</ce>
 		<!-- Infected AI -->
 	<ce folder="CE_inedia">

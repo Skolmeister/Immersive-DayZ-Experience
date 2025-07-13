@@ -110,7 +110,7 @@
     </event>
     <event name="VehicleTractor">
         <nominal>8</nominal>
-        <min>1</min>
+        <min>6</min>
         <max>12</max>
         <lifetime>300</lifetime>
         <restock>0</restock>

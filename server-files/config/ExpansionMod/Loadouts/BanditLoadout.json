@@ -2427,19 +2427,6 @@
                 },
                 {
                     "ClassName": "BO_Mag_Thompson_30Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "BO_Mag_Thompson_30Rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,
@@ -2686,19 +2673,6 @@
                 },
                 {
                     "ClassName": "Mag_AK74_30Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Mag_AK74_30Rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,
@@ -2807,19 +2781,6 @@
                 }
             ],
             "InventoryCargo": [
-                {
-                    "ClassName": "Mag_AK74_30Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
                 {
                     "ClassName": "Mag_AK74_30Rnd",
                     "Chance": 1.0,
@@ -3081,19 +3042,6 @@
                 },
                 {
                     "ClassName": "Mag_AKM_30Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Mag_AKM_30Rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,
@@ -3268,19 +3216,6 @@
                     "Sets": []
                 },
                 {
-                    "ClassName": "Mag_MP5_15Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
                     "ClassName": "Mag_MP5_30Rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
@@ -3345,19 +3280,6 @@
                 }
             ],
             "InventoryCargo": [
-                {
-                    "ClassName": "Ammo_762x54",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
                 {
                     "ClassName": "Ammo_762x54",
                     "Chance": 1.0,
@@ -3451,19 +3373,6 @@
                 },
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Ammo_762x39",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,
@@ -3540,19 +3449,6 @@
                 }
             ],
             "InventoryCargo": [
-                {
-                    "ClassName": "Mag_Ruger1022_15Rnd",
-                    "Chance": 0.5,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
                 {
                     "ClassName": "Mag_Ruger1022_15Rnd",
                     "Chance": 0.5,
@@ -3795,19 +3691,6 @@
             ],
             "InventoryCargo": [
                 {
-                    "ClassName": "Ammo_12gaSlug",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
                     "ClassName": "Ammo_12gaPellets",
                     "Chance": 1.0,
                     "Quantity": {
@@ -3836,6 +3719,19 @@
                 {
                     "ClassName": "Ammo_12gaPellets",
                     "Chance": 0.5,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                                {
+                    "ClassName": "Ammo_12gaSlug",
+                    "Chance": 0.25,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -4049,19 +3945,6 @@
                 },
                 {
                     "ClassName": "FOX_Mag_UZI_32Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "FOX_Mag_UZI_32Rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,
@@ -4140,19 +4023,6 @@
                 },
                 {
                     "ClassName": "Mag_CZ61_20Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Mag_CZ61_20Rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,
@@ -4168,6 +4038,85 @@
             "ConstructionPartsBuilt": [],
             "Sets": []
         },
+                {
+            "ClassName": "WEAPON",
+            "Chance": 1.0,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Shoulder",
+                    "Items": [
+                        {
+                            "ClassName": "IDE_CZ82",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "IDE_Mag_CZ82_20Rnd",
+                                            "Chance": 1.0,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "IDE_Mag_CZ82_20Rnd",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "IDE_Mag_CZ82_20Rnd",
+                    "Chance": 0.15000000596046449,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+
         {
             "ClassName": "WEAPON",
             "Chance": 1.0,
@@ -4338,6 +4287,84 @@
                     "Items": [
                         {
                             "ClassName": "MakarovIJ70",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Mag_IJ70_8Rnd",
+                                            "Chance": 1.0,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "Mag_IJ70_8Rnd",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_IJ70_8Rnd",
+                    "Chance": 0.15000000596046449,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+                {
+            "ClassName": "WEAPON",
+            "Chance": 1.0,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Hands",
+                    "Items": [
+                        {
+                            "ClassName": "IDE_MakarovIJ70_Red",
                             "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
