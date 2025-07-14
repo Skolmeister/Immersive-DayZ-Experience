@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <types>
-    <!-- DINGO -->
+
     <type name="Dingo">
         <nominal>0</nominal>
         <lifetime>3888000</lifetime>
@@ -9,8 +9,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="Dingo_CZ">
         <nominal>0</nominal>
@@ -20,8 +19,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="Dingo_CZ_Desert">
         <nominal>0</nominal>
@@ -31,69 +29,64 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="DingoDoors_Driver">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <category name="vehiclesparts"/>
-        <usage name="industrial"/>
-        <usage name="military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="DingoDoors_Driver_CZ">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <category name="vehiclesparts"/>
-        <usage name="industrial"/>
-        <usage name="military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="DingoDoors_Driver_CZ_Desert">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <category name="vehiclesparts"/>
-        <usage name="industrial"/>
-        <usage name="military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="DingoWheel">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoWheel_CZ_Desert">
         <nominal>10</nominal>
@@ -103,211 +96,1104 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoHood">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoHood_CZ">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoHood_CZ_Desert">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_CoDriver">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_CoDriver_CZ">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_CoDriver_CZ_Desert">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_Cargo1">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_Cargo1_CZ">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_Cargo1_CZ_Desert">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_Cargo2">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_Cargo2_CZ">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoDoors_Cargo2_CZ_Desert">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoTrunk">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoTrunk_CZ">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
     </type>
     <type name="DingoTrunk_CZ_Desert">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="lootdispatch" />
-        <tag name="floor"/>
-        <usage name="Industrial"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="Dingo_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="DingoHood_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoHood_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo2_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoWheel_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_CoDriver_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoTrunk_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Cargo1_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <tag name="floor" />
+        <usage name="Industrial" />
+    </type>
+    <type name="DingoDoors_Driver_DON_CHKDZ">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_DARKGREEN">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_WTR">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_CDF">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_CP">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_UN">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_CZ_Woodland">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_CZ_DESERT">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="DingoDoors_Driver_DON_GER_DESERT">
+        <nominal>0</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="vehiclesparts" />
+        <usage name="industrial" />
+        <usage name="military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="DingoWheel_Ruined">
         <lifetime>1800</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="DingoWheel_CZ_Desert_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_CHKDZ_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_DARKGREEN_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_WTR_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_CDF_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_CP_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_UN_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_CZ_Woodland_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_CZ_DESERT_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_DON_GER_DESERT_Ruined">
         <lifetime>1800</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>

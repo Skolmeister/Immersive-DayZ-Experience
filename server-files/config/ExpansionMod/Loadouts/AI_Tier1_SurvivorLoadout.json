@@ -2006,60 +2006,8 @@
     ],
     "InventoryCargo": [
         {
-            "ClassName": "Apple",
-            "Chance": 0.5,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "Plum",
-            "Chance": 0.5,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "Pear",
-            "Chance": 0.5,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
             "ClassName": "BandageDressing",
             "Chance": 1.0,
-            "Quantity": {
-                "Min": 0.0,
-                "Max": 0.0
-            },
-            "Health": [],
-            "InventoryAttachments": [],
-            "InventoryCargo": [],
-            "ConstructionPartsBuilt": [],
-            "Sets": []
-        },
-        {
-            "ClassName": "BandageDressing",
-            "Chance": 0.2,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2072,5 +2020,438 @@
         }
     ],
     "ConstructionPartsBuilt": [],
-    "Sets": []
+    "Sets": [
+            {
+                "ClassName": "FOOD",
+                "Chance": 1.0,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Apple",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 1.0,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Plum",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 1.0,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Pear",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 1.0,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Tomato",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 1.0,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "AgaricusMushroom",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Pajka",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Pate",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "BrisketSpread",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Zagorky",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "ZagorkyChocolate",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "FOOD",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "ZagorkyPeanuts",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "LIGHT",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Chemlight_Blue",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "LIGHT",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Chemlight_Green",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "LIGHT",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Chemlight_Yellow",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "LIGHT",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Chemlight_Red",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            },
+            {
+                "ClassName": "LIGHT",
+                "Chance": 0.5,
+                "Quantity": {
+                    "Min": 0.0,
+                    "Max": 0.0
+                },
+                "Health": [],
+                "InventoryAttachments": [],
+                "InventoryCargo": [
+                    {
+                        "ClassName": "Chemlight_White",
+                        "Chance": 1.0,
+                        "Quantity": {
+                            "Min": 0.0,
+                            "Max": 0.0
+                        },
+                        "Health": [],
+                        "InventoryAttachments": [],
+                        "InventoryCargo": [],
+                        "ConstructionPartsBuilt": [],
+                        "Sets": []
+                    }
+                ],
+                "ConstructionPartsBuilt": [],
+                "Sets": []
+            }
+    ]
 }

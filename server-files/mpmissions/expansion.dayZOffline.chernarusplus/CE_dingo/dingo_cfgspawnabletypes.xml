@@ -60,6 +60,169 @@
 	<type name="DingoTrunk_CZ_Desert">
 		<damage min="0.0" max="0.75" />
 	</type>
+	<type name="DingoWheel_DON_CHKDZ">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_DARKGREEN">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_WTR">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_CDF">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_CP">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_UN">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_CZ_Woodland">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_CZ_DESERT">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoWheel_DON_GER_DESERT">
+		<damage min="0.0" max="1.00" />
+	</type>
+	<type name="DingoHood_DON_CHKDZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_DARKGREEN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_WTR">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_CDF">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_CP">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_UN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_CZ_Woodland">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_CZ_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoHood_DON_GER_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_CHKDZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_DARKGREEN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_WTR">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_CDF">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_CP">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_UN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_CZ_Woodland">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_CZ_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Driver_DON_GER_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_CHKDZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_DARKGREEN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_WTR">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_CDF">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_CP">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_UN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_CZ_Woodland">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_CZ_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_CoDriver_DON_GER_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_CHKDZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_DARKGREEN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_WTR">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_CDF">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_CP">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_UN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_CZ_Woodland">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_CZ_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo1_DON_GER_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_CHKDZ">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_DARKGREEN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_WTR">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_CDF">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_CP">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_UN">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_CZ_Woodland">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_CZ_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+	<type name="DingoDoors_Cargo2_DON_GER_DESERT">
+		<damage min="0.0" max="0.75" />
+	</type>
+
 
 	<type name="Dingo">
 		<attachments chance="1.00">
@@ -96,20 +259,27 @@
 			<item name="DingoHood" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoDoors_Driver" chance="0.50" />
+			<item name="DingoDoors_Driver" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoDoors_CoDriver" chance="0.50" />
+			<item name="DingoDoors_CoDriver" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoDoors_Cargo1" chance="0.50" />
+			<item name="DingoDoors_Cargo1" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoDoors_Cargo2" chance="0.50" />
+			<item name="DingoDoors_Cargo2" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="DingoTrunk" chance="0.40" />
+			<item name="DingoTrunk" chance="0.80" />
 		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+
 	</type>
 	<type name="Dingo_CZ">
 		<attachments chance="1.00">
@@ -215,6 +385,511 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="DingoTrunk_CZ_Desert" chance="0.40" />
+		</attachments>
+	</type>
+
+	<type name="Dingo_DON_CHKDZ">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_CHKDZ" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_DARKGREEN">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_DARKGREEN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_WTR">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_WTR" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_CDF">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_CDF" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_CP">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_CP" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_UN">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_UN" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_CZ_Woodland">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_CZ_Woodland" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_CZ_DESERT">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_CZ_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="Dingo_DON_GER_DESERT">
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoTrunk_DON_GER_DESERT" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="0.30" />
 		</attachments>
 	</type>
 </spawnabletypes>

@@ -17,6 +17,14 @@
             <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo"/>
 			<child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_CZ"/>
             <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_CZ_Desert"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_CHKDZ"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_DARKGREEN"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_WTR"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_CDF"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_CP"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_UN"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_CZ_Woodland"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Dingo_DON_CZ_DESERT"/>
         </children>
     </event>
 </events>
