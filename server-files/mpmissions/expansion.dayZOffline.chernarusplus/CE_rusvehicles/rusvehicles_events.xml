@@ -1,6 +1,257 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
-    <event name="VehicleKAMAZ">
+    <event name="VehicleRUSTruck">
+        <nominal>6</nominal>
+        <min>5</min>
+        <max>12</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kamaz_4310RUS"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kamaz_4310RUS_blue"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kamaz_4310RUS_orange"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kamaz_4310RUS_kung"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kamaz_4310RUS_kung_blue"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kamaz_4310RUS_kung_orange"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kamaz_4310RUS_kung_oon"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kraz_255B"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kraz_255B_yellow"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kraz_255B_blue"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kraz_255B_kung"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kraz_255B_kung_yellow"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="kraz_255B_kung_blue"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="UAZ_33094"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="UAZ_33094_green"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="UAZ_33094_gray"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="GAZ_33081"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="GAZ_33081_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="gaz_51"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="gaz_51_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Gaz_53RF"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Gaz_53RF_petrol_truck"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="GAZ_66"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="GAZ_66_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="GAZ_66_kuzov"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="GAZ_66_kuzov_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="URAL_375_1964"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="URAL_375_1964_CDF"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_157_rus"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_157_rus_gray"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_157_rus_yellow"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_157_kung_rus"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_157_kung_rus_yellow"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_131"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_131_tent"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_130"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_130_green"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_130_cdf"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_130_kung"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="ZIL_130_kung_green"/>
+        </children>
+    </event>
+    <event name="VehicleRUSCar">
+        <nominal>15</nominal>
+        <min>8</min>
+        <max>22</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="AZLK_2141RF"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="AZLK_2141RF_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="AZLK_2141RF_beige"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="AZLK_2141RF_Lettuce"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ21_Volga"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ21_Volga_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ21_Volga_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_3110_volga"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_3110_volga_taxi"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_3110_volga_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_3110_volga_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_M20"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_M20_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_M20_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_M20_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_M20_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="GAZ_M20_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2125_Kombi"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2125_Kombi_beg"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2125_Kombi_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2125_Kombi_orange"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2125_Kombi_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ij_2715_RF"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ij_2715_RF_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ij_2715_RF_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ij_2715_RF_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_27722_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_27722_yellow"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_27722_brown"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_27722_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3962_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2104RF"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2104RF_beige"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2104RF_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2104RF_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2105_RUS"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2105_RUS_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2105_RUS_cherry"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2105_RUS_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2105_RUS_yellow"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2105_RUS_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2105_RUS_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="vaz_2106_RF"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="vaz_2106_RF_light_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="vaz_2106_RF_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="vaz_2106_RF_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="vaz_2106_RF_wine"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="vaz_2106_RF_yellow"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2107RF"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2107RF_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2107RF_blue_rust"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2107RF_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2107RF_black_rust"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2107RF_white_rust"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_21099R"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_21099R_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_21099R_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_21099R_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF_rust"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF_green_rust"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF_white_rust"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="VAZ_2109_RF_blue_rust"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Volkswagen_Golf_RUS"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Volkswagen_Golf_RUS_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Volkswagen_Golf_RUS_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Volkswagen_Golf_RUS_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Volkswagen_Golf_RUS_rally"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ZAZ_968M"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ZAZ_968M_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ZAZ_968M_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ZAZ_968"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ZAZ_968_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ZAZ_968_yellow"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2140_SL"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2140_SL_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2140_SL_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2140_SL_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2140_SL_red"/>
+        </children>
+    </event>
+    <event name="VehicleRUSOffroad">
+        <nominal>10</nominal>
+        <min>8</min>
+        <max>15</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover"/>
+			<child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Yellow"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Red"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Green"/>
+			<child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Grey"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Orange"/>
+            <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Dodge_Power_wagonrus"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Dodge_Power_wagonrus_yellow"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Dodge_Power_wagonrus_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Dodge_Power_wagonrus_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Dodge_Power_wagonrus_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_469_Hunter"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="F1_Pickup"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="F1_Pickup_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="F1_Pickup_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Niva2329"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="Niva2329_camo"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_black"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_Red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_desert"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3172"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3172_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3172_camo_flora"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_Patrot_Pikap"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_Patrot_Pikap_red"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_Patrot_Pikap_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_Patrot_Pikap_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_Patrot_Pikap_white"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_Patrot_Pikap_camo_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="LUAZ_969"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="LUAZ_969_green"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="LUAZ_969_blue"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="LUAZ_969_orang"/>
+        </children>
+    </event>
+    <event name="VehicleRUSPoliceCar">
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>6</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="AZLK_2141RF_milicia"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_Police"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3962_milicia"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_469_milicia"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="vaz_2106_milicia"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="ZAZ_968_milicia"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="IJ_2140_SLGAI"/>
+        </children>
+    </event>
+    <event name="VehicleRUSAmbulance">
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>6</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_27722_mchs"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3962_MCHS"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_Ambulance"/>
+            <child lootmax="0" lootmin="0" max="2" min="0" type="UAZ_3163_Fire"/>
+        </children>
+    </event>
+    <event name="VehicleRUSTank">
         <nominal>2</nominal>
         <min>1</min>
         <max>3</max>
@@ -14,56 +265,21 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_blue"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_orange"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung_blue"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung_orange"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kamaz_4310RUS_kung_oon"/>
-        </children>
-    </event>
-    <event name="VehicleKraz">
-        <nominal>2</nominal>
-        <min>1</min>
-        <max>3</max>
-        <lifetime>300</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_yellow"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_blue"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_kung"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_kung_yellow"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="kraz_255B_kung_blue"/>
-        </children>
-    </event>
-        <event name="VehicleAZLK214RF">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>3</max>
-        <lifetime>300</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_red"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_beige"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_Lettuce"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="AZLK_2141RF_milicia"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="artillery_tractor"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="artillery_tractor_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="artillery_tractor_kung"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="artillery_tractor_kung_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BRDM2_RF"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BRDM2_RF_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BTR_80"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BTR_80_rust"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BTR_80_camo2"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BTR_80_P"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BTR_80_P_rust"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="BTR_80_P_camo2"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MTLB_RF"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MTLB_RF_camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MTLB_RF_camo2"/>
         </children>
     </event>
 </events>

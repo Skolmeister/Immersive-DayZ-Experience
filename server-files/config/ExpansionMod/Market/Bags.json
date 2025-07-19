@@ -16,8 +16,6 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "MassSmersh",
-                "MassSmershblack",
                 "MilitaryGear_SmershBag_PartizanM",
                 "MilitaryGear_SmershBag_Duckhunter",
                 "MilitaryGear_SmershBag_Multicam",
@@ -36,6 +34,43 @@
                 "MilitaryGear_SmershBag_Yeger"
             ]
         },
+                {
+            "ClassName": "CourierBag",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            ]
+        },
+                {
+            "ClassName": "FurCourierBag",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            ]
+        },
+                        {
+            "ClassName": "ImprovisedBag",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            ]
+        },
+
         {
             "ClassName": "slingbag_black",
             "MaxPriceThreshold": 600,
@@ -48,20 +83,6 @@
             "Variants": [
                 "slingbag_brown",
                 "slingbag_gray"
-            ]
-        },
-        {
-            "ClassName": "MassLargeSmersh",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassLargeSmersh_Black",
-                "MassLargeSmersh_Tan"
             ]
         },
         {
@@ -106,6 +127,21 @@
                 "armypouch_green"
             ]
         },
+                {
+            "ClassName": "Waterproofbag_orange",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Waterproofbag_green",
+                "Waterproofbag_yellow"
+            ]
+        },
+
         {
             "ClassName": "drysackbag_green",
             "MaxPriceThreshold": 400,
@@ -119,54 +155,6 @@
                 "drysackbag_orange",
                 "drysackbag_yellow"
             ]
-        },
-        {
-            "ClassName": "Massbag",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-				"Massbag2",
-				"Massbag3",
-				"Massbag4"
-			]
-        },
-        {
-            "ClassName": "MassCanvasBag",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 2520,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MassNBC_Bag",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MassClothing_Bag",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "Msp_MedicBag_Red",
@@ -216,8 +204,8 @@
         },
         {
             "ClassName": "Msp_ParamedicBag_Red",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 60000,
+            "MinPriceThreshold": 54000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
