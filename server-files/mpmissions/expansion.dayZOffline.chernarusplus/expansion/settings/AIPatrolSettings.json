@@ -13131,9 +13131,9 @@
             "RespawnTime": 0.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-                8073.708984375,
+                [8073.708984375,
                 455.4828796386719,
-                9361.259765625
+                9361.259765625]
             ]
         },
         {
@@ -13170,9 +13170,9 @@
             "RespawnTime": 0.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-                8115.53759765625,
+               [ 8115.53759765625,
                 461.96051025390627,
-                9302.3193359375
+                9302.3193359375]
             ]
         },
         {
@@ -13209,9 +13209,11 @@
             "RespawnTime": -1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
+            [   
                 8084.8203125,
                 462.9631042480469,
                 9310.203125
+            ]
             ]
         },
         {
@@ -13248,9 +13250,11 @@
             "RespawnTime": -1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
+            [
                 8107.38720703125,
                 458.6678466796875,
                 9327.3857421875
+            ]
             ]
         },
         {
