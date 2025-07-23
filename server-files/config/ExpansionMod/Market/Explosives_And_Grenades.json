@@ -137,8 +137,32 @@
         },
         {
             "ClassName": "expansionsupplysignal",
-            "MaxPriceThreshold": 100000,
-            "MinPriceThreshold": 100000,
+            "MaxPriceThreshold": 1000000,
+            "MinPriceThreshold": 1000000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Zen_ArtillerySmokeGrenade",
+            "MaxPriceThreshold": 1000000,
+            "MinPriceThreshold": 1000000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Zen_ArtillerySmokeGrenadeChem"
+            ]
+        },
+        {
+            "ClassName": "Zen_ArtillerySmokeGrenadeChem",
+            "MaxPriceThreshold": 1000000,
+            "MinPriceThreshold": 1000000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "mosin_bayonet",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 3378,
+            "MinPriceThreshold": 3040,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "sks_bayonet",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "m9a1_bayonet",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 3800,
+            "MinPriceThreshold": 3420,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "ak_bayonet",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 3800,
+            "MinPriceThreshold": 3420,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
         },
         {
             "ClassName": "FOX_KAR98_Bayonet",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 3700,
+            "MinPriceThreshold": 3330,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -63,8 +63,8 @@
         },
         {
             "ClassName": "Scara_M9Bayonet",
-            "MaxPriceThreshold": 1600,
-            "MinPriceThreshold": 1440,
+            "MaxPriceThreshold": 3900,
+            "MinPriceThreshold": 3510,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

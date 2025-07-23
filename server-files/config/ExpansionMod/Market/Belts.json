@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 30.0,
     "Items": [
         {
             "ClassName": "civilianbelt",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 360,
+            "MaxPriceThreshold": 1700,
+            "MinPriceThreshold": 1530,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "militarybelt",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "hippack_black",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -45,8 +45,8 @@
         },
         {
             "ClassName": "Msp_WaistPack_Tan",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
+            "MaxPriceThreshold": 7400,
+            "MinPriceThreshold": 6660,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

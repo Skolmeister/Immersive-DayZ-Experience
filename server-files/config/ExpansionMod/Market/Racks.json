@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "Msp_GunRack_Kit",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 100000,
+            "MinPriceThreshold": 90000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "Msp_DoubleGunRack_Kit",
-            "MaxPriceThreshold": 18000,
-            "MinPriceThreshold": 16200,
+            "MaxPriceThreshold": 180000,
+            "MinPriceThreshold": 162000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "Msp_FishingRodsRack_Kit",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 60000,
+            "MinPriceThreshold": 54000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "Msp_WoodenGunRack_Kit",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 80000,
+            "MinPriceThreshold": 72000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
         },
         {
             "ClassName": "Msp_Gunwall_Kit",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
+            "MaxPriceThreshold": 150000,
+            "MinPriceThreshold": 135000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -63,8 +63,8 @@
         },
         {
             "ClassName": "ExpansionGunrack",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 100000,
+            "MinPriceThreshold": 90000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

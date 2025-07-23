@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 60.0,
+    "InitStockPercent": 30.0,
     "Items": [
         {
             "ClassName": "crossbow_autumn",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

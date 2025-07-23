@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 30.0,
     "Items": [
         {
             "ClassName": "fryingpan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "pot",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 2800,
+            "MinPriceThreshold": 2520,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -28,19 +28,28 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-                {
+        {
+            "ClassName": "CookingStand",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "portablegasstove",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 540,
+            "MaxPriceThreshold": 3600,
+            "MinPriceThreshold": 3240,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
-                "mediumgascanister"
             ],
             "Variants": []
         }
-
     ]
 }

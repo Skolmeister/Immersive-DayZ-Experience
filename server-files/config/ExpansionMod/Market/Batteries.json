@@ -4,23 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "battery9v",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 135,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "carbattery",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 583,
+            "MinPriceThreshold": 524,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -29,9 +18,9 @@
             "Variants": []
         },
         {
-            "ClassName": "truckbattery",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "ClassName": "carbattery",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 500,
             "MinStockThreshold": 1,
@@ -40,11 +29,22 @@
             "Variants": []
         },
         {
-            "ClassName": "expansionhelicopterbattery",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
+            "ClassName": "truckbattery",
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionhelicopterbattery",
+            "MaxPriceThreshold": 80000,
+            "MinPriceThreshold": 72000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

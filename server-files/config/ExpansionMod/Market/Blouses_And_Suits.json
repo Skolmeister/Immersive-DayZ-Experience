@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 50.0,
     "Items": [
         {
             "ClassName": "blouse_blue",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -22,20 +22,9 @@
             ]
         },
         {
-            "ClassName": "blouse_green",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "mansuit_beige",
-            "MaxPriceThreshold": 70,
-            "MinPriceThreshold": 63,
+            "MaxPriceThreshold": 700,
+            "MinPriceThreshold": 630,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -53,8 +42,8 @@
         },
         {
             "ClassName": "womansuit_beige",
-            "MaxPriceThreshold": 70,
-            "MinPriceThreshold": 63,
+            "MaxPriceThreshold": 700,
+            "MinPriceThreshold": 630,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

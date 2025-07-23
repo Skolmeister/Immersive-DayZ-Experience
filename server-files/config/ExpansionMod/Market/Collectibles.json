@@ -4,80 +4,149 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
-            "ClassName": "PokemonBooster001_1",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 1000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "PokemonBooster002_1",
-                "PokemonBooster003_1"
-            ]
-        },
-        {
-            "ClassName": "PokemonBooster002_3",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "PokemonBooster001_3",
-                "PokemonBooster003_3"
-            ]
-        },
-        {
-            "ClassName": "PokemonBooster003_5",
+            "ClassName": "PokemonBoosterPack_Basic1_1x",
             "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "PokemonBooster001_5",
-                "PokemonBooster002_5"
+                "PokemonBoosterPack_Basic2_1x",
+                "PokemonBoosterPack_Basic3_1x"
             ]
         },
+        {
+            "ClassName": "PokemonBoosterPack_Basic2_3x",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Basic1_3x",
+                "PokemonBoosterPack_Basic3_3x"
+            ]
+        },
+        {
+            "ClassName": "PokemonBoosterPack_Basic3_5x",
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Basic1_5x",
+                "PokemonBoosterPack_Basic2_5x"
+            ]
+        },
+        {
+            "ClassName": "PokemonBoosterPack_Fossil1_1x",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Fossil2_1x",
+                "PokemonBoosterPack_Fossil3_1x"
+            ]
+        },
+        {
+            "ClassName": "PokemonBoosterPack_Fossil2_3x",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Fossil1_3x",
+                "PokemonBoosterPack_Fossil3_3x"
+            ]
+        },
+        {
+            "ClassName": "PokemonBoosterPack_Fossil3_5x",
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Fossil1_5x",
+                "PokemonBoosterPack_Fossil2_5x"
+            ]
+        },
+                {
+            "ClassName": "PokemonBoosterPack_Jungle1_1x",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Jungle2_1x",
+                "PokemonBoosterPack_Jungle3_1x"
+            ]
+        },
+        {
+            "ClassName": "PokemonBoosterPack_Jungle2_3x",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Jungle1_3x",
+                "PokemonBoosterPack_Jungle3_3x"
+            ]
+        },
+        {
+            "ClassName": "PokemonBoosterPack_Jungle3_5x",
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "PokemonBoosterPack_Jungle1_5x",
+                "PokemonBoosterPack_Jungle2_5x"
+            ]
+        },
+
         {
             "ClassName": "PokemonCard_Box1",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
-            "QuantityPercent": -1,
+            "QuantityPercent": 0,
             "SpawnAttachments": [],
             "Variants": [
                 "PokemonCard_Box2",
                 "PokemonCard_Box3",
                 "PokemonCard_Box4",
                 "PokemonCard_Box5"
-            ]
-        },
-        {
-            "ClassName": "PokemonCard_Box1s",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "PokemonCard_Box2s",
-                "PokemonCard_Box3s",
-                "PokemonCard_Box4s",
-                "PokemonCard_Box5s"
             ]
         }
     ]

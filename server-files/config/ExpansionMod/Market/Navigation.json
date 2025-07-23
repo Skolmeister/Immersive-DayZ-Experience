@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "compass",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "orienteeringcompass",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "chernarusmap",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 135,
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "binoculars",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
         },
         {
             "ClassName": "gpsreceiver",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -65,21 +65,8 @@
         },
         {
             "ClassName": "expansiongps",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "MassBinocs",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

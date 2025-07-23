@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "FOX_RPK74",
-            "MaxPriceThreshold": 4500,
-            "MinPriceThreshold": 4050,
+            "MaxPriceThreshold": 118000,
+            "MinPriceThreshold": 106200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -25,25 +25,12 @@
                 "FOX_RPK74_SNOW"
             ]
           },
-          {
-            "ClassName": "BO_M1918",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "BO_Mag_M1918_20rnd"
-            ],
-            "Variants": []
-        },
         {
             "ClassName": "BO_RPK16",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 4950,
+            "MaxPriceThreshold": 163800,
+            "MinPriceThreshold": 147420,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 80,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -52,24 +39,24 @@
             "Variants": []
         },
         {
-            "ClassName": "BO_MG42",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 6300,
+            "ClassName": "IDE_MG3",
+            "MaxPriceThreshold": 218000,
+            "MinPriceThreshold": 196200,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 30,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
-                "BO_Mag_MG42_50rnd"
+                "IDE_Mag_MG3_100rnd"
             ],
             "Variants": []
         },
         {
             "ClassName": "BO_U100",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 4950,
+            "MaxPriceThreshold": 155400,
+            "MinPriceThreshold": 139860,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -78,24 +65,11 @@
             "Variants": []
         },
         {
-            "ClassName": "BO_FedorovAvtomat",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "BO_Mag_FedorovAvtomat_25rnd"
-            ],
-            "Variants": []
-        },
-        {
             "ClassName": "BO_PKM",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "MaxPriceThreshold": 93000,
+            "MinPriceThreshold": 83700,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -105,10 +79,10 @@
         },
         {
             "ClassName": "BO_Stoner63A",
-            "MaxPriceThreshold": 4500,
-            "MinPriceThreshold": 4050,
+            "MaxPriceThreshold": 142800,
+            "MinPriceThreshold": 128520,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [

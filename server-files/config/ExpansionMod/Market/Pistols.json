@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "derringer_black",
-            "MaxPriceThreshold": 19500,
-            "MinPriceThreshold": 17550,
+            "MaxPriceThreshold": 11000,
+            "MinPriceThreshold": 9900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -363,8 +363,8 @@
           },
           {
             "ClassName": "FOX_FN57",
-            "MaxPriceThreshold": 144000,
-            "MinPriceThreshold": 129600,
+            "MaxPriceThreshold": 111000,
+            "MinPriceThreshold": 99900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -427,19 +427,6 @@
             "Variants": [
                 "BO_RugerMkIV_Red"
             ]
-        },
-        {
-            "ClassName": "BO_KH9",
-            "MaxPriceThreshold": 800000,
-            "MinPriceThreshold": 720000,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 50,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "BO_Mag_KH9_30rnd"
-            ],
-            "Variants": []
         },
                 {
             "ClassName": "IDE_APS",

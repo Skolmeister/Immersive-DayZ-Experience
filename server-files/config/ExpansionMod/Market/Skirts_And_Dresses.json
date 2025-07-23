@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "skirt_blue",
-            "MaxPriceThreshold": 90,
-            "MinPriceThreshold": 81,
+            "MaxPriceThreshold": 350,
+            "MinPriceThreshold": 315,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "minidress_pink",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 450,
+            "MinPriceThreshold": 405,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -42,8 +42,8 @@
         },
         {
             "ClassName": "nursedress_blue",
-            "MaxPriceThreshold": 90,
-            "MinPriceThreshold": 81,
+            "MaxPriceThreshold": 350,
+            "MinPriceThreshold": 315,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

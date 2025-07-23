@@ -13100,7 +13100,7 @@
         {
             "Name": "Black Market Guard 1",
             "Persist": 0,
-            "Faction": "Guards",
+            "Faction": "InvincibleGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -13121,25 +13121,25 @@
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": 2.0,
-            "MaxDistRadius": 1000.0,
+            "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
-            "MinSpreadRadius": 10.0,
-            "MaxSpreadRadius": 100.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 1.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": 0.0,
             "RespawnTime": 0.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-                8114.979980,
-                461.960510,
-                9301.718750
+                8073.708984375,
+                455.4828796386719,
+                9361.259765625
             ]
         },
         {
             "Name": "Black Market Guard 2",
             "Persist": 0,
-            "Faction": "Guards",
+            "Faction": "InvincibleGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -13160,25 +13160,25 @@
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": 2.0,
-            "MaxDistRadius": 1000.0,
+            "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
-            "MinSpreadRadius": 10.0,
-            "MaxSpreadRadius": 100.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 1.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": 0.0,
             "RespawnTime": 0.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-                8078.618652,
-                458.917847,
-                9369.716797
+                8115.53759765625,
+                461.96051025390627,
+                9302.3193359375
             ]
         },
         {
             "Name": "Black Market Guard 3",
             "Persist": 0,
-            "Faction": "Guards",
+            "Faction": "InvincibleGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -13199,25 +13199,25 @@
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": 2.0,
-            "MaxDistRadius": 1000.0,
+            "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
-            "MinSpreadRadius": 0.0,
-            "MaxSpreadRadius": 0.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 1.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-                8073.768555,
-                455.482269,
-                9361.474609
+                8084.8203125,
+                462.9631042480469,
+                9310.203125
             ]
         },
         {
             "Name": "Black Market Guard 4",
             "Persist": 0,
-            "Faction": "Guards",
+            "Faction": "InvincibleGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -13238,64 +13238,25 @@
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": 2.0,
-            "MaxDistRadius": 1000.0,
+            "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
-            "MinSpreadRadius": 0.0,
-            "MaxSpreadRadius": 0.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 1.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-                8107.874512,
-                458.653107,
-                9328.646484
-            ]
-        },
-        {
-            "Name": "Black Market Guard 5",
-            "Persist": 0,
-            "Faction": "Guards",
-            "Formation": "",
-            "FormationLooseness": 0.0,
-            "Loadout": "BanditLoadout",
-            "Units": [],
-            "NumberOfAI": 1,
-            "Behaviour": "HALT",
-            "LootingBehaviour": "NONE",
-            "Speed": "JOG",
-            "UnderThreatSpeed": "SPRINT",
-            "CanBeLooted": 0,
-            "UnlimitedReload": 1,
-            "SniperProneDistanceThreshold": 150.0,
-            "AccuracyMin": -1.0,
-            "AccuracyMax": -1.0,
-            "ThreatDistanceLimit": 450.0,
-            "NoiseInvestigationDistanceLimit": -1.0,
-            "DamageMultiplier": -1.0,
-            "DamageReceivedMultiplier": -1.0,
-            "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 2.0,
-            "MaxDistRadius": 1000.0,
-            "DespawnRadius": -1.0,
-            "MinSpreadRadius": 0.0,
-            "MaxSpreadRadius": 0.0,
-            "Chance": 1.0,
-            "WaypointInterpolation": "",
-            "DespawnTime": -1.0,
-            "RespawnTime": -1.0,
-            "UseRandomWaypointAsStartPoint": 0,
-            "Waypoints": [
-                8085.076660,
-                462.963104,
-                9310.423828
+                8107.38720703125,
+                458.6678466796875,
+                9327.3857421875
             ]
         },
         {
             "Name": "Black Market Patrol",
             "Persist": 0,
-            "Faction": "Guards",
+            "Faction": "InvincibleGuards",
             "Formation": "",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
@@ -13316,10 +13277,10 @@
             "DamageReceivedMultiplier": -1.0,
             "CanBeTriggeredByAI": 0,
             "MinDistRadius": 2.0,
-            "MaxDistRadius": 1000.0,
+            "MaxDistRadius": 800.0,
             "DespawnRadius": -1.0,
-            "MinSpreadRadius": 0.0,
-            "MaxSpreadRadius": 0.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 1.0,
             "Chance": 1.0,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
@@ -13327,139 +13288,89 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8045.159180,
-                    457.940216,
-                    9348.761719
+                    8117.38525390625,
+                    459.8361511230469,
+                    9276.9404296875
                 ],
                 [
-                    8044.623047,
-                    455.717560,
-                    9365.464844
+                    8061.2822265625,
+                    455.3511047363281,
+                    9366.3125
                 ],
                 [
-                    8065.803223,
-                    454.804657,
-                    9371.696289
+                    8069.4345703125,
+                    455.3179016113281,
+                    9370.9443359375
                 ],
                 [
-                    8084.281738,
-                    456.252716,
-                    9355.535156
+                    8086.0166015625,
+                    456.53045654296877,
+                    9354.3857421875
                 ],
                 [
-                    8097.603027,
-                    458.448151,
-                    9342.747070
+                    8097.697265625,
+                    458.4573059082031,
+                    9342.1474609375
                 ],
                 [
-                    8079.241211,
-                    458.850037,
-                    9320.328125
+                    8079.09521484375,
+                    458.8499755859375,
+                    9320.0283203125
                 ],
                 [
-                    8085.164063,
-                    458.850006,
-                    9314.225586
+                    8083.9365234375,
+                    458.8500061035156,
+                    9315.228515625
                 ],
                 [
-                    8104.960449,
-                    458.534821,
-                    9336.013672
+                    8089.98828125,
+                    458.8500061035156,
+                    9317.6220703125
                 ],
                 [
-                    8112.181641,
-                    458.550903,
-                    9325.693359
+                    8078.1044921875,
+                    450.39715576171877,
+                    9411.9921875
                 ],
                 [
-                    8120.094727,
-                    457.929962,
-                    9306.569336
+                    8104.76611328125,
+                    458.54229736328127,
+                    9335.7978515625
                 ],
                 [
-                    8070.139160,
-                    455.410339,
-                    9368.963867
+                    8135.74755859375,
+                    451.6327819824219,
+                    9350.8486328125
                 ],
                 [
-                    8064.694824,
-                    454.631622,
-                    9374.362305
+                    8114.62109375,
+                    458.4382629394531,
+                    9321.900390625
                 ],
                 [
-                    8066.561523,
-                    453.360565,
-                    9383.426758
+                    8158.568359375,
+                    455.9251708984375,
+                    9288.72265625
                 ],
                 [
-                    8077.629395,
-                    452.609772,
-                    9388.633789
+                    8121.8505859375,
+                    458.32086181640627,
+                    9290.306640625
                 ],
                 [
-                    8103.472168,
-                    450.510803,
-                    9379.020508
+                    8127.0634765625,
+                    469.49066162109377,
+                    9210.462890625
                 ],
                 [
-                    8132.763672,
-                    451.676788,
-                    9354.044922
+                    8068.78515625,
+                    460.61669921875,
+                    9263.6767578125
                 ],
                 [
-                    8151.140625,
-                    453.266327,
-                    9329.380859
-                ],
-                [
-                    8161.383301,
-                    453.949005,
-                    9310.879883
-                ],
-                [
-                    8155.329590,
-                    460.501556,
-                    9265.620117
-                ],
-                [
-                    8127.118652,
-                    459.940063,
-                    9274.539063
-                ],
-                [
-                    8121.602539,
-                    459.042511,
-                    9285.292969
-                ],
-                [
-                    8111.734375,
-                    458.767181,
-                    9291.685547
-                ],
-                [
-                    8101.689941,
-                    458.849976,
-                    9293.580078
-                ],
-                [
-                    8081.362793,
-                    458.850037,
-                    9289.451172
-                ],
-                [
-                    8063.542969,
-                    458.849976,
-                    9289.352539
-                ],
-                [
-                    8049.049316,
-                    458.850006,
-                    9290.573242
-                ],
-                [
-                    8031.479980,
-                    459.349823,
-                    9309.154297
+                    8021.1220703125,
+                    458.7685241699219,
+                    9337.94140625
                 ]
             ]
         }

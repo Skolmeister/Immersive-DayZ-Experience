@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 30.0,
     "Items": [
         {
             "ClassName": "ghilliehood_tan",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "FOG_GhillieHood_GrassMulti",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -64,8 +64,8 @@
         },
         {
             "ClassName": "FOG_GhillieBushrag_GrassMulti",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -87,8 +87,8 @@
         },
         {
             "ClassName": "ghilliebushrag_tan",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -118,8 +118,8 @@
 
         {
             "ClassName": "ghillietop_tan",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -148,8 +148,8 @@
         },
         {
             "ClassName": "FOG_GhillieTop_GrassMulti",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -171,8 +171,8 @@
         },
         {
             "ClassName": "ghilliesuit_tan",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -200,8 +200,8 @@
         },
         {
             "ClassName": "FOG_GhillieSuit_Tan",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 2520,
+            "MaxPriceThreshold": 28000,
+            "MinPriceThreshold": 25200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -224,65 +224,9 @@
             ]
         },
         {
-            "ClassName": "MassGhillieSuitBoxWoodland",
-            "MaxPriceThreshold": 3800,
-            "MinPriceThreshold": 3420,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassGhillieSuitBoxMossy",
-                "MassGhillieSuitBoxWinter"
-            ]
-        },
-        {
-            "ClassName": "MassGhillieTopBoxWoodland",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassGhillieTopBoxMossy",
-                "MassGhillieTopBoxWinter"
-            ]
-        },
-        {
-            "ClassName": "MassGhillieSuitWoodland",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassGhillieSuitMossy",
-                "MassGhillieSuitSnow"
-            ]
-        },
-        {
-            "ClassName": "MassGhillieTopWoodland",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 2520,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassGhillieTopMossy",
-                "MassGhillieTopSnow"
-            ]
-        },
-        {
             "ClassName": "GhillieAtt_Mossy",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -305,15 +249,14 @@
                 "MilitaryGear_GhillieGunWrap_CADPAT",
                 "MilitaryGear_GhillieGunWrap_Tropic",
                 "MilitaryGear_GhillieGunWrap_Yeger",
-                "MassWinterGhillieWrap",
                 "GhillieAtt_Tan",
                 "GhillieAtt_Woodland"
             ]
         },
         {
             "ClassName": "FOG_GhillieAtt_GrassMulti",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -331,20 +274,6 @@
                 "FOG_GhillieAtt_Green",
                 "FOG_GhillieAtt_MCBrowns",
                 "FOG_GhillieAtt_Leaf"
-            ]
-        },
-        {
-            "ClassName": "Mass_CamonetGhillie_East",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 720,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "Mass_CamonetGhillie_Nato",
-                "Mass_CamonetGhillie_Winter"
             ]
         }
     ]

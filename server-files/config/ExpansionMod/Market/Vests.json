@@ -38,8 +38,7 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "pressvest_lightblue",
-                "Mass_PressVestBlack"
+                "pressvest_lightblue"
             ]
         },
         {
@@ -66,7 +65,6 @@
                 "ukassvest_khaki",
                 "ukassvest_olive",
                 "ukassvest_camo",
-                "MassUKAssVestWinter",
                 "MilitaryGear_AssaultVest_PartizanM",
                 "MilitaryGear_AssaultVest_Duckhunter",
                 "MilitaryGear_AssaultVest_Multicam",
@@ -86,7 +84,7 @@
             ]
         },
         {
-            "ClassName": "MassSmershvestcomplete",
+            "ClassName": "MilitaryGear_SmershVest_PartizanM",
             "MaxPriceThreshold": 2000,
             "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
@@ -95,10 +93,6 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "MassSmershvestWW2complete",
-                "MassSmershvestblackcomplete",
-                "MassSmershvestWintercomplete",
-                "MilitaryGear_SmershVest_PartizanM",
                 "MilitaryGear_SmershVest_Duckhunter",
                 "MilitaryGear_SmershVest_Multicam",
                 "MilitaryGear_SmershVest_Splinter",
@@ -173,11 +167,7 @@
                 "MilitaryGear_PlateCarrier_ATACS",
                 "MilitaryGear_PlateCarrier_CADPAT",
                 "MilitaryGear_PlateCarrier_Tropic",
-                "MilitaryGear_PlateCarrier_Yeger",
-                "MassPlateCarrier_Black",
-                "MassPlateCarrier_ODG",
-                "MassPlateCarrier_Winter",
-                "MassPlateCarrier_PartizanM"
+                "MilitaryGear_PlateCarrier_Yeger"
             ]
         },
         {
@@ -486,73 +476,6 @@
                 "FOG_Vest_TV110T_FG",
                 "FOG_Vest_TV110T_MC"
             ]
-        },
-        {
-            "ClassName": "Masswoodlandcamovest",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MassRatnik",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassRatnik_Tan",
-                "MassRatnik_Black"
-            ]
-        },
-        {
-            "ClassName": "MassLightRatnik",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 2520,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassLightRatnik_Desert",
-                "MassLightRatnik_Black",
-                "MassLightRatnik_Olive"
-            ]
-        },
-        {
-            "ClassName": "MassHeavyPlateVest_Black",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassHeavyPlateVest_ODG",
-                "MassHeavyPlateVest_Winter",
-                "MassHeavyPlateVest_PartizanM",
-                "MassHeavyPlateVest_Beige"
-            ]
-        },
-        {
-            "ClassName": "Mass_WW2Vest",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 1620,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "Defender_Vest_Classic",

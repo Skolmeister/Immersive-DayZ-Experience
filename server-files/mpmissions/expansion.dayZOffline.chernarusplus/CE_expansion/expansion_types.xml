@@ -255,7 +255,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="Sedan_02_Door_1_1_YellowBright">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -267,7 +267,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_YellowBright">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -279,7 +279,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_YellowBright">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -291,7 +291,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_YellowBright">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -341,7 +341,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="Sedan_02_Door_1_1_Blue">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -353,7 +353,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_Blue">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -365,7 +365,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_Blue">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -377,7 +377,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_Blue">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -427,7 +427,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="Sedan_02_Door_1_1_BlueRust">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -439,7 +439,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_1_2_BlueRust">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -451,7 +451,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_2_1_BlueRust">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -463,7 +463,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Sedan_02_Door_2_2_BlueRust">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -525,7 +525,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Red">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -537,7 +537,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Red">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -571,7 +571,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_White">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -583,7 +583,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_White">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -617,7 +617,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Black">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -629,7 +629,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Black">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -663,7 +663,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Wine">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -675,7 +675,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Wine">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -709,7 +709,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Lime">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -721,7 +721,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Lime">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -755,7 +755,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_Yellow">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -767,7 +767,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_Yellow">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -801,7 +801,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_1_1_YellowBright">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -813,7 +813,7 @@
         <usage name="industrial"/>
     </type>
     <type name="Truck_01_Door_2_1_YellowBright">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
         <min>0</min>

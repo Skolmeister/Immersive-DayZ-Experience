@@ -183,21 +183,6 @@
             ]
           },
           {
-            "ClassName": "FOX_STG44_Bttstck",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 360,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "FOX_STG44_Bttstck_Tan",
-                "FOX_STG44_Bttstck_Green",
-                "FOX_STG44_Bttstck_Snow"
-            ]
-          },
-          {
             "ClassName": "FOX_HK416D_Bttstck",
             "MaxPriceThreshold": 600,
             "MinPriceThreshold": 540,
@@ -210,21 +195,6 @@
                 "FOX_HK416D_Bttstck_tan",
                 "FOX_HK416D_Bttstck_green",
                 "FOX_HK416D_Bttstck_snow"
-            ]
-          },
-          {
-            "ClassName": "FOX_SR47_Bttstck",
-            "MaxPriceThreshold": 550,
-            "MinPriceThreshold": 495,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "FOX_SR47_Bttstck_tan",
-                "FOX_SR47_Bttstck_green",
-                "FOX_SR47_Bttstck_snow"
             ]
           },
           {

@@ -4,20 +4,18 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "tankerhelmet",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 720,
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "Mass_tankerhelmet_green",
-                "Mass_tankerhelmet_tan",
                 "MilitaryGear_TankerHelmet_Brown",
                 "MilitaryGear_TankerHelmet_Tan",
                 "MilitaryGear_TankerHelmet_Olive"
@@ -25,8 +23,8 @@
         },
         {
             "ClassName": "zsh3pilothelmet",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 7500,
+            "MinPriceThreshold": 6750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -39,8 +37,8 @@
         },
         {
             "ClassName": "zsh3pilothelmet_green",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 7500,
+            "MinPriceThreshold": 6750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -50,8 +48,8 @@
         },
         {
             "ClassName": "zsh3pilothelmet_black",
-            "MaxPriceThreshold": 550,
-            "MinPriceThreshold": 495,
+            "MaxPriceThreshold": 7500,
+            "MinPriceThreshold": 6750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -61,8 +59,8 @@
         },
         {
             "ClassName": "mich2001helmet",
-            "MaxPriceThreshold": 1300,
-            "MinPriceThreshold": 1170,
+            "MaxPriceThreshold": 30000,
+            "MinPriceThreshold": 27000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -70,7 +68,6 @@
             "SpawnAttachments": [],
             "Variants": [
                 "expansionmich2001desert",
-                "Massmichblack",
                 "MilitaryGear_TacticalHelmet_PartizanM",
                 "MilitaryGear_TacticalHelmet_Duckhunter",
                 "MilitaryGear_TacticalHelmet_Multicam",
@@ -91,8 +88,8 @@
         },
         {
             "ClassName": "gorkahelmet",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 28000,
+            "MinPriceThreshold": 25200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -106,8 +103,8 @@
         },
         {
             "ClassName": "ssh68helmet",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 540,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -117,8 +114,8 @@
         },
         {
             "ClassName": "ballistichelmet_un",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -126,13 +123,18 @@
             "SpawnAttachments": [],
             "Variants": [
                 "ballistichelmet_black",
-                "ballistichelmet_green"
+                "ballistichelmet_green",
+                "ballistichelmet_desert",
+                "ballistichelmet_woodland",
+                "ballistichelmet_bdu",
+                "BallisticHelmet_Navy",
+                "BallisticHelmet_Winter"
             ]
         },
         {
             "ClassName": "ballistichelmet_black",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 22000,
+            "MinPriceThreshold": 19800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -141,9 +143,9 @@
             "Variants": []
         },
         {
-            "ClassName": "ballistichelmet_green",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "ClassName": "ballistichelmet_desert",
+            "MaxPriceThreshold": 22000,
+            "MinPriceThreshold": 19800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -153,22 +155,20 @@
         },
         {
             "ClassName": "ballistichelmet_bdu",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 22000,
+            "MinPriceThreshold": 19800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "ballistichelmet_desert",
-                "ballistichelmet_woodland"
             ]
         },
         {
             "ClassName": "FOG_Helmet_Airframe_Black",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 2520,
+            "MaxPriceThreshold": 128000,
+            "MinPriceThreshold": 115200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -181,8 +181,8 @@
         },
 		{
             "ClassName": "FOG_Helmet_FAST_Bump_Black",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 2520,
+            "MaxPriceThreshold": 128000,
+            "MinPriceThreshold": 115200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -199,8 +199,8 @@
         },
 		{
             "ClassName": "FOG_Helmet_FASTMT_Black",
-            "MaxPriceThreshold": 3500,
-            "MinPriceThreshold": 3150,
+            "MaxPriceThreshold": 128000,
+            "MinPriceThreshold": 115200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -213,8 +213,8 @@
         },
 		{
             "ClassName": "FOG_Helmet_FAST_SF_MC",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 2880,
+            "MaxPriceThreshold": 128000,
+            "MinPriceThreshold": 115200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -237,8 +237,8 @@
         },
 		{
             "ClassName": "FOG_Helmet_MICH2000_MC",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
+            "MaxPriceThreshold": 128000,
+            "MinPriceThreshold": 115200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -259,8 +259,8 @@
         },
 		{
             "ClassName": "FOG_Helmet_Exfil_Black",
-            "MaxPriceThreshold": 2900,
-            "MinPriceThreshold": 2610,
+            "MaxPriceThreshold": 128000,
+            "MinPriceThreshold": 115200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "flaregun",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "m79",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "MaxPriceThreshold": 78000,
+            "MinPriceThreshold": 70200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "expansionlaw",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 198000,
+            "MinPriceThreshold": 178200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "expansionrpg7",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 99000,
+            "MinPriceThreshold": 89100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -52,10 +52,10 @@
         },
         {
             "ClassName": "FOX_GL06_GREEN",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 160000,
+            "MinPriceThreshold": 144000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -68,10 +68,10 @@
         },
         {
             "ClassName": "FOX_GL06_TAN",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 160000,
+            "MinPriceThreshold": 144000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -81,10 +81,10 @@
         },
         {
             "ClassName": "FOX_GL06_SNOW",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 160000,
+            "MinPriceThreshold": 144000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -93,22 +93,11 @@
             "Variants": []
         },
         {
-            "ClassName": "BO_ChinaLake",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "BO_M32_Tan",
-            "MaxPriceThreshold": 12000,
-            "MinPriceThreshold": 10800,
+            "MaxPriceThreshold": 220000,
+            "MinPriceThreshold": 198000,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

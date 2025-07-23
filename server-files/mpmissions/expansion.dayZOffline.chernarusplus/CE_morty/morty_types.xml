@@ -3397,10 +3397,10 @@
         <value name="tier4"/>
     </type>
     <type name="TTC_AWM_Magazine_5rnd">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

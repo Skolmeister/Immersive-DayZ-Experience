@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "FOG_SniperHood_MC",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -29,8 +29,8 @@
         },
         {
             "ClassName": "FOG_Hooded_Cloak_Grey",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -43,8 +43,8 @@
         },
         {
             "ClassName": "Poncho_Brown",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -63,9 +63,24 @@
             ]
         },
         {
+            "ClassName": "Shemag_Brown",
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Shemag_Green",
+                "Shemag_Red",
+                "Shemag_White"
+            ]
+        },
+                {
             "ClassName": "Shemagh_Brown",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 360,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -78,10 +93,11 @@
                 "Shemagh_Black"
             ]
         },
+
         {
             "ClassName": "Leather_Cloak",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 540,
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -91,8 +107,8 @@
         },
         {
             "ClassName": "Scarf_Brown",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

@@ -20,6 +20,18 @@
                 "medicalscrubshat_green"
             ]
         },
+                        {
+            "ClassName": "BurlapSackCover",
+            "MaxPriceThreshold": 80,
+            "MinPriceThreshold": 40,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+
         {
             "ClassName": "cowboyhat_brown",
             "MaxPriceThreshold": 100,

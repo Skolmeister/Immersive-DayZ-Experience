@@ -4,14 +4,14 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "expansionutilityboat",
-            "MaxPriceThreshold": 44000,
-            "MinPriceThreshold": 22000,
+            "MaxPriceThreshold": 1200000,
+            "MinPriceThreshold": 1080000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxStockThreshold": 20,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -21,34 +21,52 @@
             "Variants": []
         },
         {
-            "ClassName": "expansionzodiacboat",
-            "MaxPriceThreshold": 44000,
-            "MinPriceThreshold": 22000,
+            "ClassName": "Boat_01_orange",
+            "MaxPriceThreshold": 399000,
+            "MinPriceThreshold": 359100,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "truckbattery",
                 "glowplug"
             ],
-            "Variants": []
+            "Variants": [
+                "Boat_01_blue",
+                "Boat_01_black",
+                "Boat_01_Camo"
+            ]
         },
-        {
-            "ClassName": "expansionlhd",
-            "MaxPriceThreshold": 600000000,
-            "MinPriceThreshold": 300000000,
+                {
+            "ClassName": "Boat_01_black",
+            "MaxPriceThreshold": 438900,
+            "MinPriceThreshold": 395010,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
+            "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "truckbattery",
-                "glowplug",
-                "headlighth7",
-                "headlighth7"
+                "glowplug"
             ],
-            "Variants": []
+            "Variants": [
+            ]
+        },
+                {
+            "ClassName": "Boat_01_Camo",
+            "MaxPriceThreshold": 448900,
+            "MinPriceThreshold": 404100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "truckbattery",
+                "glowplug"
+            ],
+            "Variants": [
+            ]
         }
     ]
 }

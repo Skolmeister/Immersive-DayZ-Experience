@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 60.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "mp133shotgun",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 35000,
+            "MinPriceThreshold": 31500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "izh43shotgun",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 1620,
+            "MaxPriceThreshold": 26750,
+            "MinPriceThreshold": 24075,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "izh18shotgun",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "saiga",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3600,
+            "MaxPriceThreshold": 85000,
+            "MinPriceThreshold": 76500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -55,8 +55,8 @@
         },
         {
             "ClassName": "expansion_benellim4",
-            "MaxPriceThreshold": 3800,
-            "MinPriceThreshold": 3420,
+            "MaxPriceThreshold": 80000,
+            "MinPriceThreshold": 72000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -66,8 +66,8 @@
         },
         {
             "ClassName": "expansion_dt11",
-            "MaxPriceThreshold": 1900,
-            "MinPriceThreshold": 1710,
+            "MaxPriceThreshold": 42000,
+            "MinPriceThreshold": 37800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -75,29 +75,10 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-        {
-            "ClassName": "FOX_VPO205",
-            "MaxPriceThreshold": 4200,
-            "MinPriceThreshold": 3780,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "FOX_Mag_VPO_10Rnd",
-                "FOX_VPO205_hndgrd",
-                "FOX_VPO205_Bttstck"
-            ],
-            "Variants": [
-                "FOX_VPO205_GREEN",
-                "FOX_VPO205_TAN",
-                "FOX_VPO205_SNOW"
-            ]
-          },
           {
             "ClassName": "FOX_MP153",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3600,
+            "MaxPriceThreshold": 75000,
+            "MinPriceThreshold": 67500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -111,23 +92,10 @@
                 "FOX_MP153_SNOW"
             ]
           },
-          {
-            "ClassName": "TTC_Raptr",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 4950,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "TTC_Raptr_Drum_45rnd"
-            ],
-            "Variants": []
-        },
         {
             "ClassName": "BO_AA12",
-            "MaxPriceThreshold": 4500,
-            "MinPriceThreshold": 4050,
+            "MaxPriceThreshold": 95000,
+            "MinPriceThreshold": 85500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -139,19 +107,8 @@
         },
         {
             "ClassName": "BO_R870",
-            "MaxPriceThreshold": 3800,
-            "MinPriceThreshold": 3420,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "BO_SPAS12_SemiAuto",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3600,
+            "MaxPriceThreshold": 48000,
+            "MinPriceThreshold": 43200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -161,8 +118,8 @@
         },
         {
             "ClassName": "BO_USAS12",
-            "MaxPriceThreshold": 4300,
-            "MinPriceThreshold": 3870,
+            "MaxPriceThreshold": 111000,
+            "MinPriceThreshold": 99900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -174,8 +131,8 @@
         },
         {
             "ClassName": "BO_VR80",
-            "MaxPriceThreshold": 4300,
-            "MinPriceThreshold": 3870,
+            "MaxPriceThreshold": 105000,
+            "MinPriceThreshold": 94500,
             "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

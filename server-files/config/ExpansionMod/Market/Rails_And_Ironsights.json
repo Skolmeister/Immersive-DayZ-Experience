@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "m4_carryhandleoptic",
-            "MaxPriceThreshold": 700,
-            "MinPriceThreshold": 630,
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "buisoptic",
-            "MaxPriceThreshold": 450,
-            "MinPriceThreshold": 405,
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,63 +30,8 @@
         },
         {
             "ClassName": "expansion_mp5_railatt",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "FOX_HK416_REAR_SIGHT",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "FOX_HK416_FRONT_SIGHT",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "FOX_DD_REAR_SIGHT",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "FOX_DD_FRONT_SIGHT",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "FOX_ACR_REAR_SIGHT",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -96,7 +41,7 @@
         },
         {
             "ClassName": "FOX_UZI_rail_mount",
-            "MaxPriceThreshold": 300,
+            "MaxPriceThreshold": 3000,
             "MinPriceThreshold": 270,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
@@ -106,20 +51,9 @@
             "Variants": []
         },
         {
-            "ClassName": "FOX_MP5_rail_mount",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 315,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "FOX_EVO_REAR_SIGHT",
-            "MaxPriceThreshold": 450,
-            "MinPriceThreshold": 405,
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -129,8 +63,8 @@
         },
         {
             "ClassName": "FOX_EVO_FRONT_SIGHT",
-            "MaxPriceThreshold": 450,
-            "MinPriceThreshold": 405,
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -140,8 +74,8 @@
         },
 		{
             "ClassName": "TTC_OpticMount_M16",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 540,
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

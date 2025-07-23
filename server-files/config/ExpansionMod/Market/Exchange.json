@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "expansionbanknoteeuro",
-            "MaxPriceThreshold": 45,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 48,
+            "MinPriceThreshold": 48,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "expansionbanknoteusd",
-            "MaxPriceThreshold": 40,
-            "MinPriceThreshold": 40,
+            "MaxPriceThreshold": 42,
+            "MinPriceThreshold": 42,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

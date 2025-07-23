@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_IDE_MARKET_CATEGORY_CRATES_AND_CASES",
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_MUZZLES",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 30.0,
     "Items": [
         {
-            "ClassName": "smallprotectorcase",
-            "MaxPriceThreshold": 18000,
-            "MinPriceThreshold": 16200,
+            "ClassName": "ak_suppressor",
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -18,9 +18,20 @@
             "Variants": []
         },
         {
-            "ClassName": "ammobox",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 18000,
+            "ClassName": "pistolsuppressor",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+          {
+            "ClassName": "TTC_PistolSuppressor",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -29,9 +40,9 @@
             "Variants": []
         },
         {
-            "ClassName": "expansiontoolbox",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
+            "ClassName": "TTC_AKMod_Suppressor",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -40,29 +51,7 @@
             "Variants": []
         },
         {
-            "ClassName": "seachest",
-            "MaxPriceThreshold": 40000,
-            "MinPriceThreshold": 36000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "woodencrate",
-            "MaxPriceThreshold": 25000,
-            "MinPriceThreshold": 22500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "FC_Fish_Lure_Case_All",
+            "ClassName": "TTC_DMR_Suppressor",
             "MaxPriceThreshold": 10000,
             "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
@@ -73,148 +62,109 @@
             "Variants": []
         },
         {
-            "ClassName": "Msp_LargeAmmoBox",
-            "MaxPriceThreshold": 35000,
-            "MinPriceThreshold": 31500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_GrenadeBox",
-            "MaxPriceThreshold": 25000,
-            "MinPriceThreshold": 22500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_TackleBox",
-            "MaxPriceThreshold": 12000,
-            "MinPriceThreshold": 12000,
+            "ClassName": "TTC_Universal_Suppressor_BLACK",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "Msp_TackleBox_Black"
-            ]
+				"TTC_Universal_Suppressor_CAMO",
+				"TTC_Universal_Suppressor_Tan",
+				"TTC_Universal_Suppressor_Snow"
+			]
         },
         {
-            "ClassName": "Msp_Basket_Rectangular",
+            "ClassName": "BO_OspreySuppressor",
             "MaxPriceThreshold": 8000,
             "MinPriceThreshold": 7200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_Basket_Wicker",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_MedievalChest",
-            "MaxPriceThreshold": 40000,
-            "MinPriceThreshold": 36000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_TreasureChest",
-            "MaxPriceThreshold": 40000,
-            "MinPriceThreshold": 36000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_AmericanAppleCrate",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_AppleCrate",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_PlasticCrate",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 18000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_AmmoCrate",
-            "MaxPriceThreshold": 45000,
-            "MinPriceThreshold": 40500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_MilitaryCrate_Brown",
-            "MaxPriceThreshold": 50000,
-            "MinPriceThreshold": 45000,
-            "SellPricePercent": -1.0,
+            "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "Msp_MilitaryCrate_Green",
-                "Msp_MilitaryCrate_Grey",
-                "Msp_MilitaryCrate_Olive",
-                "Msp_MilitaryCrate_Tan"
+                "BO_OspreySuppressor_FDE"
             ]
         },
         {
-            "ClassName": "Msp_MedCase",
+            "ClassName": "BO_CorduraSuppressor",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "BO_CorduraSuppressor_Black",
+                "BO_CorduraSuppressor_Green"
+            ]
+        },
+        {
+            "ClassName": "BO_LegionSuppressor",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "BO_LegionSuppressor_Black",
+                "BO_LegionSuppressor_Tan"
+            ]
+        },
+        {
+            "ClassName": "BO_TacticalSuppressor",
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_BarrettM82Suppressor",
             "MaxPriceThreshold": 25000,
             "MinPriceThreshold": 22500,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 20,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_HarvesterSuppressor",
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_MK23_Suppressor",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "shotgun_Suppressor",
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -223,9 +173,43 @@
             "Variants": []
         },
         {
-            "ClassName": "FC_Fish_Lure_Can",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
+            "ClassName": "FOX_SR1_Suppressor",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+                {
+            "ClassName": "FOX_APS_Suppressor",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+
+        {
+            "ClassName": "FOX_45ACP_Suppressor1",
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOX_308_Suppressor",
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

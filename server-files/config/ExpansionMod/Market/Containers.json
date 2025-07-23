@@ -29,36 +29,6 @@
             "Variants": []
         },
         {
-            "ClassName": "barrelholes_blue",
-            "MaxPriceThreshold": 57420,
-            "MinPriceThreshold": 34450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "barrelholes_green",
-                "barrelholes_red",
-                "barrelholes_yellow"
-            ]
-        },
-        {
-            "ClassName": "barrel_blue",
-            "MaxPriceThreshold": 7500,
-            "MinPriceThreshold": 4500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "barrel_green",
-                "barrel_red",
-                "barrel_yellow"
-            ]
-        },
-        {
             "ClassName": "seachest",
             "MaxPriceThreshold": 9040,
             "MinPriceThreshold": 5425,

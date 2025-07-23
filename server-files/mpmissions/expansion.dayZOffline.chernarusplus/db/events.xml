@@ -995,8 +995,8 @@
     </event>
 
     <event name="StaticBonfire">
-        <nominal>8</nominal>
-        <min>5</min>
+        <nominal>1</nominal>
+        <min>1</min>
         <max>10</max>
         <lifetime>86400</lifetime>
         <restock>0</restock>

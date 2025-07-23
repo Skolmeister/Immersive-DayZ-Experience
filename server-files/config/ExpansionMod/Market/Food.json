@@ -4,14 +4,14 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 50.0,
     "Items": [
         {
             "ClassName": "powderedmilk",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 27,
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -19,37 +19,34 @@
         },
         {
             "ClassName": "rice",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "DONFOOD_RICE_BROWN"
             ]
         },
         {
             "ClassName": "marmalade",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "DONFOOD_MARMALADE_PLUM",
-                "DONFOOD_MARMALADE_ORANGE"
             ]
         },
         {
             "ClassName": "honey",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -57,10 +54,10 @@
         },
         {
             "ClassName": "pajka",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -68,10 +65,10 @@
         },
         {
             "ClassName": "pate",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -79,10 +76,10 @@
         },
         {
             "ClassName": "brisketspread",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -90,10 +87,10 @@
         },
         {
             "ClassName": "lunchmeat",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -101,10 +98,10 @@
         },
         {
             "ClassName": "expansionbread1",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -112,10 +109,10 @@
         },
         {
             "ClassName": "expansionbread2",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -123,10 +120,10 @@
         },
         {
             "ClassName": "expansionbread3",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -134,10 +131,10 @@
         },
         {
             "ClassName": "expansioncheese1",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 540,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -148,194 +145,24 @@
             ]
         },
         {
-            "ClassName": "DONFOOD_BREAD",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONFOOD_BREAD2",
-            "DONFOOD_BREAD3",
-            "DONFOOD_BREAD4",
-            "DONFOOD_BREAD5"
-            ]
-        },
-        {
-            "ClassName": "DONFOOD_BREAD2",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONFOOD_BREAD2",
-            "DONFOOD_BREAD3",
-            "DONFOOD_BREAD4",
-            "DONFOOD_BREAD5"
-            ]
-        },
-        {
-            "ClassName": "DONFOOD_BREAD3",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONFOOD_BREAD2",
-            "DONFOOD_BREAD3",
-            "DONFOOD_BREAD4",
-            "DONFOOD_BREAD5"
-            ]
-        },
-        {
-            "ClassName": "DONFOOD_BREAD4",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONFOOD_BREAD2",
-            "DONFOOD_BREAD3",
-            "DONFOOD_BREAD4",
-            "DONFOOD_BREAD5"
-            ]
-        },
-        {
-            "ClassName": "DONFOOD_BREAD5",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONFOOD_BREAD2",
-            "DONFOOD_BREAD3",
-            "DONFOOD_BREAD4",
-            "DONFOOD_BREAD5"
-            ]
-        },
-        {
-            "ClassName": "DONFOOD_CEREALBREAD",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "DONFOOD_BREADROLL1",
-            "MaxPriceThreshold": 60,
-            "MinPriceThreshold": 54,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONFOOD_BREADROLL2",
-            "DONFOOD_BREADROLL3",
-            "DONFOOD_BREADROLL4"
-            ]
-        },
-        {
             "ClassName": "MFP_Pasta",
-            "MaxPriceThreshold": 70,
-            "MinPriceThreshold": 63,
+            "MaxPriceThreshold": 700,
+            "MinPriceThreshold": 630,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "DONFOOD_PASTA_PENNERIGATE",
                 "MFP_SpaghettiO"
             ]
         },
         {
-            "ClassName": "MassGoatStew",
-            "MaxPriceThreshold": 45,
-            "MinPriceThreshold": 40,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "MFP_CoffeeBeans",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 225,
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MassHeli_MRE9",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassHeli_MRE10",
-                "MassHeli_MRE4",
-                "MassHeli_MRE9Old"
-            ]
-        },
-        {
-            "ClassName": "MassMRE4",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassMRE9",
-                "MassMRE10",
-                "MassMRE9Old"
-            ]
-        },
-        {
-            "ClassName": "R_Coffeebag",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 225,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "R_Coffeebag_Esp",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 225,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

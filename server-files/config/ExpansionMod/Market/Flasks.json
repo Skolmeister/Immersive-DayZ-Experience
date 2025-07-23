@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "canteen",
-            "MaxPriceThreshold": 360,
-            "MinPriceThreshold": 324,
+            "MaxPriceThreshold": 7500,
+            "MinPriceThreshold": 6750,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -18,52 +18,11 @@
             "Variants": []
         },
         {
-            "ClassName": "DONDRINK_SPORTBOTTLE_RED",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONDRINK_SPORTBOTTLE_BLUE",
-            "DONDRINK_SPORTBOTTLE_GREEN",
-            "DONDRINK_SPORTBOTTLE_PINK",
-            "DONDRINK_SPORTBOTTLE_YELLOW"
-            ]
-        },
-        {
-            "ClassName": "DONDRINK_CANTEEN_GREEN",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-            "DONDRINK_CANTEEN_GREY",
-            "DONDRINK_CANTEEN_TAN"
-            ]
-            },
-            {
-            "ClassName": "DONDRINK_FLASK_GAMBLER",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-            },
-        {
             "ClassName": "MFP_HFlask_Base",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 250,
+            "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
