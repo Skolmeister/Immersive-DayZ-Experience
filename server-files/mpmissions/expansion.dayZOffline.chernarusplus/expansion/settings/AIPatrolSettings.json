@@ -235,7 +235,7 @@
             "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": -4,
-            "Behaviour": "ROAMING",
+            "Behaviour": "HALT_OR_ALTERNATE",
             "LootingBehaviour": "ALL",
             "Speed": "JOG",
             "UnderThreatSpeed": "SPRINT",
@@ -269,7 +269,7 @@
             "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": -4,
-            "Behaviour": "ROAMING",
+            "Behaviour": "HALT_OR_ALTERNATE",
             "LootingBehaviour": "ALL",
             "Speed": "JOG",
             "UnderThreatSpeed": "SPRINT",
@@ -431,6 +431,40 @@
             "ClassName": "StaticObj_Wreck_Train_742_Blue_DE"
         },
         {
+            "Name": "Supermarkt Plünderer",
+            "Persist": 0,
+            "Faction": "Bandits",
+            "Formation": "",
+            "FormationLooseness": 10.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 6,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 0.5,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "ClassName": "Land_City_Store"
+        },
+        {
             "Name": "Chedaki Checkpoint",
             "Persist": 0,
             "Faction": "East",
@@ -533,6 +567,40 @@
             "ClassName": "ContaminatedArea_Dynamic"
         },
         {
+            "Name": "Lunatics",
+            "Persist": 0,
+            "Faction": "Shamans",
+            "Formation": "",
+            "FormationLooseness": 10.0,
+            "Loadout": "ShamanLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "JOG",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 250.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 1,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 10.0,
+            "MaxSpreadRadius": 40.0,
+            "Chance": 0.2,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "ClassName": "Land_Lunapark_Carousel_Swan"
+        },
+        {
             "Name": "Jäger der Finsternis",
             "Persist": 0,
             "Faction": "Shamans",
@@ -623,16 +691,84 @@
             "DamageMultiplier": -1.0,
             "DamageReceivedMultiplier": 0.5,
             "CanBeTriggeredByAI": 0,
-            "MinDistRadius": 200.0,
+            "MinDistRadius": -1.0,
             "MaxDistRadius": -1.0,
             "DespawnRadius": -1.0,
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 30.0,
-            "Chance": 1.0,
+            "Chance": 0.8,
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -1.0,
             "ClassName": "Land_Chapel"
+        },
+        {
+            "Name": "Die Fleischprediger",
+            "Persist": 0,
+            "Faction": "Ghouls",
+            "Formation": "",
+            "FormationLooseness": 25.0,
+            "Loadout": "GhoulLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 50.0,
+            "NoiseInvestigationDistanceLimit": 100.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.5,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 30.0,
+            "Chance": 0.35,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "ClassName": "Land_Church1_Yellow"
+        },
+        {
+            "Name": "Die Pansenschlecker",
+            "Persist": 0,
+            "Faction": "Ghouls",
+            "Formation": "",
+            "FormationLooseness": 25.0,
+            "Loadout": "GhoulLoadout",
+            "Units": [],
+            "NumberOfAI": -3,
+            "Behaviour": "HALT_OR_ALTERNATE",
+            "LootingBehaviour": "NONE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": 50.0,
+            "NoiseInvestigationDistanceLimit": 100.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": 0.5,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 50.0,
+            "Chance": 0.35,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "ClassName": "StaticObj_Ruin_Church"
         },
         {
             "Name": "Die Hautträger",
@@ -13208,9 +13344,11 @@
             "RespawnTime": 0.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-                [8073.708984375,
-                455.4828796386719,
-                9361.259765625]
+                [
+                    8073.708984375,
+                    455.4828796386719,
+                    9361.259765625
+                ]
             ]
         },
         {
@@ -13247,9 +13385,11 @@
             "RespawnTime": 0.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-               [ 8115.53759765625,
-                461.96051025390627,
-                9302.3193359375]
+                [
+                    8115.53759765625,
+                    461.96051025390627,
+                    9302.3193359375
+                ]
             ]
         },
         {
@@ -13286,11 +13426,11 @@
             "RespawnTime": -1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-            [   
-                8084.8203125,
-                462.9631042480469,
-                9310.203125
-            ]
+                [
+                    8084.8203125,
+                    462.9631042480469,
+                    9310.203125
+                ]
             ]
         },
         {
@@ -13327,11 +13467,11 @@
             "RespawnTime": -1.0,
             "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
-            [
-                8107.38720703125,
-                458.6678466796875,
-                9327.3857421875
-            ]
+                [
+                    8107.38720703125,
+                    458.6678466796875,
+                    9327.3857421875
+                ]
             ]
         },
         {
@@ -13343,7 +13483,7 @@
             "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": 2,
-            "Behaviour": "ALTERNATE",
+            "Behaviour": "LOOP",
             "LootingBehaviour": "NONE",
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
@@ -13369,89 +13509,542 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8117.38525390625,
-                    459.8361511230469,
-                    9276.9404296875
+                    8121.0029296875,
+                    457.92999267578127,
+                    9303.2138671875
                 ],
                 [
-                    8061.2822265625,
-                    455.3511047363281,
-                    9366.3125
+                    8109.521484375,
+                    458.6181335449219,
+                    9331.6533203125
                 ],
                 [
-                    8069.4345703125,
-                    455.3179016113281,
-                    9370.9443359375
+                    8102.3193359375,
+                    458.65557861328127,
+                    9332.0224609375
                 ],
                 [
-                    8086.0166015625,
-                    456.53045654296877,
-                    9354.3857421875
+                    8087.0,
+                    458.8500671386719,
+                    9314.75
                 ],
                 [
-                    8097.697265625,
-                    458.4573059082031,
-                    9342.1474609375
-                ],
-                [
-                    8079.09521484375,
+                    8081.67529296875,
                     458.8499755859375,
-                    9320.0283203125
+                    9317.12109375
                 ],
                 [
-                    8083.9365234375,
+                    8079.56396484375,
                     458.8500061035156,
-                    9315.228515625
+                    9321.3193359375
                 ],
                 [
-                    8089.98828125,
+                    8096.68603515625,
+                    458.45806884765627,
+                    9341.083984375
+                ],
+                [
+                    8092.796875,
+                    457.971923828125,
+                    9348.6279296875
+                ],
+                [
+                    8161.2958984375,
+                    454.0208435058594,
+                    9309.7119140625
+                ],
+                [
+                    8191.00537109375,
+                    458.79962158203127,
+                    9231.228515625
+                ],
+                [
+                    8136.05126953125,
+                    471.2810974121094,
+                    9202.82421875
+                ],
+                [
+                    8089.47607421875,
+                    464.7942810058594,
+                    9233.681640625
+                ],
+                [
+                    8065.44091796875,
+                    454.7409362792969,
+                    9373.6435546875
+                ],
+                [
+                    8070.19580078125,
+                    452.77679443359377,
+                    9387.69921875
+                ],
+                [
+                    8081.17431640625,
+                    450.3905334472656,
+                    9406.0703125
+                ],
+                [
+                    8135.89208984375,
+                    451.6379699707031,
+                    9350.5078125
+                ],
+                [
+                    8094.568359375,
+                    461.62725830078127,
+                    9261.3349609375
+                ],
+                [
+                    8117.9111328125,
+                    459.85980224609377,
+                    9276.5771484375
+                ],
+                [
+                    8121.658203125,
+                    457.93939208984377,
+                    9293.7744140625
+                ],
+                [
+                    8079.2666015625,
                     458.8500061035156,
-                    9317.6220703125
+                    9287.69140625
                 ],
                 [
-                    8078.1044921875,
-                    450.39715576171877,
-                    9411.9921875
+                    8042.314453125,
+                    458.8500061035156,
+                    9293.724609375
                 ],
                 [
-                    8104.76611328125,
-                    458.54229736328127,
-                    9335.7978515625
+                    8017.24365234375,
+                    458.8221435546875,
+                    9334.6513671875
                 ],
                 [
-                    8135.74755859375,
-                    451.6327819824219,
-                    9350.8486328125
+                    8042.50830078125,
+                    456.3187255859375,
+                    9362.455078125
                 ],
                 [
-                    8114.62109375,
-                    458.4382629394531,
-                    9321.900390625
+                    8060.93505859375,
+                    454.1877136230469,
+                    9374.28125
                 ],
                 [
-                    8158.568359375,
-                    455.9251708984375,
-                    9288.72265625
+                    8117.58984375,
+                    458.15435791015627,
+                    9318.08203125
                 ],
                 [
-                    8121.8505859375,
-                    458.32086181640627,
-                    9290.306640625
+                    8120.48291015625,
+                    457.92999267578127,
+                    9305.6923828125
                 ],
                 [
-                    8127.0634765625,
-                    469.49066162109377,
-                    9210.462890625
+                    8064.83154296875,
+                    454.53985595703127,
+                    9375.740234375
                 ],
                 [
-                    8068.78515625,
-                    460.61669921875,
-                    9263.6767578125
+                    8068.39208984375,
+                    455.18255615234377,
+                    9369.380859375
                 ],
                 [
-                    8021.1220703125,
-                    458.7685241699219,
-                    9337.94140625
+                    8081.169921875,
+                    455.7431640625,
+                    9359.2958984375
+                ],
+                [
+                    8105.95947265625,
+                    458.529541015625,
+                    9335.798828125
+                ]
+            ]
+        },
+        {
+            "Name": "ZPI Wreck Patrol A",
+            "Persist": 0,
+            "Faction": "Researchers",
+            "Formation": "COLUMN",
+            "FormationLooseness": 0.0,
+            "Loadout": "NBCLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    13760.8984375,
+                    9.25670051574707,
+                    11125.357421875
+                ],
+                [
+                    13775.111328125,
+                    13.047503471374512,
+                    11140.4873046875
+                ],
+                [
+                    13788.0830078125,
+                    15.757000923156739,
+                    11147.2900390625
+                ],
+                [
+                    13793.740234375,
+                    18.456287384033204,
+                    11141.6953125
+                ],
+                [
+                    13796.69921875,
+                    23.8520450592041,
+                    11146.04296875
+                ],
+                [
+                    13794.1650390625,
+                    23.87071418762207,
+                    11132.150390625
+                ],
+                [
+                    13782.6376953125,
+                    21.172687530517579,
+                    11135.99609375
+                ],
+                [
+                    13776.4375,
+                    18.456287384033204,
+                    11141.6083984375
+                ],
+                [
+                    13771.5517578125,
+                    15.757423400878907,
+                    11142.5146484375
+                ],
+                [
+                    13764.787109375,
+                    15.757423400878907,
+                    11136.33203125
+                ],
+                [
+                    13752.2490234375,
+                    15.757423400878907,
+                    11131.59765625
+                ],
+                [
+                    13757.0390625,
+                    15.757423400878907,
+                    11119.9658203125
+                ],
+                [
+                    13779.33203125,
+                    15.757423400878907,
+                    11125.6884765625
+                ],
+                [
+                    13819.6923828125,
+                    13.047847747802735,
+                    11143.15625
+                ],
+                [
+                    13812.5830078125,
+                    13.047847747802735,
+                    11160.0400390625
+                ],
+                [
+                    13795.4296875,
+                    15.757000923156739,
+                    11153.458984375
+                ]
+            ]
+        },
+        {
+            "Name": "ZPI Wreck Patrol B",
+            "Persist": 0,
+            "Faction": "Researchers",
+            "Formation": "COLUMN",
+            "FormationLooseness": 0.0,
+            "Loadout": "NBCLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    13851.9423828125,
+                    1.2494983673095704,
+                    11160.8779296875
+                ],
+                [
+                    13868.708984375,
+                    3.90008544921875,
+                    11161.736328125
+                ],
+                [
+                    13868.255859375,
+                    9.31231689453125,
+                    11160.5654296875
+                ],
+                [
+                    13877.5,
+                    7.821708679199219,
+                    11164.955078125
+                ],
+                [
+                    13868.4228515625,
+                    9.323339462280274,
+                    11163.42578125
+                ],
+                [
+                    13866.8076171875,
+                    12.652997016906739,
+                    11170.9423828125
+                ],
+                [
+                    13828.916015625,
+                    12.687923431396485,
+                    11165.0126953125
+                ],
+                [
+                    13876.732421875,
+                    15.267083168029786,
+                    11173.0126953125
+                ],
+                [
+                    13870.111328125,
+                    12.588235855102539,
+                    11155.810546875
+                ],
+                [
+                    13888.2900390625,
+                    12.601940155029297,
+                    11164.1376953125
+                ],
+                [
+                    13891.0205078125,
+                    15.57481861114502,
+                    11172.458984375
+                ],
+                [
+                    13898.0732421875,
+                    15.697758674621582,
+                    11169.291015625
+                ],
+                [
+                    13890.5,
+                    15.474039077758789,
+                    11162.4091796875
+                ],
+                [
+                    13870.2138671875,
+                    14.953583717346192,
+                    11154.2392578125
+                ],
+                [
+                    13834.8271484375,
+                    12.589176177978516,
+                    11146.9755859375
+                ],
+                [
+                    13849.984375,
+                    15.64736557006836,
+                    11157.712890625
+                ],
+                [
+                    13883.259765625,
+                    12.637453079223633,
+                    11171.181640625
+                ],
+                [
+                    13867.4990234375,
+                    9.335813522338868,
+                    11166.228515625
+                ],
+                [
+                    13867.0458984375,
+                    6.6233720779418949,
+                    11164.5029296875
+                ],
+                [
+                    13858.9638671875,
+                    1.245767593383789,
+                    11162.666015625
+                ]
+            ]
+        },
+        {
+            "Name": "ZPI Wreck Patrol C",
+            "Persist": 0,
+            "Faction": "Researchers",
+            "Formation": "COLUMN",
+            "FormationLooseness": 0.0,
+            "Loadout": "NBCLoadout",
+            "Units": [],
+            "NumberOfAI": -2,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "UseRandomWaypointAsStartPoint": 0,
+            "Waypoints": [
+                [
+                    13848.66796875,
+                    1.2515592575073243,
+                    11160.125
+                ],
+                [
+                    13848.8671875,
+                    3.933605194091797,
+                    11160.20703125
+                ],
+                [
+                    13848.9873046875,
+                    6.644079208374023,
+                    11160.09375
+                ],
+                [
+                    13847.91015625,
+                    9.356407165527344,
+                    11163.791015625
+                ],
+                [
+                    13849.0966796875,
+                    9.302742004394532,
+                    11150.6484375
+                ],
+                [
+                    13832.9267578125,
+                    9.310173034667969,
+                    11146.8369140625
+                ],
+                [
+                    13869.09375,
+                    9.293733596801758,
+                    11156.181640625
+                ],
+                [
+                    13866.2939453125,
+                    9.351362228393555,
+                    11169.701171875
+                ],
+                [
+                    13845.9873046875,
+                    9.375164031982422,
+                    11167.7978515625
+                ],
+                [
+                    13832.94921875,
+                    9.387041091918946,
+                    11165.732421875
+                ],
+                [
+                    13844.77734375,
+                    9.375749588012696,
+                    11167.474609375
+                ],
+                [
+                    13849.017578125,
+                    9.315834045410157,
+                    11153.9375
+                ],
+                [
+                    13849.26171875,
+                    6.637420654296875,
+                    11158.4873046875
+                ],
+                [
+                    13848.845703125,
+                    3.9264888763427736,
+                    11158.4052734375
+                ],
+                [
+                    13848.703125,
+                    1.244455337524414,
+                    11158.3369140625
+                ],
+                [
+                    13831.8466796875,
+                    1.2476062774658204,
+                    11152.572265625
+                ],
+                [
+                    13806.0419921875,
+                    1.6566390991210938,
+                    11145.080078125
+                ],
+                [
+                    13816.3701171875,
+                    1.6566390991210938,
+                    11152.5322265625
+                ],
+                [
+                    13807.8115234375,
+                    1.6566390991210938,
+                    11152.267578125
+                ],
+                [
+                    13844.4404296875,
+                    1.2632055282592774,
+                    11161.4306640625
                 ]
             ]
         }
