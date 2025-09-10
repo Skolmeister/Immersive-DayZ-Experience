@@ -53,28 +53,19 @@
             ]
         },
         {
-            "CategoryName": "Trading",
+            "CategoryName": "Stamina",
             "Rules": [
                 {
-                    "RuleParagraph": "1.1.",
-                    "RuleText": "P2P trading is allowed. You may use the p2p Trader or you can trade in roleplay manner wherever you are."
+                    "RuleParagraph": "Anaerobic stamina (white bar)",
+                    "RuleText": "It's the stamina we know as the game's vanilla stamina that has remained unchanged."
                 },
                 {
-                    "RuleParagraph": "1.2.",
-                    "RuleText": "There are several NPC traders on the map. You can interact with them to sell equipment and earn money and you can buy stuff from them if you have enaugh money and reputation."
-                }
-            ]
-        },
-        {
-            "CategoryName": "Sleep mechanics",
-            "Rules": [
-                {
-                    "RuleParagraph": "1.1.",
-                    "RuleText": "You can put yourself to rest by performing the 'lay down' emote"
+                    "RuleParagraph": "Aerobic stamina (orange bar)",
+                    "RuleText": "This stamina is very slowly depleted (unless, of course, you're a fan of running with 50+ kg on your shoulders), and it also recovers slowly."
                 },
                 {
-                    "RuleParagraph": "1.2.",
-                    "RuleText": "Make sure you're sleeping in a save and warm place, otherwise your character may not be able to replenish"
+                    "RuleParagraph": "Sleep stamina (blue bar)",
+                    "RuleText": "Sleep is consumed continuously while the character is awake. You can put yourself to rest by performing the 'lay down' emote. Make sure you're sleeping in a save and warm place, otherwise your character may not be able to replenish"
                 }
             ]
         },

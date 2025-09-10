@@ -7,7 +7,7 @@
     "InitStockPercent": 20.0,
     "Items": [
         {
-            "ClassName": "makarovij70",
+            "ClassName": "IDE_MakarovIJ70_Red",
             "MaxPriceThreshold": 14500,
             "MinPriceThreshold": 13050,
             "SellPricePercent": -1.0,
@@ -18,7 +18,7 @@
                 "mag_ij70_8rnd"
             ],
             "Variants": [
-                "IDE_MakarovIJ70_Red"
+                "makarovij70"
             ]
         },
         {
@@ -104,7 +104,9 @@
             "SpawnAttachments": [
                 "mag_1911_7rnd"
             ],
-            "Variants": []
+            "Variants": [
+                "engraved1911"
+            ]
         },
         {
             "ClassName": "engraved1911",
@@ -142,7 +144,9 @@
                 "mag_deagle_9rnd"
             ],
             "Variants": [
-                "deagle_gold"
+                "deagle_gold",
+                "TTC_Deagle_Gold",
+                "TTC_Deagle_Gold"
             ]
         },
         {
@@ -187,7 +191,7 @@
             "MaxPriceThreshold": 140000,
             "MinPriceThreshold": 126000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 60,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -200,7 +204,7 @@
             "MaxPriceThreshold": 180000,
             "MinPriceThreshold": 162000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 20,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -297,7 +301,7 @@
 			]
         },
         {
-            "ClassName": "TTC_P320",
+            "ClassName": "IDE_P320",
             "MaxPriceThreshold": 58000,
             "MinPriceThreshold": 52200,
             "SellPricePercent": -1.0,
@@ -327,7 +331,7 @@
             "MaxPriceThreshold": 60000,
             "MinPriceThreshold": 54000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 60,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -366,7 +370,7 @@
             "MaxPriceThreshold": 111000,
             "MinPriceThreshold": 99900,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 60,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -379,7 +383,7 @@
             "MaxPriceThreshold": 56000,
             "MinPriceThreshold": 50400,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 80,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -392,7 +396,7 @@
             "MaxPriceThreshold": 55000,
             "MinPriceThreshold": 49500,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 80,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -403,7 +407,7 @@
             "MaxPriceThreshold": 46000,
             "MinPriceThreshold": 41400,
             "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 80,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -442,9 +446,8 @@
             "Variants": [
 			]
         },
-
         {
-            "ClassName": "Expansion_Taser_Yellow",
+            "ClassName": "Expansion_Taser_Black",
             "MaxPriceThreshold": 19000,
             "MinPriceThreshold": 17100,
             "SellPricePercent": -1.0,
@@ -453,7 +456,7 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "Expansion_Taser_Black"
+                "Expansion_Taser_Yellow"
             ]
         }
     ]

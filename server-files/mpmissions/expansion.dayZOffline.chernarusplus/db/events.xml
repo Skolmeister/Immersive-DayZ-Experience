@@ -993,7 +993,6 @@
             <child lootmax="8" lootmin="5" max="15" min="15" type="StaticObj_PatrolBoat_Military_DE"/>
         </children>
     </event>
-
     <event name="StaticBonfire">
         <nominal>1</nominal>
         <min>1</min>
@@ -1013,7 +1012,7 @@
         </children>
     </event>
     <event name="StaticChristmasTree">
-        <nominal>13</nominal>
+        <nominal>0</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>43200</lifetime>

@@ -76,19 +76,6 @@
                 "BO_Mag_PKM_100rnd"
             ],
             "Variants": []
-        },
-        {
-            "ClassName": "BO_Stoner63A",
-            "MaxPriceThreshold": 142800,
-            "MinPriceThreshold": 128520,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 50,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "BO_Mag_Stoner63_150rnd"
-            ],
-            "Variants": []
         }
     ]
 }

@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 75.0,
     "Items": [
         {
             "ClassName": "ammo_12gapellets",
@@ -98,8 +98,8 @@
         },
         {
             "ClassName": "ammo_45acp",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 120,
+            "MinPriceThreshold": 108,
             "SellPricePercent": 0.9,
             "MaxStockThreshold": 50000,
             "MinStockThreshold": 1,
@@ -298,6 +298,17 @@
             "Variants": []
         },
         {
+            "ClassName": "TTC_Ammo_4630",
+            "MaxPriceThreshold": 170,
+            "MinPriceThreshold": 153,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 25000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "Ammo_57x28",
             "MaxPriceThreshold": 150,
             "MinPriceThreshold": 135,
@@ -321,8 +332,8 @@
         },
         {
             "ClassName": "Ammo_9x21FOX",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 90,
+            "MinPriceThreshold": 81,
             "SellPricePercent": 0.9,
             "MaxStockThreshold": 20000,
             "MinStockThreshold": 1,
@@ -353,11 +364,55 @@
             "Variants": []
         },
         {
+            "ClassName": "Ammo_BO_3006",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 450,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 10000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "Ammo_AE338",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 900,
             "SellPricePercent": 0.9,
             "MaxStockThreshold": 10000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_AE792x57",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 10000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_BO_300WinMag",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 270,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 15000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Ammo_792x33fox",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 225,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 15000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

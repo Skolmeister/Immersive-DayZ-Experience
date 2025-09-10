@@ -6,7 +6,7 @@
     <type name="InediaPain_FirstAidKit_White">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <restock>5</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -17,10 +17,10 @@
         <usage name="Medic"/>
     </type>
     <type name="InediaPain_FirstAidKit_Black">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

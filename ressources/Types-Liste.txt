@@ -1,6 +1,8 @@
 -- AMI --
 
 Psix_Bandage_Advanced
+Psix_Bandage_Improved
+Psix_Bandage_Specional
 Psix_StimPack20HP
 Psix_StimPack40HP
 Psix_StimPack60HP
@@ -601,6 +603,9 @@ MilitaryGear_TortillaBag_Yeger
 
 -- DINGO -- 
 
+Dingo
+Dingo_CZ
+Dingo_CZ_Desert
 DingoDoors_Driver
 DingoDoors_Driver_CZ
 DingoDoors_Driver_CZ_Desert
@@ -621,8 +626,89 @@ DingoDoors_Cargo2_CZ_Desert
 DingoTrunk
 DingoTrunk_CZ
 DingoTrunk_CZ_Desert
-
-FARBEN AUS MOREDINGO FEHLEN !!!
+Dingo_DON_CHKDZ
+Dingo_DON_DARKGREEN
+Dingo_DON_WTR
+Dingo_DON_CDF
+Dingo_DON_CP
+Dingo_DON_UN
+Dingo_DON_CZ_Woodland
+Dingo_DON_CZ_DESERT
+Dingo_DON_GER_DESERT
+DingoHood_DON_CHKDZ
+DingoHood_DON_DARKGREEN
+DingoHood_DON_WTR
+DingoHood_DON_CDF
+DingoHood_DON_CP
+DingoHood_DON_UN
+DingoHood_DON_CZ_Woodland
+DingoHood_DON_CZ_DESERT
+DingoHood_DON_GER_DESERT
+DingoDoors_Cargo2_DON_CHKDZ
+DingoDoors_Cargo2_DON_DARKGREEN
+DingoDoors_Cargo2_DON_WTR
+DingoDoors_Cargo2_DON_CDF
+DingoDoors_Cargo2_DON_CP
+DingoDoors_Cargo2_DON_UN
+DingoDoors_Cargo2_DON_CZ_Woodland
+DingoDoors_Cargo2_DON_CZ_DESERT
+DingoDoors_Cargo2_DON_GER_DESERT
+DingoWheel_DON_CHKDZ
+DingoWheel_DON_DARKGREEN
+DingoWheel_DON_WTR
+DingoWheel_DON_CDF
+DingoWheel_DON_CP
+DingoWheel_DON_UN
+DingoWheel_DON_CZ_Woodland
+DingoWheel_DON_CZ_DESERT
+DingoWheel_DON_GER_DESERT
+DingoDoors_CoDriver_DON_CHKDZ
+DingoDoors_CoDriver_DON_DARKGREEN
+DingoDoors_CoDriver_DON_WTR
+DingoDoors_CoDriver_DON_CDF
+DingoDoors_CoDriver_DON_CP
+DingoDoors_CoDriver_DON_UN
+DingoDoors_CoDriver_DON_CZ_Woodland
+DingoDoors_CoDriver_DON_CZ_DESERT
+DingoDoors_CoDriver_DON_GER_DESERT
+DingoTrunk_DON_CHKDZ
+DingoTrunk_DON_DARKGREEN
+DingoTrunk_DON_WTR
+DingoTrunk_DON_CDF
+DingoTrunk_DON_CP
+DingoTrunk_DON_UN
+DingoTrunk_DON_CZ_Woodland
+DingoTrunk_DON_CZ_DESERT
+DingoTrunk_DON_GER_DESERT
+DingoDoors_Cargo1_DON_CHKDZ
+DingoDoors_Cargo1_DON_DARKGREEN
+DingoDoors_Cargo1_DON_WTR
+DingoDoors_Cargo1_DON_CDF
+DingoDoors_Cargo1_DON_CP
+DingoDoors_Cargo1_DON_UN
+DingoDoors_Cargo1_DON_CZ_Woodland
+DingoDoors_Cargo1_DON_CZ_DESERT
+DingoDoors_Cargo1_DON_GER_DESERT
+DingoDoors_Driver_DON_CHKDZ
+DingoDoors_Driver_DON_DARKGREEN
+DingoDoors_Driver_DON_WTR
+DingoDoors_Driver_DON_CDF
+DingoDoors_Driver_DON_CP
+DingoDoors_Driver_DON_UN
+DingoDoors_Driver_DON_CZ_Woodland
+DingoDoors_Driver_DON_CZ_DESERT
+DingoDoors_Driver_DON_GER_DESERT
+DingoWheel_Ruined
+DingoWheel_CZ_Desert_Ruined
+DingoWheel_DON_CHKDZ_Ruined
+DingoWheel_DON_DARKGREEN_Ruined
+DingoWheel_DON_WTR_Ruined
+DingoWheel_DON_CDF_Ruined
+DingoWheel_DON_CP_Ruined
+DingoWheel_DON_UN_Ruined
+DingoWheel_DON_CZ_Woodland_Ruined
+DingoWheel_DON_CZ_DESERT_Ruined
+DingoWheel_DON_GER_DESERT_Ruined
 
 -- DogZ --
 
@@ -645,7 +731,6 @@ dog_shed_big_kit
 
 -- EDO Weapons --
 
-Classname
 BO_AccuPowerOptic
 BO_SOPMODBttstck
 BO_SOPMODBttstck_FDE
@@ -735,6 +820,9 @@ BO_Tigr_Handguard_Original
 BO_Tigr_Handguard_Rail
 BO_Vector
 BO_Mag_Vector_32rnd
+BO_R700Timberwolf
+BO_Mag_R700Timberwolf_8rnd
+
 
 -- Ammo Expansion --
 
@@ -1563,6 +1651,7 @@ Scara_Nomad
 Scara_Bowie
 Scara_Falchion
 Scara_Gut
+Scara_Ursus
 
 -- MFP --
 

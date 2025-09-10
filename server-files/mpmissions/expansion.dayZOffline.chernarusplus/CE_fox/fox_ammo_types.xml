@@ -236,10 +236,10 @@
         <value name="Tier2"/>
     </type>
     <type name="9x18_exp_AmmoBox_50rnd">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -387,10 +387,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="792x33fox_AmmoBox_30rnd">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

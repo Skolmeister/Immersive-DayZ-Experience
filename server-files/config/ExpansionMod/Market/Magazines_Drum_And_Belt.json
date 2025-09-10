@@ -1,0 +1,178 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_CATEGORY_MAGAZINES_DRUM_AND_BELT",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 30.0,
+    "Items": [
+        {
+            "ClassName": "mag_saiga_drum20rnd",
+            "MaxPriceThreshold": 14500,
+            "MinPriceThreshold": 13050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "mag_akm_drum75rnd",
+            "MaxPriceThreshold": 21750,
+            "MinPriceThreshold": 19575,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOX_Mag_UZI_50Rnd",
+            "MaxPriceThreshold": 9300,
+            "MinPriceThreshold": 8370,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOX_Mag_UZI_50Rnd_Green",
+                "FOX_Mag_UZI_50Rnd_Tan",
+                "FOX_Mag_UZI_50Rnd_Snow"
+            ]
+        },
+        {
+            "ClassName": "TTC_DMR_556Stanag_100rnd",
+            "MaxPriceThreshold": 26675,
+            "MinPriceThreshold": 24007,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TTC_DMR_556Stanag_100rnd_Camo",
+                "TTC_DMR_556Stanag_100rnd_Digitan",
+                "TTC_DMR_556Stanag_100rnd_Tan",
+                "TTC_DMR_556Stanag_100rnd_UPC"
+            ]
+        },
+        {
+            "ClassName": "TTC_DMR_556Pmag_100rnd",
+            "MaxPriceThreshold": 29000,
+            "MinPriceThreshold": 26100,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TTC_DMR_556Pmag_100rnd_Camo",
+                "TTC_DMR_556Pmag_100rnd_Digitan",
+                "TTC_DMR_556Pmag_100rnd_Tan",
+                "TTC_DMR_556Pmag_100rnd_UPC"
+            ]
+        },
+        {
+            "ClassName": "TTC_AKMod_762x54_65rnd",
+            "MaxPriceThreshold": 26675,
+            "MinPriceThreshold": 24007,
+            "SellPricePercent": 0.9,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOX_Mag_AK74_75rnd",
+            "MaxPriceThreshold": 19500,
+            "MinPriceThreshold": 17550,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 150,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Mag_Thompson_100rnd",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "IDE_Mag_MG3_100rnd",
+            "MaxPriceThreshold": 37500,
+            "MinPriceThreshold": 33750,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Mag_U100_100rnd",
+            "MaxPriceThreshold": 28000,
+            "MinPriceThreshold": 25200,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Mag_PKM_100rnd",
+            "MaxPriceThreshold": 37500,
+            "MinPriceThreshold": 33750,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Mag_Stoner63_150rnd",
+            "MaxPriceThreshold": 37000,
+            "MinPriceThreshold": 33300,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Mag_RPK16_96rnd",
+            "MaxPriceThreshold": 27280,
+            "MinPriceThreshold": 24552,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Mag_GEN2_100rnd",
+            "MaxPriceThreshold": 26675,
+            "MinPriceThreshold": 24007,
+            "SellPricePercent": -1,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

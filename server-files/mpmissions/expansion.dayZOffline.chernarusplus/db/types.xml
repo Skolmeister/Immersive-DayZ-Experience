@@ -7393,7 +7393,7 @@
         <usage name="Lunapark" />
     </type>
     <type name="FirstAidKit">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -12959,10 +12959,10 @@
         <value name="Tier4" />
     </type>
     <type name="Mag_M14_20Rnd">
-        <nominal>12</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>30</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
