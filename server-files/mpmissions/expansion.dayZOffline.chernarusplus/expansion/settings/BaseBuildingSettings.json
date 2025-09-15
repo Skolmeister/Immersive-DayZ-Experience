@@ -8,8 +8,43 @@
         "TerritoryFlagKit",
         "MediumTent",
         "LargeTent",
+        "MilitaryGear_LargeTent_ATACS",
+        "MilitaryGear_LargeTent_CADPAT",
+        "MilitaryGear_LargeTent_DPM",
+        "MilitaryGear_LargeTent_Duckhunter",
+        "MilitaryGear_LargeTent_FLT",
+        "MilitaryGear_LargeTent_MPAT",
+        "MilitaryGear_LargeTent_Multicam",
+        "MilitaryGear_LargeTent_Partizan",
+        "MilitaryGear_LargeTent_PartizanM",
+        "MilitaryGear_LargeTent_Skol",
+        "MilitaryGear_LargeTent_Splinter",
+        "MilitaryGear_LargeTent_Splinter_Dark",
+        "MilitaryGear_LargeTent_Tiger",
+        "MilitaryGear_LargeTent_Tropic",
+        "MilitaryGear_LargeTent_Woodland",
+        "MilitaryGear_LargeTent_Yeger",
         "CarTent",
+        "MilitaryGear_CarTent_ATACS",
+        "MilitaryGear_CarTent_CADPAT",
+        "MilitaryGear_CarTent_DPM",
+        "MilitaryGear_CarTent_Duckhunter",
+        "MilitaryGear_CarTent_FLT",
+        "MilitaryGear_CarTent_MPAT",
+        "MilitaryGear_CarTent_Multicam",
+        "MilitaryGear_CarTent_Partizan",
+        "MilitaryGear_CarTent_PartizanM",
+        "MilitaryGear_CarTent_Skol",
+        "MilitaryGear_CarTent_Splinter",
+        "MilitaryGear_CarTent_Splinter_Dark",
+        "MilitaryGear_CarTent_Tiger",
+        "MilitaryGear_CarTent_Tropic",
+        "MilitaryGear_CarTent_Woodland",
+        "MilitaryGear_CarTent_Yeger",
         "PartyTent",
+        "partytent_blue",
+        "partytent_brown",
+        "partytent_lunapark",
         "ExpansionCamoTentKit",
         "ExpansionCamoBoxKit",
         "ShelterKit",
@@ -24,7 +59,28 @@
         "ExpansionSafeSmall",
         "SeaChest",
         "WoodenCrate",
-        "GardenPlot"
+        "GardenPlot",
+        "WG_AdventurerTent_Kit",
+        "WG_CampingTent_Blue_Kit",
+        "WG_CampingTent_Gray_Kit",
+        "Msp_SleepingBag_Green",
+        "Msp_SleepingBag_Blue",
+        "Msp_SleepingBag_LimeGreen",
+        "Msp_SleepingBag_Orange",
+        "Msp_SleepingBag_Purple",
+        "Msp_SleepingBag_Red",
+        "Msp_Mattress_Blue",
+        "Msp_Mattress_Green",
+        "Msp_Mattress_Pink",
+        "Msp_Mattress_Yellow",
+        "FC_Fish_Tent_Bag_Green",
+        "FC_Fish_Tent_Bag_Blue",
+        "FC_Fish_Tent_Bag_Big_Camo",
+        "FC_Fish_Tent_Bag_Big_Yellow",
+        "FC_Fish_Tent_Bag_Big_Green",
+        "FC_Fish_Tent_Bag_Big_Blue",
+        "FC_Fish_Tent_Bag_Big_Black",
+        "FC_Fish_Tent_Bag_Big_Grey"
     ],
     "DeployableInsideAEnemyTerritory": [
         "ExpansionSatchel",
@@ -53,10 +109,25 @@
     "BuildZoneRequiredCustomMessage": "You mustn't build here!",
     "Zones": [
         {
-            "Name": "",
+            "Name": "Black Market Zenit",
             "Center": [
+                8088.37,
+                459.357,
+                9327.99
             ],
-            "Radius": 0.0,
+            "Radius": 600.0,
+            "Items": [],
+            "IsWhitelist": 1,
+            "CustomMessage": "You can't build here: too close to the trader."
+        },
+        {
+            "Name": "Tisy Military",
+            "Center": [
+                1676.61,
+                531.45,
+                14110.61
+            ],
+            "Radius": 1000.0,
             "Items": [
                 "Fireplace",
                 "LandMineTrap",
@@ -68,23 +139,16 @@
                 "ExplosivesBase"
             ],
             "IsWhitelist": 1,
-            "CustomMessage": ""
+            "CustomMessage": "You can't build so close to Tisy Military."
         },
         {
-            "Name": "",
+            "Name": "NWAF",
             "Center": [
+                4377.57,
+                386.14,
+                10568.08
             ],
-            "Radius": 0.0,
-            "Items": [
-            ],
-            "IsWhitelist": 1,
-            "CustomMessage": ""
-        },
-        {
-            "Name": "",
-            "Center": [
-            ],
-            "Radius": 440.0,
+            "Radius": 1700.0,
             "Items": [
                 "Fireplace",
                 "LandMineTrap",
@@ -96,7 +160,112 @@
                 "ExplosivesBase"
             ],
             "IsWhitelist": 1,
-            "CustomMessage": ""
+            "CustomMessage": "You can't set up camp so close to the airfield."
+        },
+        {
+            "Name": "Zelenogorsk Military",
+            "Center": [
+                2413.531,
+                190.15,
+                5117.86
+            ],
+            "Radius": 380.0,
+            "Items": [
+                "Fireplace",
+                "LandMineTrap",
+                "BearTrap",
+                "FishNetTrap",
+                "RabbitSnareTrap",
+                "SmallFishTrap",
+                "TripwireTrap",
+                "ExplosivesBase"
+            ],
+            "IsWhitelist": 1,
+            "CustomMessage": "You can't set up camp so close to the Military Base."
+        },
+        {
+            "Name": "Pavlovo Military Base",
+            "Center": [
+                2143.88,
+                92.66,
+                3395.68
+            ],
+            "Radius": 600.0,
+            "Items": [
+                "Fireplace",
+                "LandMineTrap",
+                "BearTrap",
+                "FishNetTrap",
+                "RabbitSnareTrap",
+                "SmallFishTrap",
+                "TripwireTrap",
+                "ExplosivesBase"
+            ],
+            "IsWhitelist": 1,
+            "CustomMessage": "You can't set up camp so close to the Military Base."
+        },
+        {
+            "Name": "Chernogorsk West Military Camp",
+            "Center": [
+                7266.31,
+                26.39,
+                3040.09
+            ],
+            "Radius": 250.0,
+            "Items": [
+                "Fireplace",
+                "LandMineTrap",
+                "BearTrap",
+                "FishNetTrap",
+                "RabbitSnareTrap",
+                "SmallFishTrap",
+                "TripwireTrap",
+                "ExplosivesBase"
+            ],
+            "IsWhitelist": 1,
+            "CustomMessage": "You can't set up camp so close to the West Camp."
+        },
+        {
+            "Name": "Kamensk Military",
+            "Center": [
+                7900.83,
+                343.47,
+                14693.09
+            ],
+            "Radius": 700.0,
+            "Items": [
+                "Fireplace",
+                "LandMineTrap",
+                "BearTrap",
+                "FishNetTrap",
+                "RabbitSnareTrap",
+                "SmallFishTrap",
+                "TripwireTrap",
+                "ExplosivesBase"
+            ],
+            "IsWhitelist": 1,
+            "CustomMessage": "You can't set up camp so close to the Military Base."
+        },
+        {
+            "Name": "VMC",
+            "Center": [
+                4523.75,
+                316.23,
+                8279.23
+            ],
+            "Radius": 500.0,
+            "Items": [
+                "Fireplace",
+                "LandMineTrap",
+                "BearTrap",
+                "FishNetTrap",
+                "RabbitSnareTrap",
+                "SmallFishTrap",
+                "TripwireTrap",
+                "ExplosivesBase"
+            ],
+            "IsWhitelist": 1,
+            "CustomMessage": "You can't set up camp so close to the Military Base."
         }
     ],
     "ZonesAreNoBuildZones": 1,
