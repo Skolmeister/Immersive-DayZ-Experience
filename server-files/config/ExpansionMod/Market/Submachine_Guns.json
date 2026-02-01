@@ -115,7 +115,9 @@
                 "mag_mp5_30rnd"
             ],
             "Variants": [
-                "BO_MP5MPA2_FDE"
+                "BO_MP5MPA2_FDE",
+                "BO_MP5RailA2",
+                "BO_MP5RailA2_FDE"
             ]
         },
         {
@@ -137,7 +139,7 @@
             "ClassName": "TTC_MPX",
             "MaxPriceThreshold": 95000,
             "MinPriceThreshold": 85500,
-            "SellPricePercent": -1.0,
+            "SellPricePercent": 0.45,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -188,7 +190,7 @@
             "ClassName": "BO_Tec9",
             "MaxPriceThreshold": 82000,
             "MinPriceThreshold": 73800,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -201,7 +203,7 @@
             "ClassName": "BO_Thompson",
             "MaxPriceThreshold": 68000,
             "MinPriceThreshold": 61200,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -214,7 +216,7 @@
             "ClassName": "BO_Vector",
             "MaxPriceThreshold": 299000,
             "MinPriceThreshold": 269100,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 30,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -228,7 +230,7 @@
             "ClassName": "VIKHR",
             "MaxPriceThreshold": 151200,
             "MinPriceThreshold": 136080,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -241,7 +243,7 @@
             "ClassName": "BO_KH9",
             "MaxPriceThreshold": 120000,
             "MinPriceThreshold": 108000,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 25,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

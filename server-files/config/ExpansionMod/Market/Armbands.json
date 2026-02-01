@@ -227,6 +227,17 @@
             "Variants": []
         },
         {
+            "ClassName": "armband_crook",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "armband_dayz",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 900,
@@ -337,6 +348,17 @@
             "Variants": []
         },
         {
+            "ClassName": "armband_rex",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "armband_rooster",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 900,
@@ -395,6 +417,17 @@
             "ClassName": "armband_wolf",
             "MaxPriceThreshold": 2000,
             "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "armband_zagorky",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -569,8 +602,8 @@
         },
         {
             "ClassName": "armband_expansion_russia",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -591,17 +624,6 @@
         },
         {
             "ClassName": "armband_expansion_usa",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "armband_expansion_scottish",
             "MaxPriceThreshold": 2000,
             "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
@@ -635,6 +657,17 @@
         },
         {
             "ClassName": "armband_expansion_denmark",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "armband_expansion_scotland",
             "MaxPriceThreshold": 2000,
             "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
@@ -690,8 +723,8 @@
         },
         {
             "ClassName": "armband_expansion_japan",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -701,8 +734,8 @@
         },
         {
             "ClassName": "armband_expansion_china",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -723,8 +756,8 @@
         },
         {
             "ClassName": "armband_expansion_un",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -734,8 +767,8 @@
         },
         {
             "ClassName": "armband_expansion_nato",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -1042,8 +1075,8 @@
         },
         {
             "ClassName": "armband_expansion_red",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -1053,8 +1086,8 @@
         },
         {
             "ClassName": "armband_expansion_blue",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -1064,8 +1097,8 @@
         },
         {
             "ClassName": "armband_expansion_green",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -1075,8 +1108,8 @@
         },
         {
             "ClassName": "armband_expansion_yellow",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -1086,8 +1119,8 @@
         },
         {
             "ClassName": "armband_expansion_orange",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -1097,8 +1130,8 @@
         },
         {
             "ClassName": "armband_expansion_pink",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -1108,8 +1141,8 @@
         },
         {
             "ClassName": "armband_expansion_purple",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,

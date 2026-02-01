@@ -12,8 +12,8 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_PatrolNormal_Autumn"/>
-            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="CZ_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="CZ_PatrolNormal_Flat"/>
             <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_PatrolNormal_PautRev"/>
             <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_PatrolNormal_Summer"/>
             <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_RCZ_SoldierNormal"/>

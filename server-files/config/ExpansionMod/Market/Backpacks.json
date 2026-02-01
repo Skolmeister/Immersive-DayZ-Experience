@@ -21,17 +21,6 @@
             ]
         },
         {
-            "ClassName": "childbag_green",
-            "MaxPriceThreshold": 9000,
-            "MinPriceThreshold": 8100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "drybag_orange",
             "MaxPriceThreshold": 30000,
             "MinPriceThreshold": 27000,
@@ -572,6 +561,18 @@
                 "Nomadbackpack_v3_AoR2",
                 "Nomadbackpack_v3_Woodland",
                 "Nomadbackpack_v3_Winter"
+            ]
+        },
+                {
+            "ClassName": "loop_Marching_backpackp",
+            "MaxPriceThreshold": 380000,
+            "MinPriceThreshold": 342000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
             ]
         }
     ]

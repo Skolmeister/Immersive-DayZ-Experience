@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_IDE_MARKET_TRADER_BASEBUILDING",
-    "MinRequiredReputation": 5000,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
@@ -13,14 +13,29 @@
     "DisplayCurrencyName": "",
     "Categories": [
         "Gardening",
-        "Tools",
-        "Construction",
+        "Construction_Material",
+        "Base_Building_Kits",
+        "Decoration",
         "Locks",
         "Furnishings",
         "Flags"
     ],
     "Items": {
         "BBP_TapeMeasure": 1,
-        "BBP_Blueprint": 1
+        "BBP_Blueprint": 1,
+        "screwdriver": 1,
+        "wrench": 1,
+        "pliers": 1,
+        "hammer": 1,
+        "hacksaw": 1,
+        "handsaw": 1,
+        "hatchet": 1,
+        "shovel": 1,
+        "pickaxe": 1,
+        "sledgehammer": 1,
+        "woodaxe": 1,
+        "firefighteraxe": 1,
+        "blowtorch": 1,
+        "expansionpropanetorch": 1
     }
 }

@@ -726,7 +726,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_Santa"/>
         </children>
@@ -941,8 +941,8 @@
         </children>
     </event>
         <event name="StaticAmbulance">
-        <nominal>10</nominal>
-        <min>8</min>
+        <nominal>5</nominal>
+        <min>4</min>
         <max>10</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
@@ -960,9 +960,9 @@
     </event>
 
         <event name="StaticBoatFishing">
-        <nominal>15</nominal>
-        <min>0</min>
-        <max>0</max>
+        <nominal>3</nominal>
+        <min>1</min>
+        <max>5</max>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -977,9 +977,9 @@
         </children>
     </event>
     <event name="StaticBoatMilitary">
-        <nominal>15</nominal>
+        <nominal>1</nominal>
         <min>0</min>
-        <max>0</max>
+        <max>3</max>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -1029,9 +1029,9 @@
         </children>
     </event>
     <event name="StaticContaminatedArea">
-        <nominal>0</nominal>
-        <min>4</min>
-        <max>8</max>
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>4</max>
         <lifetime>1500</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
@@ -1082,7 +1082,7 @@
     <event name="StaticHeliCrash">
         <nominal>1</nominal>
         <min>0</min>
-        <max>0</max>
+        <max>2</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -1099,9 +1099,9 @@
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
-        <nominal>5</nominal>
-        <min>0</min>
-        <max>0</max>
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>5</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -1115,9 +1115,9 @@
         <children/>
     </event>
     <event name="StaticPoliceCar">
-        <nominal>10</nominal>
-        <min>0</min>
-        <max>0</max>
+        <nominal>6</nominal>
+        <min>2</min>
+        <max>7</max>
         <lifetime>2500</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1134,9 +1134,9 @@
         </children>
     </event>
     <event name="StaticPoliceSituation">
-        <nominal>5</nominal>
-        <min>0</min>
-        <max>0</max>
+        <nominal>3</nominal>
+        <min>1</min>
+        <max>5</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1183,9 +1183,9 @@
         <children/>
     </event>
     <event name="StaticTrain">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <min>1</min>
-        <max>3</max>
+        <max>5</max>
         <lifetime>5400</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1354,8 +1354,8 @@
         </children>
     </event>
     <event name="VehicleBoat">
-        <nominal>8</nominal>
-        <min>5</min>
+        <nominal>5</nominal>
+        <min>3</min>
         <max>14</max>
         <lifetime>6000</lifetime>
         <restock>0</restock>
@@ -1372,8 +1372,8 @@
         </children>
     </event>
         <event name="VehicleMilitaryBoat">
-        <nominal>8</nominal>
-        <min>6</min>
+        <nominal>2</nominal>
+        <min>1</min>
         <max>8</max>
         <lifetime>6000</lifetime>
         <restock>0</restock>
@@ -1391,7 +1391,7 @@
     </event>
 
     <event name="VehicleCivilianSedan">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>
@@ -1410,7 +1410,7 @@
         </children>
     </event>
     <event name="VehicleHatchback02">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>
@@ -1446,7 +1446,7 @@
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>
@@ -1465,7 +1465,7 @@
         </children>
     </event>
     <event name="VehicleSedan02">
-        <nominal>8</nominal>
+        <nominal>7</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>
@@ -1484,7 +1484,7 @@
         </children>
     </event>
     <event name="VehicleTruck01">
-        <nominal>8</nominal>
+        <nominal>7</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>

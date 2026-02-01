@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "skirt_blue",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 315,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "minidress_pink",
-            "MaxPriceThreshold": 450,
-            "MinPriceThreshold": 405,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 150,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -42,8 +42,8 @@
         },
         {
             "ClassName": "nursedress_blue",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 315,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

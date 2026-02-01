@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "TTC_DMR_RifleFrame",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "MaxPriceThreshold": 274000,
+            "MinPriceThreshold": 246600,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "TTC_AKMod_RifleFrame",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "MaxPriceThreshold": 224000,
+            "MinPriceThreshold": 201600,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "TTC_DMR_Barrel_762",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 190800,
+            "MinPriceThreshold": 171200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "TTC_DMR_Barrel_556",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 190800,
+            "MinPriceThreshold": 171200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
         },
         {
             "ClassName": "TTC_AKMod_Barrel_76239",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 196000,
+            "MinPriceThreshold": 176400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -63,8 +63,8 @@
         },
         {
             "ClassName": "TTC_AKMod_Barrel_76254",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 196000,
+            "MinPriceThreshold": 176400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -74,8 +74,8 @@
         },
         {
             "ClassName": "BO_GlockPDWKit",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 98000,
+            "MinPriceThreshold": 88200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

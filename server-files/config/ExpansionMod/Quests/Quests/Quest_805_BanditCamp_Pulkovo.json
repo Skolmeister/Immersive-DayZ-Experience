@@ -35,10 +35,10 @@
     "RewardsForGroupOwnerOnly": 0,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
-        10
+        11
     ],
     "QuestTurnInIDs": [
-        10
+        11
     ],
     "IsAchievement": 0,
     "Objectives": [
@@ -55,7 +55,7 @@
     ],
     "QuestColor": -922770176,
     "ReputationReward": 3000,
-    "ReputationRequirement": -1,
+    "ReputationRequirement": 10000,
     "PreQuestIDs": [],
     "RequiredFaction": "",
     "FactionReward": "",
@@ -63,9 +63,7 @@
     "DeleteQuestItems": 1,
     "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
-    "FactionReputationRewards": {
-        "West": 500
-    },
+    "FactionReputationRewards": {},
     "SuppressQuestLogOnCompetion": 0,
     "Active": 1
 }

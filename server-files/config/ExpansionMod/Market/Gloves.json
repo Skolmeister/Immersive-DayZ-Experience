@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "surgicalgloves_blue",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 85,
+            "MinPriceThreshold": 77,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "workinggloves_yellow",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
+            "MaxPriceThreshold": 2295,
+            "MinPriceThreshold": 2066,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -38,8 +38,8 @@
         },
         {
             "ClassName": "workinggloves_black",
-            "MaxPriceThreshold": 3200,
-            "MinPriceThreshold": 2880,
+            "MaxPriceThreshold": 2550,
+            "MinPriceThreshold": 2295,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -49,8 +49,8 @@
         },
         {
             "ClassName": "paddedgloves_brown",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 5100,
+            "MinPriceThreshold": 4590,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -63,8 +63,8 @@
         },
         {
             "ClassName": "leathergloves_brown",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1800,
+            "MaxPriceThreshold": 3400,
+            "MinPriceThreshold": 3060,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -78,8 +78,8 @@
         },
         {
             "ClassName": "tacticalgloves_black",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3600,
+            "MaxPriceThreshold": 3400,
+            "MinPriceThreshold": 3060,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -93,8 +93,8 @@
         },
         {
             "ClassName": "omnogloves_gray",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3600,
+            "MaxPriceThreshold": 3825,
+            "MinPriceThreshold": 3060,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -106,8 +106,8 @@
         },
         {
             "ClassName": "woolgloves_green",
-            "MaxPriceThreshold": 4800,
-            "MinPriceThreshold": 4320,
+            "MaxPriceThreshold": 4080,
+            "MinPriceThreshold": 3672,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -121,8 +121,8 @@
         },
         {
             "ClassName": "woolglovesfingerless_green",
-            "MaxPriceThreshold": 3800,
-            "MinPriceThreshold": 3420,
+            "MaxPriceThreshold": 3230,
+            "MinPriceThreshold": 2907,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -134,10 +134,10 @@
                 "woolglovesfingerless_white"
             ]
         },
-                {
+        {
             "ClassName": "SkiGloves_90s",
-            "MaxPriceThreshold": 5800,
-            "MinPriceThreshold": 5220,
+            "MaxPriceThreshold": 4930,
+            "MinPriceThreshold": 4437,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -148,38 +148,37 @@
                 "SkiGloves_Red"
             ]
         },
-                {
+        {
             "ClassName": "SkiGloves_90s",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 5100,
+            "MinPriceThreshold": 4590,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-            ]
+            "Variants": []
         },
         {
             "ClassName": "FOG_Tactical_Fingerless_Gloves_Black",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "MaxPriceThreshold": 4250,
+            "MinPriceThreshold": 3825,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_Tactical_Fingerless_Gloves_Green",
-				"FOG_Tactical_Fingerless_Gloves_Tan",
-				"FOG_Tactical_Fingerless_Gloves_MC",
+                "FOG_Tactical_Fingerless_Gloves_Green",
+                "FOG_Tactical_Fingerless_Gloves_Tan",
+                "FOG_Tactical_Fingerless_Gloves_MC",
                 "FOG_Tactical_Fingerless_Gloves_Red"
-			]
+            ]
         },
         {
             "ClassName": "FOG_GunGloves_Tan",
-            "MaxPriceThreshold": 5800,
-            "MinPriceThreshold": 5220,
+            "MaxPriceThreshold": 4930,
+            "MinPriceThreshold": 4437,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -198,8 +197,8 @@
         },
         {
             "ClassName": "FOG_FerroGloves_Tan",
-            "MaxPriceThreshold": 6200,
-            "MinPriceThreshold": 5580,
+            "MaxPriceThreshold": 5270,
+            "MinPriceThreshold": 4743,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -225,9 +224,47 @@
             ]
         },
         {
+            "ClassName": "FOG_MechanixGloves_Green",
+            "MaxPriceThreshold": 6200,
+            "MinPriceThreshold": 5580,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_MechanixGloves_Black",
+                "FOG_MechanixGloves_RG",
+                "FOG_MechanixGloves_MC",
+                "FOG_MechanixGloves_Black_Words",
+                "FOG_MechanixGloves_Skele"
+            ]
+        },
+        {
+            "ClassName": "FOG_WinterGloves_RG",
+            "MaxPriceThreshold": 6200,
+            "MinPriceThreshold": 5580,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_WinterGloves_Tan",
+                "FOG_WinterGloves_White",
+                "FOG_WinterGloves_Black",
+                "FOG_WinterGloves_CB",
+                "FOG_WinterGloves_RG",
+                "FOG_WinterGloves_MC",
+                "FOG_WinterGloves_MCB",
+                "FOG_WinterGloves_MCAL",
+                "FOG_WinterGloves_Red"
+            ]
+        },
+        {
             "ClassName": "Fingerless_Gloves",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
+            "MaxPriceThreshold": 2550,
+            "MinPriceThreshold": 2295,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -242,8 +279,8 @@
         },
         {
             "ClassName": "Msp_M_BoxingGloves_Red",
-            "MaxPriceThreshold": 4600,
-            "MinPriceThreshold": 4140,
+            "MaxPriceThreshold": 3910,
+            "MinPriceThreshold": 3519,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -254,6 +291,6 @@
                 "Msp_M_BoxingGloves_Blue",
                 "Msp_M_BoxingGloves_Gold"
             ]
-        }        
+        }
     ]
 }

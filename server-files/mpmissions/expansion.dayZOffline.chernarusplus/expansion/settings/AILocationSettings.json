@@ -1,5 +1,5 @@
 {
-    "m_Version": 1,
+    "m_Version": 4,
     "RoamingLocations": [
         {
             "Name": "Settlement_Chernogorsk",
@@ -1990,7 +1990,7 @@
             ],
             "Radius": 100.0,
             "Type": "BigMilitary",
-            "Enabled": 0
+            "Enabled": 1
         },
         {
             "Name": "Local_AF_Krasno (Airfield Krasno)",
@@ -2001,7 +2001,7 @@
             ],
             "Radius": 100.0,
             "Type": "MediumMilitary",
-            "Enabled": 0
+            "Enabled": 1
         },
         {
             "Name": "Local_AF_Vybor (Airfield Vybor)",
@@ -2727,7 +2727,7 @@
             ],
             "Radius": 100.0,
             "Type": "SmallMilitary",
-            "Enabled": 0
+            "Enabled": 1
         },
         {
             "Name": "Local_MB_Novoselki (Novoselki Military)",
@@ -6567,7 +6567,11 @@
         "Land_Boathouse",
         "Land_Mine_Building",
         "Land_Shed_W2",
-        "Land_Tenement_Big"
+        "Land_Tenement_Big",
+        "Land_Misc_Toilet_Mobile",
+        "Land_Ship_Medium2",
+        "Land_Boat_",
+        "Land_Train_Wagon_Box"
     ],
     "NoGoAreas": []
 }

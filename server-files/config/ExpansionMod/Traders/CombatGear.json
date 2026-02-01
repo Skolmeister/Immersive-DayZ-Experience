@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_IDE_MARKET_TRADER_COMBATGEAR",
-    "MinRequiredReputation": 5000,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
@@ -39,6 +39,8 @@
         "LeatherStorageVest_Black": 3,
         "LeatherStorageVest_Brown": 3,
         "LeatherStorageVest_Natural": 3,
-        "ReflexVest": 3
+        "ReflexVest": 3,
+        "dirtbikehelmet_mouthguard": 3,
+        "dirtbikehelmet_visor": 3
     }
 }

@@ -1,15 +1,26 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_MUZZLES",
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SUPPRESSORS",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 30.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "ak_suppressor",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 6300,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 18900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "m4_suppressor",
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +30,8 @@
         },
         {
             "ClassName": "pistolsuppressor",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -28,10 +39,21 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-          {
+        {
+            "ClassName": "makarovPBsuppressor",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "TTC_PistolSuppressor",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 16200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,8 +63,8 @@
         },
         {
             "ClassName": "TTC_AKMod_Suppressor",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 24000,
+            "MinPriceThreshold": 21600,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -52,8 +74,8 @@
         },
         {
             "ClassName": "TTC_DMR_Suppressor",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 30000,
+            "MinPriceThreshold": 27000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -63,23 +85,23 @@
         },
         {
             "ClassName": "TTC_Universal_Suppressor_BLACK",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 30000,
+            "MinPriceThreshold": 27000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"TTC_Universal_Suppressor_CAMO",
-				"TTC_Universal_Suppressor_Tan",
-				"TTC_Universal_Suppressor_Snow"
-			]
+                "TTC_Universal_Suppressor_CAMO",
+                "TTC_Universal_Suppressor_Tan",
+                "TTC_Universal_Suppressor_Snow"
+            ]
         },
         {
             "ClassName": "BO_OspreySuppressor",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 24000,
+            "MinPriceThreshold": 21600,
             "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -91,8 +113,8 @@
         },
         {
             "ClassName": "BO_CorduraSuppressor",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 24000,
+            "MinPriceThreshold": 21600,
             "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -105,8 +127,8 @@
         },
         {
             "ClassName": "BO_LegionSuppressor",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 24000,
+            "MinPriceThreshold": 21600,
             "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -119,8 +141,8 @@
         },
         {
             "ClassName": "BO_TacticalSuppressor",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 6300,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 18900,
             "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -130,8 +152,8 @@
         },
         {
             "ClassName": "BO_BarrettM82Suppressor",
-            "MaxPriceThreshold": 25000,
-            "MinPriceThreshold": 22500,
+            "MaxPriceThreshold": 75000,
+            "MinPriceThreshold": 67500,
             "SellPricePercent": -1,
             "MaxStockThreshold": 20,
             "MinStockThreshold": 1,
@@ -141,8 +163,8 @@
         },
         {
             "ClassName": "BO_HarvesterSuppressor",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 6300,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 18900,
             "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -152,8 +174,8 @@
         },
         {
             "ClassName": "BO_MK23_Suppressor",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 16200,
             "SellPricePercent": -1,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -162,9 +184,9 @@
             "Variants": []
         },
         {
-            "ClassName": "shotgun_Suppressor",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 6300,
+            "ClassName": "FOX_SR1_Suppressor",
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 16200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -173,20 +195,9 @@
             "Variants": []
         },
         {
-            "ClassName": "FOX_SR1_Suppressor",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-                {
             "ClassName": "FOX_APS_Suppressor",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 16200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -194,11 +205,10 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-
         {
             "ClassName": "FOX_45ACP_Suppressor1",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 6300,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 18900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -208,8 +218,8 @@
         },
         {
             "ClassName": "FOX_308_Suppressor",
-            "MaxPriceThreshold": 7000,
-            "MinPriceThreshold": 6300,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 18900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

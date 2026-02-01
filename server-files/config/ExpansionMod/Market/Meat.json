@@ -29,6 +29,17 @@
             "Variants": []
         },
         {
+            "ClassName": "foxsteakmeat",
+            "MaxPriceThreshold": 700,
+            "MinPriceThreshold": 630,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 200,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "boarsteakmeat",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 900,

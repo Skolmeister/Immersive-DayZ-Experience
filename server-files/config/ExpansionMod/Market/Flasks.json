@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 50.0,
     "Items": [
         {
             "ClassName": "canteen",
@@ -21,7 +21,7 @@
             "ClassName": "MFP_HFlask_Base",
             "MaxPriceThreshold": 8000,
             "MinPriceThreshold": 7200,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

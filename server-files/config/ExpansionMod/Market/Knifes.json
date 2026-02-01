@@ -117,17 +117,6 @@
             "Variants": []
         },
         {
-            "ClassName": "sword",
-            "MaxPriceThreshold": 30000,
-            "MinPriceThreshold": 27000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "FOG_Strongarm_Knife",
             "MaxPriceThreshold": 18000,
             "MinPriceThreshold": 14400,

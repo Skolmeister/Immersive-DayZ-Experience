@@ -4,23 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 30.0,
     "Items": [
         {
-            "ClassName": "FC_Fish_Trophy_S_Empty",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "Msp_Shelf_Kit",
-            "MaxPriceThreshold": 18000,
-            "MinPriceThreshold": 16200,
+            "MaxPriceThreshold": 68000,
+            "MinPriceThreshold": 61200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +19,8 @@
         },
         {
             "ClassName": "Msp_WoodenTable_Kit",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -41,85 +30,8 @@
         },
         {
             "ClassName": "Msp_WoodenChair",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_Lamp_Standing_Wood_Kit",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 1620,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_Lamp_Ceiling_Mosaic_Kit",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_RoomDivider_Kit",
-            "MaxPriceThreshold": 1800,
-            "MinPriceThreshold": 1620,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_HousePlant_Philodendron",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_HousePlant_FicusTree",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_Lamp_Standing_Wood_Kit",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_HousePlant_Succulent",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -129,8 +41,8 @@
         },
         {
             "ClassName": "Msp_Gazebo_Kit",
-            "MaxPriceThreshold": 25000,
-            "MinPriceThreshold": 22500,
+            "MaxPriceThreshold": 420000,
+            "MinPriceThreshold": 378000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -140,8 +52,8 @@
         },
         {
             "ClassName": "Msp_StoneFireplace_Kit",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
+            "MaxPriceThreshold": 150000,
+            "MinPriceThreshold": 135000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -151,8 +63,8 @@
         },
         {
             "ClassName": "Msp_FireplaceRailing",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -162,19 +74,8 @@
         },
         {
             "ClassName": "Msp_Stove_Kit",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_DeskClock",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 150000,
+            "MinPriceThreshold": 135000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -184,8 +85,8 @@
         },
         {
             "ClassName": "Msp_Wardrobe_Brown_Kit",
-            "MaxPriceThreshold": 16000,
-            "MinPriceThreshold": 14400,
+            "MaxPriceThreshold": 110000,
+            "MinPriceThreshold": 99000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -198,8 +99,8 @@
         },
         {
             "ClassName": "Msp_GunCabinet_Kit",
-            "MaxPriceThreshold": 16000,
-            "MinPriceThreshold": 14400,
+            "MaxPriceThreshold": 260000,
+            "MinPriceThreshold": 234000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -209,56 +110,8 @@
         },
         {
             "ClassName": "Msp_Bookcase_Kit",
-            "MaxPriceThreshold": 16000,
-            "MinPriceThreshold": 14400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Bear_Beige",
-            "MaxPriceThreshold": 160,
-            "MinPriceThreshold": 144,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "Bear_Dark",
-                "Bear_Pink",
-                "Bear_White"
-            ]
-        },
-        {
-            "ClassName": "Msp_PolarBear",
-            "MaxPriceThreshold": 160,
-            "MinPriceThreshold": 144,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_Mailbox",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Msp_TrashCan",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3600,
+            "MaxPriceThreshold": 60000,
+            "MinPriceThreshold": 54000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -268,27 +121,14 @@
         },
         {
             "ClassName": "Msp_Mannequin_Kit",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 120000,
+            "MinPriceThreshold": 108000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
-        },
-        {
-            "ClassName": "BBP_Carpet_1",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "BBP_Carpet_2"
-            ]
         }
     ]
 }

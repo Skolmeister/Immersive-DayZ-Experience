@@ -1,9 +1,13 @@
 {
-    "AdminsSteamIds": ["76561198035229734"],
+    "AdminsSteamIds": [
+        "76561198035229734",
+        "76561197988931009"
+    ],
     "ShowStaminaWidgetInVehicle": 1,
     "AllowOpenInventoryWhileResting": 1,
     "StaminaGeneralOptions": {
         "IsActive": 1,
+        "NotificationsType": 2.0,
         "RespawnValuePercent": 100.0,
         "WeightOverloadThresholdKg": 50.0,
         "WeightOverloadMultiplierMax": 6.0,
@@ -21,14 +25,13 @@
         "CostPerClimbPercent": -1.8,
         "CostPerMeleeAttackPercent": -0.20,
         "CostPerPushCarApplyForcePercent": -0.05000000074505806,
-        "CostPerMinePercent": -2.5,
-        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -2.5,
-        "CostPerMinePlanksFromWoodenLogPercent": -12.0,
+        "CostPerMinePercent": -7.5,
+        "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -1.5,
+        "CostPerMinePlanksFromWoodenLogPercent": -6.0,
         "CostPerBuildPercent": -1.5,
         "WalkingWeightDebuffBorderKg": 60.0,
-        "MovementRestrictionWeightLimitKg": 120.0,
-        "OneDegreeOfSlopeUpMultiplierPercent": 10.0,
-        "OneDegreeOfSlopeDownMultiplierPercent": 5.0,
+        "OneDegreeOfSlopeUpMultiplierPercent": 7.0,
+        "OneDegreeOfSlopeDownMultiplierPercent": 4.0,
         "SurfaceRoadMultiplier": 0.8999999761581421,
         "SurfaceGrassMultiplier": 1.0,
         "SurfaceGrassTallMultiplier": 1.100000023841858,
@@ -36,6 +39,8 @@
         "SurfaceStoneMultiplier": 1.0,
         "SurfaceSandMultiplier": 1.5,
         "SurfaceWaterMultiplier": 2.0,
+        "SurfaceSnowMultiplier": 1.2000000476837159,
+        "SurfaceOtherMultiplier": 1.0,
         "EpinephrineMultiplier": 0.20000000298023225,
         "AMSEnergyPillsMultiplier": 0.5,
         "MorphineMultiplier": 1.0,
@@ -51,6 +56,7 @@
     },
     "StaminaSleepOptions": {
         "IsActive": 1,
+        "NotificationsType": 2.0,
         "RespawnValuePercent": 100.0,
         "ReductionOfMaximumSleepWhenDaytimePercent": 20.0,
         "ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
@@ -76,7 +82,7 @@
         "CostPerPushCarApplyForcePercent": -0.0010000000474974514,
         "CostPerMinePercent": -0.009999999776482582,
         "CostPerMinePlanksFromPileOfWoodenPlanksPercent": -0.009999999776482582,
-        "CostPerMinePlanksFromWoodenLogPercent": -0.05000000074505806,
+        "CostPerMinePlanksFromWoodenLogPercent": -0.02000000074505806,
         "CostPerBuildPercent": -0.009999999776482582,
         "EpinephrineMultiplier": 0.18000000298023225,
         "MorphineMultiplier": 45.0,
@@ -89,19 +95,50 @@
         "LowThresholdPercent": 20.0,
         "SleepinessThresholdPercent": 50.0
     },
+    "InediaMovementOptions": {
+        "IsActive": 1,
+        "NotificationsType": 2.0,
+        "WeightRestrictionsHandlerIsActive": 1,
+        "WeakSlowdownIfLoadGreaterThanKg": 20.0,
+        "MediumSlowdownIfLoadGreaterThanKg": 35.0,
+        "StrongSlowdownIfLoadGreaterThanKg": 50.0,
+        "ExtremeSlowdownIfLoadGreaterThanKg": 60.0,
+        "ForcedWalkIfLoadGreaterThanKg": 70.0,
+        "MovementRestrictionIfLoadGreaterThanKg": 120.0,
+        "SlopeRestrictionsHandlerIsActive": 1,
+        "WeakSlowdownIfSlopeGreaterThanDegree": 10.0,
+        "MediumSlowdownIfSlopeGreaterThanDegree": 20.0,
+        "StrongSlowdownIfSlopeGreaterThanDegree": 30.0,
+        "ExtremeSlowdownIfSlopeGreaterThanDegree": 40.0,
+        "ForcedWalkIfSlopeGreaterThanDegree": 50.0,
+        "MovementRestrictionIfSlopeGreaterThanDegree": -1.0,
+        "SurfaceRestrictionsHandlerIsActive": 1,
+        "SurfaceRoadSpeedReduction": 0,
+        "SurfaceGrassSpeedReduction": 0,
+        "SurfaceGrassTallSpeedReduction": 1,
+        "SurfaceForestSpeedReduction": 1,
+        "SurfaceStoneSpeedReduction": 0,
+        "SurfaceSandSpeedReduction": 2,
+        "SurfaceWaterSpeedReduction": 2,
+        "SurfaceSnowSpeedReduction": 1,
+        "SurfaceFootwearSpeedImpact": {
+            "Barefoot": -1
+        },
+        "ForcedWalkIfCharacterIsInBush": 1,
+        "BushClasses": {},
+        "CumulativeSpeedReductionIsActive": 1
+    },
     "StaminaStimulants": [
         {
             "ItemClass": "SodaCan_Cola",
             "StaminaGeneralIncreasePercent": 20.0,
             "StaminaSleepIncreasePercent": 15.0
         },
-
         {
             "ItemClass": "SodaCan_Pipsi",
             "StaminaGeneralIncreasePercent": 20.0,
             "StaminaSleepIncreasePercent": 15.0
         },
-
         {
             "ItemClass": "SodaCan_Spite",
             "StaminaGeneralIncreasePercent": 15.0,
@@ -119,8 +156,8 @@
         },
         {
             "ItemClass": "Epinephrine",
-            "StaminaGeneralIncreasePercent": 40.0,
-            "StaminaSleepIncreasePercent": 15.0
+            "StaminaGeneralIncreasePercent": 60.0,
+            "StaminaSleepIncreasePercent": 20.0
         },
         {
             "ItemClass": "Morphine",
@@ -548,583 +585,202 @@
             "StaminaSleepIncreasePercent": -3.0
         },
         {
-            "ItemClass": "DONFOOD_LARGEBAG_COOKIE1",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_BAG_MANDMCRISPY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_BAG_MANDMMILKCHOCOLATE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_BAG_MANDMPEANUTBUTTER",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_BAG_MANDMWILDCHERRY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_KATKIT",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_CARAMEL",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_CHIPSAHOY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_CLASSIC",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_DESSERT",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_IUC",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_NOISETTE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_OREO",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_OREOWHITE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_PEANUTCARAMEL",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_STRAWBERRY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_WAVES",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_CANDYBAR_ILKA_WHITE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_MULLEDWINE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -10.0
-        },
-        {
-            "ItemClass": "DONDRINK_JUICEPACK_CHERRY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_JUICEPACK_APRICOT",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_JUICEPACK_CRANBERRY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_JUICEPACK_GRAPE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_JUICEPACK_MANGO",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_JUICEPACK_CHOKEBERRY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_MONOKOBOX_BLUE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_HONEYBEAR",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_CoconutWater",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_ForestBerryTea",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_MelloYello",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_Monoko",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_KVASS",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_NOTACOLA",
-            "StaminaGeneralIncreasePercent": 20.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_PIPSI",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONDRINK_SlimSodaCan_SPITE",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_BOTTLE_FANTAWINTER",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONDRINK_BOTTLE_MIRINDA",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONDRINK_BOTTLE_PEPSICHRISTMAS",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONDRINK_BOTTLE_PEPSIR",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONDRINK_CAPRISUN_ORANGEANDPEACH",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONDRINK_JUICEBOTTLE_ORANGE",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_ArsenalnoeKlassicheskoe",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_ArsenalnoeTraditsionnoe",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_BaltikaDarkLager",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_BioSpring",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_FantaPeach",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_GladioMiniCranberryPomegranate",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_GladioMiniOrangeMango",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-         },
-        {
-            "ItemClass": "DONFOOD_SodaCan_GladioMiniPearApple",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_IvanovBlackCurrant",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_IvanovCranberry",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MasterfruitCherry",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MasterfruitCranberry",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MasterfruitForestberry",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MasterfruitOrange",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MasterfruitPeach",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MasterfruitPomegranate",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MasterfruitWatermelon",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_NectarCarrot",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_NectarCherry",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_NectarRaspberryApple",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-         },
-        {
-            "ItemClass": "DONFOOD_SodaCan_PomegranateJuice",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_SpriteSugarFree",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_YesTeaLemon",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_YesTeaWildberry",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": 5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_ZhigulyovskoyeLager",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -5.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_WostokPineLemonade",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONFOOD_SodaCan_MelloYello",
-            "StaminaGeneralIncreasePercent": 15.0,
-            "StaminaSleepIncreasePercent": 10.0
-        },
-        {
-            "ItemClass": "DONFOOD_Vodka_PLACEHOLDER",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": -10.0
-        },
-        {
-            "ItemClass": "DONDRINK_BEER_GREEN",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -5.0
-        },
-        {
-            "ItemClass": "DONDRINK_WINEBOTTLE_SANGRIA",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": -10.0
-        },
-        {
-            "ItemClass": "DONDRINK_WINEBOTTLE_QUEENOFNIGHT",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -20.0
-        },
-        {
-            "ItemClass": "DONDRINK_WINEBOTTLE_RUSSKAYALOZA",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": -10.0
-        },
-        {
-            "ItemClass": "DONDRINK_WINEBOTTLE_SUNVALLEY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": -10.0
-        },
-        {
-            "ItemClass": "DONDRINK_WINEBOTTLE_ALMATY",
-            "StaminaGeneralIncreasePercent":10.0,
-            "StaminaSleepIncreasePercent": -10.0
-        },
-        {
-            "ItemClass": "DONDRINK_MULLEDWINE",
-            "StaminaGeneralIncreasePercent": 10.0,
-            "StaminaSleepIncreasePercent": -10.0
-        },
-        {
-            "ItemClass": "DONFOOD_CAN_CHERARMYCANDY",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-         },
-         {
-            "ItemClass": "DONFOOD_CAN_CHERARMYCANDY_Opened",
-            "StaminaGeneralIncreasePercent": 5.0,
-            "StaminaSleepIncreasePercent": 5.0
-         },
-         {
             "ItemClass": "Psix_StimPack20HP",
             "StaminaGeneralIncreasePercent": 20.0,
             "StaminaSleepIncreasePercent": 10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_StimPack40HP",
             "StaminaGeneralIncreasePercent": 40.0,
             "StaminaSleepIncreasePercent": 20.0
-         },
-         {
+        },
+        {
             "ItemClass": "StimPack60HP",
             "StaminaGeneralIncreasePercent": 60.0,
             "StaminaSleepIncreasePercent": 30.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_StimPack80HP",
             "StaminaGeneralIncreasePercent": 80.0,
             "StaminaSleepIncreasePercent": 40.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_StimPack100HP",
             "StaminaGeneralIncreasePercent": 100.0,
             "StaminaSleepIncreasePercent": 50.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_StimPackSecret",
             "StaminaGeneralIncreasePercent": -100.0,
             "StaminaSleepIncreasePercent": -100.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_StimPackFull",
             "StaminaGeneralIncreasePercent": 100.0,
             "StaminaSleepIncreasePercent": 100.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Drink_JackDaniels",
             "StaminaGeneralIncreasePercent": 10.0,
             "StaminaSleepIncreasePercent": -10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Amsterdam_Beer",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -5.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Heineken_Beer",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -5.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Kazelbleat_Chernyi",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -5.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Stalker_Energy",
             "StaminaGeneralIncreasePercent": 30.0,
             "StaminaSleepIncreasePercent": 30.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Barnoe_Beer",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -5.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Jigulevskoe",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -5.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Baltika",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -5.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Jigul1978",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -5.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_PepsiDrink",
             "StaminaGeneralIncreasePercent": 15.0,
             "StaminaSleepIncreasePercent": 10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_DriveEnegry",
             "StaminaGeneralIncreasePercent": 30.0,
             "StaminaSleepIncreasePercent": 25.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Mochakovo",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": 5.0
-         },
-
-         {
+        },
+        {
             "ItemClass": "Psix_BangDrink",
             "StaminaGeneralIncreasePercent": 25.0,
             "StaminaSleepIncreasePercent": 15.0
-         },
-
-         {
+        },
+        {
             "ItemClass": "Psix_Cola",
             "StaminaGeneralIncreasePercent": 20.0,
             "StaminaSleepIncreasePercent": 15.0
-         },
-
-         {
+        },
+        {
             "ItemClass": "Psix_CoolCold",
             "StaminaGeneralIncreasePercent": 30.0,
             "StaminaSleepIncreasePercent": 20.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_EnergyTablets",
             "StaminaGeneralIncreasePercent": 30.0,
             "StaminaSleepIncreasePercent": 25.0
-         },
-         {
+        },
+        {
             "ItemClass": "PsiX_Paracetamol",
             "StaminaGeneralIncreasePercent": -5.0,
             "StaminaSleepIncreasePercent": -10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Tramadol",
             "StaminaGeneralIncreasePercent": -10.0,
             "StaminaSleepIncreasePercent": -15.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Ondansetron",
             "StaminaGeneralIncreasePercent": 1.0,
             "StaminaSleepIncreasePercent": 1.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Cocodamol",
             "StaminaGeneralIncreasePercent": -5.0,
             "StaminaSleepIncreasePercent": -10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Flouxatine",
             "StaminaGeneralIncreasePercent": 15.0,
             "StaminaSleepIncreasePercent": 10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Nutrivital",
             "StaminaGeneralIncreasePercent": 30.0,
             "StaminaSleepIncreasePercent": 10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_VitaminXanax",
             "StaminaGeneralIncreasePercent": -10.0,
             "StaminaSleepIncreasePercent": -30.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Vitamin_ACID",
             "StaminaGeneralIncreasePercent": 20.0,
             "StaminaSleepIncreasePercent": 10.0
-         },
-         {
+        },
+        {
             "ItemClass": "Psix_Vitamin_Oxycodone",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -15.0
-         },
-         {
+        },
+        {
             "ItemClass": "VitaminBottle",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": 5.0
-         },
-         {
+        },
+        {
             "ItemClass": "AMS_Energy",
             "StaminaGeneralIncreasePercent": 30.0,
             "StaminaSleepIncreasePercent": 30.0
-         },
-         {
+        },
+        {
             "ItemClass": "AMS_Narcotics",
             "StaminaGeneralIncreasePercent": 1.0,
             "StaminaSleepIncreasePercent": -90.0
-         },
-         {
+        },
+        {
             "ItemClass": "AMS_Methadone",
             "StaminaGeneralIncreasePercent": 5.0,
             "StaminaSleepIncreasePercent": -25.0
-         },
-         {
+        },
+        {
             "ItemClass": "st_smok_cigare",
             "StaminaGeneralIncreasePercent": -10.0,
             "StaminaSleepIncreasePercent": 25.0
-         }
+        }
+    ],
+    "StaminaLiquidStimulants": [
+        {
+            "LiquidId": 512,
+            "StaminaGeneralIncreasePerLiterPercent": 30.0,
+            "StaminaSleepIncreasePerLiterPercent": 2.0
+        },
+        {
+            "LiquidId": 2048,
+            "StaminaGeneralIncreasePerLiterPercent": 100.0,
+            "StaminaSleepIncreasePerLiterPercent": -50.0
+        }
     ],
     "ComfortablePlaces": [
         {
@@ -1221,47 +877,47 @@
             "ItemClass": "MilitaryGear_CarTent_Tiger",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_LargeTent_Woodland",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_CarTent_Woodland",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_LargeTent_FLT",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_CarTent_FLT",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_LargeTent_DPM",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_CarTent_DPM",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_LargeTent_MPAT",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_CarTent_MPAT",
             "StaminaGeneralMultiplier": 1.0,
             "StaminaSleepMultiplier": 2.0
-        },        
+        },
         {
             "ItemClass": "MilitaryGear_LargeTent_Partizan",
             "StaminaGeneralMultiplier": 1.0,
@@ -1410,9 +1066,1829 @@
     ],
     "Clothes": [
         {
-            "ItemClass": "RadarCap_ColorBase",
-            "StaminaGeneralMultiplier": 1.0,
+            "ItemClass": "WoolCoat_Beige",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_Black",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_BlackCheck",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_Blue",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_BlueCheck",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_BrownCheck",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_Green",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_GreyCheck",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_Red",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "WoolCoat_RedCheck",
+            "StaminaGeneralMultiplier": 1.1,
+            "StaminaSleepMultiplier": 1.1
+        },
+        {
+            "ItemClass": "Chainmail",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 0.9
+        },
+        {
+            "ItemClass": "GreatHelm",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 0.9
+        },
+        {
+            "ItemClass": "ChestPlate",
+            "StaminaGeneralMultiplier": 1.2,
             "StaminaSleepMultiplier": 1.0
+        },
+        {
+            "ItemClass": "gasmask",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "MilitaryGear_GasMask_Black",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "MilitaryGear_GasMask_Brown",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "MilitaryGear_GasMask_Olive",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "gp5gasmask",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "MilitaryGear_GP5GasMask_Black",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "MilitaryGear_GP5GasMask_Brown",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "MilitaryGear_GP5GasMask_Olive",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "FOG_M50_Gasmask_Black",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "FOG_AVONM53_Black",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "FOG_AVONM53_Red",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "FOG_AVONM53_Clear",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "AMS_GasMaskGP21",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "FOG_OpsCore_SOTR",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "airbornemask",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "PMK_5A_Gas_Mask",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.5
+        },
+        {
+            "ItemClass": "athleticshoes_blue",
+            "StaminaGeneralMultiplier": 0.85,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "athleticshoes_brown",
+            "StaminaGeneralMultiplier": 0.85,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "athleticshoes_grey",
+            "StaminaGeneralMultiplier": 0.85,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "athleticshoes_black",
+            "StaminaGeneralMultiplier": 0.85,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "athleticshoes_green",
+            "StaminaGeneralMultiplier": 0.85,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "joggingshoes_black",
+            "StaminaGeneralMultiplier": 0.80,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "joggingshoes_blue",
+            "StaminaGeneralMultiplier": 0.80,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "joggingshoes_red",
+            "StaminaGeneralMultiplier": 0.80,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "joggingshoes_violet",
+            "StaminaGeneralMultiplier": 0.80,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "joggingshoes_white",
+            "StaminaGeneralMultiplier": 0.80,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "sneakers_green",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "sneakers_red",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "sneakers_white",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "sneakers_black",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "sneakers_gray",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "SK8_Sneakers_Black",
+            "StaminaGeneralMultiplier": 0.96,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "SK8_Sneakers_FullBlack",
+            "StaminaGeneralMultiplier": 0.96,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "SK8_Sneakers_Blue",
+            "StaminaGeneralMultiplier": 0.96,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "High_Knee_Sneakers",
+            "StaminaGeneralMultiplier": 0.96,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "High_Knee_Sneakers_Black",
+            "StaminaGeneralMultiplier": 0.96,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_Black",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_Grey",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_RG",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_CB",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_KHK",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_Blue",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_Red",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_MC",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_MCB",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_MCT",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "FOG_DEFCONVans_Shoes_MCAL",
+            "StaminaGeneralMultiplier": 0.95,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "ballerinas_blue",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "ballerinas_red",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.0
+        },
+        {
+            "ItemClass": "ballerinas_white",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "ballerinas_yellow",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "dressshoes_white",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "dressshoes_beige",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "dressshoes_black",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "dressshoes_brown",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "dressshoes_sunburst",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "hikingbootslow_blue",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "hikingbootslow_grey",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "hikingbootslow_beige",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "hikingbootslow_black",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "hikingboots_brown",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "hikingboots_black",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "workingboots_yellow",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "workingboots_grey",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "workingboots_brown",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "workingboots_beige",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "workingboots_green",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "combatboots_beige",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "combatboots_black",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "combatboots_brown",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "combatboots_green",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "combatboots_grey",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "jungleboots_beige",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "jungleboots_black",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "jungleboots_brown",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "jungleboots_green",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "jungleboots_olive",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "wellies_black",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "wellies_brown",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "wellies_grey",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "wellies_green",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "ttskoboots",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "militaryboots_redpunk",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "militaryboots_bluerock",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "militaryboots_beige",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "militaryboots_black",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "militaryboots_brown",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "medievalboots",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Combat_HikingBoots_Brown",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Combat_HikingBoots_Khaki",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Combat_HikingBoots_Grey",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Combat_HikingBoots_Black",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Operator_Boots_Black",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Operator_Boots_CB",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Operator_Boots_RG",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_Black_Socks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_Tan_Socks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_Tan_NoSocks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_Black_NoSocks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_RG_Socks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_RG_NoSocks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_CB_Socks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Zypher_Boots_CB_NoSocks",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Lerch_Boots_Black",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "FOG_Lerch_Boots_Black_Dirty",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "FOG_Lerch_Boots_MC",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "FOG_Lerch_Boots_MCB",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "FOG_Lerch_Boots_Khk",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "FOG_Lerch_Boots_RG",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "FOG_Lerch_Boots_CB",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Flipflops_Colorbase",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Msp_FlipFlops_Yellow",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Msp_FlipFlops_Black",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Msp_FlipFlops_White",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Msp_FlipFlops_Blue",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Msp_FlipFlops_Red",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Msp_FlipFlops_Pink",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Msp_FlipFlops_Purple",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "Kirza_Boots",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "childbag_red",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "childbag_blue",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "childbag_green",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.00
+        },
+        {
+            "ItemClass": "drybag_orange",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "drybag_yellow",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "drybag_blue",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "drybag_black",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "drybag_red",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "drybag_green",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "taloonbag_blue",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "taloonbag_orange",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "taloonbag_violet",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "taloonbag_green",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "assaultbag_green",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "assaultbag_ttsko",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "assaultbag_black",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "assaultbag_winter",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_PartizanM",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Duckhunter",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Multicam",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Splinter",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Tiger",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Woodland",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_FLT",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_DPM",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_MPAT",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Partizan",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Skol",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_ATACS",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_CADPAT",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Tropic",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_AssaultBag_Yeger",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "huntingbag",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "huntingbag_Hannah",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_PartizanM",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Duckhunter",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Multicam",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Splinter",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Tiger",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Woodland",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_FLT",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_DPM",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_MPAT",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Partizan",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Skol",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_ATACS",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_CADPAT",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Tropic",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "MilitaryGear_HuntingBag_Yeger",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "tortillabag",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "TortillaBag_Winter",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "expansiondeserttortilla",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_PartizanM",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Duckhunter",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Multicam",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Splinter",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Tiger",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Woodland",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_FLT",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_DPM",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_MPAT",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Partizan",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Skol",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_ATACS",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_CADPAT",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Tropic",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_TortillaBag_Yeger",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "coyotebag_brown",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "coyotebag_green",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "expansioncoyoteblack",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_PartizanM",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Duckhunter",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Multicam",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Splinter",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Tiger",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Woodland",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_FLT",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_DPM",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_MPAT",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Partizan",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Skol",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_ATACS",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_CADPAT",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Tropic",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_CoyoteBag_Yeger",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "mountainbag_red",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "mountainbag_blue",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "mountainbag_orange",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "mountainbag_green",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_PartizanM",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Duckhunter",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Multicam",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Splinter",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Tiger",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Woodland",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_FLT",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_DPM",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_MPAT",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Partizan",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Skol",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_ATACS",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_CADPAT",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Tropic",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "MilitaryGear_MountainBag_Yeger",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "alicebag_green",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "alicebag_black",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "alicebag_camo",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_PartizanM",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Duckhunter",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Multicam",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Splinter",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Splinter_Dark",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Tiger",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Woodland",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_FLT",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_DPM",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_MPAT",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Partizan",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Skol",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_ATACS",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_CADPAT",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Tropic",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "MilitaryGear_AliceBag_Yeger",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_6ShBagT_Black",
+            "StaminaGeneralMultiplier": 1.14,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_6ShBagT_Green",
+            "StaminaGeneralMultiplier": 1.14,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_6ShBagT_RG",
+            "StaminaGeneralMultiplier": 1.14,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_6ShBagT_CB",
+            "StaminaGeneralMultiplier": 1.14,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_6ShBagT_BlackEMR",
+            "StaminaGeneralMultiplier": 1.14,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_6ShBagT_White",
+            "StaminaGeneralMultiplier": 1.14,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_6ShBagT_EMR_White",
+            "StaminaGeneralMultiplier": 1.14,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_Tan",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_CB",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_RG",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_Black",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_White",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_MC",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_MCAL",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_MCB",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_MCT",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_CommsBag_M81",
+            "StaminaGeneralMultiplier": 1.06,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bergen_Rucksack_Black",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bergen_Rucksack_Green",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bergen_Rucksack_Woodland",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bergen_Rucksack_Multicam",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bergen_Rucksack_ERDL",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_Black",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_CB",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_RG",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_OD",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_Tan",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_Grey",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_MC",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_MCAL",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_MCB",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_DrawBridge_White",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_SATL_MC",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_SATL_RG",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_SATL_CB",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_SATL_KHK",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_SATL_Black",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_SATL_Grey",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "FOG_Bag_F4Terminator",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_F4Terminator_BlackTiger",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_F4Terminator_Black",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_F4Terminator_RG",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_F4Terminator_CB",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_F4Terminator_OD",
+            "StaminaGeneralMultiplier": 1.10,
+            "StaminaSleepMultiplier": 1.04
+        },
+        {
+            "ItemClass": "FOG_Bag_MRASAP_Black",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_MRASAP_Grey",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_MRASAP_RG",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_MRASAP_CB",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_MRASAP_MC",
+            "StaminaGeneralMultiplier": 1.04,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_Black",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_MC",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_RG",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_CB",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_MCB",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_ERDL",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_MCT",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_MCAL",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_OD",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_BlackJack_KHK",
+            "StaminaGeneralMultiplier": 1.12,
+            "StaminaSleepMultiplier": 1.05
+        },
+        {
+            "ItemClass": "FOG_Bag_SSO_Black",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_SSO_Tan",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_SSO_MC",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_SSO_CB",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_SSO_MCB",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_SSO_Toxic",
+            "StaminaGeneralMultiplier": 1.08,
+            "StaminaSleepMultiplier": 1.03
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_Black",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_Puke",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_RG",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_CB",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_RGCB",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_MARPAT",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_ATACSFG",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_DCU",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_ERDL",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "FOG_Bag_Trizip_MC",
+            "StaminaGeneralMultiplier": 1.05,
+            "StaminaSleepMultiplier": 1.02
+        },
+        {
+            "ItemClass": "SurvivorBackpack_Green",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "SurvivorBackpack_Black",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "SurvivorBackpack_Blue",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "SurvivorBackpack_Pink",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "SurvivorBackpack_Red",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "SurvivorBackpack_Yellow",
+            "StaminaGeneralMultiplier": 1.02,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Canvas_Backpack_Base",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Canvas_Backpack_Black",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Canvas_Backpack_White",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Canvas_Backpack_Red",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Canvas_Backpack_Blue",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Canvas_Backpack_Purple",
+            "StaminaGeneralMultiplier": 1.03,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Msp_SlingBackpack_Black",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Msp_SlingBackpack_Green",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Msp_SlingBackpack_Gray",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "Msp_SlingBackpack_Tan",
+            "StaminaGeneralMultiplier": 1.00,
+            "StaminaSleepMultiplier": 1.01
+        },
+        {
+            "ItemClass": "FC_Fish_Bag",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.3
+        },
+        {
+            "ItemClass": "FC_Fish_Bag_Black",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.3
+        },
+        {
+            "ItemClass": "FC_Fish_Bag_Green",
+            "StaminaGeneralMultiplier": 1.2,
+            "StaminaSleepMultiplier": 1.3
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_BaseColor",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Blue",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Teal",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Green",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Grey",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Red",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Yellow",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Black",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_AoR2",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Woodland",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
+        },
+        {
+            "ItemClass": "Nomadbackpack_v3_Winter",
+            "StaminaGeneralMultiplier": 1.16,
+            "StaminaSleepMultiplier": 1.06
         }
     ],
     "HumanPoweredVehicles": [

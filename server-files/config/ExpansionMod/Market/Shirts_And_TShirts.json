@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "tshirt_blue",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 725,
+            "MinPriceThreshold": 653,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -28,8 +28,8 @@
         },
         {
             "ClassName": "tshirt_beige",
-            "MaxPriceThreshold": 550,
-            "MinPriceThreshold": 490,
+            "MaxPriceThreshold": 798,
+            "MinPriceThreshold": 711,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -39,8 +39,8 @@
         },
         {
             "ClassName": "tshirt_grey",
-            "MaxPriceThreshold": 550,
-            "MinPriceThreshold": 490,
+            "MaxPriceThreshold": 798,
+            "MinPriceThreshold": 711,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -50,8 +50,8 @@
         },
         {
             "ClassName": "tshirt_black",
-            "MaxPriceThreshold": 560,
-            "MinPriceThreshold": 500,
+            "MaxPriceThreshold": 812,
+            "MinPriceThreshold": 725,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -63,8 +63,8 @@
         },
         {
             "ClassName": "tshirt_green",
-            "MaxPriceThreshold": 560,
-            "MinPriceThreshold": 500,
+            "MaxPriceThreshold": 812,
+            "MinPriceThreshold": 725,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -74,8 +74,8 @@
         },
         {
             "ClassName": "telnyashkashirt",
-            "MaxPriceThreshold": 700,
-            "MinPriceThreshold": 630,
+            "MaxPriceThreshold": 1015,
+            "MinPriceThreshold": 914,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -85,8 +85,8 @@
         },
         {
             "ClassName": "shirt_bluecheck",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 1305,
+            "MinPriceThreshold": 1175,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -102,8 +102,8 @@
         },
         {
             "ClassName": "shirt_planeblack",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 1305,
+            "MinPriceThreshold": 1175,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -113,8 +113,8 @@
         },
         {
             "ClassName": "shirt_greencheck",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 1305,
+            "MinPriceThreshold": 1175,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -124,8 +124,8 @@
         },
         {
             "ClassName": "medicalscrubsshirt_blue",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 725,
+            "MinPriceThreshold": 653,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -138,8 +138,8 @@
         },
         {
             "ClassName": "chernarussportshirt",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 725,
+            "MinPriceThreshold": 653,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -149,39 +149,39 @@
         },
         {
             "ClassName": "FOG_Cronen_Shirt_Black",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 14500,
+            "MinPriceThreshold": 13050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_Cronen_Shirt_RG",
-				"FOG_Cronen_Shirt_CB",
-				"FOG_Cronen_Shirt_MC"
-			]
+                "FOG_Cronen_Shirt_RG",
+                "FOG_Cronen_Shirt_CB",
+                "FOG_Cronen_Shirt_MC"
+            ]
         },
-		{
+        {
             "ClassName": "FOG_511_Shirt_Flanel",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 11600,
+            "MinPriceThreshold": 10440,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_511_Shirt_Flanel_Black",
-				"FOG_511_Shirt_Flanel_Red",
-				"FOG_511_Shirt_Flanel_Blue",
-				"FOG_511_Shirt_Flanel_Green"
-			]
+                "FOG_511_Shirt_Flanel_Black",
+                "FOG_511_Shirt_Flanel_Red",
+                "FOG_511_Shirt_Flanel_Blue",
+                "FOG_511_Shirt_Flanel_Green"
+            ]
         },
-		{
+        {
             "ClassName": "FOG_Crye_G3_Shirt_Black",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
+            "MaxPriceThreshold": 21750,
+            "MinPriceThreshold": 19575,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -222,12 +222,12 @@
                 "FOG_Crye_G3_Shirt_RTGR",
                 "FOG_Crye_G3_Shirt_UCP",
                 "FOG_Crye_G3_Shirt_White"
-			]
+            ]
         },
-		{
+        {
             "ClassName": "FOG_Tshirt_Black",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 11600,
+            "MinPriceThreshold": 10440,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -257,17 +257,17 @@
                 "FOG_Tshirt_White_Star"
             ]
         },
-		{
+        {
             "ClassName": "FOG_UFJ_Shirt_Black",
-            "MaxPriceThreshold": 9000,
-            "MinPriceThreshold": 8100,
+            "MaxPriceThreshold": 13050,
+            "MinPriceThreshold": 11745,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_UFJ_Shirt_MC",
+                "FOG_UFJ_Shirt_MC",
                 "FOG_UFJ_Shirt_MCB",
                 "FOG_UFJ_Shirt_RG",
                 "FOG_UFJ_Shirt_CB",
@@ -275,12 +275,12 @@
                 "FOG_UFJ_Shirt_ERDL",
                 "FOG_UFJ_Shirt_ERDL_RG",
                 "FOG_UFJ_Shirt_White"
-			]
+            ]
         },
-		{
+        {
             "ClassName": "FOG_RugbyShirt_BLK",
-            "MaxPriceThreshold": 12000,
-            "MinPriceThreshold": 10800,
+            "MaxPriceThreshold": 17400,
+            "MinPriceThreshold": 15660,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -295,17 +295,17 @@
                 "FOG_RugbyShirt_RG"
             ]
         },
-		{
+        {
             "ClassName": "FOG_MTF_Shirt_Black",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 13600,
+            "MaxPriceThreshold": 20300,
+            "MinPriceThreshold": 19720,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_MTF_Shirt_Grey",
+                "FOG_MTF_Shirt_Grey",
                 "FOG_MTF_Shirt_Blue",
                 "FOG_MTF_Shirt_KHK",
                 "FOG_MTF_Shirt_RG",
@@ -316,19 +316,19 @@
                 "FOG_MTF_Shirt_FK",
                 "FOG_MTF_Shirt_TS",
                 "FOG_MTF_Shirt_White"
-			]
+            ]
         },
-		{
+        {
             "ClassName": "FOG_L9Patagonia_Black",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 12600,
+            "MaxPriceThreshold": 20300,
+            "MinPriceThreshold": 18270,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_L9Patagonia_CB",
+                "FOG_L9Patagonia_CB",
                 "FOG_L9Patagonia_RG",
                 "FOG_L9Patagonia_MC",
                 "FOG_L9Patagonia_MCB",
@@ -358,12 +358,12 @@
                 "FOG_L9Patagonia_AOR1",
                 "FOG_L9Patagonia_AOR2",
                 "FOG_L9Patagonia_ALPF"
-			]
+            ]
         },
-		{
+        {
             "ClassName": "FOG_Crye_G2_Shirt_MC",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 9000,
+            "MaxPriceThreshold": 14500,
+            "MinPriceThreshold": 13050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -373,8 +373,8 @@
         },
         {
             "ClassName": "FOG_ButtonUp_Black",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 7200,
+            "MaxPriceThreshold": 11600,
+            "MinPriceThreshold": 10440,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -403,24 +403,24 @@
         },
         {
             "ClassName": "FOG_Shirt_Polo_Black",
-            "MaxPriceThreshold": 4500,
-            "MinPriceThreshold": 4050,
+            "MaxPriceThreshold": 6525,
+            "MinPriceThreshold": 5873,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_Shirt_Polo_Blue",
-				"FOG_Shirt_Polo_NavyBlue",
-				"FOG_Shirt_Polo_OD",
-				"FOG_Shirt_Polo_Trident"
-			]
+                "FOG_Shirt_Polo_Blue",
+                "FOG_Shirt_Polo_NavyBlue",
+                "FOG_Shirt_Polo_OD",
+                "FOG_Shirt_Polo_Trident"
+            ]
         },
         {
             "ClassName": "Layered_Shirt_Base",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
+            "MaxPriceThreshold": 2175,
+            "MinPriceThreshold": 1958,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -435,8 +435,8 @@
         },
         {
             "ClassName": "Medium_Sleeves_Shirt",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 1740,
+            "MinPriceThreshold": 1566,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

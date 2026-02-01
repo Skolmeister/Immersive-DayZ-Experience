@@ -34,7 +34,7 @@
                 "MilitaryGear_SmershBag_Yeger"
             ]
         },
-                {
+        {
             "ClassName": "CourierBag",
             "MaxPriceThreshold": 3000,
             "MinPriceThreshold": 2700,
@@ -44,9 +44,39 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
+                "CourierBag_White",
+                "CourierBag_Chernarus",
+                "CourierBag_Chedaki",
+                "CourierBag_NAPA",
+                "CourierBag_CDF",
+                "CourierBag_Livonia",
+                "CourierBag_Altis",
+                "CourierBag_SSahrani",
+                "CourierBag_NSahrani",
+                "CourierBag_DayZ",
+                "CourierBag_LivoniaArmy",
+                "CourierBag_Bohemia",
+                "CourierBag_APA",
+                "CourierBag_UEC",
+                "CourierBag_Pirates",
+                "CourierBag_Cannibals",
+                "CourierBag_Bear",
+                "CourierBag_Wolf",
+                "CourierBag_BabyDeer",
+                "CourierBag_Rooster",
+                "CourierBag_LivoniaPolice",
+                "CourierBag_CMC",
+                "CourierBag_TEC",
+                "CourierBag_CHEL",
+                "CourierBag_Zenit",
+                "CourierBag_HunterZ",
+                "CourierBag_BrainZ",
+                "CourierBag_Refuge",
+                "CourierBag_RSTA",
+                "CourierBag_Snake"
             ]
         },
-                {
+        {
             "ClassName": "FurCourierBag",
             "MaxPriceThreshold": 3000,
             "MinPriceThreshold": 2700,
@@ -55,10 +85,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-            ]
+            "Variants": []
         },
-                        {
+        {
             "ClassName": "ImprovisedBag",
             "MaxPriceThreshold": 2000,
             "MinPriceThreshold": 1800,
@@ -68,9 +97,38 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
+                "ImprovisedBag_White",
+                "ImprovisedBag_Chernarus",
+                "ImprovisedBag_Chedaki",
+                "ImprovisedBag_NAPA",
+                "ImprovisedBag_CDF",
+                "ImprovisedBag_Livonia",
+                "ImprovisedBag_Altis",
+                "ImprovisedBag_SSahrani",
+                "ImprovisedBag_NSahrani",
+                "ImprovisedBag_DayZ",
+                "ImprovisedBag_LivoniaArmy",
+                "ImprovisedBag_Bohemia",
+                "ImprovisedBag_APA",
+                "ImprovisedBag_UEC",
+                "ImprovisedBag_Pirates",
+                "ImprovisedBag_Cannibals",
+                "ImprovisedBag_Bear",
+                "ImprovisedBag_Wolf",
+                "ImprovisedBag_BabyDeer",
+                "ImprovisedBag_Rooster",
+                "ImprovisedBag_LivoniaPolice",
+                "ImprovisedBag_CMC",
+                "ImprovisedBag_TEC",
+                "ImprovisedBag_CHEL",
+                "ImprovisedBag_Zenit",
+                "ImprovisedBag_HunterZ",
+                "ImprovisedBag_BrainZ",
+                "ImprovisedBag_Refuge",
+                "ImprovisedBag_RSTA",
+                "ImprovisedBag_Snake"
             ]
         },
-
         {
             "ClassName": "slingbag_black",
             "MaxPriceThreshold": 6000,
@@ -127,7 +185,7 @@
                 "armypouch_green"
             ]
         },
-                {
+        {
             "ClassName": "Waterproofbag_orange",
             "MaxPriceThreshold": 6000,
             "MinPriceThreshold": 5400,

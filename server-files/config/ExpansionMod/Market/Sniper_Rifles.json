@@ -30,8 +30,24 @@
             "SpawnAttachments": [
                 "mag_svd_10rnd"
             ],
+            "Variants": [
+                "svd_wooden"
+            ]
+        },
+                {
+            "ClassName": "svd_wooden",
+            "MaxPriceThreshold": 223000,
+            "MinPriceThreshold": 200700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_svd_10rnd"
+            ],
             "Variants": []
         },
+
         {
             "ClassName": "m14",
             "MaxPriceThreshold": 244000,
@@ -83,7 +99,7 @@
 			]
         },
         {
-            "ClassName": "IDE_HKG28",
+            "ClassName": "IDE_G28",
             "MaxPriceThreshold": 389000,
             "MinPriceThreshold": 350100,
             "SellPricePercent": -1.0,
@@ -95,7 +111,7 @@
                 "TTC_ButtstockHK"
             ],
             "Variants": [
-				"IDE_HKG28_Black"
+				"IDE_G28_Black"
 			]
         },
         {
@@ -185,6 +201,22 @@
                 "Mag_SV98_10Rnd"
             ],
             "Variants": []
+        },
+                {
+            "ClassName": "TTC_M110",
+            "MaxPriceThreshold": 366000,
+            "MinPriceThreshold": 329400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "Mag_FAL_20Rnd"
+            ],
+            "Variants": [
+                "TTC_M110_black"
+            ]
         }
+
     ]
 }

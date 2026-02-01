@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_ATTACHMENTS",
-    "MinRequiredReputation": 5000,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
@@ -21,7 +21,8 @@
         "Grips",
         "Weapon_Parts",
         "Rails_And_Ironsights",
-        "Lasers"
+        "Lasers",
+        "Suppressors"
     ],
     "Items": {
         "universallight": 1,
@@ -44,7 +45,6 @@
         "MilitaryGear_GhillieGunWrap_CADPAT": 1,
         "MilitaryGear_GhillieGunWrap_Tropic": 1,
         "MilitaryGear_GhillieGunWrap_Yeger": 1,
-        "MassWinterGhillieWrap": 1,
         "GhillieAtt_Tan": 1,
         "GhillieAtt_Woodland": 1,
         "GhillieAtt_Mossy": 1

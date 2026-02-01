@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "chestholster",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 360,
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "platecarrierholster",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -45,17 +45,13 @@
                 "MilitaryGear_PlateCarrierHolster_ATACS",
                 "MilitaryGear_PlateCarrierHolster_CADPAT",
                 "MilitaryGear_PlateCarrierHolster_Tropic",
-                "MilitaryGear_PlateCarrierHolster_Yeger",
-                "MassPlateCarrierHolster_Black",
-                "MassPlateCarrierHolster_PartizanM",
-                "MassPlateCarrierHolster_Winter",
-                "MassPlateCarrierHolster_ODG"
+                "MilitaryGear_PlateCarrierHolster_Yeger"
             ]
         },
         {
             "ClassName": "nylonknifesheath",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 225,
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -65,8 +61,8 @@
         },
 		{
             "ClassName": "FOG_RTGFB_Holster_Black",
-            "MaxPriceThreshold": 700,
-            "MinPriceThreshold": 630,
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -81,8 +77,8 @@
         },
         {
             "ClassName": "FOG_SAS_Holster_Black",
-            "MaxPriceThreshold": 700,
-            "MinPriceThreshold": 630,
+            "MaxPriceThreshold": 7000,
+            "MinPriceThreshold": 6300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -99,8 +95,8 @@
         },
         {
             "ClassName": "Tactical_Leg_Holster_Black",
-                "MaxPriceThreshold": 950,
-                "MinPriceThreshold": 855,
+                "MaxPriceThreshold": 3500,
+                "MinPriceThreshold": 3150,
                 "SellPricePercent": -1.0,
                 "MaxStockThreshold": 100,
                 "MinStockThreshold": 1,

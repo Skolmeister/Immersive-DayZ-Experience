@@ -96,7 +96,7 @@
             "ClassName": "BO_M32_Tan",
             "MaxPriceThreshold": 220000,
             "MinPriceThreshold": 198000,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

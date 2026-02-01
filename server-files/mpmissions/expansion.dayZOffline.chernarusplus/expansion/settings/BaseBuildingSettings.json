@@ -1,5 +1,5 @@
 {
-    "m_Version": 4,
+    "m_Version": 5,
     "CanBuildAnywhere": 1,
     "AllowBuildingWithoutATerritory": 1,
     "DeployableOutsideATerritory": [
@@ -111,9 +111,9 @@
         {
             "Name": "Black Market Zenit",
             "Center": [
-                8088.37,
-                459.357,
-                9327.99
+                8088.3701171875,
+                459.35699462890627,
+                9327.990234375
             ],
             "Radius": 600.0,
             "Items": [],
@@ -123,9 +123,9 @@
         {
             "Name": "Tisy Military",
             "Center": [
-                1676.61,
-                531.45,
-                14110.61
+                1676.6099853515626,
+                531.4500122070313,
+                14110.6103515625
             ],
             "Radius": 1000.0,
             "Items": [
@@ -144,9 +144,9 @@
         {
             "Name": "NWAF",
             "Center": [
-                4377.57,
-                386.14,
-                10568.08
+                4377.56982421875,
+                386.1400146484375,
+                10568.080078125
             ],
             "Radius": 1700.0,
             "Items": [
@@ -165,9 +165,9 @@
         {
             "Name": "Zelenogorsk Military",
             "Center": [
-                2413.531,
-                190.15,
-                5117.86
+                2413.531005859375,
+                190.14999389648438,
+                5117.85986328125
             ],
             "Radius": 380.0,
             "Items": [
@@ -186,9 +186,9 @@
         {
             "Name": "Pavlovo Military Base",
             "Center": [
-                2143.88,
-                92.66,
-                3395.68
+                2143.8798828125,
+                92.66000366210938,
+                3395.679931640625
             ],
             "Radius": 600.0,
             "Items": [
@@ -207,9 +207,9 @@
         {
             "Name": "Chernogorsk West Military Camp",
             "Center": [
-                7266.31,
-                26.39,
-                3040.09
+                7266.31005859375,
+                26.389999389648439,
+                3040.090087890625
             ],
             "Radius": 250.0,
             "Items": [
@@ -228,9 +228,9 @@
         {
             "Name": "Kamensk Military",
             "Center": [
-                7900.83,
-                343.47,
-                14693.09
+                7900.830078125,
+                343.4700012207031,
+                14693.08984375
             ],
             "Radius": 700.0,
             "Items": [
@@ -250,8 +250,8 @@
             "Name": "VMC",
             "Center": [
                 4523.75,
-                316.23,
-                8279.23
+                316.2300109863281,
+                8279.23046875
             ],
             "Radius": 500.0,
             "Items": [
@@ -272,6 +272,7 @@
     "CodelockAttachMode": 1,
     "DismantleFlagMode": 1,
     "FlagMenuMode": 1,
+    "PreventItemAccessThroughObstructingItems": 1,
     "EnableVirtualStorage": 1,
     "VirtualStorageExcludedContainers": [
         "ExpansionAirdropContainerBase",

@@ -4,12 +4,25 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
-            "ClassName": "brassknuckles_shiny",
+            "ClassName": "brassknuckles_dull",
             "MaxPriceThreshold": 4500,
             "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "brassknuckles_shiny"
+            ]
+        },
+        {
+            "ClassName": "brassknuckles_shiny",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -83,9 +96,18 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-                "Msp_BaseballBat"
-            ]
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_BaseballBat",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         },
         {
             "ClassName": "nailedbaseballbat",
@@ -121,6 +143,17 @@
             "Variants": []
         },
         {
+            "ClassName": "sword",
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "Msp_PlainBat",
             "MaxPriceThreshold": 6000,
             "MinPriceThreshold": 5400,
@@ -131,9 +164,19 @@
             "SpawnAttachments": [],
             "Variants": [
                 "Msp_PlainBat_Blue",
-                "Msp_PlainBat_Black",
-                "Msp_GoodNightBat"
+                "Msp_PlainBat_Black"
             ]
+        },
+        {
+            "ClassName": "Msp_GoodNightBat",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         },
         {
             "ClassName": "Msp_BeanBasher",
@@ -159,6 +202,17 @@
         },
         {
             "ClassName": "Msp_BaseballBat_SawBarbedWire",
+            "MaxPriceThreshold": 9000,
+            "MinPriceThreshold": 8100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_BaseballBat_Chain",
             "MaxPriceThreshold": 8000,
             "MinPriceThreshold": 7200,
             "SellPricePercent": -1.0,
@@ -166,16 +220,45 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-                "Msp_BaseballBat_Chain",
-                "Msp_BaseballBat_Nailed",
-                "Msp_BaseballBat_BarbedWire"
-            ]
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_BaseballBat_Nailed",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Msp_BaseballBat_BarbedWire",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         },
         {
             "ClassName": "Msp_PipeAxe",
             "MaxPriceThreshold": 8000,
             "MinPriceThreshold": 7200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOG_DR_Tomahawk_Standard",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

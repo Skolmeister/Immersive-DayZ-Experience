@@ -139,7 +139,7 @@
             "ClassName": "R12",
             "MaxPriceThreshold": 62000,
             "MinPriceThreshold": 55800,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 80,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

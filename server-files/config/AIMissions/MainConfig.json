@@ -15,7 +15,7 @@
             "Mission_Time_Limit": 2700,
             "Mission_Time_Extension_Limit": 900,
             "Mission_Inner_Radius": 500,
-            "Mission_AI_Spawn_Radius": 1200,
+            "Mission_AI_Spawn_Radius": 1000,
             "Reward_Loot_Weapons_Minimum": 1,
             "Reward_Loot_Weapons_Maximum": 2,
             "Reward_Loot_Weapons_Multiplier": 0.25,
@@ -25,10 +25,10 @@
             "Reward_Loot_Misc_Minimum": 1,
             "Reward_Loot_Misc_Maximum": 5,
             "Reward_Loot_Misc_Multiplier": 0.5,
-            "Text_MissionTitle": "AI Mission",
-            "Notification_StartMessage": "Mission '%1' starting! Eliminate all threats to claim the loot!",
-            "Notification_WinMessage": "Mission '%1' completed! All threats were eliminated!",
-            "Notification_LoseMessage": "Mission '%1' failed! You ran out of time!",
+            "Text_MissionTitle": "Global Event",
+            "Notification_StartMessage": "Event '%1' starting! Eliminate all threats to claim the loot!",
+            "Notification_WinMessage": "Event '%1' completed! All threats were eliminated!",
+            "Notification_LoseMessage": "Event '%1' failed! You ran out of time!",
             "Notification_Time": 20,
             "Notification_Marker": "Soldier",
             "Marker3D_LB_Path": "LBmaster_Groups\\gui\\icons\\player.paa",
@@ -56,8 +56,8 @@
                 338.22406005859377,
                 10472.3916015625
             ],
-            "Bots_Count_Minimum": 8,
-            "Bots_Count_Maximum": 10,
+            "Bots_Count_Minimum": 6,
+            "Bots_Count_Maximum": 8,
             "Bots_Expansion_Loadout": "UrsusLoadout",
             "Bots_Loadout_ID": 1,
             "Bots_Range": 800,
@@ -568,7 +568,7 @@
             "Bots_Damage_Taken_Multiplier": 1.0,
             "Bots_Drop_Loot": 1,
             "Bots_Drop_Weapon": 1,
-            "Is_NBC_Mission": 0,
+            "Is_NBC_Mission": 1,
             "Allow_Crate_Reward": 1,
             "Allow_Vehicle_Reward": 0,
             "Allow_Helicopter_Reward": 0,
@@ -872,76 +872,6 @@
         {
             "Reward_Type": 1,
             "ClassName": "SeaChest",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "woodencrate",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Barrel_Blue",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "barrel_green",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Barrel_red",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Barrel_yellow",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Msp_MilitaryCrate_Brown",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Msp_MilitaryCrate_Grey",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Msp_MilitaryCrate_Green",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Msp_MilitaryCrate_Olive",
-            "Replace_ClassName": "",
-            "Loot_Initial": [],
-            "Loot_Win": []
-        },
-        {
-            "Reward_Type": 1,
-            "ClassName": "Msp_MilitaryCrate_Tan",
             "Replace_ClassName": "",
             "Loot_Initial": [],
             "Loot_Win": []
@@ -1277,7 +1207,7 @@
                     ]
                 },
                 {
-                    "ClassName": "IDE_G36A1",
+                    "ClassName": "IDE_G36C",
                     "Magazine_ClassName": "BO_Mag_PMAGWindow_30rnd",
                     "Attach": [],
                     "Loot": [
@@ -4386,7 +4316,7 @@
                     "Contents": []
                 },
                 {
-                    "ClassName": "InediaPain_Vikasol",
+                    "ClassName": "InediaPain_Tranexam",
                     "Attach": [],
                     "Contents": []
                 },

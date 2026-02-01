@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "bandagedressing",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "disinfectantalcohol",
-            "MaxPriceThreshold": 1380,
-            "MinPriceThreshold": 1242,
+            "MaxPriceThreshold": 13800,
+            "MinPriceThreshold": 12420,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "disinfectantspray",
-            "MaxPriceThreshold": 1350,
-            "MinPriceThreshold": 1215,
+            "MaxPriceThreshold": 13500,
+            "MinPriceThreshold": 12150,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "iodinetincture",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1350,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
         },
         {
             "ClassName": "FOG_Tourniquet",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 9000,
+            "MinPriceThreshold": 8100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -63,6 +63,17 @@
         },
         {
             "ClassName": "AMS_BandageBox",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "AMS_Bandage",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
@@ -73,20 +84,9 @@
             "Variants": []
         },
         {
-            "ClassName": "AMS_Bandage",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "AMS_Absorbent",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -96,8 +96,8 @@
         },
         {
             "ClassName": "AMS_BandageTape",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -107,8 +107,8 @@
         },
         {
             "ClassName": "AMS_AntiSept",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -118,8 +118,8 @@
         },
         {
             "ClassName": "AMS_Tourniquet",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 9000,
+            "MinPriceThreshold": 8100,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -129,8 +129,8 @@
         },
         {
             "ClassName": "AMS_BandAid",
-            "MaxPriceThreshold": 560,
-            "MinPriceThreshold": 504,
+            "MaxPriceThreshold": 5600,
+            "MinPriceThreshold": 5040,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -140,8 +140,8 @@
         },
         {
             "ClassName": "AMS_Ai2",
-            "MaxPriceThreshold": 2200,
-            "MinPriceThreshold": 1980,
+            "MaxPriceThreshold": 22000,
+            "MinPriceThreshold": 19800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -151,8 +151,8 @@
         },
         {
             "ClassName": "Psix_Bandage_Advanced",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 720,
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -164,9 +164,21 @@
             ]
         },
         {
-            "ClassName": "Psix_Bandage_Advanced",
-            "MaxPriceThreshold": 1600,
-            "MinPriceThreshold": 1440,
+            "ClassName": "Psix_Bandage_Specional",
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 16200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+            ]
+        },
+                {
+            "ClassName": "InediaPain_SurgicalKit",
+            "MaxPriceThreshold": 30000,
+            "MinPriceThreshold": 27000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -176,31 +188,7 @@
                 "Psix_Bandage_Advanced",
                 "Psix_Bandage_Specional"
             ]
-        },
-        {
-            "ClassName": "Psix_Bandage_Advanced",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "Psix_Bandage_Advanced",
-                "Psix_Bandage_Specional"
-            ]
-        },
-        {
-            "ClassName": "MassBandageDressingWrapper",
-            "MaxPriceThreshold": 700,
-            "MinPriceThreshold": 630,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
+
     ]
 }

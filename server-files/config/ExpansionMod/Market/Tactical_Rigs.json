@@ -4,30 +4,30 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "FOG_Belt_RTGFB_Black",
-            "MaxPriceThreshold": 2800,
-            "MinPriceThreshold": 2520,
+            "MaxPriceThreshold": 28000,
+            "MinPriceThreshold": 25200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-				"FOG_Belt_RTGFB_CB",
-				"FOG_Belt_RTGFB_MC",
-				"FOG_Belt_RTGFB_RG",
-				"FOG_Belt_RTGFB_AOR1",
-				"FOG_Belt_RTGFB_AOR2",
-				"FOG_Belt_RTGFB_ALP"
-			]
+                "FOG_Belt_RTGFB_CB",
+                "FOG_Belt_RTGFB_MC",
+                "FOG_Belt_RTGFB_RG",
+                "FOG_Belt_RTGFB_AOR1",
+                "FOG_Belt_RTGFB_AOR2",
+                "FOG_Belt_RTGFB_ALP"
+            ]
         },
         {
             "ClassName": "FOG_MRB_Belt_CB",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2700,
+            "MaxPriceThreshold": 30000,
+            "MinPriceThreshold": 27000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -43,12 +43,12 @@
                 "FOG_MRB_Belt_Black",
                 "FOG_MRB_Belt_6CD",
                 "FOG_MRB_Belt_MCT"
-			]
+            ]
         },
         {
             "ClassName": "FOG_BISON_Belt_CB",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 2250,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 22500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -59,6 +59,20 @@
                 "FOG_BISON_Belt_Black",
                 "FOG_BISON_Belt_MC",
                 "FOG_BISON_Belt_MCB"
+            ]
+        },
+        {
+            "ClassName": "FOG_Belt_TacticalFanny_CB",
+            "MaxPriceThreshold": 12500,
+            "MinPriceThreshold": 11250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Belt_TacticalFanny_RG",
+                "FOG_Belt_TacticalFanny_BLK"
             ]
         }
     ]

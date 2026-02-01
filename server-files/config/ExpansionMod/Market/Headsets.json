@@ -8,8 +8,8 @@
     "Items": [
         {
             "ClassName": "FOG_FastMT_RAC_Black",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -21,9 +21,24 @@
             ]
         },
         {
+            "ClassName": "FOG_AMP_Headset_Grey",
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_AMP_Headset_Tan",
+                "FOG_AMP_Headset_Black",
+                "FOG_AMP_Headset_RG"
+            ]
+        },
+        {
             "ClassName": "FOG_AMP_MCBT",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -38,8 +53,8 @@
         },
         {
             "ClassName": "FOG_M32_Helmet_Black",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -51,8 +66,8 @@
         },
         {
             "ClassName": "FOG_Comtac_IV_Black",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -65,8 +80,8 @@
         },
         {
             "ClassName": "FOG_Comtac3_Headphones_Black",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -89,21 +104,37 @@
         },
         {
             "ClassName": "FOG_COMTAC3_Headset_CB",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "FOG_COMTAC3_Headset_RG"
+                "FOG_COMTAC3_Headset_RG",
+                "FOG_COMTAC3_Headset_Black"
+            ]
+        },
+                {
+            "ClassName": "FOG_Comtac4_Headset_Tan",
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_Comtac4_Headset_Black",
+                "FOG_Comtac4_Headset_Grey",
+                "FOG_Comtac4_Headset_RG"
             ]
         },
         {
             "ClassName": "FOG_M32_Headset_Black",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -115,8 +146,8 @@
         },
         {
             "ClassName": "FOG_Ghost_Headset_Tan",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

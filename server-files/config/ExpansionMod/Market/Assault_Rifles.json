@@ -384,7 +384,7 @@
             ]
         },
         {
-            "ClassName": "TTC_MCX_300blk",
+            "ClassName": "IDE_MCX",
             "MaxPriceThreshold": 201600,
             "MinPriceThreshold": 181437,
             "SellPricePercent": -1.0,
@@ -396,22 +396,8 @@
                 "TTC_MPXMCX1_Bttstck"
             ],
             "Variants": [
-                "TTC_MCX_Tan_300blk"
+                "IDE_MCX_Tan"
             ]
-        },
-        {
-            "ClassName": "TTC_MCX_Tan_300blk",
-            "MaxPriceThreshold": 201600,
-            "MinPriceThreshold": 181437,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 25,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "TTC_300Cmag",
-                "TTC_MPXMCX1_Bttstck"
-            ],
-            "Variants": []
         },
         {
             "ClassName": "TTC_ModDMR_556",
@@ -457,8 +443,8 @@
         },
         {
             "ClassName": "TTC_AKModPK",
-            "MaxPriceThreshold": 462000,
-            "MinPriceThreshold": 415800,
+            "MaxPriceThreshold": 420000,
+            "MinPriceThreshold": 377997,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 15,
             "MinStockThreshold": 1,

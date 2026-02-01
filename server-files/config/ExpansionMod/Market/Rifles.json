@@ -26,6 +26,31 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
+            "Variants": [
+                "b95_black",
+                "b95_old"
+            ]
+        },
+        {
+            "ClassName": "b95_black",
+            "MaxPriceThreshold": 55000,
+            "MinPriceThreshold": 49500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "b95_old",
+            "MaxPriceThreshold": 55000,
+            "MinPriceThreshold": 49500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -41,10 +66,23 @@
             ],
             "Variants": []
         },
-        {
+                {
             "ClassName": "repeater",
             "MaxPriceThreshold": 38000,
             "MinPriceThreshold": 34200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "repeater_black"
+            ]
+        },
+        {
+            "ClassName": "repeater_black",
+            "MaxPriceThreshold": 48000,
+            "MinPriceThreshold": 43200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -54,8 +92,8 @@
         },
         {
             "ClassName": "mosin9130",
-            "MaxPriceThreshold": 48000,
-            "MinPriceThreshold": 43200,
+            "MaxPriceThreshold": 68000,
+            "MinPriceThreshold": 61200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -64,8 +102,53 @@
             "Variants": [
                 "mosin9130_green",
                 "mosin9130_black",
-                "mosin9130_camo"
+                "mosin9130_camo",
+                "IDE_Mosin9130_Dark"
             ]
+        },
+        {
+            "ClassName": "mosin9130_camo",
+            "MaxPriceThreshold": 92000,
+            "MinPriceThreshold": 82800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "mosin9130_black",
+            "MaxPriceThreshold": 90000,
+            "MinPriceThreshold": 81000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "mosin9130_green",
+            "MaxPriceThreshold": 90000,
+            "MinPriceThreshold": 81000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "IDE_Mosin9130_Dark",
+            "MaxPriceThreshold": 92000,
+            "MinPriceThreshold": 82800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         },
         {
             "ClassName": "cz527",
@@ -102,6 +185,19 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
+            "Variants": [
+                "winchester70_black"
+            ]
+        },
+        {
+            "ClassName": "winchester70_black",
+            "MaxPriceThreshold": 90000,
+            "MinPriceThreshold": 81000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -126,6 +222,79 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
+            "Variants": [
+                "sks_black",
+                "sks_green",
+                "IDE_SKS_Half"
+            ]
+        },
+        {
+            "ClassName": "sks_black",
+            "MaxPriceThreshold": 112000,
+            "MinPriceThreshold": 100800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "sks_black",
+            "MaxPriceThreshold": 112000,
+            "MinPriceThreshold": 100800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "IDE_SKS_Half",
+            "MaxPriceThreshold": 120000,
+            "MinPriceThreshold": 108000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "IDE_SKS_Dark",
+            "MaxPriceThreshold": 120000,
+            "MinPriceThreshold": 108000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+                {
+            "ClassName": "BO_Winchester1873",
+            "MaxPriceThreshold": 97200,
+            "MinPriceThreshold": 87480,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "FOX_SOK94",
+            "MaxPriceThreshold": 112000,
+            "MinPriceThreshold": 100800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "FOX_SOK94_hndgrd",
+                "FOX_Mag_SOK94_10rnd"
+            ],
             "Variants": []
         },
         {
@@ -139,6 +308,20 @@
             "SpawnAttachments": [],
             "Variants": []
         },
+                {
+            "ClassName": "BO_R700Timberwolf",
+            "MaxPriceThreshold": 220000,
+            "MinPriceThreshold": 198000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 30,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "BO_Mag_R700Timberwolf_8rnd"
+            ],
+            "Variants": []
+        },
+
         {
             "ClassName": "BO_R700",
             "MaxPriceThreshold": 87000,
@@ -150,8 +333,7 @@
             "SpawnAttachments": [
                 "BO_Mag_R700_5rnd"
             ],
-            "Variants": [
-			]
+            "Variants": []
         }
     ]
 }

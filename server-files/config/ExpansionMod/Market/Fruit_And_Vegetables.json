@@ -216,6 +216,17 @@
             "Variants": []
         },
         {
+            "ClassName": "CraterellusMushroom",
+            "MaxPriceThreshold": 250,
+            "MinPriceThreshold": 220,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 500,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "banana",
             "MaxPriceThreshold": 280,
             "MinPriceThreshold": 250,

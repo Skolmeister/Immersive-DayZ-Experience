@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "dirtbikehelmet_mouthguard",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
         },
         {
             "ClassName": "dirtbikehelmet_visor",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 225,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
         },
         {
             "ClassName": "gorkahelmetvisor",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -40,9 +40,9 @@
             "Variants": []
         },
         {
-            "ClassName": "FOG_Airframe_Cover_Black",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "ClassName": "FOG_Airframe_Cover_MC",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -50,7 +50,6 @@
             "SpawnAttachments": [],
             "Variants": [
                 "FOG_Airframe_Cover_CB",
-                "FOG_Airframe_Cover_MC",
                 "FOG_Airframe_Cover_Black",
                 "FOG_Airframe_Cover_MCB",
                 "FOG_Airframe_Cover_RG",
@@ -60,18 +59,18 @@
             ]
         },
         {
-            "ClassName": "FOG_FASTMT_Cover_Black",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "ClassName": "FOG_FASTMT_Cover_AOR1",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
+                "FOG_FASTMT_Cover_Black",
                 "FOG_FASTMT_Cover_MC",
                 "FOG_FASTMT_Cover_MCB",
-                "FOG_FASTMT_Cover_AOR1",
                 "FOG_FASTMT_Cover_AOR2",
                 "FOG_FASTMT_Cover_ALP",
                 "FOG_FASTMT_Cover_RG"
@@ -79,8 +78,8 @@
         },
         {
             "ClassName": "FOG_FastMT_Mandable_Black",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 1080,
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -93,10 +92,11 @@
                 "FOG_FastMT_Mandable_RG"
             ]
         },
+
         {
             "ClassName": "FOG_FC_Torus_BattPack_Black",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 720,
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -112,8 +112,8 @@
         },
         {
             "ClassName": "FOG_SF_BatteryPack_Black",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 720,
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -128,8 +128,8 @@
         },
         {
             "ClassName": "FOG_SF_Cover_Black",
-            "MaxPriceThreshold": 1100,
-            "MinPriceThreshold": 990,
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -150,8 +150,8 @@
         },
         {
             "ClassName": "FOG_SF_BatteryPack_Black",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 720,
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -166,8 +166,8 @@
         },
         {
             "ClassName": "FOG_MOHOC",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -177,8 +177,8 @@
         },
         {
             "ClassName": "FOG_Manta_Strobe_Tan",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 800,
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -188,8 +188,8 @@
         },
         {
             "ClassName": "FOG_IR_Marker",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 900,
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -199,14 +199,54 @@
         },
         {
             "ClassName": "FOG_HMTL_Light_Tan",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 720,
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_HMTL_Light_Black",
+                "FOG_HMTL_Light_TwoTone"
+
+            ]
+        },
+                {
+            "ClassName": "FOG_HGU_Visor_Black",
+            "MaxPriceThreshold": 2200,
+            "MinPriceThreshold": 1980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+                {
+            "ClassName": "FOG_HGU_MFS_Grey",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "FOG_HGU_MFS_Black",
+                "FOG_HGU_MFS_Tan",
+                "FOG_HGU_MFS_T499",
+                "FOG_HGU_MFS_OD",
+                "FOG_HGU_MFS_Vader",
+                "FOG_HGU_MFS_Smiley",
+                "FOG_HGU_MFS_SL",
+                "FOG_HGU_MFS_Skull",
+                "FOG_HGU_MFS_Pig",
+                "FOG_HGU_MFS_Mustache",
+                "FOG_HGU_MFS_MonsterGrin",
+                "FOG_HGU_MFS_Joker"
+            ]
         }
+
     ]
 }

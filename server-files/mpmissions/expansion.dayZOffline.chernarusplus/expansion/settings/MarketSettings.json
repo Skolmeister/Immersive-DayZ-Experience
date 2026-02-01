@@ -1,5 +1,5 @@
 {
-    "m_Version": 15,
+    "m_Version": 17,
     "MarketSystemEnabled": 1,
     "NetworkCategories": [],
     "CurrencyIcon": "DayZExpansion/Core/GUI/icons/misc/coinstack2_64x64.edds",
@@ -10,7 +10,7 @@
     "ATMPartyLockerEnabled": 1,
     "MaxPartyDepositMoney": 100000000,
     "UseWholeMapForATMPlayerList": 1,
-    "SellPricePercent": 20.0,
+    "SellPricePercent": 30.0,
     "NetworkBatchSize": 100,
     "MaxVehicleDistanceToTrader": 120.0,
     "MaxLargeVehicleDistanceToTrader": 744.0,
@@ -31,72 +31,200 @@
             ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         }
     ],
     "AirSpawnPositions": [
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         }
     ],
     "WaterSpawnPositions": [
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         },
         {
-            "Position": [],
-            "Orientation": []
+            "Position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ]
         }
     ],
     "MarketMenuColors": {
@@ -135,7 +263,9 @@
         "ColorItemInfoAttachments": "FFB418FF",
         "ColorToggleCategoriesText": "C726518C",
         "ColorCategoryCorners": "FBFCFEFF",
-        "ColorCategoryBackground": "222526FF"
+        "ColorCategoryBackground": "222526FF",
+        "ColorPlayerStock": "2980B9FF",
+        "ColorRequirementsNotMet": "EB4635FF"
     },
     "Currencies": [
         "expansionbanknotehryvnia"
@@ -147,5 +277,6 @@
     "SZVehicleParkingTicketFine": 0,
     "SZVehicleParkingFineUseKey": 1,
     "TrainSpawnPositions": [],
-    "DisallowUnpersisted": 0
+    "DisallowUnpersisted": 0,
+    "DisableClientSellTransactionDetails": 0
 }

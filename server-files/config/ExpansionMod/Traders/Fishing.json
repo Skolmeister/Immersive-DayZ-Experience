@@ -1,7 +1,7 @@
 {
     "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_FISHING",
-    "MinRequiredReputation": 5000,
+    "MinRequiredReputation": 2000,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
@@ -17,6 +17,7 @@
     ],
     "Items": {
         "Msp_TackleBox": 1,
-        "FC_Fish_Hat_Base": 1
+        "FC_Fish_Hat_Base": 1,
+        "FC_Fish_Lure_Can": 1
     }
 }

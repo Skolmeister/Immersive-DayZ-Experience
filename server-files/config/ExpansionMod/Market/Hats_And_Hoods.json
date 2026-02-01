@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "medicalscrubshat_blue",
-            "MaxPriceThreshold": 15,
-            "MinPriceThreshold": 13,
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 130,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -20,10 +20,10 @@
                 "medicalscrubshat_green"
             ]
         },
-                        {
+        {
             "ClassName": "BurlapSackCover",
-            "MaxPriceThreshold": 80,
-            "MinPriceThreshold": 40,
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -31,11 +31,10 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-
         {
             "ClassName": "cowboyhat_brown",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1620,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -54,8 +53,8 @@
         },
         {
             "ClassName": "militaryberet_chdkz",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -69,31 +68,9 @@
             ]
         },
         {
-            "ClassName": "militaryberet_cdf",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "militaryberet_nz",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "beaniehat_pink",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 3200,
+            "MinPriceThreshold": 2880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -111,8 +88,8 @@
         },
         {
             "ClassName": "beaniehat_black",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 108,
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -122,8 +99,8 @@
         },
         {
             "ClassName": "MilitaryGear_Beanie_PartizanM",
-            "MaxPriceThreshold": 120,
-            "MinPriceThreshold": 108,
+            "MaxPriceThreshold": 4000,
+            "MinPriceThreshold": 3600,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -149,8 +126,8 @@
         },
         {
             "ClassName": "ushanka_black",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -158,14 +135,13 @@
             "SpawnAttachments": [],
             "Variants": [
                 "ushanka_blue",
-                "ushanka_green",
-                "MassBeigeUshanka"
+                "ushanka_green"
             ]
         },
         {
             "ClassName": "ushanka_green",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 4950,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -175,8 +151,8 @@
         },
         {
             "ClassName": "zmijovkacap_blue",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 135,
+            "MaxPriceThreshold": 2900,
+            "MinPriceThreshold": 2610,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -191,8 +167,8 @@
         },
         {
             "ClassName": "zmijovkacap_black",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 135,
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2700,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -202,8 +178,8 @@
         },
         {
             "ClassName": "zmijovkacap_green",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 135,
+            "MaxPriceThreshold": 3200,
+            "MinPriceThreshold": 2880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -213,8 +189,8 @@
         },
         {
             "ClassName": "booniehat_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 1100,
+            "MinPriceThreshold": 990,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -245,80 +221,13 @@
                 "MilitaryGear_BoonieHat_ATACS",
                 "MilitaryGear_BoonieHat_CADPAT",
                 "MilitaryGear_BoonieHat_Tropic",
-                "MilitaryGear_BoonieHat_Yeger",
-                "MasscamoBooniehat"
+                "MilitaryGear_BoonieHat_Yeger"
             ]
         },
         {
-            "ClassName": "booniehat_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "booniehat_tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "booniehat_olive",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "booniehat_dpm",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "booniehat_dubok",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "booniehat_flecktran",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "FOG_Boonie_MC",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -338,8 +247,8 @@
         },
         {
             "ClassName": "OKZKCap_Beige",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 135,
+            "MaxPriceThreshold": 3200,
+            "MinPriceThreshold": 2880,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -351,50 +260,19 @@
         },
         {
             "ClassName": "FC_Fish_Hat_Base",
-            "MaxPriceThreshold": 250,
-            "MinPriceThreshold": 225,
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
-        },
-        {
-            "ClassName": "MassWinterHuntingHood",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MassFedora_White",
-            "MaxPriceThreshold": 80,
-            "MinPriceThreshold": 72,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MassFedora_Black",
-                "MassFedora_Pink",
-                "MassFedora_Yellow",
-                "MassFedora_Red",
-                "MassFedora_Blue",
-                "MassFedora_Grey",
-                "MassFedora_Brown",
-                "MassFedora_Beige"
-            ]
         },
         {
             "ClassName": "Slouch_Hat_Brown",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1350,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -404,8 +282,8 @@
         },
         {
             "ClassName": "Trapper_Hat_Black",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 180,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -417,9 +295,20 @@
             ]
         },
         {
+            "ClassName": "Trapper_Hat_Red_Checkered",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "Msp_Slouchie_Beige",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 90,
+            "MaxPriceThreshold": 3800,
+            "MinPriceThreshold": 3420,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -433,8 +322,8 @@
         },
         {
             "ClassName": "chainmail_coif",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 810,
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 16200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
