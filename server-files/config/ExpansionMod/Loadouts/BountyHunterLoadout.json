@@ -6396,6 +6396,19 @@
                                                                     "InventoryCargo": [],
                                                                     "ConstructionPartsBuilt": [],
                                                                     "Sets": []
+                                                                },
+                                                                {
+                                                                    "ClassName": "MakarovPBSuppressor",
+                                                                    "Chance": 0.65,
+                                                                    "Quantity": {
+                                                                        "Min": 0.0,
+                                                                        "Max": 0.0
+                                                                    },
+                                                                    "Health": [],
+                                                                    "InventoryAttachments": [],
+                                                                    "InventoryCargo": [],
+                                                                    "ConstructionPartsBuilt": [],
+                                                                    "Sets": []
                                                                 }
                                                             ],
                                                             "InventoryCargo": [],

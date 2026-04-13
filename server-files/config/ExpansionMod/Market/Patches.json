@@ -172,17 +172,6 @@
             "Variants": []
         },
         {
-            "ClassName": "FOG_Big_Patch_US_IR",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
-            "SellPricePercent": 0.8,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "Golden_Winged_Pin",
             "MaxPriceThreshold": 5000,
             "MinPriceThreshold": 4500,
@@ -354,17 +343,6 @@
         },
         {
             "ClassName": "IDE_Big_Patch_BELGIUM_COLOR",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
-            "SellPricePercent": 0.8,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "IDE_Big_Patch_Bundeswehr_COLOR",
             "MaxPriceThreshold": 5000,
             "MinPriceThreshold": 4500,
             "SellPricePercent": 0.8,

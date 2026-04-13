@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 30.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "mag_fal_20rnd",
@@ -15,7 +15,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "IDE_Mag_FAL_20Rnd_Green"
+            ]
         },
         {
             "ClassName": "Mag_FAMAS_25Rnd",
@@ -335,6 +337,17 @@
             "MinPriceThreshold": 10260,
             "SellPricePercent": 50.0,
             "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "BO_Mag_PMAGWindow_30rnd",
+            "MaxPriceThreshold": 11400,
+            "MinPriceThreshold": 10260,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 150,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

@@ -4,12 +4,47 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 30.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "mag_cz61_20rnd",
             "MaxPriceThreshold": 4300,
             "MinPriceThreshold": 3870,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Mag_PM73_25Rnd",
+            "MaxPriceThreshold": 3500,
+            "MinPriceThreshold": 3150,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Mag_PM73_15Rnd",
+            "MaxPriceThreshold": 4300,
+            "MinPriceThreshold": 3870,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Mag_PM73_15Rnd"
+            ]
+        },
+        {
+            "ClassName": "IDE_Mag_CZ82_20Rnd",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 4050,
             "SellPricePercent": 50.0,
             "MaxStockThreshold": 250,
             "MinStockThreshold": 1,
@@ -168,9 +203,7 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-                "BO_Mag_Thompson_100rnd"
-            ]
+            "Variants": []
         },
         {
             "ClassName": "BO_Mag_Vector_32rnd",

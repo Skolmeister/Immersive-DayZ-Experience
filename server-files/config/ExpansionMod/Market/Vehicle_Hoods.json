@@ -1,0 +1,905 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_CATEGORY_VEHICLE_HOODS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 20.0,
+    "Items": [
+        {
+            "ClassName": "AZLK_2141RF_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "AZLK_2141RF_doors_hood_Lettuce",
+                "AZLK_2141RF_doors_hood_beige",
+                "AZLK_2141RF_doors_hood_milicia",
+                "AZLK_2141RF_doors_hood_red"
+            ]
+        },
+        {
+            "ClassName": "gaz21_volga_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaz21_volga_doors_hood_black",
+                "gaz21_volga_doors_hood_green"
+            ]
+        },
+        {
+            "ClassName": "GAZ_3110_volga_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "GAZ_3110_volga_doors_hood_black",
+                "GAZ_3110_volga_doors_hood_white"
+            ]
+        },
+        {
+            "ClassName": "GAZ_3110_volga_taxi_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "GAZ_M20_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "GAZ_M20_doors_hood_black",
+                "GAZ_M20_doors_hood_blue",
+                "GAZ_M20_doors_hood_green",
+                "GAZ_M20_doors_hood_red",
+                "GAZ_M20_doors_hood_white"
+            ]
+        },
+        {
+            "ClassName": "hatchback_02_hood",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 7200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "hatchback_02_hood_banditkitty",
+                "hatchback_02_hood_black",
+                "hatchback_02_hood_blue",
+                "hatchback_02_hood_red"
+            ]
+        },
+        {
+            "ClassName": "hatchback_02_hood_blackrust",
+            "MaxPriceThreshold": 7200,
+            "MinPriceThreshold": 6480,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "hatchback_02_hood_bluerust",
+            "MaxPriceThreshold": 7200,
+            "MinPriceThreshold": 6480,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "hatchback_02_hood_redrust",
+            "MaxPriceThreshold": 7200,
+            "MinPriceThreshold": 6480,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "IJ_2125_Kombi_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "IJ_2125_Kombi_doors_hood_beg",
+                "IJ_2125_Kombi_doors_hood_green",
+                "IJ_2125_Kombi_doors_hood_orange",
+                "IJ_2125_Kombi_doors_hood_red"
+            ]
+        },
+        {
+            "ClassName": "IJ_2140_SL_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "IJ_2140_SL_doors_hood_blue",
+                "IJ_2140_SL_doors_hood_green",
+                "IJ_2140_SL_doors_hood_red"
+            ]
+        },
+        {
+            "ClassName": "ij_2715_RF_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ij_2715_RF_doors_hood_blue",
+                "ij_2715_RF_doors_hood_green",
+                "ij_2715_RF_doors_hood_red"
+            ]
+        },
+        {
+            "ClassName": "sedan_02_hood",
+            "MaxPriceThreshold": 9000,
+            "MinPriceThreshold": 8100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "sedan_02_hood_blue",
+                "sedan_02_hood_grey",
+                "sedan_02_hood_red",
+                "sedan_02_hood_yellow",
+                "sedan_02_hood_yellowbright"
+            ]
+        },
+        {
+            "ClassName": "sedan_02_hood_bluerust",
+            "MaxPriceThreshold": 8100,
+            "MinPriceThreshold": 7290,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "sedan_02_hood_greyrust",
+            "MaxPriceThreshold": 8100,
+            "MinPriceThreshold": 7290,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "sedan_02_hood_redrust",
+            "MaxPriceThreshold": 8100,
+            "MinPriceThreshold": 7290,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "sedan_02_hood_yellowrust",
+            "MaxPriceThreshold": 8100,
+            "MinPriceThreshold": 7290,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "UAZ_27722_doors_hood_blue",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "UAZ_27722_doors_hood_brown",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "UAZ_27722_doors_hood_mchs",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "UAZ_27722_doors_hood_red",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "UAZ_27722_doors_hood_yellow",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "VAZ_2104RF_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_2104RF_doors_hood_beige",
+                "VAZ_2104RF_doors_hood_black",
+                "VAZ_2104RF_doors_hood_blue"
+            ]
+        },
+        {
+            "ClassName": "VAZ_2105_RUS_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_2105_RUS_doors_hood_black",
+                "VAZ_2105_RUS_doors_hood_cherry",
+                "VAZ_2105_RUS_doors_hood_green",
+                "VAZ_2105_RUS_doors_hood_red",
+                "VAZ_2105_RUS_doors_hood_white",
+                "VAZ_2105_RUS_doors_hood_yellow"
+            ]
+        },
+        {
+            "ClassName": "vaz_2106_RF_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "vaz_2106_RF_doors_hood_black",
+                "vaz_2106_RF_doors_hood_blue",
+                "vaz_2106_RF_doors_hood_white",
+                "vaz_2106_RF_doors_hood_wine"
+            ]
+        },
+        {
+            "ClassName": "vaz_2106_rf_doors_hood_light_green",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "vaz_2106_rf_doors_hood_red",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "vaz_2106_rf_doors_milicia_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "VAZ_2107RF_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_2107RF_doors_hood_black",
+                "VAZ_2107RF_doors_hood_blue"
+            ]
+        },
+        {
+            "ClassName": "VAZ_2107RF_doors_hood_black_rust",
+            "MaxPriceThreshold": 15300,
+            "MinPriceThreshold": 13770,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "VAZ_2107RF_doors_hood_blue_rust",
+            "MaxPriceThreshold": 15300,
+            "MinPriceThreshold": 13770,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "VAZ_2107RF_doors_hood_white_rust",
+            "MaxPriceThreshold": 15300,
+            "MinPriceThreshold": 13770,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "VAZ_21099R_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_21099R_doors_hood_black",
+                "VAZ_21099R_doors_hood_blue",
+                "VAZ_21099R_doors_hood_white"
+            ]
+        },
+        {
+            "ClassName": "vaz_2109_rf_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "vaz_2109_rf_doors_hood_blue",
+                "vaz_2109_rf_doors_hood_green",
+                "vaz_2109_rf_doors_hood_white"
+            ]
+        },
+        {
+            "ClassName": "vaz_2109_rf_doors_hood_blue_rust",
+            "MaxPriceThreshold": 15300,
+            "MinPriceThreshold": 13770,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "vaz_2109_rf_doors_hood_green_rust",
+            "MaxPriceThreshold": 15300,
+            "MinPriceThreshold": 13770,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "vaz_2109_rf_doors_hood_rust",
+            "MaxPriceThreshold": 15300,
+            "MinPriceThreshold": 13770,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "vaz_2109_rf_doors_hood_white_rust",
+            "MaxPriceThreshold": 15300,
+            "MinPriceThreshold": 13770,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Volkswagen_Golf_RUS_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Volkswagen_Golf_RUS_doors_hood_black",
+                "Volkswagen_Golf_RUS_doors_hood_blue",
+                "Volkswagen_Golf_RUS_doors_hood_green",
+                "Volkswagen_Golf_RUS_doors_hood_rally"
+            ]
+        },
+        {
+            "ClassName": "zaz_968_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "zaz_968_doors_hood_milicia",
+                "zaz_968_doors_hood_yellow"
+            ]
+        },
+        {
+            "ClassName": "ZAZ_968_doors_hood_green",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ZAZ_968M_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ZAZ_968M_doors_hood_black",
+                "ZAZ_968M_doors_hood_red"
+            ]
+        },
+        {
+            "ClassName": "GAZ_33081_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "GAZ_33081_doors_hood_camo"
+            ]
+        },
+        {
+            "ClassName": "gaz_53rf_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "kamaz_4310RUS_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "kamaz_4310RUS_doors_hood_blue",
+                "kamaz_4310RUS_doors_hood_orange"
+            ]
+        },
+        {
+            "ClassName": "truck_01_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "truck_01_hood_black",
+                "truck_01_hood_blue",
+                "truck_01_hood_lime",
+                "truck_01_hood_orange",
+                "truck_01_hood_red",
+                "truck_01_hood_white",
+                "truck_01_hood_wine",
+                "truck_01_hood_yellow",
+                "truck_01_hood_yellowbright"
+            ]
+        },
+        {
+            "ClassName": "uaz_33094_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "URAL_375_1964_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "URAL_375_1964_doors_hood_cdf",
+                "URAL_375_1964_doors_hood_zima"
+            ]
+        },
+        {
+            "ClassName": "ZIL_130_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ZIL_130_doors_hood_cdf",
+                "ZIL_130_doors_hood_green"
+            ]
+        },
+        {
+            "ClassName": "ZIL_157_rus_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ZIL_157_rus_doors_hood_gray",
+                "ZIL_157_rus_doors_hood_yellow"
+            ]
+        },
+                {
+            "ClassName": "Dodge_Power_wagonrus_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Dodge_Power_wagonrus_doors_hood_black",
+                "Dodge_Power_wagonrus_doors_hood_red",
+                "Dodge_Power_wagonrus_doors_hood_white",
+                "Dodge_Power_wagonrus_doors_hood_yellow"
+            ]
+        },
+        {
+            "ClassName": "expansion_landrover_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Expansion_Landrover_Hood_Blue",
+                "Expansion_Landrover_Hood_Green",
+                "Expansion_Landrover_Hood_Grey",
+                "Expansion_Landrover_Hood_Orange",
+                "Expansion_Landrover_Hood_Red",
+                "Expansion_Landrover_Hood_Yellow"
+            ]
+        },
+        {
+            "ClassName": "expansionuazdoorhood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ExpansionUAZDoorHood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ExpansionUAZDoorHood_Black",
+                "ExpansionUAZDoorHood_LightGreen"
+            ]
+        },
+        {
+            "ClassName": "F1_Pickup_Doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "F1_Pickup_Doors_hood_black",
+                "F1_Pickup_Doors_hood_green"
+            ]
+        },
+        {
+            "ClassName": "hatchbackhood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Niva2329_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Niva2329_doors_hood_camo"
+            ]
+        },
+        {
+            "ClassName": "offroad_02_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "UAZ_3163_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "UAZ_3163_doors_hood_ambulance",
+                "UAZ_3163_doors_hood_black",
+                "UAZ_3163_doors_hood_blue",
+                "UAZ_3163_doors_hood_desert",
+                "UAZ_3163_doors_hood_fire",
+                "UAZ_3163_doors_hood_green",
+                "UAZ_3163_doors_hood_police",
+                "UAZ_3163_doors_hood_red",
+                "UAZ_3163_doors_hood_white"
+            ]
+        },
+        {
+            "ClassName": "uaz_3172_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "uaz_3172_doors_hood_camo_flora",
+                "uaz_3172_doors_hood_green"
+            ]
+        },
+        {
+            "ClassName": "UAZ_Patrot_Pikap_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "UAZ_Patrot_Pikap_doors_hood_blue",
+                "UAZ_Patrot_Pikap_doors_hood_camo_green",
+                "UAZ_Patrot_Pikap_doors_hood_green",
+                "UAZ_Patrot_Pikap_doors_hood_red",
+                "UAZ_Patrot_Pikap_doors_hood_white"
+            ]
+        },
+                {
+            "ClassName": "artillery_tractor_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "artillery_tractor_doors_hood_camo",
+                "artillery_tractor_doors_hood_kung",
+                "artillery_tractor_doors_hood_kung_camo"
+            ]
+        },
+        {
+            "ClassName": "BRDM2_RF_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "BRDM2_RF_doors_hood_camo",
+                "BRDM2_RF_doors_hood_winter"
+            ]
+        },
+        {
+            "ClassName": "DingoHood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DingoHood_CZ",
+                "DingoHood_CZ_Desert",
+                "DingoHood_CZ_Winter",
+                "DingoHood_DON_CDF",
+                "DingoHood_DON_CHDKZ",
+                "DingoHood_DON_CP",
+                "DingoHood_DON_CZ_Desert",
+                "DingoHood_DON_CZ_Woodland",
+                "DingoHood_DON_DARKGREEN",
+                "DingoHood_DON_UN",
+                "DingoHood_DON_WTR"
+            ]
+        },
+        {
+            "ClassName": "mtlb_rf_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mtlb_rf_doors_hood_camo",
+                "mtlb_rf_doors_hood_camo2"
+            ]
+        },
+                {
+            "ClassName": "KAVZ685_RF_doors_hood",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "KAVZ685_RF_doors_hood_beige",
+                "KAVZ685_RF_doors_hood_red",
+                "KAVZ685_RF_doors_hood_green"
+            ]
+        }
+
+    ]
+}

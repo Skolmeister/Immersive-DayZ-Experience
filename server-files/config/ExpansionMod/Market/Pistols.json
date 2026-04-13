@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 20.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "IDE_MakarovIJ70_Red",
@@ -125,6 +125,17 @@
             "ClassName": "magnum",
             "MaxPriceThreshold": 50000,
             "MinPriceThreshold": 45000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 80,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SawedoffMagnum",
+            "MaxPriceThreshold": 45000,
+            "MinPriceThreshold": 40500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 80,
             "MinStockThreshold": 1,

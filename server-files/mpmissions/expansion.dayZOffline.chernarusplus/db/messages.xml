@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
-<!--
+    <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
 
 Example messages:
@@ -13,37 +13,61 @@ Example messages:
         <shutdown>1</shutdown>
         <text>The server will shutdown in #tmin minutes.</text>
     </message>
-
-2) following message will be displayed every 15 minutes to every player
+    -->
+    
+2) following message will be displayed every x minutes to every player
 
     <message>
-        <repeat>15</repeat>
-        <text>You're playing on my server (#name). Thank you .)</text>
+        <repeat>60</repeat>
+        <text>Du spielst auf "Immersive DayZ Experience". Danke, dass du Teil unserer Community bist.</text>
     </message>
-    -->
 
-3) following message will be displayed every 120 minutes to every player
-    and 10 minutes after player connect
+
+3) following message will be displayed every x minutes to every player
+    and x minutes after player connect
 
     <message>
         <delay>5</delay>
-        <repeat>120</repeat>
+        <repeat>60</repeat>
         <onconnect>1</onconnect>
-        <text>We are still a small group, but want to grow our community! Join our Discord Server: https://discord.gg/PV4SpWdEUE</text>
+        <text>Discord, Regeln, News und Support: https://discord.gg/PV4SpWdEUE</text>
     </message>
-
-
+    <message>
+        <delay>10</delay>
+        <repeat>60</repeat>
+        <onconnect>1</onconnect>
+        <text>Erwachsenes Spielen: Rumtrollen, Exploits, Combat Logging und Regelbruch sind nicht erwünscht.</text>
+    </message>
 4) following message will be displayed once
-    and 2 minutes after player connect
-
+    and x minutes after player connect
     <message>
         <delay>1</delay>
         <onconnect>1</onconnect>
-        <text>Greetings Survivor and welcome to our 'Immersive DayZ Experience' Server. We're glad you're here. For more information press B or refer to the server panel</text>
+        <text>Willkommen in Chernarus. Die Straßen sind selten sicher. Wälder auch nicht. Viel Glück da draußen.</text>
     </message>
     <message>
         <delay>3</delay>
         <onconnect>1</onconnect>
-        <text>Please give yourself a DayZ profile name if you have not already done so. You can do this by clicking on "Parameters" in the DayZ Launcher or you can download the DZSA Launcher.</text>
+        <text>Unser Fokus liegt auf einer immersiven Survival-Erfahrung mit dynamischer AI, Fraktionen, Quests und Events. Drücke B für mehr Infos</text>
     </message>
-</messages>
+    <message>
+        <delay>7</delay>
+        <onconnect>1</onconnect>
+        <text>Respektvoller Umgang ist bei uns Pflicht – im Voice, im Chat und ingame.</text>
+    </message>
+        <message>
+        <delay>13</delay>
+        <onconnect>1</onconnect>
+        <text>Halte die Augen offen: In Chernarus sind nicht nur Infizierte unterwegs.</text>
+    </message>
+    <message>
+        <delay>15</delay>
+        <onconnect>1</onconnect>
+        <text>Wir sind noch eine kleine Gruppe, möchten aber weiter wachsen. Auf unserem Discord bist du jederzeit willkommen: https://discord.gg/PV4SpWdEUE/</text>
+    </message>
+    <message>
+        <delay>21</delay>
+        <onconnect>1</onconnect>
+        <text>Falls du noch keinen ingame-Namen gesetzt hast: Bitte vergib dir im DayZ Launcher unter „Parameter“ einen Profilnamen.</text>
+    </message>
+    </messages>

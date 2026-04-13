@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "bandagedressing",
@@ -159,7 +159,6 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "Psix_Bandage_Advanced",
                 "Psix_Bandage_Specional"
             ]
         },
@@ -172,10 +171,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-            ]
+            "Variants": []
         },
-                {
+        {
             "ClassName": "InediaPain_SurgicalKit",
             "MaxPriceThreshold": 30000,
             "MinPriceThreshold": 27000,
@@ -185,8 +183,18 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "Psix_Bandage_Advanced",
-                "Psix_Bandage_Specional"
+            ]
+        },
+                {
+            "ClassName": "InediaPain_HemostaticDressing",
+            "MaxPriceThreshold": 6000,
+            "MinPriceThreshold": 5400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
             ]
         }
 

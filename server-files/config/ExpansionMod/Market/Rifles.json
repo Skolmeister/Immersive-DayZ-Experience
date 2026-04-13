@@ -4,10 +4,23 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 60.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
             "ClassName": "izh18",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 9000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "SawedoffIzh18"
+            ]
+        },
+        {
+            "ClassName": "SawedoffIzh18",
             "MaxPriceThreshold": 10000,
             "MinPriceThreshold": 9000,
             "SellPricePercent": -1.0,
@@ -28,7 +41,8 @@
             "SpawnAttachments": [],
             "Variants": [
                 "b95_black",
-                "b95_old"
+                "b95_old",
+                "SawedoffB95"
             ]
         },
         {
@@ -54,6 +68,17 @@
             "Variants": []
         },
         {
+            "ClassName": "SawedoffB95",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 36000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "ruger1022",
             "MaxPriceThreshold": 12000,
             "MinPriceThreshold": 10800,
@@ -66,7 +91,7 @@
             ],
             "Variants": []
         },
-                {
+        {
             "ClassName": "repeater",
             "MaxPriceThreshold": 38000,
             "MinPriceThreshold": 34200,
@@ -92,8 +117,8 @@
         },
         {
             "ClassName": "mosin9130",
-            "MaxPriceThreshold": 68000,
-            "MinPriceThreshold": 61200,
+            "MaxPriceThreshold": 100000,
+            "MinPriceThreshold": 90000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -103,13 +128,17 @@
                 "mosin9130_green",
                 "mosin9130_black",
                 "mosin9130_camo",
-                "IDE_Mosin9130_Dark"
+                "IDE_Mosin9130_Dark",
+                "SawedoffMosin9130",
+                "SawedoffMosin9130_Black",
+                "SawedoffMosin9130_Camo",
+                "SawedoffMosin9130_Green"
             ]
         },
         {
             "ClassName": "mosin9130_camo",
-            "MaxPriceThreshold": 92000,
-            "MinPriceThreshold": 82800,
+            "MaxPriceThreshold": 122000,
+            "MinPriceThreshold": 109800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -119,8 +148,8 @@
         },
         {
             "ClassName": "mosin9130_black",
-            "MaxPriceThreshold": 90000,
-            "MinPriceThreshold": 81000,
+            "MaxPriceThreshold": 112000,
+            "MinPriceThreshold": 100800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -130,8 +159,8 @@
         },
         {
             "ClassName": "mosin9130_green",
-            "MaxPriceThreshold": 90000,
-            "MinPriceThreshold": 81000,
+            "MaxPriceThreshold": 112000,
+            "MinPriceThreshold": 100800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -141,8 +170,52 @@
         },
         {
             "ClassName": "IDE_Mosin9130_Dark",
-            "MaxPriceThreshold": 92000,
-            "MinPriceThreshold": 82800,
+            "MaxPriceThreshold": 112000,
+            "MinPriceThreshold": 100800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SawedoffMosin9130",
+            "MaxPriceThreshold": 80000,
+            "MinPriceThreshold": 72000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SawedoffMosin9130_Black",
+            "MaxPriceThreshold": 80000,
+            "MinPriceThreshold": 72000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SawedoffMosin9130_Camo",
+            "MaxPriceThreshold": 80000,
+            "MinPriceThreshold": 72000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SawedoffMosin9130_Green",
+            "MaxPriceThreshold": 80000,
+            "MinPriceThreshold": 72000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -152,8 +225,8 @@
         },
         {
             "ClassName": "cz527",
-            "MaxPriceThreshold": 45000,
-            "MinPriceThreshold": 40500,
+            "MaxPriceThreshold": 68000,
+            "MinPriceThreshold": 61200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -202,8 +275,8 @@
         },
         {
             "ClassName": "ssg82",
-            "MaxPriceThreshold": 38000,
-            "MinPriceThreshold": 34200,
+            "MaxPriceThreshold": 42200,
+            "MinPriceThreshold": 37980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -240,17 +313,6 @@
             "Variants": []
         },
         {
-            "ClassName": "sks_black",
-            "MaxPriceThreshold": 112000,
-            "MinPriceThreshold": 100800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "IDE_SKS_Half",
             "MaxPriceThreshold": 120000,
             "MinPriceThreshold": 108000,
@@ -272,7 +334,7 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-                {
+        {
             "ClassName": "BO_Winchester1873",
             "MaxPriceThreshold": 97200,
             "MinPriceThreshold": 87480,
@@ -308,7 +370,7 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-                {
+        {
             "ClassName": "BO_R700Timberwolf",
             "MaxPriceThreshold": 220000,
             "MinPriceThreshold": 198000,
@@ -321,7 +383,6 @@
             ],
             "Variants": []
         },
-
         {
             "ClassName": "BO_R700",
             "MaxPriceThreshold": 87000,

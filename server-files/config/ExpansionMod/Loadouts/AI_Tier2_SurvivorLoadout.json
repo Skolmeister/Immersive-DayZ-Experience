@@ -219,7 +219,6 @@
                     "ConstructionPartsBuilt": [],
                     "Sets": []
                 },
-                
                 {
                     "ClassName": "PoliceJacketOrel",
                     "Chance": 0.9,
@@ -239,7 +238,6 @@
                     "ConstructionPartsBuilt": [],
                     "Sets": []
                 },
-                
                 {
                     "ClassName": "GorkaEJacket_Autumn",
                     "Chance": 0.9,
@@ -1195,7 +1193,6 @@
                     "ConstructionPartsBuilt": [],
                     "Sets": []
                 },
-
                 {
                     "ClassName": "Kneepads_Jeans_Base",
                     "Chance": 1.0,
@@ -1922,410 +1919,391 @@
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []
-        },
-        {
-            "SlotName": "Back",
-            "Items": [
-                {
-                    "ClassName": "assaultbag_black",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
                 },
                 {
-                    "ClassName": "assaultbag_green",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
+                    "SlotName": "Back",
+                    "Items": [
                         {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
+                            "ClassName": "assaultbag_black",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "assaultbag_green",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "assaultbag_ttsko",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "huntingbag",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "tortillabag",
+                            "Chance": 0.6000000238418579,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "mountainbag_red",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "mountainbag_blue",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "mountainbag_orange",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "mountainbag_green",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "alicebag_green",
+                            "Chance": 0.6000000238418579,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "alicebag_black",
+                            "Chance": 0.6000000238418579,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Canvas_Backpack_Base",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "coyotebag_brown",
+                            "Chance": 0.6000000238418579,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "coyotebag_green",
+                            "Chance": 0.6000000238418579,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Canvas_Backpack_Base",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "taloonbag_blue",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "taloonbag_orange",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "taloonbag_violet",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "taloonbag_green",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
                         }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
+                    ]
                 },
                 {
-                    "ClassName": "assaultbag_ttsko",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
+                    "SlotName": "Vest",
+                    "Items": [
                         {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "huntingbag",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "tortillabag",
-                    "Chance": 0.6000000238418579,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "mountainbag_red",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "mountainbag_blue",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "mountainbag_orange",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "mountainbag_green",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "alicebag_green",
-                    "Chance": 0.6000000238418579,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "alicebag_black",
-                    "Chance": 0.6000000238418579,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Canvas_Backpack_Base",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "coyotebag_brown",
-                    "Chance": 0.6000000238418579,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "coyotebag_green",
-                    "Chance": 0.6000000238418579,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "Canvas_Backpack_Base",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "taloonbag_blue",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "taloonbag_orange",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "taloonbag_violet",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "taloonbag_green",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [
-                    ],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                }
-            ]
-        },
-        {
-            "SlotName": "Vest",
-            "Items": [
-                {
-                    "ClassName": "pressvest_blue",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.299999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": []
+                            "ClassName": "pressvest_blue",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
+                            ],
+                            "InventoryAttachments": []
                         }
                     ],
                     "InventoryCargo": [],
@@ -4709,11 +4687,11 @@
                                         "Max": 0.0
                                     },
                                     "Health": [
-                                    {
-                                        "Min": 0.299999988079071,
-                                        "Max": 1.0,
-                                        "Zone": ""
-                                    }
+                                        {
+                                            "Min": 0.299999988079071,
+                                            "Max": 1.0,
+                                            "Zone": ""
+                                        }
                                     ],
                                     "InventoryAttachments": [
                                         {
@@ -4724,11 +4702,11 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
                                             "InventoryAttachments": [],
                                             "InventoryCargo": [],
@@ -4743,11 +4721,11 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
                                             "InventoryAttachments": [],
                                             "InventoryCargo": [],
@@ -4762,11 +4740,11 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
                                             "InventoryAttachments": [],
                                             "InventoryCargo": [],
@@ -4786,11 +4764,11 @@
                                         "Max": 0.0
                                     },
                                     "Health": [
-                                    {
-                                        "Min": 0.299999988079071,
-                                        "Max": 1.0,
-                                        "Zone": ""
-                                    }
+                                        {
+                                            "Min": 0.299999988079071,
+                                            "Max": 1.0,
+                                            "Zone": ""
+                                        }
                                     ],
                                     "InventoryAttachments": [
                                         {
@@ -4801,13 +4779,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_IJ70_8Rnd",
                                                     "Chance": 1.0,
@@ -4816,11 +4794,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -4835,11 +4813,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -4859,13 +4837,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_Glock_15Rnd",
                                                     "Chance": 1.0,
@@ -4874,11 +4852,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -4893,11 +4871,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -4917,13 +4895,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "TTC_Mag_M9_15Rnd",
                                                     "Chance": 1.0,
@@ -4932,11 +4910,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -4951,11 +4929,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -4975,13 +4953,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_CZ75_15Rnd",
                                                     "Chance": 1.0,
@@ -4990,11 +4968,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5009,11 +4987,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5033,13 +5011,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_P1_8Rnd",
                                                     "Chance": 1.0,
@@ -5048,11 +5026,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5072,13 +5050,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_MKII_10Rnd",
                                                     "Chance": 1.0,
@@ -5087,11 +5065,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5111,14 +5089,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
-                                            ],
+                                            "InventoryAttachments": [],
                                             "InventoryCargo": [],
                                             "ConstructionPartsBuilt": [],
                                             "Sets": []
@@ -5141,14 +5118,13 @@
                                 "Max": 0.0
                             },
                             "Health": [
-                            {
-                                "Min": 0.299999988079071,
-                                "Max": 1.0,
-                                "Zone": ""
-                            }
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
                             ],
-                            "InventoryAttachments": [
-                            ],
+                            "InventoryAttachments": [],
                             "InventoryCargo": [],
                             "ConstructionPartsBuilt": [],
                             "Sets": []
@@ -5184,11 +5160,11 @@
                                         "Max": 0.0
                                     },
                                     "Health": [
-                                    {
-                                        "Min": 0.299999988079071,
-                                        "Max": 1.0,
-                                        "Zone": ""
-                                    }
+                                        {
+                                            "Min": 0.299999988079071,
+                                            "Max": 1.0,
+                                            "Zone": ""
+                                        }
                                     ],
                                     "InventoryAttachments": [
                                         {
@@ -5199,11 +5175,11 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
                                             "InventoryAttachments": [],
                                             "InventoryCargo": [],
@@ -5218,11 +5194,11 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
                                             "InventoryAttachments": [],
                                             "InventoryCargo": [],
@@ -5242,11 +5218,11 @@
                                         "Max": 0.0
                                     },
                                     "Health": [
-                                    {
-                                        "Min": 0.299999988079071,
-                                        "Max": 1.0,
-                                        "Zone": ""
-                                    }
+                                        {
+                                            "Min": 0.299999988079071,
+                                            "Max": 1.0,
+                                            "Zone": ""
+                                        }
                                     ],
                                     "InventoryAttachments": [
                                         {
@@ -5257,13 +5233,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_IJ70_8Rnd",
                                                     "Chance": 1.0,
@@ -5272,11 +5248,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5291,11 +5267,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5315,13 +5291,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_Glock_15Rnd",
                                                     "Chance": 1.0,
@@ -5330,11 +5306,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5349,11 +5325,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5373,13 +5349,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "TTC_Mag_M9_15Rnd",
                                                     "Chance": 1.0,
@@ -5388,11 +5364,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5407,11 +5383,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5431,13 +5407,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_CZ75_15Rnd",
                                                     "Chance": 1.0,
@@ -5446,11 +5422,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5465,11 +5441,11 @@
                                                         "Max": 1.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5489,13 +5465,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_P1_8Rnd",
                                                     "Chance": 1.0,
@@ -5504,11 +5480,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5528,13 +5504,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
+                                            "InventoryAttachments": [
                                                 {
                                                     "ClassName": "Mag_MKII_10Rnd",
                                                     "Chance": 1.0,
@@ -5543,11 +5519,11 @@
                                                         "Max": 0.0
                                                     },
                                                     "Health": [
-                                                    {
-                                                        "Min": 0.299999988079071,
-                                                        "Max": 1.0,
-                                                        "Zone": ""
-                                                    }
+                                                        {
+                                                            "Min": 0.299999988079071,
+                                                            "Max": 1.0,
+                                                            "Zone": ""
+                                                        }
                                                     ],
                                                     "InventoryAttachments": [],
                                                     "InventoryCargo": [],
@@ -5567,14 +5543,13 @@
                                                 "Max": 0.0
                                             },
                                             "Health": [
-                                            {
-                                                "Min": 0.299999988079071,
-                                                "Max": 1.0,
-                                                "Zone": ""
-                                            }
+                                                {
+                                                    "Min": 0.299999988079071,
+                                                    "Max": 1.0,
+                                                    "Zone": ""
+                                                }
                                             ],
-                                            "InventoryAttachments": [  
-                                            ],
+                                            "InventoryAttachments": [],
                                             "InventoryCargo": [],
                                             "ConstructionPartsBuilt": [],
                                             "Sets": []
@@ -5597,14 +5572,13 @@
                                 "Max": 0.0
                             },
                             "Health": [
-                            {
-                                "Min": 0.299999988079071,
-                                "Max": 1.0,
-                                "Zone": ""
-                            }
+                                {
+                                    "Min": 0.299999988079071,
+                                    "Max": 1.0,
+                                    "Zone": ""
+                                }
                             ],
-                            "InventoryAttachments": [
-                            ],
+                            "InventoryAttachments": [],
                             "InventoryCargo": [],
                             "ConstructionPartsBuilt": [],
                             "Sets": []
@@ -5701,7 +5675,7 @@
                         }
                     ],
                     "InventoryAttachments": [],
-                    "InventoryCargo": [                        
+                    "InventoryCargo": [
                         {
                             "ClassName": "AmmoBox_00buck_10rnd",
                             "Chance": 0.20000000298023225,
@@ -9054,7 +9028,6 @@
                     "ConstructionPartsBuilt": [],
                     "Sets": []
                 }
-
             ],
             "ConstructionPartsBuilt": [],
             "Sets": []
@@ -9275,7 +9248,6 @@
                     "ConstructionPartsBuilt": [],
                     "Sets": []
                 }
-
             ],
             "ConstructionPartsBuilt": [],
             "Sets": []
@@ -9476,7 +9448,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.20000000298023225,
+            "Chance": 0.450000000298023225,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -10247,7 +10219,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.25000000298023225,
+            "Chance": 0.35,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -10365,7 +10337,98 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.20000000298023225,
+            "Chance": 0.33,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Shoulder",
+                    "Items": [
+                        {
+                            "ClassName": "Expansion_Kedr",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Mag_Expansion_Kedr_20Rnd",
+                                            "Chance": 1.0,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        },
+                                        {
+                                            "ClassName": "PistolSuppressor",
+                                            "Chance": 0.2,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "Mag_Expansion_Kedr_20Rnd",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Mag_Expansion_Kedr_20Rnd",
+                    "Chance": 0.15000000596046449,
+                    "Quantity": {
+                        "Min": 0.0,
+                        "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "WEAPON",
+            "Chance": 0.33,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -10702,6 +10765,19 @@
                                         {
                                             "ClassName": "Mag_IJ70_8Rnd",
                                             "Chance": 1.0,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        },
+                                        {
+                                            "ClassName": "MakarovPBSuppressor",
+                                            "Chance": 0.25,
                                             "Quantity": {
                                                 "Min": 0.0,
                                                 "Max": 0.0
@@ -11280,7 +11356,7 @@
             "ConstructionPartsBuilt": [],
             "Sets": []
         },
-                {
+        {
             "ClassName": "WEAPON",
             "Chance": 1.0,
             "Quantity": {
@@ -11293,7 +11369,7 @@
                     "SlotName": "Shoulder",
                     "Items": [
                         {
-                            "ClassName": "FOX_UZI",
+                            "ClassName": "PM73Rak",
                             "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
@@ -11305,7 +11381,7 @@
                                     "SlotName": "",
                                     "Items": [
                                         {
-                                            "ClassName": "FOX_Mag_UZI_32Rnd",
+                                            "ClassName": "Mag_PM73_15Rnd",
                                             "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
@@ -11318,7 +11394,7 @@
                                             "Sets": []
                                         },
                                         {
-                                            "ClassName": "FOX_UZI_Bttstck_metal",
+                                            "ClassName": "Mag_PM73_25Rnd",
                                             "Chance": 1.0,
                                             "Quantity": {
                                                 "Min": 0.0,
@@ -11326,38 +11402,6 @@
                                             },
                                             "Health": [],
                                             "InventoryAttachments": [],
-                                            "InventoryCargo": [],
-                                            "ConstructionPartsBuilt": [],
-                                            "Sets": []
-                                        },
-                                        {
-                                            "ClassName": "ReflexOptic",
-                                            "Chance": 0.10000000149011612,
-                                            "Quantity": {
-                                                "Min": 0.0,
-                                                "Max": 0.0
-                                            },
-                                            "Health": [],
-                                            "InventoryAttachments": [
-                                                {
-                                                    "SlotName": "",
-                                                    "Items": [
-                                                        {
-                                                            "ClassName": "Battery9V",
-                                                            "Chance": 1.0,
-                                                            "Quantity": {
-                                                                "Min": 0.0,
-                                                                "Max": 0.0
-                                                            },
-                                                            "Health": [],
-                                                            "InventoryAttachments": [],
-                                                            "InventoryCargo": [],
-                                                            "ConstructionPartsBuilt": [],
-                                                            "Sets": []
-                                                        }
-                                                    ]
-                                                }
-                                            ],
                                             "InventoryCargo": [],
                                             "ConstructionPartsBuilt": [],
                                             "Sets": []
@@ -11374,7 +11418,7 @@
             ],
             "InventoryCargo": [
                 {
-                    "ClassName": "FOX_Mag_UZI_32Rnd",
+                    "ClassName": "Mag_PM73_15Rnd",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -11387,20 +11431,7 @@
                     "Sets": []
                 },
                 {
-                    "ClassName": "FOX_Mag_UZI_32Rnd",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "FOX_Mag_UZI_32Rnd",
+                    "ClassName": "Mag_PM73_25Rnd",
                     "Chance": 0.15000000596046449,
                     "Quantity": {
                         "Min": 0.0,
@@ -11416,6 +11447,5 @@
             "ConstructionPartsBuilt": [],
             "Sets": []
         }
-
     ]
 }

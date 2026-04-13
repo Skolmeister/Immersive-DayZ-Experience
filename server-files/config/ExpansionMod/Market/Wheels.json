@@ -1,10 +1,10 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_WHEELS",
+    "DisplayName": "#STR_IDE_MARKET_CATEGORY_WHEELS",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "hatchbackwheel",
@@ -59,7 +59,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "truck_01_wheeldouble"
+            ]
         },
         {
             "ClassName": "truck_01_wheeldouble",
@@ -103,7 +105,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "expansiontractorbackwheel"
+            ]
         },
         {
             "ClassName": "expansionuazwheel",
@@ -165,7 +169,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "expansionmerlinbackwheel"
+            ]
         },
         {
             "ClassName": "expansionbuswheel",
@@ -176,7 +182,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "expansionbuswheeldouble"
+            ]
         },
         {
             "ClassName": "expansionbuswheeldouble",
@@ -427,29 +435,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "KubanG1_WheelDouble",
-            "MaxPriceThreshold": 24000,
-            "MinPriceThreshold": 21600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "KubanG1_wheel",
-            "MaxPriceThreshold": 12000,
-            "MinPriceThreshold": 10800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "KAVZ685_RF_WheelDouble"
+            ]
         },
         {
             "ClassName": "LIAZ_677RF_WheelDouble",
@@ -471,7 +459,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "LIAZ_677RF_WheelDouble"
+            ]
         },
         {
             "ClassName": "LUAZ_969_wheel",
@@ -526,21 +516,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "PAZ_672_WheelDouble"
+            ]
         },
         {
             "ClassName": "UAZ_27722_mchs_wheel",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_31519_Police_wheel",
             "MaxPriceThreshold": 15000,
             "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
@@ -705,29 +686,7 @@
             "Variants": []
         },
         {
-            "ClassName": "VBL_wheel",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 18000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "Volkswagen_Golf_RUS_wheel",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ZAZ_965_wheel",
             "MaxPriceThreshold": 6000,
             "MinPriceThreshold": 5400,
             "SellPricePercent": -1.0,
@@ -771,28 +730,6 @@
             "Variants": []
         },
         {
-            "ClassName": "ZIL_130_ac40_WheelDouble",
-            "MaxPriceThreshold": 30000,
-            "MinPriceThreshold": 27000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ZIL_130_ac40_wheel",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "ZIL_130_wheel",
             "MaxPriceThreshold": 15000,
             "MinPriceThreshold": 13500,
@@ -801,7 +738,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "ZIL_130_WheelDouble"
+            ]
         },
         {
             "ClassName": "ZIL_131_wheel",
@@ -848,17 +787,6 @@
             "Variants": []
         },
         {
-            "ClassName": "azlk_400_wheel",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "gaz_51_WheelDouble",
             "MaxPriceThreshold": 30000,
             "MinPriceThreshold": 27000,
@@ -878,18 +806,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "gaz_51_wheel_grunt",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 13500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "gaz_51_WheelDouble"
+            ]
         },
         {
             "ClassName": "ij_2715_RF_wheel",
@@ -925,17 +844,6 @@
             "Variants": []
         },
         {
-            "ClassName": "moskvich_407_wheel",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 250,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "tractor_UMZ_RUS_WheelDouble",
             "MaxPriceThreshold": 20000,
             "MinPriceThreshold": 18000,
@@ -955,7 +863,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "tractor_UMZ_RUS_WheelDouble"
+            ]
         },
         {
             "ClassName": "vaz_2106_RF_wheel",

@@ -194,6 +194,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="music_types.xml" type="types" />
 		<file name="flint_types.xml" type="types" />
 		<file name="artillery_types.xml" type="types" />
+		<file name="GPS_types.xml" type="types" />
 	</ce>
 			<!-- Mass Many Items 
 	<ce folder="CE_mmio">

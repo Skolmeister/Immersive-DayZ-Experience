@@ -1673,7 +1673,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Stoner63A">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -1687,10 +1687,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Mag_Stoner63_150rnd">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

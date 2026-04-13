@@ -146,7 +146,11 @@
                 <spawn configName="Animal_GallusGallusDomesticusF_Spotted" chance="10" />
                 <spawn configName="Animal_GallusGallusDomesticusF_White" chance="20" />
             </agent>
-            <item name="zoneTouchDisableEditPeriodSec" val="180" />
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
         </territory>
 
 		<!-- HARE -->

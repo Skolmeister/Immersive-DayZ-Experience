@@ -1,0 +1,25 @@
+{
+    "m_Version": 1,
+    "Enabled": 1,
+    "Weight": 200.0,
+    "MissionMaxTime": 1200,
+    "MissionName": "Basic_Container_Mogilevka",
+    "Difficulty": 0,
+    "Objective": 0,
+    "Reward": "",
+    "ShowNotification": 1,
+    "Height": 450.0,
+    "Speed": 25.0,
+    "Container": "ExpansionAirdropContainer_Grey",
+    "FallSpeed": 4.5,
+    "DropLocation": {
+        "x": 7635.77,
+        "z": 4794.35,
+        "Name": "Mogilevka",
+        "Radius": 100.0
+    },
+    "Infected": [],
+    "ItemCount": -1,
+    "InfectedCount": 10,
+    "Loot": []
+}

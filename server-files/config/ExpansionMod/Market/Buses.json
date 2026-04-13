@@ -1,0 +1,221 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_CATEGORY_BUSES",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 10.0,
+    "Items": [
+        {
+            "ClassName": "expansionbus",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionbuswheel",
+                "expansionbuswheel",
+                "expansionbuswheeldouble",
+                "expansionbuswheeldouble",
+                "headlighth7",
+                "headlighth7",
+                "truckbattery",
+                "carradiator",
+                "glowplug"
+            ],
+            "Variants": [
+                "ExpansionBus_Weeb",
+                "ExpansionBus_Red"
+            ]
+        },
+        {
+            "ClassName": "KAVZ685_RF",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_doors_driver",
+                "KAVZ685_RF_doors_cargo1",
+                "KAVZ685_RF_doors_hood",
+                "KAVZ685_RF_doors_trunk",
+                "headlighth7",
+                "headlighth7",
+                "carbattery",
+                "carradiator",
+                "sparkplug"
+            ],
+            "Variants": [
+                "KAVZ685_RF_beige",
+                "KAVZ685_RF_red",
+                "KAVZ685_RF_green"
+            ]
+        },
+        {
+            "ClassName": "KAVZ685_RF",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_doors_driver_beige",
+                "KAVZ685_RF_doors_cargo1_beige",
+                "KAVZ685_RF_doors_hood_beige",
+                "KAVZ685_RF_doors_trunk_beige",
+                "headlighth7",
+                "headlighth7",
+                "carbattery",
+                "carradiator",
+                "sparkplug"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "KAVZ685_RF",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_doors_driver_red",
+                "KAVZ685_RF_doors_cargo1_red",
+                "KAVZ685_RF_doors_hood_red",
+                "KAVZ685_RF_doors_trunk_red",
+                "headlighth7",
+                "headlighth7",
+                "carbattery",
+                "carradiator",
+                "sparkplug"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "KAVZ685_RF",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_wheel",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_WheelDouble",
+                "KAVZ685_RF_doors_driver_green",
+                "KAVZ685_RF_doors_cargo1_green",
+                "KAVZ685_RF_doors_hood_green",
+                "KAVZ685_RF_doors_trunk_green",
+                "headlighth7",
+                "headlighth7",
+                "carbattery",
+                "carradiator",
+                "sparkplug"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "LIAZ_677RF",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "liaz_677rf_wheel",
+                "liaz_677rf_wheel",
+                "liaz_677rf_wheeldouble",
+                "liaz_677rf_wheeldouble",
+                "liaz_677rf_wheeldouble",
+                "liaz_677rf_wheeldouble",
+                "liaz_677rf_doors_driver",
+                "liaz_677rf_doors_cargo1",
+                "liaz_677rf_doors_hood",
+                "liaz_677rf_doors_trunk",
+                "headlighth7",
+                "headlighth7",
+                "carbattery",
+                "carradiator",
+                "sparkplug"
+            ],
+            "Variants": [
+                "LIAZ_677RF_Auto"
+            ]
+        },
+                {
+            "ClassName": "PAZ_672",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "PAZ_672_wheel",
+                "PAZ_672_wheel",
+                "PAZ_672_wheel",
+                "PAZ_672_WheelDouble",
+                "PAZ_672_WheelDouble",
+                "PAZ_672_doors_driver",
+                "PAZ_672_doors_codriver",
+                "PAZ_672_doors_hood",
+                "headlighth7",
+                "headlighth7",
+                "carbattery",
+                "carradiator",
+                "sparkplug"
+            ],
+            "Variants": [
+                "PAZ_672_orange"
+            ]
+        },
+                {
+            "ClassName": "PAZ_672",
+            "MaxPriceThreshold": 2250000,
+            "MinPriceThreshold": 2025000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "PAZ_672_wheel",
+                "PAZ_672_wheel",
+                "PAZ_672_wheel",
+                "PAZ_672_WheelDouble",
+                "PAZ_672_WheelDouble",
+                "PAZ_672_doors_driver_orang",
+                "PAZ_672_doors_codriver_orang",
+                "PAZ_672_doors_hood",
+                "headlighth7",
+                "headlighth7",
+                "carbattery",
+                "carradiator",
+                "sparkplug"
+            ],
+            "Variants": [
+                "PAZ_672_orange"
+            ]
+        }
+    ]
+}

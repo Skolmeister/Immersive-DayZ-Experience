@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "ammo_12gapellets",
@@ -265,15 +265,28 @@
             "Variants": []
         },
         {
-            "ClassName": "expansion_ammo_taser",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 45,
+            "ClassName": "Ammo_ImprovisedBolt_1",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 27,
             "SellPricePercent": 75.0,
-            "MaxStockThreshold": 15000,
+            "MaxStockThreshold": 10000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "Ammo_ImprovisedBolt_2",
+            "MaxPriceThreshold": 90,
+            "MinPriceThreshold": 81,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 10000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Ammo_ImprovisedBolt_1"
+            ]
         },
         {
             "ClassName": "TTC_Ammo_50AE",

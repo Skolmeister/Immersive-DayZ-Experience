@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="Saddle">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>12</min>
@@ -13,7 +13,7 @@
         <usage name="Farm"/>
     </type>
         <type name="Saddle_Western">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>6</min>
@@ -25,7 +25,7 @@
         <usage name="Farm"/>
     </type>
     <type name="Saddle_English">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>6</min>
@@ -36,7 +36,6 @@
         <category name="tools"/>
         <usage name="Farm"/>
     </type>
-
 	<type name="Bridle">
         <nominal>25</nominal>
         <lifetime>14400</lifetime>

@@ -5,16 +5,7 @@
     "UseMissionTime": 0,
     "Notifications": [
         {
-            "Hour": 13,
-            "Minute": 30,
-            "Second": 0,
-            "Title": "Server Restart Warning!",
-            "Text": "The server will restart in 30 minutes.",
-            "Icon": "Info",
-            "Color": ""
-        },
-        {
-            "Hour": 13,
+            "Hour": 22,
             "Minute": 45,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -23,7 +14,7 @@
             "Color": ""
         },
         {
-            "Hour": 13,
+            "Hour": 22,
             "Minute": 55,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -32,25 +23,7 @@
             "Color": ""
         },
         {
-            "Hour": 13,
-            "Minute": 56,
-            "Second": 0,
-            "Title": "Server Restart Warning!",
-            "Text": "The server will restart in 4 minutes.",
-            "Icon": "Info",
-            "Color": ""
-        },
-        {
-            "Hour": 13,
-            "Minute": 57,
-            "Second": 0,
-            "Title": "Server Restart Warning!",
-            "Text": "The server will restart in 3 minutes.",
-            "Icon": "Info",
-            "Color": ""
-        },
-        {
-            "Hour": 13,
+            "Hour": 22,
             "Minute": 58,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -59,7 +32,7 @@
             "Color": ""
         },
         {
-            "Hour": 13,
+            "Hour": 22,
             "Minute": 59,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -68,7 +41,7 @@
             "Color": ""
         },
         {
-            "Hour": 13,
+            "Hour": 22,
             "Minute": 59,
             "Second": 30,
             "Title": "Server Restart Warning!",
@@ -77,16 +50,7 @@
             "Color": ""
         },
         {
-            "Hour": 1,
-            "Minute": 30,
-            "Second": 0,
-            "Title": "Server Restart Warning!",
-            "Text": "The server will restart in 30 minutes.",
-            "Icon": "Info",
-            "Color": ""
-        },
-        {
-            "Hour": 1,
+            "Hour": 2,
             "Minute": 45,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -95,7 +59,7 @@
             "Color": ""
         },
         {
-            "Hour": 1,
+            "Hour": 2,
             "Minute": 55,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -104,25 +68,7 @@
             "Color": ""
         },
         {
-            "Hour": 1,
-            "Minute": 56,
-            "Second": 0,
-            "Title": "Server Restart Warning!",
-            "Text": "The server will restart in 4 minutes.",
-            "Icon": "Info",
-            "Color": ""
-        },
-        {
-            "Hour": 1,
-            "Minute": 57,
-            "Second": 0,
-            "Title": "Server Restart Warning!",
-            "Text": "The server will restart in 3 minutes.",
-            "Icon": "Info",
-            "Color": ""
-        },
-        {
-            "Hour": 1,
+            "Hour": 2,
             "Minute": 58,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -131,7 +77,7 @@
             "Color": ""
         },
         {
-            "Hour": 1,
+            "Hour": 2,
             "Minute": 59,
             "Second": 0,
             "Title": "Server Restart Warning!",
@@ -140,7 +86,187 @@
             "Color": ""
         },
         {
-            "Hour": 1,
+            "Hour": 2,
+            "Minute": 59,
+            "Second": 30,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in a few seconds!!!",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 6,
+            "Minute": 45,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 15 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 6,
+            "Minute": 55,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 5 minutes. Find a safe place.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 6,
+            "Minute": 58,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 2 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 6,
+            "Minute": 59,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 1 minute.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 6,
+            "Minute": 59,
+            "Second": 30,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in a few seconds!!!",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 10,
+            "Minute": 45,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 15 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 10,
+            "Minute": 55,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 5 minutes. Find a safe place.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 10,
+            "Minute": 58,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 2 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 10,
+            "Minute": 59,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 1 minute.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 10,
+            "Minute": 59,
+            "Second": 30,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in a few seconds!!!",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 14,
+            "Minute": 45,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 15 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 14,
+            "Minute": 55,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 5 minutes. Find a safe place.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 14,
+            "Minute": 58,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 2 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 14,
+            "Minute": 59,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 1 minute.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 14,
+            "Minute": 59,
+            "Second": 30,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in a few seconds!!!",
+            "Icon": "Info",
+            "Color": ""
+        },
+                {
+            "Hour": 18,
+            "Minute": 45,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 15 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 18,
+            "Minute": 55,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 5 minutes. Find a safe place.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 18,
+            "Minute": 58,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 2 minutes.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 18,
+            "Minute": 59,
+            "Second": 0,
+            "Title": "Server Restart Warning!",
+            "Text": "The server will restart in 1 minute.",
+            "Icon": "Info",
+            "Color": ""
+        },
+        {
+            "Hour": 18,
             "Minute": 59,
             "Second": 30,
             "Title": "Server Restart Warning!",

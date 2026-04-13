@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 40.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "chestholster",
@@ -30,6 +30,7 @@
                 "platecarrierholster_green",
                 "platecarrierholster_black",
                 "platecarrierholster_camo",
+                "platecarrierholster_winter",
                 "MilitaryGear_PlateCarrierHolster_PartizanM",
                 "MilitaryGear_PlateCarrierHolster_DPM",
                 "MilitaryGear_PlateCarrierHolster_Duckhunter",

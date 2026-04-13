@@ -1,0 +1,684 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_IDE_MARKET_CATEGORY_VEHICLE_TRUNKS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 25.0,
+    "Items": [
+        {
+            "ClassName": "hatchback_02_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "hatchback_02_trunk_black",
+                "hatchback_02_trunk_blue",
+                "hatchback_02_trunk_blackrust",
+                "hatchback_02_trunk_bluerust",
+                "hatchback_02_trunk_red",
+                "hatchback_02_trunk_redrust",
+                "hatchback_02_trunk_banditkitty"
+            ]
+        },
+        {
+            "ClassName": "sedan_02_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "sedan_02_trunk_grey",
+                "sedan_02_trunk_greyrust",
+                "sedan_02_trunk_red",
+                "sedan_02_trunk_redrust",
+                "sedan_02_trunk_yellow",
+                "sedan_02_trunk_yellowrust",
+                "sedan_02_trunk_yellowbright",
+                "sedan_02_trunk_blue",
+                "sedan_02_trunk_bluerust"
+            ]
+        },
+        {
+            "ClassName": "civsedantrunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "civsedantrunk_black",
+                "civsedantrunk_wine"
+            ]
+        },
+        {
+            "ClassName": "gaz21_volga_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaz21_volga_doors_trunk_black",
+                "gaz21_volga_doors_trunk_green"
+            ]
+        },
+        {
+            "ClassName": "GAZ_3110_volga_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "GAZ_3110_volga_doors_trunk_white",
+                "GAZ_3110_volga_doors_trunk_black",
+                "GAZ_3110_volga_taxi_doors_trunk"
+            ]
+        },
+        {
+            "ClassName": "GAZ_M20_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "GAZ_M20_doors_trunk_white",
+                "GAZ_M20_doors_trunk_green",
+                "GAZ_M20_doors_trunk_red",
+                "GAZ_M20_doors_trunk_blue"
+            ]
+        },
+        {
+            "ClassName": "IJ_2125_Kombi_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "IJ_2125_Kombi_doors_trunk_beg",
+                "IJ_2125_Kombi_doors_trunk_green",
+                "IJ_2125_Kombi_doors_trunk_orange",
+                "IJ_2125_Kombi_doors_trunk_red"
+            ]
+        },
+        {
+            "ClassName": "UAZ_27722_mchs_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "UAZ_27722_doors_trunk_red",
+                "UAZ_27722_doors_trunk_yellow",
+                "UAZ_27722_doors_trunk_brown",
+                "UAZ_27722_doors_trunk_blue"
+            ]
+        },
+        {
+            "ClassName": "VAZ_2104RF_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_2104RF_doors_trunk_beige",
+                "VAZ_2104RF_doors_trunk_black",
+                "VAZ_2104RF_doors_trunk_blue"
+            ]
+        },
+        {
+            "ClassName": "VAZ_2105_RUS_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_2105_RUS_doors_trunk_red",
+                "VAZ_2105_RUS_doors_trunk_cherry",
+                "VAZ_2105_RUS_doors_trunk_black",
+                "VAZ_2105_RUS_doors_trunk_yellow",
+                "VAZ_2105_RUS_doors_trunk_green",
+                "VAZ_2105_RUS_doors_trunk_white"
+            ]
+        },
+        {
+            "ClassName": "vaz_2106_RF_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "vaz_2106_RF_doors_trunk_white",
+                "vaz_2106_RF_doors_trunk_wine",
+                "vaz_2106_rf_doors_milicia_trunk",
+                "vaz_2106_rf_doors_trunk_red",
+                "vaz_2106_rf_doors_trunk_light_green"
+            ]
+        },
+        {
+            "ClassName": "VAZ_2107RF_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_2107RF_doors_trunk_blue",
+                "VAZ_2107RF_doors_trunk_blue_rust",
+                "VAZ_2107RF_doors_trunk_black",
+                "VAZ_2107RF_doors_trunk_black_rust",
+                "VAZ_2107RF_doors_trunk_white_rust"
+            ]
+        },
+        {
+            "ClassName": "VAZ_21099R_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "VAZ_21099R_doors_trunk_black",
+                "VAZ_21099R_doors_trunk_white",
+                "VAZ_21099R_doors_trunk_blue"
+            ]
+        },
+        {
+            "ClassName": "vaz_2109_rf_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "vaz_2109_rf_doors_trunk_green",
+                "vaz_2109_rf_doors_trunk_white",
+                "vaz_2109_rf_doors_trunk_blue",
+                "vaz_2109_rf_doors_trunk_rust",
+                "vaz_2109_rf_doors_trunk_green_rust",
+                "vaz_2109_rf_doors_trunk_white_rust",
+                "vaz_2109_rf_doors_trunk_blue_rust"
+            ]
+        },
+        {
+            "ClassName": "Volkswagen_Golf_RUS_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Volkswagen_Golf_RUS_doors_trunk_blue",
+                "Volkswagen_Golf_RUS_doors_trunk_black",
+                "Volkswagen_Golf_RUS_doors_trunk_green",
+                "Volkswagen_Golf_RUS_doors_trunk_rally"
+            ]
+        },
+        {
+            "ClassName": "ZAZ_968M_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ZAZ_968M_doors_trunk_red",
+                "ZAZ_968M_doors_trunk_black"
+            ]
+        },
+        {
+            "ClassName": "zaz_968_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ZAZ_968_doors_trunk_green",
+                "zaz_968_doors_trunk_yellow",
+                "zaz_968_doors_trunk_milicia"
+            ]
+        },
+        {
+            "ClassName": "IJ_2140_SL_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "IJ_2140_SL_doors_trunk_red",
+                "IJ_2140_SL_doors_trunk_green"
+            ]
+        },
+        {
+            "ClassName": "UAZ_3962_doors_trunk_milicia",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "UAZ_3962_doors_trunk_mchs"
+            ]
+        },
+        {
+            "ClassName": "DingoTrunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "DingoTrunk_CZ",
+                "DingoTrunk_CZ_Desert",
+                "DingoTrunk_CZ_Winter",
+                "DingoTrunk_DON_CHDKZ",
+                "DingoTrunk_DON_DARKGREEN",
+                "DingoTrunk_DON_WTR",
+                "DingoTrunk_DON_CDF",
+                "DingoTrunk_DON_CP",
+                "DingoTrunk_DON_UN",
+                "DingoTrunk_DON_CZ_Woodland",
+                "DingoTrunk_DON_CZ_Desert"
+            ]
+        },
+        {
+            "ClassName": "artillery_tractor_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "artillery_tractor_doors_trunk_camo",
+                "artillery_tractor_doors_trunk_kung",
+                "artillery_tractor_doors_trunk_kung_camo"
+            ]
+        },
+        {
+            "ClassName": "mtlb_rf_doors_trunk0",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mtlb_rf_doors_trunk0_camo",
+                "mtlb_rf_doors_trunk0_camo2"
+            ]
+        },
+        {
+            "ClassName": "mtlb_rf_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mtlb_rf_doors_trunk_camo",
+                "mtlb_rf_doors_trunk_camo2"
+            ]
+        },
+        {
+            "ClassName": "hatchbacktrunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "offroad_02_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansion_landrover_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Expansion_Landrover_Trunk_Yellow",
+                "Expansion_Landrover_Trunk_Blue",
+                "Expansion_Landrover_Trunk_Orange",
+                "Expansion_Landrover_Trunk_Red",
+                "Expansion_Landrover_Trunk_Grey",
+                "Expansion_Landrover_Trunk_Green"
+            ]
+        },
+        {
+            "ClassName": "F1_Pickup_Doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "F1_Pickup_Doors_trunk_green",
+                "F1_Pickup_Doors_trunk_black"
+            ]
+        },
+        {
+            "ClassName": "Dodge_Power_wagonrus_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Dodge_Power_wagonrus_doors_trunk_yellow",
+                "Dodge_Power_wagonrus_doors_trunk_red",
+                "Dodge_Power_wagonrus_doors_trunk_white",
+                "Dodge_Power_wagonrus_doors_trunk_black"
+            ]
+        },
+        {
+            "ClassName": "Niva2329_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Niva2329_doors_trunk_camo"
+            ]
+        },
+        {
+            "ClassName": "UAZ_3163_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "UAZ_3163_doors_trunk_ambulance",
+                "UAZ_3163_doors_trunk_fire",
+                "UAZ_3163_doors_trunk_black",
+                "UAZ_3163_doors_trunk_red",
+                "UAZ_3163_doors_trunk_blue",
+                "UAZ_3163_doors_trunk_green",
+                "UAZ_3163_doors_trunk_white",
+                "UAZ_3163_doors_trunk_desert",
+                "UAZ_3163_doors_trunk_police"
+            ]
+        },
+        {
+            "ClassName": "uaz_3172_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "uaz_3172_doors_trunk_green",
+                "uaz_3172_doors_trunk_camo_flora"
+            ]
+        },
+        {
+            "ClassName": "UAZ_Patrot_Pikap_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "UAZ_Patrot_Pikap_doors_trunk_red",
+                "UAZ_Patrot_Pikap_doors_trunk_blue",
+                "UAZ_Patrot_Pikap_doors_trunk_green",
+                "UAZ_Patrot_Pikap_doors_trunk_white",
+                "UAZ_Patrot_Pikap_doors_trunk_camo_green"
+            ]
+        },
+        {
+            "ClassName": "LUAZ_969_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "LUAZ_969_doors_trunk_green",
+                "LUAZ_969_doors_trunk_blue",
+                "LUAZ_969_doors_trunk_orang"
+            ]
+        },
+        {
+            "ClassName": "kamaz_4310RUS_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "kamaz_4310RUS_doors_trunk_blue",
+                "kamaz_4310RUS_doors_trunk_orange"
+            ]
+        },
+        {
+            "ClassName": "kraz_255B_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "kraz_255B_doors_trunk_yellow",
+                "kraz_255B_doors_trunk_blue"
+            ]
+        },
+        {
+            "ClassName": "kraz_255B_doors_trunk_kung",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "uaz_33094_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "uaz_33094_doors_trunk_gray",
+                "uaz_33094_doors_trunk_green"
+            ]
+        },
+        {
+            "ClassName": "gaz_53rf_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "GAZ_66_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "GAZ_66_doors_trunk_camo"
+            ]
+        },
+        {
+            "ClassName": "ZIL_157_rus_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ZIL_157_rus_doors_trunk_gray",
+                "ZIL_157_rus_doors_trunk_yellow"
+            ]
+        },
+        {
+            "ClassName": "ZIL_157_kung_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ZIL_157_kung_doors_trunk_yellow",
+                "ZIL_157_kung_doors_trunk_gray"
+            ]
+        },
+        {
+            "ClassName": "ZIL_131_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ZIL_131_tent_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ZIL_130_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+                {
+            "ClassName": "KAVZ685_RF_doors_trunk",
+            "MaxPriceThreshold": 17000,
+            "MinPriceThreshold": 15300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 250,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "KAVZ685_RF_doors_trunk_beige",
+                "KAVZ685_RF_doors_trunk_red",
+                "KAVZ685_RF_doors_trunk_green"
+            ]
+        }
+
+    ]
+}

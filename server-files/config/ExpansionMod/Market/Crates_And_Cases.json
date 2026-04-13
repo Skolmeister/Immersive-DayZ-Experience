@@ -232,6 +232,21 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+                {
+            "ClassName": "InediaPain_FirstAidCase_White",
+            "MaxPriceThreshold": 150000,
+            "MinPriceThreshold": 135000,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 200,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "InediaPain_FirstAidCase_Black",
+                "InediaPain_FirstAidCase_Camouflage"
+            ]
         }
+
     ]
 }

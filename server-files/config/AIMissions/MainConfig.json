@@ -550,184 +550,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "Name": "Researchers Crew at Rify Wreck!",
-            "Position": [
-                13723.1806640625,
-                1.8524208068847657,
-                11170.701171875
-            ],
-            "Bots_Count_Minimum": 6,
-            "Bots_Count_Maximum": 8,
-            "Bots_Expansion_Loadout": "ResearcherLoadout",
-            "Bots_Loadout_ID": 1,
-            "Bots_Range": 500,
-            "Bots_Accuracy": 0.5,
-            "Bots_Damage_Done_Multiplier": 1.0,
-            "Bots_Damage_Taken_Multiplier": 1.0,
-            "Bots_Drop_Loot": 1,
-            "Bots_Drop_Weapon": 1,
-            "Is_NBC_Mission": 1,
-            "Allow_Crate_Reward": 1,
-            "Allow_Vehicle_Reward": 0,
-            "Allow_Helicopter_Reward": 0,
-            "Static_Objects": [
-                {
-                    "ClassName": "bldr_lab_bench",
-                    "Scale": 0.9999999403953552,
-                    "Position": [
-                        13713.9384765625,
-                        1.6127985715866089,
-                        11166.462890625
-                    ],
-                    "Rotation": [
-                        -27.0,
-                        0.0,
-                        0.0
-                    ]
-                },
-                {
-                    "ClassName": "bldr_lab_microscope",
-                    "Scale": 0.9999992847442627,
-                    "Position": [
-                        13714.111328125,
-                        2.462799549102783,
-                        11166.4833984375
-                    ],
-                    "Rotation": [
-                        -134.9999237060547,
-                        0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "bldr_lab_petri_dish",
-                    "Scale": 0.9999538064002991,
-                    "Position": [
-                        13713.8447265625,
-                        2.4707045555114746,
-                        11166.302734375
-                    ],
-                    "Rotation": [
-                        0.0,
-                        0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "bldr_lab_erlenmeyer_flask",
-                    "Scale": 0.9999538064002991,
-                    "Position": [
-                        13714.3427734375,
-                        2.522610664367676,
-                        11166.578125
-                    ],
-                    "Rotation": [
-                        0.0,
-                        0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "bldr_lab_bunsen",
-                    "Scale": 0.9999983906745911,
-                    "Position": [
-                        13713.435546875,
-                        2.462799549102783,
-                        11166.2236328125
-                    ],
-                    "Rotation": [
-                        -161.9998779296875,
-                        0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "bldr_mil_camonet_tent2",
-                    "Scale": 1.0,
-                    "Position": [
-                        13713.1455078125,
-                        4.501602649688721,
-                        11168.23828125
-                    ],
-                    "Rotation": [
-                        9.000143051147461,
-                        0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "bldr_tent_stretcher",
-                    "Scale": 1.0,
-                    "Position": [
-                        13713.71484375,
-                        1.6708853244781494,
-                        11168.3671875
-                    ],
-                    "Rotation": [
-                        -53.9999885559082,
-                        0.0,
-                        0.0
-                    ]
-                },
-                {
-                    "ClassName": "bldr_misc_antenna",
-                    "Scale": 1.0,
-                    "Position": [
-                        13720.798828125,
-                        4.982170104980469,
-                        11164.02734375
-                    ],
-                    "Rotation": [
-                        0.0,
-                        -0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "Land_HA_Boat_3",
-                    "Scale": 1.0,
-                    "Position": [
-                        13737.9072265625,
-                        0.9200997352600098,
-                        11146.7607421875
-                    ],
-                    "Rotation": [
-                        71.99987030029297,
-                        -0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "Land_HA_Boat_3",
-                    "Scale": 0.9999999403953552,
-                    "Position": [
-                        13744.75,
-                        0.643310546875,
-                        11153.587890625
-                    ],
-                    "Rotation": [
-                        35.99985504150391,
-                        -0.0,
-                        -0.0
-                    ]
-                },
-                {
-                    "ClassName": "Land_HA_Boat_3",
-                    "Scale": 1.0,
-                    "Position": [
-                        13741.8994140625,
-                        0.9965839385986328,
-                        11164.7021484375
-                    ],
-                    "Rotation": [
-                        0.0,
-                        -0.0,
-                        -0.0
-                    ]
-                }
-            ]
         }
     ],
     "Loadouts": [
@@ -1097,7 +919,7 @@
                     "ClassName": "FAL",
                     "Magazine_ClassName": "Mag_FAL_20Rnd",
                     "Attach": [
-                        "Fal_OeBttsck",
+                        "Fal_OeBttstck",
                         "ACOGOptic"
                     ],
                     "Loot": [
@@ -1107,7 +929,7 @@
                     ]
                 },
                 {
-                    "ClassName": "SVD",
+                    "ClassName": "SVD_Wooden",
                     "Magazine_ClassName": "Mag_SVD_10Rnd",
                     "Attach": [
                         "PSO1Optic"

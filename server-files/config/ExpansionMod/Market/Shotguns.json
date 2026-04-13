@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 20.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
             "ClassName": "mp133shotgun",
@@ -29,12 +29,39 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
+            "Variants": [
+                "SawedoffIzh43Shotgun"
+            ]
+        },
+                {
+            "ClassName": "SawedoffIzh43Shotgun",
+            "MaxPriceThreshold": 23000,
+            "MinPriceThreshold": 20700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
             "Variants": []
         },
+
         {
             "ClassName": "izh18shotgun",
             "MaxPriceThreshold": 18000,
             "MinPriceThreshold": 16200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "SawedoffIzh18Shotgun"
+            ]
+        },
+        {
+            "ClassName": "SawedoffIzh18Shotgun",
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 13500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

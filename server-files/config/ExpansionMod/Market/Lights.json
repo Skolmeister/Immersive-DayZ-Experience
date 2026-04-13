@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 25.0,
     "Items": [
         {
             "ClassName": "chemlight_blue",
@@ -60,7 +60,7 @@
             "Variants": []
         },
         {
-            "ClassName": "petrollighter",
+            "ClassName": "ZenPetrolLighter",
             "MaxPriceThreshold": 2500,
             "MinPriceThreshold": 2250,
             "SellPricePercent": -1.0,
@@ -68,7 +68,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "ZenPetrolLighter_Green",
+                "ZenPetrolLighter_Purple",
+                "ZenPetrolLighter_Red",
+                "ZenPetrolLighter_Yellow"
+            ]
         },
         {
             "ClassName": "flashlight",

@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "mosin_bayonet",
@@ -43,17 +43,6 @@
             "ClassName": "ak_bayonet",
             "MaxPriceThreshold": 3800,
             "MinPriceThreshold": 3420,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "FOX_KAR98_Bayonet",
-            "MaxPriceThreshold": 3700,
-            "MinPriceThreshold": 3330,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

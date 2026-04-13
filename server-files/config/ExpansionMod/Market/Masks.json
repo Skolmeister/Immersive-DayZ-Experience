@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "surgicalmask",
@@ -72,56 +72,6 @@
             ]
         },
         {
-            "ClassName": "balaclavamask_blackskull",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "MilitaryGear_Balaclava3Skull_PartizanM",
-                "MilitaryGear_Balaclava3Skull_Duckhunter",
-                "MilitaryGear_Balaclava3Skull_Multicam",
-                "MilitaryGear_Balaclava3Skull_Splinter",
-                "MilitaryGear_Balaclava3Skull_Splinter_Dark",
-                "MilitaryGear_Balaclava3Skull_Tiger",
-                "MilitaryGear_Balaclava3Skull_Woodland",
-                "MilitaryGear_Balaclava3Skull_FLT",
-                "MilitaryGear_Balaclava3Skull_DPM",
-                "MilitaryGear_Balaclava3Skull_MPAT",
-                "MilitaryGear_Balaclava3Skull_Partizan",
-                "MilitaryGear_Balaclava3Skull_Skol",
-                "MilitaryGear_Balaclava3Skull_ATACS",
-                "MilitaryGear_Balaclava3Skull_CADPAT",
-                "MilitaryGear_Balaclava3Skull_Tropic",
-                "MilitaryGear_Balaclava3Skull_Yeger"
-            ]
-        },
-        {
-            "ClassName": "balaclavamask_black",
-            "MaxPriceThreshold": 4500,
-            "MinPriceThreshold": 4050,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "balaclavamask_green",
-            "MaxPriceThreshold": 4500,
-            "MinPriceThreshold": 4050,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "balaclava3holes_green",
             "MaxPriceThreshold": 5000,
             "MinPriceThreshold": 4500,
@@ -149,6 +99,33 @@
                 "MilitaryGear_Balaclava3_CADPAT",
                 "MilitaryGear_Balaclava3_Tropic",
                 "MilitaryGear_Balaclava3_Yeger"
+            ]
+        },
+        {
+            "ClassName": "MilitaryGear_Balaclava3Skull_PartizanM",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MilitaryGear_Balaclava3Skull_Duckhunter",
+                "MilitaryGear_Balaclava3Skull_Multicam",
+                "MilitaryGear_Balaclava3Skull_Splinter",
+                "MilitaryGear_Balaclava3Skull_Splinter_Dark",
+                "MilitaryGear_Balaclava3Skull_Tiger",
+                "MilitaryGear_Balaclava3Skull_Woodland",
+                "MilitaryGear_Balaclava3Skull_FLT",
+                "MilitaryGear_Balaclava3Skull_DPM",
+                "MilitaryGear_Balaclava3Skull_MPAT",
+                "MilitaryGear_Balaclava3Skull_Partizan",
+                "MilitaryGear_Balaclava3Skull_Skol",
+                "MilitaryGear_Balaclava3Skull_ATACS",
+                "MilitaryGear_Balaclava3Skull_CADPAT",
+                "MilitaryGear_Balaclava3Skull_Tropic",
+                "MilitaryGear_Balaclava3Skull_Yeger"
             ]
         },
         {
@@ -270,7 +247,7 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-                {
+        {
             "ClassName": "PaydayMask_Hoxton",
             "MaxPriceThreshold": 6000,
             "MinPriceThreshold": 5400,
@@ -285,6 +262,5 @@
                 "PaydayMask_Dallas"
             ]
         }
-
     ]
 }

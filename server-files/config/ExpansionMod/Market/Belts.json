@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 40.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "civilianbelt",
@@ -42,17 +42,6 @@
                 "hippack_medical",
                 "hippack_party"
             ]
-        },
-        {
-            "ClassName": "hippack_black",
-            "MaxPriceThreshold": 4200,
-            "MinPriceThreshold": 3780,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "hippack_party",

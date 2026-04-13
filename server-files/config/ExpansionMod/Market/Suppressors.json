@@ -1,10 +1,10 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SUPPRESSORS",
+    "DisplayName": "#STR_IDE_MARKET_CATEGORY_SUPPRESSORS",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 20.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "ak_suppressor",

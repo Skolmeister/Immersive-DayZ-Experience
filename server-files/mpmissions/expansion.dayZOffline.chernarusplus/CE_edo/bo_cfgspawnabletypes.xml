@@ -467,48 +467,42 @@
 		<attachments preset="reddot" />
 		<attachments preset="pistol" />
 		<attachments chance="1.00">
-			<item name="BO_Mag_MP5_30rnd" chance="0.50" />
-			<item name="BO_Mag_MP5_50rnd" chance="0.50" />
+			<item name="Mag_MP5_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="BO_MP5SDA2_FDE">
 		<attachments preset="reddot" />
 		<attachments preset="pistol" />
 		<attachments chance="1.00">
-			<item name="BO_Mag_MP5_30rnd" chance="0.50" />
-			<item name="BO_Mag_MP5_50rnd" chance="0.50" />
+			<item name="Mag_MP5_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="BO_MP5MPA2">
 		<attachments preset="reddot" />
 		<attachments preset="pistol" />
 		<attachments chance="1.00">
-			<item name="BO_Mag_MP5_30rnd" chance="0.50" />
-			<item name="BO_Mag_MP5_50rnd" chance="0.50" />
+			<item name="Mag_MP5_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="BO_MP5MPA2_FDE">
 		<attachments preset="reddot" />
 		<attachments preset="pistol" />
 		<attachments chance="1.00">
-			<item name="BO_Mag_MP5_30rnd" chance="0.50" />
-			<item name="BO_Mag_MP5_50rnd" chance="0.50" />
+			<item name="Mag_MP5_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="BO_MP5RailA2">
 		<attachments preset="reddot" />
 		<attachments preset="pistol" />
 		<attachments chance="1.00">
-			<item name="BO_Mag_MP5_30rnd" chance="0.50" />
-			<item name="BO_Mag_MP5_50rnd" chance="0.50" />
+			<item name="Mag_MP5_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="BO_MP5RailA2_FDE">
 		<attachments preset="reddot" />
 		<attachments preset="pistol" />
 		<attachments chance="1.00">
-			<item name="BO_Mag_MP5_30rnd" chance="0.50" />
-			<item name="BO_Mag_MP5_50rnd" chance="0.50" />
+			<item name="Mag_MP5_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="BO_M4_15G">

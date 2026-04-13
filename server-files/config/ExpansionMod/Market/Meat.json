@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 40.0,
     "Items": [
         {
             "ClassName": "bearsteakmeat",
@@ -131,6 +131,17 @@
             "ClassName": "OtterSteakMeat",
             "MaxPriceThreshold": 700,
             "MinPriceThreshold": 630,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 200,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "HorseSteakMeat",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 720,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 200,
             "MinStockThreshold": 1,

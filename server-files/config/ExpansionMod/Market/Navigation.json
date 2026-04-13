@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "compass",
@@ -65,6 +65,19 @@
         },
         {
             "ClassName": "expansiongps",
+            "MaxPriceThreshold": 150000,
+            "MinPriceThreshold": 135000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "battery9v"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "ZenWatchGPS",
             "MaxPriceThreshold": 150000,
             "MinPriceThreshold": 135000,
             "SellPricePercent": -1.0,

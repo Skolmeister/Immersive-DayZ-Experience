@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 20.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "fal",
@@ -16,6 +16,34 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "fal_oebttstck",
+                "mag_fal_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "IDE_FAL_Wood",
+            "MaxPriceThreshold": 147000,
+            "MinPriceThreshold": 132300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 35,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "IDE_Fal_WoodBttstck",
+                "mag_fal_20rnd"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "IDE_FAL_Green",
+            "MaxPriceThreshold": 147000,
+            "MinPriceThreshold": 132300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 35,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "IDE_Fal_OeBttstck_Green",
                 "mag_fal_20rnd"
             ],
             "Variants": []
@@ -281,7 +309,8 @@
                 "Mag_FAMAS_25Rnd"
             ],
             "Variants": [
-                "BO_FAMAS"
+                "BO_FAMAS",
+                "SawedoffFAMAS"
             ]
         },
         {
@@ -297,6 +326,20 @@
             ],
             "Variants": []
         },
+                {
+            "ClassName": "SawedoffFAMAS",
+            "MaxPriceThreshold": 125000,
+            "MinPriceThreshold": 112500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 25,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "mag_stanag_30rnd"
+            ],
+            "Variants": []
+        },
+
         {
             "ClassName": "aug",
             "MaxPriceThreshold": 176397,
@@ -512,7 +555,7 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
-                "BO_Mag_PMAG_30rnd",
+                "IDE_Mag_G36_30rnd",
                 "IDE_G36Optic"
             ],
             "Variants": [
@@ -528,7 +571,7 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
-                "BO_Mag_PMAG_30rnd"
+                "IDE_Mag_G36_30rnd"
             ],
             "Variants": []
         },

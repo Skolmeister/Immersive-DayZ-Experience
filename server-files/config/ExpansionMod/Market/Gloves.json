@@ -149,17 +149,6 @@
             ]
         },
         {
-            "ClassName": "SkiGloves_90s",
-            "MaxPriceThreshold": 5100,
-            "MinPriceThreshold": 4590,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "FOG_Tactical_Fingerless_Gloves_Black",
             "MaxPriceThreshold": 4250,
             "MinPriceThreshold": 3825,
@@ -241,7 +230,7 @@
             ]
         },
         {
-            "ClassName": "FOG_WinterGloves_RG",
+            "ClassName": "FOG_WinterGloves_White",
             "MaxPriceThreshold": 6200,
             "MinPriceThreshold": 5580,
             "SellPricePercent": -1.0,
@@ -251,10 +240,9 @@
             "SpawnAttachments": [],
             "Variants": [
                 "FOG_WinterGloves_Tan",
-                "FOG_WinterGloves_White",
+                "FOG_WinterGloves_RG",
                 "FOG_WinterGloves_Black",
                 "FOG_WinterGloves_CB",
-                "FOG_WinterGloves_RG",
                 "FOG_WinterGloves_MC",
                 "FOG_WinterGloves_MCB",
                 "FOG_WinterGloves_MCAL",

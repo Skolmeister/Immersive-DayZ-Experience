@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 40.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "dirtbikehelmet_mouthguard",
@@ -88,7 +88,6 @@
             "Variants": [
                 "FOG_FastMT_Mandable_Tan",
                 "FOG_FastMT_Mandable_MC",
-                "FOG_FastMT_Mandable_Black",
                 "FOG_FastMT_Mandable_RG"
             ]
         },
@@ -105,7 +104,6 @@
             "Variants": [
                 "FOG_FC_Torus_BattPack_MC",
                 "FOG_FC_Torus_BattPack_MCB",
-                "FOG_FC_Torus_BattPack_Black",
                 "FOG_FC_Torus_BattPack_CB",
                 "FOG_FC_Torus_BattPack_RG"
             ]
@@ -146,22 +144,6 @@
                 "FOG_SF_Cover_M81",
                 "FOG_SF_Cover_CB",
                 "FOG_SF_Cover_RG"
-            ]
-        },
-        {
-            "ClassName": "FOG_SF_BatteryPack_Black",
-            "MaxPriceThreshold": 2200,
-            "MinPriceThreshold": 1980,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "FOG_SF_BatteryPack_Tan",
-                "FOG_SF_BatteryPack_RG",
-                "FOG_SF_BatteryPack_MC",
-                "FOG_SF_BatteryPack_MCB"
             ]
         },
         {

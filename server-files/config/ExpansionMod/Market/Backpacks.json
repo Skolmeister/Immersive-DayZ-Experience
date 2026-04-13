@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 15.0,
     "Items": [
         {
             "ClassName": "childbag_red",
@@ -77,33 +77,6 @@
                 "assaultbag_black",
                 "assaultbag_winter",
                 "MilitaryGear_AssaultBag_PartizanM",
-                "MilitaryGear_AssaultBag_Duckhunter",
-                "MilitaryGear_AssaultBag_Multicam",
-                "MilitaryGear_AssaultBag_Splinter",
-                "MilitaryGear_AssaultBag_Splinter_Dark",
-                "MilitaryGear_AssaultBag_Tiger",
-                "MilitaryGear_AssaultBag_Woodland",
-                "MilitaryGear_AssaultBag_FLT",
-                "MilitaryGear_AssaultBag_DPM",
-                "MilitaryGear_AssaultBag_MPAT",
-                "MilitaryGear_AssaultBag_Partizan",
-                "MilitaryGear_AssaultBag_Skol",
-                "MilitaryGear_AssaultBag_ATACS",
-                "MilitaryGear_AssaultBag_CADPAT",
-                "MilitaryGear_AssaultBag_Tropic",
-                "MilitaryGear_AssaultBag_Yeger"
-            ]
-        },
-        {
-            "ClassName": "MilitaryGear_AssaultBag_PartizanM",
-            "MaxPriceThreshold": 27500,
-            "MinPriceThreshold": 24750,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
                 "MilitaryGear_AssaultBag_Duckhunter",
                 "MilitaryGear_AssaultBag_Multicam",
                 "MilitaryGear_AssaultBag_Splinter",
@@ -565,8 +538,8 @@
         },
                 {
             "ClassName": "loop_Marching_backpackp",
-            "MaxPriceThreshold": 380000,
-            "MinPriceThreshold": 342000,
+            "MaxPriceThreshold": 180000,
+            "MinPriceThreshold": 162000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 50,
             "MinStockThreshold": 1,
